@@ -1,7 +1,7 @@
 @import "../../Utils/Mixins/Mixins.scss";
 
 .printed-logos {
-  @include breakpoint(laptop) {
+  @include breakpoint(l) {
     margin-bottom: 2.125em;
   }
 
@@ -13,7 +13,7 @@
   }
 
   h1 {
-    @include breakpoint(laptop) {
+    @include breakpoint(l) {
       margin: 1.1em auto;
     }
   }
@@ -22,7 +22,7 @@
     margin: 1em 2em;
     text-align: left;
 
-    @include breakpoint(laptop) {
+    @include breakpoint(l) {
       margin: 1em 2em 1.2em;
       // margin: 0;
     }

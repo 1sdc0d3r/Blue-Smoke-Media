@@ -1,5 +1,5 @@
 header {
-  background-image: url("../../images/headerGlobe.png");
+  background-image: url("../../images/header_background.png");
   background-size: cover;
   background-repeat: no-repeat;
   display: -webkit-box;
@@ -16,53 +16,37 @@ header #flame {
   width: 7%;
 }
 
-@media (min-width: 800px) and (max-width: 1449px) {
+@media (min-width: 981px) and (max-width: 1280px) {
   header #flame {
     width: 12%;
-  }
-}
-
-@media (max-width: 480px) {
-  header {
-    background-image: url("../../images/background_image_w_flame-only.png");
-    width: 100%;
-    height: 12vh;
   }
 }
 
 header .blue-smoke {
   width: 35%;
   margin: auto;
-  margin-left: .4%;
-  padding-top: .5em;
+  margin-left: 0.4%;
+  padding-top: 0.5em;
 }
 
 header .blue-smoke img {
   width: 100%;
 }
 
-@media (max-width: 480px) {
-  header .blue-smoke img {
-    height: 7vh;
-    width: 50%;
-    margin: 4% auto;
-  }
-}
-
 header .blue-smoke p {
   font-weight: 700;
-  font-size: 1.4em;
+  font-size: 1.65em;
   letter-spacing: 5px;
   line-height: 1.2;
   color: #f64a1e;
-  margin: 0.175em auto .35em;
+  margin: 0.175em auto 0.35em;
   text-shadow: 3px 3px #0b2673;
   font-weight: 900;
   white-space: nowrap;
   text-align: center;
 }
 
-@media (min-width: 800px) and (max-width: 1449px) {
+@media (min-width: 981px) and (max-width: 1280px) {
   header .blue-smoke p {
     font-size: 1em;
     white-space: normal;
@@ -71,24 +55,11 @@ header .blue-smoke p {
   }
 }
 
-@media (max-width: 480px) {
-  header .blue-smoke p {
-    font-size: 1em;
-    display: none;
-  }
-}
-
 header .blue-smoke span {
-  margin-top: .9em;
+  margin-top: 0.9em;
   font-weight: 700;
   -webkit-text-stroke: 0.5px #0b2673;
   font-size: 1.05em;
-}
-
-@media (max-width: 480px) {
-  header .blue-smoke span {
-    display: none;
-  }
 }
 
 header .center {
@@ -98,7 +69,7 @@ header .center {
   text-align: left;
 }
 
-@media (min-width: 800px) and (max-width: 1449px) {
+@media (min-width: 981px) and (max-width: 1280px) {
   header .center {
     width: 23%;
   }
@@ -109,11 +80,11 @@ header .center p {
   font-size: 1.4em;
   text-shadow: black 1px 4px 4px;
   letter-spacing: 2px;
-  -webkit-margin-after: .5em;
-          margin-block-end: .5em;
+  -webkit-margin-after: 0.5em;
+          margin-block-end: 0.5em;
 }
 
-@media (min-width: 800px) and (max-width: 1449px) {
+@media (min-width: 981px) and (max-width: 1280px) {
   header .center p {
     font-size: 1em;
   }
@@ -130,8 +101,17 @@ header .center p span {
   color: #f64a1e;
 }
 
-header .silhouettes {
+header .silhouette-div {
   width: 25%;
-  margin: 0;
+  position: relative;
+}
+
+header .silhouette-div .silhouettes {
+  height: 80%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 /*# sourceMappingURL=Header.css.map */

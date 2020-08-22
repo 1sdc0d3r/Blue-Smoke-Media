@@ -5,12 +5,30 @@ import { NavLink } from "react-router-dom";
 export default function Navigation() {
   return (
     <nav>
-      <NavLink to="/" className="nav-item">
+      {/* <NavLink to="/" className="drop-btn nav-item">
         Home
+      </NavLink> */}
+      <div className="dropdown">
+        <button to="/" className="drop-btn nav-item">
+          Home
+        </button>
+        <div className="dropdown-content">
+          <div className="nav-section">
+            <NavLink to="/sitemap" className="drop-item">
+              Sitemap
+            </NavLink>
+            <NavLink to="/privacy" className="drop-item">
+              Privacy Policy
+            </NavLink>
+          </div>
+        </div>
+      </div>
+      <NavLink to="/team" className="nav-item">
+        Our Team
       </NavLink>
-      <div class="dropdown">
-        <button class="drop-btn nav-item">Services</button>
-        <div class="dropdown-content">
+      <div className="dropdown">
+        <button className="drop-btn nav-item">Services</button>
+        <div className="dropdown-content">
           <div className="nav-section">
             <h3>SEO</h3>
             <a href="/seoFriendly" className="drop-item">
@@ -22,17 +40,14 @@ export default function Navigation() {
             </a>
           </div>
           <div className="nav-section ">
-            <h3>Web Design</h3>
+            <h3>Website Design</h3>
             <div className="split">
               <div>
                 <a href="/customWebsiteDesign" className="drop-item">
                   Custom Website Design
                 </a>
 
-                <a
-                  href="/E-CommerceWebsiteDevelopment"
-                  className="drop-item"
-                >
+                <a href="/E-CommerceWebsiteDevelopment" className="drop-item">
                   E-Commerce Website Development
                 </a>
 
@@ -74,9 +89,6 @@ export default function Navigation() {
           </div>
         </div>
       </div>
-      <NavLink to="/team" className="nav-item">
-        Our Team
-      </NavLink>
 
       <NavLink to="/portfolio" className="nav-item">
         Our Work
@@ -85,7 +97,6 @@ export default function Navigation() {
       <a href="#blog" className="nav-item">
         Blog
       </a>
-      
       <NavLink to="/contact" className="nav-item">
         Contact
       </NavLink>

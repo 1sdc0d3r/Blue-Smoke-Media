@@ -1,6 +1,5 @@
 @import "../Utils/Mixins/Mixins.scss";
 
-
 .blog {
   display: flex;
 
@@ -8,7 +7,7 @@
     display: flex;
     width: 80%;
     margin: auto;
-    background: white;
+    background: $white;
     margin: 2em auto;
     // justify-content: space-around;
     //! https://www.cssmatic.com/box-shadow
@@ -38,7 +37,7 @@
 
       h3 {
         text-align: center;
-        margin: .5em auto;
+        margin: 0.5em auto;
       }
 
       p {
@@ -47,11 +46,11 @@
 
       button {
         border: 1px solid black;
-        padding: .5em 1em;
+        padding: 0.5em 1em;
         // margin-left: 40%;
         // margin-bottom: 1em;
         width: 25%;
-        background: white;
+        background: $white;
       }
     }
   }

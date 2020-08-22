@@ -1,13 +1,12 @@
 @import "../Utils/Mixins/Mixins.scss";
 
-
 nav {
   display: flex;
   // height: 4vh;
   // min-height: 3em;
   background: $darkBlue;
-  border-top: 2px solid $darkBlue;
-  border-bottom: 2px solid $darkBlue;
+  // border-top: 2px solid $darkBlue;
+  // border-bottom: 2px solid $darkBlue;
   padding: 0 15%;
   justify-content: space-around;
   -webkit-user-select: none;
@@ -17,9 +16,31 @@ nav {
   -o-user-select: none;
   user-select: none;
 
-
-  @include breakpoint(laptop) {
+  @include breakpoint(l) {
     padding: 0 7%;
+  }
+
+  @include breakpoint(xxs) {
+    background: red;
+  }
+  @include breakpoint(xs) {
+    background: orange;
+  }
+  @include breakpoint(s) {
+    background: rgb(204, 193, 32);
+  }
+  @include breakpoint(m) {
+    background: green;
+  }
+  @include breakpoint(l) {
+    background: lightblue;
+  }
+  @include breakpoint(xl) {
+    background: purple;
+    //todo xl breakpoint not working??
+  }
+  @include breakpoint(xxl) {
+    background: $white;
   }
 
   @include breakpoint(mobile) {
@@ -28,10 +49,10 @@ nav {
 
   /* Links inside the navbar */
   .nav-item {
-    color: white;
+    color: $white;
     font-size: 1em;
     text-align: center;
-    padding: .5em .65em;
+    padding: 0.5em 0.65em;
     text-decoration: none;
 
     &:hover {
@@ -44,7 +65,9 @@ nav {
   /* The dropdown container */
   .dropdown {
     float: left;
-    overflow: hidden;
+    // overflow: hidden;
+    position: relative;
+    // width: 100%;
 
     .drop-btn {
       border: none;
@@ -66,24 +89,26 @@ nav {
 
     .dropdown-content {
       display: none;
-      // display: flex;
       position: absolute;
       background: #020723;
-      padding: .15em 1em .5em;
+      padding: 0.15em 1em 0.5em;
       opacity: 90%;
-      // min-width: 160px;
-      width: 60%;
+      width: min-content;
       box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
       justify-content: space-between;
-      left: 21.5%;
+      left: -50%;
+      // right: 15%;
+      right: 0;
+      margin: auto;
 
-      @include breakpoint(laptop) {
-        width: 80%;
-        left: 8%;
+      @include breakpoint(l) {
+        // width: 80%;
+        // left: 15%;
       }
 
       .nav-section {
-        width: 23%;
+        // width: 23%;
+        width: auto;
 
         &:nth-child(2) {
           width: 50%;
@@ -102,29 +127,27 @@ nav {
         h3 {
           color: $orange;
           text-decoration: underline;
-          margin-bottom: .25em;
+          margin-bottom: 0.25em;
         }
+      }
+      .drop-item {
+        float: none;
+        color: $white;
+        padding: 0.5em 1em;
+        margin: 0.2em;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        font-size: 0.85em;
+        font-weight: inherit;
+        min-width: min-content;
 
-        .drop-item {
-          float: none;
-          color: white;
-          padding: .5em .65em;
-          margin: .2em;
-          text-decoration: none;
-          display: block;
-          text-align: center;
-          font-size: .85em;
-          font-weight: inherit;
-          // width: 90%;
-
-          &:hover {
-            color: $orange;
-            // background: rgb(212, 212, 212);
-            transform: scale(1.15);
-            transition: ease-in-out 200ms;
-          }
+        &:hover {
+          color: $orange;
+          // background: rgb(212, 212, 212);
+          transform: scale(1.15);
+          transition: ease-in-out 200ms;
         }
-
       }
     }
   }

@@ -24,7 +24,13 @@ export default function Header() {
           <span>Back</span> into Business!!
         </p>
       </div>
-      <img src={silhouettes} alt="people silhouettes" className="silhouettes" />
+      <div className="silhouette-div">
+        <img
+          src={silhouettes}
+          alt="people silhouettes"
+          className="silhouettes"
+        />
+      </div>
     </header>
   );
 }

@@ -1,8 +1,7 @@
 @import "../Utils/Mixins/Mixins.scss";
 
-
 .home {
-  @include breakpoint(laptop) {
+  @include breakpoint(l) {
     margin-bottom: 3.1em;
   }
 
@@ -10,20 +9,7 @@
     width: 100%;
     height: 100%;
   }
-
 }
-
-//     width: 90%;
-//     margin: auto;
-
-//     .right {
-//       // width: 50%;
-//     }
-//   }
-
-//   border: 3px solid red;
-// }
-
 
 .globe {
   display: flex;
@@ -31,7 +17,7 @@
   background: url("../../images/globe-stretch-new.png");
   background-size: 101% 105%;
   background-repeat: no-repeat;
-  height: 55vh;
+  height: 62vh;
   min-width: 80%;
   // margin: 3rem auto;
   border-bottom: 2px solid $darkBlue;
@@ -44,15 +30,14 @@
   p {
     text-align: center;
     font-weight: normal;
-    // padding-top: 1em;
     width: 40%;
     margin: auto;
     margin-right: 55%;
-    color: white;
+    color: $white;
+    margin-top: 7%;
 
-    @include breakpoint(laptop) {
-      margin-top: 5%;
-      padding-top: 0;
+    @include breakpoint(l) {
+      // padding-top: 0;
     }
 
     @include breakpoint(mobile) {
@@ -64,12 +49,12 @@
       line-height: 1.25em;
     }
 
-
     span {
-      // display: inline;
+      display: inline-block;
       font-size: 1.4em;
       font-weight: bold;
       color: $lightBlue;
+      margin-bottom: 1em;
 
       @include breakpoint(mobile) {
         font-size: 1em;
@@ -86,7 +71,6 @@
   @include breakpoint(mobile) {
     padding: 2rem 1.5rem;
   }
-
 
   img {
     width: 50%;
@@ -156,9 +140,9 @@
     padding-top: 10%;
     text-align: justify;
 
-    @include breakpoint(laptop) {
+    @include breakpoint(l) {
       padding-top: 6%;
-      margin-top: .25em;
+      margin-top: 0.25em;
     }
 
     @include breakpoint(mobile) {
@@ -189,11 +173,9 @@
       @include breakpoint(mobile) {
         text-decoration: none;
       }
-
     }
   }
 }
-
 
 .mission {
   display: flex;
@@ -206,13 +188,12 @@
     display: inline-block;
   }
 
-
   .left {
     display: flex;
     background: url("../../images/man-background.png");
     background-size: 105% 105%;
     width: 50%;
-    color: white;
+    color: $white;
     border: $darkBlue 2px ridge;
     border-radius: 5%;
 
@@ -227,7 +208,7 @@
       text-align: justify;
       margin: auto 3%;
 
-      @include breakpoint(laptop) {
+      @include breakpoint(l) {
         font-size: 1.1em;
         padding: 2% 12%;
       }
@@ -262,17 +243,14 @@
       height: 10%;
       margin: 3em auto 0.125rem;
 
-      @include breakpoint(laptop) {
+      @include breakpoint(l) {
         width: 72%;
-        height: 8%
+        height: 8%;
       }
 
       @include breakpoint(mobile) {
         height: 50%;
       }
-
-
-
     }
 
     h4 {
@@ -281,7 +259,7 @@
       text-shadow: 2px 2px rgb(29, 29, 29);
       margin: 0.7em auto 0px;
 
-      @include breakpoint(laptop) {
+      @include breakpoint(l) {
         font-size: 1.4em;
       }
     }
@@ -291,7 +269,7 @@
       margin-top: 0.15rem;
       color: rgb(11, 38, 114);
 
-      @include breakpoint(laptop) {
+      @include breakpoint(l) {
         font-size: 1em;
       }
     }
@@ -308,7 +286,6 @@
         margin: 0 auto;
       }
 
-
       li {
         display: flex;
         text-align: left;
@@ -318,15 +295,14 @@
         margin-bottom: 0.78rem;
         font-weight: 600;
 
-        @include breakpoint(laptop) {
-          font-size: .95em;
+        @include breakpoint(l) {
+          font-size: 0.95em;
           line-height: 1.2em;
         }
 
         @include breakpoint(mobile) {
           font-size: 1em;
         }
-
       }
 
       ::before {
@@ -343,7 +319,7 @@
     }
 
     h3 {
-      margin: 0.5em auto .6em;
+      margin: 0.5em auto 0.6em;
 
       a {
         text-decoration: none;

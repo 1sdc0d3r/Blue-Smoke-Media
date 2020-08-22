@@ -6,7 +6,7 @@
     height: 60vh;
     border-bottom: 2px outset $darkBlue;
 
-    @include breakpoint(laptop) {
+    @include breakpoint(l) {
       height: 62vh;
     }
   }
@@ -21,7 +21,7 @@
 
     h2 {
       padding-left: 1em;
-      //  @include breakpoint(laptop) {
+      //  @include breakpoint(l) {
 
       //  }
     }
@@ -40,7 +40,7 @@
           margin-right: 0.45em;
         }
 
-        @include breakpoint(laptop) {
+        @include breakpoint(l) {
           line-height: 1.4em;
         }
       }

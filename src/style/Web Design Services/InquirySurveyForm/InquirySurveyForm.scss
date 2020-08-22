@@ -4,7 +4,7 @@
   height: 100%;
 
   h1 {
-    padding-top: .7em;
+    padding-top: 0.7em;
     color: $darkBlue;
   }
 
@@ -30,7 +30,7 @@
 
       label {
         font-size: 1.2em;
-        margin-top: .25em;
+        margin-top: 0.25em;
 
         @include breakpoint(mobile) {
           font-size: 1.05em;
@@ -38,16 +38,15 @@
 
         input[type="text"] {
           display: flex;
-          margin: .1em auto .2em .5em;
-          font-size: .9em;
+          margin: 0.1em auto 0.2em 0.5em;
+          font-size: 0.9em;
           width: 50%;
 
           @include breakpoint(mobile) {
             width: 95%;
-            margin: .1em auto .2em .5em;
+            margin: 0.1em auto 0.2em 0.5em;
           }
         }
-
       }
 
       .time {
@@ -57,7 +56,7 @@
         label {
           @include breakpoint(mobile) {
             text-align: center;
-            margin: .3em auto .15em;
+            margin: 0.3em auto 0.15em;
           }
         }
 
@@ -68,13 +67,11 @@
             width: 75%;
           }
 
-          input[type='radio'] {
+          input[type="radio"] {
             margin: auto 1em;
             transform: scale(1.25);
           }
-
         }
-
       }
     }
 
@@ -85,7 +82,6 @@
       @include breakpoint(mobile) {
         margin: 1.5em 1em 1em;
       }
-
     }
 
     .right {
@@ -99,19 +95,17 @@
         margin: auto 2em;
       }
 
-
       label {
         font-size: 1.2em;
         text-align: left;
         width: 45%;
-        margin-bottom: .5em;
+        margin-bottom: 0.5em;
 
         @include breakpoint(mobile) {
           font-size: 1em;
-          margin-bottom: .6em;
+          margin-bottom: 0.6em;
           width: 48%;
         }
-
 
         //todo custom checkbox
         //   input[type="checkbox"] {
@@ -126,7 +120,6 @@
         //     width: 25px;
         //     background-color: #eee;
         //   }
-
 
         //   // input:active~.check-mark {
         //   //   background-color: red;
@@ -151,7 +144,7 @@
         //     bottom: 5px;
         //     width: 6px;
         //     height: 12px;
-        //     border: solid white;
+        //     border: solid $white;
         //     border-width: 0 4px 4px 0;
         //     -webkit-transform: rotate(45deg);
         //     -ms-transform: rotate(45deg);
@@ -166,7 +159,7 @@
       display: flex;
       justify-content: space-around;
 
-      @include breakpoint(laptop) {
+      @include breakpoint(l) {
         margin: 1.2em auto 2em;
       }
 
@@ -174,7 +167,6 @@
         width: 50%;
         margin: 1.2em auto 2em;
       }
-
 
       input {
         font-size: 1.1em;
@@ -184,11 +176,10 @@
         &:hover {
           // color: $orange;
           background: $orange;
-          color: white;
+          color: $white;
           font-weight: 700;
           // transform: scale(1.1)
         }
-
       }
     }
 

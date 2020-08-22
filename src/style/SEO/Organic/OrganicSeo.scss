@@ -10,7 +10,7 @@
     height: 40vh;
     border-bottom: 2px outset $darkBlue;
 
-    @include breakpoint(laptop) {
+    @include breakpoint(l) {
       height: 45vh;
     }
   }
@@ -21,7 +21,7 @@
   }
 
   p {
-    margin: .5em 1.5em;
+    margin: 0.5em 1.5em;
 
     &:last-child {
       margin-bottom: 2em;

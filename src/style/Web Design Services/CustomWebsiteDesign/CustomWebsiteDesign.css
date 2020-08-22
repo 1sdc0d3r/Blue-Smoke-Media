@@ -10,15 +10,9 @@
   text-align: left;
 }
 
-@media (min-width: 800px) and (max-width: 1449px) {
+@media (min-width: 981px) and (max-width: 1280px) {
   .custom-website-design .content {
     margin: 2em 2em 3em;
-  }
-}
-
-@media (max-width: 480px) {
-  .custom-website-design .content {
-    margin: 1.5em 0;
   }
 }
 
@@ -27,21 +21,9 @@
   margin-bottom: 1.5em;
 }
 
-@media (min-width: 800px) and (max-width: 1449px) {
+@media (min-width: 981px) and (max-width: 1280px) {
   .custom-website-design .content h1 {
     margin-bottom: 1.1em;
-  }
-}
-
-@media (max-width: 480px) {
-  .custom-website-design .content h1 {
-    margin-bottom: 1em;
-  }
-}
-
-@media (max-width: 480px) {
-  .custom-website-design .content p {
-    margin: 2em 1em;
   }
 }
 

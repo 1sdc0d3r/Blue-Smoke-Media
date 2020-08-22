@@ -2,9 +2,9 @@
 @import "./Header/Header.css";
 @import "./Navigation/Navigation.css";
 @import "./Footer/Footer.css";
-
 @import "./Home/Home.css";
 @import "./Team/Team.css";
+
 /* * Web Design Services*/
 @import "./Web Design Services/Ad-CopyWriting/Ad-CopyWriting.css";
 @import "./Web Design Services/CustomWebsiteDesign/CustomWebsiteDesign.css";
@@ -17,6 +17,7 @@
 /* * SEO */
 @import "./SEO/Organic/OrganicSeo.css";
 @import "./SEO/Friendly/FriendlySeo.css";
+
 /* * Graphic Design Services */
 @import "./Graphic Design Services/PrintAndGraphicServices/PrintAndGraphicServices.css";
 @import "./Graphic Design Services/PrintedMediaLogos/PrintedMediaLogos.css";
@@ -25,3 +26,4 @@
 @import "./Portfolio/Portfolio.css";
 @import "./Blog/Blog.css";
 @import "./Contact/Contact.css";
+@import "./Carousel/carousel.css"

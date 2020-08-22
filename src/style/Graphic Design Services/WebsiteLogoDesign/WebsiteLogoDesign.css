@@ -12,7 +12,7 @@
   margin: 1.2em auto;
 }
 
-@media (min-width: 800px) and (max-width: 1449px) {
+@media (min-width: 981px) and (max-width: 1280px) {
   .website-logo-design .content h1 {
     margin: 1.1em auto 1em;
   }

@@ -1,43 +1,12 @@
+@import "../Breakpoints/Breakpoints.scss";
 $orange: rgb(246, 74, 30);
 //todo find new lightBlue
-$lightBlue: rgb(64, 165, 251);
+// $lightBlue: rgb(64, 165, 251);
+$lightBlue: #1e92f6;
 $darkBlue: #0b2673;
+$white: #d7dae6;
 
 @mixin GOT() {
   font-family: "GameOfThrones";
   font-weight: 700;
-}
-
-@mixin breakpoint($size) {
-  @if $size==mobile {
-    @media (max-width: 480px) {
-      @content;
-    }
-  }
-
-  @else if $size==tablet {
-    @media (min-width: 481px) and (max-width: 799px) {
-      @content;
-    }
-  }
-
-  //laptop
-  @else if $size==laptop {
-    @media (min-width: 800px) and (max-width: 1449px) {
-      @content;
-    }
-  }
-
-  //monitor
-  @else if $size==desktop {
-    @media (min-width: 1450px) and (max-width: 2249px) {
-      @content;
-    }
-  }
-
-  @else if $size==desktop-lg {
-    @media (min-width: 2250px) {
-      @content;
-    }
-  }
 }

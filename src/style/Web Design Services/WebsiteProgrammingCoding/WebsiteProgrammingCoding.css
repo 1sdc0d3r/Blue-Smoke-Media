@@ -5,7 +5,7 @@
   border-bottom: 2px outset #0b2673;
 }
 
-@media (min-width: 800px) and (max-width: 1449px) {
+@media (min-width: 981px) and (max-width: 1280px) {
   .website-programming-coding img {
     height: 62vh;
   }
@@ -40,7 +40,7 @@
   margin-right: 0.45em;
 }
 
-@media (min-width: 800px) and (max-width: 1449px) {
+@media (min-width: 981px) and (max-width: 1280px) {
   .website-programming-coding .content ul li {
     line-height: 1.4em;
   }

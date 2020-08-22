@@ -34,13 +34,13 @@
       text-align: center;
       margin: 1.25em auto;
 
-      @include breakpoint(laptop) {
+      @include breakpoint(l) {
         margin: 1.2em auto;
       }
     }
 
     h2 {
-      @include breakpoint(laptop) {
+      @include breakpoint(l) {
         font-size: 1.35em;
       }
     }
@@ -62,7 +62,7 @@
     h4 {
       font-size: 1.25em;
 
-      @include breakpoint(laptop) {
+      @include breakpoint(l) {
         margin-bottom: 0;
       }
     }

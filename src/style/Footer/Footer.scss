@@ -32,7 +32,7 @@ footer {
     -o-user-select: none;
     user-select: none;
 
-    @include breakpoint(laptop) {
+    @include breakpoint(l) {
       font-size: 2.75em;
     }
 
@@ -49,7 +49,7 @@ footer {
     letter-spacing: 5px;
     color: $orange;
     margin: 0.175em auto;
-    // text-shadow: -0.5px -0.5px white;
+    // text-shadow: -0.5px -0.5px $white;
   }
 
   .bottom {
@@ -63,7 +63,7 @@ footer {
     }
 
     p {
-      color: white;
+      color: $white;
       font-family: poppins, sans-serif;
       font-weight: normal;
       font-size: 1em;
@@ -82,7 +82,7 @@ footer {
       margin-right: 4%;
 
       // padding-left: 1.367rem;
-      @include breakpoint(laptop) {
+      @include breakpoint(l) {
         width: 25%;
         margin-right: 8%;
       }
@@ -94,7 +94,7 @@ footer {
       }
 
       span {
-        color: white;
+        color: $white;
         font-size: 1.35em;
         text-align: justify;
         padding: 0 7%;
@@ -142,7 +142,7 @@ footer {
       margin-top: 1rem;
 
       a {
-        color: white;
+        color: $white;
         text-decoration: none;
       }
     }
@@ -175,13 +175,11 @@ footer {
       flex-direction: column;
       // margin: auto;
     }
-
   }
-
 
   //copy
   span {
-    color: white;
+    color: $white;
     font-size: 0.8rem;
     font-weight: 700;
     margin: 1.5rem auto 0.75rem;

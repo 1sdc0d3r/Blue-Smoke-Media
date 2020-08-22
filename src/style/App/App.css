@@ -5,20 +5,12 @@ html {
 .App {
   text-align: center;
   background: #d7dae6;
-  width: 90%;
   margin: auto;
   font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.3em;
   color: #0b2673;
-}
-
-@media (max-width: 480px) {
-  .App {
-    width: 100%;
-    font-size: 1.12rem;
-  }
 }
 
 .App header {
@@ -32,25 +24,13 @@ html {
   background: -webkit-gradient(linear, left bottom, left top, color-stop(10%, #f83600), color-stop(80%, #facc22));
   background: linear-gradient(0deg, #f83600 10%, #facc22 80%);
   width: 27%;
-}
-
-@media (min-width: 800px) and (max-width: 1449px) {
-  .App header .cta {
-    width: 50%;
-  }
+  padding: 1%;
 }
 
 .App header .cta p {
   margin: 7.5% auto;
   font-size: 1.3em;
   font-weight: 700;
-}
-
-@media (min-width: 800px) and (max-width: 1449px) {
-  .App header .cta p {
-    font-size: 1.15em;
-    margin: 25% auto 10%;
-  }
 }
 
 .App header .cta p span {
@@ -79,7 +59,7 @@ html {
   height: 65%;
 }
 
-@media (min-width: 800px) and (max-width: 1449px) {
+@media (min-width: 981px) and (max-width: 1280px) {
   .App header .cta .btns .cta-mail {
     width: 43%;
     height: 63%;
@@ -91,7 +71,7 @@ html {
   height: 65%;
 }
 
-@media (min-width: 800px) and (max-width: 1449px) {
+@media (min-width: 981px) and (max-width: 1280px) {
   .App header .cta .btns .cta-phone {
     width: 20%;
     height: 45%;

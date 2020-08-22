@@ -1,9 +1,10 @@
 {
     "version": 3,
-    "mappings": "AAGA,AAAA,QAAQ,CAAC;EACP,MAAM,EAAE,IAAI;CAYb;;AAbD,AAGE,QAHM,CAGN,EAAE,CAAC;EAED,UAAU,EAAE,KAAK;EACjB,KAAK,ECNE,OAAO;CDOf;;AAPH,AASE,QATM,CASN,CAAC,CAAC;EACA,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,YAAY;CACrB",
+    "mappings": "AAGA,AAAA,QAAQ,CAAC;EACP,MAAM,EAAE,IAAI;CAYb;;AAbD,AAGE,QAHM,CAGN,EAAE,CAAC;EAED,UAAU,EAAE,KAAK;EACjB,KAAK,ECJE,OAAO;CDKf;;AAPH,AASE,QATM,CASN,CAAC,CAAC;EACA,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,YAAY;CACrB",
     "sources": [
         "Contact.scss",
-        "../Utils/Mixins/Mixins.scss"
+        "../Utils/Mixins/Mixins.scss",
+        "../Utils/Breakpoints/Breakpoints.scss"
     ],
     "names": [],
     "file": "Contact.css"

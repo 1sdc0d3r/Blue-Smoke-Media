@@ -3,7 +3,8 @@
     "mappings": "AAGA,AACE,SADO,CACP,GAAG,CAAC;EACF,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACb;;AAJH,AAME,SANO,CAMP,QAAQ,CAAC;EACP,MAAM,EAAE,QAAQ;CASjB;;AAhBH,AASI,SATK,CAMP,QAAQ,CAGN,EAAE,CAAC;EACD,MAAM,EAAE,cAAc;CACvB;;AAXL,AAaI,SAbK,CAMP,QAAQ,CAON,CAAC,CAAC;EACA,UAAU,EAAE,IAAI;CACjB",
     "sources": [
         "template.scss",
-        "../Utils/Mixins/Mixins.scss"
+        "../Utils/Mixins/Mixins.scss",
+        "../Utils/Breakpoints/Breakpoints.scss"
     ],
     "names": [],
     "file": "template.css"

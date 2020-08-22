@@ -3,12 +3,6 @@
   margin: 3rem 3rem;
 }
 
-@media (max-width: 480px) {
-  .team {
-    margin: 1.5rem;
-  }
-}
-
 .team span {
   font-weight: 600;
 }
@@ -17,13 +11,7 @@
   font-size: 3em;
   text-align: center;
   margin-bottom: 3rem;
-  text-shadow: #40a5fb 2px -2.5px;
-}
-
-@media (max-width: 480px) {
-  .team .team-top h1 {
-    margin: 1.5rem auto;
-  }
+  text-shadow: #1e92f6 2px -2.5px;
 }
 
 .team .team-top p a {
@@ -31,7 +19,7 @@
 }
 
 .team .team-top p a:visited {
-  color: #40a5fb;
+  color: #1e92f6;
 }
 
 .team .team-top p a:hover {
@@ -42,12 +30,6 @@
   margin-top: 4rem;
 }
 
-@media (max-width: 480px) {
-  .team .team-middle {
-    margin-top: 2rem;
-  }
-}
-
 .team .team-middle div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -55,25 +37,9 @@
   margin-bottom: 2.5rem;
 }
 
-@media (max-width: 480px) {
-  .team .team-middle div {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
 .team .team-middle div img {
   width: 20%;
   margin-right: 2.4rem;
-}
-
-@media (max-width: 480px) {
-  .team .team-middle div img {
-    width: 70%;
-    margin: auto;
-  }
 }
 
 .team .team-middle div video {
@@ -82,21 +48,8 @@
   margin-right: 2.4rem;
 }
 
-@media (max-width: 480px) {
-  .team .team-middle div video {
-    width: 70%;
-    margin: auto;
-  }
-}
-
 .team .team-middle div p {
   margin: auto;
-}
-
-@media (max-width: 480px) {
-  .team .team-middle div p {
-    margin-top: 1rem;
-  }
 }
 
 .team .team-bottom {
@@ -122,17 +75,10 @@
   margin: auto 0rem;
 }
 
-@media (min-width: 800px) and (max-width: 1449px) {
+@media (min-width: 981px) and (max-width: 1280px) {
   .team .team-bottom .member img {
     width: 8em;
     height: 8em;
-  }
-}
-
-@media (max-width: 480px) {
-  .team .team-bottom .member img {
-    width: 5.5em;
-    height: 5.5em;
   }
 }
 
@@ -142,27 +88,14 @@
   font-size: 1.1em;
 }
 
-@media (min-width: 800px) and (max-width: 1449px) {
+@media (min-width: 981px) and (max-width: 1280px) {
   .team .team-bottom .member p {
     font-size: 1em;
-  }
-}
-
-@media (max-width: 480px) {
-  .team .team-bottom .member p {
-    font-size: 1em;
-    margin-left: 1em;
   }
 }
 
 .team .team-bottom .member p span {
   font-size: 1.45em;
   color: black;
-}
-
-@media (max-width: 480px) {
-  .team .team-bottom .member p span {
-    font-size: 1.2em;
-  }
 }
 /*# sourceMappingURL=Team.css.map */

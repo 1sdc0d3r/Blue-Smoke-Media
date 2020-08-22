@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Carousel from "./Carousel";
 //* Images/Video
 import silhouette from "../images/silhouette.png";
 import socialMedia from "../images/social-media.jpg";
 import blueSmoke from "../images/blue-smoke.png";
+// import { Carousel } from "react-responsive-carousel";
 
 // const silhouette =
 //   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/silhouette.png";
@@ -27,13 +29,18 @@ export default function Home() {
           </div>
         </div>
       </section> */}
-
+      <Carousel />
       <section className="globe">
         <p>
-          <span>Blue Smoke Digital and Printed Media</span>
-          <br /> produces media for Individual businesses, Small and Medium
-          sized businesses - Websites that are fast loading, Organically Search
-          Engine Optimized, visually appealing, and easy to navigate.
+          <span>
+            Blue Smoke Digital
+            <br />
+            and Printed Media
+          </span>
+          <br />
+          produces media for Individual businesses, Small and Medium sized
+          businesses - Websites that are fast loading, Organically Search Engine
+          Optimized, visually appealing, and easy to navigate.
         </p>
       </section>
 

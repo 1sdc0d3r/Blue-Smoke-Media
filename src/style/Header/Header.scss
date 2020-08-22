@@ -7,7 +7,7 @@
 }
 
 header {
-  background-image: url("../../images/headerGlobe.png");
+  background-image: url("../../images/header_background.png");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -23,7 +23,7 @@ header {
     width: 7%;
 
     // padding-top: 1%;
-    @include breakpoint(laptop) {
+    @include breakpoint(l) {
       width: 12%;
     }
   }
@@ -34,12 +34,11 @@ header {
     height: 12vh;
   }
 
-
   .blue-smoke {
     width: 35%;
     margin: auto;
-    margin-left: .4%;
-    padding-top: .5em;
+    margin-left: 0.4%;
+    padding-top: 0.5em;
 
     img {
       width: 100%;
@@ -50,25 +49,42 @@ header {
         width: 50%;
         margin: 4% auto;
       }
-
     }
 
     p {
       @include GOT;
-      font-size: 1.4em;
+      font-size: 1.65em;
       letter-spacing: 5px;
       line-height: 1.2;
       color: $orange;
-      margin: 0.175em auto .35em;
+      margin: 0.175em auto 0.35em;
       text-shadow: 3px 3px $darkBlue;
       // -webkit-text-stroke: 0.1px $darkBlue;
       font-weight: 900;
-      white-space: nowrap;
+      $white-space: nowrap;
       text-align: center;
+      // font-size: 1.655;
+      // font-family: "Poppins";
+      // color: #fb3400;
+      // font-weight: 700;
+      // line-height: 1.75;
+      // text-align: center;
+      // text-shadow:
+      //  -1px 1px 0 #000000,
+      //   1px -1px 0 #000000,
+      //   1px 2px 0 #000000,
+      //   2px 1px 0 #000000;
+      // display-moz-transform: matrix( 1.19608353688692,(-4.67603008801789e-17),0,1.19608353688692,0,0);
+      // display-webkit-transform: matrix( 1.19608353688692,-4.67603008801789e-17,0,1.19608353688692,0,0);
+      // display-ms-transform: matrix( 1.19608353688692,-4.67603008801789e-17,0,1.19608353688692,0,0);
+      // position: absolute;
+      // top: 12.5%;
+      // left: 55.632px;
+      // width: 350.14px;
 
-      @include breakpoint(laptop) {
+      @include breakpoint(l) {
         font-size: 1em;
-        white-space: normal;
+        $white-space: normal;
         word-break: break-word;
         // ? how do I want the words to line up
         width: 90%;
@@ -82,29 +98,27 @@ header {
         display: none;
         //todo fix this
       }
-
     }
 
     span {
-      margin-top: .9em;
+      margin-top: 0.9em;
       font-weight: 700;
-      -webkit-text-stroke: .5px $darkBlue;
+      -webkit-text-stroke: 0.5px $darkBlue;
       font-size: 1.05em;
 
       @include breakpoint(mobile) {
         display: none;
       }
-
     }
   }
 
   .center {
-    color: white;
+    color: $white;
     width: 30%;
     margin: auto 0;
     text-align: left;
 
-    @include breakpoint(laptop) {
+    @include breakpoint(l) {
       width: 23%;
     }
 
@@ -114,16 +128,15 @@ header {
       text-shadow: black 1px 4px 4px;
       letter-spacing: 2px;
       // width: 80%;
-      margin-block-end: .5em;
+      margin-block-end: 0.5em;
 
-      @include breakpoint(laptop) {
+      @include breakpoint(l) {
         font-size: 1em;
       }
 
       &:nth-child(2) {
         text-align: right;
         margin-block-start: 0;
-
       }
 
       span {
@@ -131,11 +144,18 @@ header {
         color: $orange;
       }
     }
-
   }
-
-  .silhouettes {
+  .silhouette-div {
     width: 25%;
-    margin: 0;
+    position: relative;
+
+    .silhouettes {
+      height: 80%;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
   }
 }

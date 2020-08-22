@@ -21,12 +21,6 @@ footer img {
   margin: 5% auto 1%;
 }
 
-@media (max-width: 480px) {
-  footer img {
-    height: 10vh;
-  }
-}
-
 footer #sub-header {
   -webkit-text-stroke: 0.85px #0b2673;
   text-shadow: 5px 5px #0b2673;
@@ -38,17 +32,9 @@ footer #sub-header {
   user-select: none;
 }
 
-@media (min-width: 800px) and (max-width: 1449px) {
+@media (min-width: 981px) and (max-width: 1280px) {
   footer #sub-header {
     font-size: 2.75em;
-  }
-}
-
-@media (max-width: 480px) {
-  footer #sub-header {
-    font-size: 1.2em;
-    text-shadow: 2px 2px #0b2673;
-    -webkit-text-stroke: 0px;
   }
 }
 
@@ -71,15 +57,6 @@ footer .bottom {
   margin: 2rem auto 0.5rem;
 }
 
-@media (max-width: 480px) {
-  footer .bottom {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
-  }
-}
-
 footer .bottom p {
   color: white;
   font-family: poppins, sans-serif;
@@ -90,30 +67,15 @@ footer .bottom p {
   padding: 0 10%;
 }
 
-@media (max-width: 480px) {
-  footer .bottom p {
-    padding: 0;
-    text-align: left;
-  }
-}
-
 footer .bottom .contact {
   width: 23%;
   margin-right: 4%;
 }
 
-@media (min-width: 800px) and (max-width: 1449px) {
+@media (min-width: 981px) and (max-width: 1280px) {
   footer .bottom .contact {
     width: 25%;
     margin-right: 8%;
-  }
-}
-
-@media (max-width: 480px) {
-  footer .bottom .contact {
-    margin-right: 0;
-    width: 35%;
-    margin-left: 0.8em;
   }
 }
 
@@ -124,22 +86,10 @@ footer .bottom .contact span {
   padding: 0 7%;
 }
 
-@media (max-width: 480px) {
-  footer .bottom .contact span {
-    display: none;
-  }
-}
-
 footer .bottom .contact p {
   margin-top: 1rem;
   text-align: left;
   padding-left: 3em;
-}
-
-@media (max-width: 480px) {
-  footer .bottom .contact p {
-    margin: 0;
-  }
 }
 
 footer .email {
@@ -148,23 +98,10 @@ footer .email {
   font-weight: 700;
 }
 
-@media (max-width: 480px) {
-  footer .email {
-    margin-left: 0;
-    width: auto;
-  }
-}
-
 footer .email span {
   padding: 0 7%;
   width: auto;
   font-size: 1.35em;
-}
-
-@media (max-width: 480px) {
-  footer .email span {
-    display: none;
-  }
 }
 
 footer .email p {
@@ -187,23 +124,9 @@ footer .smBtns {
   width: 50%;
 }
 
-@media (max-width: 480px) {
-  footer .smBtns {
-    width: 80%;
-    margin: 0.8em auto 0;
-  }
-}
-
 footer .smBtns img {
   height: 3em;
   width: 3em;
-}
-
-@media (max-width: 480px) {
-  footer .smBtns img {
-    height: 2em;
-    width: 2em;
-  }
 }
 
 footer .smBtns .counter {
@@ -221,13 +144,5 @@ footer span {
   font-size: 0.8rem;
   font-weight: 700;
   margin: 1.5rem auto 0.75rem;
-}
-
-@media (max-width: 480px) {
-  footer span {
-    margin: 1.5rem auto 0.2rem;
-    text-align: center;
-    color: darkgrey;
-  }
 }
 /*# sourceMappingURL=Footer.css.map */
