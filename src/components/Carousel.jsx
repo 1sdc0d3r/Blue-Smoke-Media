@@ -21,8 +21,8 @@ export default function Carousel() {
       naturalSlideWidth={100}
       naturalSlideHeight={45}
       totalSlides={3}
-      //   isPlaying={true}
-      interval={2000}
+      isPlaying={true}
+      interval={6000}
       //   currentSlide={2}
     >
       <Slider className="slider">
@@ -45,9 +45,9 @@ export default function Carousel() {
                 potential customers that you care, and that you're still in
                 business.
               </p>
-              <NavLink to="#">
-                <button>Get Started Now!</button>
-              </NavLink>
+              <button>
+                <NavLink to="#">Get Started Now!</NavLink>
+              </button>
             </div>
             <div className="dots">
               <Dot slide={0} />
@@ -74,9 +74,9 @@ export default function Carousel() {
                 <span className="bullet">3.</span> Improve your business'
                 product awareness.
               </p>
-              <NavLink to="#">
-                <button>Get Started Now!</button>
-              </NavLink>
+              <button>
+                <NavLink to="#">Get Started Now!</NavLink>
+              </button>
             </div>
             <div className="dots">
               <Dot slide={0} style={{ color: "red", background: "red" }} />
@@ -97,15 +97,15 @@ export default function Carousel() {
                 apart from the others?
               </h1>
               <p className="description">
-                We at Blue Smoke Digital and Printed Media believes that if we
-                are to build your website from scratch, then it should be built
-                we<span> "INCLUDE ORGANIC SEO"</span> into every website we
-                build at
-                <span> NO ADDITIONAL COST!</span>
+                We at Blue Smoke Digital and Printed Media believe that the
+                consumer should get everything they pay for. We believe that
+                <span> “SEO should be INCLUDED”</span> in a custom built
+                website! It <span>SHOULD NOT</span> be an extra cost. THAT is
+                what sets us apart from our competitors.
               </p>
-              <NavLink to="#">
-                <button>Get Started Now!</button>
-              </NavLink>
+              <button>
+                <NavLink to="#">Get Started Now!</NavLink>
+              </button>
             </div>
             <div className="dots">
               <Dot slide={0} />

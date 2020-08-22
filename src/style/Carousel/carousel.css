@@ -30,6 +30,7 @@
 .slider .inner-slide .slide-info h1 {
   color: #d7dae6;
   margin: 0;
+  font-size: 2.3em;
 }
 
 .slider .inner-slide .slide-info h4 {
@@ -39,27 +40,42 @@
 .slider .inner-slide .slide-info p {
   padding-left: 4%;
   margin: 0;
+  line-height: 1.4em;
 }
 
 .slider .inner-slide .slide-info p span {
   color: #ee3e0e;
+  font-weight: 600;
 }
 
 .slider .inner-slide .slide-info .description {
-  margin-top: 1em;
+  margin-top: 1.5em;
+}
+
+.slider .inner-slide .slide-info .description span {
+  font-weight: 600;
 }
 
 .slider .inner-slide .slide-info button {
   font-weight: 600;
-  color: #020723;
   background: #ee3e0e;
-  padding: 1em;
-  margin-left: 4%;
+  margin-left: 5%;
   border-radius: 0.8em;
-  margin-top: 2.5em;
+  margin-top: 8%;
   -webkit-box-shadow: 2px 2px black;
           box-shadow: 2px 2px black;
   border: none;
+  width: 25%;
+}
+
+.slider .inner-slide .slide-info button a {
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  text-decoration: none;
+  color: #020723;
+  display: inline-block;
+  width: 100%;
+  font-size: 1.2em;
 }
 
 .slider .dots {
@@ -89,4 +105,4 @@
       -ms-grid-row-align: center;
       align-self: center;
 }
-/*# sourceMappingURL=carousel.css.map */
+/*# sourceMappingURL=Carousel.css.map */

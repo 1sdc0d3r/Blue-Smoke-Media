@@ -20,6 +20,7 @@
       h1 {
         color: $white;
         margin: 0;
+        font-size: 2.3em;
       }
       h4 {
         padding-left: 2%;
@@ -28,24 +29,41 @@
       p {
         padding-left: 4%;
         margin: 0;
+        line-height: 1.4em;
         span {
           color: #ee3e0e;
+          font-weight: 600;
         }
       }
+      // a {
+      //   width: auto;
+      // }
       .description {
-        margin-top: 1em;
+        margin-top: 1.5em;
+        // font-weight: 500;
+        span {
+          font-weight: 600;
+        }
       }
 
       button {
         font-weight: 600;
-        color: #020723;
         background: #ee3e0e;
-        padding: 1em;
-        margin-left: 4%;
+        margin-left: 5%;
         border-radius: 0.8em;
-        margin-top: 2.5em;
+        margin-top: 8%;
         box-shadow: 2px 2px black;
         border: none;
+        width: 25%;
+        a {
+          padding-top: 0.8em;
+          padding-bottom: 0.8em;
+          text-decoration: none;
+          color: #020723;
+          display: inline-block;
+          width: 100%;
+          font-size: 1.2em;
+        }
       }
     }
   }
