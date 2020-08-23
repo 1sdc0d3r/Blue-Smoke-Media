@@ -26,11 +26,9 @@ import WebsiteLogoDesign from "./components/Graphic Design Services/WebsiteLogoD
 // import Portfolio from "./components/Portfolio";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
-
+import CTA from "./components/Header-CTA";
 // * Media
 import landingVideo from "./videos/LandingPageVideo.mp4";
-import phone from "./images/phone.png";
-import email from "./images/Mail Icon.png";
 //todo learn E-Commerce
 //todo add SEO to website w/ CoBe
 
@@ -68,26 +66,7 @@ function App() {
               <Navigation />
             </div>
             {/* //todo extract to component */}
-            <div className="cta">
-              <p>
-                Request
-                <br /> A <span>FREE</span>
-                <br />
-                Consultation
-              </p>
-              <div className="btns">
-                <img
-                  src={email}
-                  alt="contact-mail"
-                  className="cta-mail cta-btn"
-                />
-                <img
-                  src={phone}
-                  alt="contact-phone"
-                  className="cta-phone cta-btn"
-                />
-              </div>
-            </div>
+            <CTA />
           </header>
           <Switch>
             <Route exact path="/" component={Home} />

@@ -128,4 +128,60 @@ header {
       right: 0;
     }
   }
+  .cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 27%;
+    padding: 1%;
+    background: rgb(248, 54, 0);
+    background: linear-gradient(
+      0deg,
+      rgba(248, 54, 0, 1) 10%,
+      rgba(250, 204, 34, 1) 80%
+    );
+
+    p {
+      margin: 7.5% auto;
+      font-size: 1.3em;
+      font-weight: 700;
+
+      span {
+        color: $darkBlue;
+        text-decoration: underline;
+      }
+    }
+
+    .btns {
+      display: flex;
+      justify-content: space space-around;
+      height: 40%;
+      width: 80%;
+      margin: auto;
+
+      .cta-btn {
+        margin: auto;
+      }
+
+      .cta-mail {
+        width: 45%;
+        height: 65%;
+
+        @include breakpoint(l) {
+          width: 43%;
+          height: 63%;
+        }
+      }
+
+      .cta-phone {
+        width: 25%;
+        height: 65%;
+
+        @include breakpoint(l) {
+          width: 20%;
+          height: 45%;
+        }
+      }
+    }
+  }
 }

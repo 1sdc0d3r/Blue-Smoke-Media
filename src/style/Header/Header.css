@@ -105,4 +105,73 @@ header .silhouette-div .silhouettes {
   left: 0;
   right: 0;
 }
+
+header .cta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 27%;
+  padding: 1%;
+  background: #f83600;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(10%, #f83600), color-stop(80%, #facc22));
+  background: linear-gradient(0deg, #f83600 10%, #facc22 80%);
+}
+
+header .cta p {
+  margin: 7.5% auto;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+header .cta p span {
+  color: #020723;
+  text-decoration: underline;
+}
+
+header .cta .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space space-around;
+      -ms-flex-pack: space space-around;
+          justify-content: space space-around;
+  height: 40%;
+  width: 80%;
+  margin: auto;
+}
+
+header .cta .btns .cta-btn {
+  margin: auto;
+}
+
+header .cta .btns .cta-mail {
+  width: 45%;
+  height: 65%;
+}
+
+@media (min-width: 981px) and (max-width: 1280px) {
+  header .cta .btns .cta-mail {
+    width: 43%;
+    height: 63%;
+  }
+}
+
+header .cta .btns .cta-phone {
+  width: 25%;
+  height: 65%;
+}
+
+@media (min-width: 981px) and (max-width: 1280px) {
+  header .cta .btns .cta-phone {
+    width: 20%;
+    height: 45%;
+  }
+}
 /*# sourceMappingURL=Header.css.map */
