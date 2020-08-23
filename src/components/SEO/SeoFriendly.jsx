@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
 import seoPuzzle from "../../images/seo-puzzle.png";
 //* Images
 // const seoPuzzle =
@@ -9,13 +8,6 @@ import seoPuzzle from "../../images/seo-puzzle.png";
 export default function OrganicSeo() {
   return (
     <>
-      <Helmet>
-        <title>Home</title>
-        <meta
-          name="description"
-          content="This is what you want to show as the page content in the Google SERP Listing"
-        />
-      </Helmet>{" "}
       <div className="seo-friendly">
         <img src={seoPuzzle} alt="seo" />
         <div className="wrapper">

@@ -1,5 +1,4 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 import seoBanner from "../../images/seo-banner.png";
 // const seoBanner =
 // "https://blue-smoke-media.s3-us-west-1.amazonaws.com/seo-banner.png";
@@ -7,13 +6,6 @@ import seoBanner from "../../images/seo-banner.png";
 export default function OrganicSeo() {
   return (
     <>
-      <Helmet>
-        <title>Organic Seo</title>
-        <meta
-          name="description"
-          content="This is what you want to show as the page content in the Google SERP Listing"
-        />
-      </Helmet>
       <div className="organic-seo">
         <img src={seoBanner} alt="seo" />
         <h2>Organic Search Engine Optimization</h2>

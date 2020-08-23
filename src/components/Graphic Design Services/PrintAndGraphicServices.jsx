@@ -1,5 +1,4 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 import fingersCrossed from "../../images/fingers-crossed.png";
 //todo fix this spelling error
 import light from "../../images/recognition-rememberance-image.png";
@@ -20,13 +19,6 @@ import coffeeShelf from "../../images/coffee-shelf.png";
 export default function PrintAndDesignGraphicServices() {
   return (
     <>
-      <Helmet>
-        <title>Print and Graphic design services</title>
-        <meta
-          name="description"
-          content="This is what you want to show as the page content in the Google SERP Listing"
-        />
-      </Helmet>
       <div className="print-and-graphic-design-services">
         <img src={fingersCrossed} alt="Experts" />
 
@@ -84,7 +76,12 @@ export default function PrintAndDesignGraphicServices() {
                 </p>
               </section>
               <section>
-                <img src={coffeeShelf} loading="lazy" alt="branding" id="coffeeShelf" />
+                <img
+                  src={coffeeShelf}
+                  loading="lazy"
+                  alt="branding"
+                  id="coffeeShelf"
+                />
                 <p>
                   An appropriate brochure, business card, logo or any printed
                   media is a necessity when it comes to spreading the word about

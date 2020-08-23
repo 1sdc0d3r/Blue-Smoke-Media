@@ -7,7 +7,6 @@ import help3 from "../images/help-icon-3.png";
 
 import Carousel from "./Carousel";
 
-//todo SEO FOR REACTJS!!!!
 //todo set up google analytics
 //analytics.google.com/analytics/web/provision/#/a168002604p234303565/admin/streams/promo
 // todo remove react helmet

@@ -1,5 +1,4 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 import logoDesign from "../../images/Website-logo-design-services.png";
 //* Images
 // const logoDesign =
@@ -8,13 +7,6 @@ import logoDesign from "../../images/Website-logo-design-services.png";
 export default function WebsiteLogoDesign() {
   return (
     <>
-      <Helmet>
-        <title>Home</title>
-        <meta
-          name="description"
-          content="This is what you want to show as the page content in the Google SERP Listing"
-        />
-      </Helmet>
       <div className="website-logo-design">
         <img src={logoDesign} alt="Logos" />
         <div className="content">
