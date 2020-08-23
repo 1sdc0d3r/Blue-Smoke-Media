@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @media (min-width: 981px) and (max-width: 1280px) {
   .home {
     margin-bottom: 3.1em;
@@ -10,7 +9,7 @@
   height: 100%;
 }
 
-.globe {
+.home .globe {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,153 +20,68 @@
   background: url("../../images/globe-stretch-new.png");
   background-size: 101% 105%;
   background-repeat: no-repeat;
-  height: 62vh;
+  height: 75vh;
   min-width: 80%;
-  border-bottom: 2px solid #0b2673;
+  border-top: 0.5em solid #020723;
+  border-bottom: 0.5em solid #020723;
 }
 
-.globe p {
+.home .globe p:first-child {
   text-align: center;
   font-weight: normal;
   width: 40%;
   margin: auto;
   margin-right: 55%;
-  color: white;
+  color: #d7dae6;
   margin-top: 7%;
 }
 
-.globe p span {
+.home .globe p:first-child h1 {
   display: inline-block;
-  font-size: 1.4em;
+  font-size: 2em;
   font-weight: bold;
   color: #1e92f6;
-  margin-bottom: 1em;
+  margin: 0 auto 0.5em;
+  text-shadow: 2px 2px black;
 }
 
-.silhouette {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 3.9rem 1.5rem;
-}
-
-.silhouette img {
-  width: 50%;
-  height: 100%;
-  margin: auto 0.4rem;
-  -webkit-box-shadow: 9px 7px 5px #999999;
-          box-shadow: 9px 7px 5px #999999;
-  border: 1px solid #0b2673;
-  border-radius: 5%;
-}
-
-.silhouette p {
-  width: 44%;
-  margin: auto;
-  text-align: justify;
-  padding: 1.4rem;
-}
-
-.silhouette p span {
-  font-weight: 600;
+.home .globe p {
   color: #1e92f6;
-}
-
-.social-media {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-  padding: 0 1.5rem;
-  margin-bottom: 2.7rem;
-}
-
-.social-media img {
-  width: 50%;
-  height: 100%;
-  margin-bottom: 1.5rem;
-  -webkit-box-shadow: 9px 7px 5px #999999;
-          box-shadow: 9px 7px 5px #999999;
-  border-radius: 5%;
-  border: 1px solid #0b2673;
-}
-
-.social-media .content {
-  width: 50%;
-  margin: 1rem auto;
-  padding-top: 10%;
-  text-align: justify;
-}
-
-@media (min-width: 981px) and (max-width: 1280px) {
-  .social-media .content {
-    padding-top: 6%;
-    margin-top: 0.25em;
-  }
-}
-
-.social-media .content p {
-  width: 80%;
-  margin: 0 auto 7%;
-}
-
-.social-media .content p :first-child {
-  color: #f64a1e;
-  font-weight: 500;
-}
-
-.social-media .content span {
-  text-decoration: underline;
-  color: #1e92f6;
+  margin-top: 2.5em;
   font-weight: 600;
 }
 
-.mission {
+.home .globe p span {
+  color: #ee3e0e;
+}
+
+.home .plans-pricing h1 {
+  text-transform: uppercase;
+  color: #ee3e0e;
+  text-shadow: 2px 2px black;
+  margin: 1.2em auto 0;
+  font-size: 2.5em;
+}
+
+.home .plans-pricing h1 span {
+  color: #1e92f6;
+}
+
+.home .plans-pricing .sub-text {
+  margin: 0 auto 1.5em;
+  font-size: 0.75em;
+}
+
+.home .plans-pricing .card-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 120%;
-  padding: 0 1.5rem;
-  margin-bottom: 5%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 5%;
 }
 
-.mission .left {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background: url("../../images/man-background.png");
-  background-size: 105% 105%;
-  width: 50%;
-  color: white;
-  border: #0b2673 2px ridge;
-  border-radius: 5%;
-}
-
-.mission .left p {
-  padding: 22% 17%;
-  line-height: 1.75em;
-  font-size: 1.2em;
-  text-align: justify;
-  margin: auto 3%;
-}
-
-@media (min-width: 981px) and (max-width: 1280px) {
-  .mission .left p {
-    font-size: 1.1em;
-    padding: 2% 12%;
-  }
-}
-
-.mission .right {
-  background: url("../../images/trees-background.png");
-  background-size: 100% 140%;
-  background-position-y: 10%;
-  background-repeat: no-repeat;
-  width: 50%;
-  margin-left: 2.65rem;
+.home .plans-pricing .card-container .card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -175,99 +89,66 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: #0b2673 2px ridge;
-  border-radius: 5%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border: 2px solid black;
+  width: 17%;
+  padding: 1em 1em 0;
+  color: #1e92f6;
+  background: #04227a;
 }
 
-.mission .right img {
-  width: 70%;
-  height: 10%;
-  margin: 3em auto 0.125rem;
+.home .plans-pricing .card-container .card:hover .line {
+  width: 85%;
 }
 
-@media (min-width: 981px) and (max-width: 1280px) {
-  .mission .right img {
-    width: 72%;
-    height: 8%;
-  }
-}
-
-.mission .right h4 {
+.home .plans-pricing .card-container .card h3 {
+  margin: 0;
+  color: #ee3e0e;
+  text-shadow: 2.5px 2.5px #020723;
   font-size: 1.5em;
-  color: #f64a1e;
-  text-shadow: 2px 2px #1d1d1d;
-  margin: 0.7em auto 0px;
 }
 
-@media (min-width: 981px) and (max-width: 1280px) {
-  .mission .right h4 {
-    font-size: 1.4em;
-  }
+.home .plans-pricing .card-container .card h6 {
+  margin-top: 3%;
+  margin-bottom: 0;
 }
 
-.mission .right p {
-  font-size: 1.25em;
-  margin-top: 0.15rem;
-  color: #0b2672;
+.home .plans-pricing .card-container .card hr {
+  width: 40%;
+  border: 0;
+  border: 1px solid goldenrod;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  margin: 0.5em auto;
 }
 
-@media (min-width: 981px) and (max-width: 1280px) {
-  .mission .right p {
-    font-size: 1em;
-  }
+.home .plans-pricing .card-container .card p {
+  margin: 0 auto 3%;
+  text-shadow: 2px 2px #020723;
 }
 
-.mission .right ul {
-  width: 72.5%;
-  margin: 1.5rem auto;
-  list-style: none;
-  text-align: left;
-  padding: 0.5rem;
-  padding-left: 1rem;
+.home .plans-pricing .card-container .card .price {
+  color: goldenrod;
+  font-size: 3em;
+  font-weight: 700;
 }
 
-.mission .right ul li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: left;
-  line-height: 1.3em;
-  color: #0b2672;
-  font-size: 1.2em;
-  margin-bottom: 0.78rem;
+.home .plans-pricing .card-container .card a {
+  margin: 0.5em auto 1em;
+  padding: 0.4em;
+  border: 1px solid #020723;
+  -webkit-box-shadow: 2px 2px #020723;
+          box-shadow: 2px 2px #020723;
+  color: #020723;
+  background: #1e92f6;
+  text-decoration: none;
   font-weight: 600;
 }
 
-@media (min-width: 981px) and (max-width: 1280px) {
-  .mission .right ul li {
-    font-size: 0.95em;
-    line-height: 1.2em;
-  }
-}
-
-.mission .right ul ::before {
-  content: "»";
-  font-size: 1.2em;
-  color: #f64a1e;
-  margin-right: 1%;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  text-shadow: 0.75px 0.75px #1d1d1d;
-}
-
-.mission .right h3 {
-  margin: 0.5em auto 0.6em;
-}
-
-.mission .right h3 a {
-  text-decoration: none;
-  font-size: 1.2em;
-  color: #f64a1e;
-  text-shadow: 2px 2px #1d1d1d;
-}
-
-.mission .right #contact {
-  width: 85%;
-  margin: 0 auto 3.5rem;
+.home .plans-pricing .card-container .card a:hover {
+  color: #d7dae6;
+  outline: 2px solid #ee3e0e;
 }
 /*# sourceMappingURL=Home.css.map */

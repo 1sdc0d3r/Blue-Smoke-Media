@@ -21,9 +21,9 @@ export default function Carousel() {
       naturalSlideWidth={100}
       naturalSlideHeight={45}
       totalSlides={3}
-      isPlaying={true}
+      // isPlaying={true}
       interval={6000}
-      //   currentSlide={2}
+      currentSlide={0}
     >
       <Slider className="slider">
         <Slide index={0}>
