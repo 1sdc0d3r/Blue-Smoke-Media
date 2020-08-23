@@ -87,16 +87,15 @@
       margin: 0 auto 1.5em;
       font-size: 0.75em;
     }
-    .card-container {
+    .plans-card-container {
       display: flex;
       justify-content: space-around;
       margin-top: 5%;
-      .card {
-        // position: relative;
+      .plan-card {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        border: 2px solid black;
+        border: 3px inset goldenrod;
         width: 17%;
         padding: 1em 1em 0;
         color: $lightBlue;
@@ -136,10 +135,6 @@
           // margin-bottom: 1.5em;
         }
         a {
-          // position: absolute;
-          // bottom: 5%;
-          // left: 15%;
-          // right: 15%;
           margin: 0.5em auto 1em;
           padding: 0.4em;
           border: 1px solid $darkBlue;
@@ -150,9 +145,128 @@
           font-weight: 600;
           &:hover {
             color: $white;
-            // box-shadow: 2px 2px $orange;
             outline: 2px solid $orange;
-            // border: 1px solid $dar;
+          }
+        }
+      }
+    }
+  }
+  .services {
+    h1 {
+      text-transform: uppercase;
+      color: $orange;
+      text-shadow: 2px 2px black;
+      margin: 1.2em auto 0.5em;
+      font-size: 2.5em;
+      span {
+        color: $lightBlue;
+      }
+    }
+    .sub-text {
+      margin: 0 auto 1.5em;
+      font-size: 0.75em;
+    }
+    .services-card-container {
+      display: flex;
+      justify-content: space-around;
+      margin: 5% auto 13%;
+
+      .service-card {
+        width: 22%;
+        position: relative;
+
+        .service-card-front {
+          border: 2px inset #f9d265;
+          color: goldenrod;
+          display: flex;
+          flex-direction: column;
+          background: $royalBlue;
+          padding: 1em;
+
+          img {
+            width: 50%;
+            height: 20%;
+            margin: 1em auto;
+          }
+        }
+        .service-card-back {
+          display: none;
+          position: absolute;
+          background: $lightBlue;
+          color: $darkBlue;
+          padding: 1em 0.75em 0em;
+          border: 1px inset $darkBlue;
+          h3 {
+            color: $darkBlue;
+            margin: 0 0 0.4em;
+          }
+          p {
+            font-size: 0.85em;
+            line-height: 1.3em;
+            span {
+              font-weight: 600;
+            }
+          }
+        }
+        &:hover {
+          .service-card-front {
+            background: red;
+            display: none;
+            position: absolute;
+          }
+          .service-card-back {
+            display: flex;
+            flex-direction: column;
+            position: inline-block;
+          }
+        }
+      }
+    }
+  }
+  .help {
+    background: #333;
+    padding-bottom: 5%;
+    h1 {
+      text-transform: uppercase;
+      color: $orange;
+      text-shadow: 2px 2px black;
+      padding-top: 1.5em;
+      margin-bottom: 2em;
+      font-size: 2.5em;
+      span {
+        color: $lightBlue;
+      }
+    }
+    .help-card-container {
+      display: flex;
+      justify-content: space-evenly;
+      margin: 5% auto 0;
+      .help-card {
+        width: 31%;
+        background: $white;
+        margin-bottom: 3em;
+        padding-bottom: 1em;
+
+        img {
+          width: 20%;
+          margin: -9% auto 0;
+          outline: 2px outset $darkBlue;
+        }
+        h3 {
+          color: #f52618;
+          text-shadow: 1px 1px $darkBlue;
+          letter-spacing: 0.125em;
+          margin-bottom: 0;
+        }
+        p {
+          padding: 0 1em;
+          padding-bottom: 0;
+          margin-bottom: 0;
+          font-size: 0.9em;
+          span {
+            color: $orange;
+            font-weight: 700;
+            text-shadow: 0.5px 0.5px $darkBlue;
           }
         }
       }
