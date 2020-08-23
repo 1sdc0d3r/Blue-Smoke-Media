@@ -1,148 +1,112 @@
 footer {
-  background-image: url("../../images/blue-background.png");
-  background-size: cover;
-  background-repeat: no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background: #04227a;
+  padding-top: 2em;
+  text-align: left;
+}
+
+footer div {
+  width: 16%;
+  padding: 0 0.5em;
+}
+
+footer h3 {
+  color: #ee3e0e;
+  text-shadow: 2px 2px #020723;
+  text-transform: uppercase;
+}
+
+footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+footer ul li:hover {
+  margin-left: 5%;
+}
+
+footer ul li {
+  padding: 0.5em 0;
+  text-shadow: 1px 1px #020723;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+footer ul li ::before {
+  content: "> ";
+  font-weight: 800;
+  color: #ee3e0e;
+}
+
+footer ul li :hover {
+  color: goldenrod;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #1e92f6;
+}
+
+.bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #d7dae6;
+  background: #020723;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 15vh;
+}
+
+.bottom .payment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  text-align: left;
-  border-top: 0.65rem solid #f64a1e;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30%;
+  color: #7ff76f;
 }
 
-footer img {
-  width: 92%;
-  height: 20vh;
-  margin: 5% auto 1%;
+.bottom .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 40%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
 }
 
-footer #sub-header {
-  -webkit-text-stroke: 0.85px #0b2673;
-  text-shadow: 5px 5px #0b2673;
-  text-align: center;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
-  user-select: none;
-}
-
-@media (min-width: 981px) and (max-width: 1280px) {
-  footer #sub-header {
-    font-size: 2.75em;
-  }
-}
-
-footer p {
+.bottom .contact p {
+  color: #ee3e0e;
+  text-align: right;
+  margin: 0;
+  margin-left: 0.8em;
+  font-size: 1.2em;
   font-weight: 600;
-  font-size: 3em;
-  letter-spacing: 5px;
-  color: #f64a1e;
-  margin: 0.175em auto;
 }
 
-footer .bottom {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 100%;
-  margin: 2rem auto 0.5rem;
+.bottom .contact .numbers {
+  margin-right: 1em;
 }
 
-footer .bottom p {
-  color: white;
-  font-family: poppins, sans-serif;
-  font-weight: normal;
-  font-size: 1em;
-  letter-spacing: 1px;
-  text-align: justify;
-  padding: 0 10%;
-}
-
-footer .bottom .contact {
-  width: 23%;
-  margin-right: 4%;
-}
-
-@media (min-width: 981px) and (max-width: 1280px) {
-  footer .bottom .contact {
-    width: 25%;
-    margin-right: 8%;
-  }
-}
-
-footer .bottom .contact span {
-  color: white;
-  font-size: 1.35em;
-  text-align: justify;
-  padding: 0 7%;
-}
-
-footer .bottom .contact p {
-  margin-top: 1rem;
-  text-align: left;
-  padding-left: 3em;
-}
-
-footer .email {
-  width: 50%;
-  margin-left: 4%;
-  font-weight: 700;
-}
-
-footer .email span {
-  padding: 0 7%;
-  width: auto;
-  font-size: 1.35em;
-}
-
-footer .email p {
-  margin-top: 1rem;
-}
-
-footer .email p a {
-  color: white;
+.bottom .contact .numbers a {
+  color: #7ff76f;
+  font-weight: 500;
   text-decoration: none;
-}
-
-footer .smBtns {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: -2em auto 0.25em;
-  width: 50%;
-}
-
-footer .smBtns img {
-  height: 3em;
-  width: 3em;
-}
-
-footer .smBtns .counter {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-footer span {
-  color: white;
-  font-size: 0.8rem;
-  font-weight: 700;
-  margin: 1.5rem auto 0.75rem;
 }
 /*# sourceMappingURL=Footer.css.map */

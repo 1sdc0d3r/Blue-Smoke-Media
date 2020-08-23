@@ -42,7 +42,6 @@ function App() {
   }, []);
   return (
     <div className="App">
-      {" "}
       {isPlaying ? (
         <video
           type={"video/mp4"}
@@ -91,39 +90,39 @@ function App() {
             </div>
           </header>
           <Switch>
-            <Route exact path="/" component={Home} />{" "}
-            <Route path="/team" component={Team} />{" "}
-            <Route path="/Ad-CopyWriting" component={AdCopyWriting} />{" "}
+            <Route exact path="/" component={Home} />
+            <Route path="/team" component={Team} />
+            <Route path="/Ad-CopyWriting" component={AdCopyWriting} />
             <Route
               path="/customWebsiteDesign"
               component={CustomWebsiteDesign}
-            />{" "}
+            />
             <Route
               path="/E-CommerceWebsiteDevelopment"
               component={ECommerceWebsiteDevelopment}
-            />{" "}
-            <Route path="/inquirySurveyForm" component={InquirySurveyForm} />{" "}
-            <Route path="/webMaintenance" component={WebMaintenance} />{" "}
-            <Route path="/coding" component={WebsiteProgrammingCoding} />{" "}
-            <Route path="/websiteUsability" component={WebsiteUsability} />{" "}
-            {/* //! SEO */} <Route path="/seoOrganic" component={OrganicSeo} />{" "}
-            <Route path="/seoFriendly" component={SeoFriendly} />{" "}
-            {/* //! Graphic Design Services */}{" "}
+            />
+            <Route path="/inquirySurveyForm" component={InquirySurveyForm} />
+            <Route path="/webMaintenance" component={WebMaintenance} />
+            <Route path="/coding" component={WebsiteProgrammingCoding} />
+            <Route path="/websiteUsability" component={WebsiteUsability} />
+            {/* //! SEO */} <Route path="/seoOrganic" component={OrganicSeo} />
+            <Route path="/seoFriendly" component={SeoFriendly} />
+            {/* //! Graphic Design Services */}
             <Route
               path="/printAndGraphicServices"
               component={PrintAndGraphicServices}
-            />{" "}
-            {/* //! Web Design Services */}{" "}
-            <Route path="/printedMediaLogos" component={PrintedMediaLogos} />{" "}
-            <Route path="/websiteLogoDesign" component={WebsiteLogoDesign} />{" "}
-            {/* <Route path="/portfolio" component={Portfolio} />{" "} */}{" "}
-            <Route path="/blog" component={Blog} />{" "}
-            <Route path="/contact" component={Contact} />{" "}
-            {/* <Route component={NoMatch} />{" "} */}{" "}
-          </Switch>{" "}
+            />
+            {/* //! Web Design Services */}
+            <Route path="/printedMediaLogos" component={PrintedMediaLogos} />
+            <Route path="/websiteLogoDesign" component={WebsiteLogoDesign} />
+            {/* <Route path="/portfolio" component={Portfolio} /> */}
+            <Route path="/blog" component={Blog} />
+            <Route path="/contact" component={Contact} />
+            {/* <Route component={NoMatch} /> */}
+          </Switch>
           <Footer />
         </>
-      )}{" "}
+      )}
     </div>
   );
 }
@@ -132,8 +131,8 @@ function App() {
 //   return (
 //     <div className="error 404">
 //       <h3>
-//         404 No match for <code> {location.pathname} </code>{" "}
-//       </h3>{" "}
+//         404 No match for <code> {location.pathname} </code>
+//       </h3>
 //     </div>
 //   );
 // }

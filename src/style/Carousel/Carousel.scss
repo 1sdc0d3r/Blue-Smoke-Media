@@ -1,11 +1,11 @@
 @import "../Utils/Mixins/Mixins.scss";
 
 .slider {
+  background: #04227a;
   .inner-slide {
     display: flex;
     justify-content: space-between;
     height: 100%;
-    background: #04227a;
     padding-left: 2%;
     padding-right: 2%;
 
@@ -76,7 +76,7 @@
     margin: auto;
   }
   .dot___3c3SI {
-    background: #ee3e0e;
+    background: $green;
     margin-left: 0.5em;
     // border: none;
     border-radius: 50%;
@@ -84,7 +84,7 @@
     border: 0px;
   }
   .carousel__dot--selected {
-    background: $white;
+    background: #ee3e0e;
   }
   img {
     width: 40%;

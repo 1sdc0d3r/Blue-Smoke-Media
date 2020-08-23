@@ -165,6 +165,7 @@ export default function Home() {
             </div>
           </div>
           <div className="service-card">
+            //todo greensock flip
             <div className="service-card-front">
               <img src={slide} alt="placeholder" />
 

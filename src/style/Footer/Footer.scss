@@ -1,193 +1,81 @@
 @import "../Utils/Mixins/Mixins.scss";
 
 footer {
-  background-image: url("../../images/blue-background.png");
-  background-size: cover;
-  background-repeat: no-repeat;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  background: $royalBlue;
+  padding-top: 2em;
   text-align: left;
-  border-top: 0.65rem solid $orange;
-
-  img {
-    width: 92%;
-    height: 20vh;
-    margin: 5% auto 1%;
-
-    @include breakpoint(mobile) {
-      height: 10vh;
-    }
+  div {
+    width: 16%;
+    padding: 0 0.5em;
   }
-
-  #sub-header {
-    -webkit-text-stroke: 0.85px $darkBlue;
-    text-shadow: 5px 5px $darkBlue;
-    text-align: center;
-
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -o-user-select: none;
-    user-select: none;
-
-    @include breakpoint(l) {
-      font-size: 2.75em;
-    }
-
-    @include breakpoint(mobile) {
-      font-size: 1.2em;
-      text-shadow: 2px 2px $darkBlue;
-      -webkit-text-stroke: 0px;
-    }
-  }
-
-  p {
-    font-weight: 600;
-    font-size: 3em;
-    letter-spacing: 5px;
+  h3 {
     color: $orange;
-    margin: 0.175em auto;
-    // text-shadow: -0.5px -0.5px $white;
+    text-shadow: 2px 2px $darkBlue;
+    text-transform: uppercase;
   }
+  ul {
+    padding: 0;
+    list-style: none;
 
-  .bottom {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin: 2rem auto 0.5rem;
-
-    @include breakpoint(mobile) {
-      flex-direction: row-reverse;
+    li:hover {
+      margin-left: 5%;
     }
-
-    p {
-      color: $white;
-      font-family: poppins, sans-serif;
-      font-weight: normal;
-      font-size: 1em;
-      letter-spacing: 1px;
-      text-align: justify;
-      padding: 0 10%;
-
-      @include breakpoint(mobile) {
-        padding: 0;
-        text-align: left;
+    // todo text-align text w/ chevron
+    li {
+      padding: 0.5em 0;
+      text-shadow: 1px 1px $darkBlue;
+      transition: 0.3s ease-in-out;
+      ::before {
+        content: "> ";
+        font-weight: 800;
+        color: $orange;
       }
-    }
-
-    .contact {
-      width: 23%;
-      margin-right: 4%;
-
-      // padding-left: 1.367rem;
-      @include breakpoint(l) {
-        width: 25%;
-        margin-right: 8%;
+      :hover {
+        color: goldenrod;
       }
-
-      @include breakpoint(mobile) {
-        margin-right: 0;
-        width: 35%;
-        margin-left: 0.8em;
-      }
-
-      span {
-        color: $white;
-        font-size: 1.35em;
-        text-align: justify;
-        padding: 0 7%;
-
-        @include breakpoint(mobile) {
-          display: none;
-        }
-      }
-
-      p {
-        margin-top: 1rem;
-        text-align: left;
-        padding-left: 3em;
-
-        @include breakpoint(mobile) {
-          margin: 0;
-        }
-      }
-    }
-  }
-
-  .email {
-    width: 50%;
-    margin-left: 4%;
-    font-weight: 700;
-
-    @include breakpoint(mobile) {
-      // display: none;
-      // font-size: .8em;
-      margin-left: 0;
-      width: auto;
-    }
-
-    span {
-      padding: 0 7%;
-      width: auto;
-      font-size: 1.35em;
-
-      @include breakpoint(mobile) {
-        display: none;
-      }
-    }
-
-    p {
-      margin-top: 1rem;
-
       a {
-        color: $white;
+        text-decoration: none;
+        color: $lightBlue;
+      }
+    }
+  }
+}
+.bottom {
+  display: flex;
+  color: $white;
+  background: $darkBlue;
+  justify-content: space-between;
+  height: 15vh;
+  .payment {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    color: $green;
+  }
+  .contact {
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+    align-items: center;
+    text-transform: uppercase;
+    p {
+      color: $orange;
+      text-align: right;
+      margin: 0;
+      margin-left: 0.8em;
+      font-size: 1.2em;
+      font-weight: 600;
+    }
+    .numbers {
+      margin-right: 1em;
+      a {
+        color: $green;
+        font-weight: 500;
         text-decoration: none;
       }
-    }
-  }
-
-  .smBtns {
-    display: flex;
-    justify-content: space-between;
-    margin: -2em auto 0.25em;
-    width: 50%;
-
-    @include breakpoint(mobile) {
-      width: 80%;
-      margin: 0.8em auto 0;
-    }
-
-    img {
-      height: 3em;
-      width: 3em;
-
-      // margin: .25em;
-      @include breakpoint(mobile) {
-        height: 2em;
-        width: 2em;
-      }
-    }
-
-    .counter {
-      display: flex;
-      flex-direction: column;
-      // margin: auto;
-    }
-  }
-
-  //copy
-  span {
-    color: $white;
-    font-size: 0.8rem;
-    font-weight: 700;
-    margin: 1.5rem auto 0.75rem;
-
-    @include breakpoint(mobile) {
-      margin: 1.5rem auto 0.2rem;
-      text-align: center;
-      color: darkgrey;
     }
   }
 }

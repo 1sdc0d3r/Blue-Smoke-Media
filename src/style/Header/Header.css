@@ -1,5 +1,5 @@
 header {
-  background-image: url("../../images/header_background.png");
+  background-image: url("../../images/blue-backgrnd-globe.png");
   background-size: cover;
   background-repeat: no-repeat;
   display: -webkit-box;
@@ -31,39 +31,30 @@ header .blue-smoke {
 
 header .blue-smoke img {
   width: 100%;
+  height: 11vh;
 }
 
 header .blue-smoke p {
-  font-weight: 700;
-  font-size: 1.65em;
-  letter-spacing: 5px;
-  line-height: 1.2;
-  color: #f64a1e;
-  margin: 0.175em auto 0.35em;
-  text-shadow: 3px 3px #0b2673;
-  font-weight: 900;
+  font-size: 1.2em;
+  color: #ee3e0e;
+  margin: 0;
+  text-shadow: 3px 3px #020723;
   white-space: nowrap;
   text-align: center;
-}
-
-@media (min-width: 981px) and (max-width: 1280px) {
-  header .blue-smoke p {
-    font-size: 1em;
-    white-space: normal;
-    word-break: break-word;
-    width: 90%;
-  }
+  font-weight: 700;
+  line-height: 1.75;
+  text-align: center;
 }
 
 header .blue-smoke span {
   margin-top: 0.9em;
   font-weight: 700;
-  -webkit-text-stroke: 0.5px #0b2673;
+  -webkit-text-stroke: 0.5px #020723;
   font-size: 1.05em;
 }
 
 header .center {
-  color: white;
+  color: #d7dae6;
   width: 30%;
   margin: auto 0;
   text-align: left;
@@ -98,7 +89,7 @@ header .center p:nth-child(2) {
 
 header .center p span {
   text-transform: uppercase;
-  color: #f64a1e;
+  color: #ee3e0e;
 }
 
 header .silhouette-div {

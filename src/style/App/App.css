@@ -10,7 +10,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 1.3em;
-  color: #0b2673;
+  color: #020723;
 }
 
 .App header {
@@ -20,11 +20,21 @@ html {
 }
 
 .App header .cta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 27%;
+  padding: 1%;
   background: #f83600;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(10%, #f83600), color-stop(80%, #facc22));
   background: linear-gradient(0deg, #f83600 10%, #facc22 80%);
-  width: 27%;
-  padding: 1%;
 }
 
 .App header .cta p {
@@ -34,7 +44,7 @@ html {
 }
 
 .App header .cta p span {
-  color: #0b2673;
+  color: #020723;
   text-decoration: underline;
 }
 

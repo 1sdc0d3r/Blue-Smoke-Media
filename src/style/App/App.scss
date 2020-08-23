@@ -31,30 +31,22 @@ html {
     display: flex;
 
     .cta {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 27%;
+      padding: 1%;
       background: rgb(248, 54, 0);
       background: linear-gradient(
         0deg,
         rgba(248, 54, 0, 1) 10%,
         rgba(250, 204, 34, 1) 80%
       );
-      width: 27%;
-      padding: 1%;
-
-      @include breakpoint(l) {
-        // width: 50%;
-      }
 
       p {
-        // height: 60%;
-        // margin: 0;
         margin: 7.5% auto;
         font-size: 1.3em;
         font-weight: 700;
-
-        // @include breakpoint(l) {
-        //   font-size: 1.15em;
-        //   margin: 25% auto 10%;
-        // }
 
         span {
           color: $darkBlue;

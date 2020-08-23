@@ -79,7 +79,7 @@ export default function Carousel() {
               </button>
             </div>
             <div className="dots">
-              <Dot slide={0} style={{ color: "red", background: "red" }} />
+              <Dot slide={0} />
               <Dot slide={1} />
               <Dot slide={2} />
             </div>
