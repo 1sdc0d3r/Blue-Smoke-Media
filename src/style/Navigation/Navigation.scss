@@ -1,5 +1,6 @@
 @import "../Utils/Mixins/Mixins.scss";
 
+//todo all services included in navbar
 nav {
   display: flex;
   // height: 4vh;
@@ -8,6 +9,7 @@ nav {
   // border-top: 2px solid $darkBlue;
   // border-bottom: 2px solid $darkBlue;
   padding: 0 15%;
+  z-index: 500;
   justify-content: space-around;
   -webkit-user-select: none;
   -khtml-user-select: none;

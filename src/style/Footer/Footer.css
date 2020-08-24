@@ -49,7 +49,11 @@ footer ul li :hover {
 
 footer ul li a {
   text-decoration: none;
-  color: #1e92f6;
+  color: skyblue;
+}
+
+footer ul li img {
+  width: 2em;
 }
 
 .bottom {

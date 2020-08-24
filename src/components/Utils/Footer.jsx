@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import axios from "axios";
 import blueSmoke from "../../images/blue-smoke.png";
 import youtube from "../../images/youTube.png";
 import twitter from "../../images/Twitter.png";
@@ -7,7 +6,8 @@ import linkedIn from "../../images/linkedIn_social_media_button.png";
 import instagram from "../../images/instagram.png";
 import behance from "../../images/Behance.png";
 import facebook from "../../images/faceBook.png";
-
+// todo links
+//todo make sure everything is in here
 export default function Footer() {
   return (
     <>
@@ -16,22 +16,22 @@ export default function Footer() {
           <h3>About Us</h3>
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="#">Our Team</a>
+              <a href="/team">Our Team</a>
             </li>
-            <li>
+            {/* <li>
               <a href="#">Our Portfolio</a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a href="#">Our Blog</a>
+            </li> */}
+            <li>
+              <a href="/inquirySurveyForm">Inquiry Form</a>
             </li>
             <li>
-              <a href="#">Inquiry Form</a>
-            </li>
-            <li>
-              <a href="#">Contact Us</a>
+              <a href="/contact">Contact Us</a>
             </li>
           </ul>
         </div>
@@ -39,27 +39,27 @@ export default function Footer() {
           <h3>Products</h3>
           <ul>
             <li>
-              <a href="#">Website Design</a>
+              <a href="/customWebsiteDesign">Website Design</a>
             </li>
             <li>
-              <a href="o/about-">
+              <a href="/seo">
                 Search Engine
                 <br />
                 Optimization
               </a>
             </li>
             <li>
-              <a href="c">Graphic Design</a>
+              <a href="/printAndGraphicServices">Graphic Design</a>
             </li>
-            <li>
+            {/* <li>
               <a href="a/">Social Media Marketing</a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a href="l-">Corporate Branding</a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a href="#">Reputation Management</a>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className="">
@@ -145,10 +145,7 @@ export default function Footer() {
           <ul>
             <li>
               <a href="" target="_blank">
-                <img
-                  src="s/Social_media_icons/linkedIn_social_media_button.png"
-                  alt="n Social Media Button"
-                />
+                <img src={linkedIn} alt="n Social Media Button" />
               </a>
             </li>
             <li>

@@ -14,15 +14,15 @@ import "pure-react-carousel/dist/react-carousel.es.css";
 import slide1 from "../images/slide-1.png";
 import slide2 from "../images/slide-2.png";
 import slide3 from "../images/slide-3.png";
-
+// todo links
 export default function Carousel() {
   return (
     <CarouselProvider
       naturalSlideWidth={100}
       naturalSlideHeight={45}
       totalSlides={3}
-      // isPlaying={true}
-      interval={6000}
+      isPlaying={true}
+      interval={4000}
       currentSlide={0}
     >
       <Slider className="slider">

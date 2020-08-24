@@ -5,9 +5,11 @@ export default function Navigation() {
   return (
     <nav>
       <div className="dropdown">
-        <NavLink to="/" className="drop-btn nav-item">
-          Home
-        </NavLink>
+        <button className="drop-btn nav-item">
+          <NavLink to="/" className="nav-item">
+            Home
+          </NavLink>
+        </button>
         <div className="dropdown-content">
           <div className="nav-section">
             <NavLink to="/sitemap" className="drop-item">
