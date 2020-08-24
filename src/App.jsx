@@ -31,6 +31,8 @@ import CTA from "./components/Header-CTA";
 import landingVideo from "./videos/LandingPageVideo.mp4";
 //todo learn E-Commerce
 //todo add SEO to website w/ CoBe
+//todo set up google analytics
+//analytics.google.com/analytics/web/provision/#/a168002604p234303565/admin/streams/promo
 
 function App() {
   //! enable video here
@@ -65,7 +67,6 @@ function App() {
               <Header />
               <Navigation />
             </div>
-            {/* //todo extract to component */}
             <CTA />
           </header>
           <Switch>

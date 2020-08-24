@@ -14,7 +14,6 @@
     background-repeat: no-repeat;
     height: 75vh;
     min-width: 80%;
-    // margin: 3rem auto;
     border-top: 0.5em solid #020723;
     border-bottom: 0.5em solid #020723;
 
@@ -166,10 +165,11 @@
       display: flex;
       justify-content: space-around;
       margin: 5% auto 13%;
+      // position: relative;
 
       .service-card {
         width: 22%;
-        position: relative;
+        // position: relative;
 
         .service-card-front {
           border: 2px inset #f9d265;
@@ -186,12 +186,13 @@
           }
         }
         .service-card-back {
-          display: none;
-          position: absolute;
+          display: flex;
+          flex-direction: column;
           background: $lightBlue;
           color: $darkBlue;
           padding: 1em 0.75em 0em;
           border: 1px inset $darkBlue;
+          position: absolute;
           h3 {
             color: $darkBlue;
             margin: 0 0 0.4em;
@@ -204,18 +205,17 @@
             }
           }
         }
-        &:hover {
-          .service-card-front {
-            background: red;
-            display: none;
-            position: absolute;
-          }
-          .service-card-back {
-            display: flex;
-            flex-direction: column;
-            position: inline-block;
-          }
-        }
+        // &:hover {
+        //   .service-card-front {
+        //     display: none;
+        //     position: absolute;
+        //   }
+        //   .service-card-back {
+        //     display: flex;
+        //     flex-direction: column;
+        //     position: inline-block;
+        //   }
+        // }
       }
     }
   }

@@ -11,7 +11,8 @@
   font-size: 3em;
   text-align: center;
   margin-bottom: 3rem;
-  text-shadow: #1e92f6 2px -2.5px;
+  color: #04227a;
+  text-shadow: #020723 2px 2px;
 }
 
 .team .team-top p a {
@@ -23,7 +24,7 @@
 }
 
 .team .team-top p a:hover {
-  color: #f64a1e;
+  color: #ee3e0e;
 }
 
 .team .team-middle {

@@ -56,29 +56,16 @@ header .blue-smoke span {
 header .center {
   color: #d7dae6;
   width: 30%;
-  margin: auto 0;
-  text-align: left;
-}
-
-@media (min-width: 981px) and (max-width: 1280px) {
-  header .center {
-    width: 23%;
-  }
+  margin: auto 0.25em;
 }
 
 header .center p {
   font-weight: 900;
-  font-size: 1.4em;
+  font-size: 0.9em;
   text-shadow: black 1px 4px 4px;
   letter-spacing: 2px;
   -webkit-margin-after: 0.5em;
           margin-block-end: 0.5em;
-}
-
-@media (min-width: 981px) and (max-width: 1280px) {
-  header .center p {
-    font-size: 1em;
-  }
 }
 
 header .center p:nth-child(2) {

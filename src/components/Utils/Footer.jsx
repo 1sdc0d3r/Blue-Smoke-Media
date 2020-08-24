@@ -5,24 +5,8 @@ import youtube from "../../images/youTube.png";
 import twitter from "../../images/Twitter.png";
 import linkedIn from "../../images/linkedIn_social_media_button.png";
 import instagram from "../../images/instagram.png";
-// todo get this in a png
 import behance from "../../images/Behance.png";
 import facebook from "../../images/faceBook.png";
-// const blueSmoke =
-//   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/blue-smoke.png";
-// const youtube =
-//   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/youTube.png";
-// const twitter =
-//   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/Twitter.png";
-// const linkedIn =
-//   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/linkedIn_social_media_button.png";
-// const instagram =
-//   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/instagram.png";
-// // todo get this in a png
-// const behance =
-//   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/Behance.png";
-// const facebook =
-//   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/faceBook.png";
 
 export default function Footer() {
   return (

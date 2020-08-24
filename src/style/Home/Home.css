@@ -174,7 +174,6 @@
 
 .home .services .services-card-container .service-card {
   width: 22%;
-  position: relative;
 }
 
 .home .services .services-card-container .service-card .service-card-front {
@@ -198,12 +197,18 @@
 }
 
 .home .services .services-card-container .service-card .service-card-back {
-  display: none;
-  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background: #1e92f6;
   color: #020723;
   padding: 1em 0.75em 0em;
   border: 1px inset #020723;
+  position: absolute;
 }
 
 .home .services .services-card-container .service-card .service-card-back h3 {
@@ -218,23 +223,6 @@
 
 .home .services .services-card-container .service-card .service-card-back p span {
   font-weight: 600;
-}
-
-.home .services .services-card-container .service-card:hover .service-card-front {
-  background: red;
-  display: none;
-  position: absolute;
-}
-
-.home .services .services-card-container .service-card:hover .service-card-back {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  position: inline-block;
 }
 
 .home .help {

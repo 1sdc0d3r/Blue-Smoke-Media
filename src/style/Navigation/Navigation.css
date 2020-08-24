@@ -2,7 +2,7 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: #0b2673;
+  background: #020723;
   padding: 0 15%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -59,12 +59,12 @@ nav {
 
 @media (min-width: 1681px) {
   nav {
-    background: white;
+    background: #d7dae6;
   }
 }
 
 nav .nav-item {
-  color: white;
+  color: #d7dae6;
   font-size: 1em;
   text-align: center;
   padding: 0.5em 0.65em;
@@ -72,7 +72,7 @@ nav .nav-item {
 }
 
 nav .nav-item:hover {
-  color: #f64a1e;
+  color: #ee3e0e;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   -webkit-transition: ease-in-out 150ms;
@@ -96,7 +96,7 @@ nav .dropdown:hover .dropdown-content {
 }
 
 nav .dropdown:hover .drop-btn {
-  color: #f64a1e;
+  color: #ee3e0e;
 }
 
 nav .dropdown .dropdown-content {
@@ -140,14 +140,14 @@ nav .dropdown .dropdown-content .nav-section:nth-child(2) .split div {
 }
 
 nav .dropdown .dropdown-content .nav-section h3 {
-  color: #f64a1e;
+  color: #ee3e0e;
   text-decoration: underline;
   margin-bottom: 0.25em;
 }
 
 nav .dropdown .dropdown-content .drop-item {
   float: none;
-  color: white;
+  color: #d7dae6;
   padding: 0.5em 1em;
   margin: 0.2em;
   text-decoration: none;
@@ -161,7 +161,7 @@ nav .dropdown .dropdown-content .drop-item {
 }
 
 nav .dropdown .dropdown-content .drop-item:hover {
-  color: #f64a1e;
+  color: #ee3e0e;
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
   -webkit-transition: ease-in-out 200ms;

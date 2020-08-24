@@ -10,7 +10,7 @@
   display: flex;
   width: 80%;
   margin: auto;
-  background: white;
+  background: #d7dae6;
   margin: 2em auto;
   box-shadow: 15px 20px 55px -16px rgba(0, 0, 0, 0.79);
   -webkit-box-shadow: 15px 20px 55px -16px rgba(0, 0, 0, 0.79);
@@ -45,7 +45,7 @@
 
 .blog .post .content h3 {
   text-align: center;
-  margin: .5em auto;
+  margin: 0.5em auto;
 }
 
 .blog .post .content p {
@@ -54,8 +54,8 @@
 
 .blog .post .content button {
   border: 1px solid black;
-  padding: .5em 1em;
+  padding: 0.5em 1em;
   width: 25%;
-  background: white;
+  background: #d7dae6;
 }
 /*# sourceMappingURL=Blog.css.map */

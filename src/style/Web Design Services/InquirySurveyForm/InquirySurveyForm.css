@@ -4,7 +4,7 @@
 
 .inquiryForm h1 {
   padding-top: 0.7em;
-  color: #0b2673;
+  color: #020723;
 }
 
 .inquiryForm p {
@@ -99,8 +99,8 @@
 }
 
 .inquiryForm form .actions input:hover {
-  background: #f64a1e;
-  color: white;
+  background: #ee3e0e;
+  color: #d7dae6;
   font-weight: 700;
 }
 

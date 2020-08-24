@@ -1,17 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-// todo fix the order, set up links to pages, get site map
 export default function Navigation() {
   return (
     <nav>
-      {/* <NavLink to="/" className="drop-btn nav-item">
-        Home
-      </NavLink> */}
       <div className="dropdown">
-        <button to="/" className="drop-btn nav-item">
+        <NavLink to="/" className="drop-btn nav-item">
           Home
-        </button>
+        </NavLink>
         <div className="dropdown-content">
           <div className="nav-section">
             <NavLink to="/sitemap" className="drop-item">

@@ -1,16 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import slide from "../images/slide-1.png";
 import help1 from "../images/help-icon-1.png";
 import help2 from "../images/help-icon-2.png";
 import help3 from "../images/help-icon-3.png";
-
 import Carousel from "./Carousel";
+import ReactCardFlip from "react-card-flip";
 
-//todo set up google analytics
-//analytics.google.com/analytics/web/provision/#/a168002604p234303565/admin/streams/promo
-// todo remove react helmet
 export default function Home() {
+  const [card1, setCard1] = useState(false);
+  const [card2, setCard2] = useState(false);
+  const [card3, setCard3] = useState(false);
+  const [card4, setCard4] = useState(false);
   return (
     <div className="home">
       <Carousel />
@@ -111,75 +112,97 @@ export default function Home() {
           will do our very best to find someone who can!
         </p>
         <div className="services-card-container">
-          <div className="service-card">
-            <div className="service-card-front">
-              <img src={slide} alt="placeholder" />
-              <h3>Custom Website Design</h3>
-            </div>
-            <div className="service-card-back">
-              <h3>Custom Website Design</h3>
-              <p>
-                Custom website design is a process because so much goes into it,
-                but businesses get a lot more out of it over the long term.
-                Custom-made websites look better, do more, and accomplish
-                specific business goals.
-              </p>
-            </div>
+          <div
+            className="service-card"
+            onMouseEnter={() => setCard1(true)}
+            onMouseLeave={() => setCard1(false)}
+          >
+            <ReactCardFlip isFlipped={card1} flipDirection="horizontal">
+              <div className="service-card-front">
+                <img src={slide} alt="placeholder" />
+                <h3>Custom Website Design</h3>
+              </div>
+              <div className="service-card-back">
+                <h3>Custom Website Design</h3>
+                <p>
+                  Custom website design is a process because so much goes into
+                  it, but businesses get a lot more out of it over the long
+                  term. Custom-made websites look better, do more, and
+                  accomplish specific business goals.
+                </p>
+              </div>
+            </ReactCardFlip>
           </div>
-          <div className="service-card">
-            <div className="service-card-front">
-              <img src={slide} alt="placeholder" />
-              <h3>Search Engine Optimization (SEO)</h3>
-            </div>
-            <div className="service-card-back">
-              <h3>Search Engine Optimization (SEO)</h3>
-              <p>
-                Making a website SEO friendly means that Google and other search
-                engines can crawl each page on the website efficiently,
-                interpret the content effectively, and index it in their
-                database. Once indexed, they can then serve the most relevant
-                and valuable web pages to their users based on the topics they
-                search for.
-              </p>
-            </div>
+          <div
+            className="service-card"
+            onMouseEnter={() => setCard2(true)}
+            onMouseLeave={() => setCard2(false)}
+          >
+            <ReactCardFlip isFlipped={card2} flipDirection="horizontal">
+              <div className="service-card-front">
+                <img src={slide} alt="placeholder" />
+                <h3>Search Engine Optimization (SEO)</h3>
+              </div>
+              <div className="service-card-back">
+                <h3>Search Engine Optimization (SEO)</h3>
+                <p>
+                  Making a website SEO friendly means that Google and other
+                  search engines can crawl each page on the website efficiently,
+                  interpret the content effectively, and index it in their
+                  database. Once indexed, they can then serve the most relevant
+                  and valuable web pages to their users based on the topics they
+                  search for.
+                </p>
+              </div>
+            </ReactCardFlip>
           </div>
-          <div className="service-card">
-            <div className="service-card-front">
-              <img src={slide} alt="placeholder" />
-              <h3>Digital and Printed Graphic Design</h3>
-            </div>
-            <div className="service-card-back">
-              <h3>Digital and Printed Graphic Design</h3>
-              <p>
-                The question of engagement in digital and printed design is
-                oriented mostly around how and where a viewer will encounter the
-                work. The Blue Smoke Media team, are responsible for the design
-                and layout of interactive and printed informational materials
-                such as:{"  "}
-                <span>
-                  Websites, Brochures, Advertising Flyers, Billboards, and
-                  Business Cards.
-                </span>
-              </p>
-            </div>
+          <div
+            className="service-card"
+            onMouseEnter={() => setCard3(true)}
+            onMouseLeave={() => setCard3(false)}
+          >
+            <ReactCardFlip isFlipped={card3} flipDirection="horizontal">
+              <div className="service-card-front">
+                <img src={slide} alt="placeholder" />
+                <h3>Digital and Printed Graphic Design</h3>
+              </div>
+              <div className="service-card-back">
+                <h3>Digital and Printed Graphic Design</h3>
+                <p>
+                  The question of engagement in digital and printed design is
+                  oriented mostly around how and where a viewer will encounter
+                  the work. The Blue Smoke Media team, are responsible for the
+                  design and layout of interactive and printed informational
+                  materials such as:{"  "}
+                  <span>
+                    Websites, Brochures, Advertising Flyers, Billboards, and
+                    Business Cards.
+                  </span>
+                </p>
+              </div>
+            </ReactCardFlip>
           </div>
-          <div className="service-card">
-            //todo greensock flip
-            <div className="service-card-front">
-              <img src={slide} alt="placeholder" />
-
-              <h3>Social Media and Internet Marketing</h3>
-            </div>
-            <div className="service-card-back">
-              <h3>Social Media and Internet Marketing</h3>
-              <p>
-                It’s crucial you determine which platforms you’re going to share
-                your content on. There’s not necessarily a right or wrong answer
-                when it comes to which social channels your business should use
-                — it’s more about the needs of your target audience and where
-                they tend to spend their time.
-              </p>
-            </div>
+          <div
+            className="service-card"
+            onMouseEnter={() => setCard4(true)}
+            onMouseLeave={() => setCard4(false)}
+          >
+            <ReactCardFlip isFlipped={card4} flipDirection="horizontal">
+              <div className="service-card-front">
+                <img src={slide} alt="placeholder" />
+                <h3>Social Media and Internet Marketing</h3>
+              </div>
+              <div className="service-card-back">
+                <h3>Social Media and Internet Marketing</h3>
+                <p>
+                  It’s crucial you determine which platforms you’re going to
+                  share your content on. There’s not necessarily a right or
+                  wrong answer when it comes to which social channels your
+                  business should use — it’s more about the needs of your target
+                  audience and where they tend to spend their time.
+                </p>
+              </div>
+            </ReactCardFlip>
           </div>
         </div>
       </section>

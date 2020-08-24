@@ -1,12 +1,9 @@
 @import "../../Utils/Mixins/Mixins.scss";
 
 .website-usability {
-  //todo crop bottom of img a little
   img {
     width: 100%;
     height: 65vh;
-    border-bottom: 50px outset $darkBlue; //2px
-    // todo fix  border on bottom
   }
 
   .content {
@@ -34,8 +31,7 @@
 
       li {
         margin-top: 1em;
-
-        //todo make bulletpoint fall inline
+        //todo make bulletpoints fall inline
         &::before {
           content: "•";
           color: $orange;

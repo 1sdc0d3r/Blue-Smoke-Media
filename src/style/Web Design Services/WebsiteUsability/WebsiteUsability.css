@@ -2,7 +2,6 @@
 .website-usability img {
   width: 100%;
   height: 65vh;
-  border-bottom: 50px outset #0b2673;
 }
 
 .website-usability .content {
@@ -36,7 +35,7 @@
 
 .website-usability .content ul li::before {
   content: "•";
-  color: #f64a1e;
+  color: #ee3e0e;
   font-size: 1.5em;
   margin-right: 0.45em;
 }

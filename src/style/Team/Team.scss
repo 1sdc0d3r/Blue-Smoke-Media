@@ -1,5 +1,5 @@
 @import "../Utils/Mixins/Mixins.scss";
-
+//todo fix profile images
 .team {
   text-align: justify;
   margin: 3rem 3rem;
@@ -19,8 +19,8 @@
       font-size: 3em;
       text-align: center;
       margin-bottom: 3rem;
-      //todo change color
-      text-shadow: $lightBlue 2px -2.5px;
+      color: $royalBlue;
+      text-shadow: $darkBlue 2px 2px;
 
       @include breakpoint(mobile) {
         margin: 1.5rem auto;
