@@ -103,6 +103,7 @@ nav .dropdown:hover .drop-btn {
 nav .dropdown .dropdown-content {
   display: none;
   position: absolute;
+  z-index: 5;
   background: #020723;
   padding: 0.15em 1em 0.5em;
   opacity: 90%;
@@ -114,9 +115,8 @@ nav .dropdown .dropdown-content {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  left: -50%;
+  left: 0;
   right: 0;
-  margin: auto;
 }
 
 nav .dropdown .dropdown-content .nav-section {
@@ -159,6 +159,7 @@ nav .dropdown .dropdown-content .drop-item {
   min-width: -webkit-min-content;
   min-width: -moz-min-content;
   min-width: min-content;
+  width: 5em;
 }
 
 nav .dropdown .dropdown-content .drop-item:hover {

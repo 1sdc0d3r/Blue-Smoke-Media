@@ -194,6 +194,9 @@
           position: absolute;
           h3 {
             color: $darkBlue;
+            // todo keep orange with text-shadow?
+            color: $orange;
+            text-shadow: 2px 2px $darkBlue;
             margin: 0 0 0.4em;
           }
           p {

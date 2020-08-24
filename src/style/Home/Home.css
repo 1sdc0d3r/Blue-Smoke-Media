@@ -217,6 +217,8 @@
 
 .home .services .services-card-container .service-card .service-card-back h3 {
   color: #020723;
+  color: #ee3e0e;
+  text-shadow: 2px 2px #020723;
   margin: 0 0 0.4em;
 }
 

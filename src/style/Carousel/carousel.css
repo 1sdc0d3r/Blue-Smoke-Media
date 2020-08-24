@@ -1,8 +1,8 @@
-.slider {
+.carousel .slider {
   background: #04227a;
 }
 
-.slider .inner-slide {
+.carousel .slider .inner-slide {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14,7 +14,7 @@
   padding-right: 2%;
 }
 
-.slider .inner-slide .slide-info {
+.carousel .slider .inner-slide .slide-info {
   width: 48%;
   color: #fda900;
   display: -webkit-box;
@@ -30,36 +30,36 @@
   text-align: left;
 }
 
-.slider .inner-slide .slide-info h1 {
+.carousel .slider .inner-slide .slide-info h1 {
   color: #d7dae6;
   margin: 0;
   font-size: 2.3em;
 }
 
-.slider .inner-slide .slide-info h4 {
+.carousel .slider .inner-slide .slide-info h4 {
   padding-left: 2%;
 }
 
-.slider .inner-slide .slide-info p {
+.carousel .slider .inner-slide .slide-info p {
   padding-left: 4%;
   margin: 0;
   line-height: 1.4em;
 }
 
-.slider .inner-slide .slide-info p span {
+.carousel .slider .inner-slide .slide-info p span {
   color: #ee3e0e;
   font-weight: 600;
 }
 
-.slider .inner-slide .slide-info .description {
+.carousel .slider .inner-slide .slide-info .description {
   margin-top: 1.5em;
 }
 
-.slider .inner-slide .slide-info .description span {
+.carousel .slider .inner-slide .slide-info .description span {
   font-weight: 600;
 }
 
-.slider .inner-slide .slide-info button {
+.carousel .slider .inner-slide .slide-info button {
   font-weight: 600;
   background: #ee3e0e;
   margin-left: 5%;
@@ -71,7 +71,7 @@
   width: 25%;
 }
 
-.slider .inner-slide .slide-info button a {
+.carousel .slider .inner-slide .slide-info button a {
   padding-top: 0.8em;
   padding-bottom: 0.8em;
   text-decoration: none;
@@ -81,7 +81,7 @@
   font-size: 1.2em;
 }
 
-.slider .dots {
+.carousel .slider .dots {
   position: absolute;
   bottom: 5%;
   left: 0;
@@ -89,7 +89,7 @@
   margin: auto;
 }
 
-.slider .dot___3c3SI {
+.carousel .slider .dot___3c3SI {
   background: #7ff76f;
   margin-left: 0.5em;
   border-radius: 50%;
@@ -97,11 +97,11 @@
   border: 0px;
 }
 
-.slider .carousel__dot--selected {
+.carousel .slider .carousel__dot--selected {
   background: #ee3e0e;
 }
 
-.slider img {
+.carousel .slider img {
   width: 40%;
   max-height: 500px;
   -ms-flex-item-align: center;

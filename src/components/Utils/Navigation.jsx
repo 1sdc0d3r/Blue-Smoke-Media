@@ -63,11 +63,11 @@ export default function Navigation() {
                 <a href="/coding" className="drop-item">
                   Coding and Programming
                 </a>
+                <a href="/inquirySurveyForm" className="drop-item">
+                  Inquiry/Survey Form
+                </a>
               </div>
             </div>
-            <a href="/inquirySurveyForm" className="drop-item">
-              Inquiry/Survey Form
-            </a>
           </div>
           <div className="nav-section">
             <h3>Graphic Design</h3>

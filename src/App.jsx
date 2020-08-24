@@ -33,7 +33,6 @@ import landingVideo from "./videos/LandingPageVideo.mp4";
 //todo add SEO to website w/ CoBe
 //todo set up google analytics
 //analytics.google.com/analytics/web/provision/#/a168002604p234303565/admin/streams/promo
-// todo check all routes and make sure everything is correct and in nav/sitemap
 // todo generate sitemap for .robottxt file
 // todo rename paths (full application)
 function App() {

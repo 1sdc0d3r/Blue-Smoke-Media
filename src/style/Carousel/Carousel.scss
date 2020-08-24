@@ -1,94 +1,97 @@
 @import "../Utils/Mixins/Mixins.scss";
 
-.slider {
-  background: #04227a;
-  .inner-slide {
-    display: flex;
-    justify-content: space-between;
-    height: 100%;
-    padding-left: 2%;
-    padding-right: 2%;
-
-    .slide-info {
-      width: 48%;
-      color: #fda900;
+.carousel {
+  // height: 70vh;
+  .slider {
+    background: #04227a;
+    .inner-slide {
       display: flex;
-      flex-direction: column;
-      justify-content: center;
-      text-align: left;
+      justify-content: space-between;
+      height: 100%;
+      padding-left: 2%;
+      padding-right: 2%;
 
-      h1 {
-        color: $white;
-        margin: 0;
-        font-size: 2.3em;
-      }
-      h4 {
-        padding-left: 2%;
-      }
+      .slide-info {
+        width: 48%;
+        color: #fda900;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
 
-      p {
-        padding-left: 4%;
-        margin: 0;
-        line-height: 1.4em;
-        span {
-          color: #ee3e0e;
-          font-weight: 600;
+        h1 {
+          color: $white;
+          margin: 0;
+          font-size: 2.3em;
         }
-      }
-      // a {
-      //   width: auto;
-      // }
-      .description {
-        margin-top: 1.5em;
-        // font-weight: 500;
-        span {
-          font-weight: 600;
+        h4 {
+          padding-left: 2%;
         }
-      }
 
-      button {
-        font-weight: 600;
-        background: #ee3e0e;
-        margin-left: 5%;
-        border-radius: 0.8em;
-        margin-top: 8%;
-        box-shadow: 2px 2px black;
-        border: none;
-        width: 25%;
-        a {
-          padding-top: 0.8em;
-          padding-bottom: 0.8em;
-          text-decoration: none;
-          color: #020723;
-          display: inline-block;
-          width: 100%;
-          font-size: 1.2em;
+        p {
+          padding-left: 4%;
+          margin: 0;
+          line-height: 1.4em;
+          span {
+            color: #ee3e0e;
+            font-weight: 600;
+          }
+        }
+        // a {
+        //   width: auto;
+        // }
+        .description {
+          margin-top: 1.5em;
+          // font-weight: 500;
+          span {
+            font-weight: 600;
+          }
+        }
+
+        button {
+          font-weight: 600;
+          background: #ee3e0e;
+          margin-left: 5%;
+          border-radius: 0.8em;
+          margin-top: 8%;
+          box-shadow: 2px 2px black;
+          border: none;
+          width: 25%;
+          a {
+            padding-top: 0.8em;
+            padding-bottom: 0.8em;
+            text-decoration: none;
+            color: #020723;
+            display: inline-block;
+            width: 100%;
+            font-size: 1.2em;
+          }
         }
       }
     }
-  }
-  .dots {
-    // margin-bottom: 0;
-    position: absolute;
-    bottom: 5%;
-    left: 0;
-    right: 0;
-    margin: auto;
-  }
-  .dot___3c3SI {
-    background: $green;
-    margin-left: 0.5em;
-    // border: none;
-    border-radius: 50%;
-    padding: 0.5em;
-    border: 0px;
-  }
-  .carousel__dot--selected {
-    background: #ee3e0e;
-  }
-  img {
-    width: 40%;
-    max-height: 500px;
-    align-self: center;
+    .dots {
+      // margin-bottom: 0;
+      position: absolute;
+      bottom: 5%;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+    .dot___3c3SI {
+      background: $green;
+      margin-left: 0.5em;
+      // border: none;
+      border-radius: 50%;
+      padding: 0.5em;
+      border: 0px;
+    }
+    .carousel__dot--selected {
+      background: #ee3e0e;
+    }
+    img {
+      width: 40%;
+      max-height: 500px;
+      align-self: center;
+    }
   }
 }

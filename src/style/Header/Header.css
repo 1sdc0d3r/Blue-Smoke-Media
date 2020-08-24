@@ -13,13 +13,8 @@ header {
 }
 
 header #flame {
-  width: 7%;
-}
-
-@media (min-width: 981px) and (max-width: 1280px) {
-  header #flame {
-    width: 12%;
-  }
+  width: 9%;
+  padding-top: 1%;
 }
 
 header .blue-smoke {

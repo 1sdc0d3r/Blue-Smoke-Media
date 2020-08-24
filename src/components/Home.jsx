@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import slide from "../images/slide-1.png";
+import slide_seo from "../images/seo_file.png";
+import slide_custom from "../images/custom_website_design.png";
+import slide_sm from "../images/social_media.png";
+import slide_graphic from "../images/graphic_design.png";
 import help1 from "../images/help-icon-1.png";
 import help2 from "../images/help-icon-2.png";
 import help3 from "../images/help-icon-3.png";
@@ -119,7 +122,7 @@ export default function Home() {
           >
             <ReactCardFlip isFlipped={card1} flipDirection="horizontal">
               <div className="service-card-front">
-                <img src={slide} alt="placeholder" />
+                <img src={slide_custom} alt="placeholder" />
                 <h3>Custom Website Design</h3>
               </div>
               <div className="service-card-back">
@@ -140,7 +143,7 @@ export default function Home() {
           >
             <ReactCardFlip isFlipped={card2} flipDirection="horizontal">
               <div className="service-card-front">
-                <img src={slide} alt="placeholder" />
+                <img src={slide_seo} alt="placeholder" />
                 <h3>Search Engine Optimization (SEO)</h3>
               </div>
               <div className="service-card-back">
@@ -163,7 +166,7 @@ export default function Home() {
           >
             <ReactCardFlip isFlipped={card3} flipDirection="horizontal">
               <div className="service-card-front">
-                <img src={slide} alt="placeholder" />
+                <img src={slide_graphic} alt="placeholder" />
                 <h3>Digital and Printed Graphic Design</h3>
               </div>
               <div className="service-card-back">
@@ -189,7 +192,7 @@ export default function Home() {
           >
             <ReactCardFlip isFlipped={card4} flipDirection="horizontal">
               <div className="service-card-front">
-                <img src={slide} alt="placeholder" />
+                <img src={slide_sm} alt="placeholder" />
                 <h3>Social Media and Internet Marketing</h3>
               </div>
               <div className="service-card-back">

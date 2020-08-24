@@ -15,12 +15,12 @@ header {
   user-select: none;
 
   #flame {
-    width: 7%;
+    width: 9%;
 
-    // padding-top: 1%;
-    @include breakpoint(l) {
-      width: 12%;
-    }
+    padding-top: 1%;
+    // @include breakpoint(l) {
+    //   width: 12%;
+    // }
   }
 
   @include breakpoint(mobile) {
