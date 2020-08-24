@@ -4,7 +4,7 @@ nav {
   display: flex;
   background: #020723;
   padding: 0 15%;
-  z-index: 500;
+  z-index: 100;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-user-select: none;

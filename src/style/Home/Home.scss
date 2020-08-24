@@ -1,6 +1,7 @@
 @import "../Utils/Mixins/Mixins.scss";
 
 .home {
+  z-index: 50;
   video {
     width: 100%;
     height: 100%;

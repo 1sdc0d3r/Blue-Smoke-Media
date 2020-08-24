@@ -22,7 +22,7 @@ export default function Footer() {
               <a href="/team">Our Team</a>
             </li>
             {/* <li>
-              <a href="#">Our Portfolio</a>
+              <a href="#">Portfolio</a>
             </li> */}
             {/* <li>
               <a href="#">Our Blog</a>
@@ -41,6 +41,7 @@ export default function Footer() {
             <li>
               <a href="/customWebsiteDesign">Website Design</a>
             </li>
+            {/* //todo NEW SEO PAGE */}
             <li>
               <a href="/seo">
                 Search Engine
@@ -62,30 +63,35 @@ export default function Footer() {
             </li> */}
           </ul>
         </div>
-        <div className="">
+        <div>
           <h3>Our Services</h3>
           <ul>
             <li>
-              <a href="l-">Custom Website Design</a>
+              <a href="/customWebsiteDesign">Custom Website Design</a>
             </li>
-            <li>
+            {/* //todo  */}
+            {/* <li>
               <a href="#">Re-Design & Updates</a>
+            </li> */}
+            {/* //todo fix breaking line? */}
+            <li>
+              <a href="/websiteUsability">Website Useability</a>
             </li>
             <li>
-              <a href="d-website-">Website Useability</a>
-            </li>
-            <li>
-              <a href="#">
-                E-commerce Website <br /> Development
+              <a href="/E-CommerceWebsiteDevelopment">
+                E-Commerce Website
+                <br />
+                Development
               </a>
             </li>
             <li>
-              <a href="e-">
-                Website Programming <br /> & Development
+              <a href="/coding">
+                Website Programming
+                <br />& Development
               </a>
             </li>
             <li>
-              <a href="d-">Website Maintenance</a>
+              <a href="/webMaintenance">Website Maintenance</a>
             </li>
           </ul>
         </div>
@@ -93,80 +99,90 @@ export default function Footer() {
           <h3>Organic SEO</h3>
           <ul>
             <li>
-              <a href="e-">
-                SEO Friendly <br /> Website Design
-              </a>{" "}
-            </li>
-            <li>
-              <a href="s-">
-                Digital & Print <br /> Graphic Design
-              </a>{" "}
-            </li>
-            <li>
-              <a href="e-">Printed Media Logos</a>{" "}
-            </li>
-            <li>
-              <a href="x-">Website Logo Design</a>
-            </li>
-            <li>
-              <a href="x-">
-                Social Media <br />& Marketing
+              <a href="/seoFriendly">
+                SEO Friendly
+                <br />
+                Website Design
               </a>
             </li>
             <li>
-              <a href="x-">Reputation & Review Management</a>
+              <a href="/printAndGraphicServices">
+                Digital & Print
+                <br />
+                Graphic Design
+              </a>
             </li>
+            <li>
+              <a href="/printedMediaLogos">Printed Media Logos</a>
+            </li>
+            <li>
+              <a href="/websiteLogoDesign">Website Logo Design</a>
+            </li>
+            {/* //todo social media component */}
+            {/* <li>
+              <a href="x-">
+                Social Media <br />& Marketing
+              </a>
+            </li> */}
+            {/* //todo reputation management component */}
+            {/* <li>
+              <a href="x-">Reputation & Review Management</a>
+            </li> */}
           </ul>
         </div>
-        <div>
+        {/* <div>
+        //todo PORTFOLIO
           <h3>Portfolio</h3>
           <ul>
             <li>
-              <a href="#">Websites </a>{" "}
+              <a href="#">Websites </a>
             </li>
             <li>
-              <a href="#">E-commerce Websites </a>{" "}
+              <a href="#">E-commerce Websites </a>
             </li>
             <li>
               <a href="#">
-                Social Media <br /> Management{" "}
-              </a>{" "}
+                Social Media <br />
+                Management
+              </a>
             </li>
             <li>
-              <a href="#">Corporate Branding </a>{" "}
+              <a href="#">Corporate Branding </a>
             </li>
             <li>
-              <a href="#">Printed Media </a>{" "}
+              <a href="#">Printed Media </a>
             </li>
           </ul>
-        </div>
+        </div> */}
         <div>
           <h3>Social Links</h3>
           <ul>
             <li>
-              <a href="" target="_blank">
-                <img src={linkedIn} alt="n Social Media Button" />
+              <a
+                href="https://www.linkedin.com/company/blue-smoke-digital-and-printed-media/"
+                target="_blank"
+              >
+                <img src={linkedIn} alt="LinkedIn Social Media Button" />
               </a>
             </li>
+            {/* //todo add in all social media accounts
             <li>
               <a href="" target="">
                 <img src="" alt="r Social Media Button" />
               </a>
             </li>
             <li>
-              <a href="#">Behance</a>{" "}
+              <a href="#">Behance</a>
             </li>
             <li>
-              <a href="#">Linkedin</a>{" "}
-            </li>
-            <li>
-              <a href="#">Youtube</a>{" "}
-            </li>
+              <a href="#">Youtube</a>
+            </li> */}
           </ul>
         </div>
       </footer>
       <section className="bottom">
         <div className="payment">
+          {/* //todo icons */}
           <p>Visa</p>
           <p>PayPal</p>
           <p>Discover</p>
@@ -184,27 +200,10 @@ export default function Footer() {
           </div>
         </div>
       </section>
+      {/* //todo copywright
+      <p className="copy">
+        © 2019-2020 - Blue Smoke Digital and Printed Media - All rights reserved
+      </p> */}
     </>
   );
 }
-//  <div>
-//   <div>
-//     <div>
-//       <div className="l-md-6 col-lg-6">
-//         <div><i className="b fa-cc-visa color-grey font-40" aria-hidden=""></i><i className="b fa-cc-paypal color-grey font-40" aria-hidden=""></i><i className="b fa-cc-discover color-grey font-40" aria-hidden=""></i><i className="b fa-cc-mastercard color-grey font-40" aria-hidden=""></i></div>
-//       </div>
-//       <div className="l-md-6 col-lg-6">
-//         <p className="t-26 text-uppercase color-white text-right">Call Support +1 865.274.1371 <span>or</span> <br /> +1 801.690.1189</p>
-//       </div>
-//     </div>
-//   </div>
-// </div>
-// <div className="r-bottom padding_tb_20">
-//   <div>
-//     <div>
-//       <div className="l-sm-12 col-md-12 col-lg-12">
-//         <p className="t-14 color-grey text-center">© 2019-2020 - Blue Smoke Digital and Printed Media - All rights reserved</p>
-//       </div>
-//     </div>
-//   </div>
-// </div>

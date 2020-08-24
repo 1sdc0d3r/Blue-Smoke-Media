@@ -44,11 +44,9 @@ export default function Navigation() {
                 <a href="/customWebsiteDesign" className="drop-item">
                   Custom Website Design
                 </a>
-
                 <a href="/E-CommerceWebsiteDevelopment" className="drop-item">
                   E-Commerce Website Development
                 </a>
-
                 <a href="/websiteUsability" className="drop-item">
                   Creating Your Website-Useability
                 </a>
@@ -88,11 +86,11 @@ export default function Navigation() {
         </div>
       </div>
 
-      <NavLink to="/portfolio" className="nav-item">
+      {/* <NavLink to="/portfolio" className="nav-item">
         Our Work
-      </NavLink>
-
-      <a href="#blog" className="nav-item">
+      </NavLink> */}
+      {/* //todo BLOG */}
+      <a href="/blog" className="nav-item">
         Blog
       </a>
       <NavLink to="/contact" className="nav-item">

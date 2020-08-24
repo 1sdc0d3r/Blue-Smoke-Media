@@ -35,6 +35,7 @@ import landingVideo from "./videos/LandingPageVideo.mp4";
 //analytics.google.com/analytics/web/provision/#/a168002604p234303565/admin/streams/promo
 // todo check all routes and make sure everything is correct and in nav/sitemap
 // todo generate sitemap for .robottxt file
+// todo rename paths (full application)
 function App() {
   //! enable video here
   const [isPlaying, setIsPlaying] = useState(false);
@@ -72,8 +73,16 @@ function App() {
           </header>
           <Switch>
             <Route exact path="/" component={Home} />
+            {/* //todo privacy */}
+            {/* <Route path="/privacy" component={privacy} /> */}
             <Route path="/team" component={Team} />
-            <Route path="/Ad-CopyWriting" component={AdCopyWriting} />
+            {/* //! SERVICES */}
+            {/* //! SEO */}
+            <Route path="/seoFriendly" component={SeoFriendly} />
+            <Route path="/seoOrganic" component={OrganicSeo} />
+            {/* //todo OTHER SEO PAGE */}
+            {/* <Route path="/seo" component={SEO} /> */}
+            {/* //! WEBSITE DESIGN */}
             <Route
               path="/customWebsiteDesign"
               component={CustomWebsiteDesign}
@@ -82,20 +91,20 @@ function App() {
               path="/E-CommerceWebsiteDevelopment"
               component={ECommerceWebsiteDevelopment}
             />
-            <Route path="/inquirySurveyForm" component={InquirySurveyForm} />
+            <Route path="/websiteUsability" component={WebsiteUsability} />
+            <Route path="/Ad-CopyWriting" component={AdCopyWriting} />
             <Route path="/webMaintenance" component={WebMaintenance} />
             <Route path="/coding" component={WebsiteProgrammingCoding} />
-            <Route path="/websiteUsability" component={WebsiteUsability} />
-            {/* //! SEO */} <Route path="/seoOrganic" component={OrganicSeo} />
-            <Route path="/seoFriendly" component={SeoFriendly} />
+            <Route path="/inquirySurveyForm" component={InquirySurveyForm} />
+
             {/* //! Graphic Design Services */}
+            <Route path="/websiteLogoDesign" component={WebsiteLogoDesign} />
+            <Route path="/printedMediaLogos" component={PrintedMediaLogos} />
             <Route
               path="/printAndGraphicServices"
               component={PrintAndGraphicServices}
             />
-            {/* //! Web Design Services */}
-            <Route path="/printedMediaLogos" component={PrintedMediaLogos} />
-            <Route path="/websiteLogoDesign" component={WebsiteLogoDesign} />
+            {/* //todo portfolio  */}
             {/* <Route path="/portfolio" component={Portfolio} /> */}
             <Route path="/blog" component={Blog} />
             <Route path="/contact" component={Contact} />
