@@ -20,6 +20,7 @@
 
     @include breakpoint(xxs, xs, s) {
       height: 90vh;
+      background-image: url("../../images/grey_background_globe-element_for_mobile.png");
     }
 
     p:first-child {
@@ -31,9 +32,14 @@
       color: $white;
       margin-top: 7%;
       //todo globe breakpoints with new background
-      @include breakpoint(s, m) {
+      @include breakpoint(m) {
         font-size: 0.9em;
         text-align: left;
+      }
+      @include breakpoint(xxs, xs, s) {
+        text-align: center;
+        width: 90%;
+        margin: auto;
       }
 
       // @include breakpoint(mobile) {
@@ -54,8 +60,11 @@
         // margin-bottom: 1em;
         text-shadow: 2px 2px black;
 
-        @include breakpoint(s, m) {
+        @include breakpoint(m) {
           font-size: 1.6em;
+        }
+        @include breakpoint(xxs, xs, s) {
+          font-size: 1.5em;
         }
       }
     }

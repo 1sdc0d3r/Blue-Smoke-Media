@@ -14,6 +14,12 @@ html {
   font-weight: 400;
   font-size: 1.3em;
   color: $darkBlue;
+  @include breakpoint(xxl) {
+    font-size: 1.8em;
+  }
+  @include breakpoint(xl) {
+    font-size: 1.6em;
+  }
 
   @include breakpoint(mobile) {
     width: 100%;

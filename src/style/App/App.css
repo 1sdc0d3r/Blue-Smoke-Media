@@ -13,6 +13,18 @@ html {
   color: #020723;
 }
 
+@media (min-width: 1681px) {
+  .App {
+    font-size: 1.8em;
+  }
+}
+
+@media (min-width: 1281px) and (max-width: 1680px) {
+  .App {
+    font-size: 1.6em;
+  }
+}
+
 .App header {
   display: -webkit-box;
   display: -ms-flexbox;

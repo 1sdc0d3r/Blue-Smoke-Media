@@ -37,10 +37,9 @@ nav {
   }
   @include breakpoint(xl) {
     background: purple;
-    //todo xl breakpoint not working??
   }
   @include breakpoint(xxl) {
-    background: $white;
+    background: black;
   }
 
   @include breakpoint(mobile) {
@@ -54,6 +53,9 @@ nav {
     text-align: center;
     padding: 0.5em 0.65em;
     text-decoration: none;
+    @include breakpoint(xl, xxl) {
+      font-size: 1.8rem;
+    }
 
     &:hover {
       color: $orange;

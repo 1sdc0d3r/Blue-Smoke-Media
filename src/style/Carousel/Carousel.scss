@@ -39,6 +39,7 @@
           color: $white;
           margin: 0;
           font-size: 2.3em;
+
           @include breakpoint(m) {
             font-size: 1.75em;
           }
@@ -56,6 +57,7 @@
         }
         h4 {
           padding-left: 2%;
+
           @include breakpoint(m) {
             font-size: 1em;
             margin: 0.125em;
@@ -73,6 +75,7 @@
           padding-left: 4%;
           margin: 0;
           line-height: 1.4em;
+
           @include breakpoint(m) {
             font-size: 0.9em;
             padding-left: 10%;
@@ -110,6 +113,11 @@
           box-shadow: 2px 2px black;
           border: none;
           width: 25%;
+          @include breakpoint(xl, xxl) {
+            width: 40%;
+            margin-left: 8%;
+          }
+
           @include breakpoint(s, m) {
             margin-top: 4%;
             margin-left: 20%;
@@ -133,6 +141,9 @@
             display: inline-block;
             width: 100%;
             font-size: 1.2em;
+            @include breakpoint(xl, xxl) {
+              font-size: 1.5em;
+            }
             @include breakpoint(m) {
               padding-top: 0.5em;
               padding-bottom: 0.5em;
@@ -159,6 +170,10 @@
       border-radius: 50%;
       padding: 0.5em;
       border: 0px;
+      @include breakpoint(xl, xxl) {
+        padding: 0.7em;
+        margin-left: 0.7em;
+      }
     }
     .carousel__dot--selected {
       background: #ee3e0e;
