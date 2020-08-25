@@ -45,56 +45,61 @@ export default function Home() {
           notice, unless under contract.)
         </p>
         <div className="plans-card-container">
-          <div className="plan-card">
-            <h3>
-              5 Page
-              <br />
-              Website
-            </h3>
-            <h6>Includes Organic SEO</h6>
-            <hr className="line" />
-            <p>Starts At</p>
-            <p className="price">$749</p>
-            <Link to="#">View Plans</Link>
+          <div className="plan-card-set">
+            <div className="plan-card">
+              <h3>
+                5 Page
+                <br />
+                Website
+              </h3>
+              <h6>Includes Organic SEO</h6>
+              <hr className="line" />
+              <p>Starts At</p>
+              <p className="price">$749</p>
+              {/* //todo view plans link */}
+              <Link to="#">View Plans</Link>
+            </div>
+            <div className="plan-card">
+              <h3>
+                6-10 Page
+                <br />
+                Website
+              </h3>
+              <h6>Includes Organic SEO</h6>
+              <hr className="line" />
+              <p>Starts At</p>
+              <p className="price">$1,399</p>
+              <Link to="#">View Plans</Link>
+            </div>
           </div>
-          <div className="plan-card">
-            <h3>
-              6-10 Page
-              <br />
-              Website
-            </h3>
-            <h6>Includes Organic SEO</h6>
-            <hr className="line" />
-            <p>Starts At</p>
-            <p className="price">$1,399</p>
-            <Link to="#">View Plans</Link>
-          </div>
-          <div className="plan-card">
-            <h3>
-              11-15+ Page
-              <br />
-              Website
-            </h3>
-            <h6>Includes Organic SEO</h6>
-            <hr className="line" />
-            <p>Starts At</p>
-            <p className="price">$2,299</p>
-            <Link to="#">View Plans</Link>
-          </div>
-          <div className="plan-card">
-            <h3>
-              E-Commerce
-              <br />
-              Website
-            </h3>
-            <h6>
-              Includes Organic SEO
-              <br /> Price is for 5 pages and 10 items.
-            </h6>
-            <hr className="line" />
-            <p>Starts At</p>
-            <p className="price">$1,749</p>
-            <Link to="#">View Plans</Link>
+          <div className="plan-card-set">
+            <div className="plan-card">
+              <h3>
+                11-15+ Page
+                <br />
+                Website
+              </h3>
+              <h6>Includes Organic SEO</h6>
+              <hr className="line" />
+              <p>Starts At</p>
+              <p className="price">$2,299</p>
+              <Link to="#">View Plans</Link>
+            </div>
+            <div className="plan-card">
+              <h3>
+                E-Commerce
+                <br />
+                Website
+              </h3>
+              <h6>
+                Includes Organic SEO
+                <br /> Price is for 5 pages and 10 items.
+              </h6>
+              <hr className="line" />
+              <p>Starts At</p>
+              <p className="price">$1,749</p>
+              <Link to="#">View Plans</Link>
+            </div>
           </div>
         </div>
       </section>
@@ -115,97 +120,101 @@ export default function Home() {
           will do our very best to find someone who can!
         </p>
         <div className="services-card-container">
-          <div
-            className="service-card"
-            onMouseEnter={() => setCard1(true)}
-            onMouseLeave={() => setCard1(false)}
-          >
-            <ReactCardFlip isFlipped={card1} flipDirection="horizontal">
-              <div className="service-card-front">
-                <img src={slide_custom} alt="placeholder" />
-                <h3>Custom Website Design</h3>
-              </div>
-              <div className="service-card-back">
-                <h3>Custom Website Design</h3>
-                <p>
-                  Custom website design is a process because so much goes into
-                  it, but businesses get a lot more out of it over the long
-                  term. Custom-made websites look better, do more, and
-                  accomplish specific business goals.
-                </p>
-              </div>
-            </ReactCardFlip>
+          <div className="service-card-set">
+            <div
+              className="service-card"
+              onMouseEnter={() => setCard1(true)}
+              onMouseLeave={() => setCard1(false)}
+            >
+              <ReactCardFlip isFlipped={card1} flipDirection="horizontal">
+                <div className="service-card-front">
+                  <img src={slide_custom} alt="placeholder" />
+                  <h3>Custom Website Design</h3>
+                </div>
+                <div className="service-card-back">
+                  <h3>Custom Website Design</h3>
+                  <p>
+                    Custom website design is a process because so much goes into
+                    it, but businesses get a lot more out of it over the long
+                    term. Custom-made websites look better, do more, and
+                    accomplish specific business goals.
+                  </p>
+                </div>
+              </ReactCardFlip>
+            </div>
+            <div
+              className="service-card"
+              onMouseEnter={() => setCard2(true)}
+              onMouseLeave={() => setCard2(false)}
+            >
+              <ReactCardFlip isFlipped={card2} flipDirection="horizontal">
+                <div className="service-card-front">
+                  <img src={slide_seo} alt="placeholder" />
+                  <h3>Search Engine Optimization (SEO)</h3>
+                </div>
+                <div className="service-card-back">
+                  <h3>Search Engine Optimization (SEO)</h3>
+                  <p>
+                    Making a website SEO friendly means that Google and other
+                    search engines can crawl each page on the website
+                    efficiently, interpret the content effectively, and index it
+                    in their database. Once indexed, they can then serve the
+                    most relevant and valuable web pages to their users based on
+                    the topics they search for.
+                  </p>
+                </div>
+              </ReactCardFlip>
+            </div>
           </div>
-          <div
-            className="service-card"
-            onMouseEnter={() => setCard2(true)}
-            onMouseLeave={() => setCard2(false)}
-          >
-            <ReactCardFlip isFlipped={card2} flipDirection="horizontal">
-              <div className="service-card-front">
-                <img src={slide_seo} alt="placeholder" />
-                <h3>Search Engine Optimization (SEO)</h3>
-              </div>
-              <div className="service-card-back">
-                <h3>Search Engine Optimization (SEO)</h3>
-                <p>
-                  Making a website SEO friendly means that Google and other
-                  search engines can crawl each page on the website efficiently,
-                  interpret the content effectively, and index it in their
-                  database. Once indexed, they can then serve the most relevant
-                  and valuable web pages to their users based on the topics they
-                  search for.
-                </p>
-              </div>
-            </ReactCardFlip>
-          </div>
-          <div
-            className="service-card"
-            onMouseEnter={() => setCard3(true)}
-            onMouseLeave={() => setCard3(false)}
-          >
-            <ReactCardFlip isFlipped={card3} flipDirection="horizontal">
-              <div className="service-card-front">
-                <img src={slide_graphic} alt="placeholder" />
-                <h3>Digital and Printed Graphic Design</h3>
-              </div>
-              <div className="service-card-back">
-                <h3>Digital and Printed Graphic Design</h3>
-                <p>
-                  The question of engagement in digital and printed design is
-                  oriented mostly around how and where a viewer will encounter
-                  the work. The Blue Smoke Media team, are responsible for the
-                  design and layout of interactive and printed informational
-                  materials such as:{"  "}
-                  <span>
-                    Websites, Brochures, Advertising Flyers, Billboards, and
-                    Business Cards.
-                  </span>
-                </p>
-              </div>
-            </ReactCardFlip>
-          </div>
-          <div
-            className="service-card"
-            onMouseEnter={() => setCard4(true)}
-            onMouseLeave={() => setCard4(false)}
-          >
-            <ReactCardFlip isFlipped={card4} flipDirection="horizontal">
-              <div className="service-card-front">
-                <img src={slide_sm} alt="placeholder" />
-                <h3>Social Media and Internet Marketing</h3>
-              </div>
-              <div className="service-card-back">
-                <h3>Social Media and Internet Marketing</h3>
-                <p>
-                  It’s crucial you determine which platforms you’re going to
-                  share your content on. There’s not necessarily a right or
-                  wrong answer when it comes to which social channels your
-                  business should use — it’s more about the needs of your target
-                  audience and where they tend to spend their time.
-                </p>
-              </div>
-            </ReactCardFlip>
+          <div className="service-card-set">
+            <div
+              className="service-card"
+              onMouseEnter={() => setCard3(true)}
+              onMouseLeave={() => setCard3(false)}
+            >
+              <ReactCardFlip isFlipped={card3} flipDirection="horizontal">
+                <div className="service-card-front">
+                  <img src={slide_graphic} alt="placeholder" />
+                  <h3>Digital and Printed Graphic Design</h3>
+                </div>
+                <div className="service-card-back">
+                  <h3>Digital and Printed Graphic Design</h3>
+                  <p>
+                    The question of engagement in digital and printed design is
+                    oriented mostly around how and where a viewer will encounter
+                    the work. The Blue Smoke Media team, are responsible for the
+                    design and layout of interactive and printed informational
+                    materials such as:{"  "}
+                    <span>
+                      Websites, Brochures, Advertising Flyers, Billboards, and
+                      Business Cards.
+                    </span>
+                  </p>
+                </div>
+              </ReactCardFlip>
+            </div>
+            <div
+              className="service-card"
+              onMouseEnter={() => setCard4(true)}
+              onMouseLeave={() => setCard4(false)}
+            >
+              <ReactCardFlip isFlipped={card4} flipDirection="horizontal">
+                <div className="service-card-front">
+                  <img src={slide_sm} alt="placeholder" />
+                  <h3>Social Media and Internet Marketing</h3>
+                </div>
+                <div className="service-card-back">
+                  <h3>Social Media and Internet Marketing</h3>
+                  <p>
+                    It’s crucial you determine which platforms you’re going to
+                    share your content on. There’s not necessarily a right or
+                    wrong answer when it comes to which social channels your
+                    business should use — it’s more about the needs of your
+                    target audience and where they tend to spend their time.
+                  </p>
+                </div>
+              </ReactCardFlip>
+            </div>
           </div>
         </div>
       </section>

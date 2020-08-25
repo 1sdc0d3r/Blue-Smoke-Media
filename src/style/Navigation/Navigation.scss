@@ -14,9 +14,9 @@ nav {
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
+  padding: 0 7%;
 
   @include breakpoint(l) {
-    padding: 0 7%;
   }
 
   @include breakpoint(xxs) {
@@ -28,11 +28,12 @@ nav {
   @include breakpoint(s) {
     background: rgb(204, 193, 32);
   }
-  @include breakpoint(m) {
+  @include breakpoint(xxs, xs, s, m) {
     background: green;
+    display: none;
   }
   @include breakpoint(l) {
-    background: lightblue;
+    background: blue;
   }
   @include breakpoint(xl) {
     background: purple;

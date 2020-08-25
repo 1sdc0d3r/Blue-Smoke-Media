@@ -14,37 +14,45 @@ header {
   -o-user-select: none;
   user-select: none;
 
+  @include breakpoint(m) {
+    height: 100%;
+  }
+
   #flame {
     width: 9%;
-
     padding-top: 1%;
-    // @include breakpoint(l) {
-    //   width: 12%;
-    // }
+    @include breakpoint(m) {
+      width: 12%;
+    }
+    @include breakpoint(s) {
+      width: 20%;
+    }
+    @include breakpoint(xxs, xs) {
+      width: 25%;
+    }
   }
 
-  @include breakpoint(mobile) {
-    background-image: url("../../images/background_image_w_flame-only.png");
-    width: 100%;
-    height: 12vh;
-  }
+  // @include breakpoint(mobile) {
+  //   background-image: url("../../images/background_image_w_flame-only.png");
+  //   width: 100%;
+  //   height: 12vh;
+  // }
 
   .blue-smoke {
     width: 35%;
     margin: auto;
     margin-left: 0.4%;
     padding-top: 0.5em;
+    @include breakpoint(s) {
+      width: 50%;
+    }
+    @include breakpoint(xxs, xs) {
+      width: 80%;
+    }
 
     img {
       width: 100%;
       height: 11vh;
-
-      @include breakpoint(mobile) {
-        // display: none;
-        height: 7vh;
-        width: 50%;
-        margin: 4% auto;
-      }
     }
 
     p {
@@ -57,6 +65,12 @@ header {
       font-weight: 700;
       line-height: 1.75;
       text-align: center;
+      @include breakpoint(xs, m) {
+        font-size: 1em;
+      }
+      @include breakpoint(xxs, s) {
+        font-size: 0.9em;
+      }
     }
 
     span {
@@ -64,10 +78,6 @@ header {
       font-weight: 700;
       -webkit-text-stroke: 0.5px $darkBlue;
       font-size: 1.05em;
-
-      @include breakpoint(mobile) {
-        display: none;
-      }
     }
   }
 
@@ -83,6 +93,14 @@ header {
       letter-spacing: 2px;
       margin-block-end: 0.5em;
 
+      @include breakpoint(s) {
+        font-size: 0.75em;
+      }
+      @include breakpoint(xxs, xs) {
+        display: none;
+        position: absolute;
+      }
+
       &:nth-child(2) {
         text-align: right;
         margin-block-start: 0;
@@ -97,6 +115,9 @@ header {
   .silhouette-div {
     width: 25%;
     position: relative;
+    @include breakpoint(xxs, xs, s) {
+      display: none;
+    }
 
     .silhouettes {
       height: 80%;
@@ -120,10 +141,26 @@ header {
       rgba(250, 204, 34, 1) 80%
     );
 
+    @include breakpoint(m) {
+      width: min-content;
+    }
+    @include breakpoint(s) {
+      width: 20%;
+    }
+    @include breakpoint(xxs, xs) {
+      display: none;
+    }
+
     p {
       margin: 7.5% auto;
       font-size: 1.3em;
       font-weight: 700;
+      @include breakpoint(m) {
+        font-size: 1.1em;
+      }
+      @include breakpoint(s) {
+        font-size: 0.9em;
+      }
 
       span {
         color: $darkBlue;
@@ -137,6 +174,9 @@ header {
       height: 40%;
       width: 80%;
       margin: auto;
+      @include breakpoint(s) {
+        height: 60%;
+      }
 
       .cta-btn {
         margin: auto;

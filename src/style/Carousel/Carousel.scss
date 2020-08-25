@@ -1,37 +1,91 @@
 @import "../Utils/Mixins/Mixins.scss";
 
 .carousel {
-  // height: 70vh;
   .slider {
     background: #04227a;
+    @include breakpoint(xxs, xs, s) {
+      height: 80vh;
+    }
     .inner-slide {
       display: flex;
       justify-content: space-between;
       height: 100%;
       padding-left: 2%;
       padding-right: 2%;
+      @include breakpoint(xxs, xs, s) {
+        height: 80vh;
+      }
 
       .slide-info {
         width: 48%;
+        height: 80%;
         color: #fda900;
         display: flex;
         flex-direction: column;
         justify-content: center;
         text-align: left;
+        align-self: center;
+        @include breakpoint(m) {
+          width: 60%;
+        }
+        @include breakpoint(s) {
+          width: 65%;
+        }
+        @include breakpoint(xxs, xs) {
+          width: 100%;
+        }
 
         h1 {
           color: $white;
           margin: 0;
           font-size: 2.3em;
+          @include breakpoint(m) {
+            font-size: 1.75em;
+          }
+          @include breakpoint(s) {
+            font-size: 1.5em;
+          }
+          @include breakpoint(xs) {
+            font-size: 1.5em;
+            text-align: center;
+          }
+          @include breakpoint(xxs) {
+            font-size: 1.2em;
+            text-align: left;
+          }
         }
         h4 {
           padding-left: 2%;
+          @include breakpoint(m) {
+            font-size: 1em;
+            margin: 0.125em;
+            padding-left: 5%;
+          }
+          @include breakpoint(s) {
+            font-size: 0.9em;
+          }
+          @include breakpoint(xs) {
+            text-align: center;
+          }
         }
 
         p {
           padding-left: 4%;
           margin: 0;
           line-height: 1.4em;
+          @include breakpoint(m) {
+            font-size: 0.9em;
+            padding-left: 10%;
+          }
+          @include breakpoint(s) {
+            font-size: 0.8em;
+          }
+          @include breakpoint(xs) {
+            // font-size: 0.8em;
+            text-align: justify;
+            padding-right: 4%;
+          }
+
           span {
             color: #ee3e0e;
             font-weight: 600;
@@ -42,7 +96,6 @@
         // }
         .description {
           margin-top: 1.5em;
-          // font-weight: 500;
           span {
             font-weight: 600;
           }
@@ -57,6 +110,21 @@
           box-shadow: 2px 2px black;
           border: none;
           width: 25%;
+          @include breakpoint(s, m) {
+            margin-top: 4%;
+            margin-left: 20%;
+            width: 35%;
+            margin-bottom: 0.5em;
+          }
+          @include breakpoint(s) {
+            width: 60%;
+            margin-top: 5%;
+          }
+          @include breakpoint(xxs, xs) {
+            width: 80%;
+            margin: 5% auto 0;
+          }
+
           a {
             padding-top: 0.8em;
             padding-bottom: 0.8em;
@@ -65,6 +133,10 @@
             display: inline-block;
             width: 100%;
             font-size: 1.2em;
+            @include breakpoint(m) {
+              padding-top: 0.5em;
+              padding-bottom: 0.5em;
+            }
           }
         }
       }
@@ -76,6 +148,9 @@
       left: 0;
       right: 0;
       margin: auto;
+      @include breakpoint(xxs, xs, s) {
+        display: none;
+      }
     }
     .dot___3c3SI {
       background: $green;
@@ -92,6 +167,12 @@
       width: 40%;
       max-height: 500px;
       align-self: center;
+      @include breakpoint(s, m) {
+        width: 30%;
+      }
+      @include breakpoint(xxs, xs) {
+        display: none;
+      }
     }
   }
 }

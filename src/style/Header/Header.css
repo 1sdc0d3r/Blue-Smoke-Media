@@ -12,9 +12,39 @@ header {
   user-select: none;
 }
 
+@media (min-width: 737px) and (max-width: 980px) {
+  header {
+    height: 100%;
+  }
+}
+
 header #flame {
   width: 9%;
   padding-top: 1%;
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  header #flame {
+    width: 12%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  header #flame {
+    width: 20%;
+  }
+}
+
+@media (max-width: 360px) {
+  header #flame {
+    width: 25%;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  header #flame {
+    width: 25%;
+  }
 }
 
 header .blue-smoke {
@@ -22,6 +52,24 @@ header .blue-smoke {
   margin: auto;
   margin-left: 0.4%;
   padding-top: 0.5em;
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  header .blue-smoke {
+    width: 50%;
+  }
+}
+
+@media (max-width: 360px) {
+  header .blue-smoke {
+    width: 80%;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  header .blue-smoke {
+    width: 80%;
+  }
 }
 
 header .blue-smoke img {
@@ -39,6 +87,30 @@ header .blue-smoke p {
   font-weight: 700;
   line-height: 1.75;
   text-align: center;
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  header .blue-smoke p {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  header .blue-smoke p {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 360px) {
+  header .blue-smoke p {
+    font-size: 0.9em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  header .blue-smoke p {
+    font-size: 0.9em;
+  }
 }
 
 header .blue-smoke span {
@@ -63,6 +135,26 @@ header .center p {
           margin-block-end: 0.5em;
 }
 
+@media (min-width: 481px) and (max-width: 736px) {
+  header .center p {
+    font-size: 0.75em;
+  }
+}
+
+@media (max-width: 360px) {
+  header .center p {
+    display: none;
+    position: absolute;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  header .center p {
+    display: none;
+    position: absolute;
+  }
+}
+
 header .center p:nth-child(2) {
   text-align: right;
   -webkit-margin-before: 0;
@@ -77,6 +169,24 @@ header .center p span {
 header .silhouette-div {
   width: 25%;
   position: relative;
+}
+
+@media (max-width: 360px) {
+  header .silhouette-div {
+    display: none;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  header .silhouette-div {
+    display: none;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  header .silhouette-div {
+    display: none;
+  }
 }
 
 header .silhouette-div .silhouettes {
@@ -106,10 +216,48 @@ header .cta {
   background: linear-gradient(0deg, #f83600 10%, #facc22 80%);
 }
 
+@media (min-width: 737px) and (max-width: 980px) {
+  header .cta {
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  header .cta {
+    width: 20%;
+  }
+}
+
+@media (max-width: 360px) {
+  header .cta {
+    display: none;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  header .cta {
+    display: none;
+  }
+}
+
 header .cta p {
   margin: 7.5% auto;
   font-size: 1.3em;
   font-weight: 700;
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  header .cta p {
+    font-size: 1.1em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  header .cta p {
+    font-size: 0.9em;
+  }
 }
 
 header .cta p span {
@@ -127,6 +275,12 @@ header .cta .btns {
   height: 40%;
   width: 80%;
   margin: auto;
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  header .cta .btns {
+    height: 60%;
+  }
 }
 
 header .cta .btns .cta-btn {

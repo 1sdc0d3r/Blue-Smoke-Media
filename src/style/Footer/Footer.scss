@@ -6,9 +6,17 @@ footer {
   background: $royalBlue;
   padding-top: 2em;
   text-align: left;
+  @include breakpoint(s) {
+    // flex-direction: column;
+  }
+
   div {
     width: 16%;
     padding: 0 0.5em;
+    @include breakpoint(s) {
+      // width: min-content;
+      // margin: auto;
+    }
   }
   h3 {
     color: $orange;
@@ -57,6 +65,9 @@ footer {
     align-items: center;
     width: 30%;
     color: $green;
+    @include breakpoint(m) {
+      width: 40%;
+    }
   }
   .contact {
     display: flex;
@@ -64,6 +75,10 @@ footer {
     width: 40%;
     align-items: center;
     text-transform: uppercase;
+    @include breakpoint(s, m) {
+      width: 60%;
+    }
+
     p {
       color: $orange;
       text-align: right;
@@ -71,9 +86,19 @@ footer {
       margin-left: 0.8em;
       font-size: 1.2em;
       font-weight: 600;
+      @include breakpoint(s) {
+        font-size: 0.95em;
+        margin-left: 0.125em;
+      }
     }
     .numbers {
       margin-right: 1em;
+      @include breakpoint(s) {
+        margin-right: 0.5em;
+        margin-left: 0;
+        padding-left: 0;
+      }
+
       a {
         color: $green;
         font-weight: 500;
