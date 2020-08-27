@@ -4,7 +4,7 @@
   text-align: justify;
   margin: 3rem 3rem;
 
-  @include breakpoint(mobile) {
+  @include breakpoint(xxs, xs, s) {
     margin: 1.5rem;
   }
 
@@ -22,7 +22,7 @@
       color: $royalBlue;
       text-shadow: $darkBlue 2px 2px;
 
-      @include breakpoint(mobile) {
+      @include breakpoint(xxs, xs, s) {
         margin: 1.5rem auto;
       }
     }
@@ -45,7 +45,7 @@
   .team-middle {
     margin-top: 4rem;
 
-    @include breakpoint(mobile) {
+    @include breakpoint(xxs, xs, s) {
       margin-top: 2rem;
     }
 
@@ -53,7 +53,7 @@
       display: flex;
       margin-bottom: 2.5rem;
 
-      @include breakpoint(mobile) {
+      @include breakpoint(xxs, xs, s) {
         flex-direction: column;
       }
 
@@ -61,7 +61,7 @@
         width: 20%;
         margin-right: 2.4rem;
 
-        @include breakpoint(mobile) {
+        @include breakpoint(xxs, xs, s) {
           width: 70%;
           margin: auto;
         }
@@ -72,7 +72,7 @@
         height: 20%;
         margin-right: 2.4rem;
 
-        @include breakpoint(mobile) {
+        @include breakpoint(xxs, xs, s) {
           width: 70%;
           margin: auto;
         }
@@ -81,7 +81,7 @@
       p {
         margin: auto;
 
-        @include breakpoint(mobile) {
+        @include breakpoint(xxs, xs, s) {
           margin-top: 1rem;
         }
       }
@@ -111,7 +111,7 @@
           height: 8em;
         }
 
-        @include breakpoint(mobile) {
+        @include breakpoint(xxs, xs, s) {
           width: 5.5em;
           height: 5.5em;
         }
@@ -126,7 +126,7 @@
           font-size: 1em;
         }
 
-        @include breakpoint(mobile) {
+        @include breakpoint(xxs, xs, s) {
           font-size: 1em;
           margin-left: 1em;
         }
@@ -135,7 +135,7 @@
           font-size: 1.45em;
           color: black;
 
-          @include breakpoint(mobile) {
+          @include breakpoint(xxs, xs, s) {
             font-size: 1.2em;
           }
         }

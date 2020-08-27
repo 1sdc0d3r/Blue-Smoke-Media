@@ -10,8 +10,11 @@
     height: 40vh;
     border-bottom: 2px outset $darkBlue;
 
-    @include breakpoint(l) {
-      height: 45vh;
+    @include breakpoint(m) {
+      height: 35vh;
+    }
+    @include breakpoint(xxs, xs, s) {
+      height: 25vh;
     }
   }
 
@@ -22,9 +25,16 @@
 
   p {
     margin: 0.5em 1.5em;
+    @include breakpoint(xxs, xs, s) {
+      margin: 1.5em 2em;
+    }
 
     &:last-child {
       margin-bottom: 2em;
+    }
+    a {
+      text-decoration: none;
+      color: $lightBlue;
     }
   }
 

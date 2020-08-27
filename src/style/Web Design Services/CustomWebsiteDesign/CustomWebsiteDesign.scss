@@ -6,17 +6,19 @@
     width: 100%;
     border-top: 2px solid $darkBlue;
     border-bottom: 2px solid $darkBlue;
+    @include breakpoint(m) {
+      height: 40vh;
+    }
+    @include breakpoint(xxs, xs, s) {
+      height: 30vh;
+    }
   }
 
   .content {
     margin: 2em 2em 4em;
     text-align: left;
 
-    @include breakpoint(l) {
-      margin: 2em 2em 3em;
-    }
-
-    @include breakpoint(mobile) {
+    @include breakpoint(xxs, xs, s) {
       margin: 1.5em 0;
     }
 
@@ -28,12 +30,12 @@
         margin-bottom: 1.1em;
       }
 
-      @include breakpoint(mobile) {
+      @include breakpoint(xxs, xs, s) {
         margin-bottom: 1em;
       }
     }
 
-    @include breakpoint(mobile) {
+    @include breakpoint(xxs, xs, s) {
       p {
         margin: 2em 1em;
       }
@@ -42,6 +44,10 @@
     ol {
       margin: 2em auto;
       margin-left: 1.75em;
+
+      @include breakpoint(xxs, xs, s) {
+        margin-left: 1em;
+      }
 
       li {
         color: $orange;

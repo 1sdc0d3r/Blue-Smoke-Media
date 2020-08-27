@@ -8,6 +8,12 @@
     width: 100%;
     height: 70vh;
     border-bottom: 2px outset $darkBlue;
+    @include breakpoint(m) {
+      height: 50vh;
+    }
+    @include breakpoint(xxs, xs, s) {
+      height: 30vh;
+    }
   }
 
   .wrapper {
@@ -34,8 +40,8 @@
       text-align: center;
       margin: 1.25em auto;
 
-      @include breakpoint(l) {
-        margin: 1.2em auto;
+      @include breakpoint(xxs, xs, s, m) {
+        font-size: 1.7em;
       }
     }
 

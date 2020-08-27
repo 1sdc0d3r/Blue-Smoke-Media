@@ -9,16 +9,100 @@
   }
 }
 
+@media (min-width: 737px) and (max-width: 980px) {
+  .print-and-graphic-design-services img {
+    height: 25vh;
+  }
+}
+
+@media (max-width: 360px) {
+  .print-and-graphic-design-services img {
+    height: 20vh;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .print-and-graphic-design-services img {
+    height: 20vh;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .print-and-graphic-design-services img {
+    height: 20vh;
+  }
+}
+
 .print-and-graphic-design-services h1 {
   margin: 1em auto 0.6em;
 }
 
-.print-and-graphic-design-services .content p {
+@media (max-width: 360px) {
+  .print-and-graphic-design-services h1 {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .print-and-graphic-design-services h1 {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .print-and-graphic-design-services h1 {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  .print-and-graphic-design-services h1 {
+    font-size: 1.5em;
+  }
+}
+
+.print-and-graphic-design-services .bottom-content {
+  margin-bottom: 2em;
+}
+
+.print-and-graphic-design-services .bottom-content p {
   margin-bottom: 3em;
   margin: 2em 2em;
 }
 
-.print-and-graphic-design-services .content section {
+@media (max-width: 360px) {
+  .print-and-graphic-design-services .bottom-content p {
+    margin: auto;
+    text-align: justify;
+    margin: 1em;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .print-and-graphic-design-services .bottom-content p {
+    margin: auto;
+    text-align: justify;
+    margin: 1em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .print-and-graphic-design-services .bottom-content p {
+    margin: auto;
+    text-align: justify;
+    margin: 1em;
+  }
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  .print-and-graphic-design-services .bottom-content p {
+    margin: auto;
+    text-align: justify;
+    margin: 1em;
+  }
+}
+
+.print-and-graphic-design-services .bottom-content section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,32 +112,152 @@
           align-items: center;
 }
 
-.print-and-graphic-design-services .content section img {
+@media (max-width: 360px) {
+  .print-and-graphic-design-services .bottom-content section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 1rem auto;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .print-and-graphic-design-services .bottom-content section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 1rem auto;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .print-and-graphic-design-services .bottom-content section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 1rem auto;
+  }
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  .print-and-graphic-design-services .bottom-content section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 1rem auto;
+  }
+}
+
+.print-and-graphic-design-services .bottom-content section img {
   height: 11em;
   width: 12.5em;
 }
 
-.print-and-graphic-design-services .content section #eagle {
+@media (max-width: 360px) {
+  .print-and-graphic-design-services .bottom-content section img {
+    margin-top: 1.5em;
+    width: 15em;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .print-and-graphic-design-services .bottom-content section img {
+    margin-top: 1.5em;
+    width: 15em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .print-and-graphic-design-services .bottom-content section img {
+    margin-top: 1.5em;
+    width: 15em;
+  }
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  .print-and-graphic-design-services .bottom-content section img {
+    margin-top: 1.5em;
+    width: 15em;
+  }
+}
+
+.print-and-graphic-design-services .bottom-content section #eagle {
   height: 9.75em;
 }
 
-.print-and-graphic-design-services .content section #coffeeShelf {
+.print-and-graphic-design-services .bottom-content section #coffeeShelf {
   padding-top: 0.5em;
   height: 14em;
 }
 
 @media (min-width: 981px) and (max-width: 1280px) {
-  .print-and-graphic-design-services .content section #coffeeShelf {
+  .print-and-graphic-design-services .bottom-content section #coffeeShelf {
     height: 16em;
   }
 }
 
-.print-and-graphic-design-services .content section p {
+@media (max-width: 360px) {
+  .print-and-graphic-design-services .bottom-content section #coffeeShelf {
+    display: none;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .print-and-graphic-design-services .bottom-content section #coffeeShelf {
+    display: none;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .print-and-graphic-design-services .bottom-content section #coffeeShelf {
+    display: none;
+  }
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  .print-and-graphic-design-services .bottom-content section #coffeeShelf {
+    display: none;
+  }
+}
+
+.print-and-graphic-design-services .bottom-content section p {
   text-align: left;
   line-height: 1.27em;
 }
 
-.print-and-graphic-design-services .content section p span {
+@media (max-width: 360px) {
+  .print-and-graphic-design-services .bottom-content section p {
+    margin-top: 1.25em;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .print-and-graphic-design-services .bottom-content section p {
+    margin-top: 1.25em;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .print-and-graphic-design-services .bottom-content section p {
+    margin-top: 1.25em;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  .print-and-graphic-design-services .bottom-content section p {
+    margin-top: 1.25em;
+    margin-bottom: 0;
+  }
+}
+
+.print-and-graphic-design-services .bottom-content section p span {
   font-weight: 600;
 }
 /*# sourceMappingURL=PrintAndGraphicServices.css.map */

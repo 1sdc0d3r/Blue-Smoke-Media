@@ -3,6 +3,30 @@
   height: 60vh;
 }
 
+@media (min-width: 737px) and (max-width: 980px) {
+  .ad-copy-writing img {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 360px) {
+  .ad-copy-writing img {
+    height: 30vh;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .ad-copy-writing img {
+    height: 30vh;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .ad-copy-writing img {
+    height: 30vh;
+  }
+}
+
 .ad-copy-writing .content {
   margin: auto 2em 4em;
 }

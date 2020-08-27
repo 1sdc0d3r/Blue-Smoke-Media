@@ -291,7 +291,7 @@ export default function Contact() {
           </div>
           <div className="actions">
             <input type="submit" />
-            <input type="reset" value="Reset" onClick={resetHandler} />
+            {/* <input type="reset" value="Reset" onClick={resetHandler} /> */}
           </div>
         </form>
       </div>

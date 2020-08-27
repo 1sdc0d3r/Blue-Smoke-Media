@@ -5,14 +5,50 @@
   border-bottom: 2px solid #020723;
 }
 
+@media (min-width: 737px) and (max-width: 980px) {
+  .custom-website-design img {
+    height: 40vh;
+  }
+}
+
+@media (max-width: 360px) {
+  .custom-website-design img {
+    height: 30vh;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .custom-website-design img {
+    height: 30vh;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .custom-website-design img {
+    height: 30vh;
+  }
+}
+
 .custom-website-design .content {
   margin: 2em 2em 4em;
   text-align: left;
 }
 
-@media (min-width: 981px) and (max-width: 1280px) {
+@media (max-width: 360px) {
   .custom-website-design .content {
-    margin: 2em 2em 3em;
+    margin: 1.5em 0;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .custom-website-design .content {
+    margin: 1.5em 0;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .custom-website-design .content {
+    margin: 1.5em 0;
   }
 }
 
@@ -27,9 +63,63 @@
   }
 }
 
+@media (max-width: 360px) {
+  .custom-website-design .content h1 {
+    margin-bottom: 1em;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .custom-website-design .content h1 {
+    margin-bottom: 1em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .custom-website-design .content h1 {
+    margin-bottom: 1em;
+  }
+}
+
+@media (max-width: 360px) {
+  .custom-website-design .content p {
+    margin: 2em 1em;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .custom-website-design .content p {
+    margin: 2em 1em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .custom-website-design .content p {
+    margin: 2em 1em;
+  }
+}
+
 .custom-website-design .content ol {
   margin: 2em auto;
   margin-left: 1.75em;
+}
+
+@media (max-width: 360px) {
+  .custom-website-design .content ol {
+    margin-left: 1em;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .custom-website-design .content ol {
+    margin-left: 1em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .custom-website-design .content ol {
+    margin-left: 1em;
+  }
 }
 
 .custom-website-design .content ol li {

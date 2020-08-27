@@ -12,19 +12,23 @@
     font-style: italic;
     margin: 1em auto 3em;
 
-    @include breakpoint(mobile) {
+    @include breakpoint(xxs, xs, s, m) {
       display: none;
     }
   }
 
   form {
+    @include breakpoint(xxs, xs, s, m) {
+      margin-left: 5%;
+    }
+
     .left {
       display: flex;
       flex-direction: column;
       text-align: left;
       margin: auto 3em;
 
-      @include breakpoint(mobile) {
+      @include breakpoint(xxs, xs, s, m) {
         margin: auto 1em;
       }
 
@@ -32,7 +36,7 @@
         font-size: 1.2em;
         margin-top: 0.25em;
 
-        @include breakpoint(mobile) {
+        @include breakpoint(xxs, xs, s, m) {
           font-size: 1.05em;
         }
 
@@ -42,7 +46,11 @@
           font-size: 0.9em;
           width: 50%;
 
-          @include breakpoint(mobile) {
+          @include breakpoint(m) {
+            width: 80%;
+          }
+
+          @include breakpoint(xxs, xs, s) {
             width: 95%;
             margin: 0.1em auto 0.2em 0.5em;
           }
@@ -54,14 +62,14 @@
         flex-direction: column;
 
         label {
-          @include breakpoint(mobile) {
+          @include breakpoint(xxs, xs, s, m) {
             text-align: center;
             margin: 0.3em auto 0.15em;
           }
         }
 
         div {
-          @include breakpoint(mobile) {
+          @include breakpoint(xxs, xs, s, m) {
             // display: flex;
             margin: auto;
             width: 75%;
@@ -79,7 +87,7 @@
       text-align: left;
       margin: 2.5em 3em 1em;
 
-      @include breakpoint(mobile) {
+      @include breakpoint(xxs, xs, s, m) {
         margin: 1.5em 1em 1em;
       }
     }
@@ -91,7 +99,7 @@
       flex-wrap: wrap;
       justify-content: space-around;
 
-      @include breakpoint(mobile) {
+      @include breakpoint(xxs, xs, s, m) {
         margin: auto 2em;
       }
 
@@ -101,7 +109,7 @@
         width: 45%;
         margin-bottom: 0.5em;
 
-        @include breakpoint(mobile) {
+        @include breakpoint(xxs, xs, s, m) {
           font-size: 1em;
           margin-bottom: 0.6em;
           width: 48%;
@@ -157,13 +165,12 @@
       width: 20%;
       margin: 1em auto 2em;
       display: flex;
-      justify-content: space-around;
 
       @include breakpoint(l) {
         margin: 1.2em auto 2em;
       }
 
-      @include breakpoint(mobile) {
+      @include breakpoint(xxs, xs, s, m) {
         width: 50%;
         margin: 1.2em auto 2em;
       }

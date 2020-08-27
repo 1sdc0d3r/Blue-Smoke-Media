@@ -10,6 +10,13 @@
     height: 60vh;
     // border-top: 2px solid black;
     border-bottom: 2px solid $darkBlue;
+
+    @include breakpoint(m) {
+      height: 50vh;
+    }
+    @include breakpoint(xxs, xs, s) {
+      height: 27vh;
+    }
   }
 
   h1 {

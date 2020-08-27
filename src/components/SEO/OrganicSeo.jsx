@@ -41,7 +41,11 @@ export default function OrganicSeo() {
         </p>
         <p>
           For more information on Organic Search Engine Optimization, contact us
-          at info@BlueSmokeDigitalMedia.
+          at{" "}
+          <a href="mailto:info@BlueSmokeDigitalMedia.com">
+            info@BlueSmokeDigitalMedia
+          </a>
+          .
         </p>
       </div>
     </>

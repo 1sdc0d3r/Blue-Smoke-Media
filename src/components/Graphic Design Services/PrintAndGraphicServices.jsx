@@ -31,7 +31,7 @@ export default function PrintAndDesignGraphicServices() {
             design has power; it may be hard to measure, but there are ways to
             see the value inherent in purposeful, targeted and personal design.
           </p>
-          <div className="bottom">
+          <div className="bottom-content">
             <div className="images-left"></div>
             <div className="text-right">
               <section>

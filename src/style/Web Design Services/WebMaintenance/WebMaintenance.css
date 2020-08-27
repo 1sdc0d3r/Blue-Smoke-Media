@@ -8,6 +8,30 @@
   border-bottom: 2px outset #020723;
 }
 
+@media (min-width: 737px) and (max-width: 980px) {
+  .web-maintenance img {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 360px) {
+  .web-maintenance img {
+    height: 35vh;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .web-maintenance img {
+    height: 35vh;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .web-maintenance img {
+    height: 35vh;
+  }
+}
+
 .web-maintenance .content {
   margin: 2em;
 }

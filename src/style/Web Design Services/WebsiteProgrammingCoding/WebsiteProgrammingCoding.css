@@ -5,9 +5,27 @@
   border-bottom: 2px outset #020723;
 }
 
-@media (min-width: 981px) and (max-width: 1280px) {
+@media (min-width: 737px) and (max-width: 980px) {
   .website-programming-coding img {
-    height: 62vh;
+    height: 50vh;
+  }
+}
+
+@media (max-width: 360px) {
+  .website-programming-coding img {
+    height: 35vh;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .website-programming-coding img {
+    height: 35vh;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .website-programming-coding img {
+    height: 35vh;
   }
 }
 
@@ -31,6 +49,7 @@
 
 .website-programming-coding .content ul li {
   margin: none;
+  line-height: 1.4em;
 }
 
 .website-programming-coding .content ul li::before {
@@ -40,9 +59,27 @@
   margin-right: 0.45em;
 }
 
-@media (min-width: 981px) and (max-width: 1280px) {
+@media (max-width: 360px) {
   .website-programming-coding .content ul li {
-    line-height: 1.4em;
+    margin-bottom: 0.25em;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .website-programming-coding .content ul li {
+    margin-bottom: 0.25em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .website-programming-coding .content ul li {
+    margin-bottom: 0.25em;
+  }
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  .website-programming-coding .content ul li {
+    margin-bottom: 0.25em;
   }
 }
 /*# sourceMappingURL=WebsiteProgrammingCoding.css.map */

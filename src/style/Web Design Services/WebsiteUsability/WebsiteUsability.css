@@ -4,6 +4,30 @@
   height: 65vh;
 }
 
+@media (min-width: 737px) and (max-width: 980px) {
+  .website-usability img {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 360px) {
+  .website-usability img {
+    height: 30vh;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .website-usability img {
+    height: 30vh;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .website-usability img {
+    height: 30vh;
+  }
+}
+
 .website-usability .content {
   margin: auto 2em 2em;
   text-align: left;
@@ -14,9 +38,21 @@
   margin: 1.45em auto;
 }
 
-@media (min-width: 981px) and (max-width: 1280px) {
+@media (max-width: 360px) {
   .website-usability .content h1 {
-    margin: 1.1em auto;
+    margin: 1em auto;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .website-usability .content h1 {
+    margin: 1em auto;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .website-usability .content h1 {
+    margin: 1em auto;
   }
 }
 

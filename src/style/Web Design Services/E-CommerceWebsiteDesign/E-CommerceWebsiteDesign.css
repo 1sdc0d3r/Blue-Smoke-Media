@@ -4,18 +4,36 @@
   border-bottom: 2px outset #020723;
 }
 
+@media (min-width: 737px) and (max-width: 980px) {
+  .e-commerce-website-development img {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 360px) {
+  .e-commerce-website-development img {
+    height: 35vh;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .e-commerce-website-development img {
+    height: 35vh;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .e-commerce-website-development img {
+    height: 35vh;
+  }
+}
+
 .e-commerce-website-development .content {
   margin: auto 2em 2em;
 }
 
 .e-commerce-website-development .content h1 {
   margin: 1em auto 0.8em;
-}
-
-@media (min-width: 981px) and (max-width: 1280px) {
-  .e-commerce-website-development .content h1 {
-    margin: 0.8em auto 0;
-  }
 }
 
 .e-commerce-website-development .content p {
