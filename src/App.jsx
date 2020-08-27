@@ -35,17 +35,16 @@ import landingVideo from "./videos/LandingPageVideo.mp4";
 //todo set up google analytics
 //analytics.google.com/analytics/web/provision/#/a168002604p234303565/admin/streams/promo
 // todo generate sitemap for .robottxt file
-// todo cta phone stretched
 // todo rename paths (full application)
 function App() {
   //! enable video here
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(true);
   useEffect(() => {
     setIsPlaying(getStorage());
   }, []);
+  const videoPlayDelay = 259200000; //72hrs
   return (
     <div className="App" style={{ position: "relative" }}>
-      {/* //todo fix video height/width */}
       {isPlaying ? (
         <video
           type={"video/mp4"}
@@ -59,7 +58,7 @@ function App() {
               "landingVideo",
               JSON.stringify({
                 value: true,
-                expiration: new Date().getTime() + 86400000, //24hrs
+                expiration: new Date().getTime() + videoPlayDelay,
               })
             );
           }}

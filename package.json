@@ -19,6 +19,7 @@
     "react": "16.13.1",
     "react-card-flip": "^1.0.11",
     "react-dom": "16.13.1",
+    "react-payment-icons": "^1.2.6",
     "react-router-dom": "5.1.2",
     "react-scripts": "3.4.1",
     "url-loader": "4.1.0"

@@ -63,16 +63,19 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 30%;
+    width: 35%;
     color: $green;
     @include breakpoint(m) {
       width: 40%;
+    }
+    .payment-icon {
+      width: 20%;
     }
   }
   .contact {
     display: flex;
     justify-content: flex-end;
-    width: 40%;
+    width: 65%;
     align-items: center;
     text-transform: uppercase;
     @include breakpoint(s, m) {

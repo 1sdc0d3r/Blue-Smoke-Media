@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
+import PaymentIcon from "react-payment-icons";
+
 import blueSmoke from "../../images/blue-smoke.png";
 import youtube from "../../images/youTube.png";
 import twitter from "../../images/Twitter.png";
@@ -8,7 +10,7 @@ import instagram from "../../images/instagram.png";
 import behance from "../../images/Behance.png";
 import facebook from "../../images/faceBook.png";
 // todo links
-//todo make sure everything is in here
+// todo make sure everything is in here
 export default function Footer() {
   return (
     <>
@@ -70,11 +72,9 @@ export default function Footer() {
             <li>
               <Link to="/customWebsiteDesign">Custom Website Design</Link>
             </li>
-            {/* //todo  */}
             {/* <li>
               <Link to="#">Re-Design & Updates</Link>
             </li> */}
-            {/* //todo fix breaking line? */}
             <li>
               <Link to="/websiteUsability">Website Useability</Link>
             </li>
@@ -184,10 +184,10 @@ export default function Footer() {
       <section className="bottom">
         <div className="payment">
           {/* //todo icons */}
-          <p>Visa</p>
-          <p>PayPal</p>
-          <p>Discover</p>
-          <p>MasterCard</p>
+          <PaymentIcon id="visa" className="payment-icon" />
+          <PaymentIcon id="paypal" className="payment-icon" />
+          <PaymentIcon id="discover" className="payment-icon" />
+          <PaymentIcon id="mastercard" className="payment-icon" />
         </div>
         <div className="contact">
           <p>call support:</p>

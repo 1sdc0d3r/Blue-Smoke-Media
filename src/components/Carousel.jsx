@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../style/Carousel/carousel.css";
 
 import {
@@ -14,7 +14,7 @@ import "pure-react-carousel/dist/react-carousel.es.css";
 import slide1 from "../images/slide-1.png";
 import slide2 from "../images/slide-2.png";
 import slide3 from "../images/slide-3.png";
-// todo links
+
 export default function Carousel() {
   return (
     <CarouselProvider
@@ -46,7 +46,7 @@ export default function Carousel() {
                 business.
               </p>
               <button>
-                <NavLink to="#">Get Started Now!</NavLink>
+                <Link to="#">Get Started Now!</Link>
               </button>
             </div>
             <div className="dots">
@@ -75,7 +75,7 @@ export default function Carousel() {
                 product awareness.
               </p>
               <button>
-                <NavLink to="#">Get Started Now!</NavLink>
+                <Link to="#">Get Started Now!</Link>
               </button>
             </div>
             <div className="dots">
@@ -104,7 +104,7 @@ export default function Carousel() {
                 what sets us apart from our competitors.
               </p>
               <button>
-                <NavLink to="#">Get Started Now!</NavLink>
+                <Link to="#">Get Started Now!</Link>
               </button>
             </div>
             <div className="dots">

@@ -1,5 +1,4 @@
 @import "../Utils/Mixins/Mixins.scss";
-//todo breakpoints
 //todo flame (white specs)
 header {
   background-image: url("../../images/blue-backgrnd-globe.png");
@@ -198,7 +197,7 @@ header {
 
       .cta-phone {
         width: 100%;
-        height: 90%;
+        height: 75%;
         margin-top: 10%;
         @include breakpoint(xxs, xs, s) {
           margin-top: 25%;

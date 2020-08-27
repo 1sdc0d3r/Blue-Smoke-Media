@@ -1,20 +1,12 @@
 import React from "react";
 import fingersCrossed from "../../images/fingers-crossed.png";
-//todo fix this spelling error
-import light from "../../images/recognition-rememberance-image.png";
+import light from "../../images/recognition-remembrance-image.png";
 import respect from "../../images/respect-image.png";
 import eagle from "../../images/eagle.png";
 import coffeeShelf from "../../images/coffee-shelf.png";
 //* Images
 // const fingersCrossed =
 // "https://blue-smoke-media.s3-us-west-1.amazonaws.com/fingers-crossed.png";
-// const light =
-// "https://blue-smoke-media.s3-us-west-1.amazonaws.com/recognition-rememberance-image.png";
-// const respect =
-//   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/respect-image.png";
-// const eagle = "https://blue-smoke-media.s3-us-west-1.amazonaws.com/eagle.png";
-// const coffeeShelf =
-//   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/coffee-shelf.png";
 
 export default function PrintAndDesignGraphicServices() {
   return (

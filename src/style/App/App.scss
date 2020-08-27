@@ -14,6 +14,7 @@ html {
   font-weight: 400;
   font-size: 1.3em;
   color: $darkBlue;
+
   @include breakpoint(xxl) {
     font-size: 1.8em;
   }
@@ -25,7 +26,6 @@ html {
     // height: 100%;
   }
   video {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
   }
 }
