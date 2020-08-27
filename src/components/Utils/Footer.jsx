@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import blueSmoke from "../../images/blue-smoke.png";
 import youtube from "../../images/youTube.png";
 import twitter from "../../images/Twitter.png";
@@ -16,22 +17,22 @@ export default function Footer() {
           <h3>About Us</h3>
           <ul>
             <li>
-              <a href="/">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="/team">Our Team</a>
+              <Link to="/team">Our Team</Link>
             </li>
             {/* <li>
-              <a href="#">Portfolio</a>
+              <Link to="#">Portfolio</Link>
             </li> */}
             {/* <li>
-              <a href="#">Our Blog</a>
+              <a href="#" target="_blank">Our Blog</a>
             </li> */}
             <li>
-              <a href="/inquirySurveyForm">Inquiry Form</a>
+              <Link to="/inquirySurveyForm">Inquiry Form</Link>
             </li>
             <li>
-              <a href="/contact">Contact Us</a>
+              <Link to="/contact">Contact Us</Link>
             </li>
           </ul>
         </div>
@@ -39,27 +40,27 @@ export default function Footer() {
           <h3>Products</h3>
           <ul>
             <li>
-              <a href="/customWebsiteDesign">Website Design</a>
+              <Link to="/customWebsiteDesign">Website Design</Link>
             </li>
             {/* //todo NEW SEO PAGE */}
             <li>
-              <a href="/seo">
+              <Link to="/seo">
                 Search Engine
                 <br />
                 Optimization
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/printAndGraphicServices">Graphic Design</a>
+              <Link to="/printAndGraphicServices">Graphic Design</Link>
             </li>
             {/* <li>
-              <a href="a/">Social Media Marketing</a>
+              <Link to="a/">Social Media Marketing</Link>
             </li> */}
             {/* <li>
-              <a href="l-">Corporate Branding</a>
+              <Link to="l-">Corporate Branding</Link>
             </li> */}
             {/* <li>
-              <a href="#">Reputation Management</a>
+              <Link to="#">Reputation Management</Link>
             </li> */}
           </ul>
         </div>
@@ -67,31 +68,31 @@ export default function Footer() {
           <h3>Our Services</h3>
           <ul>
             <li>
-              <a href="/customWebsiteDesign">Custom Website Design</a>
+              <Link to="/customWebsiteDesign">Custom Website Design</Link>
             </li>
             {/* //todo  */}
             {/* <li>
-              <a href="#">Re-Design & Updates</a>
+              <Link to="#">Re-Design & Updates</Link>
             </li> */}
             {/* //todo fix breaking line? */}
             <li>
-              <a href="/websiteUsability">Website Useability</a>
+              <Link to="/websiteUsability">Website Useability</Link>
             </li>
             <li>
-              <a href="/E-CommerceWebsiteDevelopment">
+              <Link to="/E-CommerceWebsiteDevelopment">
                 E-Commerce Website
                 <br />
                 Development
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/coding">
+              <Link to="/coding">
                 Website Programming
                 <br />& Development
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/webMaintenance">Website Maintenance</a>
+              <Link to="/webMaintenance">Website Maintenance</Link>
             </li>
           </ul>
         </div>
@@ -99,34 +100,34 @@ export default function Footer() {
           <h3>Organic SEO</h3>
           <ul>
             <li>
-              <a href="/seoFriendly">
+              <Link to="/seoFriendly">
                 SEO Friendly
                 <br />
                 Website Design
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/printAndGraphicServices">
+              <Link to="/printAndGraphicServices">
                 Digital & Print
                 <br />
                 Graphic Design
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/printedMediaLogos">Printed Media Logos</a>
+              <Link to="/printedMediaLogos">Printed Media Logos</Link>
             </li>
             <li>
-              <a href="/websiteLogoDesign">Website Logo Design</a>
+              <Link to="/websiteLogoDesign">Website Logo Design</Link>
             </li>
             {/* //todo social media component */}
             {/* <li>
-              <a href="x-">
+              <Link to="x-">
                 Social Media <br />& Marketing
-              </a>
+              </Link>
             </li> */}
             {/* //todo reputation management component */}
             {/* <li>
-              <a href="x-">Reputation & Review Management</a>
+              <Link to="x-">Reputation & Review Management</Link>
             </li> */}
           </ul>
         </div>
@@ -135,22 +136,22 @@ export default function Footer() {
           <h3>Portfolio</h3>
           <ul>
             <li>
-              <a href="#">Websites </a>
+              <Link to="#">Websites </Link>
             </li>
             <li>
-              <a href="#">E-commerce Websites </a>
+              <Link to="#">E-commerce Websites </Link>
             </li>
             <li>
-              <a href="#">
+              <Link to="#">
                 Social Media <br />
                 Management
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#">Corporate Branding </a>
+              <Link to="#">Corporate Branding </Link>
             </li>
             <li>
-              <a href="#">Printed Media </a>
+              <Link to="#">Printed Media </Link>
             </li>
           </ul>
         </div> */}
@@ -167,15 +168,15 @@ export default function Footer() {
             </li>
             {/* //todo add in all social media accounts
             <li>
-              <a href="" target="">
+              <Link to="" target="">
                 <img src="" alt="r Social Media Button" />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#">Behance</a>
+              <Link to="#">Behance</Link>
             </li>
             <li>
-              <a href="#">Youtube</a>
+              <Link to="#">Youtube</Link>
             </li> */}
           </ul>
         </div>
@@ -192,10 +193,10 @@ export default function Footer() {
           <p>call support:</p>
           <div className="numbers">
             <p>
-              <a href="tel:+1.865.274.1371">+1 865.274.1371</a>
+              <Link to="tel:+1.865.274.1371">+1 865.274.1371</Link>
             </p>
             <p>
-              <a href="tel:+1.801.690.1189">+1 801.690.1189</a>
+              <Link to="tel:+1.801.690.1189">+1 801.690.1189</Link>
             </p>
           </div>
         </div>

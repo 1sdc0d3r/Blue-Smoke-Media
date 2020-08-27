@@ -19,23 +19,6 @@
   .wrapper {
     margin: 0 1.5rem;
 
-    // .top {
-    //   font-size: 2rem;
-    //   display: flex;
-    //   flex-direction: column;
-    //   text-align: center;
-    //   margin: 1rem auto;
-    //   line-height: 1.2rem;
-
-    //   span:first-child {
-    //     margin-right: 48%;
-    //     padding-bottom: 1rem;
-    //   }
-
-    //   span:nth-child(2) {
-    //     margin-left: 48%;
-    //   }
-    // }
     h1 {
       text-align: center;
       margin: 1.25em auto;
@@ -46,6 +29,7 @@
     }
 
     h2 {
+      text-align: center;
       @include breakpoint(l) {
         font-size: 1.35em;
       }

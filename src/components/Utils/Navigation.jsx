@@ -29,59 +29,62 @@ export default function Navigation() {
         <div className="dropdown-content">
           <div className="nav-section">
             <h3>SEO</h3>
-            <a href="/seoFriendly" className="drop-item">
+            <NavLink to="/seoFriendly" className="drop-item">
               SEO - Search Engine Optimization
-            </a>
+            </NavLink>
 
-            <a href="/seoOrganic" className="drop-item">
+            <NavLink to="/seoOrganic" className="drop-item">
               Organic Search Engine Optimization
-            </a>
+            </NavLink>
           </div>
           <div className="nav-section ">
             <h3>Website Design</h3>
             <div className="split">
               <div>
-                <a href="/customWebsiteDesign" className="drop-item">
+                <NavLink to="/customWebsiteDesign" className="drop-item">
                   Custom Website Design
-                </a>
-                <a href="/E-CommerceWebsiteDevelopment" className="drop-item">
+                </NavLink>
+                <NavLink
+                  to="/E-CommerceWebsiteDevelopment"
+                  className="drop-item"
+                >
                   E-Commerce Website Development
-                </a>
-                <a href="/websiteUsability" className="drop-item">
+                </NavLink>
+                <NavLink to="/websiteUsability" className="drop-item">
                   Creating Your Website-Useability
-                </a>
+                </NavLink>
               </div>
               <div>
-                <a href="/ad-CopyWriting" className="drop-item">
+                <NavLink to="/ad-CopyWriting" className="drop-item">
                   Website Ad-Copy Writing
-                </a>
+                </NavLink>
 
-                <a href="/webMaintenance" className="drop-item">
+                <NavLink to="/webMaintenance" className="drop-item">
                   Website Maintenance
-                </a>
+                </NavLink>
 
-                <a href="/coding" className="drop-item">
+                <NavLink to="/coding" className="drop-item">
                   Coding and Programming
-                </a>
-                <a href="/inquirySurveyForm" className="drop-item">
+                </NavLink>
+                <NavLink to="/inquirySurveyForm" className="drop-item">
                   Inquiry/Survey Form
-                </a>
+                </NavLink>
               </div>
             </div>
           </div>
           <div className="nav-section">
             <h3>Graphic Design</h3>
-            <a href="/websiteLogoDesign" className="drop-item">
+            <NavLink to="/websiteLogoDesign" className="drop-item">
               Website Logo Design
-            </a>
+            </NavLink>
 
-            <a href="/printedMediaLogos" className="drop-item">
+            <NavLink to="/printedMediaLogos" className="drop-item">
               Print Logo Design
-            </a>
+            </NavLink>
 
-            <a href="/printAndGraphicServices" className="drop-item">
+            <NavLink to="/printAndGraphicServices" className="drop-item">
               Print & Graphic Design Services
-            </a>
+            </NavLink>
           </div>
         </div>
       </div>
@@ -90,7 +93,7 @@ export default function Navigation() {
         Our Work
       </NavLink> */}
       {/* //todo BLOG */}
-      <a href="/blog" className="nav-item">
+      <a href="/blog" target="_blank" className="nav-item">
         Blog
       </a>
       <NavLink to="/contact" className="nav-item">

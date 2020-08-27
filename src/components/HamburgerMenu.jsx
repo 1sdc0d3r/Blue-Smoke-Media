@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function HamburgerMenu() {
   return (
@@ -15,58 +16,60 @@ export default function HamburgerMenu() {
         <span />
 
         <ul id="menu">
-          <a href="/">
+          <Link to="/">
             {" "}
             <li>Home</li>
-          </a>
+          </Link>
 
-          <a href="/team">
+          <Link to="/team">
             <li>Our Team</li>
-          </a>
+          </Link>
           <li className="sub-menu-btn">Services ></li>
           <ul className="sub-drop-menu">
             <div className="dropdown-content">
               <h3>SEO</h3>
 
-              <a href="/seoFriendly">SEO - Search Engine Optimization</a>
+              <Link to="/seoFriendly">SEO - Search Engine Optimization</Link>
 
-              <a href="/seoOrganic">Organic Search Engine Optimization</a>
+              <Link to="/seoOrganic">Organic Search Engine Optimization</Link>
               <h3>Website Design</h3>
 
-              <a href="/customWebsiteDesign">Custom Website Design</a>
+              <Link to="/customWebsiteDesign">Custom Website Design</Link>
 
-              <a href="/E-CommerceWebsiteDevelopment">
+              <Link to="/E-CommerceWebsiteDevelopment">
                 E-Commerce Website Development
-              </a>
+              </Link>
 
-              <a href="/websiteUsability">Creating Your Website-Useability</a>
+              <Link to="/websiteUsability">
+                Creating Your Website-Useability
+              </Link>
 
-              <a href="/ad-CopyWriting">Website Ad-Copy Writing</a>
+              <Link to="/ad-CopyWriting">Website Ad-Copy Writing</Link>
 
-              <a href="/webMaintenance">Website Maintenance</a>
+              <Link to="/webMaintenance">Website Maintenance</Link>
 
-              <a href="/coding">Coding and Programming</a>
+              <Link to="/coding">Coding and Programming</Link>
 
-              <a href="/inquirySurveyForm">Inquiry/Survey Form</a>
+              <Link to="/inquirySurveyForm">Inquiry/Survey Form</Link>
               <h3>Graphic Design</h3>
 
-              <a href="/websiteLogoDesign">Website Logo Design</a>
+              <Link to="/websiteLogoDesign">Website Logo Design</Link>
 
-              <a href="/printedMediaLogos">Print Logo Design</a>
+              <Link to="/printedMediaLogos">Print Logo Design</Link>
 
-              <a href="/printAndGraphicServices">
+              <Link to="/printAndGraphicServices">
                 Print & Graphic Design Services
-              </a>
+              </Link>
             </div>
           </ul>
 
-          <a href="#" target="_blank">
+          <a href="#blog" target="_blank">
             <li>Blog</li>
           </a>
 
-          <a href="/contact">
+          <Link to="/contact">
             <li>Contact</li>
-          </a>
+          </Link>
         </ul>
       </div>
     </nav>
