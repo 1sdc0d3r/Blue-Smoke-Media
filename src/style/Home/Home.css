@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .home {
   z-index: 50;
 }
@@ -342,6 +343,25 @@
 .home .plans-pricing .plans-card-container .plan-card-set .plan-card a:hover {
   color: #d7dae6;
   outline: 2px solid #ee3e0e;
+}
+
+.home .social-media {
+  margin: 5% auto 8%;
+  width: 95%;
+  text-align: justify;
+}
+
+.home .social-media h1 {
+  text-align: center;
+  font-size: 1.75em;
+}
+
+.home .social-media ul {
+  list-style: none;
+}
+
+.home .social-media ul li :before {
+  content: "◆";
 }
 
 .home .services h1 {

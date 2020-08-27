@@ -9,6 +9,7 @@ import help2 from "../images/help-icon-2.png";
 import help3 from "../images/help-icon-3.png";
 import Carousel from "./Carousel";
 import ReactCardFlip from "react-card-flip";
+import SocialMedia from "./SocialMedia";
 
 export default function Home() {
   const [card1, setCard1] = useState(false);
@@ -103,11 +104,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section
-        className="social-media"
-        style={{ border: "2px solid black", margin: "2em auto" }}
-      >
-        <h1>SOCIAL MEDIA</h1>
+      <section className="social-media">
+        <SocialMedia />
       </section>
       <section className="services">
         <h1>

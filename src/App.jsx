@@ -27,6 +27,7 @@ import WebsiteLogoDesign from "./components/Graphic Design Services/WebsiteLogoD
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import CTA from "./components/Header-CTA";
+import HamburgerMenu from "./components/HamburgerMenu";
 // * Media
 import landingVideo from "./videos/LandingPageVideo.mp4";
 //todo learn E-Commerce
@@ -34,6 +35,7 @@ import landingVideo from "./videos/LandingPageVideo.mp4";
 //todo set up google analytics
 //analytics.google.com/analytics/web/provision/#/a168002604p234303565/admin/streams/promo
 // todo generate sitemap for .robottxt file
+// todo cta phone stretched
 // todo rename paths (full application)
 function App() {
   //! enable video here
@@ -42,7 +44,8 @@ function App() {
     setIsPlaying(getStorage());
   }, []);
   return (
-    <div className="App">
+    <div className="App" style={{ position: "relative" }}>
+      {/* //todo fix video height/width */}
       {isPlaying ? (
         <video
           type={"video/mp4"}
@@ -67,6 +70,7 @@ function App() {
             <div>
               <Header />
               <Navigation />
+              <HamburgerMenu />
             </div>
             <CTA />
           </header>

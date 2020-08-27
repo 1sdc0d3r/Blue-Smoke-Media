@@ -2,7 +2,7 @@
 
 //todo all services included in navbar
 //todo fix dropdown
-nav {
+.main-nav {
   display: flex;
   background: $darkBlue;
   padding: 0 15%;
@@ -16,9 +16,6 @@ nav {
   user-select: none;
   padding: 0 7%;
 
-  @include breakpoint(l) {
-  }
-
   @include breakpoint(xxs) {
     background: red;
   }
@@ -28,22 +25,19 @@ nav {
   @include breakpoint(s) {
     background: rgb(204, 193, 32);
   }
+  //todo navigation when not showing (hamburger) (xxs-m)
   @include breakpoint(xxs, xs, s, m) {
-    background: green;
     display: none;
   }
   @include breakpoint(l) {
     background: blue;
+    // display: none;
   }
   @include breakpoint(xl) {
     background: purple;
   }
   @include breakpoint(xxl) {
     background: black;
-  }
-
-  @include breakpoint(mobile) {
-    display: none;
   }
 
   /* Links inside the navbar */

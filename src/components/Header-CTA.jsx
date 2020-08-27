@@ -12,8 +12,13 @@ export default function cta() {
         Consultation
       </p>
       <div className="btns">
-        <img src={email} alt="contact-mail" className="cta-mail cta-btn" />
-        <img src={phone} alt="contact-phone" className="cta-phone cta-btn" />
+        {/* //todo email here */}
+        <a href="mailto:email.com">
+          <img src={email} alt="contact-mail" className="cta-mail cta-btn" />
+        </a>
+        <a href="tel:+1 801.690.1189">
+          <img src={phone} alt="contact-phone" className="cta-phone cta-btn" />
+        </a>
       </div>
     </div>
   );

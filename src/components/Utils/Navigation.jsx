@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Navigation() {
   return (
-    <nav>
+    <nav className="main-nav">
       <div className="dropdown">
         <button className="drop-btn nav-item">
           <NavLink to="/" className="nav-item">

@@ -20,13 +20,11 @@ html {
   @include breakpoint(xl) {
     font-size: 1.6em;
   }
-
-  @include breakpoint(mobile) {
-    width: 100%;
-    font-size: 1.12rem;
-  }
-
   header {
     display: flex;
+  }
+  video {
+    width: 100vw;
+    height: 100vh;
   }
 }

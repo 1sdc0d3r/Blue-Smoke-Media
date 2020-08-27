@@ -17,7 +17,7 @@
       }
 
       .slide-info {
-        width: 48%;
+        width: 53%;
         height: 80%;
         color: #fda900;
         display: flex;
@@ -179,7 +179,7 @@
       background: #ee3e0e;
     }
     img {
-      width: 40%;
+      width: 35%;
       max-height: 500px;
       align-self: center;
       @include breakpoint(s, m) {

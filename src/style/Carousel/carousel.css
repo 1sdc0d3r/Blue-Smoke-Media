@@ -51,7 +51,7 @@
 }
 
 .carousel .slider .inner-slide .slide-info {
-  width: 48%;
+  width: 53%;
   height: 80%;
   color: #fda900;
   display: -webkit-box;
@@ -335,7 +335,7 @@
 }
 
 .carousel .slider img {
-  width: 40%;
+  width: 35%;
   max-height: 500px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -365,4 +365,4 @@
     display: none;
   }
 }
-/*# sourceMappingURL=carousel.css.map */
+/*# sourceMappingURL=Carousel.css.map */
