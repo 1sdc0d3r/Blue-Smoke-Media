@@ -11,6 +11,22 @@ import behance from "../../images/Behance.png";
 import facebook from "../../images/faceBook.png";
 // todo links
 // todo make sure everything is in here
+const chevron = (
+  <svg
+    // width="20"
+    // height="20"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+    data-svg="chevron-right"
+  >
+    <polyline
+      fill="none"
+      stroke="#ee3e0e"
+      stroke-width="3.0"
+      points="7 4 13 10 7 16"
+    ></polyline>
+  </svg>
+);
 export default function Footer() {
   return (
     <>
@@ -19,22 +35,22 @@ export default function Footer() {
           <h3>About Us</h3>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/">{chevron}Home</Link>
             </li>
             <li>
-              <Link to="/team">Our Team</Link>
+              <Link to="/team">{chevron}Our Team </Link>
             </li>
             {/* <li>
-              <Link to="#">Portfolio</Link>
+              < to="#">Portfolio</{chevron}Link>
             </li> */}
             {/* <li>
               <a href="#" target="_blank">Our Blog</a>
             </li> */}
             <li>
-              <Link to="/inquirySurveyForm">Inquiry Form</Link>
+              <Link to="/inquirySurveyForm">{chevron}Inquiry Form</Link>
             </li>
             <li>
-              <Link to="/contact">Contact Us</Link>
+              <Link to="/contact">{chevron}Contact Us</Link>
             </li>
           </ul>
         </div>
@@ -42,27 +58,28 @@ export default function Footer() {
           <h3>Products</h3>
           <ul>
             <li>
-              <Link to="/customWebsiteDesign">Website Design</Link>
+              <Link to="/customWebsiteDesign">{chevron}Website Design</Link>
             </li>
             {/* //todo NEW SEO PAGE */}
             <li>
               <Link to="/seo">
+                {chevron}
                 Search Engine
                 <br />
                 Optimization
               </Link>
             </li>
             <li>
-              <Link to="/printAndGraphicServices">Graphic Design</Link>
+              <Link to="/printAndGraphicServices">{chevron}Graphic Design</Link>
             </li>
             {/* <li>
-              <Link to="a/">Social Media Marketing</Link>
+              <Link to="a/">{chevron}Social Media Marketing</Link>
             </li> */}
             {/* <li>
-              <Link to="l-">Corporate Branding</Link>
+              <Link to="l-">{chevron}Corporate Branding</Link>
             </li> */}
             {/* <li>
-              <Link to="#">Reputation Management</Link>
+              <Link to="#">Reputation Management{chevron}</Link>
             </li> */}
           </ul>
         </div>
@@ -70,29 +87,32 @@ export default function Footer() {
           <h3>Our Services</h3>
           <ul>
             <li>
-              <Link to="/customWebsiteDesign">Custom Website Design</Link>
+              <Link to="/customWebsiteDesign">
+                {chevron}Custom Website Design
+              </Link>
             </li>
             {/* <li>
-              <Link to="#">Re-Design & Updates</Link>
+              <Link to="#">Re-Design{chevron} & Updates</Link>
             </li> */}
             <li>
-              <Link to="/websiteUsability">Website Useability</Link>
+              <Link to="/websiteUsability">{chevron}Website Useability</Link>
             </li>
             <li>
               <Link to="/E-CommerceWebsiteDevelopment">
-                E-Commerce Website
+                {chevron}E-Commerce Website
                 <br />
                 Development
               </Link>
             </li>
             <li>
               <Link to="/coding">
+                {chevron}
                 Website Programming
                 <br />& Development
               </Link>
             </li>
             <li>
-              <Link to="/webMaintenance">Website Maintenance</Link>
+              <Link to="/webMaintenance">{chevron}Website Maintenance</Link>
             </li>
           </ul>
         </div>
@@ -101,6 +121,7 @@ export default function Footer() {
           <ul>
             <li>
               <Link to="/seoFriendly">
+                {chevron}
                 SEO Friendly
                 <br />
                 Website Design
@@ -108,26 +129,27 @@ export default function Footer() {
             </li>
             <li>
               <Link to="/printAndGraphicServices">
+                {chevron}
                 Digital & Print
                 <br />
                 Graphic Design
               </Link>
             </li>
             <li>
-              <Link to="/printedMediaLogos">Printed Media Logos</Link>
+              <Link to="/printedMediaLogos">{chevron}Printed Media Logos</Link>
             </li>
             <li>
-              <Link to="/websiteLogoDesign">Website Logo Design</Link>
+              <Link to="/websiteLogoDesign">{chevron}Website Logo Design</Link>
             </li>
             {/* //todo social media component */}
             {/* <li>
-              <Link to="x-">
+              <Link to="x-">{chevron}
                 Social Media <br />& Marketing
               </Link>
             </li> */}
             {/* //todo reputation management component */}
             {/* <li>
-              <Link to="x-">Reputation & Review Management</Link>
+              <Link to="x-">{chevron}Reputation & Review Management</Link>
             </li> */}
           </ul>
         </div>
@@ -136,22 +158,22 @@ export default function Footer() {
           <h3>Portfolio</h3>
           <ul>
             <li>
-              <Link to="#">Websites </Link>
+              < to="#">Websites </{chevron}Link>
             </li>
             <li>
-              <Link to="#">E-commerce Websites </Link>
+              <Link to="#">E-commerce{chevron} Websites </Link>
             </li>
             <li>
               <Link to="#">
-                Social Media <br />
+                Social Media{chevron} <br />
                 Management
               </Link>
             </li>
             <li>
-              <Link to="#">Corporate Branding </Link>
+              <Link to="#">Corporate Branding{chevron} </Link>
             </li>
             <li>
-              <Link to="#">Printed Media </Link>
+              <Link to="#">Printed Media{chevron} </Link>
             </li>
           </ul>
         </div> */}
@@ -163,27 +185,27 @@ export default function Footer() {
                 href="https://www.linkedin.com/company/blue-smoke-digital-and-printed-media/"
                 target="_blank"
               >
+                {chevron}
                 <img src={linkedIn} alt="LinkedIn Social Media Button" />
               </a>
             </li>
             {/* //todo add in all social media accounts
             <li>
-              <Link to="" target="">
+              <Link to="" target="">{chevron}
                 <img src="" alt="r Social Media Button" />
               </Link>
             </li>
             <li>
-              <Link to="#">Behance</Link>
+              < to="#">Behance</{chevron}Link>
             </li>
             <li>
-              <Link to="#">Youtube</Link>
+              < to="#">Youtube</{chevron}Link>
             </li> */}
           </ul>
         </div>
       </footer>
       <section className="bottom">
         <div className="payment">
-          {/* //todo icons */}
           <PaymentIcon id="visa" className="payment-icon" />
           <PaymentIcon id="paypal" className="payment-icon" />
           <PaymentIcon id="discover" className="payment-icon" />

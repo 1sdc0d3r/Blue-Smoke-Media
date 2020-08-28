@@ -28,7 +28,7 @@
 .team .team-top h1 {
   font-size: 3em;
   text-align: center;
-  margin-bottom: 3rem;
+  margin: 1em auto 3rem;
   color: #04227a;
   text-shadow: #020723 2px 2px;
 }

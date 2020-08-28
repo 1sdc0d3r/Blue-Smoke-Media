@@ -19,24 +19,6 @@
 
 @media (max-width: 360px) {
   .main-nav {
-    background: red;
-  }
-}
-
-@media (min-width: 361px) and (max-width: 480px) {
-  .main-nav {
-    background: orange;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 736px) {
-  .main-nav {
-    background: #ccc120;
-  }
-}
-
-@media (max-width: 360px) {
-  .main-nav {
     display: none;
   }
 }
@@ -56,24 +38,6 @@
 @media (min-width: 737px) and (max-width: 980px) {
   .main-nav {
     display: none;
-  }
-}
-
-@media (min-width: 981px) and (max-width: 1280px) {
-  .main-nav {
-    background: blue;
-  }
-}
-
-@media (min-width: 1281px) and (max-width: 1680px) {
-  .main-nav {
-    background: purple;
-  }
-}
-
-@media (min-width: 1681px) {
-  .main-nav {
-    background: black;
   }
 }
 
@@ -108,11 +72,15 @@
 .main-nav .dropdown {
   float: left;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .main-nav .dropdown .drop-btn {
   border: none;
   background-color: inherit;
+  cursor: pointer;
 }
 
 .main-nav .dropdown:hover .dropdown-content {
@@ -126,11 +94,11 @@
 }
 
 .main-nav .dropdown .dropdown-content {
-  display: none;
   position: absolute;
+  display: none;
   z-index: 5;
   background: #020723;
-  padding: 0.15em 1em 0.5em;
+  padding: 0.15em 0.65em 0.5em;
   opacity: 90%;
   width: -webkit-min-content;
   width: -moz-min-content;
@@ -140,12 +108,24 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  left: 0;
-  right: 0;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
 }
 
 .main-nav .dropdown .dropdown-content .nav-section {
   width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .main-nav .dropdown .dropdown-content .nav-section:nth-child(2) {
@@ -163,6 +143,16 @@
 
 .main-nav .dropdown .dropdown-content .nav-section:nth-child(2) .split div {
   width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .main-nav .dropdown .dropdown-content .nav-section h3 {

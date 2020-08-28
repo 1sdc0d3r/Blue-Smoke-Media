@@ -57,6 +57,7 @@
         }
         h4 {
           padding-left: 2%;
+          color: goldenrod;
 
           @include breakpoint(m) {
             font-size: 1em;

@@ -7,7 +7,7 @@ export default function ReDesignAndUpdates() {
   return (
     <>
       {" "}
-      <div className="re-design-and-updates">
+      <div className="re-design-and-updates page-wrapper">
         <img src={placeholder} alt="this is the SEO" />
         <div className="content">
           <h1>Re-DesignAndUpdates</h1>

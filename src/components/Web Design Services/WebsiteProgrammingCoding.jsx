@@ -7,7 +7,7 @@ import coding from "../../images/programming_coding.png";
 export default function WebsiteProgrammingCoding() {
   return (
     <>
-      <div className="website-programming-coding">
+      <div className="website-programming-coding page-wrapper">
         <img src={coding} alt="this is the SEO" />
         <div className="content">
           <h1>Coding and Web Programming</h1>

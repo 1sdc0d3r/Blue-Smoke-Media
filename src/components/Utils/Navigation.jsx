@@ -1,14 +1,16 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, withRouter } from "react-router-dom";
 
-export default function Navigation() {
+export default withRouter(function Navigation(props) {
   return (
     <nav className="main-nav">
       <div className="dropdown">
-        <button className="drop-btn nav-item">
-          <NavLink to="/" className="nav-item">
-            Home
-          </NavLink>
+        <button
+          className="drop-btn nav-item"
+          onClick={() => props.history.push("/")}
+          uk-icon="icon: triangle-down"
+        >
+          Home
         </button>
         <div className="dropdown-content">
           <div className="nav-section">
@@ -25,7 +27,9 @@ export default function Navigation() {
         Our Team
       </NavLink>
       <div className="dropdown">
-        <button className="drop-btn nav-item">Services</button>
+        <button className="drop-btn nav-item" uk-icon="icon: triangle-down">
+          Services
+        </button>
         <div className="dropdown-content">
           <div className="nav-section">
             <h3>SEO</h3>
@@ -101,4 +105,4 @@ export default function Navigation() {
       </NavLink>
     </nav>
   );
-}
+});

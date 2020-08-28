@@ -127,6 +127,7 @@
 
 .carousel .slider .inner-slide .slide-info h4 {
   padding-left: 2%;
+  color: goldenrod;
 }
 
 @media (min-width: 737px) and (max-width: 980px) {
@@ -365,4 +366,4 @@
     display: none;
   }
 }
-/*# sourceMappingURL=Carousel.css.map */
+/*# sourceMappingURL=carousel.css.map */

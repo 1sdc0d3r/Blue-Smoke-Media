@@ -10,7 +10,7 @@ export default function Template() {
   return (
     <>
       {" "}
-      <div className="Template">
+      <div className="Template page-wrapper">
         <img src={placeholder} alt="this is the SEO" />
         <div className="content">
           <h1>Title</h1>

@@ -1,7 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
 
-export default function HamburgerMenu() {
+export default withRouter(function HamburgerMenu(props) {
+  props.history.listen(() => {
+    document.querySelector("input[type='checkbox']").checked = false;
+  });
   return (
     <nav role="navigation" className="hamburger-menu">
       <div id="menuToggle">
@@ -24,7 +27,9 @@ export default function HamburgerMenu() {
           <Link to="/team">
             <li>Our Team</li>
           </Link>
-          <li className="sub-menu-btn">Services ></li>
+          <li className="sub-menu-btn" uk-icon="icon: triangle-right">
+            Services
+          </li>
           <ul className="sub-drop-menu">
             <div className="dropdown-content">
               <h3>SEO</h3>
@@ -74,4 +79,4 @@ export default function HamburgerMenu() {
       </div>
     </nav>
   );
-}
+});

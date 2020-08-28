@@ -29,23 +29,26 @@ footer {
 
     li:hover {
       margin-left: 5%;
+      img {
+        border: 2px solid $lightBlue;
+        border-radius: 50%;
+      }
     }
     // todo text-align text w/ chevron
     li {
       padding: 0.5em 0;
       text-shadow: 1px 1px $darkBlue;
       transition: 0.3s ease-in-out;
-      ::before {
-        content: "> ";
-        font-weight: 800;
-        color: $orange;
-      }
+
       :hover {
         color: goldenrod;
       }
       a {
         text-decoration: none;
         color: skyblue;
+        svg {
+          width: 1em;
+        }
       }
       img {
         width: 2em;

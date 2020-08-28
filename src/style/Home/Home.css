@@ -512,8 +512,7 @@
 }
 
 .home .services .services-card-container .service-card-set .service-card .service-card-front {
-  border: 2px inset #f9d265;
-  color: goldenrod;
+  border: 5px inset #f9d265;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -531,6 +530,10 @@
   margin: 1em auto;
 }
 
+.home .services .services-card-container .service-card-set .service-card .service-card-front h3 {
+  color: goldenrod;
+}
+
 .home .services .services-card-container .service-card-set .service-card .service-card-back {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -542,12 +545,11 @@
   background: #1e92f6;
   color: #020723;
   padding: 1em 0.75em 0em;
-  border: 1px inset #020723;
+  border: 7px outset goldenrod;
   position: absolute;
 }
 
 .home .services .services-card-container .service-card-set .service-card .service-card-back h3 {
-  color: #020723;
   color: #ee3e0e;
   text-shadow: 2px 2px #020723;
   margin: 0 0 0.4em;

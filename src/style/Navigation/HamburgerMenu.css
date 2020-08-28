@@ -3,11 +3,29 @@
   width: -moz-min-content;
   width: min-content;
   position: absolute;
-  right: 0;
+  left: 0;
   /*
    * Make this absolute positioned
    * at the top left of the screen
    */
+}
+
+@media (min-width: 981px) and (max-width: 1280px) {
+  .hamburger-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 1281px) and (max-width: 1680px) {
+  .hamburger-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 1681px) {
+  .hamburger-menu {
+    display: none;
+  }
 }
 
 .hamburger-menu #menuToggle {
@@ -77,9 +95,9 @@
           transform: rotate(-45deg) translate(0, -1px);
 }
 
-.hamburger-menu #menuToggle input:checked ~ ul {
-  -webkit-transform: translate(-100%, 0);
-          transform: translate(-100%, 0);
+.hamburger-menu #menuToggle input:checked ~ #menu {
+  -webkit-transform: translate(170%, 0);
+          transform: translate(170%, 0);
 }
 
 .hamburger-menu #menuToggle span {
@@ -105,8 +123,8 @@
 }
 
 .hamburger-menu #menuToggle:nth-last-child(2) {
-  -webkit-transform-origin: 0% 100%;
-          transform-origin: 0% 100%;
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
 }
 
 .hamburger-menu #menu {
@@ -116,15 +134,14 @@
   width: max-content;
   margin: -85% 0 0 0;
   padding: 1em 0;
-  left: 100%;
+  right: 500%;
+  top: 1em;
   background: #020723;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
   -webkit-transform-origin: 0% 0%;
           transform-origin: 0% 0%;
-  -webkit-transform: translate(100%, 0);
-          transform: translate(100%, 0);
   -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
@@ -145,18 +162,24 @@
 }
 
 .hamburger-menu #menu .sub-menu-btn:hover ~ .sub-drop-menu {
-  display: block;
+  -webkit-transform: translateX(625%);
+          transform: translateX(625%);
 }
 
 .hamburger-menu #menu .sub-drop-menu {
   position: absolute;
-  display: none;
-  right: 180%;
+  -webkit-transform: translateX(-700%);
+          transform: translateX(-700%);
+  -webkit-transition: ease-in-out 250ms;
+  transition: ease-in-out 250ms;
+  z-index: -5;
   top: 0;
+  margin-top: 0;
 }
 
 .hamburger-menu #menu .sub-drop-menu:hover {
-  display: block;
+  -webkit-transform: translateX(625%);
+          transform: translateX(625%);
 }
 
 .hamburger-menu #menu .sub-drop-menu li {

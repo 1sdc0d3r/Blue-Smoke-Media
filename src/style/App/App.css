@@ -34,4 +34,9 @@ html {
 .App video {
   width: 100%;
 }
+
+.App .page-wrapper {
+  width: 92%;
+  margin: auto;
+}
 /*# sourceMappingURL=App.css.map */

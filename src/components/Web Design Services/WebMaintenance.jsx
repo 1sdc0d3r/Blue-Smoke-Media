@@ -8,7 +8,7 @@ export default function WebMaintenance() {
   return (
     <>
       {" "}
-      <div className="web-maintenance">
+      <div className="web-maintenance page-wrapper">
         <img src={websiteMaintenance} alt="bug fixes, updates" />
         <div className="content">
           <h1>Website Maintenance Agreements</h1>

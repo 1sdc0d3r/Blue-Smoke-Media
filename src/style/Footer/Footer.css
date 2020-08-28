@@ -30,17 +30,16 @@ footer ul li:hover {
   margin-left: 5%;
 }
 
+footer ul li:hover img {
+  border: 2px solid #1e92f6;
+  border-radius: 50%;
+}
+
 footer ul li {
   padding: 0.5em 0;
   text-shadow: 1px 1px #020723;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
-}
-
-footer ul li ::before {
-  content: "> ";
-  font-weight: 800;
-  color: #ee3e0e;
 }
 
 footer ul li :hover {
@@ -50,6 +49,10 @@ footer ul li :hover {
 footer ul li a {
   text-decoration: none;
   color: skyblue;
+}
+
+footer ul li a svg {
+  width: 1em;
 }
 
 footer ul li img {
