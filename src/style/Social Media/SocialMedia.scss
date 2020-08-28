@@ -1,0 +1,17 @@
+.social-media {
+  margin: 5% auto 8%;
+  width: 95%;
+  text-align: justify;
+  h1 {
+    text-align: center;
+    font-size: 1.75em;
+  }
+  ul {
+    list-style: none;
+    li {
+      :before {
+        content: "◆";
+      }
+    }
+  }
+}

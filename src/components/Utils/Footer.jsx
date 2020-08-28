@@ -10,11 +10,9 @@ import instagram from "../../images/instagram.png";
 import behance from "../../images/Behance.png";
 import facebook from "../../images/faceBook.png";
 // todo links
-// todo make sure everything is in here
+// todo make sure everything is in here & in right place
 const chevron = (
   <svg
-    // width="20"
-    // height="20"
     viewBox="0 0 20 20"
     xmlns="http://www.w3.org/2000/svg"
     data-svg="chevron-right"
@@ -181,6 +179,7 @@ export default function Footer() {
           <h3>Social Links</h3>
           <ul>
             <li>
+              {/* //todo add in all social media accounts */}
               <a
                 href="https://www.linkedin.com/company/blue-smoke-digital-and-printed-media/"
                 target="_blank"
@@ -189,18 +188,12 @@ export default function Footer() {
                 <img src={linkedIn} alt="LinkedIn Social Media Button" />
               </a>
             </li>
-            {/* //todo add in all social media accounts
             <li>
-              <Link to="" target="">{chevron}
-                <img src="" alt="r Social Media Button" />
-              </Link>
+              <a href="https://twitter.com/bluesmokemedia/" target="_blank">
+                {chevron}
+                <img src={twitter} alt="Twitter Social Media Button" />
+              </a>
             </li>
-            <li>
-              < to="#">Behance</{chevron}Link>
-            </li>
-            <li>
-              < to="#">Youtube</{chevron}Link>
-            </li> */}
           </ul>
         </div>
       </footer>
@@ -223,10 +216,9 @@ export default function Footer() {
           </div>
         </div>
       </section>
-      {/* //todo copywright
       <p className="copy">
         © 2019-2020 - Blue Smoke Digital and Printed Media - All rights reserved
-      </p> */}
+      </p>
     </>
   );
 }

@@ -104,9 +104,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="social-media">
-        <SocialMedia />
-      </section>
       <section className="services">
         <h1>
           <span>Our </span>Services

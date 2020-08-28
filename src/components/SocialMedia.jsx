@@ -2,7 +2,7 @@ import React from "react";
 
 export default function SocialMedia() {
   return (
-    <>
+    <section className="social-media">
       <h1> Social Media: What is and why you should use it!</h1>
       <p>
         Social media is a form of electronic communication designed to let
@@ -93,6 +93,6 @@ export default function SocialMedia() {
         would welcome the opportunity to help you increase your social presence,
         improve your branding recognition and increase your sales.
       </p>
-    </>
+    </section>
   );
 }

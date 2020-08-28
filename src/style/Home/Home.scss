@@ -30,7 +30,10 @@
       margin: auto;
       margin-right: 55%;
       color: $white;
-      margin-top: 7%;
+      @include breakpoint(l) {
+        margin-top: 3%;
+      }
+
       @include breakpoint(m) {
         font-size: 0.9em;
         text-align: left;
@@ -58,6 +61,7 @@
         margin: 0 auto 0.5em;
         // margin-bottom: 1em;
         text-shadow: 2px 2px black;
+        line-height: 1.1em;
 
         @include breakpoint(m) {
           font-size: 1.6em;
@@ -71,6 +75,10 @@
       color: $lightBlue;
       margin-top: 2.5em;
       font-weight: 600;
+      @include breakpoint(l) {
+        margin-top: 2em;
+      }
+
       @include breakpoint(s, m) {
         margin-top: 1em;
       }
@@ -182,23 +190,6 @@
       }
     }
   }
-  .social-media {
-    margin: 5% auto 8%;
-    width: 95%;
-    text-align: justify;
-    h1 {
-      text-align: center;
-      font-size: 1.75em;
-    }
-    ul {
-      list-style: none;
-      li {
-        :before {
-          content: "◆";
-        }
-      }
-    }
-  }
   .services {
     h1 {
       text-transform: uppercase;
@@ -250,7 +241,7 @@
           }
 
           .service-card-front {
-            border: 5px inset #f9d265;
+            border: 5px inset $darkBlue;
             display: flex;
             flex-direction: column;
             background: $royalBlue;
@@ -270,8 +261,7 @@
             background: $lightBlue;
             color: $darkBlue;
             padding: 1em 0.75em 0em;
-            border: 7px outset goldenrod;
-            //! $darkblue
+            border: 7px outset $darkBlue;
             position: absolute;
 
             h3 {

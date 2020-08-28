@@ -34,7 +34,6 @@ footer {
         border-radius: 50%;
       }
     }
-    // todo text-align text w/ chevron
     li {
       padding: 0.5em 0;
       text-shadow: 1px 1px $darkBlue;
@@ -112,4 +111,9 @@ footer {
       }
     }
   }
+}
+.copy {
+  margin: 0;
+  padding: 0.25em 0;
+  width: 100%;
 }

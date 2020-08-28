@@ -1,7 +1,5 @@
 @import "../Utils/Mixins/Mixins.scss";
 
-//todo all services included in navbar
-//todo fix dropdown
 .main-nav {
   display: flex;
   background: $darkBlue;
@@ -16,29 +14,9 @@
   user-select: none;
   padding: 0 7%;
 
-  // @include breakpoint(xxs) {
-  //   background: red;
-  // }
-  // @include breakpoint(xs) {
-  //   background: orange;
-  // }
-  // @include breakpoint(s) {
-  //   background: rgb(204, 193, 32);
-  // }
-  //todo navigation when not showing (hamburger) (xxs-m)
   @include breakpoint(xxs, xs, s, m) {
     display: none;
   }
-  // @include breakpoint(l) {
-  //   background: blue;
-  //   // display: none;
-  // }
-  // @include breakpoint(xl) {
-  //   background: purple;
-  // }
-  // @include breakpoint(xxl) {
-  //   background: black;
-  // }
 
   /* Links inside the navbar */
   .nav-item {

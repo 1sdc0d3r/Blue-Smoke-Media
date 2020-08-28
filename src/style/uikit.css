@@ -30,7 +30,6 @@ a {
 .uk-link:hover,
 a:hover {
     color: #0f6ecd;
-    text-decoration: underline
 }
 
 abbr[title] {
@@ -131,174 +130,6 @@ iframe {
     border: 0
 }
 
-address,
-dl,
-fieldset,
-figure,
-ol,
-p,
-pre,
-ul {
-    margin: 0 0 20px 0
-}
-
-*+address,
-*+dl,
-*+fieldset,
-*+figure,
-*+ol,
-*+p,
-*+pre,
-*+ul {
-    margin-top: 20px
-}
-
-.uk-h1,
-.uk-h2,
-.uk-h3,
-.uk-h4,
-.uk-h5,
-.uk-h6,
-.uk-heading-2xlarge,
-.uk-heading-large,
-.uk-heading-medium,
-.uk-heading-small,
-.uk-heading-xlarge,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0 0 20px 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-weight: 400;
-    color: #333;
-    text-transform: none
-}
-
-*+.uk-h1,
-*+.uk-h2,
-*+.uk-h3,
-*+.uk-h4,
-*+.uk-h5,
-*+.uk-h6,
-*+.uk-heading-2xlarge,
-*+.uk-heading-large,
-*+.uk-heading-medium,
-*+.uk-heading-small,
-*+.uk-heading-xlarge,
-*+h1,
-*+h2,
-*+h3,
-*+h4,
-*+h5,
-*+h6 {
-    margin-top: 40px
-}
-
-.uk-h1,
-h1 {
-    font-size: 2.23125rem;
-    line-height: 1.2
-}
-
-.uk-h2,
-h2 {
-    font-size: 1.7rem;
-    line-height: 1.3
-}
-
-.uk-h3,
-h3 {
-    font-size: 1.5rem;
-    line-height: 1.4
-}
-
-.uk-h4,
-h4 {
-    font-size: 1.25rem;
-    line-height: 1.4
-}
-
-.uk-h5,
-h5 {
-    font-size: 16px;
-    line-height: 1.4
-}
-
-.uk-h6,
-h6 {
-    font-size: .875rem;
-    line-height: 1.4
-}
-
-@media (min-width:960px) {
-
-    .uk-h1,
-    h1 {
-        font-size: 2.625rem
-    }
-
-    .uk-h2,
-    h2 {
-        font-size: 2rem
-    }
-}
-
-ol,
-ul {
-    padding-left: 30px
-}
-
-ol>li>ol,
-ol>li>ul,
-ul>li>ol,
-ul>li>ul {
-    margin: 0
-}
-
-dt {
-    font-weight: 700
-}
-
-dd {
-    margin-left: 0
-}
-
-.uk-hr,
-hr {
-    overflow: visible;
-    text-align: inherit;
-    margin: 0 0 20px 0;
-    border: 0;
-    border-top: 1px solid #e5e5e5
-}
-
-*+.uk-hr,
-*+hr {
-    margin-top: 20px
-}
-
-address {
-    font-style: normal
-}
-
-blockquote {
-    margin: 0 0 20px 0;
-    font-size: 1.25rem;
-    line-height: 1.5;
-    font-style: italic;
-    color: #333
-}
-
-*+blockquote {
-    margin-top: 20px
-}
-
-blockquote p:last-of-type {
-    margin-bottom: 0
-}
 
 blockquote footer {
     margin-top: 10px;
@@ -1691,7 +1522,7 @@ select.uk-form-width-xsmall {
 .uk-button-link:focus,
 .uk-button-link:hover {
     color: #0f6ecd;
-    text-decoration: underline
+    /* text-decoration: underline */
 }
 
 .uk-button-link:disabled {
@@ -2435,12 +2266,12 @@ select.uk-form-width-xsmall {
 
 .uk-alert a:not([class]) {
     color: inherit;
-    text-decoration: underline
+    /* text-decoration: underline */
 }
 
 .uk-alert a:not([class]):hover {
     color: inherit;
-    text-decoration: underline
+    /* text-decoration: underline */
 }
 
 .uk-placeholder {
@@ -11136,7 +10967,8 @@ iframe.uk-cover {
 
     a,
     a:visited {
-        text-decoration: underline
+        /* text-decoration: underline
+         */
     }
 
     blockquote,

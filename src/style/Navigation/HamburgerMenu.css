@@ -106,7 +106,7 @@
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background: #1e92f6;
+  background: #7ff76f;
   border-radius: 3px;
   z-index: 1;
   -webkit-transform-origin: 4px 0px;
@@ -162,8 +162,8 @@
 }
 
 .hamburger-menu #menu .sub-menu-btn:hover ~ .sub-drop-menu {
-  -webkit-transform: translateX(625%);
-          transform: translateX(625%);
+  -webkit-transform: translateX(470%);
+          transform: translateX(470%);
 }
 
 .hamburger-menu #menu .sub-drop-menu {
@@ -178,8 +178,8 @@
 }
 
 .hamburger-menu #menu .sub-drop-menu:hover {
-  -webkit-transform: translateX(625%);
-          transform: translateX(625%);
+  -webkit-transform: translateX(470%);
+          transform: translateX(470%);
 }
 
 .hamburger-menu #menu .sub-drop-menu li {
@@ -219,7 +219,7 @@
 .hamburger-menu #menu .sub-drop-menu .dropdown-content::-webkit-scrollbar-thumb {
   border-radius: 0.5em;
   border: 2px solid #020723;
-  background-color: #04227a;
+  background-color: #1e92f6;
 }
 
 .hamburger-menu #menu .sub-drop-menu .dropdown-content h3 {

@@ -16,6 +16,9 @@ header {
   @include breakpoint(m) {
     height: 100%;
   }
+  @include breakpoint(xxs, xs, s, m) {
+    border-bottom: 2px solid $darkBlue;
+  }
 
   #flame {
     width: 9%;

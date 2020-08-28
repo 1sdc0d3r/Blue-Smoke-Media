@@ -1,8 +1,5 @@
 @import "../Utils/Mixins/Mixins.scss";
 
-//todo all services included in navbar
-//todo fix dropdown
-
 .hamburger-menu {
   // padding-bottom: 0;
   width: min-content;
@@ -78,7 +75,7 @@
       height: 4px;
       margin-bottom: 5px;
       position: relative;
-      background: $lightBlue;
+      background: $green;
       border-radius: 3px;
       z-index: 1;
       transform-origin: 4px 0px;
@@ -111,7 +108,6 @@
     /* to stop flickering of text in safari */
 
     transform-origin: 0% 0%;
-    // transform: none;
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 
     li {
@@ -127,19 +123,19 @@
 
     .sub-menu-btn:hover ~ .sub-drop-menu {
       // display: block;
-      transform: translateX(625%);
+      transform: translateX(470%);
     }
     .sub-drop-menu {
       position: absolute;
-      // display: none;
       transform: translateX(-700%);
+
       transition: ease-in-out 250ms;
       z-index: -5;
       top: 0;
       margin-top: 0;
 
       &:hover {
-        transform: translateX(625%);
+        transform: translateX(470%);
       }
       li {
         color: #232323;
@@ -173,7 +169,7 @@
         &::-webkit-scrollbar-thumb {
           border-radius: 0.5em;
           border: 2px solid $darkBlue;
-          background-color: $royalBlue;
+          background-color: $lightBlue;
         }
 
         h3 {
