@@ -9,6 +9,8 @@ import linkedIn from "../../images/linkedIn_social_media_button.png";
 import instagram from "../../images/instagram.png";
 import behance from "../../images/Behance.png";
 import facebook from "../../images/faceBook.png";
+import googleReview from "../../images/icon-Google-review.png";
+
 // todo links
 // todo make sure everything is in here & in right place
 const chevron = (
@@ -192,6 +194,12 @@ export default function Footer() {
               <a href="https://twitter.com/bluesmokemedia/" target="_blank">
                 {chevron}
                 <img src={twitter} alt="Twitter Social Media Button" />
+              </a>
+            </li>
+            <li>
+              <a href="https://google.com/" target="_blank">
+                {chevron}
+                <img src={googleReview} alt="Google Social Media Button" />
               </a>
             </li>
           </ul>
