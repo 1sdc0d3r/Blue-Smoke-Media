@@ -102,7 +102,10 @@ function App() {
               path="/website-design/website-maintenance"
               component={WebMaintenance}
             />
-            <Route path="/coding" component={WebsiteProgrammingCoding} />
+            <Route
+              path="/website-design/coding"
+              component={WebsiteProgrammingCoding}
+            />
             <Route
               path="/website-design/inquiry-form"
               component={InquirySurveyForm}

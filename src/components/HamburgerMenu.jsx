@@ -59,7 +59,7 @@ export default withRouter(function HamburgerMenu(props) {
                 Website Maintenance
               </Link>
 
-              <Link to="/coding">Coding and Programming</Link>
+              <Link to="/website-design/coding">Coding and Programming</Link>
 
               <Link to="/website-design/inquiry-form">Inquiry/Survey Form</Link>
               <h3>Graphic Design</h3>

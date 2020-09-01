@@ -76,7 +76,7 @@ export default withRouter(function Navigation(props) {
                   Website Maintenance
                 </NavLink>
 
-                <NavLink to="/coding" className="drop-item">
+                <NavLink to="/website-design/coding" className="drop-item">
                   Coding and Programming
                 </NavLink>
                 <NavLink

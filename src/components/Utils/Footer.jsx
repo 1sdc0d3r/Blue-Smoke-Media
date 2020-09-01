@@ -117,7 +117,7 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link to="/coding">
+              <Link to="/website-design/coding">
                 {chevron}
                 Website Programming
                 <br />& Development
