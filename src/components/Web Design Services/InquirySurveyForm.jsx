@@ -48,7 +48,7 @@ export default function Contact() {
     //* check if antiSpam is empty string or not
     // const templateParams = {
     //   reply_to: data.email,
-    //   subject: "Portfolio Contact",
+    //   subject: "Inquiry",
     //   to_name: "Braden",
     //   from_name: data.name,
     //   message_html: data.message,
