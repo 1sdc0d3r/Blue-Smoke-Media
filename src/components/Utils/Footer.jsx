@@ -45,7 +45,9 @@ export default function Footer() {
               <a href="#" target="_blank">Our Blog</a>
             </li> */}
             <li>
-              <Link to="/inquirySurveyForm">{chevron}Inquiry Form</Link>
+              <Link to="/website-design/inquiry-form">
+                {chevron}Inquiry Form
+              </Link>
             </li>
             <li>
               <Link to="/contact">{chevron}Contact Us</Link>
@@ -58,7 +60,9 @@ export default function Footer() {
           </h3>
           <ul id="drop-product">
             <li>
-              <Link to="/customWebsiteDesign">{chevron}Website Design</Link>
+              <Link to="/website-design/custom-website-design">
+                {chevron}Website Design
+              </Link>
             </li>
             {/* //todo NEW SEO PAGE */}
             <li>
@@ -70,7 +74,9 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link to="/printAndGraphicServices">{chevron}Graphic Design</Link>
+              <Link to="/graphic-design/digital-and-print-graphic-design">
+                {chevron}Graphic Design
+              </Link>
             </li>
             {/* <li>
               <Link to="a/">{chevron}Social Media Marketing</Link>
@@ -91,7 +97,7 @@ export default function Footer() {
           </h3>
           <ul id="drop-services">
             <li>
-              <Link to="/customWebsiteDesign">
+              <Link to="/website-design/custom-website-design">
                 {chevron}Custom Website Design
               </Link>
             </li>
@@ -99,10 +105,12 @@ export default function Footer() {
               <Link to="#">Re-Design{chevron} & Updates</Link>
             </li> */}
             <li>
-              <Link to="/websiteUsability">{chevron}Website Useability</Link>
+              <Link to="/website-design/website-useability">
+                {chevron}Website Useability
+              </Link>
             </li>
             <li>
-              <Link to="/E-CommerceWebsiteDevelopment">
+              <Link to="/website-design/eCommerce-website-development">
                 {chevron}E-Commerce Website
                 <br />
                 Development
@@ -116,7 +124,9 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link to="/webMaintenance">{chevron}Website Maintenance</Link>
+              <Link to="/website-design/website-maintenance">
+                {chevron}Website Maintenance
+              </Link>
             </li>
           </ul>
         </div>
@@ -126,7 +136,7 @@ export default function Footer() {
           </h3>
           <ul id="drop-organic">
             <li>
-              <Link to="/seoFriendly">
+              <Link to="/seo/Friendly">
                 {chevron}
                 SEO Friendly
                 <br />
@@ -134,7 +144,7 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link to="/printAndGraphicServices">
+              <Link to="/graphic-design/digital-and-print-graphic-design">
                 {chevron}
                 Digital & Print
                 <br />
@@ -142,10 +152,14 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link to="/printedMediaLogos">{chevron}Printed Media Logos</Link>
+              <Link to="/graphic-design/printed-media-logos">
+                {chevron}Printed Media Logos
+              </Link>
             </li>
             <li>
-              <Link to="/websiteLogoDesign">{chevron}Website Logo Design</Link>
+              <Link to="/graphic-design/website-logo-design">
+                {chevron}Website Logo Design
+              </Link>
             </li>
             {/* //todo social media component */}
             {/* <li>

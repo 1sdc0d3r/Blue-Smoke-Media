@@ -2,8 +2,8 @@ import React from "react";
 
 export default function PrivacyPolicy() {
   return (
-    <>
-      <pre style={{ textAlign: "left", margin: "3em", whiteSpace: "pre-wrap" }}>
+    <section style={{ textAlign: "left", margin: "3em" }}>
+      <pre style={{ whiteSpace: "pre-wrap" }}>
         {`
         PRIVACY NOTICE
 Last updated September 07, 2020
@@ -245,16 +245,23 @@ Blue Smoke Digital and Printed Media 
 
 
 HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?
-Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it in some circumstances. To request to review, update, or delete your personal information, please visit: BlueSmokeDigitalAndPrintedMedia.com. We will respond to your request within 30 days.
-
-__________________________________________________
-
-DISCLAIMER
-Last updated September 07, 2020
-WEBSITE DISCLAIMER
-The information provided by Blue Smoke Printed and Digital Media, (“we,” “us” or “our”) on BlueSmokeDigitalAndPrintedMedia.com, (the “Site”) is for general informational purposes only. All information on the Site is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability or completeness of any information on the Site. UNDER NO CIRCUMSTANCE SHALL WE HAVE ANY LIABILITY TO YOU FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF THE SITE OR RELIANCE ON ANY INFORMATION PROVIDED ON THE SITE. YOUR USE OF THE SITE AND YOUR RELIANCE ON ANY INFORMATION ON THE SITE IS SOLELY AT YOUR OWN RISK.
-            `}{" "}
+Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it in some circumstances. To request to review, update, or delete your personal information, please visit: BlueSmokeDigitalAndPrintedMedia.com. We will respond to your request within 30 days.`}
       </pre>
-    </>
+      <pre style={{ whiteSpace: "pre-wrap" }}>
+        <span style={{ fontWeight: "900" }}>DISCLAIMER</span> Last updated
+        September 07, 2020 WEBSITE DISCLAIMER The information provided by Blue
+        Smoke Printed and Digital Media, (“we,” “us” or “our”) on
+        BlueSmokeDigitalAndPrintedMedia.com, (the “Site”) is for general
+        informational purposes only. All information on the Site is provided in
+        good faith, however we make no representation or warranty of any kind,
+        express or implied, regarding the accuracy, adequacy, validity,
+        reliability, availability or completeness of any information on the
+        Site. UNDER NO CIRCUMSTANCE SHALL WE HAVE ANY LIABILITY TO YOU FOR ANY
+        LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF THE SITE
+        OR RELIANCE ON ANY INFORMATION PROVIDED ON THE SITE. YOUR USE OF THE
+        SITE AND YOUR RELIANCE ON ANY INFORMATION ON THE SITE IS SOLELY AT YOUR
+        OWN RISK.
+      </pre>
+    </section>
   );
 }

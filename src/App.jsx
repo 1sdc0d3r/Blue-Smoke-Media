@@ -76,40 +76,53 @@ function App() {
           </header>
           <Switch>
             <Route exact path="/" component={Home} />
-            {/* //todo privacy */}
-            <Route path="/privacy" component={PrivacyPolicy} />
             <Route path="/team" component={Team} />
-            {/* //! SERVICES */}
+            {/* //! privacy */}
+            <Route path="/privacy" component={PrivacyPolicy} />
             {/* //! SEO */}
-            <Route path="/seoFriendly" component={SeoFriendly} />
-            <Route path="/seoOrganic" component={OrganicSeo} />
+            <Route path="/seo/Friendly" component={SeoFriendly} />
+            <Route path="/seo/seoOrganic" component={OrganicSeo} />
             {/* //todo OTHER SEO PAGE */}
             {/* <Route path="/seo" component={SEO} /> */}
             {/* //! WEBSITE DESIGN */}
             <Route
-              path="/customWebsiteDesign"
+              path="/website-design/custom-website-design"
               component={CustomWebsiteDesign}
             />
             <Route
-              path="/E-CommerceWebsiteDevelopment"
+              path="/website-design/eCommerce-website-development"
               component={ECommerceWebsiteDevelopment}
             />
-            <Route path="/websiteUsability" component={WebsiteUsability} />
+            <Route
+              path="/website-design/website-useability"
+              component={WebsiteUsability}
+            />
             <Route path="/Ad-CopyWriting" component={AdCopyWriting} />
-            <Route path="/webMaintenance" component={WebMaintenance} />
+            <Route
+              path="/website-design/website-maintenance"
+              component={WebMaintenance}
+            />
             <Route path="/coding" component={WebsiteProgrammingCoding} />
-            <Route path="/inquirySurveyForm" component={InquirySurveyForm} />
+            <Route
+              path="/website-design/inquiry-form"
+              component={InquirySurveyForm}
+            />
 
             {/* //! Graphic Design Services */}
-            <Route path="/websiteLogoDesign" component={WebsiteLogoDesign} />
-            <Route path="/printedMediaLogos" component={PrintedMediaLogos} />
             <Route
-              path="/printAndGraphicServices"
+              path="/graphic-design/website-logo-design"
+              component={WebsiteLogoDesign}
+            />
+            <Route
+              path="/graphic-design/printed-media-logos"
+              component={PrintedMediaLogos}
+            />
+            <Route
+              path="/graphic-design/digital-and-print-graphic-design"
               component={PrintAndGraphicServices}
             />
             {/* //todo portfolio  */}
             {/* <Route path="/portfolio" component={Portfolio} /> */}
-            <Route path="/blog" component={Blog} />
             <Route path="/contact" component={Contact} />
             {/* <Route component={NoMatch} /> */}
           </Switch>

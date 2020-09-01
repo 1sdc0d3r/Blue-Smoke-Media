@@ -9,7 +9,6 @@ import help2 from "../images/help-icon-2.png";
 import help3 from "../images/help-icon-3.png";
 import Carousel from "./Carousel";
 import ReactCardFlip from "react-card-flip";
-import SocialMedia from "./SocialMedia";
 
 export default function Home() {
   const [card1, setCard1] = useState(false);
@@ -37,6 +36,10 @@ export default function Home() {
         </p>
       </section>
       <section className="plans-pricing">
+        <p className="covid-banner">
+          Due to the COVID-19 epidemic, we have lowered our prices to
+          accommodate the smaller businesses in the US.
+        </p>
         <h1>
           <span>Our </span>Plans & Pricing
         </h1>

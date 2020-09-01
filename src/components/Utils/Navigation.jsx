@@ -33,11 +33,11 @@ export default withRouter(function Navigation(props) {
         <div className="dropdown-content">
           <div className="nav-section">
             <h3>SEO</h3>
-            <NavLink to="/seoFriendly" className="drop-item">
+            <NavLink to="/seo/Friendly" className="drop-item">
               SEO - Search Engine Optimization
             </NavLink>
 
-            <NavLink to="/seoOrganic" className="drop-item">
+            <NavLink to="/seo/seoOrganic" className="drop-item">
               Organic Search Engine Optimization
             </NavLink>
           </div>
@@ -45,16 +45,22 @@ export default withRouter(function Navigation(props) {
             <h3>Website Design</h3>
             <div className="split">
               <div>
-                <NavLink to="/customWebsiteDesign" className="drop-item">
+                <NavLink
+                  to="/website-design/custom-website-design"
+                  className="drop-item"
+                >
                   Custom Website Design
                 </NavLink>
                 <NavLink
-                  to="/E-CommerceWebsiteDevelopment"
+                  to="/website-design/eCommerce-website-development"
                   className="drop-item"
                 >
                   E-Commerce Website Development
                 </NavLink>
-                <NavLink to="/websiteUsability" className="drop-item">
+                <NavLink
+                  to="/website-design/website-useability"
+                  className="drop-item"
+                >
                   Creating Your Website-Useability
                 </NavLink>
               </div>
@@ -63,14 +69,20 @@ export default withRouter(function Navigation(props) {
                   Website Ad-Copy Writing
                 </NavLink>
 
-                <NavLink to="/webMaintenance" className="drop-item">
+                <NavLink
+                  to="/website-design/website-maintenance"
+                  className="drop-item"
+                >
                   Website Maintenance
                 </NavLink>
 
                 <NavLink to="/coding" className="drop-item">
                   Coding and Programming
                 </NavLink>
-                <NavLink to="/inquirySurveyForm" className="drop-item">
+                <NavLink
+                  to="/website-design/inquiry-form"
+                  className="drop-item"
+                >
                   Inquiry/Survey Form
                 </NavLink>
               </div>
@@ -78,15 +90,24 @@ export default withRouter(function Navigation(props) {
           </div>
           <div className="nav-section">
             <h3>Graphic Design</h3>
-            <NavLink to="/websiteLogoDesign" className="drop-item">
+            <NavLink
+              to="/graphic-design/website-logo-design"
+              className="drop-item"
+            >
               Website Logo Design
             </NavLink>
 
-            <NavLink to="/printedMediaLogos" className="drop-item">
+            <NavLink
+              to="/graphic-design/printed-media-logos"
+              className="drop-item"
+            >
               Print Logo Design
             </NavLink>
 
-            <NavLink to="/printAndGraphicServices" className="drop-item">
+            <NavLink
+              to="/graphic-design/digital-and-print-graphic-design"
+              className="drop-item"
+            >
               Print & Graphic Design Services
             </NavLink>
           </div>
@@ -97,7 +118,7 @@ export default withRouter(function Navigation(props) {
         Our Work
       </NavLink> */}
       {/* //todo BLOG */}
-      <a href="/blog" target="_blank" className="nav-item">
+      <a href="#blog" target="_blank" className="nav-item">
         Blog
       </a>
       <NavLink to="/contact" className="nav-item">

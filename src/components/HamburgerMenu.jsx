@@ -34,35 +34,45 @@ export default withRouter(function HamburgerMenu(props) {
             <div className="dropdown-content">
               <h3>SEO</h3>
 
-              <Link to="/seoFriendly">SEO - Search Engine Optimization</Link>
+              <Link to="/seo/Friendly">SEO - Search Engine Optimization</Link>
 
-              <Link to="/seoOrganic">Organic Search Engine Optimization</Link>
+              <Link to="/seo/seoOrganic">
+                Organic Search Engine Optimization
+              </Link>
               <h3>Website Design</h3>
 
-              <Link to="/customWebsiteDesign">Custom Website Design</Link>
+              <Link to="/website-design/custom-website-design">
+                Custom Website Design
+              </Link>
 
-              <Link to="/E-CommerceWebsiteDevelopment">
+              <Link to="/website-design/eCommerce-website-development">
                 E-Commerce Website Development
               </Link>
 
-              <Link to="/websiteUsability">
+              <Link to="/website-design/website-useability">
                 Creating Your Website-Useability
               </Link>
 
               <Link to="/ad-CopyWriting">Website Ad-Copy Writing</Link>
 
-              <Link to="/webMaintenance">Website Maintenance</Link>
+              <Link to="/website-design/website-maintenance">
+                Website Maintenance
+              </Link>
 
               <Link to="/coding">Coding and Programming</Link>
 
-              <Link to="/inquirySurveyForm">Inquiry/Survey Form</Link>
+              <Link to="/website-design/inquiry-form">Inquiry/Survey Form</Link>
               <h3>Graphic Design</h3>
 
-              <Link to="/websiteLogoDesign">Website Logo Design</Link>
+              <Link to="/graphic-design/website-logo-design">
+                Website Logo Design
+              </Link>
 
-              <Link to="/printedMediaLogos">Print Logo Design</Link>
+              <Link to="/graphic-design/printed-media-logos">
+                Print Logo Design
+              </Link>
 
-              <Link to="/printAndGraphicServices">
+              <Link to="/graphic-design/digital-and-print-graphic-design">
                 Print & Graphic Design Services
               </Link>
             </div>

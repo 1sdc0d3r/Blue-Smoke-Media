@@ -153,11 +153,19 @@
   color: #ee3e0e;
 }
 
+.home .plans-pricing .covid-banner {
+  color: black;
+  background: #ee3e0e;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
 .home .plans-pricing h1 {
   text-transform: uppercase;
   color: #ee3e0e;
   text-shadow: 2px 2px black;
-  margin: 1.2em auto 0;
+  margin: 1.5em auto 0;
   font-size: 2.5em;
 }
 
