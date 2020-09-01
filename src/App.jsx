@@ -30,6 +30,7 @@ import CTA from "./components/Header-CTA";
 import HamburgerMenu from "./components/HamburgerMenu";
 // * Media
 import landingVideo from "./videos/LandingPageVideo.mp4";
+import PrivacyPolicy from "./components/privacy";
 //todo learn E-Commerce
 //todo add SEO to website w/ CoBe
 //todo set up google analytics
@@ -76,7 +77,7 @@ function App() {
           <Switch>
             <Route exact path="/" component={Home} />
             {/* //todo privacy */}
-            {/* <Route path="/privacy" component={privacy} /> */}
+            <Route path="/privacy" component={PrivacyPolicy} />
             <Route path="/team" component={Team} />
             {/* //! SERVICES */}
             {/* //! SEO */}
