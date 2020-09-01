@@ -148,6 +148,9 @@ header {
       rgba(248, 54, 0, 1) 10%,
       rgba(250, 204, 34, 1) 80%
     );
+    @include breakpoint(xl, xxl) {
+      width: min-content;
+    }
 
     @include breakpoint(m) {
       width: min-content;

@@ -1,8 +1,11 @@
 import placeholder from "../images/eagle.png";
+import AJ from "../images/Aeson-Johnson.png";
+import CoBe from "../images/CoBe.png";
+import Ramona from "../images/Ramona-Lucius.png";
 
 export default [{
     name: "Constance Beebe (CoBe) - Co-Founder",
-    img: placeholder,
+    img: CoBe,
     description: "Cat Lady and UX Master",
   },
   {
@@ -12,7 +15,7 @@ export default [{
   },
   {
     name: "AJ - UX Designer",
-    img: placeholder,
+    img: AJ,
     description: "CoBe's Apprentice",
   }
 ];

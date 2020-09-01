@@ -104,50 +104,18 @@ footer div {
   }
 }
 
-@media (max-width: 360px) {
-  footer h3:hover ~ ul,
-  footer ul:hover {
-    display: block;
-    z-index: 1;
-    position: relative;
-    margin-top: 0;
-  }
-}
-
-@media (min-width: 361px) and (max-width: 480px) {
-  footer h3:hover ~ ul,
-  footer ul:hover {
-    display: block;
-    z-index: 1;
-    position: relative;
-    margin-top: 0;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 736px) {
-  footer h3:hover ~ ul,
-  footer ul:hover {
-    display: block;
-    z-index: 1;
-    position: relative;
-    margin-top: 0;
-  }
-}
-
-@media (min-width: 737px) and (max-width: 980px) {
-  footer h3:hover ~ ul,
-  footer ul:hover {
-    display: block;
-    z-index: 1;
-    position: relative;
-    margin-top: 0;
-  }
+footer .show-drop {
+  display: block;
+  z-index: 1;
+  position: relative;
+  margin-top: 0;
 }
 
 footer h3 {
   color: #ee3e0e;
   text-shadow: 2px 2px #020723;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 @media (max-width: 360px) {

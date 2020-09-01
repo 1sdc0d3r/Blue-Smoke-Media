@@ -21,20 +21,18 @@ footer {
       text-align: center;
     }
   }
-  //todo fix footer dropdowns
-  h3:hover ~ ul,
-  ul:hover {
-    @include breakpoint(xxs, xs, s, m) {
-      display: block;
-      z-index: 1;
-      position: relative;
-      margin-top: 0;
-    }
+
+  .show-drop {
+    display: block;
+    z-index: 1;
+    position: relative;
+    margin-top: 0;
   }
   h3 {
     color: $orange;
     text-shadow: 2px 2px $darkBlue;
     text-transform: uppercase;
+    cursor: pointer;
     @include breakpoint(xxs, xs, s, m) {
       margin: 0;
       padding: 0.25em 0;

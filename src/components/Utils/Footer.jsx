@@ -1,13 +1,9 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import PaymentIcon from "react-payment-icons";
 
-import blueSmoke from "../../images/blue-smoke.png";
-import youtube from "../../images/youTube.png";
 import twitter from "../../images/Twitter.png";
 import linkedIn from "../../images/linkedIn_social_media_button.png";
-import instagram from "../../images/instagram.png";
-import behance from "../../images/Behance.png";
 import facebook from "../../images/faceBook.png";
 import googleReview from "../../images/icon-Google-review.png";
 
@@ -32,8 +28,10 @@ export default function Footer() {
     <>
       <footer>
         <div className="about">
-          <h3>About Us</h3>
-          <ul>
+          <h3 onClick={() => dropdown(document.getElementById("drop-about"))}>
+            About Us
+          </h3>
+          <ul id="drop-about">
             <li>
               <Link to="/">{chevron}Home</Link>
             </li>
@@ -55,8 +53,10 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <h3>Products</h3>
-          <ul>
+          <h3 onClick={() => dropdown(document.getElementById("drop-product"))}>
+            Products
+          </h3>
+          <ul id="drop-product">
             <li>
               <Link to="/customWebsiteDesign">{chevron}Website Design</Link>
             </li>
@@ -84,8 +84,12 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <h3>Our Services</h3>
-          <ul>
+          <h3
+            onClick={() => dropdown(document.getElementById("drop-services"))}
+          >
+            Our Services
+          </h3>
+          <ul id="drop-services">
             <li>
               <Link to="/customWebsiteDesign">
                 {chevron}Custom Website Design
@@ -117,8 +121,10 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <h3>Organic SEO</h3>
-          <ul>
+          <h3 onClick={() => dropdown(document.getElementById("drop-organic"))}>
+            Organic SEO
+          </h3>
+          <ul id="drop-organic">
             <li>
               <Link to="/seoFriendly">
                 {chevron}
@@ -155,7 +161,7 @@ export default function Footer() {
         </div>
         {/* <div>
         //todo PORTFOLIO
-          <h3>Portfolio</h3>
+          <h3 id="drop-Portfolio">Portfolio</h3>
           <ul>
             <li>
               < to="#">Websites </{chevron}Link>
@@ -178,8 +184,10 @@ export default function Footer() {
           </ul>
         </div> */}
         <div>
-          <h3>Social Links</h3>
-          <ul>
+          <h3 onClick={() => dropdown(document.getElementById("drop-sm"))}>
+            Social Links
+          </h3>
+          <ul id="drop-sm">
             <li>
               {/* //todo add in all social media accounts */}
               <a
@@ -188,6 +196,12 @@ export default function Footer() {
               >
                 {chevron}
                 <img src={linkedIn} alt="LinkedIn Social Media Button" />
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                {chevron}
+                <img src={facebook} alt="Facebook Social Media Button" />
               </a>
             </li>
             <li>
@@ -229,4 +243,9 @@ export default function Footer() {
       </p>
     </>
   );
+}
+
+function dropdown(evt) {
+  evt.classList.toggle("show-drop");
+  console.log(evt.classList);
 }

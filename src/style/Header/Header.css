@@ -264,6 +264,22 @@ header .cta {
   background: linear-gradient(0deg, #f83600 10%, #facc22 80%);
 }
 
+@media (min-width: 1281px) and (max-width: 1680px) {
+  header .cta {
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+  }
+}
+
+@media (min-width: 1681px) {
+  header .cta {
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+  }
+}
+
 @media (min-width: 737px) and (max-width: 980px) {
   header .cta {
     width: -webkit-min-content;
