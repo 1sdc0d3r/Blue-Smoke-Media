@@ -1,0 +1,94 @@
+.contact-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  z-index: 3;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 1em 0.5em;
+}
+
+.contact-text .text-btn {
+  border-radius: 50%;
+  width: 5em;
+  border: 2px solid #ee3e0e;
+  margin-top: 1em;
+}
+
+.contact-text .text-btn:hover {
+  border: none;
+}
+
+.contact-text form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: space-around;
+      -ms-flex-align: space-around;
+          align-items: space-around;
+  position: relative;
+  width: 12em;
+  min-height: -webkit-max-content;
+  min-height: -moz-max-content;
+  min-height: max-content;
+  background: lightgrey;
+  padding: 0 0.5em;
+}
+
+.contact-text form p {
+  font-size: 0.8em;
+  background: lightblue;
+  border-radius: 24px 24px 24px 3px;
+  padding: 0.25em;
+}
+
+.contact-text form .input-fields {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: white;
+  border-radius: 24px 24px 3px 24px;
+  padding: 0.5em 0;
+  margin: 0 0 1em;
+  height: 50%;
+}
+
+.contact-text form .input-fields input {
+  width: 80%;
+  padding: 0.5em;
+  margin: 0.5em auto;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+.contact-text form button {
+  color: #1e92f6;
+  background: #04227a;
+  width: 30%;
+  margin: 0 auto 1em;
+}
+
+.contact-text .hide-form {
+  display: none;
+  position: absolute;
+}
+/*# sourceMappingURL=contact-btn.css.map */

@@ -90,11 +90,8 @@ export default function Carousel() {
           <div className="inner-slide">
             <div className="slide-info">
               <h1>
-                What sets Blue Smoke
-                <br />
-                Digital and Printed Media
-                <br />
-                apart from the others?
+                What sets Blue Smoke Digital and Printed Media apart from the
+                others?
               </h1>
               <p className="description">
                 We at Blue Smoke Digital and Printed Media believe that the

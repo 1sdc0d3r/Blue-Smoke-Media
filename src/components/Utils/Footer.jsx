@@ -213,7 +213,10 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="#" target="_blank">
+              <a
+                href="https://www.facebook.com/bluesmokemedia/"
+                target="_blank"
+              >
                 {chevron}
                 <img src={facebook} alt="Facebook Social Media Button" />
               </a>
