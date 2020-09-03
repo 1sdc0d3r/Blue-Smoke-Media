@@ -15,7 +15,7 @@ export default function ECommerceWebsiteDevelopment() {
           If your Company wants to increase its customer base, make shopping
           easier for its customers, or promote their products, Building an
           Online Store is the right thing for them.We at{" "}
-          <span> Blue Smoke Printed and Digital Media, </span> offer complete
+          <span> Blue Smoke digital and printed Media, </span> offer complete
           e-commerce solutions from online shopping systems to a wide variety of
           revenue processing facilities and supporting services for our
           customers businesses.{" "}
@@ -26,7 +26,7 @@ export default function ECommerceWebsiteDevelopment() {
           businesses, and often the least expensive option.{" "}
         </p>{" "}
         <p>
-          <span> Blue Smoke Printed and Digital Media, </span> has helped
+          <span> Blue Smoke digital and printed Media, </span> has helped
           businesses, large and small(and everything in between), understand how
           to use the Web to their advantage.By taking the time in getting to
           know your business, your goals, objectives, strengths and weaknesses,

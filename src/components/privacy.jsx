@@ -250,7 +250,7 @@ Based on the applicable laws of your country, you may have the right to request 
       <pre style={{ whiteSpace: "pre-wrap" }}>
         <span style={{ fontWeight: "900" }}>DISCLAIMER</span> Last updated
         September 07, 2020 WEBSITE DISCLAIMER The information provided by Blue
-        Smoke Printed and Digital Media, (“we,” “us” or “our”) on
+        Smoke digital and printed Media, (“we,” “us” or “our”) on
         BlueSmokeDigitalAndPrintedMedia.com, (the “Site”) is for general
         informational purposes only. All information on the Site is provided in
         good faith, however we make no representation or warranty of any kind,
