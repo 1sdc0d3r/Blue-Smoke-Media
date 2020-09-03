@@ -162,11 +162,12 @@ export default function Footer() {
               </Link>
             </li>
             {/* //todo social media component */}
-            {/* <li>
-              <Link to="x-">{chevron}
-                Social Media <br />& Marketing
+            <li>
+              <Link to="/social-media">
+                {chevron}
+                Social Media & Marketing
               </Link>
-            </li> */}
+            </li>
             {/* //todo reputation management component */}
             {/* <li>
               <Link to="x-">{chevron}Reputation & Review Management</Link>

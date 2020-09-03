@@ -39,4 +39,20 @@ html {
   width: 92%;
   margin: auto;
 }
+
+.App .covid-banner {
+  color: black;
+  background: #ee3e0e;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.App .covid-banner span {
+  background: black;
+  padding: 0 0.125em;
+  border: 1px solid black;
+  color: white;
+  margin-right: 1%;
+}
 /*# sourceMappingURL=App.css.map */

@@ -32,4 +32,21 @@ html {
     width: 92%;
     margin: auto;
   }
+  .covid-banner {
+    color: black;
+    background: $orange;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    // line-height: 0.85em;
+    // font-size: 0.85em;
+    span {
+      background: black;
+      // border-radius: 25%;
+      padding: 0 0.125em;
+      border: 1px solid black;
+      color: white;
+      margin-right: 1%;
+    }
+  }
 }

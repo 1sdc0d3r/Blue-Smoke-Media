@@ -8,6 +8,7 @@ import Team from "./components/Team";
 import Header from "./components/Utils/Header";
 import Navigation from "./components/Utils/Navigation";
 import Footer from "./components/Utils/Footer";
+import SocialMedia from "./components/SocialMedia";
 // * Web Design Services
 import AdCopyWriting from "./components/Web Design Services/Ad-CopyWriting";
 import CustomWebsiteDesign from "./components/Web Design Services/CustomWebsiteDesign";
@@ -69,6 +70,18 @@ function App() {
         <>
           <header>
             <div>
+              <p className="covid-banner">
+                <span
+                  onClick={() =>
+                    (document.querySelector(".covid-banner").style.display =
+                      "none")
+                  }
+                >
+                  X
+                </span>
+                Due to the COVID-19 epidemic, we have lowered our prices to
+                accommodate the smaller businesses in the US.
+              </p>
               <Header />
               <Navigation />
               <HamburgerMenu />
@@ -126,6 +139,8 @@ function App() {
               path="/graphic-design/digital-and-print-graphic-design"
               component={PrintAndGraphicServices}
             />
+            <Route path="/social-media" component={SocialMedia} />
+
             {/* //todo portfolio  */}
             {/* <Route path="/portfolio" component={Portfolio} /> */}
             <Route path="/contact" component={Contact} />

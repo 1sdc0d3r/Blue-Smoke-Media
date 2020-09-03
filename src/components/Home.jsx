@@ -9,6 +9,7 @@ import help2 from "../images/help-icon-2.png";
 import help3 from "../images/help-icon-3.png";
 import Carousel from "./Carousel";
 import ReactCardFlip from "react-card-flip";
+import socialMedia from "../images/social_media.png";
 
 export default function Home() {
   const [card1, setCard1] = useState(false);
@@ -35,78 +36,7 @@ export default function Home() {
           </p>
         </p>
       </section>
-      <section className="plans-pricing">
-        <p className="covid-banner">
-          Due to the COVID-19 epidemic, we have lowered our prices to
-          accommodate the smaller businesses in the US.
-        </p>
-        <h1>
-          <span>Our </span>Plans & Pricing
-        </h1>
-        <p className="sub-text">
-          (All prices may be subject to change without
-          <br />
-          notice, unless under contract.)
-        </p>
-        <div className="plans-card-container">
-          <div className="plan-card-set">
-            <div className="plan-card">
-              <h3>
-                5 Page
-                <br />
-                Website
-              </h3>
-              <h6>Includes Organic SEO</h6>
-              <hr className="line" />
-              <p>Starts At</p>
-              <p className="price">$749</p>
-              {/* //todo view plans link */}
-              <Link to="#">View Plans</Link>
-            </div>
-            <div className="plan-card">
-              <h3>
-                6-10 Page
-                <br />
-                Website
-              </h3>
-              <h6>Includes Organic SEO</h6>
-              <hr className="line" />
-              <p>Starts At</p>
-              <p className="price">$1,399</p>
-              <Link to="#">View Plans</Link>
-            </div>
-          </div>
-          <div className="plan-card-set">
-            <div className="plan-card">
-              <h3>
-                11-15+ Page
-                <br />
-                Website
-              </h3>
-              <h6>Includes Organic SEO</h6>
-              <hr className="line" />
-              <p>Starts At</p>
-              <p className="price">$2,299</p>
-              <Link to="#">View Plans</Link>
-            </div>
-            <div className="plan-card">
-              <h3>
-                E-Commerce
-                <br />
-                Website
-              </h3>
-              <h6>
-                Includes Organic SEO
-                <br /> Price is for 5 pages and 10 items.
-              </h6>
-              <hr className="line" />
-              <p>Starts At</p>
-              <p className="price">$1,749</p>
-              <Link to="#">View Plans</Link>
-            </div>
-          </div>
-        </div>
-      </section>
+
       <section className="services">
         <h1>
           <span>Our </span>Services
@@ -215,6 +145,95 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </section>
+      <section className="plans-pricing">
+        <h1>
+          <span>Our </span>Plans & Pricing
+        </h1>
+        <p className="sub-text">
+          (All prices may be subject to change without
+          <br />
+          notice, unless under contract.)
+        </p>
+        <div className="plans-card-container">
+          <div className="plan-card-set">
+            <div className="plan-card">
+              <h3>
+                5 Page
+                <br />
+                Website
+              </h3>
+              <h6>Includes Organic SEO</h6>
+              <hr className="line" />
+              <p>Starts At</p>
+              <p className="price">$749</p>
+              {/* //todo view plans link */}
+              <Link to="#">View Plans</Link>
+            </div>
+            <div className="plan-card">
+              <h3>
+                6-10 Page
+                <br />
+                Website
+              </h3>
+              <h6>Includes Organic SEO</h6>
+              <hr className="line" />
+              <p>Starts At</p>
+              <p className="price">$1,399</p>
+              <Link to="#">View Plans</Link>
+            </div>
+          </div>
+          <div className="plan-card-set">
+            <div className="plan-card">
+              <h3>
+                11-15+ Page
+                <br />
+                Website
+              </h3>
+              <h6>Includes Organic SEO</h6>
+              <hr className="line" />
+              <p>Starts At</p>
+              <p className="price">$2,299</p>
+              <Link to="#">View Plans</Link>
+            </div>
+            <div className="plan-card">
+              <h3>
+                E-Commerce
+                <br />
+                Website
+              </h3>
+              <h6>
+                Includes Organic SEO
+                <br /> Price is for 5 pages and 10 items.
+              </h6>
+              <hr className="line" />
+              <p>Starts At</p>
+              <p className="price">$1,749</p>
+              <Link to="#">View Plans</Link>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="social-media">
+        <div className="content">
+          <h1>Social Media</h1>
+          <h2>What Is I and Why You Should Use It</h2>
+          {/* //todo context */}
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+            facere similique odio! Vero quaerat incidunt, impedit temporibus
+            quos iste consequuntur ipsam dolore nam laboriosam, vel asperiores?
+            Tempore iste porro magni.
+          </p>
+          <ul>
+            <li>Lorem ipsum, dolor sit amet</li>
+            <li>consectetur adipisicing </li>
+            <li>facere similique odio!</li>
+            <li>consequuntur ipsam dolore nam laboriosam</li>
+          </ul>
+          <Link>Learn More</Link>
+        </div>
+        <img src={socialMedia} alt="social media globe" />
       </section>
       <section className="help">
         <h1>

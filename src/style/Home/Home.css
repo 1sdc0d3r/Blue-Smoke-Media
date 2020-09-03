@@ -153,14 +153,6 @@
   color: #ee3e0e;
 }
 
-.home .plans-pricing .covid-banner {
-  color: black;
-  background: #ee3e0e;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0;
-}
-
 .home .plans-pricing h1 {
   text-transform: uppercase;
   color: #ee3e0e;
@@ -562,6 +554,45 @@
 
 .home .services .services-card-container .service-card-set .service-card .service-card-back p span {
   font-weight: 600;
+}
+
+.home .social-media {
+  background: #020723;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home .social-media .content {
+  width: 50%;
+  color: white;
+  margin: 2em;
+}
+
+.home .social-media .content h1 {
+  font-weight: 900;
+  text-transform: uppercase;
+  color: goldenrod;
+  text-align: left;
+  margin: none;
+}
+
+.home .social-media .content h2 {
+  color: #1e92f6;
+  font-weight: 400;
+  margin: none;
+}
+
+.home .social-media .content a {
+  background: #ee3e0e;
+  color: white;
+  padding: 0.2em;
+}
+
+.home .social-media img {
+  margin: 3em auto;
+  width: 35%;
 }
 
 .home .help {

@@ -89,13 +89,6 @@
     }
   }
   .plans-pricing {
-    .covid-banner {
-      color: black;
-      background: $orange;
-      width: 100%;
-      margin: 0 auto;
-      padding: 0;
-    }
     h1 {
       text-transform: uppercase;
       color: $orange;
@@ -286,6 +279,37 @@
           }
         }
       }
+    }
+  }
+  .social-media {
+    background: $darkBlue;
+    width: 100%;
+    display: flex;
+    .content {
+      width: 50%;
+      color: white;
+      margin: 2em;
+      h1 {
+        font-weight: 900;
+        text-transform: uppercase;
+        color: goldenrod;
+        text-align: left;
+        margin: none;
+      }
+      h2 {
+        color: $lightBlue;
+        font-weight: 400;
+        margin: none;
+      }
+      a {
+        background: $orange;
+        color: white;
+        padding: 0.2em;
+      }
+    }
+    img {
+      margin: 3em auto;
+      width: 35%;
     }
   }
   .help {

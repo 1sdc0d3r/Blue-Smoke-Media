@@ -40,6 +40,10 @@ export default withRouter(function Navigation(props) {
             <NavLink to="/seo/seoOrganic" className="drop-item">
               Organic Search Engine Optimization
             </NavLink>
+
+            <NavLink to="/social-media" className="drop-item">
+              Social Media
+            </NavLink>
           </div>
           <div className="nav-section ">
             <h3>Website Design</h3>
