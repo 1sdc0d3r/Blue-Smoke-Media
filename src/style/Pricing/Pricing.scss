@@ -1,0 +1,81 @@
+@import "../Utils/Mixins/Mixins.scss";
+
+.price-chart {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  background: #424851;
+  color: white;
+  width: 95%;
+  height: max-content;
+  margin: auto;
+  padding-bottom: 4em;
+  // overflow: hidden;
+  .col {
+    width: 17.5%;
+    min-width: min-content;
+    margin-top: 1.5em;
+    box-shadow: 2em 0 0.5em black;
+
+    &:last-child {
+      box-shadow: none;
+    }
+    div {
+      height: 30%;
+      padding: 0.2em 0;
+      h5 {
+        margin: 0;
+      }
+      p {
+        margin: 0;
+        margin-bottom: 0.2em;
+      }
+      span {
+        font-size: 1.5em;
+        font-weight: 800;
+      }
+    }
+    .row {
+      height: 7%;
+      margin: 0;
+      width: 100%;
+    }
+    .blue-text {
+      color: $lightBlue;
+      font-weight: 600;
+    }
+    .row-light {
+      background: #3c4149;
+    }
+    .row-dark {
+      background: #383c40;
+    }
+    .start-now {
+      color: goldenrod;
+      margin-top: 0.5em;
+    }
+  }
+  .col-1 {
+    width: 30%;
+  }
+  .col-2 {
+    div {
+      background: linear-gradient(0deg, #e83e39 0%, #c185b3 95%);
+    }
+  }
+  .col-3 {
+    div {
+      background: linear-gradient(0deg, #fcac31 0%, #f9d39b 95%);
+    }
+  }
+  .col-4 {
+    div {
+      background: linear-gradient(0deg, #2f9c52 0%, #96ca6b 95%);
+    }
+  }
+  .col-5 {
+    div {
+      background: linear-gradient(0deg, #2c2f48 0%, #393f76 95%);
+    }
+  }
+}

@@ -32,6 +32,7 @@ import HamburgerMenu from "./components/HamburgerMenu";
 // * Media
 import landingVideo from "./videos/LandingPageVideo.mp4";
 import PrivacyPolicy from "./components/privacy";
+import Pricing from "./components/Pricing";
 import ContactBtn from "./components/Utils/contact-btn";
 //todo learn E-Commerce
 //todo add SEO to website w/ CoBe
@@ -144,6 +145,7 @@ function App() {
             {/* //todo portfolio  */}
             {/* <Route path="/portfolio" component={Portfolio} /> */}
             <Route path="/contact" component={Contact} />
+            <Route path="/pricing" component={Pricing} />
             {/* <Route component={NoMatch} /> */}
           </Switch>
           <Footer />

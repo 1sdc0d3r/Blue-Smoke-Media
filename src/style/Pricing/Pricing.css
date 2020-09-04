@@ -1,0 +1,100 @@
+.price-chart {
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #424851;
+  color: white;
+  width: 95%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  margin: auto;
+  padding-bottom: 4em;
+}
+
+.price-chart .col {
+  width: 17.5%;
+  min-width: -webkit-min-content;
+  min-width: -moz-min-content;
+  min-width: min-content;
+  margin-top: 1.5em;
+  -webkit-box-shadow: 2em 0 0.5em black;
+          box-shadow: 2em 0 0.5em black;
+}
+
+.price-chart .col:last-child {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.price-chart .col div {
+  height: 30%;
+  padding: 0.2em 0;
+}
+
+.price-chart .col div h5 {
+  margin: 0;
+}
+
+.price-chart .col div p {
+  margin: 0;
+  margin-bottom: 0.2em;
+}
+
+.price-chart .col div span {
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+.price-chart .col .row {
+  height: 7%;
+  margin: 0;
+  width: 100%;
+}
+
+.price-chart .col .blue-text {
+  color: #1e92f6;
+  font-weight: 600;
+}
+
+.price-chart .col .row-light {
+  background: #3c4149;
+}
+
+.price-chart .col .row-dark {
+  background: #383c40;
+}
+
+.price-chart .col .start-now {
+  color: goldenrod;
+  margin-top: 0.5em;
+}
+
+.price-chart .col-1 {
+  width: 30%;
+}
+
+.price-chart .col-2 div {
+  background: -webkit-gradient(linear, left bottom, left top, from(#e83e39), color-stop(95%, #c185b3));
+  background: linear-gradient(0deg, #e83e39 0%, #c185b3 95%);
+}
+
+.price-chart .col-3 div {
+  background: -webkit-gradient(linear, left bottom, left top, from(#fcac31), color-stop(95%, #f9d39b));
+  background: linear-gradient(0deg, #fcac31 0%, #f9d39b 95%);
+}
+
+.price-chart .col-4 div {
+  background: -webkit-gradient(linear, left bottom, left top, from(#2f9c52), color-stop(95%, #96ca6b));
+  background: linear-gradient(0deg, #2f9c52 0%, #96ca6b 95%);
+}
+
+.price-chart .col-5 div {
+  background: -webkit-gradient(linear, left bottom, left top, from(#2c2f48), color-stop(95%, #393f76));
+  background: linear-gradient(0deg, #2c2f48 0%, #393f76 95%);
+}
+/*# sourceMappingURL=pricing.css.map */
