@@ -49,5 +49,19 @@ html {
   width: 100%;
   margin: 0 auto;
   padding: 0 0.2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.App .covid-banner img {
+  width: 1em;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-right: 0.1em;
 }
 /*# sourceMappingURL=App.css.map */

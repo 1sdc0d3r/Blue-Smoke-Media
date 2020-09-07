@@ -81,14 +81,17 @@ function App() {
           <header>
             <div>
               <p className="covid-banner">
-                <span
+                {/* <span */}
+                {/* > */}
+                <img
+                  src={circleX}
+                  alt="close 'x'"
                   onClick={() =>
                     (document.querySelector(".covid-banner").style.display =
                       "none")
                   }
-                >
-                  <img src={circleX} alt="close 'x'" />
-                </span>
+                />
+                {/* </span> */}
                 Due to the COVID-19 epidemic, we have lowered our prices to
                 accommodate the smaller businesses in the US.
               </p>
