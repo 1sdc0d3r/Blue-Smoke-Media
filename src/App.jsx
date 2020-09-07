@@ -34,6 +34,7 @@ import landingVideo from "./videos/LandingPageVideo.mp4";
 import PrivacyPolicy from "./components/privacy";
 import Pricing from "./components/Pricing";
 import ContactBtn from "./components/Utils/contact-btn";
+import circleX from "./images/circle-X.png";
 //todo learn E-Commerce
 //todo add SEO to website w/ CoBe
 //todo set up google analytics
@@ -57,6 +58,7 @@ function App() {
           muted={true}
           autoPlay
           onEnded={() => {
+            //todo have video inline for seo
             setIsPlaying(false);
             localStorage.setItem(
               "landingVideo",
@@ -78,7 +80,7 @@ function App() {
                       "none")
                   }
                 >
-                  X
+                  <img src={circleX} alt="close 'x'" />
                 </span>
                 Due to the COVID-19 epidemic, we have lowered our prices to
                 accommodate the smaller businesses in the US.
