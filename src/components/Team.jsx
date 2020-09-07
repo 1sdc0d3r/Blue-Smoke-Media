@@ -66,7 +66,7 @@ export default function Team() {
           <p>
             "The <span>Blue Smoke Media</span> marketing staff consists of
             search engine optimization (SEO) specialists, copywriters, corporate
-            branding specialists, publicists, and marketing experts.",
+            branding specialists, publicists, and marketing experts."
           </p>
         </div>
         <div>

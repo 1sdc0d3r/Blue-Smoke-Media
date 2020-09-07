@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./style/_Main.css";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, useLocation } from "react-router-dom";
 
 //* components
 import Home from "./components/Home";
@@ -44,10 +44,17 @@ import circleX from "./images/circle-X.png";
 function App() {
   //! enable video here
   const [isPlaying, setIsPlaying] = useState(true);
+  const videoPlayDelay = 259200000; //72hrs
+  const { pathname } = useLocation();
+
   useEffect(() => {
     setIsPlaying(getStorage());
   }, []);
-  const videoPlayDelay = 259200000; //72hrs
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <div className="App" style={{ position: "relative" }}>
       {isPlaying ? (

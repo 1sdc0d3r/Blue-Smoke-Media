@@ -33,6 +33,9 @@ html {
 
 .App video {
   width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 50;
 }
 
 .App .page-wrapper {
@@ -45,14 +48,6 @@ html {
   background: #ee3e0e;
   width: 100%;
   margin: 0 auto;
-  padding: 0;
-}
-
-.App .covid-banner span {
-  background: black;
-  padding: 0 0.125em;
-  border: 1px solid black;
-  color: white;
-  margin-right: 1%;
+  padding: 0 0.2em;
 }
 /*# sourceMappingURL=App.css.map */
