@@ -24,6 +24,9 @@ html {
   header {
     display: flex;
     // height: 100%;
+    @include breakpoint(m) {
+      // margin-bottom: 1em;
+    }
   }
   video {
     width: 100%;
@@ -43,6 +46,7 @@ html {
     padding: 0 0.2em;
     display: flex;
     justify-content: center;
+    // position: absolute;
     img {
       width: 1em;
       align-self: center;

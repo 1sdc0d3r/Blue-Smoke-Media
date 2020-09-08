@@ -12,8 +12,14 @@
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
-  margin: auto;
+  margin: 2% auto;
   padding-bottom: 4em;
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  .price-chart {
+    margin: 5% auto;
+  }
 }
 
 .price-chart .col {
@@ -22,8 +28,6 @@
   min-width: -moz-min-content;
   min-width: min-content;
   margin-top: 1.5em;
-  -webkit-box-shadow: 2em 0 0.5em black;
-          box-shadow: 2em 0 0.5em black;
 }
 
 .price-chart .col:last-child {
@@ -54,6 +58,14 @@
   height: 7%;
   margin: 0;
   width: 100%;
+  overflow: hidden;
+  -webkit-box-shadow: inset 0.6em 0 1em #2a2d30;
+          box-shadow: inset 0.6em 0 1em #2a2d30;
+  padding: 1%;
+}
+
+.price-chart .col .row img {
+  width: 18%;
 }
 
 .price-chart .col .blue-text {
@@ -66,16 +78,21 @@
 }
 
 .price-chart .col .row-dark {
-  background: #383c40;
+  background: #5b626c;
 }
 
 .price-chart .col .start-now {
   color: goldenrod;
-  margin-top: 0.5em;
+  padding-top: 0.2em;
 }
 
 .price-chart .col-1 {
   width: 30%;
+}
+
+.price-chart .col-1 div {
+  background: -webkit-gradient(linear, left bottom, left top, from(#33373d), color-stop(69%, #424851));
+  background: linear-gradient(0deg, #33373d 0%, #424851 69%);
 }
 
 .price-chart .col-2 div {

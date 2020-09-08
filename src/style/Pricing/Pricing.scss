@@ -8,14 +8,18 @@
   color: white;
   width: 95%;
   height: max-content;
-  margin: auto;
+  margin: 2% auto;
   padding-bottom: 4em;
   // overflow: hidden;
+  @include breakpoint(m) {
+    margin: 5% auto;
+  }
   .col {
     width: 17.5%;
     min-width: min-content;
     margin-top: 1.5em;
-    box-shadow: 2em 0 0.5em black;
+    // box-shadow: 2em 0 0.5em black;
+    // background: #424851;
 
     &:last-child {
       box-shadow: none;
@@ -39,6 +43,12 @@
       height: 7%;
       margin: 0;
       width: 100%;
+      overflow: hidden;
+      box-shadow: inset 0.6em 0 1em #2a2d30;
+      padding: 1%;
+      img {
+        width: 18%;
+      }
     }
     .blue-text {
       color: $lightBlue;
@@ -48,15 +58,20 @@
       background: #3c4149;
     }
     .row-dark {
-      background: #383c40;
+      background: #5b626c;
     }
     .start-now {
       color: goldenrod;
-      margin-top: 0.5em;
+      // margin-top: 0.5em;
+      padding-top: 0.2em;
     }
   }
   .col-1 {
     width: 30%;
+
+    div {
+      background: linear-gradient(0deg, #33373d 0%, #424851 69%);
+    }
   }
   .col-2 {
     div {

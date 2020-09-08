@@ -1,4 +1,6 @@
 import React from "react";
+import Check from "../images/checkmark.svg";
+import noCheck from "../images/Red_x.svg";
 
 export default function PriceChart() {
   const startNowHandler = () => {
@@ -33,16 +35,35 @@ export default function PriceChart() {
           <p>Starts At</p>
           <span>$749</span>
         </div>
-        <p className="row row-light">Check</p>
-        <p className="row row-dark">Check</p>
+        <p className="row row-light">
+          <img src={Check} alt="checkmark" />
+        </p>
+        <p className="row row-dark">
+          <img src={Check} alt="checkmark" />
+        </p>
         <p className="row row-light blue-text">5</p>
         <p className="row row-dark blue-text">5 GB</p>
-        <p className="row row-light">Check</p>
-        <p className="row row-dark">Check</p>
-        <p className="row row-light">Check</p>
-        <p className="row row-dark">NoCheck</p>
-        <p className="row row-light">NoCheck</p>
-        <p className="row row-dark">NoCheck</p>
+        <p className="row row-light">
+          <img src={Check} alt="checkmark" />
+        </p>
+        <p className="row row-dark">
+          <img src={Check} alt="checkmark" />
+        </p>
+        <p className="row row-light">
+          <img src={Check} alt="checkmark" />
+        </p>
+        <p className="row row-dark">
+          {" "}
+          <img src={noCheck} alt="checkmark" />
+        </p>
+        <p className="row row-light">
+          {" "}
+          <img src={noCheck} alt="checkmark" />
+        </p>
+        <p className="row row-dark">
+          {" "}
+          <img src={noCheck} alt="checkmark" />
+        </p>
         <p
           className="row row-light start-now"
           onClick={() => startNowHandler()}
@@ -61,16 +82,35 @@ export default function PriceChart() {
           <p>Starts At</p>
           <span>$1,249</span>
         </div>
-        <p className="row row-light">Check</p>
-        <p className="row row-dark">Check</p>
+        <p className="row row-light">
+          <img src={Check} alt="checkmark" />
+        </p>
+        <p className="row row-dark">
+          <img src={Check} alt="checkmark" />
+        </p>
         <p className="row row-light blue-text">10</p>
         <p className="row row-dark blue-text">15 GB</p>
-        <p className="row row-light">Check</p>
-        <p className="row row-dark">Check</p>
-        <p className="row row-light">Check</p>
-        <p className="row row-dark">NoCheck</p>
-        <p className="row row-light">NoCheck</p>
-        <p className="row row-dark">NoCheck</p>
+        <p className="row row-light">
+          <img src={Check} alt="checkmark" />
+        </p>
+        <p className="row row-dark">
+          <img src={Check} alt="checkmark" />
+        </p>
+        <p className="row row-light">
+          <img src={Check} alt="checkmark" />
+        </p>
+        <p className="row row-dark">
+          {" "}
+          <img src={noCheck} alt="checkmark" />
+        </p>
+        <p className="row row-light">
+          {" "}
+          <img src={noCheck} alt="checkmark" />
+        </p>
+        <p className="row row-dark">
+          {" "}
+          <img src={noCheck} alt="checkmark" />
+        </p>
         <p
           className="row row-light start-now"
           onClick={() => startNowHandler()}
@@ -89,16 +129,32 @@ export default function PriceChart() {
           <p>Starts At</p>
           <span>$1,899</span>
         </div>
-        <p className="row row-light">Check</p>
-        <p className="row row-dark">Check</p>
+        <p className="row row-light">
+          <img src={Check} alt="checkmark" />
+        </p>
+        <p className="row row-dark">
+          <img src={Check} alt="checkmark" />
+        </p>
         <p className="row row-light blue-text">20</p>
         <p className="row row-dark blue-text">Unlimited</p>
-        <p className="row row-light">Check</p>
-        <p className="row row-dark">Check</p>
-        <p className="row row-light">Check</p>
-        <p className="row row-dark">Check</p>
-        <p className="row row-light">Check</p>
-        <p className="row row-dark">Check</p>
+        <p className="row row-light">
+          <img src={Check} alt="checkmark" />
+        </p>
+        <p className="row row-dark">
+          <img src={Check} alt="checkmark" />
+        </p>
+        <p className="row row-light">
+          <img src={Check} alt="checkmark" />
+        </p>
+        <p className="row row-dark">
+          <img src={Check} alt="checkmark" />
+        </p>
+        <p className="row row-light">
+          <img src={Check} alt="checkmark" />
+        </p>
+        <p className="row row-dark">
+          <img src={Check} alt="checkmark" />
+        </p>
         <p
           className="row row-light start-now"
           onClick={() => startNowHandler()}
@@ -117,16 +173,32 @@ export default function PriceChart() {
           <p>Starts At</p>
           <span>$749</span>
         </div>
-        <p className="row row-light">Check</p>
-        <p className="row row-dark">Check</p>
+        <p className="row row-light">
+          <img src={Check} alt="checkmark" />
+        </p>
+        <p className="row row-dark">
+          <img src={Check} alt="checkmark" />
+        </p>
         <p className="row row-light blue-text">10</p>
         <p className="row row-dark blue-text">Unlimited</p>
-        <p className="row row-light">Check</p>
-        <p className="row row-dark">Check</p>
-        <p className="row row-light">Check</p>
-        <p className="row row-dark">Check</p>
-        <p className="row row-light">Check</p>
-        <p className="row row-dark">Check</p>
+        <p className="row row-light">
+          <img src={Check} alt="checkmark" />
+        </p>
+        <p className="row row-dark">
+          <img src={Check} alt="checkmark" />
+        </p>
+        <p className="row row-light">
+          <img src={Check} alt="checkmark" />
+        </p>
+        <p className="row row-dark">
+          <img src={Check} alt="checkmark" />
+        </p>
+        <p className="row row-light">
+          <img src={Check} alt="checkmark" />
+        </p>
+        <p className="row row-dark">
+          <img src={Check} alt="checkmark" />
+        </p>
         <p
           className="row row-light start-now"
           onClick={() => startNowHandler()}
