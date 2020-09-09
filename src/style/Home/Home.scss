@@ -289,6 +289,10 @@
       width: 50%;
       color: white;
       margin: 2em;
+      @include breakpoint(xxs, xs, s) {
+        width: 100%;
+      }
+
       h1 {
         font-weight: 900;
         text-transform: uppercase;
@@ -308,8 +312,17 @@
       }
     }
     img {
-      margin: 3em auto;
-      width: 35%;
+      margin: 3em 1em;
+      width: 40%;
+      @include breakpoint(xl, l) {
+        margin: 5em 1em;
+      }
+      @include breakpoint(m) {
+        margin: 8em 1em;
+      }
+      @include breakpoint(xxs, xs, s) {
+        display: none;
+      }
     }
   }
   .help {
