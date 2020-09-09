@@ -76,6 +76,7 @@ header .blue-smoke {
   margin: auto;
   margin-left: 0.4%;
   padding-top: 0.5em;
+  min-height: 2em;
 }
 
 @media (min-width: 481px) and (max-width: 736px) {

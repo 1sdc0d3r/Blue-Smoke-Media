@@ -1,5 +1,5 @@
 @import "../Utils/Mixins/Mixins.scss";
-
+//todo xxs-m new design
 .price-chart {
   text-transform: uppercase;
   display: flex;
@@ -11,6 +11,11 @@
   margin: 2% auto;
   padding-bottom: 4em;
   // overflow: hidden;
+
+  // @include breakpoint(xxl, xl) {
+  width: 70%;
+  // }
+
   @include breakpoint(m) {
     margin: 5% auto;
   }
@@ -18,15 +23,27 @@
     width: 17.5%;
     min-width: min-content;
     margin-top: 1.5em;
-    // box-shadow: 2em 0 0.5em black;
-    // background: #424851;
+    // padding: 1%;
 
     &:last-child {
-      box-shadow: none;
+      border-right: 3px solid #393d44;
+      @include breakpoint(xxl, xl) {
+        border-right: 5px solid #393d44;
+      }
     }
     div {
       height: 30%;
-      padding: 0.2em 0;
+      padding: 0.5em 0;
+      @include breakpoint(xl, l) {
+        // margin: 1em 0;
+      }
+
+      h5,
+      p,
+      span {
+        text-shadow: 3px 3px 3px black;
+      }
+
       h5 {
         margin: 0;
       }
@@ -39,6 +56,7 @@
         font-weight: 800;
       }
     }
+
     .row {
       height: 7%;
       margin: 0;
@@ -46,6 +64,10 @@
       overflow: hidden;
       box-shadow: inset 0.6em 0 1em #2a2d30;
       padding: 1%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
       img {
         width: 18%;
       }
@@ -62,12 +84,23 @@
     }
     .start-now {
       color: goldenrod;
-      // margin-top: 0.5em;
       padding-top: 0.2em;
+      padding: 0.2em auto 0.1em;
+      font-weight: 600;
+      @include breakpoint(l) {
+        font-size: 0.85em;
+      }
     }
   }
+
   .col-1 {
     width: 30%;
+    p:not(:first-child) {
+      font-size: 0.8em;
+    }
+    p:first-child {
+      font-size: 2em;
+    }
 
     div {
       background: linear-gradient(0deg, #33373d 0%, #424851 69%);

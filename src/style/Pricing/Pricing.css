@@ -14,6 +14,7 @@
   height: max-content;
   margin: 2% auto;
   padding-bottom: 4em;
+  width: 70%;
 }
 
 @media (min-width: 737px) and (max-width: 980px) {
@@ -31,13 +32,30 @@
 }
 
 .price-chart .col:last-child {
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  border-right: 3px solid #393d44;
+}
+
+@media (min-width: 1681px) {
+  .price-chart .col:last-child {
+    border-right: 5px solid #393d44;
+  }
+}
+
+@media (min-width: 1281px) and (max-width: 1680px) {
+  .price-chart .col:last-child {
+    border-right: 5px solid #393d44;
+  }
 }
 
 .price-chart .col div {
   height: 30%;
-  padding: 0.2em 0;
+  padding: 0.5em 0;
+}
+
+.price-chart .col div h5,
+.price-chart .col div p,
+.price-chart .col div span {
+  text-shadow: 3px 3px 3px black;
 }
 
 .price-chart .col div h5 {
@@ -62,6 +80,15 @@
   -webkit-box-shadow: inset 0.6em 0 1em #2a2d30;
           box-shadow: inset 0.6em 0 1em #2a2d30;
   padding: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .price-chart .col .row img {
@@ -84,10 +111,26 @@
 .price-chart .col .start-now {
   color: goldenrod;
   padding-top: 0.2em;
+  padding: 0.2em auto 0.1em;
+  font-weight: 600;
+}
+
+@media (min-width: 981px) and (max-width: 1280px) {
+  .price-chart .col .start-now {
+    font-size: 0.85em;
+  }
 }
 
 .price-chart .col-1 {
   width: 30%;
+}
+
+.price-chart .col-1 p:not(:first-child) {
+  font-size: 0.8em;
+}
+
+.price-chart .col-1 p:first-child {
+  font-size: 2em;
 }
 
 .price-chart .col-1 div {

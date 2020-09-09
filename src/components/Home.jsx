@@ -9,7 +9,7 @@ import help2 from "../images/help-icon-2.png";
 import help3 from "../images/help-icon-3.png";
 import Carousel from "./Carousel";
 import ReactCardFlip from "react-card-flip";
-import socialMedia from "../images/social_media.png";
+import socialMedia from "../images/social-media-guidelines.png";
 
 export default function Home() {
   const [card1, setCard1] = useState(false);

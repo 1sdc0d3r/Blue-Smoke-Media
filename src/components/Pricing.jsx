@@ -21,7 +21,7 @@ export default function PriceChart() {
         <p className="row row-dark">Mobile-Friendly Site</p>
         <p className="row row-light">Website Support</p>
         <p className="row row-dark">PayPal Button</p>
-        <p className="row row-light">accept online payments</p>
+        <p className="row row-light">online payments</p>
         <p className="row row-dark">google my business</p>
       </div>
       <div className="col col-2">
