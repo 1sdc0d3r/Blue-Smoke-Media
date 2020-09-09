@@ -7,7 +7,6 @@
   z-index: 100;
   justify-content: space-around;
   -webkit-user-select: none;
-  -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   -o-user-select: none;
@@ -66,7 +65,9 @@
       z-index: 5;
       background: #020723;
       padding: 0.15em 0.65em 0.5em;
-      opacity: 90%;
+      opacity: 0.9;
+      width: -webkit-min-content;
+      width: -moz-min-content;
       width: min-content;
       box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
       justify-content: space-between;
@@ -112,6 +113,8 @@
         text-align: center;
         font-size: 0.85em;
         font-weight: inherit;
+        min-width: -webkit-min-content;
+        min-width: -moz-min-content;
         min-width: min-content;
         width: 5em;
 

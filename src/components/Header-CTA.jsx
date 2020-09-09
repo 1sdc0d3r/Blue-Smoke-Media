@@ -13,7 +13,7 @@ export default function cta() {
       </p>
       <div className="btns">
         {/* //todo email here */}
-        <a href="mailto:email.com">
+        <a href="mailto:services@bluesmokemedia.net">
           <img src={email} alt="contact-mail" className="cta-mail cta-btn" />
         </a>
         <a href="tel:+1 801.690.1189">

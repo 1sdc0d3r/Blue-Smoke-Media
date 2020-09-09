@@ -8,7 +8,6 @@ header {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  -o-user-select: none;
   user-select: none;
 }
 
@@ -169,7 +168,7 @@ header .center p {
   text-shadow: black 1px 4px 4px;
   letter-spacing: 2px;
   -webkit-margin-after: 0.5em;
-          margin-block-end: 0.5em;
+  margin-block-end: 0.5em;
 }
 
 @media (min-width: 1281px) and (max-width: 1680px) {
@@ -207,7 +206,7 @@ header .center p {
 header .center p:nth-child(2) {
   text-align: right;
   -webkit-margin-before: 0;
-          margin-block-start: 0;
+  margin-block-start: 0;
 }
 
 header .center p span {

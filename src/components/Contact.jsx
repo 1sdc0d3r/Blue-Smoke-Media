@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import * as emailjs from "emailjs-com";
-
+//todo finish this form
 export default function Contact() {
   const [data, setData] = useState({
     company: "",

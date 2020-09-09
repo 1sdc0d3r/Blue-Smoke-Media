@@ -2,6 +2,8 @@
 
 .hamburger-menu {
   // padding-bottom: 0;
+  width: -webkit-min-content;
+  width: -moz-min-content;
   width: min-content;
   position: absolute;
   left: 0;
@@ -14,9 +16,13 @@
     position: relative;
     z-index: 1;
     background: $royalBlue;
+    width: -webkit-min-content;
+    width: -moz-min-content;
     width: min-content;
 
     -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     user-select: none;
     a {
       text-decoration: none;
@@ -96,6 +102,8 @@
    */
   #menu {
     position: absolute;
+    width: -webkit-max-content;
+    width: -moz-max-content;
     width: max-content;
     margin: -85% 0 0 0;
     padding: 1em 0;
@@ -146,6 +154,8 @@
         z-index: 5;
         background: $darkBlue;
         padding: 0.15em 0.5em 0.5em;
+        min-width: -webkit-min-content;
+        min-width: -moz-min-content;
         min-width: min-content;
         width: 8em;
         justify-content: space-between;
@@ -189,6 +199,8 @@
           text-align: center;
           font-size: 0.85em;
           font-weight: inherit;
+          min-width: -webkit-min-content;
+          min-width: -moz-min-content;
           min-width: min-content;
           font-weight: 600;
 

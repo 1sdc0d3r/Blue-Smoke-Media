@@ -12,9 +12,8 @@
   margin: auto;
   background: #d7dae6;
   margin: 2em auto;
-  box-shadow: 15px 20px 55px -16px rgba(0, 0, 0, 0.79);
   -webkit-box-shadow: 15px 20px 55px -16px rgba(0, 0, 0, 0.79);
-  -moz-box-shadow: 15px 20px 55px -16px rgba(0, 0, 0, 0.79);
+          box-shadow: 15px 20px 55px -16px rgba(0, 0, 0, 0.79);
 }
 
 .blog .post .image {

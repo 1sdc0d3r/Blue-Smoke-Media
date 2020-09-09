@@ -33,6 +33,7 @@ a:hover {
 }
 
 abbr[title] {
+    -webkit-text-decoration: underline dotted;
     text-decoration: underline dotted;
     -webkit-text-decoration-style: dotted
 }
@@ -146,6 +147,7 @@ pre {
     font: .875rem/1.5 Consolas, monaco, monospace;
     color: #666;
     -moz-tab-size: 4;
+    -o-tab-size: 4;
     tab-size: 4;
     overflow: auto;
     padding: 10px;
@@ -156,6 +158,12 @@ pre {
 
 pre code {
     font-family: Consolas, monaco, monospace
+}
+
+::-moz-selection {
+    background: #39f;
+    color: #fff;
+    text-shadow: none
 }
 
 ::selection {
@@ -1054,12 +1062,36 @@ button.uk-icon:not(:disabled) {
     color: #999 !important
 }
 
+.uk-input::-webkit-input-placeholder {
+    color: #999
+}
+
+.uk-input::-moz-placeholder {
+    color: #999
+}
+
+.uk-input:-ms-input-placeholder {
+    color: #999
+}
+
 .uk-input::placeholder {
     color: #999
 }
 
 .uk-textarea::-ms-input-placeholder {
     color: #999 !important
+}
+
+.uk-textarea::-webkit-input-placeholder {
+    color: #999
+}
+
+.uk-textarea::-moz-placeholder {
+    color: #999
+}
+
+.uk-textarea:-ms-input-placeholder {
+    color: #999
 }
 
 .uk-textarea::placeholder {
@@ -1583,6 +1615,7 @@ select.uk-form-width-xsmall {
 
 .uk-progress::-webkit-progress-value {
     background-color: #1e87f0;
+    -webkit-transition: width .6s ease;
     transition: width .6s ease
 }
 
@@ -1592,6 +1625,7 @@ select.uk-form-width-xsmall {
 
 .uk-progress::-ms-fill {
     background-color: #1e87f0;
+    -ms-transition: width .6s ease;
     transition: width .6s ease;
     border: 0
 }
@@ -2134,7 +2168,18 @@ select.uk-form-width-xsmall {
 }
 
 .uk-spinner>* {
+    -webkit-animation: uk-spinner-rotate 1.4s linear infinite;
     animation: uk-spinner-rotate 1.4s linear infinite
+}
+
+@-webkit-keyframes uk-spinner-rotate {
+    0% {
+        transform: rotate(0)
+    }
+
+    100% {
+        transform: rotate(270deg)
+    }
 }
 
 @keyframes uk-spinner-rotate {
@@ -2151,9 +2196,26 @@ select.uk-form-width-xsmall {
     stroke-dasharray: 88px;
     stroke-dashoffset: 0;
     transform-origin: center;
+    -webkit-animation: uk-spinner-dash 1.4s ease-in-out infinite;
     animation: uk-spinner-dash 1.4s ease-in-out infinite;
     stroke-width: 1;
     stroke-linecap: round
+}
+
+@-webkit-keyframes uk-spinner-dash {
+    0% {
+        stroke-dashoffset: 88px
+    }
+
+    50% {
+        stroke-dashoffset: 22px;
+        transform: rotate(135deg)
+    }
+
+    100% {
+        stroke-dashoffset: 88px;
+        transform: rotate(450deg)
+    }
 }
 
 @keyframes uk-spinner-dash {
@@ -2485,6 +2547,18 @@ select.uk-form-width-xsmall {
 
 .uk-search-input:-ms-input-placeholder {
     color: #999 !important
+}
+
+.uk-search-input::-webkit-input-placeholder {
+    color: #999
+}
+
+.uk-search-input::-moz-placeholder {
+    color: #999
+}
+
+.uk-search-input::-ms-input-placeholder {
+    color: #999
 }
 
 .uk-search-input::placeholder {
@@ -2964,10 +3038,12 @@ select.uk-form-width-xsmall {
 }
 
 .uk-sticky[class*=uk-animation-] {
+    -webkit-animation-duration: .2s;
     animation-duration: .2s
 }
 
 .uk-sticky.uk-animation-reverse {
+    -webkit-animation-duration: .2s;
     animation-duration: .2s
 }
 
@@ -3875,6 +3951,8 @@ ul.uk-nav-sub {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: -webkit-max-content;
+    width: -moz-max-content;
     width: max-content;
     box-sizing: border-box;
     z-index: 990
@@ -3895,6 +3973,8 @@ ul.uk-nav-sub {
 }
 
 [class*=uk-navbar-center-] {
+    width: -webkit-max-content;
+    width: -moz-max-content;
     width: max-content;
     box-sizing: border-box
 }
@@ -4647,98 +4727,126 @@ ul.uk-nav-sub {
 }
 
 [class*=uk-animation-] {
+    -webkit-animation-duration: .5s;
     animation-duration: .5s;
+    -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
+    -webkit-animation-fill-mode: both;
     animation-fill-mode: both
 }
 
 .uk-animation-fade {
+    -webkit-animation-name: uk-fade;
     animation-name: uk-fade;
+    -webkit-animation-duration: .8s;
     animation-duration: .8s;
+    -webkit-animation-timing-function: linear;
     animation-timing-function: linear
 }
 
 .uk-animation-scale-up {
+    -webkit-animation-name: uk-fade-scale-02;
     animation-name: uk-fade-scale-02
 }
 
 .uk-animation-scale-down {
+    -webkit-animation-name: uk-fade-scale-18;
     animation-name: uk-fade-scale-18
 }
 
 .uk-animation-slide-top {
+    -webkit-animation-name: uk-fade-top;
     animation-name: uk-fade-top
 }
 
 .uk-animation-slide-bottom {
+    -webkit-animation-name: uk-fade-bottom;
     animation-name: uk-fade-bottom
 }
 
 .uk-animation-slide-left {
+    -webkit-animation-name: uk-fade-left;
     animation-name: uk-fade-left
 }
 
 .uk-animation-slide-right {
+    -webkit-animation-name: uk-fade-right;
     animation-name: uk-fade-right
 }
 
 .uk-animation-slide-top-small {
+    -webkit-animation-name: uk-fade-top-small;
     animation-name: uk-fade-top-small
 }
 
 .uk-animation-slide-bottom-small {
+    -webkit-animation-name: uk-fade-bottom-small;
     animation-name: uk-fade-bottom-small
 }
 
 .uk-animation-slide-left-small {
+    -webkit-animation-name: uk-fade-left-small;
     animation-name: uk-fade-left-small
 }
 
 .uk-animation-slide-right-small {
+    -webkit-animation-name: uk-fade-right-small;
     animation-name: uk-fade-right-small
 }
 
 .uk-animation-slide-top-medium {
+    -webkit-animation-name: uk-fade-top-medium;
     animation-name: uk-fade-top-medium
 }
 
 .uk-animation-slide-bottom-medium {
+    -webkit-animation-name: uk-fade-bottom-medium;
     animation-name: uk-fade-bottom-medium
 }
 
 .uk-animation-slide-left-medium {
+    -webkit-animation-name: uk-fade-left-medium;
     animation-name: uk-fade-left-medium
 }
 
 .uk-animation-slide-right-medium {
+    -webkit-animation-name: uk-fade-right-medium;
     animation-name: uk-fade-right-medium
 }
 
 .uk-animation-kenburns {
+    -webkit-animation-name: uk-scale-kenburns;
     animation-name: uk-scale-kenburns;
+    -webkit-animation-duration: 15s;
     animation-duration: 15s
 }
 
 .uk-animation-shake {
+    -webkit-animation-name: uk-shake;
     animation-name: uk-shake
 }
 
 .uk-animation-stroke {
+    -webkit-animation-name: uk-stroke;
     animation-name: uk-stroke;
     stroke-dasharray: var(--uk-animation-stroke);
+    -webkit-animation-duration: 2s;
     animation-duration: 2s
 }
 
 .uk-animation-reverse {
     animation-direction: reverse;
+    -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in
 }
 
 .uk-animation-fast {
+    -webkit-animation-duration: .1s;
     animation-duration: .1s
 }
 
 .uk-animation-toggle:not(:hover):not(:focus) [class*=uk-animation-] {
+    -webkit-animation-name: none;
     animation-name: none
 }
 
@@ -4748,6 +4856,16 @@ ul.uk-nav-sub {
 
 .uk-animation-toggle:focus {
     outline: 0
+}
+
+@-webkit-keyframes uk-fade {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
 }
 
 @keyframes uk-fade {
@@ -4760,10 +4878,34 @@ ul.uk-nav-sub {
     }
 }
 
+@-webkit-keyframes uk-fade-top {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
 @keyframes uk-fade-top {
     0% {
         opacity: 0;
         transform: translateY(-100%)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@-webkit-keyframes uk-fade-bottom {
+    0% {
+        opacity: 0;
+        transform: translateY(100%)
     }
 
     100% {
@@ -4784,10 +4926,34 @@ ul.uk-nav-sub {
     }
 }
 
+@-webkit-keyframes uk-fade-left {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
 @keyframes uk-fade-left {
     0% {
         opacity: 0;
         transform: translateX(-100%)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@-webkit-keyframes uk-fade-right {
+    0% {
+        opacity: 0;
+        transform: translateX(100%)
     }
 
     100% {
@@ -4808,10 +4974,34 @@ ul.uk-nav-sub {
     }
 }
 
+@-webkit-keyframes uk-fade-top-small {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
 @keyframes uk-fade-top-small {
     0% {
         opacity: 0;
         transform: translateY(-10px)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@-webkit-keyframes uk-fade-bottom-small {
+    0% {
+        opacity: 0;
+        transform: translateY(10px)
     }
 
     100% {
@@ -4832,10 +5022,34 @@ ul.uk-nav-sub {
     }
 }
 
+@-webkit-keyframes uk-fade-left-small {
+    0% {
+        opacity: 0;
+        transform: translateX(-10px)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
 @keyframes uk-fade-left-small {
     0% {
         opacity: 0;
         transform: translateX(-10px)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@-webkit-keyframes uk-fade-right-small {
+    0% {
+        opacity: 0;
+        transform: translateX(10px)
     }
 
     100% {
@@ -4856,10 +5070,34 @@ ul.uk-nav-sub {
     }
 }
 
+@-webkit-keyframes uk-fade-top-medium {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
 @keyframes uk-fade-top-medium {
     0% {
         opacity: 0;
         transform: translateY(-50px)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@-webkit-keyframes uk-fade-bottom-medium {
+    0% {
+        opacity: 0;
+        transform: translateY(50px)
     }
 
     100% {
@@ -4880,10 +5118,34 @@ ul.uk-nav-sub {
     }
 }
 
+@-webkit-keyframes uk-fade-left-medium {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
 @keyframes uk-fade-left-medium {
     0% {
         opacity: 0;
         transform: translateX(-50px)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@-webkit-keyframes uk-fade-right-medium {
+    0% {
+        opacity: 0;
+        transform: translateX(50px)
     }
 
     100% {
@@ -4904,10 +5166,34 @@ ul.uk-nav-sub {
     }
 }
 
+@-webkit-keyframes uk-fade-scale-02 {
+    0% {
+        opacity: 0;
+        transform: scale(.2)
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1)
+    }
+}
+
 @keyframes uk-fade-scale-02 {
     0% {
         opacity: 0;
         transform: scale(.2)
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1)
+    }
+}
+
+@-webkit-keyframes uk-fade-scale-18 {
+    0% {
+        opacity: 0;
+        transform: scale(1.8)
     }
 
     100% {
@@ -4928,6 +5214,16 @@ ul.uk-nav-sub {
     }
 }
 
+@-webkit-keyframes uk-scale-kenburns {
+    0% {
+        transform: scale(1)
+    }
+
+    100% {
+        transform: scale(1.2)
+    }
+}
+
 @keyframes uk-scale-kenburns {
     0% {
         transform: scale(1)
@@ -4935,6 +5231,50 @@ ul.uk-nav-sub {
 
     100% {
         transform: scale(1.2)
+    }
+}
+
+@-webkit-keyframes uk-shake {
+
+    0%,
+    100% {
+        transform: translateX(0)
+    }
+
+    10% {
+        transform: translateX(-9px)
+    }
+
+    20% {
+        transform: translateX(8px)
+    }
+
+    30% {
+        transform: translateX(-7px)
+    }
+
+    40% {
+        transform: translateX(6px)
+    }
+
+    50% {
+        transform: translateX(-5px)
+    }
+
+    60% {
+        transform: translateX(4px)
+    }
+
+    70% {
+        transform: translateX(-3px)
+    }
+
+    80% {
+        transform: translateX(2px)
+    }
+
+    90% {
+        transform: translateX(-1px)
     }
 }
 
@@ -4979,6 +5319,16 @@ ul.uk-nav-sub {
 
     90% {
         transform: translateX(-1px)
+    }
+}
+
+@-webkit-keyframes uk-stroke {
+    0% {
+        stroke-dashoffset: var(--uk-animation-stroke)
+    }
+
+    100% {
+        stroke-dashoffset: 0
     }
 }
 
@@ -5825,11 +6175,13 @@ th.uk-text-break {
 }
 
 [class*=uk-column-] {
+    -moz-column-gap: 30px;
     column-gap: 30px
 }
 
 @media (min-width:1200px) {
     [class*=uk-column-] {
+        -moz-column-gap: 40px;
         column-gap: 40px
     }
 }
@@ -5839,125 +6191,154 @@ th.uk-text-break {
 }
 
 .uk-column-divider {
+    -moz-column-rule: 1px solid #e5e5e5;
     column-rule: 1px solid #e5e5e5;
+    -moz-column-gap: 60px;
     column-gap: 60px
 }
 
 @media (min-width:1200px) {
     .uk-column-divider {
+        -moz-column-gap: 80px;
         column-gap: 80px
     }
 }
 
 .uk-column-1-2 {
+    -moz-column-count: 2;
     column-count: 2
 }
 
 .uk-column-1-3 {
+    -moz-column-count: 3;
     column-count: 3
 }
 
 .uk-column-1-4 {
+    -moz-column-count: 4;
     column-count: 4
 }
 
 .uk-column-1-5 {
+    -moz-column-count: 5;
     column-count: 5
 }
 
 .uk-column-1-6 {
+    -moz-column-count: 6;
     column-count: 6
 }
 
 @media (min-width:640px) {
     .uk-column-1-2\@s {
+        -moz-column-count: 2;
         column-count: 2
     }
 
     .uk-column-1-3\@s {
+        -moz-column-count: 3;
         column-count: 3
     }
 
     .uk-column-1-4\@s {
+        -moz-column-count: 4;
         column-count: 4
     }
 
     .uk-column-1-5\@s {
+        -moz-column-count: 5;
         column-count: 5
     }
 
     .uk-column-1-6\@s {
+        -moz-column-count: 6;
         column-count: 6
     }
 }
 
 @media (min-width:960px) {
     .uk-column-1-2\@m {
+        -moz-column-count: 2;
         column-count: 2
     }
 
     .uk-column-1-3\@m {
+        -moz-column-count: 3;
         column-count: 3
     }
 
     .uk-column-1-4\@m {
+        -moz-column-count: 4;
         column-count: 4
     }
 
     .uk-column-1-5\@m {
+        -moz-column-count: 5;
         column-count: 5
     }
 
     .uk-column-1-6\@m {
+        -moz-column-count: 6;
         column-count: 6
     }
 }
 
 @media (min-width:1200px) {
     .uk-column-1-2\@l {
+        -moz-column-count: 2;
         column-count: 2
     }
 
     .uk-column-1-3\@l {
+        -moz-column-count: 3;
         column-count: 3
     }
 
     .uk-column-1-4\@l {
+        -moz-column-count: 4;
         column-count: 4
     }
 
     .uk-column-1-5\@l {
+        -moz-column-count: 5;
         column-count: 5
     }
 
     .uk-column-1-6\@l {
+        -moz-column-count: 6;
         column-count: 6
     }
 }
 
 @media (min-width:1600px) {
     .uk-column-1-2\@xl {
+        -moz-column-count: 2;
         column-count: 2
     }
 
     .uk-column-1-3\@xl {
+        -moz-column-count: 3;
         column-count: 3
     }
 
     .uk-column-1-4\@xl {
+        -moz-column-count: 4;
         column-count: 4
     }
 
     .uk-column-1-5\@xl {
+        -moz-column-count: 5;
         column-count: 5
     }
 
     .uk-column-1-6\@xl {
+        -moz-column-count: 6;
         column-count: 6
     }
 }
 
 .uk-column-span {
+    -moz-column-span: all;
     column-span: all
 }
 
@@ -6050,6 +6431,7 @@ iframe.uk-cover {
 
 .uk-background-fixed {
     background-attachment: fixed;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden
 }
 
@@ -6413,7 +6795,7 @@ iframe.uk-cover {
     box-shadow: 0 28px 50px rgba(0, 0, 0, .16)
 }
 
-@supports (filter:blur(0)) {
+@supports ((-webkit-filter: blur(0)) or (filter: blur(0))) {
     .uk-box-shadow-bottom {
         display: inline-block;
         position: relative;
@@ -6430,6 +6812,7 @@ iframe.uk-cover {
         height: 30px;
         border-radius: 100%;
         background: #444;
+        -webkit-filter: blur(20px);
         filter: blur(20px)
     }
 
@@ -7287,6 +7670,8 @@ iframe.uk-cover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: -webkit-max-content;
+    width: -moz-max-content;
     width: max-content;
     max-width: 100%;
     box-sizing: border-box
@@ -7308,11 +7693,15 @@ iframe.uk-cover {
 
 .uk-position-center-left-out {
     right: 100%;
+    width: -webkit-max-content;
+    width: -moz-max-content;
     width: max-content
 }
 
 .uk-position-center-right-out {
     left: 100%;
+    width: -webkit-max-content;
+    width: -moz-max-content;
     width: max-content
 }
 
@@ -7320,6 +7709,8 @@ iframe.uk-cover {
 .uk-position-top-center {
     left: 50%;
     transform: translateX(-50%);
+    width: -webkit-max-content;
+    width: -moz-max-content;
     width: max-content;
     max-width: 100%;
     box-sizing: border-box
@@ -7447,7 +7838,9 @@ iframe.uk-cover {
 [class*=uk-transition-scale],
 [class*=uk-transition-slide] {
     transition: .3s ease-out;
+    transition-property: opacity, transform, -webkit-filter;
     transition-property: opacity, transform, filter;
+    transition-property: opacity, transform, filter, -webkit-filter;
     opacity: 0
 }
 
@@ -8745,6 +9138,78 @@ iframe.uk-cover {
     color: rgba(255, 255, 255, .5) !important
 }
 
+.uk-card-primary.uk-card-body .uk-input::-webkit-input-placeholder,
+.uk-card-primary>:not([class*=uk-card-media]) .uk-input::-webkit-input-placeholder,
+.uk-card-secondary.uk-card-body .uk-input::-webkit-input-placeholder,
+.uk-card-secondary>:not([class*=uk-card-media]) .uk-input::-webkit-input-placeholder,
+.uk-light .uk-input::-webkit-input-placeholder,
+.uk-offcanvas-bar .uk-input::-webkit-input-placeholder,
+.uk-overlay-primary .uk-input::-webkit-input-placeholder,
+.uk-section-primary:not(.uk-preserve-color) .uk-input::-webkit-input-placeholder,
+.uk-section-secondary:not(.uk-preserve-color) .uk-input::-webkit-input-placeholder,
+.uk-tile-primary:not(.uk-preserve-color) .uk-input::-webkit-input-placeholder,
+.uk-tile-secondary:not(.uk-preserve-color) .uk-input::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, .5)
+}
+
+.uk-card-primary.uk-card-body .uk-input::-moz-placeholder,
+.uk-card-primary>:not([class*=uk-card-media]) .uk-input::-moz-placeholder,
+.uk-card-secondary.uk-card-body .uk-input::-moz-placeholder,
+.uk-card-secondary>:not([class*=uk-card-media]) .uk-input::-moz-placeholder,
+.uk-light .uk-input::-moz-placeholder,
+.uk-offcanvas-bar .uk-input::-moz-placeholder,
+.uk-overlay-primary .uk-input::-moz-placeholder,
+.uk-section-primary:not(.uk-preserve-color) .uk-input::-moz-placeholder,
+.uk-section-secondary:not(.uk-preserve-color) .uk-input::-moz-placeholder,
+.uk-tile-primary:not(.uk-preserve-color) .uk-input::-moz-placeholder,
+.uk-tile-secondary:not(.uk-preserve-color) .uk-input::-moz-placeholder {
+    color: rgba(255, 255, 255, .5)
+}
+
+.uk-card-primary.uk-card-body .uk-input:-ms-input-placeholder,
+.uk-card-primary>:not([class*=uk-card-media]) .uk-input:-ms-input-placeholder,
+.uk-card-secondary.uk-card-body .uk-input:-ms-input-placeholder,
+.uk-card-secondary>:not([class*=uk-card-media]) .uk-input:-ms-input-placeholder,
+.uk-light .uk-input:-ms-input-placeholder,
+.uk-offcanvas-bar .uk-input:-ms-input-placeholder,
+.uk-overlay-primary .uk-input:-ms-input-placeholder,
+.uk-section-primary:not(.uk-preserve-color) .uk-input:-ms-input-placeholder,
+.uk-section-secondary:not(.uk-preserve-color) .uk-input:-ms-input-placeholder,
+.uk-tile-primary:not(.uk-preserve-color) .uk-input:-ms-input-placeholder,
+.uk-tile-secondary:not(.uk-preserve-color) .uk-input:-ms-input-placeholder {
+    color: rgba(255, 255, 255, .5)
+}
+
+.uk-card-primary.uk-card-body .uk-input::-ms-input-placeholder,
+.uk-card-primary>:not([class*=uk-card-media]) .uk-input::-ms-input-placeholder,
+.uk-card-secondary.uk-card-body .uk-input::-ms-input-placeholder,
+.uk-card-secondary>:not([class*=uk-card-media]) .uk-input::-ms-input-placeholder,
+.uk-light .uk-input::-ms-input-placeholder,
+.uk-offcanvas-bar .uk-input::-ms-input-placeholder,
+.uk-overlay-primary .uk-input::-ms-input-placeholder,
+.uk-section-primary:not(.uk-preserve-color) .uk-input::-ms-input-placeholder,
+.uk-section-secondary:not(.uk-preserve-color) .uk-input::-ms-input-placeholder,
+.uk-tile-primary:not(.uk-preserve-color) .uk-input::-ms-input-placeholder,
+.uk-tile-secondary:not(.uk-preserve-color) .uk-input::-ms-input-placeholder {
+    color: rgba(255, 255, 255, .5)
+}
+
+.uk-card-primary.uk-card-body .uk-input::-webkit-input-placeholder, .uk-card-primary>:not([class*=uk-card-media]) .uk-input::-webkit-input-placeholder, .uk-card-secondary.uk-card-body .uk-input::-webkit-input-placeholder, .uk-card-secondary>:not([class*=uk-card-media]) .uk-input::-webkit-input-placeholder, .uk-light .uk-input::-webkit-input-placeholder, .uk-offcanvas-bar .uk-input::-webkit-input-placeholder, .uk-overlay-primary .uk-input::-webkit-input-placeholder, .uk-section-primary:not(.uk-preserve-color) .uk-input::-webkit-input-placeholder, .uk-section-secondary:not(.uk-preserve-color) .uk-input::-webkit-input-placeholder, .uk-tile-primary:not(.uk-preserve-color) .uk-input::-webkit-input-placeholder, .uk-tile-secondary:not(.uk-preserve-color) .uk-input::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, .5)
+}
+
+.uk-card-primary.uk-card-body .uk-input::-moz-placeholder, .uk-card-primary>:not([class*=uk-card-media]) .uk-input::-moz-placeholder, .uk-card-secondary.uk-card-body .uk-input::-moz-placeholder, .uk-card-secondary>:not([class*=uk-card-media]) .uk-input::-moz-placeholder, .uk-light .uk-input::-moz-placeholder, .uk-offcanvas-bar .uk-input::-moz-placeholder, .uk-overlay-primary .uk-input::-moz-placeholder, .uk-section-primary:not(.uk-preserve-color) .uk-input::-moz-placeholder, .uk-section-secondary:not(.uk-preserve-color) .uk-input::-moz-placeholder, .uk-tile-primary:not(.uk-preserve-color) .uk-input::-moz-placeholder, .uk-tile-secondary:not(.uk-preserve-color) .uk-input::-moz-placeholder {
+    color: rgba(255, 255, 255, .5)
+}
+
+.uk-card-primary.uk-card-body .uk-input:-ms-input-placeholder, .uk-card-primary>:not([class*=uk-card-media]) .uk-input:-ms-input-placeholder, .uk-card-secondary.uk-card-body .uk-input:-ms-input-placeholder, .uk-card-secondary>:not([class*=uk-card-media]) .uk-input:-ms-input-placeholder, .uk-light .uk-input:-ms-input-placeholder, .uk-offcanvas-bar .uk-input:-ms-input-placeholder, .uk-overlay-primary .uk-input:-ms-input-placeholder, .uk-section-primary:not(.uk-preserve-color) .uk-input:-ms-input-placeholder, .uk-section-secondary:not(.uk-preserve-color) .uk-input:-ms-input-placeholder, .uk-tile-primary:not(.uk-preserve-color) .uk-input:-ms-input-placeholder, .uk-tile-secondary:not(.uk-preserve-color) .uk-input:-ms-input-placeholder {
+    color: rgba(255, 255, 255, .5)
+}
+
+.uk-card-primary.uk-card-body .uk-input::-ms-input-placeholder, .uk-card-primary>:not([class*=uk-card-media]) .uk-input::-ms-input-placeholder, .uk-card-secondary.uk-card-body .uk-input::-ms-input-placeholder, .uk-card-secondary>:not([class*=uk-card-media]) .uk-input::-ms-input-placeholder, .uk-light .uk-input::-ms-input-placeholder, .uk-offcanvas-bar .uk-input::-ms-input-placeholder, .uk-overlay-primary .uk-input::-ms-input-placeholder, .uk-section-primary:not(.uk-preserve-color) .uk-input::-ms-input-placeholder, .uk-section-secondary:not(.uk-preserve-color) .uk-input::-ms-input-placeholder, .uk-tile-primary:not(.uk-preserve-color) .uk-input::-ms-input-placeholder, .uk-tile-secondary:not(.uk-preserve-color) .uk-input::-ms-input-placeholder {
+    color: rgba(255, 255, 255, .5)
+}
+
 .uk-card-primary.uk-card-body .uk-input::placeholder,
 .uk-card-primary>:not([class*=uk-card-media]) .uk-input::placeholder,
 .uk-card-secondary.uk-card-body .uk-input::placeholder,
@@ -8771,6 +9236,78 @@ iframe.uk-cover {
 .uk-tile-primary:not(.uk-preserve-color) .uk-textarea::-ms-input-placeholder,
 .uk-tile-secondary:not(.uk-preserve-color) .uk-textarea::-ms-input-placeholder {
     color: rgba(255, 255, 255, .5) !important
+}
+
+.uk-card-primary.uk-card-body .uk-textarea::-webkit-input-placeholder,
+.uk-card-primary>:not([class*=uk-card-media]) .uk-textarea::-webkit-input-placeholder,
+.uk-card-secondary.uk-card-body .uk-textarea::-webkit-input-placeholder,
+.uk-card-secondary>:not([class*=uk-card-media]) .uk-textarea::-webkit-input-placeholder,
+.uk-light .uk-textarea::-webkit-input-placeholder,
+.uk-offcanvas-bar .uk-textarea::-webkit-input-placeholder,
+.uk-overlay-primary .uk-textarea::-webkit-input-placeholder,
+.uk-section-primary:not(.uk-preserve-color) .uk-textarea::-webkit-input-placeholder,
+.uk-section-secondary:not(.uk-preserve-color) .uk-textarea::-webkit-input-placeholder,
+.uk-tile-primary:not(.uk-preserve-color) .uk-textarea::-webkit-input-placeholder,
+.uk-tile-secondary:not(.uk-preserve-color) .uk-textarea::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, .5)
+}
+
+.uk-card-primary.uk-card-body .uk-textarea::-moz-placeholder,
+.uk-card-primary>:not([class*=uk-card-media]) .uk-textarea::-moz-placeholder,
+.uk-card-secondary.uk-card-body .uk-textarea::-moz-placeholder,
+.uk-card-secondary>:not([class*=uk-card-media]) .uk-textarea::-moz-placeholder,
+.uk-light .uk-textarea::-moz-placeholder,
+.uk-offcanvas-bar .uk-textarea::-moz-placeholder,
+.uk-overlay-primary .uk-textarea::-moz-placeholder,
+.uk-section-primary:not(.uk-preserve-color) .uk-textarea::-moz-placeholder,
+.uk-section-secondary:not(.uk-preserve-color) .uk-textarea::-moz-placeholder,
+.uk-tile-primary:not(.uk-preserve-color) .uk-textarea::-moz-placeholder,
+.uk-tile-secondary:not(.uk-preserve-color) .uk-textarea::-moz-placeholder {
+    color: rgba(255, 255, 255, .5)
+}
+
+.uk-card-primary.uk-card-body .uk-textarea:-ms-input-placeholder,
+.uk-card-primary>:not([class*=uk-card-media]) .uk-textarea:-ms-input-placeholder,
+.uk-card-secondary.uk-card-body .uk-textarea:-ms-input-placeholder,
+.uk-card-secondary>:not([class*=uk-card-media]) .uk-textarea:-ms-input-placeholder,
+.uk-light .uk-textarea:-ms-input-placeholder,
+.uk-offcanvas-bar .uk-textarea:-ms-input-placeholder,
+.uk-overlay-primary .uk-textarea:-ms-input-placeholder,
+.uk-section-primary:not(.uk-preserve-color) .uk-textarea:-ms-input-placeholder,
+.uk-section-secondary:not(.uk-preserve-color) .uk-textarea:-ms-input-placeholder,
+.uk-tile-primary:not(.uk-preserve-color) .uk-textarea:-ms-input-placeholder,
+.uk-tile-secondary:not(.uk-preserve-color) .uk-textarea:-ms-input-placeholder {
+    color: rgba(255, 255, 255, .5)
+}
+
+.uk-card-primary.uk-card-body .uk-textarea::-ms-input-placeholder,
+.uk-card-primary>:not([class*=uk-card-media]) .uk-textarea::-ms-input-placeholder,
+.uk-card-secondary.uk-card-body .uk-textarea::-ms-input-placeholder,
+.uk-card-secondary>:not([class*=uk-card-media]) .uk-textarea::-ms-input-placeholder,
+.uk-light .uk-textarea::-ms-input-placeholder,
+.uk-offcanvas-bar .uk-textarea::-ms-input-placeholder,
+.uk-overlay-primary .uk-textarea::-ms-input-placeholder,
+.uk-section-primary:not(.uk-preserve-color) .uk-textarea::-ms-input-placeholder,
+.uk-section-secondary:not(.uk-preserve-color) .uk-textarea::-ms-input-placeholder,
+.uk-tile-primary:not(.uk-preserve-color) .uk-textarea::-ms-input-placeholder,
+.uk-tile-secondary:not(.uk-preserve-color) .uk-textarea::-ms-input-placeholder {
+    color: rgba(255, 255, 255, .5)
+}
+
+.uk-card-primary.uk-card-body .uk-textarea::-webkit-input-placeholder, .uk-card-primary>:not([class*=uk-card-media]) .uk-textarea::-webkit-input-placeholder, .uk-card-secondary.uk-card-body .uk-textarea::-webkit-input-placeholder, .uk-card-secondary>:not([class*=uk-card-media]) .uk-textarea::-webkit-input-placeholder, .uk-light .uk-textarea::-webkit-input-placeholder, .uk-offcanvas-bar .uk-textarea::-webkit-input-placeholder, .uk-overlay-primary .uk-textarea::-webkit-input-placeholder, .uk-section-primary:not(.uk-preserve-color) .uk-textarea::-webkit-input-placeholder, .uk-section-secondary:not(.uk-preserve-color) .uk-textarea::-webkit-input-placeholder, .uk-tile-primary:not(.uk-preserve-color) .uk-textarea::-webkit-input-placeholder, .uk-tile-secondary:not(.uk-preserve-color) .uk-textarea::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, .5)
+}
+
+.uk-card-primary.uk-card-body .uk-textarea::-moz-placeholder, .uk-card-primary>:not([class*=uk-card-media]) .uk-textarea::-moz-placeholder, .uk-card-secondary.uk-card-body .uk-textarea::-moz-placeholder, .uk-card-secondary>:not([class*=uk-card-media]) .uk-textarea::-moz-placeholder, .uk-light .uk-textarea::-moz-placeholder, .uk-offcanvas-bar .uk-textarea::-moz-placeholder, .uk-overlay-primary .uk-textarea::-moz-placeholder, .uk-section-primary:not(.uk-preserve-color) .uk-textarea::-moz-placeholder, .uk-section-secondary:not(.uk-preserve-color) .uk-textarea::-moz-placeholder, .uk-tile-primary:not(.uk-preserve-color) .uk-textarea::-moz-placeholder, .uk-tile-secondary:not(.uk-preserve-color) .uk-textarea::-moz-placeholder {
+    color: rgba(255, 255, 255, .5)
+}
+
+.uk-card-primary.uk-card-body .uk-textarea:-ms-input-placeholder, .uk-card-primary>:not([class*=uk-card-media]) .uk-textarea:-ms-input-placeholder, .uk-card-secondary.uk-card-body .uk-textarea:-ms-input-placeholder, .uk-card-secondary>:not([class*=uk-card-media]) .uk-textarea:-ms-input-placeholder, .uk-light .uk-textarea:-ms-input-placeholder, .uk-offcanvas-bar .uk-textarea:-ms-input-placeholder, .uk-overlay-primary .uk-textarea:-ms-input-placeholder, .uk-section-primary:not(.uk-preserve-color) .uk-textarea:-ms-input-placeholder, .uk-section-secondary:not(.uk-preserve-color) .uk-textarea:-ms-input-placeholder, .uk-tile-primary:not(.uk-preserve-color) .uk-textarea:-ms-input-placeholder, .uk-tile-secondary:not(.uk-preserve-color) .uk-textarea:-ms-input-placeholder {
+    color: rgba(255, 255, 255, .5)
+}
+
+.uk-card-primary.uk-card-body .uk-textarea::-ms-input-placeholder, .uk-card-primary>:not([class*=uk-card-media]) .uk-textarea::-ms-input-placeholder, .uk-card-secondary.uk-card-body .uk-textarea::-ms-input-placeholder, .uk-card-secondary>:not([class*=uk-card-media]) .uk-textarea::-ms-input-placeholder, .uk-light .uk-textarea::-ms-input-placeholder, .uk-offcanvas-bar .uk-textarea::-ms-input-placeholder, .uk-overlay-primary .uk-textarea::-ms-input-placeholder, .uk-section-primary:not(.uk-preserve-color) .uk-textarea::-ms-input-placeholder, .uk-section-secondary:not(.uk-preserve-color) .uk-textarea::-ms-input-placeholder, .uk-tile-primary:not(.uk-preserve-color) .uk-textarea::-ms-input-placeholder, .uk-tile-secondary:not(.uk-preserve-color) .uk-textarea::-ms-input-placeholder {
+    color: rgba(255, 255, 255, .5)
 }
 
 .uk-card-primary.uk-card-body .uk-textarea::placeholder,
@@ -9571,6 +10108,78 @@ iframe.uk-cover {
 .uk-tile-primary:not(.uk-preserve-color) .uk-search-input:-ms-input-placeholder,
 .uk-tile-secondary:not(.uk-preserve-color) .uk-search-input:-ms-input-placeholder {
     color: rgba(255, 255, 255, .5) !important
+}
+
+.uk-card-primary.uk-card-body .uk-search-input::-webkit-input-placeholder,
+.uk-card-primary>:not([class*=uk-card-media]) .uk-search-input::-webkit-input-placeholder,
+.uk-card-secondary.uk-card-body .uk-search-input::-webkit-input-placeholder,
+.uk-card-secondary>:not([class*=uk-card-media]) .uk-search-input::-webkit-input-placeholder,
+.uk-light .uk-search-input::-webkit-input-placeholder,
+.uk-offcanvas-bar .uk-search-input::-webkit-input-placeholder,
+.uk-overlay-primary .uk-search-input::-webkit-input-placeholder,
+.uk-section-primary:not(.uk-preserve-color) .uk-search-input::-webkit-input-placeholder,
+.uk-section-secondary:not(.uk-preserve-color) .uk-search-input::-webkit-input-placeholder,
+.uk-tile-primary:not(.uk-preserve-color) .uk-search-input::-webkit-input-placeholder,
+.uk-tile-secondary:not(.uk-preserve-color) .uk-search-input::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, .5)
+}
+
+.uk-card-primary.uk-card-body .uk-search-input::-moz-placeholder,
+.uk-card-primary>:not([class*=uk-card-media]) .uk-search-input::-moz-placeholder,
+.uk-card-secondary.uk-card-body .uk-search-input::-moz-placeholder,
+.uk-card-secondary>:not([class*=uk-card-media]) .uk-search-input::-moz-placeholder,
+.uk-light .uk-search-input::-moz-placeholder,
+.uk-offcanvas-bar .uk-search-input::-moz-placeholder,
+.uk-overlay-primary .uk-search-input::-moz-placeholder,
+.uk-section-primary:not(.uk-preserve-color) .uk-search-input::-moz-placeholder,
+.uk-section-secondary:not(.uk-preserve-color) .uk-search-input::-moz-placeholder,
+.uk-tile-primary:not(.uk-preserve-color) .uk-search-input::-moz-placeholder,
+.uk-tile-secondary:not(.uk-preserve-color) .uk-search-input::-moz-placeholder {
+    color: rgba(255, 255, 255, .5)
+}
+
+.uk-card-primary.uk-card-body .uk-search-input:-ms-input-placeholder,
+.uk-card-primary>:not([class*=uk-card-media]) .uk-search-input:-ms-input-placeholder,
+.uk-card-secondary.uk-card-body .uk-search-input:-ms-input-placeholder,
+.uk-card-secondary>:not([class*=uk-card-media]) .uk-search-input:-ms-input-placeholder,
+.uk-light .uk-search-input:-ms-input-placeholder,
+.uk-offcanvas-bar .uk-search-input:-ms-input-placeholder,
+.uk-overlay-primary .uk-search-input:-ms-input-placeholder,
+.uk-section-primary:not(.uk-preserve-color) .uk-search-input:-ms-input-placeholder,
+.uk-section-secondary:not(.uk-preserve-color) .uk-search-input:-ms-input-placeholder,
+.uk-tile-primary:not(.uk-preserve-color) .uk-search-input:-ms-input-placeholder,
+.uk-tile-secondary:not(.uk-preserve-color) .uk-search-input:-ms-input-placeholder {
+    color: rgba(255, 255, 255, .5)
+}
+
+.uk-card-primary.uk-card-body .uk-search-input::-ms-input-placeholder,
+.uk-card-primary>:not([class*=uk-card-media]) .uk-search-input::-ms-input-placeholder,
+.uk-card-secondary.uk-card-body .uk-search-input::-ms-input-placeholder,
+.uk-card-secondary>:not([class*=uk-card-media]) .uk-search-input::-ms-input-placeholder,
+.uk-light .uk-search-input::-ms-input-placeholder,
+.uk-offcanvas-bar .uk-search-input::-ms-input-placeholder,
+.uk-overlay-primary .uk-search-input::-ms-input-placeholder,
+.uk-section-primary:not(.uk-preserve-color) .uk-search-input::-ms-input-placeholder,
+.uk-section-secondary:not(.uk-preserve-color) .uk-search-input::-ms-input-placeholder,
+.uk-tile-primary:not(.uk-preserve-color) .uk-search-input::-ms-input-placeholder,
+.uk-tile-secondary:not(.uk-preserve-color) .uk-search-input::-ms-input-placeholder {
+    color: rgba(255, 255, 255, .5)
+}
+
+.uk-card-primary.uk-card-body .uk-search-input::-webkit-input-placeholder, .uk-card-primary>:not([class*=uk-card-media]) .uk-search-input::-webkit-input-placeholder, .uk-card-secondary.uk-card-body .uk-search-input::-webkit-input-placeholder, .uk-card-secondary>:not([class*=uk-card-media]) .uk-search-input::-webkit-input-placeholder, .uk-light .uk-search-input::-webkit-input-placeholder, .uk-offcanvas-bar .uk-search-input::-webkit-input-placeholder, .uk-overlay-primary .uk-search-input::-webkit-input-placeholder, .uk-section-primary:not(.uk-preserve-color) .uk-search-input::-webkit-input-placeholder, .uk-section-secondary:not(.uk-preserve-color) .uk-search-input::-webkit-input-placeholder, .uk-tile-primary:not(.uk-preserve-color) .uk-search-input::-webkit-input-placeholder, .uk-tile-secondary:not(.uk-preserve-color) .uk-search-input::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, .5)
+}
+
+.uk-card-primary.uk-card-body .uk-search-input::-moz-placeholder, .uk-card-primary>:not([class*=uk-card-media]) .uk-search-input::-moz-placeholder, .uk-card-secondary.uk-card-body .uk-search-input::-moz-placeholder, .uk-card-secondary>:not([class*=uk-card-media]) .uk-search-input::-moz-placeholder, .uk-light .uk-search-input::-moz-placeholder, .uk-offcanvas-bar .uk-search-input::-moz-placeholder, .uk-overlay-primary .uk-search-input::-moz-placeholder, .uk-section-primary:not(.uk-preserve-color) .uk-search-input::-moz-placeholder, .uk-section-secondary:not(.uk-preserve-color) .uk-search-input::-moz-placeholder, .uk-tile-primary:not(.uk-preserve-color) .uk-search-input::-moz-placeholder, .uk-tile-secondary:not(.uk-preserve-color) .uk-search-input::-moz-placeholder {
+    color: rgba(255, 255, 255, .5)
+}
+
+.uk-card-primary.uk-card-body .uk-search-input:-ms-input-placeholder, .uk-card-primary>:not([class*=uk-card-media]) .uk-search-input:-ms-input-placeholder, .uk-card-secondary.uk-card-body .uk-search-input:-ms-input-placeholder, .uk-card-secondary>:not([class*=uk-card-media]) .uk-search-input:-ms-input-placeholder, .uk-light .uk-search-input:-ms-input-placeholder, .uk-offcanvas-bar .uk-search-input:-ms-input-placeholder, .uk-overlay-primary .uk-search-input:-ms-input-placeholder, .uk-section-primary:not(.uk-preserve-color) .uk-search-input:-ms-input-placeholder, .uk-section-secondary:not(.uk-preserve-color) .uk-search-input:-ms-input-placeholder, .uk-tile-primary:not(.uk-preserve-color) .uk-search-input:-ms-input-placeholder, .uk-tile-secondary:not(.uk-preserve-color) .uk-search-input:-ms-input-placeholder {
+    color: rgba(255, 255, 255, .5)
+}
+
+.uk-card-primary.uk-card-body .uk-search-input::-ms-input-placeholder, .uk-card-primary>:not([class*=uk-card-media]) .uk-search-input::-ms-input-placeholder, .uk-card-secondary.uk-card-body .uk-search-input::-ms-input-placeholder, .uk-card-secondary>:not([class*=uk-card-media]) .uk-search-input::-ms-input-placeholder, .uk-light .uk-search-input::-ms-input-placeholder, .uk-offcanvas-bar .uk-search-input::-ms-input-placeholder, .uk-overlay-primary .uk-search-input::-ms-input-placeholder, .uk-section-primary:not(.uk-preserve-color) .uk-search-input::-ms-input-placeholder, .uk-section-secondary:not(.uk-preserve-color) .uk-search-input::-ms-input-placeholder, .uk-tile-primary:not(.uk-preserve-color) .uk-search-input::-ms-input-placeholder, .uk-tile-secondary:not(.uk-preserve-color) .uk-search-input::-ms-input-placeholder {
+    color: rgba(255, 255, 255, .5)
 }
 
 .uk-card-primary.uk-card-body .uk-search-input::placeholder,
@@ -10856,6 +11465,7 @@ iframe.uk-cover {
 .uk-section-secondary:not(.uk-preserve-color) .uk-column-divider,
 .uk-tile-primary:not(.uk-preserve-color) .uk-column-divider,
 .uk-tile-secondary:not(.uk-preserve-color) .uk-column-divider {
+    -moz-column-rule-color: rgba(255, 255, 255, .2);
     column-rule-color: rgba(255, 255, 255, .2)
 }
 

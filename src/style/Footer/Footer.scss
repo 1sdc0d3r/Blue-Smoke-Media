@@ -17,6 +17,8 @@ footer {
     padding: 0 0.5em;
     position: relative;
     @include breakpoint(xxs, xs, s, m) {
+      width: -webkit-max-content;
+      width: -moz-max-content;
       width: max-content;
       text-align: center;
     }

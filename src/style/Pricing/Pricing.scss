@@ -7,9 +7,13 @@
   background: #424851;
   color: white;
   width: 95%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
   height: max-content;
   margin: 2% auto 15%;
   padding-bottom: 4em;
+  min-width: -webkit-min-content;
+  min-width: -moz-min-content;
   min-width: min-content;
   // overflow: hidden;
 
@@ -22,6 +26,8 @@
   }
   .col {
     width: 17.5%;
+    min-width: -webkit-min-content;
+    min-width: -moz-min-content;
     min-width: min-content;
     margin-top: 1.5em;
     // padding: 1%;

@@ -28,6 +28,8 @@
     position: relative;
     width: 12em;
     // height: 60vh;
+    min-height: -webkit-max-content;
+    min-height: -moz-max-content;
     min-height: max-content;
     background: lightgrey;
     padding: 0 0.5em;
