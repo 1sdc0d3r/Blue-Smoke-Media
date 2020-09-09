@@ -12,8 +12,11 @@
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
-  margin: 2% auto;
+  margin: 2% auto 15%;
   padding-bottom: 4em;
+  min-width: -webkit-min-content;
+  min-width: -moz-min-content;
+  min-width: min-content;
   width: 70%;
 }
 
@@ -73,13 +76,12 @@
 }
 
 .price-chart .col .row {
-  height: 7%;
+  height: 10%;
   margin: 0;
   width: 100%;
   overflow: hidden;
   -webkit-box-shadow: inset 0.6em 0 1em #2a2d30;
           box-shadow: inset 0.6em 0 1em #2a2d30;
-  padding: 1%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -157,4 +159,4 @@
   background: -webkit-gradient(linear, left bottom, left top, from(#2c2f48), color-stop(95%, #393f76));
   background: linear-gradient(0deg, #2c2f48 0%, #393f76 95%);
 }
-/*# sourceMappingURL=Pricing.css.map */
+/*# sourceMappingURL=pricing.css.map */
