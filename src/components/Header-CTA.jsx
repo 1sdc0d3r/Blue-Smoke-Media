@@ -1,6 +1,6 @@
 import React from "react";
 import phone from "../images/phone.png";
-import email from "../images/Mail Icon.png";
+import email from "../images/mail-icon.png";
 
 export default function cta() {
   return (
@@ -16,7 +16,7 @@ export default function cta() {
         <a href="mailto:services@bluesmokemedia.net">
           <img src={email} alt="contact-mail" className="cta-mail cta-btn" />
         </a>
-        <a href="tel:+1 801.690.1189">
+        <a href="tel:‭+1.865.274.1371‬">
           <img src={phone} alt="contact-phone" className="cta-phone cta-btn" />
         </a>
       </div>

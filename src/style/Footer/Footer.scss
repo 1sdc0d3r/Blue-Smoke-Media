@@ -92,6 +92,10 @@ footer {
   background: $darkBlue;
   justify-content: space-between;
   height: 15vh;
+  @include breakpoint(xxs, xs, s) {
+    flex-direction: column;
+  }
+
   .payment {
     display: flex;
     justify-content: space-around;
@@ -101,6 +105,11 @@ footer {
     @include breakpoint(m) {
       width: 40%;
     }
+    @include breakpoint(xxs, xs, s) {
+      width: 80%;
+      margin: auto;
+    }
+
     .payment-icon {
       width: 20%;
     }
@@ -111,7 +120,8 @@ footer {
     width: 65%;
     align-items: center;
     text-transform: uppercase;
-    @include breakpoint(s, m) {
+    @include breakpoint(xxs, xs, s) {
+      display: none;
       width: 60%;
     }
 

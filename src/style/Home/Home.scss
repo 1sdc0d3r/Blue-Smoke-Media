@@ -233,6 +233,8 @@
 
         .service-card {
           width: 45%;
+          // background: $royalBlue;
+
           @include breakpoint(xxs, xs, s) {
             margin: 0 auto 35%;
           }
@@ -240,12 +242,16 @@
             width: 80%;
           }
 
+          &:first-child {
+          }
+
           .service-card-front {
-            border: 5px inset $darkBlue;
             display: flex;
             flex-direction: column;
             background: $royalBlue;
+            border: 5px inset $darkBlue;
             padding: 1em;
+
             img {
               width: 50%;
               height: 20%;
@@ -267,7 +273,7 @@
             h3 {
               color: $orange;
               text-shadow: 2px 2px $darkBlue;
-              margin: 0 0 0.4em;
+              margin: 0;
             }
             p {
               font-size: 0.85em;
@@ -312,7 +318,7 @@
         border-radius: 1em;
       }
     }
-    img {
+    video {
       margin: 3em 1em;
       width: 40%;
       @include breakpoint(xl, l) {

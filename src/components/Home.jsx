@@ -9,7 +9,8 @@ import help2 from "../images/help-icon-2.png";
 import help3 from "../images/help-icon-3.png";
 import Carousel from "./Carousel";
 import ReactCardFlip from "react-card-flip";
-import socialMedia from "../images/social-media-guidelines.png";
+// import socialMedia from "../images/social-media-guidelines.png";
+const socialMedia = "";
 
 export default function Home() {
   const [card1, setCard1] = useState(false);
@@ -57,7 +58,13 @@ export default function Home() {
               <ReactCardFlip isFlipped={card1} flipDirection="horizontal">
                 <div className="service-card-front">
                   <img src={slide_custom} alt="placeholder" />
-                  <h3>Custom Website Design</h3>
+                  <h3>
+                    Custom
+                    <br />
+                    Website
+                    <br />
+                    Design
+                  </h3>
                 </div>
                 <div className="service-card-back">
                   <h3>Custom Website Design</h3>
@@ -168,7 +175,7 @@ export default function Home() {
               <p>Starts At</p>
               <p className="price">$749</p>
               {/* //todo view plans link */}
-              <Link to="#">View Plans</Link>
+              <Link to="/plans">View Plans</Link>
             </div>
             <div className="plan-card">
               <h3>
@@ -180,7 +187,7 @@ export default function Home() {
               <hr className="line" />
               <p>Starts At</p>
               <p className="price">$1,399</p>
-              <Link to="#">View Plans</Link>
+              <Link to="/plans">View Plans</Link>
             </div>
           </div>
           <div className="plan-card-set">
@@ -194,7 +201,7 @@ export default function Home() {
               <hr className="line" />
               <p>Starts At</p>
               <p className="price">$2,299</p>
-              <Link to="#">View Plans</Link>
+              <Link to="/plans">View Plans</Link>
             </div>
             <div className="plan-card">
               <h3>
@@ -209,7 +216,7 @@ export default function Home() {
               <hr className="line" />
               <p>Starts At</p>
               <p className="price">$1,749</p>
-              <Link to="#">View Plans</Link>
+              <Link to="/plans">View Plans</Link>
             </div>
           </div>
         </div>
@@ -230,9 +237,18 @@ export default function Home() {
             Daily Activity Almost 3.5 billion social media users worldwide
             coexist with devices.
           </p>
+          {/* //todo link */}
           <Link>Learn More</Link>
         </div>
-        <img src={socialMedia} alt="social media globe" />
+        {/* <img src={socialMedia} alt="social media globe" /> */}
+        <video
+          type="video/mp4"
+          src={socialMedia}
+          preload="auto"
+          // autoPlay
+          loading="lazy"
+          // loop
+        ></video>
       </section>
       <section className="help">
         <h1>

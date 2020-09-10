@@ -78,6 +78,9 @@ export default function Footer() {
                 {chevron}Graphic Design
               </Link>
             </li>
+            <li>
+              <Link to="/plans">{chevron}Plans & Pricing</Link>
+            </li>
             {/* <li>
               <Link to="a/">{chevron}Social Media Marketing</Link>
             </li> */}

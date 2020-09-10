@@ -159,7 +159,7 @@ function App() {
           {/* //todo portfolio  */}
           {/* <Route path="/portfolio" component={Portfolio} /> */}
           <Route path="/contact" component={Contact} />
-          <Route path="/pricing" component={Pricing} />
+          <Route path="/plans" component={Pricing} />
           {/* <Route component={NoMatch} /> */}
         </Switch>
         <Footer />
