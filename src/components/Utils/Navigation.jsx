@@ -14,11 +14,14 @@ export default withRouter(function Navigation(props) {
         </button>
         <div className="dropdown-content">
           <div className="nav-section">
-            <NavLink to="/sitemap" className="drop-item">
-              Sitemap
+            <NavLink to="/plans" className="drop-item">
+              Plans & Pricing
             </NavLink>
             <NavLink to="/privacy" className="drop-item">
               Privacy Policy
+            </NavLink>
+            <NavLink to="/sitemap" className="drop-item">
+              Sitemap
             </NavLink>
           </div>
         </div>

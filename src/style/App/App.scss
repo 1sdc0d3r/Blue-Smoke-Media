@@ -37,6 +37,9 @@ html {
   .page-wrapper {
     width: 92%;
     margin: auto;
+    @include breakpoint(xxs, xs, s, m) {
+      width: 100%;
+    }
   }
   .covid-banner {
     color: black;

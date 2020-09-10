@@ -147,6 +147,12 @@ export default function Footer() {
               </Link>
             </li>
             <li>
+              <Link to="/seo/seoOrganic">
+                {chevron}
+                Organic SEO
+              </Link>
+            </li>
+            <li>
               <Link to="/graphic-design/digital-and-print-graphic-design">
                 {chevron}
                 Digital & Print

@@ -36,6 +36,30 @@ html {
   margin: auto;
 }
 
+@media (max-width: 360px) {
+  .App .page-wrapper {
+    width: 100%;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .App .page-wrapper {
+    width: 100%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .App .page-wrapper {
+    width: 100%;
+  }
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  .App .page-wrapper {
+    width: 100%;
+  }
+}
+
 .App .covid-banner {
   color: black;
   background: #ee3e0e;

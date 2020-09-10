@@ -13,13 +13,14 @@
     background: url("../../images/globe-stretch-new.png");
     background-size: 101% 105%;
     background-repeat: no-repeat;
-    height: 75vh;
+    padding-top: 1em;
     min-width: 80%;
     border-top: 0.5em solid #020723;
     border-bottom: 0.5em solid #020723;
 
     @include breakpoint(xxs, xs, s) {
-      height: 90vh;
+      // height: 90vh;
+
       background-image: url("../../images/grey_background_globe-element_for_mobile.png");
     }
 
@@ -326,12 +327,15 @@
         color: #f52618;
         padding: 0.2em;
         border-radius: 1em;
+        font-weight: 500;
+        text-shadow: 2px 2px 1px #000;
       }
     }
     video {
       margin: 0em 1em 2em;
       width: 50%;
       align-self: center;
+      border: 4px solid $darkBlue;
       @include breakpoint(xxs, xs, s, m) {
         width: 90%;
         // margin: 5em 1em;

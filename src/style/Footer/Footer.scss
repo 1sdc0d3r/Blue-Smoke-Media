@@ -94,6 +94,7 @@ footer {
   height: 15vh;
   @include breakpoint(xxs, xs, s) {
     flex-direction: column;
+    height: 10vh;
   }
 
   .payment {

@@ -282,6 +282,7 @@ footer ul li img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    height: 10vh;
   }
 }
 
@@ -291,6 +292,7 @@ footer ul li img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    height: 10vh;
   }
 }
 
@@ -300,6 +302,7 @@ footer ul li img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    height: 10vh;
   }
 }
 
