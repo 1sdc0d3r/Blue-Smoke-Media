@@ -2,10 +2,13 @@ import React from "react";
 //* Data
 import team from "../data/team";
 //* Images
-import languages from "../images/Coding-Web Development.jpg";
-import seoVid from "../videos/SEO-search-engine-optimization-MTT.mp4";
-import womanStudio from "../videos/graphic-design-video-MTT.mp4";
-import globeVid from "../videos/local-regional-nationalClients-MTT-globe.mp4";
+import languages from "../images/Coding-Web-Development.jpg";
+const womanStudio =
+  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/graphic-design-video-MTT.mp4";
+const globeVid =
+  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/local-regional-nationalClients-MTT-globe.mp4";
+const seoVid =
+  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/SEO-search-engine-optimization-MTT.mp4";
 
 export default function Team() {
   return (

@@ -603,9 +603,10 @@
 }
 
 .home .social-media .content a {
-  background: #ee3e0e;
-  color: white;
+  background: #04227a;
+  color: #1e92f6;
   padding: 0.2em;
+  border-radius: 1em;
 }
 
 .home .social-media img {

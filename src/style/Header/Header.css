@@ -44,6 +44,7 @@ header {
 header #flame {
   width: 9%;
   padding-top: 1%;
+  height: 100%;
 }
 
 @media (min-width: 737px) and (max-width: 980px) {

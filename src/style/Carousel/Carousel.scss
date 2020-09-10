@@ -114,6 +114,8 @@
           box-shadow: 2px 2px black;
           border: none;
           width: 25%;
+          // todo on safari
+          // min-height: 3em;
           @include breakpoint(xl, xxl) {
             width: 40%;
             margin-left: 8%;

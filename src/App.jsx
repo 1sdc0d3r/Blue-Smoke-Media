@@ -81,22 +81,21 @@ function App() {
         ></video>
       ) : ( */}
       <>
-        <p className="covid-banner">
-          {/* <span */}
-          {/* > */}
-          <img
-            src={circleX}
-            alt="close 'x'"
-            onClick={() =>
-              (document.querySelector(".covid-banner").style.display = "none")
-            }
-          />
-          {/* </span> */}
-          Due to the COVID-19 epidemic, we have lowered our prices to
-          accommodate the smaller businesses in the US. It is our goal to help
-          in keeping our communities together.
-        </p>
         <header>
+          <p className="covid-banner">
+            {/* <span */}
+            {/* > */}
+            <img
+              src={circleX}
+              alt="close 'x'"
+              onClick={() =>
+                (document.querySelector(".covid-banner").style.display = "none")
+              }
+            />
+            Due to the COVID-19 epidemic, we have lowered our prices to
+            accommodate the smaller businesses in the US. It is our goal to help
+            in keeping our communities together.
+          </p>
           <div>
             <Header />
             <Navigation />

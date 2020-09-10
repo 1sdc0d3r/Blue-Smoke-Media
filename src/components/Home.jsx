@@ -217,20 +217,19 @@ export default function Home() {
       <section className="social-media">
         <div className="content">
           <h1>Social Media</h1>
-          <h2>What Is I and Why You Should Use It</h2>
+          <h2>Emerging Social Media Channels and Trends</h2>
           {/* //todo context */}
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
-            facere similique odio! Vero quaerat incidunt, impedit temporibus
-            quos iste consequuntur ipsam dolore nam laboriosam, vel asperiores?
-            Tempore iste porro magni.
+            <span>Social media trends are like friends, they come and go.</span>{" "}
+            However, the best friends and trends usually end up sticking around
+            and evolving into a permanent part of our lives with qualities such
+            as integrity, dependability, trust, quality and even ROI.
           </p>
-          <ul>
-            <li>Lorem ipsum, dolor sit amet</li>
-            <li>consectetur adipisicing </li>
-            <li>facere similique odio!</li>
-            <li>consequuntur ipsam dolore nam laboriosam</li>
-          </ul>
+          <h2>This is What Social Media Channels look like in 2020</h2>
+          <p>
+            Daily Activity Almost 3.5 billion social media users worldwide
+            coexist with devices.
+          </p>
           <Link>Learn More</Link>
         </div>
         <img src={socialMedia} alt="social media globe" />
