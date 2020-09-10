@@ -39,6 +39,10 @@
       color: $lightBlue;
       -webkit-touch-callout: none;
 
+      // @include breakpoint(xxs, xs, s) {
+      // width: 100vw;
+      // }
+
       /*
    * Transform all the slices of hamburger
    * into a cross-mark.
@@ -86,6 +90,9 @@
       transform-origin: 4px 0px;
       transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
         background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+      // @include breakpoint(xxs, xs, s) {
+      //   width: 100vw;
+      // }
     }
     &:first-child {
       transform-origin: 0% 0%;
@@ -132,6 +139,7 @@
       // display: block;
       transform: translateX(470%);
     }
+
     .sub-drop-menu {
       position: absolute;
       transform: translateX(-700%);
@@ -160,7 +168,7 @@
         justify-content: space-between;
         left: 0;
         right: 0;
-        height: 50vh;
+        height: 80vh;
         overflow: auto;
 
         &::-webkit-scrollbar {

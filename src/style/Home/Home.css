@@ -557,96 +557,79 @@
 }
 
 .home .social-media {
-  background: #020723;
+  background: #04227a;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .home .social-media .content {
   width: 50%;
   color: white;
   margin: 2em;
-}
-
-@media (max-width: 360px) {
-  .home .social-media .content {
-    width: 100%;
-  }
-}
-
-@media (min-width: 361px) and (max-width: 480px) {
-  .home .social-media .content {
-    width: 100%;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 736px) {
-  .home .social-media .content {
-    width: 100%;
-  }
+  width: 80%;
+  margin: 2em auto;
+  text-align: left;
 }
 
 .home .social-media .content h1 {
   font-weight: 900;
   text-transform: uppercase;
   color: goldenrod;
-  text-align: left;
-  margin: none;
+  margin: 0;
+  font-size: 2.2em;
+  text-shadow: 3px 3px 1px #000;
 }
 
 .home .social-media .content h2 {
-  color: #1e92f6;
-  font-weight: 400;
+  color: #f52618;
+  font-weight: 600;
   margin: none;
+  text-shadow: 2px 2px 0.5px #000;
 }
 
 .home .social-media .content a {
   background: #04227a;
-  color: #1e92f6;
+  color: #f52618;
   padding: 0.2em;
   border-radius: 1em;
 }
 
 .home .social-media video {
-  margin: 3em 1em;
-  width: 40%;
-}
-
-@media (min-width: 1281px) and (max-width: 1680px) {
-  .home .social-media video {
-    margin: 5em 1em;
-  }
-}
-
-@media (min-width: 981px) and (max-width: 1280px) {
-  .home .social-media video {
-    margin: 5em 1em;
-  }
-}
-
-@media (min-width: 737px) and (max-width: 980px) {
-  .home .social-media video {
-    margin: 8em 1em;
-  }
+  margin: 0em 1em 2em;
+  width: 50%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 @media (max-width: 360px) {
   .home .social-media video {
-    display: none;
+    width: 90%;
   }
 }
 
 @media (min-width: 361px) and (max-width: 480px) {
   .home .social-media video {
-    display: none;
+    width: 90%;
   }
 }
 
 @media (min-width: 481px) and (max-width: 736px) {
   .home .social-media video {
-    display: none;
+    width: 90%;
+  }
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  .home .social-media video {
+    width: 90%;
   }
 }
 

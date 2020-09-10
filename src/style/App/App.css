@@ -57,4 +57,10 @@ html {
       align-self: center;
   margin-right: 0.1em;
 }
+
+.App .hcGzIK svg,
+.App .hcGzIK path {
+  fill: red !important;
+  color: goldenrod !important;
+}
 /*# sourceMappingURL=App.css.map */

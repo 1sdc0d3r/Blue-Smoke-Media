@@ -288,47 +288,56 @@
     }
   }
   .social-media {
-    background: $darkBlue;
+    background: $royalBlue;
     width: 100%;
     display: flex;
+    text-align: center;
+    flex-direction: column;
+    @include breakpoint(xxs, xs, s, m) {
+    }
+
     .content {
       width: 50%;
       color: white;
       margin: 2em;
-      @include breakpoint(xxs, xs, s) {
-        width: 100%;
+      width: 80%;
+      margin: 2em auto;
+      text-align: left;
+      @include breakpoint(xxs, xs, s, m) {
       }
 
       h1 {
         font-weight: 900;
         text-transform: uppercase;
         color: goldenrod;
-        text-align: left;
-        margin: none;
+        // text-align: left;
+        margin: 0;
+        font-size: 2.2em;
+        text-shadow: 3px 3px 1px #000;
       }
       h2 {
-        color: $lightBlue;
-        font-weight: 400;
+        color: #f52618;
+        font-weight: 600;
         margin: none;
+        text-shadow: 2px 2px 0.5px #000;
       }
       a {
         background: $royalBlue;
-        color: $lightBlue;
+        color: #f52618;
         padding: 0.2em;
         border-radius: 1em;
       }
     }
     video {
-      margin: 3em 1em;
-      width: 40%;
-      @include breakpoint(xl, l) {
-        margin: 5em 1em;
+      margin: 0em 1em 2em;
+      width: 50%;
+      align-self: center;
+      @include breakpoint(xxs, xs, s, m) {
+        width: 90%;
+        // margin: 5em 1em;
       }
       @include breakpoint(m) {
-        margin: 8em 1em;
-      }
-      @include breakpoint(xxs, xs, s) {
-        display: none;
+        // margin: 8em 1em;
       }
     }
   }

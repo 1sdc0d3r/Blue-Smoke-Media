@@ -7,7 +7,7 @@ export default function cta() {
     <div className="cta">
       <p>
         Request
-        <br /> A <span>FREE</span>
+        <br />A <span>FREE</span>
         <br />
         Consultation
       </p>

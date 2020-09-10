@@ -10,7 +10,8 @@ import help3 from "../images/help-icon-3.png";
 import Carousel from "./Carousel";
 import ReactCardFlip from "react-card-flip";
 // import socialMedia from "../images/social-media-guidelines.png";
-const socialMedia = "";
+const socialMedia =
+  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/Now-open-video_HD720.mp4";
 
 export default function Home() {
   const [card1, setCard1] = useState(false);
@@ -232,7 +233,17 @@ export default function Home() {
             and evolving into a permanent part of our lives with qualities such
             as integrity, dependability, trust, quality and even ROI.
           </p>
-          <h2>This is What Social Media Channels look like in 2020</h2>
+          <h2>Video Crushes It</h2>
+          <p>
+            More than 28% of users from four major social media platforms engage
+            with live streams each month on any one of these services. “Video is
+            the hottest platform on the planet right now and the cheapest to
+            distribute through social media,” said Matt Johnson, CEO, and
+            Founder of Guide Social, an exclusive video marketing agency that
+            experienced a 400 percent growth spurt in the last six months. “A
+            reminder to brands, video does NOT have to be expensively produced
+            to be effective.”
+          </p>
           <p>
             Daily Activity Almost 3.5 billion social media users worldwide
             coexist with devices.
@@ -242,12 +253,17 @@ export default function Home() {
         </div>
         {/* <img src={socialMedia} alt="social media globe" /> */}
         <video
+          id="sm-video"
           type="video/mp4"
           src={socialMedia}
           preload="auto"
           // autoPlay
           loading="lazy"
           // loop
+          onClick={() => {
+            const smVideo = document.getElementById("sm-video");
+            smVideo.paused ? smVideo.play() : smVideo.pause();
+          }}
         ></video>
       </section>
       <section className="help">
