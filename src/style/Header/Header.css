@@ -282,6 +282,13 @@ header .cta {
   }
 }
 
+@media (min-width: 981px) and (max-width: 1280px) {
+  header .cta {
+    padding: 0.125em;
+    font-size: 0.8em;
+  }
+}
+
 @media (min-width: 737px) and (max-width: 980px) {
   header .cta {
     width: -webkit-min-content;
@@ -338,8 +345,8 @@ header .cta .btns {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 40%;
-  width: 85%;
+  height: 30%;
+  width: 90%;
   margin: auto;
 }
 
@@ -367,17 +374,19 @@ header .cta .btns .cta-btn {
 
 header .cta .btns a:last-child {
   width: 50%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 header .cta .btns .cta-mail {
   height: 100%;
-  width: 70%;
+  width: 100%;
 }
 
 header .cta .btns .cta-phone {
-  width: 100%;
-  height: 75%;
-  margin-top: 10%;
+  width: 95%;
+  height: 80%;
 }
 
 @media (max-width: 360px) {
