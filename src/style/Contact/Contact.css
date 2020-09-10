@@ -22,7 +22,7 @@
 .contact .message-sent {
   visibility: visible;
   position: relative;
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
   -webkit-transition: 700ms ease-in-out all;
   transition: 700ms ease-in-out all;

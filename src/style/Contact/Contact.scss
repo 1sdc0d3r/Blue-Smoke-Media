@@ -21,13 +21,12 @@
   .message-sent {
     visibility: visible;
     position: relative;
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     transition: 700ms ease-in-out all;
 
     background: lightgreen;
     border: 2px solid green;
-    //todo check errors/not empty
   }
   form {
     display: flex;

@@ -72,7 +72,7 @@ export default function Contact() {
       <form onSubmit={onSubmitHandler}>
         <input
           type="text"
-          name="name"
+          name="business"
           placeholder="Business"
           id="business"
           value={data.business}
