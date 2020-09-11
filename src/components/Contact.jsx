@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import * as emailjs from "emailjs-com";
 
 export default function Contact() {
@@ -50,7 +50,7 @@ export default function Contact() {
       email: "",
       subject: "",
       message: "",
-      antiSpam: "",
+      antiSpam: null,
     });
   };
 
@@ -123,6 +123,13 @@ export default function Contact() {
           value={data.message}
           onChange={onChangeHandler}
           className="field text"
+        />
+        <input
+          className="antiSpam"
+          name="antiSpam"
+          type="text"
+          onChange={onChangeHandler}
+          value={data.antiSpam}
         />
         <div className="actions">
           <input type="submit" value="Send Message" id="submit-btn" />

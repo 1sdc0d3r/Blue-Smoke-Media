@@ -6,7 +6,7 @@
   justify-content: space-between;
   background: #424851;
   color: white;
-  width: 95%;
+  width: 70%;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
@@ -15,14 +15,9 @@
   min-width: -webkit-min-content;
   min-width: -moz-min-content;
   min-width: min-content;
-  // overflow: hidden;
 
-  // @include breakpoint(xxl, xl) {
-  width: 70%;
-  // }
-
-  @include breakpoint(m) {
-    margin: 5% auto;
+  @include breakpoint(xxs, xs, s, m) {
+    display: none;
   }
   .col {
     width: 17.5%;
@@ -40,9 +35,8 @@
     }
     div {
       height: 30%;
-      padding: 0.5em 0;
+      padding: 0.5em 0 1.2em;
       @include breakpoint(xl, l) {
-        // margin: 1em 0;
       }
 
       h5,
@@ -131,6 +125,55 @@
   .col-5 {
     div {
       background: linear-gradient(0deg, #2c2f48 0%, #393f76 95%);
+    }
+  }
+}
+//! PRICE CARDS
+.price-cards {
+  @include breakpoint(l, xl, xxl) {
+    display: none;
+  }
+  .card {
+    text-transform: uppercase;
+    width: 80%;
+    margin: auto;
+    background: $lightBlue;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    .slant-top {
+      transform: rotate(-2deg);
+      background: $orange;
+      padding: 1em 0;
+      overflow: hidden;
+      z-index: 1;
+      position: absolute;
+      width: 150%;
+      left: -5%;
+      right: 50%;
+    }
+    p {
+      margin: 0;
+      padding: 2em 0;
+      transform: rotate(2deg);
+      z-index: 10;
+      color: white;
+      span {
+      }
+    }
+    h5 {
+      margin: 0;
+      padding: 0.5em 0;
+      z-index: 5;
+    }
+
+    ul {
+      list-style: none;
+      z-index: 5;
+      background: white;
+      margin-top: 5em;
+      li {
+      }
     }
   }
 }

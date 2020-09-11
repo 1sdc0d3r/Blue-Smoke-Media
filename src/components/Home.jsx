@@ -253,6 +253,7 @@ export default function Home() {
         </div>
         {/* <img src={socialMedia} alt="social media globe" /> */}
         <video
+          title="Social-Media-Vid"
           id="sm-video"
           type="video/mp4"
           src={socialMedia}
@@ -264,7 +265,7 @@ export default function Home() {
             const smVideo = document.getElementById("sm-video");
             smVideo.paused ? smVideo.play() : smVideo.pause();
           }}
-        ></video>
+        />
       </section>
       <section className="help">
         <h1>
