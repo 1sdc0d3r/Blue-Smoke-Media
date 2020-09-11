@@ -27,22 +27,15 @@
     margin-top: 1.5em;
     // padding: 1%;
 
-    &:last-child {
-      border-right: 3px solid #393d44;
-      @include breakpoint(xxl, xl) {
-        border-right: 5px solid #393d44;
-      }
-    }
     div {
       height: 30%;
       padding: 0.5em 0 1.2em;
-      @include breakpoint(xl, l) {
-      }
 
       h5,
       p,
       span {
         text-shadow: 3px 3px 3px black;
+        // padding: 0 0.1em;
       }
 
       h5 {
@@ -130,49 +123,87 @@
 }
 //! PRICE CARDS
 .price-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   @include breakpoint(l, xl, xxl) {
     display: none;
   }
   .card {
     text-transform: uppercase;
-    width: 80%;
     margin: auto;
     background: $lightBlue;
     overflow: hidden;
     position: relative;
-    z-index: 1;
-    .slant-top {
-      transform: rotate(-2deg);
-      background: $orange;
-      padding: 1em 0;
-      overflow: hidden;
-      z-index: 1;
-      position: absolute;
-      width: 150%;
-      left: -5%;
-      right: 50%;
-    }
-    p {
-      margin: 0;
-      padding: 2em 0;
-      transform: rotate(2deg);
-      z-index: 10;
-      color: white;
-      span {
+    width: 20em;
+    margin: 2em 0.5em;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+      h3 {
+        background: $orange;
       }
     }
-    h5 {
+
+    h3 {
       margin: 0;
-      padding: 0.5em 0;
-      z-index: 5;
+      padding: 1em 0;
+      background: $royalBlue;
+      color: white;
+
+      -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+      clip-path: polygon(0 0%, 100% 0, 100% 80%, 0 100%);
+    }
+
+    p {
+      margin: 1em 0;
+      color: black;
+      font-size: 1.3em;
+      span {
+        font-weight: 700;
+      }
+    }
+    .w-space {
+      height: 0.5em;
+      background: white;
+      margin: 0;
+      padding: 0;
     }
 
     ul {
       list-style: none;
-      z-index: 5;
-      background: white;
-      margin-top: 5em;
+      background: $orange;
+      width: 100%;
+      padding-left: 0;
+      margin-bottom: 0;
+      margin-top: 0;
+      padding-top: 0;
       li {
+        transition: ease-in-out 0.4s;
+        padding: 0.5em 0;
+        background: white;
+        &:hover {
+          background: lightgrey;
+          margin-left: 0.4em;
+          margin-right: -0.4em;
+        }
+      }
+    }
+    .start {
+      margin: 0;
+      padding: 2em 0;
+      background: white;
+
+      a {
+        color: $orange;
+        border: 2px solid $orange;
+        border-radius: 1em;
+        padding: 0.5em 1.5em;
+        transition: all 0.2s ease-in;
+        &:hover {
+          color: white;
+          background: $orange;
+        }
       }
     }
   }

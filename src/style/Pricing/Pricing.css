@@ -51,22 +51,6 @@
   margin-top: 1.5em;
 }
 
-.price-chart .col:last-child {
-  border-right: 3px solid #393d44;
-}
-
-@media (min-width: 1681px) {
-  .price-chart .col:last-child {
-    border-right: 5px solid #393d44;
-  }
-}
-
-@media (min-width: 1281px) and (max-width: 1680px) {
-  .price-chart .col:last-child {
-    border-right: 5px solid #393d44;
-  }
-}
-
 .price-chart .col div {
   height: 30%;
   padding: 0.5em 0 1.2em;
@@ -177,6 +161,16 @@
   background: linear-gradient(0deg, #2c2f48 0%, #393f76 95%);
 }
 
+.price-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 @media (min-width: 981px) and (max-width: 1280px) {
   .price-cards {
     display: none;
@@ -197,46 +191,86 @@
 
 .price-cards .card {
   text-transform: uppercase;
-  width: 80%;
   margin: auto;
   background: #1e92f6;
   overflow: hidden;
   position: relative;
-  z-index: 1;
+  width: 20em;
+  margin: 2em 0.5em;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
-.price-cards .card .slant-top {
-  -webkit-transform: rotate(-2deg);
-          transform: rotate(-2deg);
+.price-cards .card:hover h3 {
   background: #ee3e0e;
+}
+
+.price-cards .card h3 {
+  margin: 0;
   padding: 1em 0;
-  overflow: hidden;
-  z-index: 1;
-  position: absolute;
-  width: 150%;
-  left: -5%;
-  right: 50%;
+  background: #04227a;
+  color: white;
+  -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 0%, 100% 0, 100% 80%, 0 100%);
 }
 
 .price-cards .card p {
-  margin: 0;
-  padding: 2em 0;
-  -webkit-transform: rotate(2deg);
-          transform: rotate(2deg);
-  z-index: 10;
-  color: white;
+  margin: 1em 0;
+  color: black;
+  font-size: 1.3em;
 }
 
-.price-cards .card h5 {
+.price-cards .card p span {
+  font-weight: 700;
+}
+
+.price-cards .card .w-space {
+  height: 0.5em;
+  background: white;
   margin: 0;
-  padding: 0.5em 0;
-  z-index: 5;
+  padding: 0;
 }
 
 .price-cards .card ul {
   list-style: none;
-  z-index: 5;
+  background: #ee3e0e;
+  width: 100%;
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.price-cards .card ul li {
+  -webkit-transition: ease-in-out 0.4s;
+  transition: ease-in-out 0.4s;
+  padding: 0.5em 0;
   background: white;
-  margin-top: 5em;
+}
+
+.price-cards .card ul li:hover {
+  background: lightgrey;
+  margin-left: 0.4em;
+  margin-right: -0.4em;
+}
+
+.price-cards .card .start {
+  margin: 0;
+  padding: 2em 0;
+  background: white;
+}
+
+.price-cards .card .start a {
+  color: #ee3e0e;
+  border: 2px solid #ee3e0e;
+  border-radius: 1em;
+  padding: 0.5em 1.5em;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.price-cards .card .start a:hover {
+  color: white;
+  background: #ee3e0e;
 }
 /*# sourceMappingURL=Pricing.css.map */

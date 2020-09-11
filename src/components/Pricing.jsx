@@ -35,8 +35,9 @@ export default function PriceChart() {
                 website
               </h5>
               <hr />
-              <p>Starts At</p>
-              <span>$749</span>
+              <p>
+                Starts At <span>$749</span>
+              </p>
             </div>
           </div>
           <p className="row row-light">
@@ -84,8 +85,9 @@ export default function PriceChart() {
                 website
               </h5>
               <hr />
-              <p>Starts At</p>
-              <span>$1,249</span>
+              <p>
+                Starts At <span>$1,249</span>
+              </p>
             </div>
           </div>
           <p className="row row-light">
@@ -133,8 +135,9 @@ export default function PriceChart() {
                 website
               </h5>
               <hr />
-              <p>Starts At</p>
-              <span>$1,899</span>
+              <p>
+                Starts At <span>$1,899</span>
+              </p>
             </div>
           </div>
           <p className="row row-light">
@@ -179,8 +182,9 @@ export default function PriceChart() {
                 website
               </h5>
               <hr />
-              <p>Starts At</p>
-              <span>$1,499</span>
+              <p>
+                Starts At <span>$1,499</span>
+              </p>
             </div>
           </div>
           <p className="row row-light">
@@ -219,15 +223,11 @@ export default function PriceChart() {
       </div>
       <div className="price-cards">
         <div className="card">
-          <h5>
-            5 page
-            <br />
-            website
-          </h5>
-          {/* <div className="slant-top"></div> */}
+          <h3>5 page website</h3>
           <p>
             Starts At <span>$749</span>
           </p>
+          <div className="w-space" />
           <ul>
             <li>Organic SEO</li>
             <li>Custom Domain Name</li>
@@ -237,33 +237,35 @@ export default function PriceChart() {
             <li>Mobile-Friendly Site</li>
             <li>Website Support</li>
           </ul>
+          <div className="start">
+            <Link to="/website-design/inquiry-form">Start</Link>
+          </div>
         </div>
         <div className="card">
-          <h5>
-            6-10 page
-            <br />
-            website
-          </h5>
-          <p>Starts At</p>
-          <span>$1,249</span>
+          <h3>6-10 page website</h3>
+          <p>
+            Starts At <span>$1,249</span>
+          </p>
+          <div className="w-space" />
           <ul>
             <li>Organic SEO</li>
             <li>Custom Domain Name</li>
             <li>10 e-mail addresses</li>
-            <li>15GB Bandwidth per month</li>
+            <li>15 GB Bandwidth per month</li>
             <li>Secure Website (SSL)</li>
             <li>Mobile-Friendly Site</li>
             <li>Website Support</li>
           </ul>
+          <div className="start">
+            <Link to="/website-design/inquiry-form">Start</Link>
+          </div>
         </div>
         <div className="card">
-          <h5>
-            11-15+ page
-            <br />
-            website
-          </h5>
-          <p>Starts At</p>
-          <span>$1,899</span>
+          <h3>11-15+ page website</h3>
+          <p>
+            Starts At <span>$1,899</span>
+          </p>
+          <div className="w-space" />
           <ul>
             <li>Organic SEO</li>
             <li>Custom Domain Name</li>
@@ -276,15 +278,16 @@ export default function PriceChart() {
             <li>online payments</li>
             <li>google my business</li>
           </ul>
+          <div className="start">
+            <Link to="/website-design/inquiry-form">Start</Link>
+          </div>
         </div>
         <div className="card">
-          <h5>
-            E-Commerce
-            <br />
-            website
-          </h5>
-          <p>Starts At</p>
-          <span>$1,499</span>
+          <h3>E-Commerce website</h3>
+          <p>
+            Starts At <span>$1,499</span>
+          </p>
+          <div className="w-space" />
           <ul>
             <li>Organic SEO</li>
             <li>Custom Domain Name</li>
@@ -297,6 +300,9 @@ export default function PriceChart() {
             <li>online payments</li>
             <li>google my business</li>
           </ul>
+          <div className="start">
+            <Link to="/website-design/inquiry-form">Start</Link>
+          </div>
         </div>
       </div>
     </>
