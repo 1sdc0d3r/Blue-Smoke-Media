@@ -46,7 +46,7 @@ export default function Carousel() {
                 business.
               </p>
               <button>
-                <Link to="#">Get Started Now!</Link>
+                <Link to="/website-design/inquiry-form">Get Started Now!</Link>
               </button>
             </div>
             <div className="dots">
@@ -75,7 +75,7 @@ export default function Carousel() {
                 product awareness.
               </p>
               <button>
-                <Link to="#">Get Started Now!</Link>
+                <Link to="/website-design/inquiry-form">Get Started Now!</Link>
               </button>
             </div>
             <div className="dots">
@@ -101,7 +101,7 @@ export default function Carousel() {
                 what sets us apart from our competitors.
               </p>
               <button>
-                <Link to="#">Get Started Now!</Link>
+                <Link to="/website-design/inquiry-form">Get Started Now!</Link>
               </button>
             </div>
             <div className="dots">

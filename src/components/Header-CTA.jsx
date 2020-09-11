@@ -12,7 +12,6 @@ export default function cta() {
         Consultation
       </p>
       <div className="btns">
-        {/* //todo email here */}
         <a href="mailto:services@bluesmokemedia.net">
           <img src={email} alt="contact-mail" className="cta-mail cta-btn" />
         </a>

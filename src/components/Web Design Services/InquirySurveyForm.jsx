@@ -5,7 +5,6 @@ import * as emailjs from "emailjs-com";
 // import Footer from "../Utils/Footer";
 
 export default function Contact() {
-  //todo set up email submit (onsubmit)
   const [data, setData] = useState({
     company: "",
     name: "",
@@ -42,18 +41,6 @@ export default function Contact() {
 
   const onSubmitHandler = (evt) => {
     evt.preventDefault();
-    console.log(data);
-    // customWebDesign: false,
-    // reDesignUpdate: false,
-    // eCommerce: false,
-    // adCopy: false,
-    // webMaintenance: false,
-    // seo: false,
-    // printLogo: false,
-    // webLogo: false,
-    // blog: false,
-    // printedMedia: false,
-    // antiSpam: "",
     const templateParams = {
       company: data.company,
       from_name: data.name,

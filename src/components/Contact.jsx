@@ -67,7 +67,6 @@ export default function Contact() {
         below and we will contact you at a time and date that is convenient to
         you.
       </p>
-      {/* //todo FORM ACTION */}
       <span>Message sent successfully</span>
       <form onSubmit={onSubmitHandler}>
         <input

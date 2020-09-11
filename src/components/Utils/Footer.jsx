@@ -7,8 +7,6 @@ import linkedIn from "../../images/linkedIn_social_media_button.png";
 import facebook from "../../images/faceBook.png";
 import googleReview from "../../images/icon-Google-review.png";
 
-// todo links
-// todo make sure everything is in here & in right place
 const chevron = (
   <svg
     viewBox="0 0 20 20"
@@ -213,7 +211,6 @@ export default function Footer() {
           </h3>
           <ul id="drop-sm">
             <li>
-              {/* //todo add in all social media accounts */}
               <a
                 href="https://www.linkedin.com/company/blue-smoke-digital-and-printed-media/"
                 target="_blank"
@@ -238,6 +235,7 @@ export default function Footer() {
               </a>
             </li>
             <li>
+              {/* //todo google link here */}
               <a href="https://google.com/" target="_blank">
                 {chevron}
                 <img src={googleReview} alt="Google Social Media Button" />

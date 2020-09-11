@@ -36,11 +36,6 @@ import Pricing from "./components/Pricing";
 import ContactBtn from "./components/Utils/contact-btn";
 import circleX from "./images/circle-X.png";
 //todo learn E-Commerce
-//todo add SEO to website w/ CoBe
-//todo set up google analytics
-//analytics.google.com/analytics/web/provision/#/a168002604p234303565/admin/streams/promo
-// todo generate sitemap for .robottxt file
-// todo rename paths (full application)
 function App() {
   //! enable video here
   // const [isPlaying, setIsPlaying] = useState(true);
@@ -68,7 +63,6 @@ function App() {
           muted={true}
           autoPlay
           onEnded={() => {
-            //todo have video inline for seo
             setIsPlaying(false);
             localStorage.setItem(
               "landingVideo",

@@ -175,7 +175,6 @@ export default function Home() {
               <hr className="line" />
               <p>Starts At</p>
               <p className="price">$749</p>
-              {/* //todo view plans link */}
               <Link to="/plans">View Plans</Link>
             </div>
             <div className="plan-card">
@@ -226,7 +225,6 @@ export default function Home() {
         <div className="content">
           <h1>Social Media</h1>
           <h2>Emerging Social Media Channels and Trends</h2>
-          {/* //todo context */}
           <p>
             <span>Social media trends are like friends, they come and go.</span>{" "}
             However, the best friends and trends usually end up sticking around

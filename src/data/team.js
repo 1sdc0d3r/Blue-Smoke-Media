@@ -2,7 +2,6 @@ import placeholder from "../images/eagle.png";
 import AJ from "../images/Aeson-Johnson.png";
 import CoBe from "../images/CoBe.png";
 import Ramona from "../images/Ramona-Lucius.png";
-//todo fix 1st person/3rd person
 export default [{
     name: "Constance Beebe (CoBe) - Co-Founder",
     img: CoBe,
@@ -12,7 +11,6 @@ export default [{
     name: "Braden Bell - Co-Founder",
     img: placeholder,
     description: "I am an avid fisherman with a passion to develop software. The spark that was struck in my youth ignited with a roaring ball of flame. I love to help people solve their problems with a unique solution only I can provide."
-    // todo more
   },
   {
     name: "AJ - UX Designer",
