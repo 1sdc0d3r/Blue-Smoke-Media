@@ -112,7 +112,8 @@ function teamMembers(team) {
       <img src={member.img} loading="lazy" alt="profile img" />
       <p>
         <span>{member.name}</span>
-        {"  "}-{"  "} {member.description}
+        {"  "}
+        {member.description}
       </p>
     </div>
   ));
