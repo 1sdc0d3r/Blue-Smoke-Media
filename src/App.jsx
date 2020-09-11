@@ -52,7 +52,7 @@ function App() {
       document.querySelector(".covid-banner").style.display = "none";
     }
   }, [pathname]);
-
+  console.log(useLocation().pathname);
   return (
     <div className="App" style={{ position: "relative" }}>
       {/* {isPlaying ? (
