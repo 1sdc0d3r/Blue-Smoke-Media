@@ -21,11 +21,7 @@ export default function Home() {
   const [card4, setCard4] = useState(false);
   return (
     <div className="home">
-      <Helmet>
-        <meta charSet="utf-8"/>
-        <title>Index</title>
-        <link rel="canonical" href="https://www.bluesmokedigitalandprintedmedia.com/#/" />
-      </Helmet>
+
       <Carousel />
       <section className="globe">
         <p>
@@ -37,7 +33,7 @@ export default function Home() {
           <br />
           produces a growing roster of local, regional and national clients
           ranging from one-person companies, small and medium sized business to
-          non-profit organizations. Our websites are fast loading, <Link to="/seo/seoOrganic">Organically
+          non-profit organizations. Our websites are fast loading,<Link to="/seo/seoOrganic"> Organically
           Search Engine Optimized,</Link> visually appealing, and easy to navigate.
           <p>
             What do your customers see... <span>Are You SURE??</span>
