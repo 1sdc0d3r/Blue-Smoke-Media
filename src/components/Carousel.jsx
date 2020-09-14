@@ -45,9 +45,9 @@ export default function Carousel() {
                 potential customers that you care, and that you're still in
                 business.
               </p>
-              <button>
-                <Link to="/website-design/inquiry-form">Get Started Now!</Link>
-              </button>
+              {/* <button> */}
+              <Link to="/website-design/inquiry-form">Get Started Now!</Link>
+              {/* </button> */}
             </div>
             <div className="dots">
               <Dot slide={0} />

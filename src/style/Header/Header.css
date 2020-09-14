@@ -259,41 +259,20 @@ header .cta {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 27%;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  font-size: 0.75em;
   padding: 1%;
   background: #f83600;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(10%, #f83600), color-stop(80%, #facc22));
   background: linear-gradient(0deg, #f83600 10%, #facc22 80%);
 }
 
-@media (min-width: 1281px) and (max-width: 1680px) {
-  header .cta {
-    width: -webkit-min-content;
-    width: -moz-min-content;
-    width: min-content;
-  }
-}
-
-@media (min-width: 1681px) {
-  header .cta {
-    width: -webkit-min-content;
-    width: -moz-min-content;
-    width: min-content;
-  }
-}
-
 @media (min-width: 981px) and (max-width: 1280px) {
   header .cta {
     padding: 0.125em;
     font-size: 0.8em;
-  }
-}
-
-@media (min-width: 737px) and (max-width: 980px) {
-  header .cta {
-    width: -webkit-min-content;
-    width: -moz-min-content;
-    width: min-content;
   }
 }
 
