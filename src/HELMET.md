@@ -184,3 +184,159 @@ HOME
 <meta name="twitter:title" content="Print and Graphic Design Services"/>
 <meta name="twitter:description" content="Every project at Blue Smoke Digital and Printed Media, is custom designed to your digital or graphic media needs, specifically to address the individual challenges of each project we work on. "/>
 <meta name="twitter:image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/fingers-crossed.png"/>
+
+
+<!--Printed Media Logos-->
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Mobile Meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="canonical" href="https://www.bluesmokedigitalandprintedmedia.com/#/website-design/PrintedMediaLogos" />
+
+<!-- HTML Meta Tags -->
+<title>Printed Media Logos</title>
+<meta name="description" content="One of the toughest design projects is reducing the identity of an organization to a single symbol. Many companies are complex systems of individuals and entities working toward a variety of goals. Our identities are the result of a process that remains flexible while at the same time building a brand."/>
+
+<!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="Printed Media Logos"/>
+<meta itemprop="description" content="One of the toughest design projects is reducing the identity of an organization to a single symbol. Many companies are complex systems of individuals and entities working toward a variety of goals. Our identities are the result of a process that remains flexible while at the same time building a brand."/>
+<meta itemprop="image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/printed-media.png"/>
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://www.BlueSmokeDigitalAndPrintedMedia.com">
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Printed Media Logos"/>
+<meta property="og:description" content="One of the toughest design projects is reducing the identity of an organization to a single symbol. Many companies are complex systems of individuals and entities working toward a variety of goals. Our identities are the result of a process that remains flexible while at the same time building a brand."/>
+<meta property="og:image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/printed-media.png"/>
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Printed Media Logos"/>
+<meta name="twitter:description" content="One of the toughest design projects is reducing the identity of an organization to a single symbol. Many companies are complex systems of individuals and entities working toward a variety of goals. Our identities are the result of a process that remains flexible while at the same time building a brand."/>
+<meta name="twitter:image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/printed-media.png"/>
+
+
+
+<!--- Website Logo Design --->
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Mobile Meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="canonical" href="https://www.bluesmokedigitalandprintedmedia.com/#/website-design/WebsiteLogoDesign />
+
+<!-- HTML Meta Tags -->
+<title>Website Logo Design</title>
+<meta name="description" content="Blue Smoke Digital and Printed Media specializes in aesthetic, one-of-a-kind logos that say what you do. We use state-of-the-art graphics programs to translate your logo into Web formats, cutting down on “download” time as much as possible while retaining the quality of the image.">
+
+<!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="Website Logo Design"/>
+<meta itemprop="description" content="Blue Smoke Digital and Printed Media specializes in aesthetic, one-of-a-kind logos that say what you do. We use state-of-the-art graphics programs to translate your logo into Web formats, cutting down on “download” time as much as possible while retaining the quality of the image."/>
+<meta itemprop="image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/Website-logo-design-services.png.png"/>
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://www.BlueSmokeDigitalAndPrintedMedia.com"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Website Logo Design"/>
+<meta property="og:description" content="Blue Smoke Digital and Printed Media specializes in aesthetic, one-of-a-kind logos that say what you do. We use state-of-the-art graphics programs to translate your logo into Web formats, cutting down on “download” time as much as possible while retaining the quality of the image."/>
+<meta property="og:image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/Website-logo-design-services.png.png"/>
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Website Logo Design"/>
+<meta name="twitter:description" content="Blue Smoke Digital and Printed Media specializes in aesthetic, one-of-a-kind logos that say what you do. We use state-of-the-art graphics programs to translate your logo into Web formats, cutting down on “download” time as much as possible while retaining the quality of the image."/>
+<meta name="twitter:image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/Website-logo-design-services.png"/>
+
+
+
+
+<!-- Organic SEO --->
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Mobile Meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="canonical" href="https://www.bluesmokedigitalandprintedmedia.com/#/SEO/OrganicSeo />
+
+
+
+
+<!-- HTML Meta Tags -->
+<title>Organic Search Engine Optimization</title>
+<meta name="description" content="Organic search engine optimization also referred to as traditional search engine
+optimization, is the process of enhancing your web site with the goal of
+increasing your visibility in the top search engines when specific keywords
+or phrases are searched for."/>
+
+<!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="Organic Search Engine Optimization"/>
+<meta itemprop="description" content="Organic search engine optimization also referred to as traditional search engine
+optimization, is the process of enhancing your web site with the goal of
+increasing your visibility in the top search engines when specific keywords
+or phrases are searched for."/>
+<meta itemprop="image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/seo-banner.png"/>
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://www.BlueSmokeDigitalAndPrintedMedia.com"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Organic Search Engine Optimization"/>
+<meta property="og:description" content="Organic search engine optimization  also referred to as traditional search engine
+optimization, is the process of enhancing your web site with the goal of
+increasing your visibility in the top search engines when specific keywords
+or phrases are searched for."/>
+<meta property="og:image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/seo-banner.png"/>
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Organic Search Engine Optimization"/>
+<meta name="twitter:description" content="Organic search engine optimization  also referred to as traditional search engine optimization, is the process of enhancing your web site with the goal of increasing your visibility in the top search engines when specific keywords or phrases are searched for."/>
+<meta name="twitter:image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/seo-banner.png"/>
+
+
+
+
+
+<!--- SeoFriendly --->
+
+
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+<!-- Mobile Meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+
+<link rel="canonical" href="https://www.bluesmokedigitalandprintedmedia.com/#/SEO/OrganicSeo />
+
+
+<!-- HTML Meta Tags -->
+<title>Search Engine Friendly Web Design and Search Engine Optimization</title>
+<meta name="description" content="At Blue Smoke Digital Media, we know that a web site’s basic search engine “friendliness” should, in most cases, be part of the overall design plan for a new website. Good search engine rankings are often crucial to the goals of our clients. This is why we incorporate these fundamental techniques in our designs as a standard part of even our most affordable packages."/>
+
+<!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="Search Engine Friendly Web Design and Search Engine Optimization">
+<meta itemprop="description" content="At Blue Smoke Digital Media, we know that a web site’s basic search engine “friendliness” should, in most cases, be part of the overall design plan for a new website. Good search engine rankings are often crucial to the goals of our clients. This is why we incorporate these fundamental techniques in our designs as a standard part of even our most affordable packages."/>
+<meta itemprop="image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/seo-puzzle.png"/>
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://www.BlueSmokeDigitalAndPrintedMedia.com"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Search Engine Friendly Web Design and Search Engine Optimization">
+<meta property="og:description" content="At Blue Smoke Digital Media, we know that a web site’s basic search engine “friendliness” should, in most cases, be part of the overall design plan for a new website. Good search engine rankings are often crucial to the goals of our clients. This is why we incorporate these fundamental techniques in our designs as a standard part of even our most affordable packages."/>
+<meta property="og:image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/seo-puzzle.png"/>
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Search Engine Friendly Web Design and Search Engine Optimization"/>
+<meta name="twitter:description" content="At Blue Smoke Digital Media, we know that a web site’s basic search engine “friendliness” should, in most cases, be part of the overall design plan for a new website. Good search engine rankings are often crucial to the goals of our clients. This is why we incorporate these fundamental techniques in our designs as a standard part of even our most affordable packages."/>
+<meta name="twitter:image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/seo-puzzle.png"/>
