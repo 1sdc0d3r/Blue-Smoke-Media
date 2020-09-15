@@ -9,6 +9,7 @@ export default function OrganicSeo() {
       <img src={seoBanner} alt="seo" />
       <h2>Organic Search Engine Optimization</h2>
       <p>
+<!--         //todo link -->
         Organic search engine optimization <Link to="">(see “what is organic search and how
         it can help your company),</Link> also referred to as traditional search engine
         optimization, is the process of enhancing your web site with the goal of
