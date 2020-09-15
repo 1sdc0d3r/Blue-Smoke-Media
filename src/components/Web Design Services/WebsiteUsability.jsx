@@ -3,9 +3,8 @@ import websiteUsability from "../../images/website_design_useability.png";
 
 import { Link } from "react-router-dom";
 import {Helmet} from "react-helmet";
-//* Images
-// const websiteUsability =
-//   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/website_design_useability.png";
+
+//todo links broken here
 
 export default function WebsiteUsability() {
   return (
