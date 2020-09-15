@@ -75,9 +75,7 @@ export default function Carousel() {
                 <span className="bullet">3.</span> Improve your business'
                 product awareness.
               </p>
-              <button>
-                <Link to="/website-design/inquiry-form">Get Started Now!</Link>
-              </button>
+              <Link to="/website-design/inquiry-form">Get Started Now!</Link>
             </div>
             <div className="dots">
               <Dot slide={0} />
@@ -101,9 +99,7 @@ export default function Carousel() {
                 website! It <span>SHOULD NOT</span> be an extra cost. THAT is
                 what sets us apart from our competitors.
               </p>
-              <button>
-                <Link to="/website-design/inquiry-form">Get Started Now!</Link>
-              </button>
+              <Link to="/website-design/inquiry-form">Get Started Now!</Link>
             </div>
             <div className="dots">
               <Dot slide={0} />
