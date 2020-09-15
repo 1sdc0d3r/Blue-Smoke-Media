@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import "./style/_Main.css";
-import { Switch, Route, useLocation } from "react-router-dom";
+import { Switch, Route, useLocation, Redirect } from "react-router-dom";
 
 //* components
 import Home from "./components/Home";
@@ -111,7 +111,6 @@ function App() {
             path="/website-design/custom-website-design"
             component={CustomWebsiteDesign}
           />
-
           <Route
             path="/website-design/eCommerce-website-development"
             component={ECommerceWebsiteDevelopment}
@@ -148,12 +147,9 @@ function App() {
             component={PrintAndGraphicServices}
           />
           <Route path="/social-media" component={SocialMedia} />
-
-          {/* //todo portfolio  */}
-          {/* <Route path="/portfolio" component={Portfolio} /> */}
           <Route path="/contact" component={Contact} />
           <Route path="/plans" component={Pricing} />
-          {/* <Route component={NoMatch} /> */}
+          <Redirect to="/" />
         </Switch>
         <Footer />
       </>
