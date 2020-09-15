@@ -9,8 +9,7 @@ import help2 from "../images/help-icon-2.png";
 import help3 from "../images/help-icon-3.png";
 import Carousel from "./Carousel";
 import ReactCardFlip from "react-card-flip";
-// import socialMedia from "../images/social-media-guidelines.png";
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 const socialMedia =
   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/Now-open-video_HD720.mp4";
 
@@ -21,7 +20,6 @@ export default function Home() {
   const [card4, setCard4] = useState(false);
   return (
     <div className="home">
-
       <Carousel />
       <section className="globe">
         <p>
@@ -33,8 +31,12 @@ export default function Home() {
           <br />
           produces a growing roster of local, regional and national clients
           ranging from one-person companies, small and medium sized business to
-          non-profit organizations. Our websites are fast loading,<Link to="/seo/seoOrganic"> Organically
-          Search Engine Optimized,</Link> visually appealing, and easy to navigate.
+          non-profit organizations. Our websites are fast loading,
+          <Link to="/seo/seoOrganic">
+            {" "}
+            Organically Search Engine Optimized,
+          </Link>{" "}
+          visually appealing, and easy to navigate.
           <p>
             What do your customers see... <span>Are You SURE??</span>
           </p>
@@ -332,6 +334,74 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <Helmet>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        {/* <!-- Mobile Meta --> */}
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link
+          rel="canonical"
+          href="https://www.bluesmokedigitalandprintedmedia.com/#"
+        />
+
+        {/* <!-- HTML Meta Tags --> */}
+        <title>
+          Blue Smoke Digital and Printed Media is an online Digital company
+          specializing in Custom Designed Websites with Organic SEO built into
+          your site at NO EXTRA COST, a Digital and Printed Media company and
+          Social Media Marketing company.
+        </title>
+
+        <meta
+          name="keywords"
+          content="custom website design, website design useability, graphic design, website application, website optimization, web design, website design and development, e-commerce development, web design and development company, e-commerce website development company, web graphic design, custom web design services, best website development company, web design company near me, custom website creation"
+        />
+
+        <meta
+          name="description"
+          content="Blue Smoke Digital and Printed Media is a full-service marketing agency. We partner with clients to either supplement their in-house marketing department or serve as their full outsourced marketing department. Our areas of expertise include Website Design, Branding, Graphic Design, Online Marketing and Traditional Marketing, Social Media Marketing, and Reputation Management and Review. We are located in TN, UT, FL, NC, SC, VA, ID and WA."
+        />
+
+        {/* <!-- Google / Search Engine Tags --> */}
+        <meta
+          itemprop="name"
+          content="Blue Smoke Digital and Printed Media is an online Digital company specializing in Custom Designed Websites with Organic SEO built into your site at NO EXTRA COST, a Digital and Printed Media company and Social Media Marketing company."
+        />
+        <meta
+          itemprop="description"
+          content="Blue Smoke Digital and Printed Media is a full-service marketing agency. We partner with clients to either supplement their in-house marketing department or serve as their full outsourced marketing department. Our areas of expertise include Website Design, Branding, Graphic Design, Online Marketing and Traditional Marketing, Social Media Marketing, and Reputation Management and Review. We are located in TN, UT, FL, NC, SC, VA, ID and WA."
+        />
+        <meta itemprop="image" content="../../images/Web-Development.jpg" />
+
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta
+          property="og:url"
+          content="https://www.BlueSmokeDigitalAndPrintedMedia.com"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Blue Smoke Digital and Printed Media is an online Digital company specializing in Custom Designed Websites with Organic SEO built into your site at NO EXTRA COST, a Digital and Printed Media company and Social Media Marketing company."
+        />
+        <meta
+          property="og:description"
+          content="Blue Smoke Digital and Printed Media is a full-service marketing agency. We partner with clients to either supplement their in-house marketing department or serve as their full outsourced marketing department. Our areas of expertise include Website Design, Branding, Graphic Design, Online Marketing and Traditional Marketing, Social Media Marketing, and Reputation Management and Review. We are located in TN, UT, FL, NC, SC, VA, ID and WA."
+        />
+        <meta property="og:image" content="../../images/Web-Development.jpg" />
+
+        {/* <!-- Twitter Meta Tags --> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Blue Smoke Digital and Printed Media is an online Digital company specializing in Custom Designed Websites with Organic SEO built into your site at NO EXTRA COST, a Digital and Printed Media company and Social Media Marketing company."
+        />
+        <meta
+          name="twitter:description"
+          content="Blue Smoke Digital and Printed Media is a full-service marketing agency. We partner with clients to either supplement their in-house marketing department or serve as their full outsourced marketing department. Our areas of expertise include Website Design, Branding, Graphic Design, Online Marketing and Traditional Marketing, Social Media Marketing, and Reputation Management and Review. We are located in TN, UT, FL, NC, SC, VA, ID and WA."
+        />
+        <meta name="twitter:image" content="../../images/Web-Development.jpg" />
+      </Helmet>
     </div>
   );
 }

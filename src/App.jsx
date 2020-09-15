@@ -24,8 +24,6 @@ import SeoFriendly from "./components/SEO/SeoFriendly";
 import PrintAndGraphicServices from "./components/Graphic Design Services/PrintAndGraphicServices";
 import PrintedMediaLogos from "./components/Graphic Design Services/PrintedMediaLogos";
 import WebsiteLogoDesign from "./components/Graphic Design Services/WebsiteLogoDesign";
-// import Portfolio from "./components/Portfolio";
-import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import CTA from "./components/Header-CTA";
 import HamburgerMenu from "./components/HamburgerMenu";
@@ -113,7 +111,7 @@ function App() {
             path="/website-design/custom-website-design"
             component={CustomWebsiteDesign}
           />
-        
+
           <Route
             path="/website-design/eCommerce-website-development"
             component={ECommerceWebsiteDevelopment}

@@ -57,6 +57,7 @@ export default function Carousel() {
             <img src={slide1} alt="slide1" />
           </div>
         </Slide>
+        {/* todo buttons */}
         <Slide index={1} className="slide">
           <div className="inner-slide">
             <div className="slide-info">

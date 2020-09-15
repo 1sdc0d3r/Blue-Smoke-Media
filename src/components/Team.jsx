@@ -3,6 +3,7 @@ import React from "react";
 import team from "../data/team";
 //* Images
 import languages from "../images/Coding-Web-Development.jpg";
+import { Helmet } from "react-helmet";
 const womanStudio =
   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/graphic-design-video-MTT.mp4";
 const globeVid =
@@ -102,6 +103,73 @@ export default function Team() {
         </p>
         {teamMembers(team)}
       </section>
+      <Helmet>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        {/* <!-- Mobile Meta --> */}
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link
+          rel="canonical"
+          href="https://www.bluesmokedigitalandprintedmedia.com/#/Components/Team"
+        />
+
+        {/* <!-- HTML Meta Tags --> */}
+        <title>Meet the Team of Blue Smoke Digital and Printed Media</title>
+        <meta
+          name="description"
+          content="Blue Smoke Digital and Printed Media, a company founded in 2019, was formed by a cooperative interaction of talented individuals from a variety of disciplines, with a combined 35 years of programming, graphic design, search engine optimization, and sales experience. Each Blue Smoke Media team member is a student or graduate of Lambda School."
+        />
+
+        {/* <!-- Google / Search Engine Tags --> */}
+        <meta
+          itemprop="name"
+          content="Meet the Team of Blue Smoke Digital and Printed Media"
+        />
+        <meta
+          itemprop="description"
+          content="Blue Smoke Digital and Printed Media, a company founded in 2019, was formed by a cooperative interaction of talented individuals from a variety of disciplines, with a combined 35 years of programming, graphic design, search engine optimization, and sales experience. Each Blue Smoke Media team member is a student or graduate of Lambda School."
+        />
+        <meta
+          itemprop="image"
+          content="../../images/Coding-Web-Development.jpg"
+        />
+
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta
+          property="og:url"
+          content="https://www.BlueSmokeDigitalAndPrintedMedia.com"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Meet the Team of Blue Smoke Digital and Printed Media"
+        />
+        <meta
+          property="og:description"
+          content="Blue Smoke Digital and Printed Media, a company founded in 2019, was formed by a cooperative interaction of talented individuals from a variety of disciplines, with a combined 35 years of programming, graphic design, search engine optimization, and sales experience. Each Blue Smoke Media team member is a student or graduate of Lambda School."
+        />
+        <meta
+          property="og:image"
+          content="../../images/Coding-Web-Development.jpg"
+        />
+
+        {/* <!-- Twitter Meta Tags --> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Meet the Team of Blue Smoke Digital and Printed Media"
+        />
+        <meta
+          name="twitter:description"
+          content="Blue Smoke Digital and Printed Media, a company founded in 2019, was formed by a cooperative interaction of talented individuals from a variety of disciplines, with a combined 35 years of programming, graphic design, search engine optimization, and sales experience. Each Blue Smoke Media team member is a student or graduate of Lambda School."
+        />
+        <meta
+          name="twitter:image"
+          content="../../images/Coding-Web-Development.jpg"
+        />
+      </Helmet>
     </div>
   );
 }
