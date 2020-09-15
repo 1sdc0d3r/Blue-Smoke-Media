@@ -1,5 +1,6 @@
 import React from "react";
 import logoDesign from "../../images/Website-logo-design-services.png";
+import { Helmet } from "react-helmet";
 //* Images
 // const logoDesign =
 //   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/Website-logo-design-services.png";
@@ -39,6 +40,69 @@ export default function WebsiteLogoDesign() {
           right”.
         </p>
       </div>
+      <Helmet>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        {/* <!-- Mobile Meta --> */}
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link
+          rel="canonical"
+          href="https://www.bluesmokedigitalandprintedmedia.com/#/website-design/WebsiteLogoDesign"
+        />
+
+        {/* // <!-- HTML Meta Tags --> */}
+        <title>Website Logo Design</title>
+        <meta
+          name="description"
+          content="Blue Smoke Digital and Printed Media specializes in aesthetic, one-of-a-kind logos that say what you do. We use state-of-the-art graphics programs to translate your logo into Web formats, cutting down on “download” time as much as possible while retaining the quality of the image."
+        />
+
+        <meta
+          name="keywords"
+          content="Logo Design; Branding; Corporate Branding; Custom Logo Design; Logo; Logo Online; Company Logo; Logo design online; business logo design; custom logo; logo design knoxville; logo design firm in knoxville tn; logo design tennessee; graphic design firm tennessee; graphic design knoxville tn; custom graphic in tennessee; graphic design tennessee; graphic design knoxville; custom logo design Spokane WA; custom logo design Tampa, FL; custom logo design Ogden UT; custom logo design Tri-cities TN"
+        />
+
+        {/* <!-- Google / Search Engine Tags --> */}
+        <meta itemprop="name" content="Website Logo Design" />
+        <meta
+          itemprop="description"
+          content="Blue Smoke Digital and Printed Media specializes in aesthetic, one-of-a-kind logos that say what you do. We use state-of-the-art graphics programs to translate your logo into Web formats, cutting down on “download” time as much as possible while retaining the quality of the image."
+        />
+        <meta
+          itemprop="image"
+          content="../../images/Website-logo-design-services.png.png"
+        />
+
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta
+          property="og:url"
+          content="https://www.BlueSmokeDigitalAndPrintedMedia.com"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Website Logo Design" />
+        <meta
+          property="og:description"
+          content="Blue Smoke Digital and Printed Media specializes in aesthetic, one-of-a-kind logos that say what you do. We use state-of-the-art graphics programs to translate your logo into Web formats, cutting down on “download” time as much as possible while retaining the quality of the image."
+        />
+        <meta
+          property="og:image"
+          content="../../images/Website-logo-design-services.png.png"
+        />
+
+        {/* <!-- Twitter Meta Tags --> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Website Logo Design" />
+        <meta
+          name="twitter:description"
+          content="Blue Smoke Digital and Printed Media specializes in aesthetic, one-of-a-kind logos that say what you do. We use state-of-the-art graphics programs to translate your logo into Web formats, cutting down on “download” time as much as possible while retaining the quality of the image."
+        />
+        <meta
+          name="twitter:image"
+          content="../../images/Website-logo-design-services.png"
+        />
+      </Helmet>
     </div>
   );
 }

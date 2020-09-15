@@ -12,7 +12,7 @@ export default withRouter(function Navigation(props) {
         >
           Home
         </button>
-        <div className="dropdown-content">
+        <div className="dropdown-content home-drop">
           <div className="nav-section">
             <NavLink to="/plans" className="drop-item">
               Plans & Pricing
@@ -86,14 +86,11 @@ export default withRouter(function Navigation(props) {
                 <NavLink to="/website-design/coding" className="drop-item">
                   Coding and Programming
                 </NavLink>
-                <NavLink
-                  to="/website-design/inquiry-form"
-                  className="drop-item"
-                >
-                  Inquiry/Survey Form
-                </NavLink>
               </div>
             </div>
+            <NavLink to="/website-design/inquiry-form" className="drop-item">
+              Inquiry/Survey Form
+            </NavLink>
           </div>
           <div className="nav-section">
             <h3>Graphic Design</h3>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 export default function PrivacyPolicy() {
   return (
@@ -262,6 +263,64 @@ Based on the applicable laws of your country, you may have the right to request 
         SITE AND YOUR RELIANCE ON ANY INFORMATION ON THE SITE IS SOLELY AT YOUR
         OWN RISK.
       </pre>
+      <Helmet>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        {/* <!-- Mobile Meta --> */}
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link
+          rel="canonical"
+          href="https://www.bluesmokedigitalandprintedmedia.com/#/Team"
+        />
+
+        {/* <!-- HTML Meta Tags --> */}
+        <title>Blue Smoke Digital and Printed Media Privacy Policy</title>
+        <meta
+          name="description"
+          content="The Privacy Policy and Disclaimer of Blue Smoke Digital and Printed Media"
+        />
+
+        {/* <!-- Google / Search Engine Tags --> */}
+        <meta
+          itemprop="name"
+          content="Blue Smoke Digital and Printed Media Privacy Policy"
+        />
+        <meta
+          itemprop="description"
+          content="The Privacy Policy and Disclaimer of Blue Smoke Digital and Printed Media"
+        />
+        <meta itemprop="image" content="../../images/flame.jpg" />
+
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta
+          property="og:url"
+          content="https://www.BlueSmokeDigitalAndPrintedMedia.com"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Blue Smoke Digital and Printed Media Privacy Policy"
+        />
+        <meta
+          property="og:description"
+          content="The Privacy Policy and Disclaimer of Blue Smoke Digital and Printed Media"
+        />
+        <meta property="og:image" content="../../images/flame.jpg" />
+
+        {/* <!-- Twitter Meta Tags --> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Blue Smoke Digital and Printed Media Privacy Policy"
+        />
+        <meta
+          name="twitter:description"
+          content="The Privacy Policy and Disclaimer of Blue Smoke Digital and Printed Media"
+        />
+        <meta name="twitter:image" content="../../images/flame.jpg" />
+      </Helmet>
     </section>
   );
 }

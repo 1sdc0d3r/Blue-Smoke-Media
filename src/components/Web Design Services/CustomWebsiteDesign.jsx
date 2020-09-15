@@ -1,5 +1,6 @@
 import React from "react";
-import customDesign from "../../images/custom_website_design_image";
+import customDesign from "../../images/custom_website_design_image.png";
+import { Helmet } from "react-helmet";
 
 //* Images
 // const customDesign =
@@ -51,6 +52,79 @@ export default function CustomWebsiteDesign() {
           and a representative will contact you.
         </p>
       </div>
+      <Helmet>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        {/* <!-- Mobile Meta --> */}
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link
+          rel="canonical"
+          href="https://www.bluesmokedigitalandprintedmedia.com/#/website-design/custom-website-design"
+        />
+
+        {/* <!-- HTML Meta Tags --> */}
+        <title>How You Can Benefit from a Custom Website Design!</title>
+
+        <meta
+          name="description"
+          content="Blue Smoke Digital and Printed Media views a website as a vital asset to any company and a method to get out on the front lines of today's business battlefield. "
+        />
+
+        <meta
+          name="keywords"
+          content="custom website design, website design useability, graphic design, website application, website optimization, web design, website design and development, e-commerce development, web design and development company, e-commerce website development company, web graphic design, custom web design services, best website development company, web design company near me, custom website creation"
+        />
+
+        {/* <!-- Google / Search Engine Tags --> */}
+        <meta
+          itemprop="name"
+          content="How You Can Benefit from a Custom Website Design"
+        />
+        <meta
+          itemprop="description"
+          content="Blue Smoke Digital and Printed Media views a website as a vital asset to any company and a method to get out on the front lines of today's business battlefield. "
+        />
+        <meta
+          itemprop="image"
+          content="../../images/custom_website_design_image.jpg"
+        />
+
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta
+          property="og:url"
+          content="https://www.BlueSmokeDigitalAndPrintedMedia.com"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="How You Can Benefit from a Custom Website Design"
+        />
+        <meta
+          property="og:description"
+          content="Blue Smoke Digital and Printed Media views a website as a vital asset to any company and a method to get out on the front lines of today's business battlefield. "
+        />
+        <meta
+          property="og:image"
+          content="../../images/custom_website_design_image.jpg"
+        />
+
+        {/* <!-- Twitter Meta Tags --> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="How You Can Benefit from a Custom Website Design"
+        />
+        <meta
+          name="twitter:description"
+          content="Blue Smoke Digital and Printed Media views a website as a vital asset to any company and a method to get out on the front lines of today's business battlefield. "
+        />
+        <meta
+          name="twitter:image"
+          content="../../images/custom_website_design_image.jpg"
+        />
+      </Helmet>
     </div>
   );
 }

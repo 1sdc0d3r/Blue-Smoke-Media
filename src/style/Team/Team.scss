@@ -18,7 +18,7 @@
       text-align: center;
       margin: 1em auto 3rem;
       color: $royalBlue;
-      text-shadow: $darkBlue 2px 2px;
+      // text-shadow: $darkBlue 2px 2px;
 
       @include breakpoint(xxs, xs, s) {
         margin: 1.5rem auto;

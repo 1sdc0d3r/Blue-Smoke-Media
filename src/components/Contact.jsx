@@ -1,100 +1,139 @@
 import React, { useState } from "react";
 import * as emailjs from "emailjs-com";
-//todo finish this form
+
 export default function Contact() {
   const [data, setData] = useState({
-    company: "",
-    fName: "",
-    lName: "",
+    business: "",
+    name: "",
     email: "",
-    phone: "",
-    website: "",
-    time: "",
-    customWebDesign: false,
-    reDesignUpdate: false,
-    eCommerce: false,
-    adCopy: false,
-    webMaintenance: false,
-    seo: false,
-    printLogo: false,
-    webLogo: false,
-    blog: false,
-    printedMedia: false,
+    subject: "",
+    message: "",
+    antiSpam: null,
   });
 
   const onChangeHandler = (evt) => {
-    if (evt.target.type === "checkbox") {
-      setData({
-        ...data,
-        [evt.target.name]: !data[evt.target.name],
-      });
-    } else {
-      setData({
-        ...data,
-        [evt.target.name]: evt.target.value,
-      });
-    }
+    setData({
+      ...data,
+      [evt.target.name]: evt.target.value,
+    });
   };
 
   const onSubmitHandler = (evt) => {
     evt.preventDefault();
-    console.log(data);
-    // const templateParams = {
-    //   reply_to: data.email,
-    //   subject: "Portfolio Contact",
-    //   to_name: "Braden",
-    //   from_name: data.name,
-    //   message_html: data.message,
-    // };
 
-    //   emailjs.send(
-    //     "gmail",
-    //     "template_SswCjIcl",
-    //     templateParams,
-    //     "user_vhx6Zrv5irvL2nLhnctr5"
-    //   );
+    const templateParams = {
+      business: data.business,
+      reply_to: data.email,
+      subject: data.subject,
+      from_name: data.name,
+      message_subject: data.subject,
+      message_html: data.message,
+    };
+    if (data.antiSpam === null) {
+      emailjs.send(
+        "service_kys3ouv",
+        "template_fd7rhre",
+        templateParams,
+        "user_AKrWjfONfbrIagrKBIYq0"
+      );
+    }
 
-    resetHandler();
-  };
+    document.querySelector(".contact span").classList.add("message-sent");
+    setTimeout(() => {
+      document.querySelector(".contact span").classList.remove("message-sent");
+    }, 5000);
 
-  const resetHandler = () => {
     setData({
-      company: "",
-      fName: "",
-      lName: "",
+      business: "",
+      name: "",
       email: "",
-      phone: "",
-      website: "",
-      time: "",
-      customWebDesign: false,
-      reDesignUpdate: false,
-      eCommerce: false,
-      adCopy: false,
-      webMaintenance: false,
-      seo: false,
-      printLogo: false,
-      webLogo: false,
-      blog: false,
-      printedMedia: false,
+      subject: "",
+      message: "",
+      antiSpam: null,
     });
   };
 
   return (
-    <>
-      {" "}
-      <div className="contact">
-        <h2>Contact Us</h2>
-        <p>
-          Effective Internet marketing and Web site Design requires a staff of
-          diverse disciplines. Our full-service approach will save you time and
-          the added expense of discovering the missing pieces and hiring
-          multiple companies to collaborate. For quick answers, accurate quotes
-          and 24/7 customer service, please call{" "}
-          <a href="tel:865-274-1371">865.274.1371</a> or complete the inquiry
-          form below and we will contact you at a time and date that is
-          convenient to you.
-        </p>
-      </div>
-    </>
+    <section className="contact clicker">
+      <h2>Contact Us</h2>
+      <p>
+        Effective Internet marketing and Web site Design requires a staff of
+        diverse disciplines. Our full-service approach will save you time and
+        the added expense of discovering the missing pieces and hiring multiple
+        companies to collaborate. For quick answers, accurate quotes and 24/7
+        customer service, please call{" "}
+        <a href="tel:865-274-1371">865.274.1371</a> or complete the inquiry form
+        below and we will contact you at a time and date that is convenient to
+        you.
+      </p>
+      <span>Message sent successfully</span>
+      <form onSubmit={onSubmitHandler}>
+        <input
+          type="text"
+          name="business"
+          placeholder="Business"
+          id="business"
+          value={data.business}
+          onChange={onChangeHandler}
+          className="field"
+        />
+        <input
+          type="text"
+          name="name"
+          placeholder="Name"
+          id="name"
+          value={data.name}
+          onChange={onChangeHandler}
+          className="field"
+        />
+        <input
+          type="text"
+          name="anti-spam"
+          id="anti-spam"
+          value={data.antiSpam}
+          onChange={onChangeHandler}
+          style={{ display: "None", position: "absolute" }}
+        />
+
+        <input
+          type="text"
+          name="email"
+          placeholder="Email Address"
+          id="email"
+          value={data.email}
+          onChange={onChangeHandler}
+          className="field"
+        />
+        <input
+          type="text"
+          name="subject"
+          placeholder="Subject"
+          id="subject"
+          value={data.subject}
+          onChange={onChangeHandler}
+          className="field"
+        />
+        <textarea
+          name="message"
+          placeholder="Message"
+          id="message"
+          rows="5"
+          value={data.message}
+          onChange={onChangeHandler}
+          className="field text"
+        />
+        <input
+          className="antiSpam"
+          name="antiSpam"
+          type="text"
+          onChange={onChangeHandler}
+          value={data.antiSpam}
+          style={{ display: "none" }}
+        />
+        <div className="actions">
+          <input type="submit" value="Send Message" id="submit-btn" />
+        </div>
+      </form>
+    </section>
   );
 }

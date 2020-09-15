@@ -1,5 +1,6 @@
 import React from "react";
 import eCommerce from "../../images/E-commerce_image.png";
+import { Helmet } from "react-helmet";
 //* Images
 // const eCommerce =
 //   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/E-commerce_image.png";
@@ -48,11 +49,75 @@ export default function ECommerceWebsiteDevelopment() {
               fontStyle: "italic",
             }}
           >
-            We just don’ t want to help you sell your products; we want to help you
-            exceed expectations!
+            We just don’ t want to help you sell your products; we want to help
+            you exceed expectations!
           </span>
         </p>
       </div>
+      <Helmet>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        {/* <!-- Mobile Meta --> */}
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link
+          rel="canonical"
+          href="https://www.bluesmokedigitalandprintedmedia.com/#/website-design/eCommerce-website-development"
+        />
+
+        {/* <!-- HTML Meta Tags --> */}
+        <title>
+          E-Commerce...Build an ONLINE Store with E-commerce website design.
+        </title>
+
+        <meta
+          name="description"
+          content="Blue Smoke digital and printed Media in Knoxville, TN, UT, WA, NC, SC and ID, offer complete e-commerce solutions from online shopping systems to a wide variety of revenue processing facilities and supporting services for our customers businesses."
+        />
+
+        {/* <!-- Google / Search Engine Tags --> */}
+        <meta
+          itemprop="name"
+          content="E-Commerce...Build an ONLINE Store with E-commerce website design. "
+        />
+        <meta
+          itemprop="description"
+          content="Blue Smoke digital and printed Media in Knoxville, TN, UT, WA, NC, SC and ID, offer complete e-commerce solutions from online shopping systems to a wide variety of revenue processing facilities and supporting services for our customers businesses."
+        />
+        <meta itemprop="image" content="../../images/E-commerce_image.png" />
+
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta
+          property="og:url"
+          content="https://www.BlueSmokeDigitalAndPrintedMedia.com"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="E-Commerce...Build an ONLINE Store with E-commerce website design. "
+        />
+        <meta
+          property="og:description"
+          content="Blue Smoke digital and printed Media in Knoxville, TN, UT, WA, NC, SC and ID, offer complete e-commerce solutions from online shopping systems to a wide variety of revenue processing facilities and supporting services for our customers businesses."
+        />
+        <meta property="og:image" content="../../images/E-commerce_image.png" />
+
+        {/* <!-- Twitter Meta Tags --> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="E-Commerce...Build an ONLINE Store with E-commerce website design. "
+        />
+        <meta
+          name="twitter:description"
+          content="Blue Smoke digital and printed Media in Knoxville, TN, UT, WA, NC, SC and ID, offer complete e-commerce solutions from online shopping systems to a wide variety of revenue processing facilities and supporting services for our customers businesses."
+        />
+        <meta
+          name="twitter:image"
+          content="../../images/E-commerce_image.png"
+        />
+      </Helmet>
     </div>
   );
 }

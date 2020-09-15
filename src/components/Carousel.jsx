@@ -22,7 +22,7 @@ export default function Carousel() {
       naturalSlideHeight={45}
       totalSlides={3}
       isPlaying={true}
-      interval={4000}
+      interval={6000}
       currentSlide={0}
     >
       <Slider className="slider">
@@ -45,9 +45,9 @@ export default function Carousel() {
                 potential customers that you care, and that you're still in
                 business.
               </p>
-              <button>
-                <Link to="#">Get Started Now!</Link>
-              </button>
+              {/* <button> */}
+              <Link to="/website-design/inquiry-form">Get Started Now!</Link>
+              {/* </button> */}
             </div>
             <div className="dots">
               <Dot slide={0} />
@@ -57,6 +57,7 @@ export default function Carousel() {
             <img src={slide1} alt="slide1" />
           </div>
         </Slide>
+        {/* todo buttons */}
         <Slide index={1} className="slide">
           <div className="inner-slide">
             <div className="slide-info">
@@ -74,9 +75,7 @@ export default function Carousel() {
                 <span className="bullet">3.</span> Improve your business'
                 product awareness.
               </p>
-              <button>
-                <Link to="#">Get Started Now!</Link>
-              </button>
+              <Link to="/website-design/inquiry-form">Get Started Now!</Link>
             </div>
             <div className="dots">
               <Dot slide={0} />
@@ -100,9 +99,7 @@ export default function Carousel() {
                 website! It <span>SHOULD NOT</span> be an extra cost. THAT is
                 what sets us apart from our competitors.
               </p>
-              <button>
-                <Link to="#">Get Started Now!</Link>
-              </button>
+              <Link to="/website-design/inquiry-form">Get Started Now!</Link>
             </div>
             <div className="dots">
               <Dot slide={0} />

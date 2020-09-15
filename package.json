@@ -10,6 +10,10 @@
     "@testing-library/react": "9.5.0",
     "@testing-library/user-event": "7.2.1",
     "axios": "0.19.2",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
     "emailjs-com": "2.4.1",
     "express": "4.17.1",
     "file-loader": "6.0.0",
@@ -26,13 +30,17 @@
     "uikit": "^3.5.7",
     "url-loader": "4.1.0"
   },
+  "devDependencies": {
+    "css-loader": "^4.3.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "ssr": "node server/index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "ngrok": "/Users/Braden/Documents/Programming/utils/ngrok http 3000",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "sitemap": "node ./src/sitemap-builder.js"
   },
   "eslintConfig": {
     "extends": "react-app"

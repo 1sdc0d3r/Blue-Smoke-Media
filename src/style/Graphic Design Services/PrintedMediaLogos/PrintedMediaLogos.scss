@@ -20,6 +20,7 @@
   }
 
   h1 {
+    color: $royalBlue;
     @include breakpoint(l) {
       margin: 1.1em auto;
     }

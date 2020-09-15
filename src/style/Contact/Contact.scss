@@ -1,10 +1,10 @@
 @import "../Utils/Mixins/Mixins.scss";
 
+// .page-wrapper {
 .contact {
   height: 100%;
   width: 90%;
   margin: auto;
-
   h2 {
     margin-top: 1.2em;
     color: $darkBlue;
@@ -14,4 +14,63 @@
     font-style: italic;
     margin: 1em auto 3em;
   }
+  span {
+    visibility: hidden;
+    position: absolute;
+  }
+  .message-sent {
+    visibility: visible;
+    position: relative;
+    width: 100%;
+    padding: 0 0.25em;
+    margin: 0 auto;
+    transition: 700ms ease-in-out all;
+    background: lightgreen;
+    border: 2px solid green;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 2em auto;
+    @include breakpoint(xxs, xs, s, m) {
+      margin: 0 auto 1em;
+      width: 100%;
+    }
+
+    .field {
+      font-size: 1em;
+      line-height: 1.5em;
+      margin-bottom: 1em;
+
+      @include breakpoint(xxs, xs, s, m) {
+        font-size: 0.9em;
+        margin-bottom: 0.5em;
+      }
+    }
+
+    #submit-btn {
+      font-family: "Roboto", sans-serif;
+      font-size: 1em;
+      background: $orange;
+      color: $darkBlue;
+      border: 2px outset $darkBlue;
+      border-radius: 0.25em;
+      @include breakpoint(xxs, xs) {
+        font-size: 0.9em;
+      }
+    }
+  }
+
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    margin: 0.2em auto 1.8em;
+
+    @include breakpoint(xxs, xs, s) {
+      width: 40%;
+    }
+  }
 }
+// }
