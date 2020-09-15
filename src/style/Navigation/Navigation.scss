@@ -66,6 +66,9 @@
       background: #020723;
       padding: 0.15em 0.65em 0.5em;
       opacity: 0.9;
+      width: -webkit-min-content;
+      width: -moz-min-content;
+      width: min-content;
       width: 60vw;
       box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
       justify-content: space-between;
@@ -78,7 +81,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 25%;
 
         &:nth-child(2) {
           width: 50%;
@@ -101,29 +103,32 @@
           text-decoration: underline;
           margin-bottom: 0.25em;
         }
+      }
+      .drop-item {
+        float: none;
+        color: $white;
+        padding: 0.5em 1em;
+        margin: 0.2em;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        font-size: 0.85em;
+        font-weight: inherit;
+        min-width: -webkit-min-content;
+        min-width: -moz-min-content;
+        min-width: min-content;
 
-        .drop-item {
-          float: none;
-          color: $white;
-          padding: 0.5em 1em;
-          margin: 0.1em;
-          text-decoration: none;
-          display: block;
-          text-align: center;
-          font-size: 0.85em;
-          font-weight: inherit;
-          min-width: -webkit-min-content;
-          min-width: -moz-min-content;
-          min-width: min-content;
-          // width: 5em;
-
-          &:hover {
-            color: $orange;
-            transform: scale(1.15);
-            transition: ease-in-out 200ms;
-          }
+        &:hover {
+          color: $orange;
+          transform: scale(1.15);
+          transition: ease-in-out 200ms;
         }
       }
+    }
+    .home-drop {
+      width: -webkit-min-content;
+      width: -moz-min-content;
+      width: min-content;
     }
   }
 }
