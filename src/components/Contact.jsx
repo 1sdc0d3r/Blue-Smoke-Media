@@ -29,8 +29,7 @@ export default function Contact() {
       message_subject: data.subject,
       message_html: data.message,
     };
-
-    if (!data.antiSpam) {
+    if (data.antiSpam === null) {
       emailjs.send(
         "service_kys3ouv",
         "template_fd7rhre",
@@ -129,6 +128,7 @@ export default function Contact() {
           type="text"
           onChange={onChangeHandler}
           value={data.antiSpam}
+          style={{ display: "none" }}
         />
         <div className="actions">
           <input type="submit" value="Send Message" id="submit-btn" />

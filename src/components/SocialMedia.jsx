@@ -1,10 +1,15 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import SocialMediaImg from "../images/High Quality Social Media Services_Social Account Boost_Boost Your Social Media Accounts.png";
 
 export default function SocialMedia() {
   return (
     <>
       <section className="social-media">
+        <img
+          src={SocialMediaImg}
+          alt="High Quality Social Media Services_Social Account Boost_Boost Your Social Media Accounts"
+        />
         <h1>
           {" "}
           Social Media: Why It Is 100% Essential (and How to Use It Well).

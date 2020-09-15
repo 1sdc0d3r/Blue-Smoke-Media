@@ -5,6 +5,11 @@
   text-align: justify;
 }
 
+.social-media img {
+  height: 40vw;
+  width: 100%;
+}
+
 .social-media h1 {
   text-align: center;
   font-size: 1.75em;

@@ -22,7 +22,7 @@ export default function Contact() {
     webLogo: false,
     blog: false,
     printedMedia: false,
-    antiSpam: "",
+    antiSpam: null,
   });
 
   const onChangeHandler = (evt) => {
@@ -60,7 +60,7 @@ export default function Contact() {
       printedMedia: data.printedMedia,
     };
 
-    if (!data.antiSpam) {
+    if (data.antiSpam === null) {
       emailjs.send(
         "service_kys3ouv",
         "template_x9c27y2",
