@@ -26,10 +26,12 @@
     "react-helmet": "^6.1.0",
     "react-payment-icons": "^1.2.6",
     "react-router-dom": "5.1.2",
-    "react-router-sitemap": "^1.2.0",
     "react-scripts": "3.4.1",
     "uikit": "^3.5.7",
     "url-loader": "4.1.0"
+  },
+  "devDependencies": {
+    "css-loader": "^4.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -37,7 +39,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "ngrok": "/Users/Braden/Documents/Programming/utils/ngrok http 3000",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "sitemap": "node ./src/sitemap-builder.js"
   },
   "eslintConfig": {
     "extends": "react-app"

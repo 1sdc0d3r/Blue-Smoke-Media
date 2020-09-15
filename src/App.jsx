@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./style/_Main.css";
+// import "./style/_Main.css";
 import { Switch, Route, useLocation, Redirect } from "react-router-dom";
 
 //* components
@@ -28,10 +28,8 @@ import Contact from "./components/Contact";
 import CTA from "./components/Header-CTA";
 import HamburgerMenu from "./components/HamburgerMenu";
 // * Media
-import landingVideo from "./videos/LandingPageVideo.mp4";
 import PrivacyPolicy from "./components/privacy";
 import Pricing from "./components/Pricing";
-import ContactBtn from "./components/Utils/contact-btn";
 import circleX from "./images/circle-X.png";
 //todo learn E-Commerce
 function App() {
