@@ -76,7 +76,7 @@ export default function Home() {
                   <p>
                     Custom website design is a process because so much goes into
                     it, but businesses get a lot more out of it over the long
-                    term. Custom-made websites look better, do more, and
+                    term. <Link to="/website-design/custom-website-design"> Custom-made websites </Link> look better, do more, and
                     accomplish specific business goals.
                   </p>
                 </div>
@@ -95,7 +95,7 @@ export default function Home() {
                 <div className="service-card-back">
                   <h3>Search Engine Optimization (SEO)</h3>
                   <p>
-                    Making a website SEO friendly means that Google and other
+                    Making a website <link to="/seo/Friendly">SEO friendly </link>means that Google and other
                     search engines can crawl each page on the website
                     efficiently, interpret the content effectively, and index it
                     in their database. Once indexed, they can then serve the
@@ -120,9 +120,9 @@ export default function Home() {
                 <div className="service-card-back">
                   <h3>Digital and Printed Graphic Design</h3>
                   <p>
-                    The question of engagement in digital and printed design is
+                    The question of engagement in <link to="/graphic-design/digital-and-print-graphic-design">digital and printed design</link> is
                     oriented mostly around how and where a viewer will encounter
-                    the work. The Blue Smoke Media team, are responsible for the
+                    the work. The Blue Smoke Media <Link to="/team">team,</Link> are responsible for the
                     design and layout of interactive and printed informational
                     materials such as:{"  "}
                     <span>
@@ -148,7 +148,7 @@ export default function Home() {
                   <p>
                     It’s crucial you determine which platforms you’re going to
                     share your content on. There’s not necessarily a right or
-                    wrong answer when it comes to which social channels your
+                    wrong answer when it comes to which <Link to="/social-media">social media</Link>channels your
                     business should use — it’s more about the needs of your
                     target audience and where they tend to spend their time.
                   </p>
@@ -240,8 +240,8 @@ export default function Home() {
             More than 28% of users from four major social media platforms engage
             with live streams each month on any one of these services. “Video is
             the hottest platform on the planet right now and the cheapest to
-            distribute through social media,” said Matt Johnson, CEO, and
-            Founder of Guide Social, an exclusive video marketing agency that
+            distribute through social media,” said <Link to="https://www.mattjohnstononline.com/">Matt Johnson, CEO, and
+            Founder</Link> of Guide Social, an exclusive video marketing agency that
             experienced a 400 percent growth spurt in the last six months. “A
             reminder to brands, video does NOT have to be expensively produced
             to be effective.”
@@ -257,6 +257,7 @@ export default function Home() {
         <video
           title="Social-Media-Vid"
           id="sm-video"
+          alt="Video of Services by Blue Smoke Digital and Printed Media"
           type="video/mp4"
           src={socialMedia}
           preload="auto"
@@ -325,7 +326,7 @@ export default function Home() {
               <br />
               <br />
               We interact with friends, family, and colleagues largely through
-              text messages, email, and social media, where perception and
+              text messages, email, and <Link to="/social-media">social media</Link>, where perception and
               reality are often confused. So both digital and in-person first
               impressions are critical!
             </p>
