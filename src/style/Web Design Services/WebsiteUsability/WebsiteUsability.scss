@@ -20,6 +20,7 @@
     h1 {
       text-align: center;
       margin: 1.45em auto;
+      color: $royalBlue;
 
       @include breakpoint(xxs, xs, s) {
         margin: 1em auto;

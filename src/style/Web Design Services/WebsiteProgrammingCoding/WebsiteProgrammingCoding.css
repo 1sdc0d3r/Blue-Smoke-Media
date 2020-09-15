@@ -38,8 +38,9 @@
   font-weight: bold;
 }
 
-.website-programming-coding .content h2 {
-  padding-left: 1em;
+.website-programming-coding .content h1 {
+  text-align: center;
+  color: #04227a;
 }
 
 .website-programming-coding .content ul {

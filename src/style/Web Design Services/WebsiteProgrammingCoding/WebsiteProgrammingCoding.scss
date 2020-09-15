@@ -22,11 +22,9 @@
       font-weight: bold;
     }
 
-    h2 {
-      padding-left: 1em;
-      //  @include breakpoint(l) {
-
-      //  }
+    h1 {
+      text-align: center;
+      color: $royalBlue;
     }
 
     ul {
