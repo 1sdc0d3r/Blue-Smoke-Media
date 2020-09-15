@@ -48,7 +48,7 @@ export default function ECommerceWebsiteDevelopment() {
               fontStyle: "italic",
             }}
           >
-            We just don’ t want to help you sell product, we want to help you
+            We just don’ t want to help you sell your products; we want to help you
             exceed expectations!
           </span>
         </p>

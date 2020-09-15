@@ -10,6 +10,7 @@ import help3 from "../images/help-icon-3.png";
 import Carousel from "./Carousel";
 import ReactCardFlip from "react-card-flip";
 // import socialMedia from "../images/social-media-guidelines.png";
+import {Helmet} from "react-helmet";
 const socialMedia =
   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/Now-open-video_HD720.mp4";
 
@@ -20,6 +21,7 @@ export default function Home() {
   const [card4, setCard4] = useState(false);
   return (
     <div className="home">
+
       <Carousel />
       <section className="globe">
         <p>
@@ -31,8 +33,8 @@ export default function Home() {
           <br />
           produces a growing roster of local, regional and national clients
           ranging from one-person companies, small and medium sized business to
-          non-profit organizations. Our websites are fast loading, Organically
-          Search Engine Optimized, visually appealing, and easy to navigate.
+          non-profit organizations. Our websites are fast loading,<Link to="/seo/seoOrganic"> Organically
+          Search Engine Optimized,</Link> visually appealing, and easy to navigate.
           <p>
             What do your customers see... <span>Are You SURE??</span>
           </p>
