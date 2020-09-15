@@ -234,13 +234,13 @@ export default function Footer() {
                 <img src={twitter} alt="Twitter Social Media Button" />
               </a>
             </li>
-            <li>
-              {/* //todo google link here */}
+            {/* <li>
+              //todo google link here 
               <a href="https://google.com/" target="_blank">
                 {chevron}
                 <img src={googleReview} alt="Google Social Media Button" />
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </footer>

@@ -251,7 +251,7 @@ export default function Home() {
             coexist with devices.
           </p>
           {/* //todo link */}
-          <Link>Learn More</Link>
+          <Link to="/social-media">Learn More</Link>
         </div>
         {/* <img src={socialMedia} alt="social media globe" /> */}
         <video
@@ -260,9 +260,7 @@ export default function Home() {
           type="video/mp4"
           src={socialMedia}
           preload="auto"
-          // autoPlay
           loading="lazy"
-          // loop
           onClick={() => {
             const smVideo = document.getElementById("sm-video");
             smVideo.paused ? smVideo.play() : smVideo.pause();

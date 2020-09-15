@@ -29,6 +29,7 @@ import CTA from "./components/Header-CTA";
 import HamburgerMenu from "./components/HamburgerMenu";
 // * Media
 import PrivacyPolicy from "./components/privacy";
+import Article from "./components/Article";
 import Pricing from "./components/Pricing";
 import circleX from "./images/circle-X.png";
 //todo learn E-Commerce
@@ -48,28 +49,9 @@ function App() {
       document.querySelector(".covid-banner").style.display = "none";
     }
   }, [pathname]);
-  console.log(useLocation().pathname);
+  // console.log(useLocation().pathname);
   return (
     <div className="App" style={{ position: "relative" }}>
-      {/* {isPlaying ? (
-        <video
-          type={"video/mp4"}
-          src={landingVideo}
-          preload={"auto"}
-          muted={true}
-          autoPlay
-          onEnded={() => {
-            setIsPlaying(false);
-            localStorage.setItem(
-              "landingVideo",
-              JSON.stringify({
-                value: true,
-                expiration: new Date().getTime() + videoPlayDelay,
-              })
-            );
-          }}
-        ></video>
-      ) : ( */}
       <>
         <header>
           <p className="covid-banner">
@@ -147,32 +129,22 @@ function App() {
           <Route path="/social-media" component={SocialMedia} />
           <Route path="/contact" component={Contact} />
           <Route path="/plans" component={Pricing} />
+          <Route path="/article/:id" component={Article} />
           <Redirect to="/" />
         </Switch>
         <Footer />
       </>
-      {/* )} */}
     </div>
   );
 }
 
-// function NoMatch({ location }) {
-//   return (
-//     <div className="error 404">
-//       <h3>
-//         404 No match for <code> {location.pathname} </code>
-//       </h3>
-//     </div>
-//   );
+// function getStorage() {
+//   const item = JSON.parse(localStorage.getItem("landingVideo"));
+//   // console.log(item.expiration, new Date().getTime());
+//   if (!item || item.expiration < new Date().getTime()) {
+//     return true;
+//   }
+//   return false;
 // }
-
-function getStorage() {
-  const item = JSON.parse(localStorage.getItem("landingVideo"));
-  // console.log(item.expiration, new Date().getTime());
-  if (!item || item.expiration < new Date().getTime()) {
-    return true;
-  }
-  return false;
-}
 
 export default App;
