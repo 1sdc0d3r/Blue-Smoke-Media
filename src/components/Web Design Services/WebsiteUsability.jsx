@@ -7,9 +7,9 @@ import websiteUsability from "../../images/website_design_useability.png";
 export default function WebsiteUsability() {
   return (
     <div className="website-usability page-wrapper">
-      <img src={websiteUsability} alt="this is the SEO" />
+      <img src={websiteUsability} alt="Useability Equal Sales" />
       <div className="content">
-        <h1>Creating Your Website</h1>
+        <h1>Website Useability to Equal Sales</h1>
         <p>
           At <span>Blue Smoke Digital Media,</span> we take website usability
           seriously. Your website is an investment that should benefit you and

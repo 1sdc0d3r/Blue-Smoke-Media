@@ -236,6 +236,8 @@ HOME
 <title>Website Logo Design</title>
 <meta name="description" content="Blue Smoke Digital and Printed Media specializes in aesthetic, one-of-a-kind logos that say what you do. We use state-of-the-art graphics programs to translate your logo into Web formats, cutting down on “download” time as much as possible while retaining the quality of the image.">
 
+<meta name="keywords" content= "Logo Design; Branding; Corporate Branding; Custom Logo Design; Logo; Logo Online; Company Logo; Logo design online; business logo design; custom logo; logo design knoxville; logo design firm in knoxville tn; logo design tennessee; graphic design firm tennessee; graphic design knoxville tn; custom graphic in tennessee; graphic design tennessee; graphic design knoxville; custom logo design Spokane WA; custom logo design Tampa, FL; custom logo design Ogden UT; custom logo design Tri-cities TN"></meta>
+
 <!-- Google / Search Engine Tags -->
 <meta itemprop="name" content="Website Logo Design"/>
 <meta itemprop="description" content="Blue Smoke Digital and Printed Media specializes in aesthetic, one-of-a-kind logos that say what you do. We use state-of-the-art graphics programs to translate your logo into Web formats, cutting down on “download” time as much as possible while retaining the quality of the image."/>
@@ -273,10 +275,10 @@ HOME
 
 <!-- HTML Meta Tags -->
 <title>Organic Search Engine Optimization</title>
-<meta name="description" content="Organic search engine optimization also referred to as traditional search engine
-optimization, is the process of enhancing your web site with the goal of
-increasing your visibility in the top search engines when specific keywords
-or phrases are searched for."/>
+<meta name="description" content="Organic search engine optimization also referred to as traditional search engine optimization, is the process of enhancing your web site with the goal of
+increasing your visibility in the top search engines when specific keywords or phrases are searched for."/>
+
+<meta name="keywords" content="social media marketing strategy, smm marketing, digital and social media marketing, social marketing agency, digital marketing solution service, digital marketing service, digital marketing company, digital marketing strategy, internet marketing, social media marketing agency, online marketing agency, content marketing agency, best digital marketing agency, top digital marketing agencies, web marketing agency, sms marketing, digital ad agency, digital marketing advertising, seo and digital marketing, online digital marketing agency, online media marketing, corporate digital marketing, online and social media marketing, digital marketing online marketing"></meta>
 
 <!-- Google / Search Engine Tags -->
 <meta itemprop="name" content="Organic Search Engine Optimization"/>
@@ -323,6 +325,8 @@ or phrases are searched for."/>
 <title>Search Engine Friendly Web Design and Search Engine Optimization</title>
 <meta name="description" content="At Blue Smoke Digital Media, we know that a web site’s basic search engine “friendliness” should, in most cases, be part of the overall design plan for a new website. Good search engine rankings are often crucial to the goals of our clients. This is why we incorporate these fundamental techniques in our designs as a standard part of even our most affordable packages."/>
 
+<meta name="keywords" content="social media marketing strategy, smm marketing, digital and social media marketing, social marketing agency, digital marketing solution service, digital marketing service, digital marketing company, digital marketing strategy, internet marketing, social media marketing agency, online marketing agency, content marketing agency, best digital marketing agency, top digital marketing agencies, web marketing agency, sms marketing, digital ad agency, digital marketing advertising, seo and digital marketing, online digital marketing agency, online media marketing, corporate digital marketing, online and social media marketing, digital marketing online marketing"></meta>
+
 <!-- Google / Search Engine Tags -->
 <meta itemprop="name" content="Search Engine Friendly Web Design and Search Engine Optimization">
 <meta itemprop="description" content="At Blue Smoke Digital Media, we know that a web site’s basic search engine “friendliness” should, in most cases, be part of the overall design plan for a new website. Good search engine rankings are often crucial to the goals of our clients. This is why we incorporate these fundamental techniques in our designs as a standard part of even our most affordable packages."/>
@@ -340,3 +344,225 @@ or phrases are searched for."/>
 <meta name="twitter:title" content="Search Engine Friendly Web Design and Search Engine Optimization"/>
 <meta name="twitter:description" content="At Blue Smoke Digital Media, we know that a web site’s basic search engine “friendliness” should, in most cases, be part of the overall design plan for a new website. Good search engine rankings are often crucial to the goals of our clients. This is why we incorporate these fundamental techniques in our designs as a standard part of even our most affordable packages."/>
 <meta name="twitter:image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/seo-puzzle.png"/>
+
+
+<!--- Website Maint --->
+
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+<!-- Mobile Meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+
+<link rel="canonical" href="https://www.bluesmokedigitalandprintedmedia.com/#/Web Design Services/WebMaintenance />
+
+
+<!-- HTML Meta Tags -->
+<title>Website Maintenance Agreements</title>
+<meta name="description" content="Blue Smoke Digital and Printed Media, provides maintenance agreements to fit your specific maintenance needs, offering comprehensive website maintenance solutions to maintain your website."/>
+
+<!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="Website Maintenance Agreements"/>
+<meta itemprop="description" content="Blue Smoke Digital and Printed Media, provides maintenance agreements to fit your specific maintenance needs, offering comprehensive website maintenance solutions to maintain your website."/>
+<meta itemprop="image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/website-maintance.png"/>
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://www.BlueSmokeDigitalAndPrintedMedia.com"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Website Maintenance Agreements"/>
+<meta property="og:description" content="Blue Smoke Digital and Printed Media, provides maintenance agreements to fit your specific maintenance needs, offering comprehensive website maintenance solutions to maintain your website."/>
+<meta property="og:image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/website-maintance.png"/>
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Website Maintenance Agreements"/>
+<meta name="twitter:description" content="Blue Smoke Digital and Printed Media, provides maintenance agreements to fit your specific maintenance needs, offering comprehensive website maintenance solutions to maintain your website."/>
+<meta name="twitter:image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/website-maintance.png"/>
+
+<!--- Website Coding and Programming--->
+
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+<!-- Mobile Meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+
+<link rel="canonical" href="https://www.bluesmokedigitalandprintedmedia.com/#/Web Design Services/WebsiteProgramingCoding />
+
+
+<!-- HTML Meta Tags -->
+<title>Coding and Web Programming</title>
+<meta name="description" content="Blue Smoke Digital Media, will match your business needs with the most appropriate Web technology, and then we develop it for you and give you the code. We can automate recurring tasks that you have to pay employees to do, freeing them up to produce and sell more."/>
+
+<meta name="keywords" content="coding web development,  web coding, python web programming, java web programming, web design coding, full stack coding, back end web programming, web design and coding, web developer coding, web page development using html, creating a website with javascript, creating a website using html css and javascript"></meta>
+
+
+<!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="Coding and Web Programming"/>
+<meta itemprop="description" content="Blue Smoke Digital Media, will match your business needs with the most appropriate Web technology, and then we develop it for you and give you the code. We can automate recurring tasks that you have to pay employees to do, freeing them up to produce and sell more."/>
+<meta itemprop="image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/programming_coding.png"/>
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://www.BlueSmokeDigitalAndPrintedMedia.com"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Coding and Web Programming"/>
+<meta property="og:description" content="Blue Smoke Digital Media, will match your business needs with the most appropriate Web technology, and then we develop it for you and give you the code. We can automate recurring tasks that you have to pay employees to do, freeing them up to produce and sell more."/>
+<meta property="og:image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/programming_coding.png"/>
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Coding and Web Programming"/>
+<meta name="twitter:description" content="Blue Smoke Digital Media, will match your business needs with the most appropriate Web technology, and then we develop it for you and give you the code. We can automate recurring tasks that you have to pay employees to do, freeing them up to produce and sell more."/>
+<meta name="twitter:image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/programming_coding.png"/>
+
+
+
+
+<!--- Web Useability --->
+
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+<!-- Mobile Meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+
+<link rel="canonical" href="https://www.bluesmokedigitalandprintedmedia.com/#/Web Design Services/WebsiteUseability />
+
+
+<!-- HTML Meta Tags -->
+<title>Website Useability to Equal Sales</title>
+<meta name="description" content="Your website is an investment that should benefit you and your company by helping your visitors find what they’re looking for. In addition to ensuring that your website is clear and easy to use, we’ll address issues of necessary information, speed of download, how information “flows” through your site, and more ."/>
+
+<!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="Website Useability to Equal Sales"/>
+<meta itemprop="description" content="Your website is an investment that should benefit you and your company by helping your visitors find what they’re looking for. In addition to ensuring that your website is clear and easy to use, we’ll address issues of necessary information, speed of download, how information “flows” through your site, and more ."/>
+<meta itemprop="image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/website_design_useability.png"/>
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://www.BlueSmokeDigitalAndPrintedMedia.com"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Website Useability to Equal Sales"/>
+<meta property="og:description" content="Your website is an investment that should benefit you and your company by helping your visitors find what they’re looking for. In addition to ensuring that your website is clear and easy to use, we’ll address issues of necessary information, speed of download, how information “flows” through your site, and more ."/>
+<meta property="og:image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/website_design_useability.png"/>
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Website Useability to Equal Sales"/>
+<meta name="twitter:description" content="Your website is an investment that should benefit you and your company by helping your visitors find what they’re looking for. In addition to ensuring that your website is clear and easy to use, we’ll address issues of necessary information, speed of download, how information “flows” through your site, and more ."/>
+<meta name="twitter:image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/website_design_useability.png"/>
+
+
+
+
+<!--- Social Media --->
+
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+<!-- Mobile Meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+
+<link rel="canonical" href="https://www.bluesmokedigitalandprintedmedia.com/#/Components/SocialMedia />
+
+
+<!-- HTML Meta Tags -->
+<title> Social Media: Why It Is 100% Essential (and How to Use It Well).</title>
+<meta name="description" content="Social Media can be a valuable tool as profiles can provide general information and updates about your business. Business can interact and engage with current and future clients in a community like setting. Your business’ social profiles can also help improve your organic SEO for your website."/>
+
+
+<meta name="keywords" content="social media marketing strategy, smm marketing, digital and social media marketing, social marketing agency, digital marketing solution service, digital marketing service, digital marketing company, digital marketing strategy, internet marketing, social media marketing agency, online marketing agency, content marketing agency, best digital marketing agency, top digital marketing agencies, web marketing agency, sms marketing, digital ad agency, digital marketing advertising, seo and digital marketing, online digital marketing agency, online media marketing, corporate digital marketing, online and social media marketing, digital marketing online marketing"></meta>
+
+<!-- Google / Search Engine Tags -->
+<meta itemprop="name" content=" Social Media: Why It Is 100% Essential (and How to Use It Well)."/>
+<meta itemprop="description" content="Social Media can be a valuable tool as profiles can provide general information and updates about your business. Business can interact and engage with current and future clients in a community like setting. Your business’ social profiles can also help improve your organic SEO for your website."/>
+<meta itemprop="image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/High Quality Social Media Services_Social Account Boost_Boost Your Social Media Accounts.png"/>
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://www.BlueSmokeDigitalAndPrintedMedia.com"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content=" Social Media: Why It Is 100% Essential (and How to Use It Well)."/>
+<meta property="og:description" content="Social Media can be a valuable tool as profiles can provide general information and updates about your business. Business can interact and engage with current and future clients in a community like setting. Your business’ social profiles can also help improve your organic SEO for your website."/>
+<meta property="og:image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/High Quality Social Media Services_Social Account Boost_Boost Your Social Media Accounts.png"/>
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content=" Social Media: Why It Is 100% Essential (and How to Use It Well)."/>
+<meta name="twitter:description" content="Social Media can be a valuable tool as profiles can provide general information and updates about your business. Business can interact and engage with current and future clients in a community like setting. Your business’ social profiles can also help improve your organic SEO for your website."/>
+<meta name="twitter:image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/High Quality Social Media Services_Social Account Boost_Boost Your Social Media Accounts.png"/>
+
+
+
+
+<!--- TEAM--->
+
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+<!-- Mobile Meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+
+<link rel="canonical" href="https://www.bluesmokedigitalandprintedmedia.com/#/Components/Team />
+
+
+<!-- HTML Meta Tags -->
+<title>Meet the Team of Blue Smoke Digital and Printed Media</title>
+<meta name="description" content="Blue Smoke Digital and Printed Media, a company founded in 2019, was formed by a cooperative interaction of talented individuals from a variety of disciplines, with a combined 35 years of programming, graphic design, search engine optimization, and sales experience. Each Blue Smoke Media team member is a student or graduate of Lambda School."/>
+
+<!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="Meet the Team of Blue Smoke Digital and Printed Media"/>
+<meta itemprop="description" content="Blue Smoke Digital and Printed Media, a company founded in 2019, was formed by a cooperative interaction of talented individuals from a variety of disciplines, with a combined 35 years of programming, graphic design, search engine optimization, and sales experience. Each Blue Smoke Media team member is a student or graduate of Lambda School."/>
+<meta itemprop="image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/Coding-Web-Development.jpg"/>
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://www.BlueSmokeDigitalAndPrintedMedia.com"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Meet the Team of Blue Smoke Digital and Printed Media"/>
+<meta property="og:description" content="Blue Smoke Digital and Printed Media, a company founded in 2019, was formed by a cooperative interaction of talented individuals from a variety of disciplines, with a combined 35 years of programming, graphic design, search engine optimization, and sales experience. Each Blue Smoke Media team member is a student or graduate of Lambda School."/>
+<meta property="og:image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/Coding-Web-Development.jpg"/>
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Meet the Team of Blue Smoke Digital and Printed Media"/>
+<meta name="twitter:description" content="Blue Smoke Digital and Printed Media, a company founded in 2019, was formed by a cooperative interaction of talented individuals from a variety of disciplines, with a combined 35 years of programming, graphic design, search engine optimization, and sales experience. Each Blue Smoke Media team member is a student or graduate of Lambda School."/>
+<meta name="twitter:image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/Coding-Web-Development.jpg"/>
+
+
+<!--- Privacy Policy --->
+
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+<!-- Mobile Meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+
+<link rel="canonical" href="https://www.bluesmokedigitalandprintedmedia.com/#/Components/Team />
+
+
+
+<!-- HTML Meta Tags -->
+<title>Blue Smoke Digital and Printed Media Privacy Policy</title>
+<meta name="description" content="The Privacy Policy and Disclaimer of Blue Smoke Digital and Printed Media"/>
+
+<!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="Blue Smoke Digital and Printed Media Privacy Policy"/>
+<meta itemprop="description" content="The Privacy Policy and Disclaimer of Blue Smoke Digital and Printed Media"/>
+<meta itemprop="image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/flame.jpg"/>
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://www.BlueSmokeDigitalAndPrintedMedia.com"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Blue Smoke Digital and Printed Media Privacy Policy"/>
+<meta property="og:description" content="The Privacy Policy and Disclaimer of Blue Smoke Digital and Printed Media">
+<meta property="og:image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/flame.jpg"/>
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Blue Smoke Digital and Printed Media Privacy Policy"/>
+<meta name="twitter:description" content="The Privacy Policy and Disclaimer of Blue Smoke Digital and Printed Media"/>
+<meta name="twitter:image" content="https://www.BlueSmokeDigitalAndPrintedMedia.com/images/flame.jpg"/>

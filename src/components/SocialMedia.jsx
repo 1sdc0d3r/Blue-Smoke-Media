@@ -3,7 +3,7 @@ import React from "react";
 export default function SocialMedia() {
   return (
     <section className="social-media">
-      <h1> Social Media: What is and why you should use it!</h1>
+      <h1>  Social Media: Why It Is 100% Essential (and How to Use It Well).</h1>
       <p>
         Social media is a form of electronic communication designed to let
         people share content quickly, efficiently, and in real-time. While many
