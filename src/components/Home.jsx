@@ -12,7 +12,7 @@ import ReactCardFlip from "react-card-flip";
 import { Helmet } from "react-helmet";
 const socialMedia =
   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/Now-open-video_HD720.mp4";
-
+//LINKS
 export default function Home() {
   const [card1, setCard1] = useState(false);
   const [card2, setCard2] = useState(false);
