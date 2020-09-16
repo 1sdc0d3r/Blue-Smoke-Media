@@ -18,9 +18,9 @@ export default function CustomWebsiteDesign() {
         <p>
           Your custom website design must represent you well while appealing
           effectively to your customers. Your website will be designed to rank
-          well in <Link to="/article/5">search engines</Link> increasing your exposure and attracting
-          interested potential customers to your website, giving you these
-          benefits:
+          well in <Link to="/article/5">search engines</Link> increasing your
+          exposure and attracting interested potential customers to your
+          website, giving you these benefits:
         </p>
         <ol>
           <li>Looks professional and represents your company well.</li>
@@ -36,8 +36,8 @@ export default function CustomWebsiteDesign() {
           <li>Has forms, shopping carts and databases where needed.</li>
           <li>
             Increases your exposure and attracts interested potential customers
-            through built-in <link to="/seo/seoOrganic" >SEO techniques</link> designed for high search engine
-            rankings.
+            through built-in <Link to="/seo/seoOrganic">SEO techniques</Link>{" "}
+            designed for high search engine rankings.
           </li>
         </ol>
         <p>

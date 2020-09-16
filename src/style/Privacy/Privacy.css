@@ -1,36 +1,36 @@
-section {
+.privacy {
   text-align: left;
   margin: 0 3em 3em;
 }
 
-section pre {
+.privacy pre {
   white-space: pre-wrap;
 }
 
-section a {
+.privacy a {
   color: #1e92f6;
 }
 
-section h3 {
+.privacy h3 {
   text-align: center;
   margin-bottom: 0.5em;
 }
 
-section .scroll-item {
+.privacy .scroll-item {
   margin: 0;
   color: #1e92f6;
   cursor: pointer;
 }
 
-section h4 {
+.privacy h4 {
   margin: 2em auto 0;
 }
 
-section .disclaimer {
+.privacy .disclaimer {
   white-space: pre-wrap;
 }
 
-section .disclaimer h3 {
+.privacy .disclaimer h3 {
   font-weight: 900;
 }
 /*# sourceMappingURL=Privacy.css.map */

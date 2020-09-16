@@ -19,7 +19,7 @@ export default function PrivacyPolicy() {
   const ref13 = useRef(null);
   const ref14 = useRef(null);
   return (
-    <section>
+    <section className="privacy">
       <pre>
         <h3>PRIVACY NOTICE Last updated September 07, 2020</h3>
         {ReactHtmlParser(`Thank you for choosing to be part of our community at Blue Smoke Digital and Printed Media (“Company”, “we”, “us”, or “our”). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice, or our practices with regards to your personal information, please contact us at <a href='mailto:CoBe@BlueSmokeMedia.net?subject=Privacy Policy'>CoBe@BlueSmokeMedia.net.</a>
