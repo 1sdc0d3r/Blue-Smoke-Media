@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 //* Images
 // const logoDesign =
 //   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/Website-logo-design-services.png";
-
+//todo LINKS
 export default function WebsiteLogoDesign() {
   return (
     <div className="website-logo-design page-wrapper">
