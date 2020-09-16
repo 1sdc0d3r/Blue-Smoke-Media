@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,OAAO,CAAC;EACN,UAAU,EAAE,IAAI;EAChB,MAAM,EAAE,SAAS;CAgBlB;;AAlBD,AAGE,OAHK,CAGL,GAAG,CAAC;EACF,WAAW,EAAE,QAAQ;CACtB;;AALH,AAME,OANK,CAML,EAAE,CAAC;EACD,UAAU,EAAE,MAAM;EAClB,aAAa,EAAE,KAAK;CACrB;;AATH,AAUE,OAVK,CAUL,SAAS,CAAC;EACR,MAAM,EAAE,CAAC;EACT,KAAK,ECXG,OAAO;EDYf,MAAM,EAAE,OAAO;CAChB;;AAdH,AAeE,OAfK,CAeL,EAAE,CAAC;EACD,MAAM,EAAE,UAAU;CACnB",
+    "sources": [
+        "Privacy.scss",
+        "../Utils/Mixins/Mixins.scss",
+        "../Utils/Breakpoints/Breakpoints.scss"
+    ],
+    "names": [],
+    "file": "Privacy.css"
+}

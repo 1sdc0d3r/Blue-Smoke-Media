@@ -1,0 +1,24 @@
+section {
+  text-align: left;
+  margin: 0 3em 3em;
+}
+
+section pre {
+  white-space: pre-wrap;
+}
+
+section h3 {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+section .toc-item {
+  margin: 0;
+  color: #1e92f6;
+  cursor: pointer;
+}
+
+section h4 {
+  margin: 2em auto 0;
+}
+/*# sourceMappingURL=Privacy.css.map */

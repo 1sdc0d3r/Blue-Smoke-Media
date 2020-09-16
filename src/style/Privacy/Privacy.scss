@@ -1,0 +1,21 @@
+@import "../Utils/Mixins/Mixins.scss";
+
+section {
+  text-align: left;
+  margin: 0 3em 3em;
+  pre {
+    white-space: pre-wrap;
+  }
+  h3 {
+    text-align: center;
+    margin-bottom: 0.5em;
+  }
+  .toc-item {
+    margin: 0;
+    color: $lightBlue;
+    cursor: pointer;
+  }
+  h4 {
+    margin: 2em auto 0;
+  }
+}

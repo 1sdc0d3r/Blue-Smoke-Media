@@ -7,7 +7,6 @@ import {
   HashRouter as Router
 } from "react-router-dom";
 
-import "./fonts/GameOfThrones.ttf";
 
 ReactDOM.hydrate( <
   React.StrictMode > {
@@ -19,8 +18,8 @@ ReactDOM.hydrate( <
   App / > {
     " "
   } <
-  /Router>{" "} <
-  /React.StrictMode>,
+  /Router>{" "} < /
+  React.StrictMode > ,
   document.getElementById("root")
 );
 
