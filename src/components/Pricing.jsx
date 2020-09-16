@@ -17,14 +17,14 @@ export default function PriceChart() {
           </div>
           <p className="row row-light">Organic SEO</p>
           <p className="row row-dark">Custom Domain Name</p>
-          <p className="row row-light">e-mail addresses</p>
-          <p className="row row-dark">Bandwidth per month</p>
+          <p className="row row-light">E-mail Addresses</p>
+          <p className="row row-dark">Bandwidth per Month</p>
           <p className="row row-light">Secure Website (SSL)</p>
           <p className="row row-dark">Mobile-Friendly Site</p>
           <p className="row row-light">Website Support</p>
           <p className="row row-dark">PayPal Button</p>
-          <p className="row row-light">online payments</p>
-          <p className="row row-dark">google my business</p>
+          <p className="row row-light">Online Payments</p>
+          <p className="row row-dark">Google My Business</p>
         </div>
         <div className="col col-2">
           <div>

@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import SocialMediaImg from "../images/High Quality Social Media Services_Social Account Boost_Boost Your Social Media Accounts.png";
+import { Link } from "react-router-dom";
 
 export default function SocialMedia() {
   return (
@@ -64,7 +65,7 @@ export default function SocialMedia() {
           struggling to get started.
         </p>
         <p>
-          You may ask, “How will my business benefit from and active social
+          You may ask, “How will my business benefit from an active social
           media presence?” Here are just three of the ways your business could
           benefit:
         </p>
@@ -75,12 +76,12 @@ export default function SocialMedia() {
           </li>
 
           <li>
-            ◆ Business can interact and engage with current and future clients
+            ◆ Businesses can interact and engage with current and future clients
             in a community like setting.
           </li>
 
           <li>
-            ◆ Your business’ social profiles can also help improve your organic
+            ◆ Your businesses social profiles can also help improve your organic
             SEO for your website.
           </li>
         </ul>
@@ -95,7 +96,7 @@ export default function SocialMedia() {
           The world of digital tech is a constantly moving landscape with social
           media marketing seeming to move even faster. And because it’s so fast
           moving it can be tough to figure out how each piece of the puzzle fits
-          with your small business. Social Media Engagement remains an essential
+          with your small or corporate business. Social Media Engagement remains an essential
           ingredient of business and marketing success. To win over audiences in
           a world increasingly dominated by instantaneous social media and the
           24-hour news cycle, the power of connecting with people can be the
