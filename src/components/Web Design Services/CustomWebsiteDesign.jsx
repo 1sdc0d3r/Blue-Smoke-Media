@@ -9,12 +9,12 @@ import { Helmet } from "react-helmet";
 export default function CustomWebsiteDesign() {
   return (
     <div className="custom-website-design page-wrapper">
-      <img src={customDesign} alt="imageHere" />
+      <img src={customDesign} alt="Watercolor Wireframes of Website Design" />
       <div className="content">
         <h1>Custom Website Design</h1>
         <p>
           ....Every business of every size should have a professional presence
-          on the internet. YOUR web site should reflect the look and feel of
+          on the internet. YOUR website should reflect the look and feel of
           YOUR business, achieve YOUR marketing objectives and enhance YOUR
           business image.
         </p>
@@ -44,11 +44,11 @@ export default function CustomWebsiteDesign() {
           </li>
         </ol>
         <p>
-          <span>Blue Smoke Digital and Printed Media,</span> views a web site as
+          <span>Blue Smoke Digital and Printed Media,</span> views a website as
           a vital asset to any company and a method to get out on the front
           lines of today’s business battlefield. You want YOUR site to be
           focused on YOUR users. You want it to bring results. We can help. For
-          fast answers and an accurate quote, please fill out the inquiry form
+          fast answers and an accurate quote, please fill out the <Link to="/website-design/inquiry-form">inquiry form</Link>
           and a representative will contact you.
         </p>
       </div>
