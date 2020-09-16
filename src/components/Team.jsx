@@ -98,7 +98,7 @@ export default function Team() {
       <section className="team-bottom">
         <p>
           At<span> Blue Smoke Digital and Printed Media,</span> our product is
-          built on appealing, solid websites and graphic design, that represents
+          built on appealing, solid websites and <Link to="/graphic-design/digital-and-print-graphic-design">graphic design</Link>, that represents
           the client while appealing to their customers. We will always remember
           that we are a service company. Each and every customer is valued as we
           will work to earn our customers’ trust and loyalty. And more than
