@@ -4,7 +4,6 @@ import ReactHtmlParser from "react-html-parser";
 
 export default function PrivacyPolicy() {
   const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
-  const ref0 = useRef(null);
   const ref1 = useRef(null);
   const ref2 = useRef(null);
   const ref3 = useRef(null);
@@ -28,90 +27,98 @@ export default function PrivacyPolicy() {
         This privacy notice applies to all information collected through our Services (which, as described above, includes our Website), as well as any related services, sales, marketing or events. Please read this privacy notice carefully as it will help you understand what we do with the information that we collect.
 `)}
         <h3>TABLE OF CONTENTS</h3>
-        <p className="toc-item" onClick={() => scrollToRef(ref1)}>
+        <p className="toc-item scroll-item" onClick={() => scrollToRef(ref1)}>
           1. WHAT INFORMATION DO WE COLLECT?
         </p>
-        <p className="toc-item" onClick={() => scrollToRef(ref2)}>
+        <p className="toc-item scroll-item" onClick={() => scrollToRef(ref2)}>
           2. HOW DO WE USE YOUR INFORMATION?
         </p>
-        <p className="toc-item" onClick={() => scrollToRef(ref3)}>
+        <p className="toc-item scroll-item" onClick={() => scrollToRef(ref3)}>
           3. WILL YOUR INFORMATION BE SHARED WITH ANYONE?
         </p>
-        <p className="toc-item" onClick={() => scrollToRef(ref4)}>
+        <p className="toc-item scroll-item" onClick={() => scrollToRef(ref4)}>
           4. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?
         </p>
-        <p className="toc-item" onClick={() => scrollToRef(ref5)}>
+        <p className="toc-item scroll-item" onClick={() => scrollToRef(ref5)}>
           5. HOW DO WE HANDLE YOUR SOCIAL LOGINS?
         </p>
-        <p className="toc-item" onClick={() => scrollToRef(ref6)}>
+        <p className="toc-item scroll-item" onClick={() => scrollToRef(ref6)}>
           6. HOW LONG DO WE KEEP YOUR INFORMATION?
         </p>
-        <p className="toc-item" onClick={() => scrollToRef(ref7)}>
+        <p className="toc-item scroll-item" onClick={() => scrollToRef(ref7)}>
           7. HOW DO WE KEEP YOUR INFORMATION SAFE?
         </p>
-        <p className="toc-item" onClick={() => scrollToRef(ref8)}>
+        <p className="toc-item scroll-item" onClick={() => scrollToRef(ref8)}>
           8. DO WE COLLECT INFORMATION FROM MINORS?
         </p>
-        <p className="toc-item" onClick={() => scrollToRef(ref9)}>
+        <p className="toc-item scroll-item" onClick={() => scrollToRef(ref9)}>
           9. WHAT ARE YOUR PRIVACY RIGHTS?
         </p>
-        <p className="toc-item" onClick={() => scrollToRef(ref10)}>
+        <p className="toc-item scroll-item" onClick={() => scrollToRef(ref10)}>
           10. CONTROLS FOR DO-NOT-TRACK FEATURES
         </p>
-        <p className="toc-item" onClick={() => scrollToRef(ref11)}>
+        <p className="toc-item scroll-item" onClick={() => scrollToRef(ref11)}>
           11. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
         </p>
-        <p className="toc-item" onClick={() => scrollToRef(ref12)}>
+        <p className="toc-item scroll-item" onClick={() => scrollToRef(ref12)}>
           12. DO WE MAKE UPDATES TO THIS NOTICE?
         </p>
-        <p className="toc-item" onClick={() => scrollToRef(ref13)}>
+        <p className="toc-item scroll-item" onClick={() => scrollToRef(ref13)}>
           13. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
         </p>
-        <p className="toc-item" onClick={() => scrollToRef(ref14)}>
+        <p className="toc-item scroll-item" onClick={() => scrollToRef(ref14)}>
           DISCLAIMER
         </p>
         <h4 ref={ref1}>1. WHAT INFORMATION DO WE COLLECT?</h4>
         {`Personal information you disclose to us
-In Short: We collect information that you provide to us.
-We collect personal information that you voluntarily provide to us when you express an interest in obtaining information about us or our products and Services, when you participate in activities on the Website or otherwise when you contact us.
-The personal information that we collect depends on the context of your interactions with us and the Website, the choices you make and the products and features you use. The personal information we collect may include the following:
-Personal Information Provided by You. We collect names; phone numbers; email addresses; billing addresses; debit/credit card numbers; and other similar information.
-Social Media Login Data. We may provide you with the option to register with us using your existing social media account details, like your Facebook, Twitter or other social media account. If you choose to register in this way, we will collect the information described in the section called “HOW DO WE HANDLE YOUR SOCIAL LOGINS” below.
-All personal information that you provide to us must be true, complete and accurate, and you must notify us of any changes to such personal information.`}
+  In Short: We collect information that you provide to us.
+  We collect personal information that you voluntarily provide to us when you express an interest in obtaining information about us or our products and Services, when you participate in activities on the Website or otherwise when you contact us.
+  The personal information that we collect depends on the context of your interactions with us and the Website, the choices you make and the products and features you use. The personal information we collect may include the following:
+  Personal Information Provided by You. We collect names; phone numbers; email addresses; billing addresses; debit/credit card numbers; and other similar information.
+  Social Media Login Data. We may provide you with the option to register with us using your existing social media account details, like your Facebook, Twitter or other social media account. If you choose to register in this way, we will collect the information described in the section called `}
+        <span className="scroll-item" onClick={() => scrollToRef(ref5)}>
+          “HOW DO WE HANDLE YOUR SOCIAL LOGINS”
+        </span>
+        {` below.
+        All personal information that you provide to us must be true, complete and accurate, and you must notify us of any changes to such personal information.`}
         <h4 ref={ref2}>2. HOW DO WE USE YOUR INFORMATION?</h4>
         {`In Short: We process your information for purposes based on legitimate business interests, the fulfillment of our contract with you, compliance with our legal obligations, and/or your consent.
-We use personal information collected via our Website for a variety of business purposes described below. We process your personal information for these purposes in reliance on our legitimate business interests, in order to enter into or perform a contract with you, with your consent, and/or for compliance with our legal obligations. We indicate the specific processing grounds we rely on next to each purpose listed below.
-We use the information we collect or receive:
-To facilitate account creation and logon process. If you choose to p your account with us to a third-party account (such as your Google or Facebook account), we use the information you allowed us to collect from those third parties to facilitate account creation and logon process for the performance of the contract. See the section below headed “HOW DO WE HANDLE YOUR SOCIAL LOGINS” for further information.
+        We use personal information collected via our Website for a variety of business purposes described below. We process your personal information for these purposes in reliance on our legitimate business interests, in order to enter into or perform a contract with you, with your consent, and/or for compliance with our legal obligations. We indicate the specific processing grounds we rely on next to each purpose listed below.
+        We use the information we collect or receive:
+        To facilitate account creation and logon process. If you choose to p your account with us to a third-party account (such as your Google or Facebook account), we use the information you allowed us to collect from those third parties to facilitate account creation and logon process for the performance of the contract. See the section below headed `}
+        <span className="scroll-item" onClick={() => scrollToRef(ref5)}>
+          “HOW DO WE HANDLE YOUR SOCIAL LOGINS”
+        </span>
+        {ReactHtmlParser(` for further information.
 
-To post testimonials. We post testimonials on our Website that may contain personal information. Prior to posting a testimonial, we will obtain your consent to use your name and the consent of the testimonial. If you wish to update, or delete your testimonial, please contact us at info@BlueSmokeDigitalAndPrintedMedia.com and be sure to include your name, testimonial location, and contact information.
+        To post testimonials. We post testimonials on our Website that may contain personal information. Prior to posting a testimonial, we will obtain your consent to use your name and the consent of the testimonial. If you wish to update, or delete your testimonial, please contact us at <a href="mailto:info@bluesmokemedia.net">info@bluesmokemedia.net</a> and be sure to include your name, testimonial location, and contact information.
 
-Request feedback. We may use your information to request feedback and to contact you about your use of our Website.
+        Request feedback. We may use your information to request feedback and to contact you about your use of our Website.
 
-To enable user-to-user communications. We may use your information in order to enable user-to-user communications with each user’s consent.
+        To enable user-to-user communications. We may use your information in order to enable user-to-user communications with each user’s consent.
 
-To manage user accounts. We may use your information for the purposes of managing our account and keeping it in working order.
+        To manage user accounts. We may use your information for the purposes of managing our account and keeping it in working order.
 
-To send administrative information to you. We may use your personal information to send you product, service and new feature information and/or information about changes to our terms, conditions, and policies.
+        To send administrative information to you. We may use your personal information to send you product, service and new feature information and/or information about changes to our terms, conditions, and policies.
 
-To protect our Services. We may use your information as part of our efforts to keep our Website safe and secure (for example, for fraud monitoring and prevention).
+        To protect our Services. We may use your information as part of our efforts to keep our Website safe and secure (for example, for fraud monitoring and prevention).
 
-To enforce our terms, conditions and policies for business purposes, to comply with legal and regulatory requirements or in connection with our contract.
+        To enforce our terms, conditions and policies for business purposes, to comply with legal and regulatory requirements or in connection with our contract.
 
-To respond to legal requests and prevent harm. If we receive a subpoena or other legal request, we may need to inspect the data we hold to determine how to respond.
+        To respond to legal requests and prevent harm. If we receive a subpoena or other legal request, we may need to inspect the data we hold to determine how to respond.
 
-Fulfill and manage your orders. We may use your information to fulfill and manage your orders, payments, returns, and exchanges made through the Website.
+        Fulfill and manage your orders. We may use your information to fulfill and manage your orders, payments, returns, and exchanges made through the Website.
 
-Administer prize draws and competitions. We may use your information to administer prize draws and competitions when you elect to participate in our competitions.
+        Administer prize draws and competitions. We may use your information to administer prize draws and competitions when you elect to participate in our competitions.
 
-To deliver and facilitate delivery of services to the user. We may use your information to provide you with the requested service.
+        To deliver and facilitate delivery of services to the user. We may use your information to provide you with the requested service.
 
-To respond to user inquiries/offer support to users. We may use your information to respond to your inquiries and solve any potential issues you might have with the use of our Services.
+        To respond to user inquiries/offer support to users. We may use your information to respond to your inquiries and solve any potential issues you might have with the use of our Services.
 
-To send you marketing and promotional communications. We and/or our third-party marketing partners may use the personal information you send to us for our marketing purposes, if this is in accordance with your marketing preferences. For example, when expressing an interest in obtaining information about us or our Website, subscribing to marketing or otherwise contacting us, we will collect personal information from you. You can opt-out of our marketing emails at any time (see the “WHAT ARE YOUR PRIVACY RIGHTS” below).
+        To send you marketing and promotional communications. We and/or our third-party marketing partners may use the personal information you send to us for our marketing purposes, if this is in accordance with your marketing preferences. For example, when expressing an interest in obtaining information about us or our Website, subscribing to marketing or otherwise contacting us, we will collect personal information from you. You can opt-out of our marketing emails at any time (see the “WHAT ARE YOUR PRIVACY RIGHTS” below).
 
-Deliver targeted advertising to you. We may use your information to develop and display personalized content and advertising (and work with third parties who do so) tailored to your interests and/or location and to measure its effectiveness.
-`}
+        Deliver targeted advertising to you. We may use your information to develop and display personalized content and advertising (and work with third parties who do so) tailored to your interests and/or location and to measure its effectiveness.
+`)}
         <h4 ref={ref3}>3. WILL YOUR INFORMATION BE SHARED WITH ANYONE?</h4>
         {`In Short:  We only share information with your consent, to comply with laws, to provide you with services, to protect your rights, or to fulfill business obligations.
 We may process or share your data that we hold based on the following legal basis:
@@ -149,23 +156,23 @@ When we have no ongoing legitimate business need to process your personal inform
 We have implemented appropriate technical and organizational security measures designed to protect the security of any personal information we process. However, despite our safeguards and efforts to secure your information, no electronic transmission over the Internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security, and improperly collect, access, steal, or modify your information. Although we will do our best to protect your personal information, transmission of personal information to and from our Website is at your own risk. You should only access the Website within a secure environment.
 `}
         <h4 ref={ref8}>8. DO WE COLLECT INFORMATION FROM MINORS?</h4>
-        {`In Short:  We do not knowingly collect data from or market to children under 18 years of age.
-We do not knowingly solicit data from or market to children under 18 years of age. By using the Website, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Website. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at info@BlueSmokeDigitalAndPrintedMedia.com.
-`}
+        {ReactHtmlParser(`In Short:  We do not knowingly collect data from or market to children under 18 years of age.
+We do not knowingly solicit data from or market to children under 18 years of age. By using the Website, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Website. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at <a href="mailto:info@bluesmokemedia.net">info@bluesmokemedia.net</a>.
+`)}
         <h4 ref={ref9}>9. WHAT ARE YOUR PRIVACY RIGHTS?</h4>
-        {`In Short:  You may review, change, or terminate your account at any time.
-If you are resident in the European Economic Area and you believe we are unlawfully processing your personal information, you also have the right to complain to your local data protection supervisory authority. You can find their contact details here: http://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm.
-If you are resident in Switzerland, the contact details for the data protection authorities are available here: https://www.edoeb.admin.ch/edoeb/en/home.html.
+        {ReactHtmlParser(`In Short:  You may review, change, or terminate your account at any time.
+If you are resident in the European Economic Area and you believe we are unlawfully processing your personal information, you also have the right to complain to your local data protection supervisory authority. You can find their contact details <a href="http://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm">here</a>.
+If you are resident in Switzerland, the contact details for the data protection authorities are available <a href="https://www.edoeb.admin.ch/edoeb/en/home.html">here</a>.
 
-Cookies and similar technologies: Most Web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove cookies and to reject cookies. If you choose to remove cookies or reject cookies, this could affect certain features or services of our Website. To opt-out of interest-based advertising by advertisers on our Website visit http://www.aboutads.info/choices/.
-`}
+Cookies and similar technologies: Most Web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove cookies and to reject cookies. If you choose to remove cookies or reject cookies, this could affect certain features or services of our Website. To opt-out of interest-based advertising by advertisers on our Website visit <a href="http://www.aboutads.info/choices/">http://www.aboutads.info/choices/</a>.
+`)}
         <h4 ref={ref10}>10. CONTROLS FOR DO-NOT-TRACK FEATURES</h4>
         {`Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track (“DNT”) feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. At this stage, no uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this privacy notice.
 `}
         <h4 ref={ref11}>
           11. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
         </h4>
-        {`In Short:  Yes, if you are a resident of California, you are granted specific rights regarding access to your personal information.
+        {ReactHtmlParser(`In Short:  Yes, if you are a resident of California, you are granted specific rights regarding access to your personal information.
 California Civil Code Section 1798.83, also known as the “Shine The Light” law, permits our users who are California residents to request and obtain from us, once a year and free of charge, information about categories of personal information (if any) we disclosed to third parties for direct marketing purposes and the names and addresses of all third parties with which we shared personal information in the immediately preceding calendar year. If you are a California resident and would like to make such a request, please submit your request in writing to us using the contact information provided below.
 If you are under 18 years of age, reside in California, and have a registered account with the Website, you have the right to request removal of unwanted data that you publicly post on the Website. To request removal of such data, please contact us using the contact information provided below, and include the email address associated with your account and a statement that you reside in California. We will make sure the data is not publicly displayed on the Website, but please be aware that the data may not be completely or comprehensively removed from all our systems (e.g. backups, etc.). 
 
@@ -231,7 +238,7 @@ How do we use and share your personal information?
 
 More information about our data collection and sharing practices can be found in this privacy notice.
 
-You may contact us by email at info@BlueSmokeMedia.com, by visiting BlueSmokeDigitalAndPrintedMedia.com, or by referring to the contact details at the bottom of this document.
+You may contact us by email at <a href='mailto:info@bluesmokemedia.net'>info@bluesmokemedia.net</a>, by visiting <a href='https://www.bluesmokedigitalandprintedmedia.com'>BlueSmokePrintedAndDigitalMedia.com</a>, or by referring to the contact details at the bottom of this document.
 
 If you are using an authorized agent to exercise your right to opt-out, we may deny a request if the authorized agent does not submit proof that they have been validly authorized to act on your behalf.
 
@@ -276,36 +283,38 @@ you may object to the processing of your personal data
 you may request correction of your personal data if it is incorrect or no longer relevant, or ask to restrict the processing of the data
 you can designate an authorized agent to make a request under the CCPA on your behalf. We may deny a request from an authorized agent that does not submit proof that they have been validly authorized to act on your behalf in accordance with the CCPA.
 you may request to opt-out from future selling of your personal information to third parties. Upon receiving a request to opt-out, we will act upon the request as soon as feasibly possible, but no later than 15 days from the date of the request submission.
-To exercise these rights, you can contact us by email at info@BlueSmokeMedia.com, by visiting BlueSmokeDigitalAndPrintedMedia.com, or by referring to the contact details at the bottom of this document. If you have a complaint about how we handle your data, we would like to hear from you.
-`}
+To exercise these rights, you can contact us by email at <a href='mailto:info@bluesmokemedia.net'>info@bluesmokemedia.net</a>, by visiting <a href='https://www.bluesmokedigitalandprintedmedia.com'>BlueSmokePrintedAndDigitalMedia.com</a>, or by referring to the contact details at the bottom of this document. If you have a complaint about how we handle your data, we would like to hear from you.
+`)}
         <h4 ref={ref12}>12. DO WE MAKE UPDATES TO THIS NOTICE?</h4>
         {`In Short:  Yes, we will update this notice as necessary to stay compliant with relevant laws.
 We may update this privacy notice from time to time. The updated version will be indicated by an updated “Revised” date and the updated version will be effective as soon as it is accessible. If we make material changes to this privacy notice, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this privacy notice frequently to be informed of how we are protecting your information.
 
 `}
         <h4 ref={ref13}>13. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</h4>
-        {`If you have questions or comments about this notice, you may email us at info@BlueSmokeDigitalAndPrintedMedia.com or by post to:
-Blue Smoke Digital and Printed Media 
+        {ReactHtmlParser(`If you have questions or comments about this notice, you may email us at <a href='mailto:info@bluesmokemedia.net'>info@bluesmokemedia.net</a> or by mail to: Blue Smoke Digital and Printed Media LLC
 
 
 HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?
-Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it in some circumstances. To request to review, update, or delete your personal information, please visit: BlueSmokeDigitalAndPrintedMedia.com. We will respond to your request within 30 days.`}
+Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it in some circumstances. To request to review, update, or delete your personal information, please visit: <a href='https://www.bluesmokedigitalandprintedmedia.com'>BlueSmokePrintedAndDigitalMedia.com</a>. We will respond to your request within 30 days.`)}
       </pre>
       <pre className="disclaimer" ref={ref14}>
         <h3>DISCLAIMER</h3>
         Last updated September 07, 2020 WEBSITE DISCLAIMER
         <br />
         The information provided by Blue Smoke digital and printed Media, (“we,”
-        “us” or “our”) on BlueSmokeDigitalAndPrintedMedia.com, (the “Site”) is
-        for general informational purposes only. All information on the Site is
-        provided in good faith, however we make no representation or warranty of
-        any kind, express or implied, regarding the accuracy, adequacy,
-        validity, reliability, availability or completeness of any information
-        on the Site. UNDER NO CIRCUMSTANCE SHALL WE HAVE ANY LIABILITY TO YOU
-        FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF
-        THE SITE OR RELIANCE ON ANY INFORMATION PROVIDED ON THE SITE. YOUR USE
-        OF THE SITE AND YOUR RELIANCE ON ANY INFORMATION ON THE SITE IS SOLELY
-        AT YOUR OWN RISK.
+        “us” or “our”) on{" "}
+        <a href="https://www.bluesmokedigitalandprintedmedia.com">
+          BlueSmokePrintedAndDigitalMedia.com
+        </a>
+        , (the “Site”) is for general informational purposes only. All
+        information on the Site is provided in good faith, however we make no
+        representation or warranty of any kind, express or implied, regarding
+        the accuracy, adequacy, validity, reliability, availability or
+        completeness of any information on the Site. UNDER NO CIRCUMSTANCE SHALL
+        WE HAVE ANY LIABILITY TO YOU FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED
+        AS A RESULT OF THE USE OF THE SITE OR RELIANCE ON ANY INFORMATION
+        PROVIDED ON THE SITE. YOUR USE OF THE SITE AND YOUR RELIANCE ON ANY
+        INFORMATION ON THE SITE IS SOLELY AT YOUR OWN RISK.
       </pre>
       <h4 onClick={() => window.scrollTo(0, 0)}>Scroll To Top</h4>
       <Helmet>

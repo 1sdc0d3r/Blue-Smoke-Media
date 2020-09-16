@@ -7,12 +7,16 @@ section pre {
   white-space: pre-wrap;
 }
 
+section a {
+  color: #1e92f6;
+}
+
 section h3 {
   text-align: center;
   margin-bottom: 0.5em;
 }
 
-section .toc-item {
+section .scroll-item {
   margin: 0;
   color: #1e92f6;
   cursor: pointer;
