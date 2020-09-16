@@ -45,29 +45,27 @@ function App() {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    if (document.querySelector(".covid-banner")) {
-      document.querySelector(".covid-banner").style.display = "none";
-    }
+    // if (document.querySelector(".covid-banner")) {
+    //   document.querySelector(".covid-banner").style.display = "none";
+    // }
   }, [pathname]);
   // console.log(useLocation().pathname);
   return (
     <div className="App" style={{ position: "relative" }}>
       <>
+        <p className="covid-banner">
+          <img
+            src={circleX}
+            alt="close 'x'"
+            onClick={() =>
+              (document.querySelector(".covid-banner").style.display = "none")
+            }
+          />
+          Due to the COVID-19 epidemic, we have lowered our prices to
+          accommodate the smaller businesses in the US. It is our goal to help
+          in keeping our communities together.
+        </p>
         <header>
-          <p className="covid-banner">
-            {/* <span */}
-            {/* > */}
-            <img
-              src={circleX}
-              alt="close 'x'"
-              onClick={() =>
-                (document.querySelector(".covid-banner").style.display = "none")
-              }
-            />
-            Due to the COVID-19 epidemic, we have lowered our prices to
-            accommodate the smaller businesses in the US. It is our goal to help
-            in keeping our communities together.
-          </p>
           <div>
             <Header />
             <Navigation />
