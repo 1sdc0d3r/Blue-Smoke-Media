@@ -30,7 +30,7 @@ export default function PrintedMediaLogos() {
           and high-resolution (print) graphic images. If you are interested in
           the prospect for a new logo, a redesign of your current logo or are in
           need of a total corporate identity package, please complete the inquiry
-          form. A representative will <Link to="https://www.bluesmokedigitalandprintedmedia.com/#/contact">contact </Link>you
+          form. A representative will <Link to="/contact">contact</Link> you
           within 24 hours of receipt of your request.
         </p>
       </div>
