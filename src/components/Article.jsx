@@ -8,12 +8,13 @@ export default function Article() {
   useEffect(() => {
     setArticle(articleData.find((e) => e.id == id));
   }, []);
+  console.log(article);
   //todo style
   return (
-    <>
+    <div className="page-wrapper">
       <h1>{article.title}</h1>
       <span>{article.author}</span>
       <pre>{article.content}</pre>
-    </>
+    </div>
   );
 }

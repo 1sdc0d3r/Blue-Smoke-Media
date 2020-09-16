@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,EAAE,CAAC;EACD,KAAK,ECGK,OAAO;EDFjB,aAAa,EAAE,CAAC;CACjB;;AACD,AAAA,IAAI,CAAC;EACH,UAAU,EAAE,IAAI;CACjB;;AACD,AAAA,GAAG,CAAC;EACF,UAAU,EAAE,IAAI;EAChB,WAAW,EAAE,QAAQ;EACrB,WAAW,EAAE,qBAAqB;EAClC,UAAU,ECNJ,OAAO;EDOb,OAAO,EAAE,SAAS;EAClB,MAAM,EAAE,IAAI;EACZ,SAAS,EAAE,GAAG;EACd,KAAK,EAAE,KAAK;CACb",
+    "sources": [
+        "Article.scss",
+        "../Utils/Mixins/Mixins.scss",
+        "../Utils/Breakpoints/Breakpoints.scss"
+    ],
+    "names": [],
+    "file": "Article.css"
+}

@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./style/_Main.css";
+import "./style/core.css";
 import { Switch, Route, useLocation, Redirect } from "react-router-dom";
 
 //* components

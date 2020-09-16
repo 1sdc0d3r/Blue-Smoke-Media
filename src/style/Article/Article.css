@@ -1,0 +1,20 @@
+h1 {
+  color: #04227a;
+  margin-bottom: 0;
+}
+
+span {
+  text-align: left;
+}
+
+pre {
+  text-align: left;
+  white-space: pre-wrap;
+  font-family: "poppins", sans-serif;
+  background: #d7dae6;
+  padding: 0.5em 1em;
+  border: none;
+  font-size: 1em;
+  color: black;
+}
+/*# sourceMappingURL=Article.css.map */

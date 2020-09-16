@@ -96,10 +96,7 @@ export default function Home() {
                 <div className="service-card-back">
                   <h3>Search Engine Optimization (SEO)</h3>
                   <p>
-                    Making a website{" "}
-                    <link to="/article/5">
-                      SEO friendly
-                    </link>{" "}
+                    Making a website <Link to="/article/5">SEO friendly</Link>{" "}
                     means that Google and other search engines can crawl each
                     page on the website efficiently, interpret the content
                     effectively, and index it in their database. Once indexed,
@@ -163,9 +160,7 @@ export default function Home() {
                     It’s crucial you determine which platforms you’re going to
                     share your content on. There’s not necessarily a right or
                     wrong answer when it comes to which{" "}
-                    <Link to="/article/8">
-                      social media
-                    </Link>
+                    <Link to="/article/8">social media</Link>
                     channels your business should use — it’s more about the
                     needs of your target audience and where they tend to spend
                     their time.
