@@ -85,7 +85,7 @@ export default function SocialMedia() {
             SEO for your website.
           </li>
         </ul>
-        {/* <insert an href - https://clutch.co/agencies/resources/social-media-2015-small-business-survey.  On Mike Rosas’ name> */}
+        
         <p>
           <Link to="https://clutch.co/agencies/resources/social-media-2015-small-business-survey">Mike Rosa</Link> of 180Fusion, stated that “If small businesses want to
           compete, if they want to level the playing field with their
