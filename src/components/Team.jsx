@@ -20,8 +20,8 @@ export default function Team() {
         <p>
           <span>Blue Smoke Digital and Printed Media,</span> a company founded
           in 2019, was formed by a cooperative interaction of talented
-          individuals from a variety of disciplines, all with a combined 35 years of
-          programming, graphic design, search engine optimization, and sales
+          individuals from a variety of disciplines, with a combined 35 years of
+          programming, graphic design, search engine optimization, and sales and marketing
           experience. Each <span>Blue Smoke Digital Media</span> team member is a
           student or graduate of{" "}
           <a
@@ -37,6 +37,7 @@ export default function Team() {
           <video
             type="video/mp4"
             src={womanStudio}
+            alt="Video of a woman in her studio painting"
             preload="auto"
             autoPlay
             loading="lazy"
@@ -63,6 +64,7 @@ export default function Team() {
           <video
             type="video/mp4"
             src={seoVid}
+            alt="Video of how SEO can act like a lightbulb moment going off on your website."
             preload="auto"
             autoPlay
             loading="lazy"
@@ -79,6 +81,7 @@ export default function Team() {
           <video
             type="video/mp4"
             src={globeVid}
+            alt="Video of a digital spinning globe. "
             preload="auto"
             autoPlay
             loading="lazy"

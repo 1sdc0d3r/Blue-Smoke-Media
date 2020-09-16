@@ -240,7 +240,7 @@ export default function Home() {
             More than 28% of users from four major social media platforms engage
             with live streams each month on any one of these services. “Video is
             the hottest platform on the planet right now and the cheapest to
-            distribute through social media,” said <Link to="https://www.mattjohnstononline.com/">Matt Johnson, CEO, and
+            distribute through social media,” said <Link to="https://www.mattjohnstononline.com/">Matt Johnston, CEO, and
             Founder</Link> of Guide Social, an exclusive video marketing agency that
             experienced a 400 percent growth spurt in the last six months. “A
             reminder to brands, video does NOT have to be expensively produced
