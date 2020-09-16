@@ -12,7 +12,7 @@ import { Helmet } from "react-helmet";
 export default function PrintAndDesignGraphicServices() {
   return (
     <div className="print-and-graphic-design-services page-wrapper">
-      <img src={fingersCrossed} alt="Experts" />
+      <img src={fingersCrossed} alt="Blue Smoke Digital and Printed Media Graphic Design Experts" />
 
       <h1>Print and Graphic Design Services</h1>
       <div className="content">
@@ -27,7 +27,7 @@ export default function PrintAndDesignGraphicServices() {
           <div className="images-left"></div>
           <div className="text-right">
             <section>
-              <img src={light} loading="lazy" alt="recognition" />
+              <img src={light} loading="lazy" alt="Remembrance and Recognition - The Twin Towers Memorial Light at Night." />
               <div>
                 <p>
                   <span>Recognition - </span>Who are you? What do you do? It’s
@@ -45,7 +45,7 @@ export default function PrintAndDesignGraphicServices() {
               </div>
             </section>
             <section>
-              <img src={respect} loading="lazy" alt="respect" />{" "}
+              <img src={respect} loading="lazy" alt="Man with a T-shirt that reads RESPECT!" />{" "}
               <p>
                 <span>Respect - </span>Believe it or not, good design is
                 apparent to almost everyone. They might not know exactly why,
@@ -57,10 +57,10 @@ export default function PrintAndDesignGraphicServices() {
               </p>
             </section>
             <section>
-              <img src={eagle} loading="lazy" alt="eagle" id="eagle" />{" "}
+              <img src={eagle} loading="lazy" alt="Eagle with handler." id="eagle" />{" "}
               <p>
                 <span>Trust - </span>Respect leads to Trust and Trust is
-                priceless. Design plays a very important part in establishing
+                priceless! Design plays a very important part in establishing
                 Trust with the people you work with. It’s not the only part, but
                 it’s something that is often overlooked as unnecessary, or not
                 worth the expense. It is worth it; you want to give your client
@@ -71,7 +71,7 @@ export default function PrintAndDesignGraphicServices() {
               <img
                 src={coffeeShelf}
                 loading="lazy"
-                alt="branding"
+                alt="Small Business and Corporate Branding"
                 id="coffeeShelf"
               />
               <p>

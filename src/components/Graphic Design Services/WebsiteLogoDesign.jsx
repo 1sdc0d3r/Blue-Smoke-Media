@@ -1,6 +1,7 @@
 import React from "react";
 import logoDesign from "../../images/Website-logo-design-services.png";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 //* Images
 // const logoDesign =
 //   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/Website-logo-design-services.png";
@@ -8,7 +9,7 @@ import { Helmet } from "react-helmet";
 export default function WebsiteLogoDesign() {
   return (
     <div className="website-logo-design page-wrapper">
-      <img src={logoDesign} alt="Logos" />
+      <img src={logoDesign} alt="Professionally Designed Branded Logos" />
       <div className="content">
         <h1>Website Logos</h1>
         <p>
