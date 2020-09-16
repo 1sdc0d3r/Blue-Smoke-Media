@@ -1,5 +1,6 @@
 import React from "react";
 import AdCopyWritingImg from "../../images/ad-copy-writing-image.png";
+import { Helmet } from "react-helmet";
 //* Images
 // const AdCopyWritingImg =
 //   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/ad-copy-writing-image.png";
@@ -56,6 +57,73 @@ export default function AdCopyWriting() {
           how it will work or how it can improve their lives.
         </p>
       </div>
+      <Helmet>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        {/* <!-- Mobile Meta --> */}
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link
+          rel="canonical"
+          href="https://www.bluesmokedigitalandprintedmedia.com/#/website-design/Ad-CopyWriting"
+        />
+
+        {/* <!-- HTML Meta Tags --> */}
+        <title>Writing Compelling Ad Copy for Your Business Website</title>
+        <meta
+          name="description"
+          content="Compelling copy is essential for online businesses. Your customers will not be able to physically see or touch the items that they are going to buy. You need to help them by creating copy that will allow them to picture how a product or service will help them and encourages them to buy"
+        />
+
+        {/* <!-- Google / Search Engine Tags --> */}
+        <meta
+          itemprop="name"
+          content="Writing Compelling Ad Copy for Your Business Website"
+        />
+        <meta
+          itemprop="description"
+          content="Compelling copy is essential for online businesses. Your customers will not be able to physically see or touch the items that they are going to buy. You need to help them by creating copy that will allow them to picture how a product or service will help them and encourages them to buy"
+        />
+        <meta
+          itemprop="image"
+          content="../../images/ad-copy-writing-image.png"
+        />
+
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta
+          property="og:url"
+          content="https://www.BlueSmokeDigitalAndPrintedMedia.com"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Writing Compelling Ad Copy for Your Business Website"
+        />
+        <meta
+          property="og:description"
+          content="Compelling copy is essential for online businesses. Your customers will not be able to physically see or touch the items that they are going to buy. You need to help them by creating copy that will allow them to picture how a product or service will help them and encourages them to buy"
+        />
+        <meta
+          property="og:image"
+          content="../../images/ad-copy-writing-image.png"
+        />
+
+        {/* <!-- Twitter Meta Tags --> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Writing Compelling Ad Copy for Your Business Website"
+        />
+        <meta
+          name="twitter:description"
+          content="Compelling copy is essential for online businesses. Your customers will not be able to physically see or touch the items that they are going to buy. You need to help them by creating copy that will allow them to picture how a product or service will help them and encourages them to buy"
+        />
+        <meta
+          name="twitter:image"
+          content="../../images/ad-copy-writing-image.png"
+        />
+      </Helmet>
     </div>
   );
 }

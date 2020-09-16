@@ -4,6 +4,7 @@ import light from "../../images/recognition-remembrance-image.png";
 import respect from "../../images/respect-image.png";
 import eagle from "../../images/eagle.png";
 import coffeeShelf from "../../images/coffee-shelf.png";
+import { Helmet } from "react-helmet";
 //* Images
 // const fingersCrossed =
 // "https://blue-smoke-media.s3-us-west-1.amazonaws.com/fingers-crossed.png";
@@ -92,6 +93,58 @@ export default function PrintAndDesignGraphicServices() {
           </div>
         </div>
       </div>
+      <Helmet>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        {/* <!-- Mobile Meta --> */}
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link
+          rel="canonical"
+          href="https://www.bluesmokedigitalandprintedmedia.com/#/website-design/PrintAndGraphicServices"
+        />
+
+        {/* <!-- HTML Meta Tags --> */}
+        <title>Print and Graphic Design Services</title>
+        <meta
+          name="description"
+          content="Every project at Blue Smoke Digital and Printed Media, is custom designed to your digital or graphic media needs, specifically to address the individual challenges of each project we work on. "
+        />
+
+        {/* <!-- Google / Search Engine Tags --> */}
+        <meta itemprop="name" content="Print and Graphic Design Services" />
+        <meta
+          itemprop="description"
+          content="Every project at Blue Smoke Digital and Printed Media, is custom designed to your digital or graphic media needs, specifically to address the individual challenges of each project we work on. "
+        />
+        <meta itemprop="image" content="../../images/fingers-crossed.png" />
+
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta
+          property="og:url"
+          content="https://www.BlueSmokeDigitalAndPrintedMedia.com"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Print and Graphic Design Services" />
+        <meta
+          property="og:description"
+          content="Every project at Blue Smoke Digital and Printed Media, is custom designed to your digital or graphic media needs, specifically to address the individual challenges of each project we work on. "
+        />
+        <meta property="og:image" content="../../images/fingers-crossed.png" />
+
+        {/* <!-- Twitter Meta Tags --> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Print and Graphic Design Services"
+        />
+        <meta
+          name="twitter:description"
+          content="Every project at Blue Smoke Digital and Printed Media, is custom designed to your digital or graphic media needs, specifically to address the individual challenges of each project we work on. "
+        />
+        <meta name="twitter:image" content="../../images/fingers-crossed.png" />
+      </Helmet>
     </div>
   );
 }

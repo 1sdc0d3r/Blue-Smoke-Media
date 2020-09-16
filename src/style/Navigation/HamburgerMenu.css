@@ -194,7 +194,7 @@
   min-width: -webkit-min-content;
   min-width: -moz-min-content;
   min-width: min-content;
-  width: 8em;
+  width: 10em;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;

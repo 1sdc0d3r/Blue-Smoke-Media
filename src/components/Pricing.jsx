@@ -1,6 +1,7 @@
 import React from "react";
 import Check from "../images/checkmark.svg";
 import noCheck from "../images/Red_x.svg";
+import { Link } from "react-router-dom";
 
 export default function PriceChart() {
   const startNowHandler = () => {
@@ -8,204 +9,302 @@ export default function PriceChart() {
   };
 
   return (
-    <div className="price-chart">
-      <div className="col col-1">
-        <div>
-          <p>Price Table</p>
+    <>
+      <div className="price-chart">
+        <div className="col col-1">
+          <div>
+            <p>Price Table</p>
+          </div>
+          <p className="row row-light">Organic SEO</p>
+          <p className="row row-dark">Custom Domain Name</p>
+          <p className="row row-light">e-mail addresses</p>
+          <p className="row row-dark">Bandwidth per month</p>
+          <p className="row row-light">Secure Website (SSL)</p>
+          <p className="row row-dark">Mobile-Friendly Site</p>
+          <p className="row row-light">Website Support</p>
+          <p className="row row-dark">PayPal Button</p>
+          <p className="row row-light">online payments</p>
+          <p className="row row-dark">google my business</p>
         </div>
-        <p className="row row-light">Organic SEO</p>
-        <p className="row row-dark">Custom Domain Name</p>
-        <p className="row row-light">e-mail addresses</p>
-        <p className="row row-dark">Bandwidth per month</p>
-        <p className="row row-light">Secure Website (SSL)</p>
-        <p className="row row-dark">Mobile-Friendly Site</p>
-        <p className="row row-light">Website Support</p>
-        <p className="row row-dark">PayPal Button</p>
-        <p className="row row-light">online payments</p>
-        <p className="row row-dark">google my business</p>
-      </div>
-      <div className="col col-2">
-        <div>
-          <h5>
-            5 page
-            <br />
-            website
-          </h5>
-          <hr />
-          <p>Starts At</p>
-          <span>$749</span>
+        <div className="col col-2">
+          <div>
+            <div>
+              <h5>
+                5 page
+                <br />
+                website
+              </h5>
+              <hr />
+              <p>
+                Starts At <span>$749</span>
+              </p>
+            </div>
+          </div>
+          <p className="row row-light">
+            <img src={Check} alt="checkmark" />
+          </p>
+          <p className="row row-dark">
+            <img src={Check} alt="checkmark" />
+          </p>
+          <p className="row row-light blue-text">5</p>
+          <p className="row row-dark blue-text">5 GB</p>
+          <p className="row row-light">
+            <img src={Check} alt="checkmark" />
+          </p>
+          <p className="row row-dark">
+            <img src={Check} alt="checkmark" />
+          </p>
+          <p className="row row-light">
+            <img src={Check} alt="checkmark" />
+          </p>
+          <p className="row row-dark">
+            {" "}
+            <img src={noCheck} alt="checkmark" />
+          </p>
+          <p className="row row-light">
+            {" "}
+            <img src={noCheck} alt="checkmark" />
+          </p>
+          <p className="row row-dark">
+            {" "}
+            <img src={noCheck} alt="checkmark" />
+          </p>
+          <Link
+            className="row row-light start-now"
+            to="/website-design/inquiry-form"
+          >
+            Start Now
+          </Link>
         </div>
-        <p className="row row-light">
-          <img src={Check} alt="checkmark" />
-        </p>
-        <p className="row row-dark">
-          <img src={Check} alt="checkmark" />
-        </p>
-        <p className="row row-light blue-text">5</p>
-        <p className="row row-dark blue-text">5 GB</p>
-        <p className="row row-light">
-          <img src={Check} alt="checkmark" />
-        </p>
-        <p className="row row-dark">
-          <img src={Check} alt="checkmark" />
-        </p>
-        <p className="row row-light">
-          <img src={Check} alt="checkmark" />
-        </p>
-        <p className="row row-dark">
-          {" "}
-          <img src={noCheck} alt="checkmark" />
-        </p>
-        <p className="row row-light">
-          {" "}
-          <img src={noCheck} alt="checkmark" />
-        </p>
-        <p className="row row-dark">
-          {" "}
-          <img src={noCheck} alt="checkmark" />
-        </p>
-        <p
-          className="row row-light start-now"
-          onClick={() => startNowHandler()}
-        >
-          Start Now
-        </p>
-      </div>
-      <div className="col col-3">
-        <div>
-          <h5>
-            5-10 page
-            <br />
-            website
-          </h5>
-          <hr />
-          <p>Starts At</p>
-          <span>$1,249</span>
+        <div className="col col-3">
+          <div>
+            <div>
+              <h5>
+                6-10 page
+                <br />
+                website
+              </h5>
+              <hr />
+              <p>
+                Starts At <span>$1,249</span>
+              </p>
+            </div>
+          </div>
+          <p className="row row-light">
+            <img src={Check} alt="checkmark" />
+          </p>
+          <p className="row row-dark">
+            <img src={Check} alt="checkmark" />
+          </p>
+          <p className="row row-light blue-text">10</p>
+          <p className="row row-dark blue-text">15 GB</p>
+          <p className="row row-light">
+            <img src={Check} alt="checkmark" />
+          </p>
+          <p className="row row-dark">
+            <img src={Check} alt="checkmark" />
+          </p>
+          <p className="row row-light">
+            <img src={Check} alt="checkmark" />
+          </p>
+          <p className="row row-dark">
+            {" "}
+            <img src={noCheck} alt="checkmark" />
+          </p>
+          <p className="row row-light">
+            {" "}
+            <img src={noCheck} alt="checkmark" />
+          </p>
+          <p className="row row-dark">
+            {" "}
+            <img src={noCheck} alt="checkmark" />
+          </p>
+          <Link
+            className="row row-light start-now"
+            to="/website-design/inquiry-form"
+          >
+            Start Now
+          </Link>
         </div>
-        <p className="row row-light">
-          <img src={Check} alt="checkmark" />
-        </p>
-        <p className="row row-dark">
-          <img src={Check} alt="checkmark" />
-        </p>
-        <p className="row row-light blue-text">10</p>
-        <p className="row row-dark blue-text">15 GB</p>
-        <p className="row row-light">
-          <img src={Check} alt="checkmark" />
-        </p>
-        <p className="row row-dark">
-          <img src={Check} alt="checkmark" />
-        </p>
-        <p className="row row-light">
-          <img src={Check} alt="checkmark" />
-        </p>
-        <p className="row row-dark">
-          {" "}
-          <img src={noCheck} alt="checkmark" />
-        </p>
-        <p className="row row-light">
-          {" "}
-          <img src={noCheck} alt="checkmark" />
-        </p>
-        <p className="row row-dark">
-          {" "}
-          <img src={noCheck} alt="checkmark" />
-        </p>
-        <p
-          className="row row-light start-now"
-          onClick={() => startNowHandler()}
-        >
-          Start Now
-        </p>
-      </div>
-      <div className="col col-4">
-        <div>
-          <h5>
-            11-15+ page
-            <br />
-            website
-          </h5>
-          <hr />
-          <p>Starts At</p>
-          <span>$1,899</span>
+        <div className="col col-4">
+          <div>
+            <div>
+              <h5>
+                11-15+ page
+                <br />
+                website
+              </h5>
+              <hr />
+              <p>
+                Starts At <span>$1,899</span>
+              </p>
+            </div>
+          </div>
+          <p className="row row-light">
+            <img src={Check} alt="checkmark" />
+          </p>
+          <p className="row row-dark">
+            <img src={Check} alt="checkmark" />
+          </p>
+          <p className="row row-light blue-text">20</p>
+          <p className="row row-dark blue-text">Unlimited</p>
+          <p className="row row-light">
+            <img src={Check} alt="checkmark" />
+          </p>
+          <p className="row row-dark">
+            <img src={Check} alt="checkmark" />
+          </p>
+          <p className="row row-light">
+            <img src={Check} alt="checkmark" />
+          </p>
+          <p className="row row-dark">
+            <img src={Check} alt="checkmark" />
+          </p>
+          <p className="row row-light">
+            <img src={Check} alt="checkmark" />
+          </p>
+          <p className="row row-dark">
+            <img src={Check} alt="checkmark" />
+          </p>
+          <Link
+            className="row row-light start-now"
+            to="/website-design/inquiry-form"
+          >
+            Start Now
+          </Link>
         </div>
-        <p className="row row-light">
-          <img src={Check} alt="checkmark" />
-        </p>
-        <p className="row row-dark">
-          <img src={Check} alt="checkmark" />
-        </p>
-        <p className="row row-light blue-text">20</p>
-        <p className="row row-dark blue-text">Unlimited</p>
-        <p className="row row-light">
-          <img src={Check} alt="checkmark" />
-        </p>
-        <p className="row row-dark">
-          <img src={Check} alt="checkmark" />
-        </p>
-        <p className="row row-light">
-          <img src={Check} alt="checkmark" />
-        </p>
-        <p className="row row-dark">
-          <img src={Check} alt="checkmark" />
-        </p>
-        <p className="row row-light">
-          <img src={Check} alt="checkmark" />
-        </p>
-        <p className="row row-dark">
-          <img src={Check} alt="checkmark" />
-        </p>
-        <p
-          className="row row-light start-now"
-          onClick={() => startNowHandler()}
-        >
-          Start Now
-        </p>
-      </div>
-      <div className="col col-5">
-        <div>
-          <h5>
-            5 page
-            <br />
-            website
-          </h5>
-          <hr />
-          <p>Starts At</p>
-          <span>$749</span>
+        <div className="col col-5">
+          <div>
+            <div>
+              <h5>
+                E-Commerce
+                <br />
+                website
+              </h5>
+              <hr />
+              <p>
+                Starts At <span>$1,499</span>
+              </p>
+            </div>
+          </div>
+          <p className="row row-light">
+            <img src={Check} alt="checkmark" />
+          </p>
+          <p className="row row-dark">
+            <img src={Check} alt="checkmark" />
+          </p>
+          <p className="row row-light blue-text">10</p>
+          <p className="row row-dark blue-text">Unlimited</p>
+          <p className="row row-light">
+            <img src={Check} alt="checkmark" />
+          </p>
+          <p className="row row-dark">
+            <img src={Check} alt="checkmark" />
+          </p>
+          <p className="row row-light">
+            <img src={Check} alt="checkmark" />
+          </p>
+          <p className="row row-dark">
+            <img src={Check} alt="checkmark" />
+          </p>
+          <p className="row row-light">
+            <img src={Check} alt="checkmark" />
+          </p>
+          <p className="row row-dark">
+            <img src={Check} alt="checkmark" />
+          </p>
+          <Link
+            className="row row-light start-now"
+            onClick={() => startNowHandler}
+          >
+            Start Now
+          </Link>
         </div>
-        <p className="row row-light">
-          <img src={Check} alt="checkmark" />
-        </p>
-        <p className="row row-dark">
-          <img src={Check} alt="checkmark" />
-        </p>
-        <p className="row row-light blue-text">10</p>
-        <p className="row row-dark blue-text">Unlimited</p>
-        <p className="row row-light">
-          <img src={Check} alt="checkmark" />
-        </p>
-        <p className="row row-dark">
-          <img src={Check} alt="checkmark" />
-        </p>
-        <p className="row row-light">
-          <img src={Check} alt="checkmark" />
-        </p>
-        <p className="row row-dark">
-          <img src={Check} alt="checkmark" />
-        </p>
-        <p className="row row-light">
-          <img src={Check} alt="checkmark" />
-        </p>
-        <p className="row row-dark">
-          <img src={Check} alt="checkmark" />
-        </p>
-        <p
-          className="row row-light start-now"
-          onClick={() => startNowHandler()}
-        >
-          Start Now
-        </p>
       </div>
-    </div>
+      <div className="price-cards">
+        <div className="card">
+          <h3>5 page website</h3>
+          <p>
+            Starts At <span>$749</span>
+          </p>
+          <div className="w-space" />
+          <ul>
+            <li>Organic SEO</li>
+            <li>Custom Domain Name</li>
+            <li>5 e-mail addresses</li>
+            <li>5 GB Bandwidth per month</li>
+            <li>Secure Website (SSL)</li>
+            <li>Mobile-Friendly Site</li>
+            <li>Website Support</li>
+          </ul>
+          <div className="start">
+            <Link to="/website-design/inquiry-form">Start</Link>
+          </div>
+        </div>
+        <div className="card">
+          <h3>6-10 page website</h3>
+          <p>
+            Starts At <span>$1,249</span>
+          </p>
+          <div className="w-space" />
+          <ul>
+            <li>Organic SEO</li>
+            <li>Custom Domain Name</li>
+            <li>10 e-mail addresses</li>
+            <li>15 GB Bandwidth per month</li>
+            <li>Secure Website (SSL)</li>
+            <li>Mobile-Friendly Site</li>
+            <li>Website Support</li>
+          </ul>
+          <div className="start">
+            <Link to="/website-design/inquiry-form">Start</Link>
+          </div>
+        </div>
+        <div className="card">
+          <h3>11-15+ page website</h3>
+          <p>
+            Starts At <span>$1,899</span>
+          </p>
+          <div className="w-space" />
+          <ul>
+            <li>Organic SEO</li>
+            <li>Custom Domain Name</li>
+            <li>20 e-mail addresses</li>
+            <li>Unlimited Bandwidth per month</li>
+            <li>Secure Website (SSL)</li>
+            <li>Mobile-Friendly Site</li>
+            <li>Website Support</li>
+            <li>PayPal Button</li>
+            <li>online payments</li>
+            <li>google my business</li>
+          </ul>
+          <div className="start">
+            <Link to="/website-design/inquiry-form">Start</Link>
+          </div>
+        </div>
+        <div className="card">
+          <h3>E-Commerce website</h3>
+          <p>
+            Starts At <span>$1,499</span>
+          </p>
+          <div className="w-space" />
+          <ul>
+            <li>Organic SEO</li>
+            <li>Custom Domain Name</li>
+            <li>10 e-mail addresses</li>
+            <li>Unlimited Bandwidth per month</li>
+            <li>Secure Website (SSL)</li>
+            <li>Mobile-Friendly Site</li>
+            <li>Website Support</li>
+            <li>PayPal Button</li>
+            <li>online payments</li>
+            <li>google my business</li>
+          </ul>
+          <div className="start">
+            <Link to="/website-design/inquiry-form">Start</Link>
+          </div>
+        </div>
+      </div>
+    </>
   );
 }

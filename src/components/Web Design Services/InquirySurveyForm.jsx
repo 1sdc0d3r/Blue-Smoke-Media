@@ -5,11 +5,9 @@ import * as emailjs from "emailjs-com";
 // import Footer from "../Utils/Footer";
 
 export default function Contact() {
-  //todo set up email submit (onsubmit)
   const [data, setData] = useState({
     company: "",
-    fName: "",
-    lName: "",
+    name: "",
     email: "",
     phone: "",
     website: "",
@@ -24,7 +22,7 @@ export default function Contact() {
     webLogo: false,
     blog: false,
     printedMedia: false,
-    antiSpam: "",
+    antiSpam: null,
   });
 
   const onChangeHandler = (evt) => {
@@ -43,23 +41,40 @@ export default function Contact() {
 
   const onSubmitHandler = (evt) => {
     evt.preventDefault();
-    //todo submit handler
-    console.log(data);
-    //* check if antiSpam is empty string or not
-    // const templateParams = {
-    //   reply_to: data.email,
-    //   subject: "Inquiry",
-    //   to_name: "Braden",
-    //   from_name: data.name,
-    //   message_html: data.message,
-    // };
+    const templateParams = {
+      company: data.company,
+      from_name: data.name,
+      reply_to: data.email,
+      phone: data.phone,
+      website_url: data.website,
+      time: data.time,
+      customWebDesign: data.customWebDesign,
+      reDesignUpdate: data.reDesignUpdate,
+      eCommerce: data.eCommerce,
+      adCopy: data.adCopy,
+      webMaintenance: data.webMaintenance,
+      seo: data.seo,
+      printLogo: data.printLogo,
+      webLogo: data.webLogo,
+      blog: data.blog,
+      printedMedia: data.printedMedia,
+    };
 
-    //   emailjs.send(
-    //     "gmail",
-    //     "template_SswCjIcl",
-    //     templateParams,
-    //     "user_vhx6Zrv5irvL2nLhnctr5"
-    //   );
+    if (data.antiSpam === null) {
+      emailjs.send(
+        "service_kys3ouv",
+        "template_x9c27y2",
+        templateParams,
+        "user_AKrWjfONfbrIagrKBIYq0"
+      );
+    }
+
+    document.querySelector(".inquiryForm span").classList.add("message-sent");
+    setTimeout(() => {
+      document
+        .querySelector(".inquiryForm span")
+        .classList.remove("message-sent");
+    }, 5000);
 
     resetHandler();
   };
@@ -67,8 +82,7 @@ export default function Contact() {
   const resetHandler = () => {
     setData({
       company: "",
-      fName: "",
-      lName: "",
+      name: "",
       email: "",
       phone: "",
       website: "",
@@ -91,6 +105,7 @@ export default function Contact() {
       {" "}
       <div className="inquiryForm">
         <h1>Inquiry Form</h1>
+        <span>Message sent successfully</span>
         <p>
           To receive more information about our company, services,
           industry-specific recent projects and case studies, please fill out
@@ -108,23 +123,13 @@ export default function Contact() {
                 onChange={onChangeHandler}
               />
             </label>
-            <label for="fName">
-              First Name:
+            <label for="name">
+              Name:
               <input
                 type="text"
-                name="fName"
-                id="fName"
-                value={data.fName}
-                onChange={onChangeHandler}
-              />
-            </label>
-            <label for="lName">
-              Last Name:
-              <input
-                type="text"
-                name="lName"
-                id="lName"
-                value={data.lName}
+                name="name"
+                id="name"
+                value={data.name}
                 onChange={onChangeHandler}
               />
             </label>
@@ -290,8 +295,7 @@ export default function Contact() {
             />
           </div>
           <div className="actions">
-            <input type="submit" />
-            {/* <input type="reset" value="Reset" onClick={resetHandler} /> */}
+            <button type="submit">Submit</button>
           </div>
         </form>
       </div>

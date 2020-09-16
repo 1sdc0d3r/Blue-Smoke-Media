@@ -7,6 +7,22 @@
   color: #020723;
 }
 
+.inquiryForm span {
+  visibility: hidden;
+  position: absolute;
+}
+
+.inquiryForm .message-sent {
+  visibility: visible;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-transition: 700ms ease-in-out all;
+  transition: 700ms ease-in-out all;
+  background: lightgreen;
+  border: 2px solid green;
+}
+
 .inquiryForm p {
   font-style: italic;
   margin: 1em auto 3em;
@@ -378,15 +394,15 @@
   }
 }
 
-.inquiryForm form .actions input {
-  font-size: 1.1em;
+.inquiryForm form .actions button {
+  font-size: 1.2em;
   margin: auto;
+  font-weight: 700;
+  border-radius: 0.5em;
 }
 
-.inquiryForm form .actions input:hover {
-  background: #ee3e0e;
-  color: #d7dae6;
-  font-weight: 700;
+.inquiryForm form .actions button:hover {
+  color: #1e92f6;
 }
 
 .inquiryForm form .antiSpam {

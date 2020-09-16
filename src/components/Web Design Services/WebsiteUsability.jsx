@@ -1,10 +1,10 @@
 import React from "react";
 import websiteUsability from "../../images/website_design_useability.png";
+
 import { Link } from "react-router-dom";
 import {Helmet} from "react-helmet";
-//* Images
-// const websiteUsability =
-//   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/website_design_useability.png";
+
+//todo links broken here
 
 export default function WebsiteUsability() {
   return (
@@ -58,6 +58,67 @@ export default function WebsiteUsability() {
           </li>
         </ul>
       </div>
+      <Helmet>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        {/* <!-- Mobile Meta --> */}
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link
+          rel="canonical"
+          href="https://www.bluesmokedigitalandprintedmedia.com/#/Web Design Services/WebsiteUseability"
+        />
+
+        {/* <!-- HTML Meta Tags --> */}
+        <title>Website Useability to Equal Sales</title>
+        <meta
+          name="description"
+          content="Your website is an investment that should benefit you and your company by helping your visitors find what they’re looking for. In addition to ensuring that your website is clear and easy to use, we’ll address issues of necessary information, speed of download, how information “flows” through your site, and more ."
+        />
+
+        {/* <!-- Google / Search Engine Tags --> */}
+        <meta itemprop="name" content="Website Useability to Equal Sales" />
+        <meta
+          itemprop="description"
+          content="Your website is an investment that should benefit you and your company by helping your visitors find what they’re looking for. In addition to ensuring that your website is clear and easy to use, we’ll address issues of necessary information, speed of download, how information “flows” through your site, and more ."
+        />
+        <meta
+          itemprop="image"
+          content="../../images/website_design_useability.png"
+        />
+
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta
+          property="og:url"
+          content="https://www.BlueSmokeDigitalAndPrintedMedia.com"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Website Useability to Equal Sales" />
+        <meta
+          property="og:description"
+          content="Your website is an investment that should benefit you and your company by helping your visitors find what they’re looking for. In addition to ensuring that your website is clear and easy to use, we’ll address issues of necessary information, speed of download, how information “flows” through your site, and more ."
+        />
+        <meta
+          property="og:image"
+          content="../../images/website_design_useability.png"
+        />
+
+        {/* <!-- Twitter Meta Tags --> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Website Useability to Equal Sales"
+        />
+        <meta
+          name="twitter:description"
+          content="Your website is an investment that should benefit you and your company by helping your visitors find what they’re looking for. In addition to ensuring that your website is clear and easy to use, we’ll address issues of necessary information, speed of download, how information “flows” through your site, and more ."
+        />
+        <meta
+          name="twitter:image"
+          content="../../images/website_design_useability.png"
+        />
+      </Helmet>
     </div>
   );
 }

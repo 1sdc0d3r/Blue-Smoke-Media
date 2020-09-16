@@ -1,5 +1,6 @@
 import React from "react";
 import coding from "../../images/programming_coding.png";
+import { Helmet } from "react-helmet";
 //* Images
 // const coding =
 //   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/programming_coding.png";
@@ -68,6 +69,69 @@ export default function WebsiteProgrammingCoding() {
             </li>
           </ul>
         </div>
+        <Helmet>
+          <meta charset="utf-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+          {/* <!-- Mobile Meta --> */}
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+          <link
+            rel="canonical"
+            href="https://www.bluesmokedigitalandprintedmedia.com/#/Web Design Services/WebsiteProgramingCoding"
+          />
+
+          {/* // <!-- HTML Meta Tags --> */}
+          <title>Coding and Web Programming</title>
+          <meta
+            name="description"
+            content="Blue Smoke Digital Media, will match your business needs with the most appropriate Web technology, and then we develop it for you and give you the code. We can automate recurring tasks that you have to pay employees to do, freeing them up to produce and sell more."
+          />
+
+          <meta
+            name="keywords"
+            content="coding web development,  web coding, python web programming, java web programming, web design coding, full stack coding, back end web programming, web design and coding, web developer coding, web page development using html, creating a website with javascript, creating a website using html css and javascript"
+          />
+
+          {/* <!-- Google / Search Engine Tags --> */}
+          <meta itemprop="name" content="Coding and Web Programming" />
+          <meta
+            itemprop="description"
+            content="Blue Smoke Digital Media, will match your business needs with the most appropriate Web technology, and then we develop it for you and give you the code. We can automate recurring tasks that you have to pay employees to do, freeing them up to produce and sell more."
+          />
+          <meta
+            itemprop="image"
+            content="../../images/programming_coding.png"
+          />
+
+          {/* <!-- Facebook Meta Tags --> */}
+          <meta
+            property="og:url"
+            content="https://www.BlueSmokeDigitalAndPrintedMedia.com"
+          />
+          <meta property="og:type" content="website" />
+          <meta property="og:title" content="Coding and Web Programming" />
+          <meta
+            property="og:description"
+            content="Blue Smoke Digital Media, will match your business needs with the most appropriate Web technology, and then we develop it for you and give you the code. We can automate recurring tasks that you have to pay employees to do, freeing them up to produce and sell more."
+          />
+          <meta
+            property="og:image"
+            content="../../images/programming_coding.png"
+          />
+
+          {/* <!-- Twitter Meta Tags --> */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="Coding and Web Programming" />
+          <meta
+            name="twitter:description"
+            content="Blue Smoke Digital Media, will match your business needs with the most appropriate Web technology, and then we develop it for you and give you the code. We can automate recurring tasks that you have to pay employees to do, freeing them up to produce and sell more."
+          />
+          <meta
+            name="twitter:image"
+            content="../../images/programming_coding.png"
+          />
+        </Helmet>
       </div>
     </>
   );

@@ -39,6 +39,7 @@ export default withRouter(function HamburgerMenu(props) {
               <Link to="/seo/seoOrganic">
                 Organic Search Engine Optimization
               </Link>
+              <Link to="/social-media">Social Media</Link>
               <h3>Website Design</h3>
 
               <Link to="/website-design/custom-website-design">
@@ -77,6 +78,9 @@ export default withRouter(function HamburgerMenu(props) {
               </Link>
             </div>
           </ul>
+          <Link to="/plans">
+            <li>Pricing</li>
+          </Link>
 
           <a href="#blog" target="_blank">
             <li>Blog</li>

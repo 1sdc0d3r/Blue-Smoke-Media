@@ -19,6 +19,7 @@
 
   h1 {
     margin: 1em auto 0.6em;
+    color: $royalBlue;
 
     @include breakpoint(xxs, xs, s, m) {
       font-size: 1.5em;
