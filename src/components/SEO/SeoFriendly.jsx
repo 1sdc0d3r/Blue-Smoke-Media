@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import seoPuzzle from "../../images/seo-puzzle.png";
+import { Helmet } from "react-helmet";
 //* Images
 // const seoPuzzle =
 // "https://blue-smoke-media.s3-us-west-1.amazonaws.com/seo-puzzle.jpg";
@@ -8,7 +9,7 @@ import seoPuzzle from "../../images/seo-puzzle.png";
 export default function OrganicSeo() {
   return (
     <div className="seo-friendly page-wrapper">
-      <img src={seoPuzzle} alt="seo" />
+      <img src={seoPuzzle} alt="Search Engine Friendly Web Design Puzzle Pieces " />
       <div className="wrapper">
         {/* <div className="top"> */}
         <h1>
@@ -30,7 +31,7 @@ export default function OrganicSeo() {
         </p>
         <p>
           At <span>Blue Smoke Digital Media</span>, we know that a web site’s
-          basic search engine “friendliness” should, in most cases, be part of
+          basic <Link to="123Article/SEO Through Well Built Pages">search engine “friendliness”</Link> should, in most cases, be part of
           the overall design plan for a new web site. Good search engine
           rankings are often crucial to the goals of our clients. This is why we
           incorporate these fundamental techniques in our designs as a standard
@@ -65,6 +66,71 @@ export default function OrganicSeo() {
           today.
         </p>
       </div>
+      <Helmet>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        {/* <!-- Mobile Meta --> */}
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link
+          rel="canonical"
+          href="https://www.bluesmokedigitalandprintedmedia.com/#/SEO/OrganicSeo"
+        />
+
+        {/* // <!-- HTML Meta Tags --> */}
+        <title>
+          Search Engine Friendly Web Design and Search Engine Optimization
+        </title>
+        <meta
+          name="description"
+          content="At Blue Smoke Digital Media, we know that a web site’s basic search engine “friendliness” should, in most cases, be part of the overall design plan for a new website. Good search engine rankings are often crucial to the goals of our clients. This is why we incorporate these fundamental techniques in our designs as a standard part of even our most affordable packages."
+        />
+
+        <meta
+          name="keywords"
+          content="social media marketing strategy, smm marketing, digital and social media marketing, social marketing agency, digital marketing solution service, digital marketing service, digital marketing company, digital marketing strategy, internet marketing, social media marketing agency, online marketing agency, content marketing agency, best digital marketing agency, top digital marketing agencies, web marketing agency, sms marketing, digital ad agency, digital marketing advertising, seo and digital marketing, online digital marketing agency, online media marketing, corporate digital marketing, online and social media marketing, digital marketing online marketing"
+        />
+
+        {/* <!-- Google / Search Engine Tags --> */}
+        <meta
+          itemprop="name"
+          content="Search Engine Friendly Web Design and Search Engine Optimization"
+        />
+        <meta
+          itemprop="description"
+          content="At Blue Smoke Digital Media, we know that a web site’s basic search engine “friendliness” should, in most cases, be part of the overall design plan for a new website. Good search engine rankings are often crucial to the goals of our clients. This is why we incorporate these fundamental techniques in our designs as a standard part of even our most affordable packages."
+        />
+        <meta itemprop="image" content="../../images/seo-puzzle.png" />
+
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta
+          property="og:url"
+          content="https://www.BlueSmokeDigitalAndPrintedMedia.com"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Search Engine Friendly Web Design and Search Engine Optimization"
+        />
+        <meta
+          property="og:description"
+          content="At Blue Smoke Digital Media, we know that a web site’s basic search engine “friendliness” should, in most cases, be part of the overall design plan for a new website. Good search engine rankings are often crucial to the goals of our clients. This is why we incorporate these fundamental techniques in our designs as a standard part of even our most affordable packages."
+        />
+        <meta property="og:image" content="../../images/seo-puzzle.png" />
+
+        {/* <!-- Twitter Meta Tags --> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Search Engine Friendly Web Design and Search Engine Optimization"
+        />
+        <meta
+          name="twitter:description"
+          content="At Blue Smoke Digital Media, we know that a web site’s basic search engine “friendliness” should, in most cases, be part of the overall design plan for a new website. Good search engine rankings are often crucial to the goals of our clients. This is why we incorporate these fundamental techniques in our designs as a standard part of even our most affordable packages."
+        />
+        <meta name="twitter:image" content="../../images/seo-puzzle.png" />
+      </Helmet>
     </div>
   );
 }

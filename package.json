@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@babel/preset-env": "7.10.3",
-    "@babel/preset-react": "7.10.1",
-    "@babel/register": "7.10.3",
+    "@babel/preset-env": "7.11.5",
+    "@babel/preset-react": "7.10.4",
+    "@babel/register": "7.11.5",
     "@testing-library/jest-dom": "4.2.4",
     "@testing-library/react": "9.5.0",
     "@testing-library/user-event": "12.1.5",
@@ -16,19 +16,22 @@
     "babel-register": "^6.26.0",
     "emailjs-com": "2.4.1",
     "express": "4.17.1",
-    "file-loader": "6.0.0",
+    "file-loader": "6.1.0",
     "ignore-styles": "5.0.1",
-    "node-sass": "^4.14.1",
-    "pure-react-carousel": "^1.27.1",
+    "node-sass": "4.14.1",
+    "pure-react-carousel": "1.27.3",
     "react": "16.13.1",
-    "react-card-flip": "^1.0.11",
+    "react-card-flip": "1.0.11",
     "react-dom": "16.13.1",
-    "react-payment-icons": "^1.2.6",
+    "react-helmet": "6.1.0",
+    "react-payment-icons": "1.2.6",
     "react-router-dom": "5.1.2",
-    "react-router-sitemap": "^1.2.0",
-    "react-scripts": "3.4.1",
-    "uikit": "^3.5.7",
+    "react-scripts": "3.4.3",
+    "uikit": "3.5.7",
     "url-loader": "4.1.0"
+  },
+  "devDependencies": {
+    "css-loader": "4.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -36,7 +39,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "ngrok": "/Users/Braden/Documents/Programming/utils/ngrok http 3000",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "sitemap": "node ./src/sitemap-builder.js"
   },
   "eslintConfig": {
     "extends": "react-app"

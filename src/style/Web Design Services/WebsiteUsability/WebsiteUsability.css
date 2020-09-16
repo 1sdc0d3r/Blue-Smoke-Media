@@ -36,6 +36,7 @@
 .website-usability .content h1 {
   text-align: center;
   margin: 1.45em auto;
+  color: #04227a;
 }
 
 @media (max-width: 360px) {
