@@ -36,12 +36,6 @@ export default function Footer() {
             <li>
               <Link to="/team">{chevron}Our Team </Link>
             </li>
-            {/* <li>
-              < to="#">Portfolio</{chevron}Link>
-            </li> */}
-            {/* <li>
-              <a href="#" target="_blank">Our Blog</a>
-            </li> */}
             <li>
               <Link to="/website-design/inquiry-form">
                 {chevron}Inquiry Form
@@ -62,7 +56,6 @@ export default function Footer() {
                 {chevron}Website Design
               </Link>
             </li>
-            {/* //todo NEW SEO PAGE */}
             <li>
               <Link to="/seo">
                 {chevron}
@@ -79,15 +72,6 @@ export default function Footer() {
             <li>
               <Link to="/plans">{chevron}Plans & Pricing</Link>
             </li>
-            {/* <li>
-              <Link to="a/">{chevron}Social Media Marketing</Link>
-            </li> */}
-            {/* <li>
-              <Link to="l-">{chevron}Corporate Branding</Link>
-            </li> */}
-            {/* <li>
-              <Link to="#">Reputation Management{chevron}</Link>
-            </li> */}
           </ul>
         </div>
         <div>
@@ -102,9 +86,6 @@ export default function Footer() {
                 {chevron}Custom Website Design
               </Link>
             </li>
-            {/* <li>
-              <Link to="#">Re-Design{chevron} & Updates</Link>
-            </li> */}
             <li>
               <Link to="/website-design/website-useability">
                 {chevron}Website Useability

@@ -37,7 +37,7 @@ export default function WebsiteUsability() {
           <li>
             We’ll review your old website with you and determine along with you
             what features should be included or left out of the new site 
-            <Link to="123article/10 Prominent Website Design Mistakes">(read 10 Prominent Website Design Mistakes, article).</Link>
+            <Link to="/article/1">(read 10 Prominent Website Design Mistakes, article).</Link>
           </li>
           <li>
             We’ll investigate what worked and didn’t work with your old site and
@@ -54,7 +54,7 @@ export default function WebsiteUsability() {
           <li>
             We will guide you through the development of the new look & feel of your
             Website design (if you decide you want a new look & feel), helping you
-            decide what will best <Link to="123Article/Attract Targeted Local Customers With Online Marketing">communicate your business message.</Link>
+            decide what will best <Link to="/article/7">communicate your business message.</Link>
           </li>
         </ul>
       </div>

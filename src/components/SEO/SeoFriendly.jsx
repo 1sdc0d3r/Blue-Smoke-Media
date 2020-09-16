@@ -31,7 +31,7 @@ export default function OrganicSeo() {
         </p>
         <p>
           At <span>Blue Smoke Digital Media</span>, we know that a web site’s
-          basic <Link to="123Article/SEO Through Well Built Pages">search engine “friendliness”</Link> should, in most cases, be part of
+          basic <Link to="/article/5">search engine “friendliness”</Link> should, in most cases, be part of
           the overall design plan for a new web site. Good search engine
           rankings are often crucial to the goals of our clients. This is why we
           incorporate these fundamental techniques in our designs as a standard

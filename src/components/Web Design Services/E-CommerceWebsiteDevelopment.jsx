@@ -3,14 +3,13 @@ import eCommerce from "../../images/E-commerce_image.png";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 
-//* Images
-// const eCommerce =
-//   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/E-commerce_image.png";
-
 export default function ECommerceWebsiteDevelopment() {
   return (
     <div className="e-commerce-website-development page-wrapper">
-      <img src={eCommerce} alt="E-commerce and all it entails to become a successful business." />
+      <img
+        src={eCommerce}
+        alt="E-commerce and all it entails to become a successful business."
+      />
       <div className="content">
         <h1> Websites and E - Commerce </h1>{" "}
         <h2> E - Commerce...Build an ONLINE Store </h2>{" "}
@@ -34,7 +33,7 @@ export default function ECommerceWebsiteDevelopment() {
           to use the Web to their advantage. By taking the time in getting to
           know your business, your goals, objectives, strengths and weaknesses,
           we are better able to formulate an effective strategy specifically for
-          you.{" "}
+          you.
         </p>{" "}
         <p>
           Remember, no two businesses are exactly alike, and because a business

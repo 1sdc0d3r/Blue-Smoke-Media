@@ -76,10 +76,9 @@ export default function Home() {
                   <p>
                     Custom website design is a process because so much goes into
                     it, but businesses get a lot more out of it over the long
-
-                    term. <Link to="123Article/10 Prominent Website Mistakes"> Custom-made websites </Link> look better, do more, and
-                    accomplish specific business goals.
-
+                    term. <Link to="/article/1"> Custom-made websites </Link>{" "}
+                    look better, do more, and accomplish specific business
+                    goals.
                   </p>
                 </div>
               </ReactCardFlip>
@@ -97,12 +96,12 @@ export default function Home() {
                 <div className="service-card-back">
                   <h3>Search Engine Optimization (SEO)</h3>
                   <p>
-                    Making a website <link to="123Article/SEO Through Well Built Pages">SEO friendly</link> means that Google and other
-                    search engines can crawl each page on the website
-                    efficiently, interpret the content effectively, and index it
-                    in their database. Once indexed, they can then serve the
-                    most relevant and valuable web pages to their users based on
-                    the topics they search for.
+                    Making a website <Link to="/article/5">SEO friendly</Link>{" "}
+                    means that Google and other search engines can crawl each
+                    page on the website efficiently, interpret the content
+                    effectively, and index it in their database. Once indexed,
+                    they can then serve the most relevant and valuable web pages
+                    to their users based on the topics they search for.
                   </p>
                 </div>
               </ReactCardFlip>
@@ -116,7 +115,10 @@ export default function Home() {
             >
               <ReactCardFlip isFlipped={card3} flipDirection="horizontal">
                 <div className="service-card-front">
-                  <img src={slide_graphic} alt="Digital and Printed Graphic Design" />
+                  <img
+                    src={slide_graphic}
+                    alt="Digital and Printed Graphic Design"
+                  />
                   <h3>Digital and Printed Graphic Design</h3>
                 </div>
                 <div className="service-card-back">
@@ -146,7 +148,10 @@ export default function Home() {
             >
               <ReactCardFlip isFlipped={card4} flipDirection="horizontal">
                 <div className="service-card-front">
-                  <img src={slide_sm} alt="Social Media and Internet Marketing" />
+                  <img
+                    src={slide_sm}
+                    alt="Social Media and Internet Marketing"
+                  />
                   <h3>Social Media and Internet Marketing</h3>
                 </div>
                 <div className="service-card-back">
@@ -154,9 +159,11 @@ export default function Home() {
                   <p>
                     It’s crucial you determine which platforms you’re going to
                     share your content on. There’s not necessarily a right or
-                    wrong answer when it comes to which <Link to="123Article/What Makes A Winning Online Ad">social media</Link>channels your
-                    business should use — it’s more about the needs of your
-                    target audience and where they tend to spend their time.
+                    wrong answer when it comes to which{" "}
+                    <Link to="/article/8">social media</Link>
+                    channels your business should use — it’s more about the
+                    needs of your target audience and where they tend to spend
+                    their time.
                   </p>
                 </div>
               </ReactCardFlip>
@@ -246,8 +253,11 @@ export default function Home() {
             More than 28% of users from four major social media platforms engage
             with live streams each month on any one of these services. “Video is
             the hottest platform on the planet right now and the cheapest to
-            distribute through social media,” said <a href="https://www.mattjohnstononline.com/">Matt Johnston, CEO, and
-            Founder</Link> of Guide Social, an exclusive video marketing agency that
+            distribute through social media,” said{" "}
+            <a href="https://www.mattjohnstononline.com/">
+              Matt Johnston, CEO, and Founder
+            </a>{" "}
+            of Guide Social, an exclusive video marketing agency that
             experienced a 400 percent growth spurt in the last six months. “A
             reminder to brands, video does NOT have to be expensively produced
             to be effective.”
@@ -256,7 +266,6 @@ export default function Home() {
             Daily Activity Almost 3.5 billion social media users worldwide
             coexist with devices.
           </p>
-          {/* //todo link */}
           <Link to="/social-media">Learn More</Link>
         </div>
         {/* <img src={socialMedia} alt="social media globe" /> */}
