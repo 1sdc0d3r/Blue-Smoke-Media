@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 //* Images
 // const fingersCrossed =
 // "https://blue-smoke-media.s3-us-west-1.amazonaws.com/fingers-crossed.png";
+				  {*/ todo LINKS */}
 
 export default function PrintAndDesignGraphicServices() {
   return (
@@ -83,11 +84,13 @@ export default function PrintAndDesignGraphicServices() {
                 all depends on your industry and your objectives. We get to know
                 you and what you do to be sure that your literature conveys an
                 accurate image. Every project at{" "}
+				  {*/ todo LINK */}
                 <span>Blue Smoke Digital and Printed Media,</span> is <Link to="123Article/Website Manifestation - 7 Steps to a Successful Web Site">custom
                 designed</Link> to your digital or graphic media needs, specifically to
                 address the individual challenges of each project we work on.
                 Whether it’s the introduction of a product or service, a new
-                corporate identity, or a <Link to="123Article/Attract Targeted Local Customers With Online Marketing">one-of-a-kind promotion</Link> you have our
+                corporate identity, or a 
+				  				  {*/ todo LINK */}<Link to="123Article/Attract Targeted Local Customers With Online Marketing">one-of-a-kind promotion</Link> you have our
                 guarantee that it will be unique.
               </p>
             </section>
