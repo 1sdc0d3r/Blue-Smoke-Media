@@ -8,7 +8,7 @@ import seoPuzzle from "../../images/seo-puzzle.png";
 export default function OrganicSeo() {
   return (
     <div className="seo-friendly page-wrapper">
-      <img src={seoPuzzle} alt="seo" />
+      <img src={seoPuzzle} alt="Search Engine Friendly Web Design Puzzle Pieces " />
       <div className="wrapper">
         {/* <div className="top"> */}
         <h1>
