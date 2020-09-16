@@ -2,7 +2,7 @@ import React from "react";
 import seoBanner from "../../images/seo-banner.png";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-
+//todo LINKS
 // const seoBanner =
 // "https://blue-smoke-media.s3-us-west-1.amazonaws.com/seo-banner.png";
 
