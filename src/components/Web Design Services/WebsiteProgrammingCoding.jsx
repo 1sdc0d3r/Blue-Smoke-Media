@@ -1,6 +1,7 @@
 import React from "react";
 import coding from "../../images/programming_coding.png";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 //* Images
 // const coding =
 //   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/programming_coding.png";
@@ -28,7 +29,7 @@ export default function WebsiteProgrammingCoding() {
           <p>
             Allow us to help you navigate all these issues. We can work with
             your I.T. department in developing your code or integrating
-            applications as well. Ask{" "}
+            applications as well. <Link to="/contact">Ask</Link>{" "}
             <span className="bold">Blue Smoke Digital Media</span> to be your
             Web department. It is beneficial to break down the abstract concept
             of web technology into four subsections:{" "}
@@ -64,7 +65,7 @@ export default function WebsiteProgrammingCoding() {
             <li>Application development & Web programming for your business</li>
             <li>Consultation on database construction and integration</li>
             <li>
-              Best known practices for bringing your marketing to life on the
+              Best known practices for bringing your <Link to="/article/17">marketing</Link> to life on the
               web
             </li>
           </ul>
