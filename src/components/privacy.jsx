@@ -1,9 +1,10 @@
 import React, { useRef } from "react";
 import { Helmet } from "react-helmet";
-import { p } from "react-router-dom";
+import ReactHtmlParser from "react-html-parser";
 
 export default function PrivacyPolicy() {
   const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
+  const ref0 = useRef(null);
   const ref1 = useRef(null);
   const ref2 = useRef(null);
   const ref3 = useRef(null);
@@ -22,11 +23,10 @@ export default function PrivacyPolicy() {
     <section>
       <pre>
         <h3>PRIVACY NOTICE Last updated September 07, 2020</h3>
-        {`Thank you for choosing to be part of our community at Blue Smoke Digital and Printed Media (“Company”, “we”, “us”, or “our”). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice, or our practices with regards to your personal information, please contact us at CoBe@BlueSmokeMedia.net.
-When you visit our website https://bluesmokedigitalandprintedmedia.com (the “Website”), and more generally, use any of our services (the “Services”, which include the Website), we appreciate that you are trusting us with your personal information. We take your privacy very seriously. In this privacy notice, we seek to explain to you in the clearest way possible what information we collect, how we use it and what rights you have in relation to it. We hope you take some time to read through it carefully, as it is important. If there are any terms in this privacy notice that you do not agree with, please discontinue use of our Services immediately.
-This privacy notice applies to all information collected through our Services (which, as described above, includes our Website), as well as any related services, sales, marketing or events.
-Please read this privacy notice carefully as it will help you understand what we do with the information that we collect.
-`}
+        {ReactHtmlParser(`Thank you for choosing to be part of our community at Blue Smoke Digital and Printed Media (“Company”, “we”, “us”, or “our”). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice, or our practices with regards to your personal information, please contact us at <a href='mailto:CoBe@BlueSmokeMedia.net?subject=Privacy Policy'>CoBe@BlueSmokeMedia.net.</a>
+        When you visit our website <a href='https://www.bluesmokedigitalandprintedmedia.com'>https://www.bluesmokedigitalandprintedmedia.com</a> (the “Website”), and more generally, use any of our services (the “Services”, which include the Website), we appreciate that you are trusting us with your personal information. We take your privacy very seriously. In this privacy notice, we seek to explain to you in the clearest way possible what information we collect, how we use it and what rights you have in relation to it. We hope you take some time to read through it carefully, as it is important. If there are any terms in this privacy notice that you do not agree with, please discontinue use of our Services immediately.
+        This privacy notice applies to all information collected through our Services (which, as described above, includes our Website), as well as any related services, sales, marketing or events. Please read this privacy notice carefully as it will help you understand what we do with the information that we collect.
+`)}
         <h3>TABLE OF CONTENTS</h3>
         <p className="toc-item" onClick={() => scrollToRef(ref1)}>
           1. WHAT INFORMATION DO WE COLLECT?
@@ -291,21 +291,23 @@ Blue Smoke Digital and Printed Media 
 HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?
 Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it in some circumstances. To request to review, update, or delete your personal information, please visit: BlueSmokeDigitalAndPrintedMedia.com. We will respond to your request within 30 days.`}
       </pre>
-      <pre style={{ whiteSpace: "pre-wrap" }}>
-        <span style={{ fontWeight: "900" }}>DISCLAIMER</span> Last updated
-        September 07, 2020 WEBSITE DISCLAIMER The information provided by Blue
-        Smoke digital and printed Media, (“we,” “us” or “our”) on
-        BlueSmokeDigitalAndPrintedMedia.com, (the “Site”) is for general
-        informational purposes only. All information on the Site is provided in
-        good faith, however we make no representation or warranty of any kind,
-        express or implied, regarding the accuracy, adequacy, validity,
-        reliability, availability or completeness of any information on the
-        Site. UNDER NO CIRCUMSTANCE SHALL WE HAVE ANY LIABILITY TO YOU FOR ANY
-        LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF THE SITE
-        OR RELIANCE ON ANY INFORMATION PROVIDED ON THE SITE. YOUR USE OF THE
-        SITE AND YOUR RELIANCE ON ANY INFORMATION ON THE SITE IS SOLELY AT YOUR
-        OWN RISK.
+      <pre className="disclaimer" ref={ref14}>
+        <h3>DISCLAIMER</h3>
+        Last updated September 07, 2020 WEBSITE DISCLAIMER
+        <br />
+        The information provided by Blue Smoke digital and printed Media, (“we,”
+        “us” or “our”) on BlueSmokeDigitalAndPrintedMedia.com, (the “Site”) is
+        for general informational purposes only. All information on the Site is
+        provided in good faith, however we make no representation or warranty of
+        any kind, express or implied, regarding the accuracy, adequacy,
+        validity, reliability, availability or completeness of any information
+        on the Site. UNDER NO CIRCUMSTANCE SHALL WE HAVE ANY LIABILITY TO YOU
+        FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF
+        THE SITE OR RELIANCE ON ANY INFORMATION PROVIDED ON THE SITE. YOUR USE
+        OF THE SITE AND YOUR RELIANCE ON ANY INFORMATION ON THE SITE IS SOLELY
+        AT YOUR OWN RISK.
       </pre>
+      <h4 onClick={() => window.scrollTo(0, 0)}>Scroll To Top</h4>
       <Helmet>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />

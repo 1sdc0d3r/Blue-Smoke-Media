@@ -21,4 +21,12 @@ section .toc-item {
 section h4 {
   margin: 2em auto 0;
 }
+
+section .disclaimer {
+  white-space: pre-wrap;
+}
+
+section .disclaimer h3 {
+  font-weight: 900;
+}
 /*# sourceMappingURL=Privacy.css.map */
