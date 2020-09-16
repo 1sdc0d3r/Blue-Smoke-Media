@@ -1,6 +1,7 @@
 import React from "react";
 import AdCopyWritingImg from "../../images/ad-copy-writing-image.png";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 //* Images
 // const AdCopyWritingImg =
 //   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/ad-copy-writing-image.png";
@@ -15,7 +16,7 @@ export default function AdCopyWriting() {
           Business Website
         </h1>
         <p>
-          No one sets out to write boring copy for their Website, but start
+          No one sets out to <Link to="/article/15">write</Link> boring copy for their Website, but start
           clicking around, and you will find plenty of bad copy Here are some
           useful tips that will help you turn your existing Website content
           into compelling copy. The overall aim is to give your customers enough
@@ -35,8 +36,8 @@ export default function AdCopyWriting() {
         </p>
         <p>
           <span className="orange"> 2. Use psychology.</span> People often make
-          purchases because they believe the item will make them feel better or
-          make their lives easier. How can your product or service benefit
+          purchases because they <Link to="/article/8">believe the item will make them feel better or
+          make their lives easier.</Link> How can your product or service benefit
           someone? Make a list of the different benefits that your product can
           offer and then use these points in your copy.
         </p>
@@ -53,7 +54,7 @@ export default function AdCopyWriting() {
           going to buy. You need to help them by creating copy that will allow
           them to picture how a product or service will help them and encourages
           them to buy. <span>Blue Smoke Digital Media</span> will help you inform your
-          customers about a product, use quality website ad copy to show them
+          customers about a product, <Link to="/article/3">use quality website ad copy</Link> to show them
           how it will work or how it can improve their lives.
         </p>
       </div>
