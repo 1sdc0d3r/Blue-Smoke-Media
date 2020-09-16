@@ -8,7 +8,7 @@ import { Helmet } from "react-helmet";
 export default function WebMaintenance() {
   return (
     <div className="web-maintenance page-wrapper">
-      <img src={websiteMaintenance} alt="bug fixes, updates" />
+      <img src={websiteMaintenance} alt="Website Maintenance -bug fixes, updates, keyword update, content update, improper graphics." />
       <div className="content">
         <h1>Website Maintenance Agreements</h1>
         <p>

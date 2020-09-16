@@ -4,6 +4,7 @@ import team from "../data/team";
 //* Images
 import languages from "../images/Coding-Web-Development.jpg";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 const womanStudio =
   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/graphic-design-video-MTT.mp4";
 const globeVid =
@@ -19,10 +20,10 @@ export default function Team() {
         <p>
           <span>Blue Smoke Digital and Printed Media,</span> a company founded
           in 2019, was formed by a cooperative interaction of talented
-          individuals from a variety of disciplines, all with over 35 years of
-          programming, graphic design, search engine optimization, and sales
-          experience. Each <span>Blue Smoke Media</span> team member is a
-          graduate of{" "}
+          individuals from a variety of disciplines, with a combined 35 years of
+          programming, graphic design, search engine optimization, and sales and marketing
+          experience. Each <span>Blue Smoke Digital Media</span> team member is a
+          student or graduate of{" "}
           <a
             href="https://lambdaschool.com/"
             rel="nofollow noopener noreferrer"
@@ -36,21 +37,22 @@ export default function Team() {
           <video
             type="video/mp4"
             src={womanStudio}
+            alt="Video of a woman in her studio painting"
             preload="auto"
             autoPlay
             loading="lazy"
             loop
           ></video>
           <p>
-            The <span>Blue Smoke Media</span> design staff consists of graphic
-            designers, web designers, logo designers, and usability experts
+            The <span>Blue Smoke Digital and Printed Media</span> design staff consists of graphic
+            designers, web designers, <link to="/graphic-design/website-logo-design">logo designers</link>, and usability experts
             versed in the latest up to date design standards.
           </p>
         </div>
         <div>
-          <img src={languages} alt="alternation" />
+          <img src={languages} alt="Man pointing to programming languages, marketing and design programs" />
           <p>
-            The <span>Blue Smoke Media</span> Full-Stack developers are
+            The <span>Blue Smoke Digital Media</span> <Link to="/website-design/coding">Full-Stack and Front-End developers</Link> are
             proficient in the following languages, but not limited to: HTML5 •
             CSS3 • SASS • Tailwind • Bootstrap • JSON • Javascript • Python •
             React • Redux • NodeJS • Express • REST • SQL • SQLite • Postgres •
@@ -62,15 +64,16 @@ export default function Team() {
           <video
             type="video/mp4"
             src={seoVid}
+            alt="Video of how SEO can act like a lightbulb moment going off on your website."
             preload="auto"
             autoPlay
             loading="lazy"
             loop
           ></video>
           <p>
-            "The <span>Blue Smoke Media</span> marketing staff consists of
-            search engine optimization (SEO) specialists, copywriters, corporate
-            branding specialists, publicists, and marketing experts."
+            "The <span>Blue Smoke Digital Media</span> marketing staff consists of
+            search engine optimization (SEO) specialists, copywriters, Corporate
+            Branding specialists, publicists, and <Link to="/social-media" >Social Media marketing</Link> experts."
           </p>
         </div>
         <div>
@@ -78,6 +81,7 @@ export default function Team() {
           <video
             type="video/mp4"
             src={globeVid}
+            alt="Video of a digital spinning globe. "
             preload="auto"
             autoPlay
             loading="lazy"
@@ -96,7 +100,7 @@ export default function Team() {
           At<span> Blue Smoke Digital and Printed Media,</span> our product is
           built on appealing, solid websites and graphic design, that represents
           the client while appealing to their customers. We will always remember
-          that we are a service company. Each and every customer is valued as We
+          that we are a service company. Each and every customer is valued as we
           will work to earn our customers’ trust and loyalty. And more than
           simply responding to customer needs, we will work to anticipate them -
           With unquestionable honesty, fairness and respect.
