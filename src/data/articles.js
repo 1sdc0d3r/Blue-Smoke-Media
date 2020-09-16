@@ -113,7 +113,7 @@ export const articleData = [{
         All that took about 30 seconds from concept to completion leaving me with a feeling of satisfaction that no regular phone book could ever provide. I'm now addicted to local search after only a single dose! Throw away the phone book, never mind the concierge.
         Now, if that little demo hasn't yet convinced you, chew on this recent finding...
         86% of U.S. households now use the Internet as an information source to find a local business when shopping locally for products and services. Here is a breakdown for you:
-        
+
             ◆	80% of local searches convert
             ◆	46% of Google searches are for local businesses
             ◆	56% of local retailers have not claimed their Google My Business listing
@@ -406,7 +406,7 @@ export const articleData = [{
     },
     {
         id: 16,
-        title: "Build It And They Will Come. True or False?Why So Many Online Businesses Fail.",
+        title: "Build It And They Will Come. True or False? Why So Many Online Businesses Fail.",
         author: "",
         content: `
         Build it and they will come! Well . . . sometimes. If you're real lucky, and I mean REALLY lucky.Now you have your beautiful website boasting your amazing products or services. It's out there, just waiting for people who want what you have to offer. You're going to dazzle them with your dynamic website and the sales are going to come flooding in. Wrong. The dream is over. It's time to come back to reality.I can't begin to tell you how many times I've heard the stories of disappointment from very sharp business people who actually thought that having a website is all there is to either starting and operating a successful and profitable online business, or incorporating eCommerce into their existing business of traditional commerce.Your website is quite simply, a brochure that is now lost in a very large online ocean of literally billions of other brochures. We'll compare it to a stack of beautifully printed brochures sitting on your desk; your prospects will never see it unless you place your brochures in a visible place where people look for what you have to offer - true? Your online brochure, (your website), also needs to be positioned in a visible place where your prospects can find you - on major search engine directories.Keywords and key phrases are the search words and terms Internet surfers use to find the products, services or information they are looking for.Choosing the right keywords and phrases for your website's search engine optimization (SEO) program is critical to its success. The right keywords drive targeted traffic to your website - prospects who are ready to buy. The wrong keywords attract web visitors that are not likely to purchase your products and services - wasting everyone's time and your money.
@@ -429,5 +429,30 @@ export const articleData = [{
         Rule #8 Analyze your website traffic. Make sure your web hosting company provides you with the ability to analyze your website log files. Some hosting companies have you log into your account to view monthly web traffic reports, while others email monthly reports. Information obtained can tell you the top search terms and search engines used to find your website and other valuable information. To get the most out of your log file data, it is recommended to use a log file analyzer such as Web Trends or Urchin.
 
         By applying these simple rules, you will be well on your way to generating highly-targeted keywords and phrases that attract the right prospects - prospects who have direct interest in what you have to offer.`
+    },
+    {
+        id: 17,
+        title: "Social Media: Why It Is 100% Essential (and How to Use It Well)",
+        author: "",
+        content: `Social media is a form of electronic communication designed to let people share content quickly, efficiently, and in real-time. While many people access social media through smartphone apps, this communication tool started with computers, and social media can refer to any internet communication tool that allows users to broadly share content and engage with the public.
+
+        According to <a href="https://en.wikipedia.org/wiki/Social_media">Wikipedia</a>, “Social media are interactive computer-mediated technologies that facilitate the creation or sharing of information, ideas, career interests and other forms of expression via virtual communities and networks.” They go on further to say,”Social media can help to improve an individual's sense of connectedness with real or <a href="https://en.wikipedia.org/wiki/Online">online</a> communities and can be an effective communication (or <a href="https://en.wikipedia.org/wiki/Marketing">marketing</a>) tool for corporations, entrepreneurs, non-profit organizations, advocacy groups, political parties, and governments.”
+
+        In today’s society, word of mouth IS digital.  Think about the questions you constantly ask about products, services or businesses; your customers are asking the SAME questions. Addressing these common points of confusion could be your key to converting  casual website visitors into new clients. The biggest question of all though, is whether potential customers will WANT to visit your website based on your social media presence. So, start or join a conversation, and participate with the idea in mind that you can achieve a significant influence. Take a hold and grow your brand by taking hold of your social media presence!
+
+        “How can a social media presence  help my business?”  Social media is used to market your products, promote your brand, connect to current and possible new clients, and help foster new business. Again, you ask “How?”  Let’s start with  some statistics that will help you to understand the importance of social media marketing. In fact, it is so important that 97% of marketers are using social media and <a href="https://www.forbes.com/sites/markfidelman/2013/05/19/study-78-of-salespeople-using-social-media-outsell-their-peers/#715beee67c32">78% of salespeople outsell their peers</a> simply by using social media for their business.
+
+        However, not all businesses are aware of the benefits of social media marketing. In fact, <a href="http://stlblackbiz.com/small-businesses-arent-readily-using-social-media/">50% of small businesses aren’t using social media</a> to promote their business and an additional 25% don’t plan to use social media in the future. There is clearly a large disconnect between those who are seeing the benefits of social media and those struggling to get started.
+
+        You may ask, “How will my business benefit from and active social media presence?”  Here are just three of the ways your business could benefit:
+            ◆	Social Media can be a valuable tool as profiles can provide general information and updates about your business.
+            ◆	Business can interact and engage with current and future clients in a community like setting.
+            ◆	Your business’ social profiles can also help improve your organic SEO for your website.
+
+           <a href="https://clutch.co/agencies/resources/social-media-2015-small-business-survey">Mike Rosa</a> of 180Fusion, stated that “If small businesses want to compete, if they want to level the playing field with their competitors, if they don’t want to lose ground, they have to be participating in social media.”
+
+        The world of digital tech is a constantly moving landscape with social media marketing seeming to move even faster. And because it’s so fast moving it can be tough to figure out how each piece of the puzzle fits with your small business. Social Media Engagement remains an essential ingredient of business and marketing success. To win over audiences in a world increasingly dominated by instantaneous social media and the 24-hour news cycle, the power of connecting with people can be the difference between success and failure.
+
+        If you would like to increase your Social Media Presence or create it, I invite you to give us a call or email us at Blue Smoke Digital and Printed Media. We would welcome the opportunity to help you increase your social presence, improve your branding recognition and increase your sales. `
     }
 ]
