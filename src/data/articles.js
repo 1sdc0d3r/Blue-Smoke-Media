@@ -64,8 +64,7 @@ export const articleData = [{
 
         5 – Are You Creating Excitement & Enthusiasm?Demonstrate your personal belief in what you are selling. Will your message quicken the readers pulse? Is it upbeat, positive, & full of inspired energy? Is there a sense of WOW?
 
-        6 – Is Your Body Copy Highly Readable?Remember simple is best. Keep sentences short. Use a plain
-        0-point to 12-point font. Paragraphs no more than a few lines. Words that are comfortable & specific to the audience you are targeting. Inject subheads to break up text. Highlight important points.
+        6 – Is Your Body Copy Highly Readable? Remember simple is best. Keep sentences short. Use a plain 0-point to 12-point font. Paragraphs no more than a few lines. Words that are comfortable & specific to the audience you are targeting. Inject subheads to break up text. Highlight important points.
 
         7 – Do You Have High YOU density?Remember to you use the words YOU & YOUR to the hilt. Your reader is auto translating to ME & MINE.
 
@@ -262,7 +261,7 @@ export const articleData = [{
         Having a professionally designed logo can really give your business a jumpstart and helps your business get the attention ­and clients­ you need to succeed.`
     }, {
         id: 12,
-        title: "Three Things You Must Do When Designing and Building Your Small Business Web site",
+        title: "Three Things You Must Do When Designing and Building Your Small Business Website",
         author: "",
         content: `
         If you are going to have a web presence for your small business, it only makes sense that it should actually help you get more business. In order to do so, your website design should focus on performing only one function – and that’s to convey your sales message to your site visitors in an effective and efficient manner.

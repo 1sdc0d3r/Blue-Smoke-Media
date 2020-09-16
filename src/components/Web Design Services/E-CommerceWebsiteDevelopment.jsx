@@ -1,6 +1,7 @@
 import React from "react";
 import eCommerce from "../../images/E-commerce_image.png";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 
 export default function ECommerceWebsiteDevelopment() {
   return (
@@ -14,8 +15,8 @@ export default function ECommerceWebsiteDevelopment() {
         <h2> E - Commerce...Build an ONLINE Store </h2>{" "}
         <p>
           If your Company wants to increase its customer base, make shopping
-          easier for its customers, or promote their products, Building an
-          Online Store is the right thing for them.We at{" "}
+          easier for its customers, or promote their products, <Link to="/article/16">Building an
+          Online Store</Link> is the right thing for them.We at{" "}
           <span> Blue Smoke Digital and Printed Media, </span> offer complete
           e-commerce solutions from online shopping systems to a wide variety of
           revenue processing facilities and supporting services for our
@@ -28,21 +29,21 @@ export default function ECommerceWebsiteDevelopment() {
         </p>{" "}
         <p>
           <span> Blue Smoke Digital and Printed Media </span> has helped
-          businesses, large and small (and everything in between), understand
-          how to use the Web to their advantage. By taking the time in getting
-          to know your business, your goals, objectives, strengths and
-          weaknesses, we are better able to formulate an effective strategy
-          specifically for you.{" "}
+          businesses, large and <Link to="/article/12">small (and everything in between)</Link>, understand how
+          to use the Web to their advantage. By taking the time in getting to
+          know your business, your goals, objectives, strengths and weaknesses,
+          we are better able to formulate an effective strategy specifically for
+          you.
         </p>{" "}
         <p>
           Remember, no two businesses are exactly alike, and because a business
-          Web site is really an extension of the business itself, no two
+          Website is really an extension of the business itself, no two
           business Websites are exactly alike - nor should they be.{" "}
         </p>{" "}
         <p>
           E - commerce is no exception. Sure, the concept is the same (to sell a
-          product), but selling your product in the most efficient, cost -
-          effective manner is what’ s going to help you grow, out - perform and
+          product), but selling your product in the most efficient, <Link to="/plans">cost -
+          effective manner</Link>  is what’ s going to help you grow, out - perform and
           out - last your competitors.{" "}
           <span
             style={{
