@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import SocialMediaImg from "../images/High Quality Social Media Services_Social Account Boost_Boost Your Social Media Accounts.png";
 import { Link } from "react-router-dom";
-
+//todo fix LINKS to ANCHOR TAGS
 export default function SocialMedia() {
   return (
     <>
