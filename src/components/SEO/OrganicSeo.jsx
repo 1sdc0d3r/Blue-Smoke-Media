@@ -14,7 +14,7 @@ export default function OrganicSeo() {
       <p>
         {/* <!-- //todo link --> */}
         Organic search engine optimization{" "}
-        <Link to="">
+        <Link to="123Article/What is organic search and how can it help your company">
           (see “what is organic search and how it can help your company),
         </Link>{" "}
         also referred to as traditional search engine optimization, is the
@@ -26,7 +26,7 @@ export default function OrganicSeo() {
         creating and submitting directory listings , link popularity enhancement
         and ongoing campaign reporting and maintenance. The end result is that
         people will be able to easily find your web site when searching for
-        products and services related to your business.
+        products and services related to your <Link to="123ArticleBuild It And They Will Come. True or False?">business.</Link>
       </p>
       <p>
         <span>Organic or Natural Keyword Optimization</span> is critical to

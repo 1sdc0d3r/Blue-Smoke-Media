@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 export default function PrintedMediaLogos() {
   return (
     <div className="printed-logos page-wrapper">
-      <img src={printedMedia} alt="this is the SEO" />
+      <img src={printedMedia} alt="Printed Media and Materials Logo Designs" />
       <div>
         <h1>Printed Media Logos</h1>
         <p>
@@ -20,7 +20,7 @@ export default function PrintedMediaLogos() {
           the same time building a brand. Looking for a unique image to
           represent your corporate identity? Or do you just need to modify your
           current logo for your web site?  At <span>Blue Smoke Digital and Printed Media,</span> 
-          we create logos that capture the essence of your business, leaving impact for both print and web
+          we create <Link to="123Article/9 Keys to an Effective Logo">logos</Link> that capture the essence of your business, leaving impact for both print and web
           display.
         </p>
         <p>
