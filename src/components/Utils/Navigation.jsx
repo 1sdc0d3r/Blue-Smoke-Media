@@ -64,11 +64,8 @@ export default withRouter(function Navigation(props) {
                 >
                   E-Commerce Website Development
                 </NavLink>
-                <NavLink
-                  to="/website-design/website-useability"
-                  className="drop-item"
-                >
-                  Creating Your Website-Useability
+                <NavLink to="/website-design/coding" className="drop-item">
+                  Coding and Programming
                 </NavLink>
               </div>
               <div>
@@ -82,10 +79,13 @@ export default withRouter(function Navigation(props) {
                 >
                   Website Maintenance
                 </NavLink>
-
-                <NavLink to="/website-design/coding" className="drop-item">
-                  Coding and Programming
+                <NavLink
+                  to="/website-design/website-useability"
+                  className="drop-item"
+                >
+                  Creating Your Website-Useability
                 </NavLink>
+               
               </div>
             </div>
             <NavLink to="/website-design/inquiry-form" className="drop-item">

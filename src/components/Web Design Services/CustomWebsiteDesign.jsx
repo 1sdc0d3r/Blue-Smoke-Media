@@ -1,10 +1,7 @@
 import React from "react";
 import customDesign from "../../images/custom_website_design_image.png";
 import { Helmet } from "react-helmet";
-
-//* Images
-// const customDesign =
-//   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/custom_website_design_image";
+import { Link } from "react-router-dom";
 
 export default function CustomWebsiteDesign() {
   return (
@@ -14,9 +11,9 @@ export default function CustomWebsiteDesign() {
         <h1>Custom Website Design</h1>
         <p>
           ....Every business of every size should have a professional presence
-          on the internet. YOUR website should reflect the look and feel of
-          YOUR business, achieve YOUR marketing objectives and enhance YOUR
-          business image.
+          on the internet. YOUR website should reflect the look and feel of YOUR
+          business, achieve YOUR marketing objectives and enhance YOUR business
+          image.
         </p>
         <p>
           Your custom website design must represent you well while appealing
@@ -48,7 +45,8 @@ export default function CustomWebsiteDesign() {
           a vital asset to any company and a method to get out on the front
           lines of today’s business battlefield. You want YOUR site to be
           focused on YOUR users. You want it to bring results. We can help. For
-          fast answers and an accurate quote, please fill out the <Link to="/website-design/inquiry-form">inquiry form</Link>
+          fast answers and an accurate quote, please fill out the{" "}
+          <Link to="/website-design/inquiry-form">inquiry form</Link>
           and a representative will contact you.
         </p>
       </div>

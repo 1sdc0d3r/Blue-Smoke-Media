@@ -1,4 +1,4 @@
-//! 15 articles
+//! 16 articles
 
 export const articleData = [{
         id: 1,
@@ -310,5 +310,30 @@ Article TipSearch engines love websites that adhere to W3C's Web Content Access
         12. Use effective navigation – your navigation bar should help visitors easily find the main sections of your site. 
         Writing effective web copy is the key to converting visitors into buyers. Getting 1000s of visitors to your web site doesn't guarantee sales. Reading your web copy should pre-sell your product with the words you use. Once you achieve this, your web site will become very profitable.
         `
+    },
+    {
+        id: 16,
+        title: "Build It And They Will Come. True or False?Why So Many Online Businesses Fail.",
+        author: "",
+        content: `Build it and they will come! Well . . . sometimes. If you're real lucky, and I mean REALLY lucky.Now you have your beautiful website boasting your amazing products or services. It's out there, just waiting for people who want what you have to offer. You're going to dazzle them with your dynamic website and the sales are going to come flooding in. Wrong. The dream is over. It's time to come back to reality.I can't begin to tell you how many times I've heard the stories of disappointment from very sharp business people who actually thought that having a website is all there is to either starting and operating a successful and profitable online business, or incorporating eCommerce into their existing business of traditional commerce.Your website is quite simply, a brochure that is now lost in a very large online ocean of literally billions of other brochures. We'll compare it to a stack of beautifully printed brochures sitting on your desk; your prospects will never see it unless you place your brochures in a visible place where people look for what you have to offer - true? Your online brochure, (your website), also needs to be positioned in a visible place where your prospects can find you - on major search engine directories.Keywords and key phrases are the search words and terms Internet surfers use to find the products, services or information they are looking for.Choosing the right keywords and phrases for your website's search engine optimization (SEO) program is critical to its success. The right keywords drive targeted traffic to your website - prospects who are ready to buy. The wrong keywords attract web visitors that are not likely to purchase your products and services - wasting everyone's time and your money.
+        By following these simple rules, you will be able to determine the right mix of keywords and phrases that will generate targeted prospects to your website. Remember that good search terms are those that are related to your business and have sufficient monthly search traffic.
+        
+        Rule #1 Select keywords that represent your company's 'bread and butter.' What products and service lines are the most profitable, have the strongest sales, and continue to show good market demand. And yes, typically the 80/20 rule applies here. 80% of your sales and sales leads are produced by 20% of your keywords and phrases.
+        
+        Rule #2 Look at complementary products and services that people tend to buy that you don't offer. Often, these keywords generate good prospects and typically have less competition than your primary keywords and phrases.
+        
+        Rule #3 Use online tools to help determine keyword variations and search frequency. The best free programs to use include Google’s search term suggestion tool - https://ads.google.com/home/tools/keyword-planner/ and Word Stream’s keyword tool https://www.wordstream.com/keywords
+        
+        Rule #4 Use WordTracker - www.wordtracker.com. For a small fee, you can use this tool to find niche keywords, use the thesaurus to find related search terms and determine general monthly search frequency. This is a great tool and worth the investment.
+        
+        Rule #5 Use pay-per-click programs like Overture or Google's AdWords to choose keywords and phrases for your SEO program. Both programs help you generate search terms based on specific keyword relationships and show how often they are searched for. Set a small monthly budget and track the number of keyword impressions you receive for each search term. After one to two months of data, choose the search terms with adequate search frequency and incorporate them into your search engine optimization program.
+        
+        Rule #6 Don't forget Geographics. If your products and services are local or regional, be sure to include your state or city within your search phrases. For example, an investigations company that conducts most of its business in the Midwest would want to choose 'Indiana and private investigator.'
+        
+        Rule #7 Take a look at your competition. Based on your top three competitors, look at their website for specific search terms being used. Also, look at their META keywords to get a good idea of what search terms they think are important. Remember you want to look at competitors for your different markets served and products and service lines.
+        
+        Rule #8 Analyze your website traffic. Make sure your web hosting company provides you with the ability to analyze your website log files. Some hosting companies have you log into your account to view monthly web traffic reports, while others email monthly reports. Information obtained can tell you the top search terms and search engines used to find your website and other valuable information. To get the most out of your log file data, it is recommended to use a log file analyzer such as Web Trends or Urchin.
+        
+        By applying these simple rules, you will be well on your way to generating highly-targeted keywords and phrases that attract the right prospects - prospects who have direct interest in what you have to offer.`
     }
 ]

@@ -100,7 +100,6 @@
       <priority>0.5</priority>
       </loc>
    </url>
-   <!-- //todo learn dynamic routing sitemap -->
    <url>
       <loc>"https//www.bluesmokedigitalandprintedmedia.com/#/article/1"
       <lastmod>2020-09-15</lastmod>
@@ -201,6 +200,13 @@
    </url>
    <url>
       <loc>"https//www.bluesmokedigitalandprintedmedia.com/#/article/15"
+      <lastmod>2020-09-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+      </loc>
+   </url>
+   <url>
+      <loc>"https//www.bluesmokedigitalandprintedmedia.com/#/article/16"
       <lastmod>2020-09-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>

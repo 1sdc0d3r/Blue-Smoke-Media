@@ -73,7 +73,6 @@ function App() {
           </div>
           <CTA />
         </header>
-        {/* <ContactBtn /> */}
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/team" component={Team} />
@@ -82,8 +81,6 @@ function App() {
           {/* //! SEO */}
           <Route path="/seo/Friendly" component={SeoFriendly} />
           <Route path="/seo/seoOrganic" component={OrganicSeo} />
-          {/* //todo OTHER SEO PAGE */}
-          {/* <Route path="/seo" component={SEO} /> */}
           {/* //! WEBSITE DESIGN */}
           <Route
             path="/website-design/custom-website-design"
