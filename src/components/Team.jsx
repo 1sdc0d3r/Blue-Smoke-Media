@@ -45,14 +45,14 @@ export default function Team() {
           ></video>
           <p>
             The <span>Blue Smoke Digital and Printed Media</span> design staff consists of graphic
-            designers, web designers, logo designers, and usability experts
+            designers, web designers, <link to="/graphic-design/website-logo-design">logo designers</link>, and usability experts
             versed in the latest up to date design standards.
           </p>
         </div>
         <div>
           <img src={languages} alt="Man pointing to programming languages, marketing and design programs" />
           <p>
-            The <span>Blue Smoke Digital Media</span> Full-Stack and Front-End developers are
+            The <span>Blue Smoke Digital Media</span> <Link to="/website-design/coding">Full-Stack and Front-End developers</Link> are
             proficient in the following languages, but not limited to: HTML5 •
             CSS3 • SASS • Tailwind • Bootstrap • JSON • Javascript • Python •
             React • Redux • NodeJS • Express • REST • SQL • SQLite • Postgres •
@@ -73,7 +73,7 @@ export default function Team() {
           <p>
             "The <span>Blue Smoke Digital Media</span> marketing staff consists of
             search engine optimization (SEO) specialists, copywriters, Corporate
-            Branding specialists, publicists, and Social Media marketing experts."
+            Branding specialists, publicists, and <Link to="/social-media" >Social Media marketing</Link> experts."
           </p>
         </div>
         <div>

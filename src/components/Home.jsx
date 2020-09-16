@@ -76,7 +76,7 @@ export default function Home() {
                   <p>
                     Custom website design is a process because so much goes into
                     it, but businesses get a lot more out of it over the long
-                    term. <Link to="/website-design/custom-website-design"> Custom-made websites </Link> look better, do more, and
+                    term. <Link to="123Article/10 Prominent Website Mistakes"> Custom-made websites </Link> look better, do more, and
                     accomplish specific business goals.
                   </p>
                 </div>
@@ -89,13 +89,13 @@ export default function Home() {
             >
               <ReactCardFlip isFlipped={card2} flipDirection="horizontal">
                 <div className="service-card-front">
-                  <img src={slide_seo} alt="placeholder" />
+                  <img src={slide_seo} alt="Search Engine Optimization" />
                   <h3>Search Engine Optimization (SEO)</h3>
                 </div>
                 <div className="service-card-back">
                   <h3>Search Engine Optimization (SEO)</h3>
                   <p>
-                    Making a website <link to="/seo/Friendly">SEO friendly </link>means that Google and other
+                    Making a website <link to="123Article/SEO Through Well Built Pages">SEO friendly</link> means that Google and other
                     search engines can crawl each page on the website
                     efficiently, interpret the content effectively, and index it
                     in their database. Once indexed, they can then serve the
@@ -114,7 +114,7 @@ export default function Home() {
             >
               <ReactCardFlip isFlipped={card3} flipDirection="horizontal">
                 <div className="service-card-front">
-                  <img src={slide_graphic} alt="placeholder" />
+                  <img src={slide_graphic} alt="Digital and Printed Graphic Design" />
                   <h3>Digital and Printed Graphic Design</h3>
                 </div>
                 <div className="service-card-back">
@@ -140,7 +140,7 @@ export default function Home() {
             >
               <ReactCardFlip isFlipped={card4} flipDirection="horizontal">
                 <div className="service-card-front">
-                  <img src={slide_sm} alt="placeholder" />
+                  <img src={slide_sm} alt="Social Media and Internet Marketing" />
                   <h3>Social Media and Internet Marketing</h3>
                 </div>
                 <div className="service-card-back">
@@ -148,7 +148,7 @@ export default function Home() {
                   <p>
                     It’s crucial you determine which platforms you’re going to
                     share your content on. There’s not necessarily a right or
-                    wrong answer when it comes to which <Link to="/social-media">social media</Link>channels your
+                    wrong answer when it comes to which <Link to="123Article/What Makes A Winning Online Ad">social media</Link>channels your
                     business should use — it’s more about the needs of your
                     target audience and where they tend to spend their time.
                   </p>
