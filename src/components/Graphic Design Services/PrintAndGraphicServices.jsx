@@ -5,14 +5,16 @@ import respect from "../../images/respect-image.png";
 import eagle from "../../images/eagle.png";
 import coffeeShelf from "../../images/coffee-shelf.png";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 //* Images
 // const fingersCrossed =
 // "https://blue-smoke-media.s3-us-west-1.amazonaws.com/fingers-crossed.png";
+				  {*/ todo LINKS */}
 
 export default function PrintAndDesignGraphicServices() {
   return (
     <div className="print-and-graphic-design-services page-wrapper">
-      <img src={fingersCrossed} alt="Experts" />
+      <img src={fingersCrossed} alt="Blue Smoke Digital and Printed Media Graphic Design Experts" />
 
       <h1>Print and Graphic Design Services</h1>
       <div className="content">
@@ -27,7 +29,7 @@ export default function PrintAndDesignGraphicServices() {
           <div className="images-left"></div>
           <div className="text-right">
             <section>
-              <img src={light} loading="lazy" alt="recognition" />
+              <img src={light} loading="lazy" alt="Remembrance and Recognition - The Twin Towers Memorial Light at Night." />
               <div>
                 <p>
                   <span>Recognition - </span>Who are you? What do you do? It’s
@@ -45,9 +47,9 @@ export default function PrintAndDesignGraphicServices() {
               </div>
             </section>
             <section>
-              <img src={respect} loading="lazy" alt="respect" />{" "}
+              <img src={respect} loading="lazy" alt="Man with a T-shirt that reads RESPECT!" />{" "}
               <p>
-                <span>Respect - </span>Believe it or not, good design is
+                <span>Respect - </span>Believe it or not, <Link to="123Article/Three Things You Must Do When Designing and Building Your Small Business Web site">good design</Link> is
                 apparent to almost everyone. They might not know exactly why,
                 but they know when something looks good. People respect design
                 because it shows that you care about how you look. It’s an easy
@@ -57,10 +59,10 @@ export default function PrintAndDesignGraphicServices() {
               </p>
             </section>
             <section>
-              <img src={eagle} loading="lazy" alt="eagle" id="eagle" />{" "}
+              <img src={eagle} loading="lazy" alt="Eagle with handler." id="eagle" />{" "}
               <p>
                 <span>Trust - </span>Respect leads to Trust and Trust is
-                priceless. Design plays a very important part in establishing
+                priceless! <Link to=""></Link>Design plays a very important part in establishing
                 Trust with the people you work with. It’s not the only part, but
                 it’s something that is often overlooked as unnecessary, or not
                 worth the expense. It is worth it; you want to give your client
@@ -71,7 +73,7 @@ export default function PrintAndDesignGraphicServices() {
               <img
                 src={coffeeShelf}
                 loading="lazy"
-                alt="branding"
+                alt="Small Business and Corporate Branding"
                 id="coffeeShelf"
               />
               <p>
@@ -82,11 +84,13 @@ export default function PrintAndDesignGraphicServices() {
                 all depends on your industry and your objectives. We get to know
                 you and what you do to be sure that your literature conveys an
                 accurate image. Every project at{" "}
-                <span>Blue Smoke Digital and Printed Media,</span> is custom
-                designed to your digital or graphic media needs, specifically to
+				  {*/ todo LINK */}
+                <span>Blue Smoke Digital and Printed Media,</span> is <Link to="123Article/Website Manifestation - 7 Steps to a Successful Web Site">custom
+                designed</Link> to your digital or graphic media needs, specifically to
                 address the individual challenges of each project we work on.
                 Whether it’s the introduction of a product or service, a new
-                corporate identity, or a one-of-a-kind promotion you have our
+                corporate identity, or a 
+				  				  {*/ todo LINK */}<Link to="123Article/Attract Targeted Local Customers With Online Marketing">one-of-a-kind promotion</Link> you have our
                 guarantee that it will be unique.
               </p>
             </section>

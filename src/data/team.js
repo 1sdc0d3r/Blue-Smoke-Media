@@ -6,7 +6,7 @@ import Ramona from "../images/Ramona-Lucius.png";
 export default [{
     name: "Constance Beebe (CoBe) - Co-Founder",
     img: CoBe,
-    description: "Constance Beebe is a FrontEnd Web Developer (LambdaSchool.com) & Graphic Design Artist based out of Knoxville, TN. She is highly accomplished in Search Engine Optimization (SEO), Social Media Marketing and holds a Google Certification in Analytics. She is also skilled in Website Design, Keyword Research, Page Layout, Copywriting and is proficient in the Adobe Creative Suite for Design. She has prior management experience from the many hotels and cabin rental companies, of which she has had the honor of being the general manager. She is a strong engineering professional with a Certificate focused in CSS from the University of Tennessee - Knoxville and a Business Major from Charleston Southern University, in Charleston, SC.",
+    description: "Constance Beebe is a FrontEnd Web Developer & Graphic Design Artist based out of Knoxville, TN. She is highly accomplished in Search Engine Optimization (SEO), Social Media Marketing and holds a Google Certification in Analytics. She is also skilled in Website Design, Keyword Research, Page Layout, Copywriting and is proficient in the Adobe Creative Suite for Design. She has prior management experience from the many hotels and cabin rental companies, of which she has had the honor of being the general manager. She is a strong engineering professional with a Certificate focused in CSS from the University of Tennessee - Knoxville and a Business Major from Charleston Southern University, in Charleston, SC.",
   },
   {
     name: "Braden Bell - Co-Founder",

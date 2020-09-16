@@ -9,7 +9,7 @@ export default function WebsiteProgrammingCoding() {
   return (
     <>
       <div className="website-programming-coding page-wrapper">
-        <img src={coding} alt="this is the SEO" />
+        <img src={coding} alt="Matching your business needs with the most appropriate Web technology." />
         <div className="content">
           <h1>Coding and Web Programming</h1>
           <p>

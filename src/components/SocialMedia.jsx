@@ -1,7 +1,8 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import SocialMediaImg from "../images/High Quality Social Media Services_Social Account Boost_Boost Your Social Media Accounts.png";
-
+import { Link } from "react-router-dom";
+//todo fix LINKS to ANCHOR TAGS
 export default function SocialMedia() {
   return (
     <>
@@ -23,13 +24,13 @@ export default function SocialMedia() {
           content and engage with the public.
         </p>
         <p>
-          According to Wikipedia, “Social media are interactive
+          According to <Link to="https://en.wikipedia.org/wiki/Social_media">Wikipedia</Link>, “Social media are interactive
           computer-mediated technologies that facilitate the creation or sharing
           of information, ideas, career interests and other forms of expression
           via virtual communities and networks.” They go on further to
           say,”Social media can help to improve an individual's sense of
-          connectedness with real or online communities and can be an effective
-          communication (or marketing) tool for corporations, entrepreneurs,
+          connectedness with real or <Link to="https://en.wikipedia.org/wiki/Online">online</Link> communities and can be an effective
+          communication (or <Link to="https://en.wikipedia.org/wiki/Marketing">marketing</Link>) tool for corporations, entrepreneurs,
           non-profit organizations, advocacy groups, political parties, and
           governments.”
         </p>
@@ -51,20 +52,20 @@ export default function SocialMedia() {
           and possible new clients, and help foster new business. Again, you ask
           “How?” Let’s start with some statistics that will help you to
           understand the importance of social media marketing. In fact, it is so
-          important that 97% of marketers are using social media and 78% of
-          salespeople outsell their peers simply by using social media for their
+          important that 97% of marketers are using social media and <Link to="https://www.forbes.com/sites/markfidelman/2013/05/19/study-78-of-salespeople-using-social-media-outsell-their-peers/#715beee67c32">78% of
+          salespeople outsell their peers</Link> simply by using social media for their
           business.
         </p>
         <p>
           However, not all businesses are aware of the benefits of social media
-          marketing. In fact, 50% of small businesses aren’t using social
-          media to promote their business and an additional 25% don’t plan to
+          marketing. In fact, <Link to="http://stlblackbiz.com/small-businesses-arent-readily-using-social-media/">50% of small businesses aren’t using social
+          media</Link> to promote their business and an additional 25% don’t plan to
           use social media in the future. There is clearly a large disconnect
           between those who are seeing the benefits of social media and those
           struggling to get started.
         </p>
         <p>
-          You may ask, “How will my business benefit from and active social
+          You might ask, “How will my business benefit from an active social
           media presence?” Here are just three of the ways your business could
           benefit:
         </p>
@@ -75,18 +76,18 @@ export default function SocialMedia() {
           </li>
 
           <li>
-            ◆ Business can interact and engage with current and future clients
+            ◆ Businesses can interact and engage with current and future clients
             in a community like setting.
           </li>
 
           <li>
-            ◆ Your business’ social profiles can also help improve your organic
+            ◆ Your businesses social profiles can also help improve your organic
             SEO for your website.
           </li>
         </ul>
-        {/* <insert an href - https://clutch.co/agencies/resources/social-media-2015-small-business-survey.  On Mike Rosas’ name> */}
+        
         <p>
-          Mike Rosa of 180Fusion, stated that “If small businesses want to
+          <Link to="https://clutch.co/agencies/resources/social-media-2015-small-business-survey">Mike Rosa</Link> of 180Fusion, stated that “If small businesses want to
           compete, if they want to level the playing field with their
           competitors, if they don’t want to lose ground, they have to be
           participating in social media.”
@@ -95,7 +96,7 @@ export default function SocialMedia() {
           The world of digital tech is a constantly moving landscape with social
           media marketing seeming to move even faster. And because it’s so fast
           moving it can be tough to figure out how each piece of the puzzle fits
-          with your small business. Social Media Engagement remains an essential
+          with your small or corporate business. Social Media Engagement remains an essential
           ingredient of business and marketing success. To win over audiences in
           a world increasingly dominated by instantaneous social media and the
           24-hour news cycle, the power of connecting with people can be the
@@ -103,7 +104,7 @@ export default function SocialMedia() {
         </p>
         <p>
           If you would like to increase your Social Media Presence or create it,
-          I invite you to give us a call at Blue Smoke Digital and Printed
+          I invite you to give us a call or <Link to="/contact">email</Link> us at Blue Smoke Digital and Printed
           Media. We would welcome the opportunity to help you increase your
           social presence, improve your branding recognition and increase your
           sales.
