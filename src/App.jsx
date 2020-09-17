@@ -32,13 +32,20 @@ import PrivacyPolicy from "./components/privacy";
 import Article from "./components/Article";
 import Pricing from "./components/Pricing";
 import circleX from "./images/circle-X.png";
+
+// ! GOOGLE ANALYTICS
+import ReactGA from "react-ga";
+ReactGA.initialize("UA-177470204-1");
+
 //todo learn E-Commerce
 function App() {
   const { pathname } = useLocation();
 
   useEffect(() => {
     window.scrollTo(0, 0);
+    ReactGA.pageview(pathname);
   }, [pathname]);
+
   return (
     <div className="App" style={{ position: "relative" }}>
       <>
