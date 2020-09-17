@@ -277,6 +277,7 @@ export default function Home() {
           src={socialMedia}
           preload="auto"
           loading="lazy"
+          controls
           onClick={() => {
             const smVideo = document.getElementById("sm-video");
             smVideo.paused ? smVideo.play() : smVideo.pause();
