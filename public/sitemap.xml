@@ -1,5 +1,3 @@
-<!-- save in UTF-8? -->
-
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
@@ -9,207 +7,201 @@
       <priority>1.0</priority>
    </url>
    <url>
-      <loc>"https//www.bluesmokedigitalandprintedmedia.com/team"
+      <loc>"https//www.bluesmokedigitalandprintedmedia.com/team"</loc>
       <lastmod>2020-09-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
-      </loc>
    </url>
    <url>
-      <loc>"https//www.bluesmokedigitalandprintedmedia.com/privacy"
+      <loc>"https//www.bluesmokedigitalandprintedmedia.com/privacy"</loc>
       <lastmod>2020-09-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
-      </loc>
    </url>
    <url>
-      <loc>"https//www.bluesmokedigitalandprintedmedia.com/seo/Friendly"
+      <loc>"https//www.bluesmokedigitalandprintedmedia.com/seo/Friendly"</loc>
       <lastmod>2020-09-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
-      </loc>
    </url>
    <url>
-      <loc>"https//www.bluesmokedigitalandprintedmedia.com/seo/seoOrganic"
+      <loc>"https//www.bluesmokedigitalandprintedmedia.com/seo/seoOrganic"</loc>
       <lastmod>2020-09-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
-      </loc>
    </url>
    <url>
-       <loc>"https//www.bluesmokedigitalandprintedmedia.com/website-design/custom-website-design"
-      <loc/>
-   </url>
-   <url>
-       <loc>"https//www.bluesmokedigitalandprintedmedia.com/website-design/eCommerce-website-development"
-      <loc/>
-   </url>
-   <url>
-       <loc>"https//www.bluesmokedigitalandprintedmedia.com/website-design/website-useability"
-      <loc/>
-   </url>
-   <url>
-      <loc>"https//www.bluesmokedigitalandprintedmedia.com/Ad-CopyWriting"
+      <loc>"https//www.bluesmokedigitalandprintedmedia.com/website-design/custom-website-design"</loc>
       <lastmod>2020-09-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
-      </loc>
    </url>
    <url>
-       <loc>"https//www.bluesmokedigitalandprintedmedia.com/website-design/website-maintenance"
-      <loc/>
-   </url>
-   <url>
-       <loc>"https//www.bluesmokedigitalandprintedmedia.com/website-design/coding"
-      <loc/>
-   </url>
-   <url>
-       <loc>"https//www.bluesmokedigitalandprintedmedia.com/website-design/inquiry-form"
-      <loc/>
-   </url>
-   <url>
-       <loc>"https//www.bluesmokedigitalandprintedmedia.com/graphic-design/website-logo-design"
-      <loc/>
-   </url>
-   <url>
-       <loc>"https//www.bluesmokedigitalandprintedmedia.com/graphic-design/printed-media-logos"
-      <loc/>
-   </url>
-   <url>
-       <loc>"https//www.bluesmokedigitalandprintedmedia.com/graphic-design/digital-and-print-graphic-design"
-      <loc/>
-   </url>
-   <url>
-      <loc>"https//www.bluesmokedigitalandprintedmedia.com/social-media"
+       <loc>"https//www.bluesmokedigitalandprintedmedia.com/website-design/eCommerce-website-development"</loc>
       <lastmod>2020-09-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
-      </loc>
    </url>
    <url>
-      <loc>"https//www.bluesmokedigitalandprintedmedia.com/contact"
+       <loc>"https//www.bluesmokedigitalandprintedmedia.com/website-design/website-useability"</loc>
       <lastmod>2020-09-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
-      </loc>
    </url>
    <url>
-      <loc>"https//www.bluesmokedigitalandprintedmedia.com/plans"
+      <loc>"https//www.bluesmokedigitalandprintedmedia.com/Ad-CopyWriting"</loc>
       <lastmod>2020-09-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
-      </loc>
    </url>
    <url>
-      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/1"
+       <loc>"https//www.bluesmokedigitalandprintedmedia.com/website-design/website-maintenance"</loc>
+       <lastmod>2020-09-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+       <loc>"https//www.bluesmokedigitalandprintedmedia.com/website-design/coding"</loc>
+       <lastmod>2020-09-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+       <loc>"https//www.bluesmokedigitalandprintedmedia.com/website-design/inquiry-form"</loc>
+       <lastmod>2020-09-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+       <loc>"https//www.bluesmokedigitalandprintedmedia.com/graphic-design/website-logo-design"</loc>
+       <lastmod>2020-09-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+       <loc>"https//www.bluesmokedigitalandprintedmedia.com/graphic-design/printed-media-logos"</loc>
+       <lastmod>2020-09-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+       <loc>"https//www.bluesmokedigitalandprintedmedia.com/graphic-design/digital-and-print-graphic-design"</loc>
+       <lastmod>2020-09-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>"https//www.bluesmokedigitalandprintedmedia.com/social-media"</loc>
       <lastmod>2020-09-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
-      </loc>
    </url>
    <url>
-      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/2"
+      <loc>"https//www.bluesmokedigitalandprintedmedia.com/contact"</loc>
       <lastmod>2020-09-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
-      </loc>
    </url>
    <url>
-      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/3"
+      <loc>"https//www.bluesmokedigitalandprintedmedia.com/plans"</loc>
       <lastmod>2020-09-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
-      </loc>
    </url>
    <url>
-      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/4"
+      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/1"</loc>
       <lastmod>2020-09-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
-      </loc>
    </url>
    <url>
-      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/5"
+      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/2"</loc>
       <lastmod>2020-09-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
-      </loc>
    </url>
    <url>
-      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/6"
+      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/3"</loc>
       <lastmod>2020-09-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
-      </loc>
    </url>
    <url>
-      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/7"
+      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/4"</loc>
       <lastmod>2020-09-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
-      </loc>
    </url>
    <url>
-      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/8"
+      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/5"</loc>
       <lastmod>2020-09-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
-      </loc>
    </url>
    <url>
-      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/9"
+      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/6"</loc>
       <lastmod>2020-09-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
-      </loc>
    </url>
    <url>
-      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/10"
+      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/7"</loc>
       <lastmod>2020-09-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
-      </loc>
    </url>
    <url>
-      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/11"
+      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/8"</loc>
       <lastmod>2020-09-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
-      </loc>
    </url>
    <url>
-      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/12"
+      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/9"</loc>
       <lastmod>2020-09-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
-      </loc>
    </url>
    <url>
-      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/13"
+      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/10"</loc>
       <lastmod>2020-09-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
-      </loc>
    </url>
    <url>
-      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/14"
+      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/11"</loc>
       <lastmod>2020-09-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
-      </loc>
    </url>
    <url>
-      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/15"
+      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/12"</loc>
       <lastmod>2020-09-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
-      </loc>
    </url>
    <url>
-      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/16"
+      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/13"</loc>
       <lastmod>2020-09-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
-      </loc>
+   </url>
+   <url>
+      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/14"</loc>
+      <lastmod>2020-09-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/15"</loc>
+      <lastmod>2020-09-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>"https//www.bluesmokedigitalandprintedmedia.com/article/16"</loc>
+      <lastmod>2020-09-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
    </url>
 </urlset>
