@@ -104,13 +104,13 @@
         margin: auto 0rem;
 
         @include breakpoint(l) {
-          width: 8em;
-          height: 8em;
+          width: 7em;
+          height: 9em;
         }
 
         @include breakpoint(xxs, xs, s) {
-          width: 5.5em;
-          height: 5.5em;
+          width: 4.5em;
+          height: 6.5em;
         }
       }
 

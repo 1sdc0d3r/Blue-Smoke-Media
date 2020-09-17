@@ -14,9 +14,9 @@ export default withRouter(function Navigation(props) {
         </button>
         <div className="dropdown-content home-drop">
           <div className="nav-section">
-            <NavLink to="/plans" className="drop-item">
+            <a href="plans" className="drop-item">
               Plans & Pricing
-            </NavLink>
+            </a>
             <NavLink to="/privacy" className="drop-item">
               Privacy Policy
             </NavLink>
@@ -85,7 +85,6 @@ export default withRouter(function Navigation(props) {
                 >
                   Creating Your Website-Useability
                 </NavLink>
-               
               </div>
             </div>
             <NavLink to="/website-design/inquiry-form" className="drop-item">
