@@ -4,6 +4,6 @@
 <!--- Social Media --->
 
 <!--- TEAM--->
-Random text
+<!--Random text-->
 
 <!--- Privacy Policy --->
