@@ -121,7 +121,12 @@ export default withRouter(function Navigation(props) {
         Our Work
       </NavLink> */}
       {/* //todo BLOG */}
-      <a href="#blog" target="_blank" className="nav-item">
+      <a
+        href="#blog"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="nav-item"
+      >
         Blog
       </a>
       <NavLink to="/contact" className="nav-item">

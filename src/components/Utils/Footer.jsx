@@ -195,6 +195,7 @@ export default function Footer() {
               <a
                 href="https://www.linkedin.com/company/blue-smoke-digital-and-printed-media/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 {chevron}
                 <img src={linkedIn} alt="LinkedIn Social Media Button" />
@@ -204,20 +205,25 @@ export default function Footer() {
               <a
                 href="https://www.facebook.com/bluesmokemedia/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 {chevron}
                 <img src={facebook} alt="Facebook Social Media Button" />
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/bluesmokemedia/" target="_blank">
+              <a
+                href="https://twitter.com/bluesmokemedia/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 {chevron}
                 <img src={twitter} alt="Twitter Social Media Button" />
               </a>
             </li>
             {/* <li>
               //todo google link here 
-              <a href="https://google.com/" target="_blank">
+              <a href="https://google.com/" target="_blank" rel="noopener noreferrer">
                 {chevron}
                 <img src={googleReview} alt="Google Social Media Button" />
               </a>

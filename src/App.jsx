@@ -38,8 +38,8 @@ function App() {
   // const [isPlaying, setIsPlaying] = useState(true);
   // const videoPlayDelay = 259200000; //72hrs
   const { pathname } = useLocation();
-  console.log(pathname);
-  console.log(document.referrer);
+  // console.log(pathname);
+  // console.log(document.referrer);
 
   // useEffect(() => {
   //   setIsPlaying(getStorage());
@@ -47,11 +47,7 @@ function App() {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    // if (document.querySelector(".covid-banner")) {
-    //   document.querySelector(".covid-banner").style.display = "none";
-    // }
   }, [pathname]);
-  // console.log(useLocation().pathname);
   return (
     <div className="App" style={{ position: "relative" }}>
       <>
