@@ -1,6 +1,9 @@
 .home {
   z-index: 50;
   width: 90%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .home .globe {
