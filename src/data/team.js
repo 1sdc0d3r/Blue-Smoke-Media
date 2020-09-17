@@ -3,6 +3,7 @@ import AJ from "../images/Aeson-Johnson.png";
 import CoBe from "../images/CoBe.png";
 import Daniel from '../images/daniel.png'
 import Ramona from "../images/Ramona-Lucius.png";
+
 export default [{
     name: "Constance Beebe (CoBe) - Co-Founder",
     img: CoBe,

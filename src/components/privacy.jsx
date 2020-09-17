@@ -345,7 +345,7 @@ Based on the applicable laws of your country, you may have the right to request 
           itemprop="description"
           content="The Privacy Policy and Disclaimer of Blue Smoke Digital and Printed Media"
         />
-        <meta itemprop="image" content="../../images/flame.jpg" />
+        <meta itemprop="image" content="../images/flame.jpg" />
 
         {/* <!-- Facebook Meta Tags --> */}
         <meta
@@ -361,7 +361,7 @@ Based on the applicable laws of your country, you may have the right to request 
           property="og:description"
           content="The Privacy Policy and Disclaimer of Blue Smoke Digital and Printed Media"
         />
-        <meta property="og:image" content="../../images/flame.jpg" />
+        <meta property="og:image" content="../images/flame.jpg" />
 
         {/* <!-- Twitter Meta Tags --> */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -373,7 +373,7 @@ Based on the applicable laws of your country, you may have the right to request 
           name="twitter:description"
           content="The Privacy Policy and Disclaimer of Blue Smoke Digital and Printed Media"
         />
-        <meta name="twitter:image" content="../../images/flame.jpg" />
+        <meta name="twitter:image" content="../images/flame.jpg" />
       </Helmet>
     </section>
   );

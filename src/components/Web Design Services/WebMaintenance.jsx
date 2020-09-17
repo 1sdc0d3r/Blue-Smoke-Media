@@ -1,15 +1,16 @@
 import React from "react";
-import websiteMaintenance from "../../images/website-maintenance.jpg";
-import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 //* Images
-// const websiteMaintenance =
-//   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/website-maintenance.jpg";
+import websiteMaintenance from "../../images/website-maintenance.jpg";
 
 export default function WebMaintenance() {
   return (
     <div className="web-maintenance page-wrapper">
-      <img src={websiteMaintenance} alt="Website Maintenance -bug fixes, updates, keyword update, content update, improper graphics." />
+      <img
+        src={websiteMaintenance}
+        alt="Website Maintenance -bug fixes, updates, keyword update, content update, improper graphics."
+      />
       <div className="content">
         <h1>Website Maintenance Agreements</h1>
         <p>
@@ -21,10 +22,12 @@ export default function WebMaintenance() {
           up-to-date, and accurate. Our cost-effective and convenient website
           maintenance plans are designed to fit your updating needs and
           budget.With a Website Maintenance agreement, updates are normally
-          completed within 24 - 48 hours of the request. This ensures that visitors
-          and potential clients will receive accurate information. From an
-          occasional update, to weekly and daily updates, <Link to="/website-design/inquiry-form">we would be honored to
-          provide our services.</Link>
+          completed within 24 - 48 hours of the request. This ensures that
+          visitors and potential clients will receive accurate information. From
+          an occasional update, to weekly and daily updates,{" "}
+          <Link to="/website-design/inquiry-form">
+            we would be honored to provide our services.
+          </Link>
         </p>
         <h3>Option One:</h3>
         <p>

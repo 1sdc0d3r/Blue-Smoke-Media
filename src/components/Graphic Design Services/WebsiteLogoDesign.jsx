@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
+//* Images
 import logoDesign from "../../images/Website-logo-design-services.png";
 
 export default function WebsiteLogoDesign() {

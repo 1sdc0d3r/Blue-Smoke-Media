@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import PaymentIcon from "react-payment-icons";
-
+//* Images
 import twitter from "../../images/Twitter.png";
 import linkedIn from "../../images/linkedIn_social_media_button.png";
 import facebook from "../../images/faceBook.png";
@@ -149,43 +149,14 @@ export default function Footer() {
                 {chevron}Website Logo Design
               </Link>
             </li>
-            {/* //todo social media component */}
             <li>
               <Link to="/social-media">
                 {chevron}
                 Social Media & Marketing
               </Link>
             </li>
-            {/* //todo reputation management component */}
-            {/* <li>
-              <Link to="x-">{chevron}Reputation & Review Management</Link>
-            </li> */}
           </ul>
         </div>
-        {/* <div>
-        //todo PORTFOLIO
-          <h3 id="drop-Portfolio">Portfolio</h3>
-          <ul>
-            <li>
-              < to="#">Websites </{chevron}Link>
-            </li>
-            <li>
-              <Link to="#">E-commerce{chevron} Websites </Link>
-            </li>
-            <li>
-              <Link to="#">
-                Social Media{chevron} <br />
-                Management
-              </Link>
-            </li>
-            <li>
-              <Link to="#">Corporate Branding{chevron} </Link>
-            </li>
-            <li>
-              <Link to="#">Printed Media{chevron} </Link>
-            </li>
-          </ul>
-        </div> */}
         <div>
           <h3 onClick={() => dropdown(document.getElementById("drop-sm"))}>
             Social Links
@@ -222,7 +193,7 @@ export default function Footer() {
               </a>
             </li>
             {/* <li>
-              //todo google link here 
+              //todo google link here
               <a href="https://google.com/" target="_blank" rel="noopener noreferrer">
                 {chevron}
                 <img src={googleReview} alt="Google Social Media Button" />

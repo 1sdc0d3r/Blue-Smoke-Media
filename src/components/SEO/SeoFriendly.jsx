@@ -1,22 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import seoPuzzle from "../../images/seo-puzzle.png";
 import { Helmet } from "react-helmet";
 //* Images
-// const seoPuzzle =
-// "https://blue-smoke-media.s3-us-west-1.amazonaws.com/seo-puzzle.jpg";
+import seoPuzzle from "../../images/seo-puzzle.png";
 
 export default function OrganicSeo() {
   return (
     <div className="seo-friendly page-wrapper">
-      <img src={seoPuzzle} alt="Search Engine Friendly Web Design Puzzle Pieces " />
+      <img
+        src={seoPuzzle}
+        alt="Search Engine Friendly Web Design Puzzle Pieces "
+      />
       <div className="wrapper">
-        {/* <div className="top"> */}
         <h1>
-          Search Engine Friendly Web Design <br />
+          Search Engine Friendly Web Design
+          <br />
           and Search Engine Optimization
         </h1>
-        {/* </div> */}
         <h2>
           First, what is search engine friendly web design and search engine
           optimization?
@@ -31,11 +31,12 @@ export default function OrganicSeo() {
         </p>
         <p>
           At <span>Blue Smoke Digital Media</span>, we know that a web site’s
-          basic <Link to="/article/5">search engine “friendliness”</Link> should, in most cases, be part of
-          the overall design plan for a new web site. Good search engine
-          rankings are often crucial to the goals of our clients. This is why we
-          incorporate these fundamental techniques in our designs as a standard
-          part of even our most affordable packages.
+          basic <Link to="/article/5">search engine “friendliness” </Link>
+          should, in most cases, be part of the overall design plan for a new
+          web site. Good search engine rankings are often crucial to the goals
+          of our clients. This is why we incorporate these fundamental
+          techniques in our designs as a standard part of even our most
+          affordable packages.
         </p>
         <h4>What about high rankings in the search engines?</h4>
         <p>

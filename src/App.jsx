@@ -37,7 +37,7 @@ import circleX from "./images/circle-X.png";
 import ReactGA from "react-ga";
 ReactGA.initialize("UA-177470204-1");
 
-//todo learn E-Commerce
+//todo learn E-Commerce (magneto, Shopify)
 function App() {
   const { pathname } = useLocation();
 

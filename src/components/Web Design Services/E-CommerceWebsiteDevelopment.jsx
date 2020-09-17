@@ -1,7 +1,8 @@
 import React from "react";
-import eCommerce from "../../images/E-commerce_image.png";
-import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
+//* Images
+import eCommerce from "../../images/E-commerce_image.png";
 
 export default function ECommerceWebsiteDevelopment() {
   return (
@@ -11,8 +12,8 @@ export default function ECommerceWebsiteDevelopment() {
         alt="E-commerce and all it entails to become a successful business."
       />
       <div className="content">
-        <h1> Websites and E - Commerce </h1>{" "}
-        <h2> E - Commerce...Build an ONLINE Store </h2>{" "}
+        <h1>Websites and E - Commerce</h1>{" "}
+        <h2>E - Commerce...Build an ONLINE Store</h2>{" "}
         <p>
           If your Company wants to increase its customer base, make shopping
           easier for its customers, or promote their products,{" "}

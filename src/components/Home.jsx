@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
+import Carousel from "./Carousel";
+import ReactCardFlip from "react-card-flip";
+//* Images
 import slide_seo from "../images/seo_file.png";
 import slide_custom from "../images/custom_website_design.png";
 import slide_sm from "../images/social_media.png";
@@ -7,9 +11,6 @@ import slide_graphic from "../images/graphic_design.png";
 import help1 from "../images/help-icon-1.png";
 import help2 from "../images/help-icon-2.png";
 import help3 from "../images/help-icon-3.png";
-import Carousel from "./Carousel";
-import ReactCardFlip from "react-card-flip";
-import { Helmet } from "react-helmet";
 const socialMedia =
   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/Now-open-video_HD720.mp4";
 //LINKS
@@ -388,7 +389,7 @@ export default function Home() {
           itemprop="description"
           content="Blue Smoke Digital and Printed Media is a full-service marketing agency. We partner with clients to either supplement their in-house marketing department or serve as their full outsourced marketing department. Our areas of expertise include Website Design, Branding, Graphic Design, Online Marketing and Traditional Marketing, Social Media Marketing, and Reputation Management and Review. We are located in TN, UT, FL, NC, SC, VA, ID and WA."
         />
-        <meta itemprop="image" content="../../images/Web-Development.jpg" />
+        <meta itemprop="image" content="../images/Web-Development.jpg" />
 
         {/* <!-- Facebook Meta Tags --> */}
         <meta
@@ -404,7 +405,7 @@ export default function Home() {
           property="og:description"
           content="Blue Smoke Digital and Printed Media is a full-service marketing agency. We partner with clients to either supplement their in-house marketing department or serve as their full outsourced marketing department. Our areas of expertise include Website Design, Branding, Graphic Design, Online Marketing and Traditional Marketing, Social Media Marketing, and Reputation Management and Review. We are located in TN, UT, FL, NC, SC, VA, ID and WA."
         />
-        <meta property="og:image" content="../../images/Web-Development.jpg" />
+        <meta property="og:image" content="../images/Web-Development.jpg" />
 
         {/* <!-- Twitter Meta Tags --> */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -416,7 +417,7 @@ export default function Home() {
           name="twitter:description"
           content="Blue Smoke Digital and Printed Media is a full-service marketing agency. We partner with clients to either supplement their in-house marketing department or serve as their full outsourced marketing department. Our areas of expertise include Website Design, Branding, Graphic Design, Online Marketing and Traditional Marketing, Social Media Marketing, and Reputation Management and Review. We are located in TN, UT, FL, NC, SC, VA, ID and WA."
         />
-        <meta name="twitter:image" content="../../images/Web-Development.jpg" />
+        <meta name="twitter:image" content="../images/Web-Development.jpg" />
       </Helmet>
     </div>
   );

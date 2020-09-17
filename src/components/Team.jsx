@@ -1,10 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 //* Data
 import team from "../data/team";
 //* Images
 import languages from "../images/Coding-Web-Development.jpg";
-import { Helmet } from "react-helmet";
-import { Link } from "react-router-dom";
 const womanStudio =
   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/graphic-design-video-MTT.mp4";
 const globeVid =
@@ -147,10 +147,7 @@ export default function Team() {
           itemprop="description"
           content="Blue Smoke Digital and Printed Media, a company founded in 2019, was formed by a cooperative interaction of talented individuals from a variety of disciplines, with a combined 35 years of programming, graphic design, search engine optimization, and sales experience. Each Blue Smoke Media team member is a student or graduate of Lambda School."
         />
-        <meta
-          itemprop="image"
-          content="../../images/Coding-Web-Development.jpg"
-        />
+        <meta itemprop="image" content="../images/Coding-Web-Development.jpg" />
 
         {/* <!-- Facebook Meta Tags --> */}
         <meta
@@ -168,7 +165,7 @@ export default function Team() {
         />
         <meta
           property="og:image"
-          content="../../images/Coding-Web-Development.jpg"
+          content="../images/Coding-Web-Development.jpg"
         />
 
         {/* <!-- Twitter Meta Tags --> */}
@@ -183,7 +180,7 @@ export default function Team() {
         />
         <meta
           name="twitter:image"
-          content="../../images/Coding-Web-Development.jpg"
+          content="../images/Coding-Web-Development.jpg"
         />
       </Helmet>
     </div>
