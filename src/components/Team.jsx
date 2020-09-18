@@ -17,13 +17,11 @@ export default function Team() {
     <div className="team page-wrapper">
       <section className="team-top">
         <h1>Meet Our Team</h1>
-        <p>
-          <span>Blue Smoke Digital and Printed Media,</span> a company founded
-          in 2019, was formed by a cooperative interaction of talented
-          individuals from a variety of disciplines, with a combined 35 years of
-          programming, graphic design, search engine optimization, and sales and
-          marketing experience. Each <span>Blue Smoke Digital Media</span> team
-          member is a student or graduate of{" "}
+        <p> 
+          <span>Blue Smoke Digital and Printed Media,</span> was founded
+          in 2019, by a group of talented individuals with a combined 35 years of programming,
+          graphic design, search engine optimization, and sales and marketing experience. Each <span>Blue 
+          Smoke Digital Media</span> team member is a student or graduate of{" "}
           <a
             href="https://lambdaschool.com/"
             rel="nofollow noopener noreferrer"
@@ -61,7 +59,7 @@ export default function Team() {
             <Link to="/website-design/coding">
               Full-Stack and Front-End developers
             </Link>{" "}
-            are proficient in the following languages, but not limited to: HTML5
+            are proficient in, but not limited to the following languages: HTML5
             • CSS3 • SASS • Tailwind • Bootstrap • JSON • Javascript • Python •
             React • Redux • NodeJS • Express • REST • SQL • SQLite • Postgres •
             UI/UX • Github • Testing (Jest • Cypress) • Computer Science

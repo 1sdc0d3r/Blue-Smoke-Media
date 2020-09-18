@@ -1,7 +1,7 @@
 .custom-website-design img {
-  height: 50vh;
-  width: 100%;
-  border-top: 2px solid #020723;
+  height: 65vh;
+  width: 85%;
+  
   border-bottom: 2px solid #020723;
 }
 
@@ -54,7 +54,7 @@
 
 .custom-website-design .content h1 {
   text-align: center;
-  margin-bottom: 1.5em;
+  margin-bottom: 2em;
   color: #04227a;
 }
 
