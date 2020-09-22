@@ -3,6 +3,14 @@
 .privacy {
   text-align: left;
   margin: 0 3em 3em;
+  .scroll-top {
+    position: -webkit-sticky;
+    position: sticky;
+    cursor: pointer;
+    bottom: 0;
+    left: 0;
+    color: $orange;
+  }
   pre {
     white-space: pre-wrap;
   }
