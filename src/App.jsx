@@ -26,7 +26,7 @@ import PrintedMediaLogos from "./components/Graphic Design Services/PrintedMedia
 import WebsiteLogoDesign from "./components/Graphic Design Services/WebsiteLogoDesign";
 import Contact from "./components/Contact";
 import CTA from "./components/Header-CTA";
-import HamburgerMenu from "./components/HamburgerMenu";
+import HamburgerMenu from "./components/Utils/HamburgerMenu";
 // * Media
 import PrivacyPolicy from "./components/privacy";
 import Article from "./components/Article";
