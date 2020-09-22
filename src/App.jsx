@@ -33,6 +33,8 @@ import Article from "./components/Article";
 import Pricing from "./components/Pricing";
 import circleX from "./images/circle-X.png";
 
+import Help from "./components/Help";
+
 // ! GOOGLE ANALYTICS
 import ReactGA from "react-ga";
 ReactGA.initialize("UA-177470204-1");
@@ -120,6 +122,7 @@ function App() {
           <Route path="/social-media" component={SocialMedia} />
           <Route path="/contact" component={Contact} />
           <Route path="/plans" component={Pricing} />
+          <Route path="/help" component={Help} />
           <Route path="/article/:id" component={Article} />
           <Redirect to="/" />
         </Switch>

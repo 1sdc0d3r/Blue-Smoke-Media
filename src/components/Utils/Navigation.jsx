@@ -14,9 +14,12 @@ export default withRouter(function Navigation(props) {
         </button>
         <div className="dropdown-content home-drop">
           <div className="nav-section">
-            <a href="plans" className="drop-item">
+            <NavLink to="/plans" className="drop-item">
               Plans & Pricing
-            </a>
+            </NavLink>
+            <NavLink to="/help" className="drop-item">
+              Need Help?
+            </NavLink>
             <NavLink to="/privacy" className="drop-item">
               Privacy Policy
             </NavLink>

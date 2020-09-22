@@ -13,9 +13,8 @@
   background: url("../../images/globe-stretch-new.png");
   background-size: 101% 105%;
   background-repeat: no-repeat;
-  padding-top: 1em;
+  padding: 2em 0 1.5em;
   min-width: 80%;
-  border-top: 0.5em solid #020723;
   border-bottom: 0.5em solid #020723;
 }
 
@@ -145,207 +144,82 @@
   color: #ee3e0e;
 }
 
-.home .plans-pricing h1 {
-  text-transform: uppercase;
-  color: #ee3e0e;
-  text-shadow: 2px 2px black;
-  margin: 1.5em auto 0;
-  font-size: 2.5em;
-}
-
-.home .plans-pricing h1 span {
-  color: #1e92f6;
-}
-
-.home .plans-pricing .sub-text {
-  margin: 0 auto 1.5em;
-  font-size: 0.75em;
-}
-
-.home .plans-pricing .plans-card-container {
+.home .social-media {
+  background: #04227a;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  margin-top: 5%;
-}
-
-@media (max-width: 360px) {
-  .home .plans-pricing .plans-card-container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-@media (min-width: 361px) and (max-width: 480px) {
-  .home .plans-pricing .plans-card-container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 736px) {
-  .home .plans-pricing .plans-card-container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-@media (min-width: 737px) and (max-width: 980px) {
-  .home .plans-pricing .plans-card-container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-.home .plans-pricing .plans-card-container .plan-card-set {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  width: 50%;
-}
-
-@media (min-width: 737px) and (max-width: 980px) {
-  .home .plans-pricing .plans-card-container .plan-card-set {
-    width: 100%;
-    margin-bottom: 9%;
-  }
-}
-
-@media (max-width: 360px) {
-  .home .plans-pricing .plans-card-container .plan-card-set {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 100%;
-  }
-}
-
-@media (min-width: 361px) and (max-width: 480px) {
-  .home .plans-pricing .plans-card-container .plan-card-set {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 100%;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 736px) {
-  .home .plans-pricing .plans-card-container .plan-card-set {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 100%;
-  }
-}
-
-.home .plans-pricing .plans-card-container .plan-card-set .plan-card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  border: 3px inset goldenrod;
-  width: 37%;
-  padding: 1em 1em 0;
-  color: #1e92f6;
-  background: #04227a;
+  margin: 4em auto 2em;
+}
+
+.home .social-media .content {
+  color: white;
+  margin: 2em;
+  width: 80%;
+  margin: 2em auto;
+  text-align: left;
+}
+
+.home .social-media .content h1 {
+  font-weight: 900;
+  text-transform: uppercase;
+  color: goldenrod;
+  margin: 0;
+  font-size: 2.3em;
+  text-shadow: 3px 3px 1px #000;
+}
+
+.home .social-media .content video {
+  margin: 1em 1em 2em;
+  width: 70%;
+  margin-left: 15%;
+  border: 4px solid #020723;
 }
 
 @media (max-width: 360px) {
-  .home .plans-pricing .plans-card-container .plan-card-set .plan-card {
-    width: 70%;
-    height: 65vh;
-    margin: 5% auto;
+  .home .social-media .content video {
+    width: 90%;
   }
 }
 
 @media (min-width: 361px) and (max-width: 480px) {
-  .home .plans-pricing .plans-card-container .plan-card-set .plan-card {
-    width: 70%;
-    height: 65vh;
-    margin: 5% auto;
+  .home .social-media .content video {
+    width: 90%;
   }
 }
 
 @media (min-width: 481px) and (max-width: 736px) {
-  .home .plans-pricing .plans-card-container .plan-card-set .plan-card {
-    width: 70%;
-    height: 65vh;
-    margin: 5% auto;
+  .home .social-media .content video {
+    width: 90%;
   }
 }
 
-.home .plans-pricing .plans-card-container .plan-card-set .plan-card:hover .line {
-  width: 85%;
+@media (min-width: 737px) and (max-width: 980px) {
+  .home .social-media .content video {
+    width: 90%;
+  }
 }
 
-.home .plans-pricing .plans-card-container .plan-card-set .plan-card h3 {
-  margin: 0;
-  color: #ee3e0e;
-  text-shadow: 2.5px 2.5px #020723;
-  font-size: 1.5em;
-}
-
-.home .plans-pricing .plans-card-container .plan-card-set .plan-card h6 {
-  margin-top: 3%;
-  margin-bottom: 0;
-}
-
-.home .plans-pricing .plans-card-container .plan-card-set .plan-card hr {
-  width: 40%;
-  border: 0;
-  border: 1px solid goldenrod;
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
-  margin: 0.5em auto;
-}
-
-.home .plans-pricing .plans-card-container .plan-card-set .plan-card p {
-  margin: 0 auto 3%;
-  text-shadow: 2px 2px #020723;
-}
-
-.home .plans-pricing .plans-card-container .plan-card-set .plan-card .price {
-  color: goldenrod;
-  font-size: 3em;
-  font-weight: 700;
-}
-
-.home .plans-pricing .plans-card-container .plan-card-set .plan-card a {
-  margin: 0.5em auto 1em;
-  padding: 0.4em;
-  border: 1px solid #020723;
-  -webkit-box-shadow: 2px 2px #020723;
-          box-shadow: 2px 2px #020723;
-  color: #020723;
-  background: #1e92f6;
-  text-decoration: none;
+.home .social-media .content h2 {
+  color: #f52618;
   font-weight: 600;
+  margin: none;
+  text-shadow: 2px 2px 0.5px #000;
 }
 
-.home .plans-pricing .plans-card-container .plan-card-set .plan-card a:hover {
-  color: #d7dae6;
-  outline: 2px solid #ee3e0e;
+.home .social-media .content a {
+  background: #04227a;
+  color: #f52618;
+  padding: 0.2em;
+  border-radius: 1em;
+  font-weight: 500;
+  text-shadow: 2px 2px 1px #000;
 }
 
 .home .services h1 {
@@ -547,224 +421,209 @@
   font-weight: 600;
 }
 
-.home .social-media {
-  background: #04227a;
-  width: 100%;
+.home .plans-pricing {
+  margin-bottom: 5em;
+}
+
+.home .plans-pricing h1 {
+  text-transform: uppercase;
+  color: #ee3e0e;
+  text-shadow: 2px 2px black;
+  font-size: 2.5em;
+}
+
+.home .plans-pricing h1 span {
+  color: #1e92f6;
+}
+
+.home .plans-pricing .sub-text {
+  margin: 0 auto 1.5em;
+  font-size: 0.75em;
+}
+
+.home .plans-pricing .plans-card-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 5%;
+}
+
+@media (max-width: 360px) {
+  .home .plans-pricing .plans-card-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .home .plans-pricing .plans-card-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .home .plans-pricing .plans-card-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  .home .plans-pricing .plans-card-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.home .plans-pricing .plans-card-container .plan-card-set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 50%;
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  .home .plans-pricing .plans-card-container .plan-card-set {
+    width: 100%;
+    margin-bottom: 9%;
+  }
+}
+
+@media (max-width: 360px) {
+  .home .plans-pricing .plans-card-container .plan-card-set {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .home .plans-pricing .plans-card-container .plan-card-set {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .home .plans-pricing .plans-card-container .plan-card-set {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+}
+
+.home .plans-pricing .plans-card-container .plan-card-set .plan-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-
-.home .social-media .content {
-  width: 50%;
-  color: white;
-  margin: 2em;
-  width: 80%;
-  margin: 2em auto;
-  text-align: left;
-}
-
-.home .social-media .content h1 {
-  font-weight: 900;
-  text-transform: uppercase;
-  color: goldenrod;
-  margin: 0;
-  font-size: 2.2em;
-  text-shadow: 3px 3px 1px #000;
-}
-
-.home .social-media .content h2 {
-  color: #f52618;
-  font-weight: 600;
-  margin: none;
-  text-shadow: 2px 2px 0.5px #000;
-}
-
-.home .social-media .content a {
-  background: #04227a;
-  color: #f52618;
-  padding: 0.2em;
-  border-radius: 1em;
-  font-weight: 500;
-  text-shadow: 2px 2px 1px #000;
-}
-
-.home .social-media video {
-  margin: 0em 1em 2em;
-  width: 50%;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  border: 4px solid #020723;
-}
-
-@media (max-width: 360px) {
-  .home .social-media video {
-    width: 90%;
-  }
-}
-
-@media (min-width: 361px) and (max-width: 480px) {
-  .home .social-media video {
-    width: 90%;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 736px) {
-  .home .social-media video {
-    width: 90%;
-  }
-}
-
-@media (min-width: 737px) and (max-width: 980px) {
-  .home .social-media video {
-    width: 90%;
-  }
-}
-
-.home .help {
-  background: #333;
-  padding-bottom: 5%;
-}
-
-.home .help h1 {
-  text-transform: uppercase;
-  color: #ee3e0e;
-  text-shadow: 2px 2px black;
-  padding-top: 1.5em;
-  margin-bottom: 2em;
-  font-size: 2.5em;
-}
-
-.home .help h1 span {
-  color: #1e92f6;
-}
-
-.home .help .help-card-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  margin: 5% auto 0;
+  border: 3px inset goldenrod;
+  width: 37%;
+  padding: 1em 1em 0;
+  color: #1e92f6;
+  background: #04227a;
 }
 
 @media (max-width: 360px) {
-  .home .help .help-card-container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+  .home .plans-pricing .plans-card-container .plan-card-set .plan-card {
+    width: 70%;
+    height: 65vh;
+    margin: 5% auto;
   }
 }
 
 @media (min-width: 361px) and (max-width: 480px) {
-  .home .help .help-card-container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+  .home .plans-pricing .plans-card-container .plan-card-set .plan-card {
+    width: 70%;
+    height: 65vh;
+    margin: 5% auto;
   }
 }
 
 @media (min-width: 481px) and (max-width: 736px) {
-  .home .help .help-card-container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-@media (min-width: 737px) and (max-width: 980px) {
-  .home .help .help-card-container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-.home .help .help-card-container .help-card {
-  width: 31%;
-  background: #d7dae6;
-  margin-bottom: 3em;
-  padding-bottom: 1em;
-}
-
-@media (max-width: 360px) {
-  .home .help .help-card-container .help-card {
+  .home .plans-pricing .plans-card-container .plan-card-set .plan-card {
     width: 70%;
-    margin: 0 auto 13%;
-    padding-bottom: 7%;
+    height: 65vh;
+    margin: 5% auto;
   }
 }
 
-@media (min-width: 361px) and (max-width: 480px) {
-  .home .help .help-card-container .help-card {
-    width: 70%;
-    margin: 0 auto 13%;
-    padding-bottom: 7%;
-  }
+.home .plans-pricing .plans-card-container .plan-card-set .plan-card:hover .line {
+  width: 85%;
 }
 
-@media (min-width: 481px) and (max-width: 736px) {
-  .home .help .help-card-container .help-card {
-    width: 70%;
-    margin: 0 auto 13%;
-    padding-bottom: 7%;
-  }
-}
-
-@media (min-width: 737px) and (max-width: 980px) {
-  .home .help .help-card-container .help-card {
-    width: 70%;
-    margin: 0 auto 13%;
-    padding-bottom: 7%;
-  }
-}
-
-@media (max-width: 360px) {
-  .home .help .help-card-container .help-card {
-    margin-bottom: 15%;
-  }
-}
-
-@media (min-width: 361px) and (max-width: 480px) {
-  .home .help .help-card-container .help-card {
-    margin-bottom: 15%;
-  }
-}
-
-.home .help .help-card-container .help-card img {
-  width: 20%;
-  margin: -9% auto 0;
-  outline: 2px outset #020723;
-}
-
-.home .help .help-card-container .help-card h3 {
-  color: #f52618;
-  text-shadow: 1px 1px #020723;
-  letter-spacing: 0.125em;
-  margin-bottom: 0;
-}
-
-.home .help .help-card-container .help-card p {
-  padding: 0 1em;
-  padding-bottom: 0;
-  margin-bottom: 0;
-  font-size: 0.9em;
-}
-
-.home .help .help-card-container .help-card p span {
+.home .plans-pricing .plans-card-container .plan-card-set .plan-card h3 {
+  margin: 0;
   color: #ee3e0e;
+  text-shadow: 2.5px 2.5px #020723;
+  font-size: 1.5em;
+}
+
+.home .plans-pricing .plans-card-container .plan-card-set .plan-card h6 {
+  margin-top: 3%;
+  margin-bottom: 0;
+}
+
+.home .plans-pricing .plans-card-container .plan-card-set .plan-card hr {
+  width: 40%;
+  border: 0;
+  border: 1px solid goldenrod;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  margin: 0.5em auto;
+}
+
+.home .plans-pricing .plans-card-container .plan-card-set .plan-card p {
+  margin: 0 auto 3%;
+  text-shadow: 2px 2px #020723;
+}
+
+.home .plans-pricing .plans-card-container .plan-card-set .plan-card .price {
+  color: goldenrod;
+  font-size: 3em;
   font-weight: 700;
-  text-shadow: 0.5px 0.5px #020723;
+}
+
+.home .plans-pricing .plans-card-container .plan-card-set .plan-card a {
+  margin: 0.5em auto 1em;
+  padding: 0.4em;
+  border: 1px solid #020723;
+  -webkit-box-shadow: 2px 2px #020723;
+          box-shadow: 2px 2px #020723;
+  color: #020723;
+  background: #1e92f6;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.home .plans-pricing .plans-card-container .plan-card-set .plan-card a:hover {
+  color: #d7dae6;
+  outline: 2px solid #ee3e0e;
 }
 /*# sourceMappingURL=Home.css.map */

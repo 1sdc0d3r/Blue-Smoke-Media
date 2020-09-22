@@ -1,6 +1,7 @@
 @import "../Utils/Mixins/Mixins.scss";
 
 .carousel {
+  margin-bottom: 2em;
   .slider {
     background: #04227a;
     @include breakpoint(xxs, xs, s) {

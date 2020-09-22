@@ -42,29 +42,21 @@ html {
     }
   }
   .covid-banner {
-    color: black;
-    background: $orange;
+    color: $lightBlue;
+    background: $royalBlue;
     width: 100%;
     margin: 0 auto;
-    padding: 0 0.2em;
+    padding: 0.25em 0 0.5em;
     display: flex;
     justify-content: center;
+    font-size: 0.7em;
     // position: absolute;
+
     img {
-      width: 1em;
+      width: 1.2em;
       align-self: center;
-      margin-right: 0.1em;
+      margin-right: 0.25em;
     }
-    // line-height: 0.85em;
-    // font-size: 0.85em;
-    // span {
-    //   background: black;
-    //   // border-radius: 25%;
-    //   padding: 0 0.125em;
-    //   border: 1px solid black;
-    //   color: white;
-    //   margin-right: 1%;
-    // }
   }
   .hcGzIK svg,
   .hcGzIK path {

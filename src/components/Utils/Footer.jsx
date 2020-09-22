@@ -34,7 +34,10 @@ export default function Footer() {
               <Link to="/">{chevron}Home</Link>
             </li>
             <li>
-              <Link to="/team">{chevron}Our Team </Link>
+              <Link to="/team">{chevron}Our Team</Link>
+            </li>
+            <li>
+              <Link to="/help">{chevron}Need Help?</Link>
             </li>
             <li>
               <Link to="/website-design/inquiry-form">

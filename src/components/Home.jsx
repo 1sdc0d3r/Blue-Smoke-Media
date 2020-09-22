@@ -1,16 +1,13 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import Carousel from "./Carousel";
 import ReactCardFlip from "react-card-flip";
 //* Images
 import slide_seo from "../images/seo_file.png";
 import slide_custom from "../images/custom_website_design.png";
 import slide_sm from "../images/social_media.png";
 import slide_graphic from "../images/graphic_design.png";
-import help1 from "../images/help-icon-1.png";
-import help2 from "../images/help-icon-2.png";
-import help3 from "../images/help-icon-3.png";
+
 const socialMedia =
   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/Now-open-video_HD720.mp4";
 //LINKS
@@ -21,7 +18,6 @@ export default function Home() {
   const [card4, setCard4] = useState(false);
   return (
     <div className="home">
-      <Carousel />
       <section className="globe">
         <p>
           <h1>
@@ -43,7 +39,119 @@ export default function Home() {
           </p>
         </p>
       </section>
-
+      <section className="social-media">
+        <div className="content">
+          <h1>Social Media</h1>
+          <video
+            title="Social-Media-Vid"
+            id="sm-video"
+            alt="Video of Services by Blue Smoke Digital and Printed Media"
+            type="video/mp4"
+            src={socialMedia}
+            preload="auto"
+            loading="lazy"
+            controls
+            onClick={() => {
+              const smVideo = document.getElementById("sm-video");
+              smVideo.paused ? smVideo.play() : smVideo.pause();
+            }}
+          />
+          <h2>Emerging Social Media Channels and Trends</h2>
+          <p>
+            <span>Social media trends are like friends, they come and go.</span>{" "}
+            However, the best friends and trends usually end up sticking around
+            and evolving into a permanent part of our lives with qualities such
+            as integrity, dependability, trust, quality and even ROI.
+          </p>
+          <h2>Video Crushes It</h2>
+          <p>
+            More than 28% of users from four major social media platforms engage
+            with live streams each month on any one of these services. “Video is
+            the hottest platform on the planet right now and the cheapest to
+            distribute through social media,” said{" "}
+            <a href="https://www.mattjohnstononline.com/">
+              Matt Johnston, CEO, and Founder
+            </a>{" "}
+            of Guide Social, an exclusive video marketing agency that
+            experienced a 400 percent growth spurt in the last six months. “A
+            reminder to brands, video does NOT have to be expensively produced
+            to be effective.”
+          </p>
+          <p>
+            Daily Activity Almost 3.5 billion social media users worldwide
+            coexist with devices.
+          </p>
+          <Link to="/social-media">Learn More</Link>
+        </div>
+        {/* <img src={socialMedia} alt="social media globe" /> */}
+      </section>
+      <section className="plans-pricing">
+        <h1>
+          <span>Our </span>Plans & Pricing
+        </h1>
+        <p className="sub-text">
+          (All prices may be subject to change without
+          <br />
+          notice, unless under contract.)
+        </p>
+        <div className="plans-card-container">
+          <div className="plan-card-set">
+            <div className="plan-card">
+              <h3>
+                5 Page
+                <br />
+                Website
+              </h3>
+              <h6>Includes Organic SEO</h6>
+              <hr className="line" />
+              <p>Starts At</p>
+              <p className="price">$749</p>
+              <Link to="/plans">View Plans</Link>
+            </div>
+            <div className="plan-card">
+              <h3>
+                6-10 Page
+                <br />
+                Website
+              </h3>
+              <h6>Includes Organic SEO</h6>
+              <hr className="line" />
+              <p>Starts At</p>
+              <p className="price">$1,399</p>
+              <Link to="/plans">View Plans</Link>
+            </div>
+          </div>
+          <div className="plan-card-set">
+            <div className="plan-card">
+              <h3>
+                11-15+ Page
+                <br />
+                Website
+              </h3>
+              <h6>Includes Organic SEO</h6>
+              <hr className="line" />
+              <p>Starts At</p>
+              <p className="price">$2,299</p>
+              <Link to="/plans">View Plans</Link>
+            </div>
+            <div className="plan-card">
+              <h3>
+                E-Commerce
+                <br />
+                Website
+              </h3>
+              <h6>
+                Includes Organic SEO
+                <br /> Price is for 5 pages and 10 items.
+              </h6>
+              <hr className="line" />
+              <p>Starts At</p>
+              <p className="price">$1,749</p>
+              <Link to="/plans">View Plans</Link>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="services">
         <h1>
           <span>Our </span>Services
@@ -172,185 +280,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="plans-pricing">
-        <h1>
-          <span>Our </span>Plans & Pricing
-        </h1>
-        <p className="sub-text">
-          (All prices may be subject to change without
-          <br />
-          notice, unless under contract.)
-        </p>
-        <div className="plans-card-container">
-          <div className="plan-card-set">
-            <div className="plan-card">
-              <h3>
-                5 Page
-                <br />
-                Website
-              </h3>
-              <h6>Includes Organic SEO</h6>
-              <hr className="line" />
-              <p>Starts At</p>
-              <p className="price">$749</p>
-              <Link to="/plans">View Plans</Link>
-            </div>
-            <div className="plan-card">
-              <h3>
-                6-10 Page
-                <br />
-                Website
-              </h3>
-              <h6>Includes Organic SEO</h6>
-              <hr className="line" />
-              <p>Starts At</p>
-              <p className="price">$1,399</p>
-              <Link to="/plans">View Plans</Link>
-            </div>
-          </div>
-          <div className="plan-card-set">
-            <div className="plan-card">
-              <h3>
-                11-15+ Page
-                <br />
-                Website
-              </h3>
-              <h6>Includes Organic SEO</h6>
-              <hr className="line" />
-              <p>Starts At</p>
-              <p className="price">$2,299</p>
-              <Link to="/plans">View Plans</Link>
-            </div>
-            <div className="plan-card">
-              <h3>
-                E-Commerce
-                <br />
-                Website
-              </h3>
-              <h6>
-                Includes Organic SEO
-                <br /> Price is for 5 pages and 10 items.
-              </h6>
-              <hr className="line" />
-              <p>Starts At</p>
-              <p className="price">$1,749</p>
-              <Link to="/plans">View Plans</Link>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="social-media">
-        <div className="content">
-          <h1>Social Media</h1>
-          <h2>Emerging Social Media Channels and Trends</h2>
-          <p>
-            <span>Social media trends are like friends, they come and go.</span>{" "}
-            However, the best friends and trends usually end up sticking around
-            and evolving into a permanent part of our lives with qualities such
-            as integrity, dependability, trust, quality and even ROI.
-          </p>
-          <h2>Video Crushes It</h2>
-          <p>
-            More than 28% of users from four major social media platforms engage
-            with live streams each month on any one of these services. “Video is
-            the hottest platform on the planet right now and the cheapest to
-            distribute through social media,” said{" "}
-            <a href="https://www.mattjohnstononline.com/">
-              Matt Johnston, CEO, and Founder
-            </a>{" "}
-            of Guide Social, an exclusive video marketing agency that
-            experienced a 400 percent growth spurt in the last six months. “A
-            reminder to brands, video does NOT have to be expensively produced
-            to be effective.”
-          </p>
-          <p>
-            Daily Activity Almost 3.5 billion social media users worldwide
-            coexist with devices.
-          </p>
-          <Link to="/social-media">Learn More</Link>
-        </div>
-        {/* <img src={socialMedia} alt="social media globe" /> */}
-        <video
-          title="Social-Media-Vid"
-          id="sm-video"
-          alt="Video of Services by Blue Smoke Digital and Printed Media"
-          type="video/mp4"
-          src={socialMedia}
-          preload="auto"
-          loading="lazy"
-          controls
-          onClick={() => {
-            const smVideo = document.getElementById("sm-video");
-            smVideo.paused ? smVideo.play() : smVideo.pause();
-          }}
-        />
-      </section>
-      <section className="help">
-        <h1>
-          In case you <span>Need help</span>
-        </h1>
-        <div className="help-card-container">
-          <div className="help-card">
-            <img src={help1} alt="placeholder" />
-            <h3>Have a Question?</h3>
-            <p>
-              No business is too small for a website, but creating and
-              maintaining a website can be daunting. How do you know what to put
-              on your website? What color should the buttons be? What does “SEO”
-              mean? With so many questions, it can be difficult to focus on what
-              matters.
-              <br />
-              <br />
-              <span>Click on our chat button</span> and we will gladly answer
-              any questions you may have regarding Blue Smoke Digital and
-              Printed Media.
-            </p>
-          </div>
-          <div className="help-card">
-            <img src={help2} alt="placeholder" />
-            <h3>Need Support?</h3>
-            <p>
-              Ready to get your site updated or build a new website? Starting a
-              website for your business is a low-cost investment that will help
-              you to both establish credibility and reach a wider customer base
-              through digital marketing techniques. If you keep your website
-              updated with fresh, current content and are quick to address
-              technical issues, you’ll never have to worry about “not existing”
-              to your current and future clients. Still have a couple lingering
-              questions? Talk to our team, we will answer your questions and
-              point you in the right direction.
-            </p>
-          </div>
-          <div className="help-card">
-            <img src={help3} alt="placeholder" />
-            <h3>
-              Digital Reputation
-              <br />
-              Management
-            </h3>
-            <p>
-              “Identity will be the most valuable commodity for citizens in the
-              future, and it will exist primarily online.” <br />
-              <span>— Eric Schmidt</span>
-              <br />
-              <br />
-              “Decisions to buy or not buy from a company have increasingly less
-              to do with place, packaging, or promotion and almost everything to
-              do with how much your friends, family, and even strangers provide
-              online assurance that the product or service is worth the cost.”
-              <br />
-              <span>— Elaine Cheng</span>
-              <br />
-              <br />
-              We interact with friends, family, and colleagues largely through
-              text messages, email, and{" "}
-              <Link to="/social-media">social media</Link>, where perception and
-              reality are often confused. So both digital and in-person first
-              impressions are critical!
-            </p>
-          </div>
-        </div>
-      </section>
+
       <Helmet>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
