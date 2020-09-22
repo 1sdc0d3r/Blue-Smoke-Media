@@ -1,5 +1,4 @@
 @import "../Utils/Mixins/Mixins.scss";
-
 .home {
   z-index: 50;
 
@@ -135,6 +134,10 @@
         border-radius: 1em;
         font-weight: 500;
         text-shadow: 2px 2px 1px #000;
+        font-size: 1.2em;
+        &:hover {
+          color: #7ff76f;
+        }
       }
     }
   }

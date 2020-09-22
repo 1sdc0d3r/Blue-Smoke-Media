@@ -35,10 +35,11 @@ html {
     // z-index: 50;
   }
   .page-wrapper {
-    width: 92%;
+    width: 94%;
     margin: auto;
     @include breakpoint(xxs, xs, s, m) {
-      width: 100%;
+      width: 98%;
+      margin: auto;
     }
   }
   .covid-banner {

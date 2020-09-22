@@ -2,15 +2,28 @@ import React from "react";
 import { NavLink, withRouter } from "react-router-dom";
 
 export default withRouter(function Navigation(props) {
+  const dropArrow = (
+    <svg
+      style={{
+        width: "20",
+        height: "20",
+        viewBox: "0 0 20 20",
+        color: "#7ff76f",
+      }}
+    >
+      <polygon points="7.5 10.5 20.5 10.5 15 18"></polygon>
+    </svg>
+  );
   return (
     <nav className="main-nav">
       <div className="dropdown">
         <button
-          className="drop-btn nav-item"
+          className="drop-btn nav-item "
           onClick={() => props.history.push("/")}
-          uk-icon="icon: triangle-down"
+          uk-icon="icon: triangle-down-NOTHING"
         >
           Home
+          {dropArrow}
         </button>
         <div className="dropdown-content home-drop">
           <div className="nav-section">
@@ -33,8 +46,12 @@ export default withRouter(function Navigation(props) {
         Our Team
       </NavLink>
       <div className="dropdown">
-        <button className="drop-btn nav-item" uk-icon="icon: triangle-down">
+        <button
+          className="drop-btn nav-item"
+          uk-icon="icon: triangle-down-NOTHING"
+        >
           Services
+          {dropArrow}
         </button>
         <div className="dropdown-content">
           <div className="nav-section">

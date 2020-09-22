@@ -35,12 +35,6 @@
   }
 }
 
-@media (min-width: 737px) and (max-width: 980px) {
-  .main-nav {
-    display: none;
-  }
-}
-
 .main-nav .nav-item {
   color: #d7dae6;
   font-size: 1em;
