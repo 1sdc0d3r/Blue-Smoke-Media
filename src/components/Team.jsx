@@ -128,7 +128,7 @@ export default function Team() {
 
         <link
           rel="canonical"
-          href="https://www.bluesmokedigitalandprintedmedia.com/#/Components/Team"
+          href="https://www.bluesmokedigitalandprintedmedia.com/Components/Team"
         />
 
         {/* <!-- HTML Meta Tags --> */}

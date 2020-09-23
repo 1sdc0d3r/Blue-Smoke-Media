@@ -49,7 +49,7 @@ export default function WebsiteLogoDesign() {
 
         <link
           rel="canonical"
-          href="https://www.bluesmokedigitalandprintedmedia.com/#/website-design/WebsiteLogoDesign"
+          href="https://www.bluesmokedigitalandprintedmedia.com/website-design/WebsiteLogoDesign"
         />
 
         {/* // <!-- HTML Meta Tags --> */}

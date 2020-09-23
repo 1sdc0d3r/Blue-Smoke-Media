@@ -59,7 +59,7 @@ export default function OrganicSeo() {
 
         <link
           rel="canonical"
-          href="https://www.bluesmokedigitalandprintedmedia.com/#/SEO/OrganicSeo"
+          href="https://www.bluesmokedigitalandprintedmedia.com/SEO/OrganicSeo"
         />
 
         {/* // <!-- HTML Meta Tags --> */}

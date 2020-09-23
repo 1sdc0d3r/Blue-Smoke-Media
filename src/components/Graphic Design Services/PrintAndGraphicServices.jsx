@@ -118,7 +118,7 @@ export default function PrintAndDesignGraphicServices() {
 
         <link
           rel="canonical"
-          href="https://www.bluesmokedigitalandprintedmedia.com/#/website-design/PrintAndGraphicServices"
+          href="https://www.bluesmokedigitalandprintedmedia.com/website-design/PrintAndGraphicServices"
         />
 
         {/* <!-- HTML Meta Tags --> */}

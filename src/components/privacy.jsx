@@ -328,7 +328,7 @@ Based on the applicable laws of your country, you may have the right to request 
 
         <p
           rel="canonical"
-          href="https://www.bluesmokedigitalandprintedmedia.com/#/Team"
+          href="https://www.bluesmokedigitalandprintedmedia.com/Team"
         />
 
         {/* <!-- HTML Meta Tags --> */}

@@ -293,7 +293,7 @@ export default function Home() {
 
           <link
             rel="canonical"
-            href="https://www.bluesmokedigitalandprintedmedia.com/#"
+            href="https://www.bluesmokedigitalandprintedmedia.com"
           />
 
           {/* <!-- HTML Meta Tags --> */}

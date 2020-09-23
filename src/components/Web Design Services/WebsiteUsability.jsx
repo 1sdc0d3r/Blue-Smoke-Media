@@ -75,7 +75,7 @@ export default function WebsiteUsability() {
 
         <link
           rel="canonical"
-          href="https://www.bluesmokedigitalandprintedmedia.com/#/Web Design Services/WebsiteUseability"
+          href="https://www.bluesmokedigitalandprintedmedia.com/Web Design Services/WebsiteUseability"
         />
 
         {/* <!-- HTML Meta Tags --> */}

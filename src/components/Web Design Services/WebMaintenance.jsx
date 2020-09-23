@@ -56,7 +56,7 @@ export default function WebMaintenance() {
 
         <link
           rel="canonical"
-          href="https://www.bluesmokedigitalandprintedmedia.com/#/Web Design Services/WebMaintenance"
+          href="https://www.bluesmokedigitalandprintedmedia.com/Web Design Services/WebMaintenance"
         />
 
         {/* // <!-- HTML Meta Tags --> */}

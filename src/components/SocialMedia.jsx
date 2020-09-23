@@ -131,7 +131,7 @@ export default function SocialMedia() {
 
         <link
           rel="canonical"
-          href="https://www.bluesmokedigitalandprintedmedia.com/#/Components/SocialMedia"
+          href="https://www.bluesmokedigitalandprintedmedia.com/Components/SocialMedia"
         />
 
         {/* // <!-- HTML Meta Tags --> */}

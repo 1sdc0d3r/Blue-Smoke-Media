@@ -67,7 +67,7 @@ export default function ECommerceWebsiteDevelopment() {
 
         <link
           rel="canonical"
-          href="https://www.bluesmokedigitalandprintedmedia.com/#/website-design/eCommerce-website-development"
+          href="https://www.bluesmokedigitalandprintedmedia.com/website-design/eCommerce-website-development"
         />
 
         {/* <!-- HTML Meta Tags --> */}

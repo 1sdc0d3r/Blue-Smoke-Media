@@ -60,7 +60,7 @@ export default function CustomWebsiteDesign() {
 
         <link
           rel="canonical"
-          href="https://www.bluesmokedigitalandprintedmedia.com/#/website-design/custom-website-design"
+          href="https://www.bluesmokedigitalandprintedmedia.com/website-design/custom-website-design"
         />
 
         {/* <!-- HTML Meta Tags --> */}
