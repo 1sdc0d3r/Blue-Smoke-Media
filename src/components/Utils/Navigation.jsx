@@ -11,7 +11,7 @@ export default withRouter(function Navigation(props) {
         color: "#7ff76f",
       }}
     >
-      <polygon points="7.5 10.5 20.5 10.5 15 18"></polygon>
+      <polygon points="5,5 13,15 20,5" />
     </svg>
   );
   return (
@@ -22,8 +22,7 @@ export default withRouter(function Navigation(props) {
           onClick={() => props.history.push("/")}
           uk-icon="icon: triangle-down-NOTHING"
         >
-          Home
-          {dropArrow}
+          Home{dropArrow}
         </button>
         <div className="dropdown-content home-drop">
           <div className="nav-section">
