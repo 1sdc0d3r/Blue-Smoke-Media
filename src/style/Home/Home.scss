@@ -163,6 +163,7 @@
         padding: 0em 1em 2em;
         position: relative;
         color: $lightBlue;
+        margin-top: 1em;
         @include breakpoint(m, l) {
           width: 40%;
           margin: 10% auto 10%;

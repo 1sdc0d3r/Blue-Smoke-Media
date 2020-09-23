@@ -269,6 +269,7 @@
   padding: 0em 1em 2em;
   position: relative;
   color: #1e92f6;
+  margin-top: 1em;
 }
 
 @media (min-width: 737px) and (max-width: 980px) {
