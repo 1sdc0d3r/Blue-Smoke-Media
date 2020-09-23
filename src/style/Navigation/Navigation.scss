@@ -13,7 +13,7 @@
   user-select: none;
   padding: 0 7%;
 
-  @include breakpoint(xxs, xs, s, m) {
+  @include breakpoint(xxs, xs, s) {
     display: none;
   }
 
@@ -45,6 +45,7 @@
       border: none;
       background-color: inherit;
       cursor: pointer;
+
       @include breakpoint(mobile) {
         /* margin important for vertical align on mobile phones */
         margin: 0;

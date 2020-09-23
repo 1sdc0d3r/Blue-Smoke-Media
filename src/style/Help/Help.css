@@ -1,0 +1,145 @@
+.help {
+  background: #333;
+  border-top: 2px solid #020723;
+  padding-bottom: 5%;
+  margin-top: 2em;
+}
+
+.help h1 {
+  text-transform: uppercase;
+  color: #ee3e0e;
+  text-shadow: 2px 2px black;
+  padding-top: 1.5em;
+  margin-bottom: 2em;
+  font-size: 2.5em;
+}
+
+.help h1 span {
+  color: #1e92f6;
+}
+
+.help .help-card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 5% auto 0;
+}
+
+@media (max-width: 360px) {
+  .help .help-card-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .help .help-card-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .help .help-card-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  .help .help-card-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.help .help-card-container .help-card {
+  width: 31%;
+  background: #d7dae6;
+  margin-bottom: 3em;
+  padding-bottom: 1em;
+  border-radius: 2em;
+}
+
+@media (max-width: 360px) {
+  .help .help-card-container .help-card {
+    width: 70%;
+    margin: 0 auto 13%;
+    padding-bottom: 7%;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .help .help-card-container .help-card {
+    width: 70%;
+    margin: 0 auto 13%;
+    padding-bottom: 7%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .help .help-card-container .help-card {
+    width: 70%;
+    margin: 0 auto 13%;
+    padding-bottom: 7%;
+  }
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  .help .help-card-container .help-card {
+    width: 70%;
+    margin: 0 auto 13%;
+    padding-bottom: 7%;
+  }
+}
+
+@media (max-width: 360px) {
+  .help .help-card-container .help-card {
+    margin-bottom: 15%;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .help .help-card-container .help-card {
+    margin-bottom: 15%;
+  }
+}
+
+.help .help-card-container .help-card img {
+  width: 20%;
+  margin: -9% auto 0;
+  border: 2px outset #020723;
+  border-radius: 0.5em;
+}
+
+.help .help-card-container .help-card h3 {
+  color: #f52618;
+  text-shadow: 1px 1px #020723;
+  letter-spacing: 0.125em;
+  margin-bottom: 0;
+}
+
+.help .help-card-container .help-card p {
+  padding: 0 1em;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 0.9em;
+}
+
+.help .help-card-container .help-card p span {
+  color: #ee3e0e;
+  font-weight: 700;
+  text-shadow: 0.5px 0.5px #020723;
+}
+/*# sourceMappingURL=Help.css.map */

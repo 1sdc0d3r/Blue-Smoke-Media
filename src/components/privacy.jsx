@@ -316,7 +316,9 @@ Based on the applicable laws of your country, you may have the right to request 
         PROVIDED ON THE SITE. YOUR USE OF THE SITE AND YOUR RELIANCE ON ANY
         INFORMATION ON THE SITE IS SOLELY AT YOUR OWN RISK.
       </pre>
-      <h4 onClick={() => window.scrollTo(0, 0)}>Scroll To Top</h4>
+      <h4 onClick={() => window.scrollTo(0, 0)} className="scroll-top">
+        Top
+      </h4>
       <Helmet>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -326,7 +328,7 @@ Based on the applicable laws of your country, you may have the right to request 
 
         <p
           rel="canonical"
-          href="https://www.bluesmokedigitalandprintedmedia.com/#/Team"
+          href="https://www.bluesmokedigitalandprintedmedia.com/Team"
         />
 
         {/* <!-- HTML Meta Tags --> */}

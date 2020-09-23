@@ -26,12 +26,14 @@ import PrintedMediaLogos from "./components/Graphic Design Services/PrintedMedia
 import WebsiteLogoDesign from "./components/Graphic Design Services/WebsiteLogoDesign";
 import Contact from "./components/Contact";
 import CTA from "./components/Header-CTA";
-import HamburgerMenu from "./components/HamburgerMenu";
+import HamburgerMenu from "./components/Utils/HamburgerMenu";
 // * Media
 import PrivacyPolicy from "./components/privacy";
 import Article from "./components/Article";
 import Pricing from "./components/Pricing";
 import circleX from "./images/circle-X.png";
+
+import Help from "./components/Help";
 
 // ! GOOGLE ANALYTICS
 import ReactGA from "react-ga";
@@ -120,6 +122,7 @@ function App() {
           <Route path="/social-media" component={SocialMedia} />
           <Route path="/contact" component={Contact} />
           <Route path="/plans" component={Pricing} />
+          <Route path="/help" component={Help} />
           <Route path="/article/:id" component={Article} />
           <Redirect to="/" />
         </Switch>

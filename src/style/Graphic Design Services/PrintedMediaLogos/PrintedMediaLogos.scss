@@ -2,7 +2,7 @@
 
 .printed-logos {
   @include breakpoint(l) {
-    margin-bottom: 2.125em;
+    // margin-bottom: 2.125em;
   }
 
   img {
@@ -27,7 +27,7 @@
   }
 
   p {
-    margin: 1em 2em;
+    margin: 1em 2em 3em;
     text-align: left;
 
     @include breakpoint(l) {

@@ -49,6 +49,7 @@ export default function CustomWebsiteDesign() {
           fast answers and an accurate quote, please fill out the{" "}
           <Link to="/website-design/inquiry-form">inquiry form</Link>{" "} 
            and a representative will contact you.
+
         </p>
       </div>
       <Helmet>
@@ -60,7 +61,7 @@ export default function CustomWebsiteDesign() {
 
         <link
           rel="canonical"
-          href="https://www.bluesmokedigitalandprintedmedia.com/#/website-design/custom-website-design"
+          href="https://www.bluesmokedigitalandprintedmedia.com/website-design/custom-website-design"
         />
 
         {/* <!-- HTML Meta Tags --> */}

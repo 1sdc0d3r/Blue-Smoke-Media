@@ -1,5 +1,4 @@
 @import "../Utils/Mixins/Mixins.scss";
-
 .home {
   z-index: 50;
 
@@ -9,14 +8,15 @@
     background: url("../../images/globe-stretch-new.png");
     background-size: 101% 105%;
     background-repeat: no-repeat;
-    padding-top: 1em;
+    padding: 2em 0 1.5em;
+    margin-top: 2em;
     min-width: 80%;
-    border-top: 0.5em solid #020723;
     border-bottom: 0.5em solid #020723;
+    @include breakpoint(l, xl, xxl) {
+      height: 60vh;
+    }
 
     @include breakpoint(xxs, xs, s) {
-      // height: 90vh;
-
       background-image: url("../../images/grey_background_globe-element_for_mobile.png");
     }
 
@@ -40,15 +40,6 @@
         width: 90%;
         margin: auto;
       }
-
-      // @include breakpoint(mobile) {
-      //   width: 90%;
-      //   height: 80%;
-      //   margin: 6% 30% auto 2%;
-      //   padding: 0;
-      //   text-align: left;
-      //   line-height: 1.25em;
-      // }
 
       h1 {
         display: inline-block;
@@ -85,12 +76,134 @@
       }
     }
   }
-  .plans-pricing {
+  .social-media {
+    background: $royalBlue;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 4em auto 2em;
+    @include breakpoint(xxs, xs, s, m) {
+    }
+
+    .content {
+      color: $white;
+      margin: 2em;
+      width: 80%;
+      margin: 2em auto;
+      text-align: left;
+
+      h1 {
+        font-weight: 900;
+        text-transform: uppercase;
+        color: goldenrod;
+        // text-align: left;
+        margin: 0;
+        font-size: 2.3em;
+        text-shadow: 3px 3px 1px #000;
+      }
+
+      video {
+        margin: 1em 1em 2em;
+        width: 70%;
+        margin-left: 15%;
+        border: 4px solid $darkBlue;
+        @include breakpoint(xxs, xs, s, m) {
+          width: 90%;
+          // margin: 5em 1em;
+        }
+        @include breakpoint(m) {
+          // margin: 8em 1em;
+        }
+      }
+      h2 {
+        color: #ee3e33;
+        font-weight: 600;
+        margin: none;
+        text-shadow: 2px 2px 0.5px #000;
+      }
+      a {
+        background: $royalBlue;
+        color: #ee3e33;
+        padding: 0.2em;
+        border-radius: 1em;
+        font-weight: 500;
+        text-shadow: 2px 2px 1px #000;
+        font-size: 1.2em;
+        &:hover {
+          color: #7ff76f;
+        }
+      }
+    }
+  }
+  .services {
     h1 {
       text-transform: uppercase;
       color: $orange;
       text-shadow: 2px 2px black;
-      margin: 1.5em auto 0;
+      margin: 1.2em auto 0.5em;
+      font-size: 2.5em;
+      width: 98%;
+      span {
+        color: $lightBlue;
+      }
+    }
+    .sub-text {
+      margin: 0 auto 1.5em;
+    }
+    .services-card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin: 7% auto 13%;
+      //todo colors (hover, links)
+
+      .service-card {
+        display: flex;
+        flex-direction: column;
+        width: 19%;
+        background: $royalBlue;
+        border: 5px inset $darkBlue;
+        padding: 0em 1em 2em;
+        position: relative;
+        color: $lightBlue;
+        margin-top: 1em;
+        border-radius: 1em;
+        @include breakpoint(m, l) {
+          width: 40%;
+          margin: 10% auto 10%;
+        }
+        @include breakpoint(xxs, xs, s) {
+          width: 70%;
+          margin: 18% auto;
+        }
+
+        img {
+          width: 50%;
+          margin: 0 auto;
+          transform: translate(0, -60%);
+        }
+        h3 {
+          color: goldenrod;
+          margin: -10% auto 0;
+          @include breakpoint(m, l) {
+            margin: -20% auto 0;
+          }
+          @include breakpoint(xxs, xs, s) {
+          }
+        }
+        a {
+          color: $orange;
+        }
+      }
+    }
+  }
+  .plans-pricing {
+    margin-bottom: 5em;
+    h1 {
+      text-transform: uppercase;
+      color: $orange;
+      text-shadow: 2px 2px black;
       font-size: 2.5em;
       span {
         color: $lightBlue;
@@ -182,220 +295,6 @@
               color: $white;
               outline: 2px solid $orange;
             }
-          }
-        }
-      }
-    }
-  }
-  .services {
-    h1 {
-      text-transform: uppercase;
-      color: $orange;
-      text-shadow: 2px 2px black;
-      margin: 1.2em auto 0.5em;
-      font-size: 2.5em;
-      width: 98%;
-      span {
-        color: $lightBlue;
-      }
-    }
-    .sub-text {
-      margin: 0 auto 1.5em;
-      font-size: 0.75em;
-    }
-    .services-card-container {
-      display: flex;
-      justify-content: space-around;
-      margin: 5% auto 13%;
-      @include breakpoint(xxs, xs, s, m) {
-        flex-direction: column;
-      }
-
-      .service-card-set {
-        display: flex;
-        width: 50%;
-        justify-content: space-around;
-        @include breakpoint(s, m) {
-          width: 90%;
-          margin: 1em auto;
-        }
-        @include breakpoint(s) {
-          margin-top: 0;
-          padding-top: 0;
-        }
-        @include breakpoint(xxs, xs) {
-          flex-direction: column;
-          width: 100%;
-        }
-
-        .service-card {
-          width: 45%;
-          // background: $royalBlue;
-
-          @include breakpoint(xxs, xs, s) {
-            margin: 0 auto 35%;
-          }
-          @include breakpoint(xxs, xs) {
-            width: 80%;
-          }
-
-          &:first-child {
-          }
-
-          .service-card-front {
-            display: flex;
-            flex-direction: column;
-            background: $royalBlue;
-            border: 5px inset $darkBlue;
-            padding: 1em;
-
-            img {
-              width: 50%;
-              height: 20%;
-              margin: 1em auto;
-            }
-            h3 {
-              color: goldenrod;
-            }
-          }
-          .service-card-back {
-            display: flex;
-            flex-direction: column;
-            background: $lightBlue;
-            color: $darkBlue;
-            padding: 1em 0.75em 0em;
-            border: 7px outset $darkBlue;
-            position: absolute;
-
-            h3 {
-              color: $darkBlue;
-              margin: 0;
-            }
-            p {
-              font-size: 0.85em;
-              line-height: 1.3em;
-              span {
-                font-weight: 600;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  .social-media {
-    background: $royalBlue;
-    width: 100%;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    @include breakpoint(xxs, xs, s, m) {
-    }
-
-    .content {
-      width: 50%;
-      color: white;
-      margin: 2em;
-      width: 80%;
-      margin: 2em auto;
-      text-align: left;
-      @include breakpoint(xxs, xs, s, m) {
-      }
-
-      h1 {
-        font-weight: 900;
-        text-transform: uppercase;
-        color: goldenrod;
-        // text-align: left;
-        margin: 0;
-        font-size: 2.2em;
-        text-shadow: 3px 3px 1px #000;
-      }
-      h2 {
-        color: #f52618;
-        font-weight: 600;
-        margin: none;
-        text-shadow: 2px 2px 0.5px #000;
-      }
-      a {
-        background: $royalBlue;
-        color: #f52618;
-        padding: 0.2em;
-        border-radius: 1em;
-        font-weight: 500;
-        text-shadow: 2px 2px 1px #000;
-      }
-    }
-    video {
-      margin: 0em 1em 2em;
-      width: 50%;
-      align-self: center;
-      border: 4px solid $darkBlue;
-      @include breakpoint(xxs, xs, s, m) {
-        width: 90%;
-        // margin: 5em 1em;
-      }
-      @include breakpoint(m) {
-        // margin: 8em 1em;
-      }
-    }
-  }
-  .help {
-    background: #333;
-    padding-bottom: 5%;
-    h1 {
-      text-transform: uppercase;
-      color: $orange;
-      text-shadow: 2px 2px black;
-      padding-top: 1.5em;
-      margin-bottom: 2em;
-      font-size: 2.5em;
-      span {
-        color: $lightBlue;
-      }
-    }
-    .help-card-container {
-      display: flex;
-      justify-content: space-evenly;
-      margin: 5% auto 0;
-      @include breakpoint(xxs, xs, s, m) {
-        flex-direction: column;
-      }
-
-      .help-card {
-        width: 31%;
-        background: $white;
-        margin-bottom: 3em;
-        padding-bottom: 1em;
-        @include breakpoint(xxs, xs, s, m) {
-          width: 70%;
-          margin: 0 auto 13%;
-          padding-bottom: 7%;
-        }
-        @include breakpoint(xxs, xs) {
-          margin-bottom: 15%;
-        }
-
-        img {
-          width: 20%;
-          margin: -9% auto 0;
-          outline: 2px outset $darkBlue;
-        }
-        h3 {
-          color: #f52618;
-          text-shadow: 1px 1px $darkBlue;
-          letter-spacing: 0.125em;
-          margin-bottom: 0;
-        }
-        p {
-          padding: 0 1em;
-          padding-bottom: 0;
-          margin-bottom: 0;
-          font-size: 0.9em;
-          span {
-            color: $orange;
-            font-weight: 700;
-            text-shadow: 0.5px 0.5px $darkBlue;
           }
         }
       }

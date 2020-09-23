@@ -24,7 +24,7 @@ export default function OrganicSeo() {
         and ongoing campaign reporting and maintenance. The end result is that
         people will be able to easily find your web site when searching for
         products and services related to your
-        <Link to="/article/16">business.</Link>
+        <Link to="/article/16"> business.</Link>
       </p>
       <p>
         <span>Organic or Natural Keyword Optimization</span> is critical to
@@ -59,7 +59,7 @@ export default function OrganicSeo() {
 
         <link
           rel="canonical"
-          href="https://www.bluesmokedigitalandprintedmedia.com/#/SEO/OrganicSeo"
+          href="https://www.bluesmokedigitalandprintedmedia.com/SEO/OrganicSeo"
         />
 
         {/* // <!-- HTML Meta Tags --> */}

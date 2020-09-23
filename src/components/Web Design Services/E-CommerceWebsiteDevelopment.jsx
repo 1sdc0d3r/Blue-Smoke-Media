@@ -13,16 +13,19 @@ export default function ECommerceWebsiteDevelopment() {
       />
       <div className="content">
         <h1>Websites and E - Commerce</h1>{" "}
-        <h2>E - Commerce...Build an ONLINE Store</h2>{" "}
+        <h2>E - Commerce... Build an ONLINE Store</h2>{" "}
         <p>
           If your Company wants to increase its customer base, make shopping
           easier for its customers, or promote their products,{" "}
           <Link to="/article/16">Building an Online Store</Link> is the right
-          thing for them.We at{" "}
-          <span> Blue Smoke Digital and Printed Media, </span> offer complete
-          e-commerce solutions from online shopping systems to a wide variety of
-          revenue processing facilities and supporting services for our
-          customers businesses.{" "}
+          thing for them. We at{" "}
+          <span style={{ color: "#1e92f6" }}>
+            {" "}
+            Blue Smoke Digital and Printed Media,{" "}
+          </span>{" "}
+          offer complete e-commerce solutions from online shopping systems to a
+          wide variety of revenue processing facilities and supporting services
+          for our customers businesses.{" "}
         </p>{" "}
         <p>
           The Web has always been a great tool for selling and marketing
@@ -67,7 +70,7 @@ export default function ECommerceWebsiteDevelopment() {
 
         <link
           rel="canonical"
-          href="https://www.bluesmokedigitalandprintedmedia.com/#/website-design/eCommerce-website-development"
+          href="https://www.bluesmokedigitalandprintedmedia.com/website-design/eCommerce-website-development"
         />
 
         {/* <!-- HTML Meta Tags --> */}

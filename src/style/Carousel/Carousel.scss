@@ -1,6 +1,7 @@
 @import "../Utils/Mixins/Mixins.scss";
 
 .carousel {
+  margin-bottom: 2em;
   .slider {
     background: #04227a;
     @include breakpoint(xxs, xs, s) {
@@ -41,7 +42,7 @@
         h1 {
           color: $white;
           margin: 0;
-          font-size: 2em;
+          font-size: 1.9em;
 
           @include breakpoint(m) {
             font-size: 1.75em;
@@ -59,6 +60,7 @@
         h4 {
           padding-left: 2%;
           color: goldenrod;
+          margin: 0.125em;
 
           @include breakpoint(m) {
             font-size: 1em;
@@ -114,12 +116,12 @@
           width: 40%;
           padding: 0.8em 0;
           color: #020723;
-          // display: inline-block;
-
           text-align: center;
+
           @include breakpoint(xl, xxl) {
             width: 40%;
             margin-left: 8%;
+            padding: 0.7em 0;
           }
 
           @include breakpoint(s, m) {

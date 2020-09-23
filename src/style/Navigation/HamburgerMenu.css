@@ -10,6 +10,12 @@
    */
 }
 
+@media (min-width: 737px) and (max-width: 980px) {
+  .hamburger-menu {
+    display: none;
+  }
+}
+
 @media (min-width: 981px) and (max-width: 1280px) {
   .hamburger-menu {
     display: none;
@@ -102,9 +108,9 @@
 
 .hamburger-menu #menuToggle span {
   display: block;
-  width: 33px;
-  height: 4px;
-  margin-bottom: 5px;
+  width: 2em;
+  height: 6px;
+  margin-bottom: 10px;
   position: relative;
   background: #7ff76f;
   border-radius: 3px;
