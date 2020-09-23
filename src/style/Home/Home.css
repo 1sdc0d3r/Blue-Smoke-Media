@@ -242,7 +242,6 @@
 
 .home .services .sub-text {
   margin: 0 auto 1.5em;
-  font-size: 0.75em;
 }
 
 .home .services .services-card-container {
@@ -267,7 +266,7 @@
   width: 19%;
   background: #04227a;
   border: 5px inset #020723;
-  padding: 0em 1em 1em;
+  padding: 0em 1em 2em;
   position: relative;
   color: #1e92f6;
 }

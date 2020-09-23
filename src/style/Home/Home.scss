@@ -146,7 +146,6 @@
     }
     .sub-text {
       margin: 0 auto 1.5em;
-      font-size: 0.75em;
     }
     .services-card-container {
       display: flex;
@@ -161,7 +160,7 @@
         width: 19%;
         background: $royalBlue;
         border: 5px inset $darkBlue;
-        padding: 0em 1em 1em;
+        padding: 0em 1em 2em;
         position: relative;
         color: $lightBlue;
         @include breakpoint(m, l) {
