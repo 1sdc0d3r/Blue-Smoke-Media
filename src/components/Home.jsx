@@ -37,7 +37,7 @@ export default function Home() {
             Organically Search Engine Optimized,
           </Link>{" "}
           visually appealing, and easy to navigate.
-          <p class="what">
+          <p>
             What do your customers see... <span>Are You SURE??</span>
           </p>
         </p>
