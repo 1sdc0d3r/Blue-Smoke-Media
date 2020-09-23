@@ -37,6 +37,9 @@ export default function Footer() {
               <Link to="/team">{chevron}Our Team</Link>
             </li>
             <li>
+              <Link to="/plans">{chevron}Plans & Pricing</Link>
+            </li>
+            <li>
               <Link to="/help">{chevron}Need Help?</Link>
             </li>
             <li>
@@ -54,27 +57,14 @@ export default function Footer() {
             Products
           </h3>
           <ul id="drop-product">
-            <li>
-              <Link to="/website-design/custom-website-design">
-                {chevron}Website Design
-              </Link>
-            </li>
-            <li>
-              <Link to="/seo">
-                {chevron}
-                Search Engine
-                <br />
-                Optimization
-              </Link>
-            </li>
-            <li>
-              <Link to="/graphic-design/digital-and-print-graphic-design">
-                {chevron}Graphic Design
-              </Link>
-            </li>
-            <li>
-              <Link to="/plans">{chevron}Plans & Pricing</Link>
-            </li>
+            <p>Website Design</p>
+            <p>
+              Search Engine
+              <br />
+              Optimization
+            </p>
+            <p>Graphic Design</p>
+            <p>Social Media & Marketing</p>
           </ul>
         </div>
         <div>

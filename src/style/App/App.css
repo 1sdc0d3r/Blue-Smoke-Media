@@ -64,6 +64,14 @@ html {
   }
 }
 
+.App .page-wrapper a {
+  text-decoration: none;
+}
+
+.App .page-wrapper a:hover {
+  color: #ee3e0e;
+}
+
 .App .covid-banner {
   color: #1e92f6;
   background: #04227a;

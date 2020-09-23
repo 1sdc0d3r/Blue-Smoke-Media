@@ -14,8 +14,27 @@
   background-size: 101% 105%;
   background-repeat: no-repeat;
   padding: 2em 0 1.5em;
+  margin-top: 2em;
   min-width: 80%;
   border-bottom: 0.5em solid #020723;
+}
+
+@media (min-width: 981px) and (max-width: 1280px) {
+  .home .globe {
+    height: 60vh;
+  }
+}
+
+@media (min-width: 1281px) and (max-width: 1680px) {
+  .home .globe {
+    height: 60vh;
+  }
+}
+
+@media (min-width: 1681px) {
+  .home .globe {
+    height: 60vh;
+  }
 }
 
 @media (max-width: 360px) {
@@ -159,7 +178,7 @@
 }
 
 .home .social-media .content {
-  color: white;
+  color: #d7dae6;
   margin: 2em;
   width: 80%;
   margin: 2em auto;
@@ -207,7 +226,7 @@
 }
 
 .home .social-media .content h2 {
-  color: #f52618;
+  color: #ee3e33;
   font-weight: 600;
   margin: none;
   text-shadow: 2px 2px 0.5px #000;
@@ -215,7 +234,7 @@
 
 .home .social-media .content a {
   background: #04227a;
-  color: #f52618;
+  color: #ee3e33;
   padding: 0.2em;
   border-radius: 1em;
   font-weight: 500;
@@ -270,6 +289,7 @@
   position: relative;
   color: #1e92f6;
   margin-top: 1em;
+  border-radius: 1em;
 }
 
 @media (min-width: 737px) and (max-width: 980px) {

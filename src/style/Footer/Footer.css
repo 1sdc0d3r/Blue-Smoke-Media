@@ -264,6 +264,10 @@ footer ul li img {
   width: 2em;
 }
 
+footer ul p {
+  color: skyblue;
+}
+
 .bottom {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -9,8 +9,12 @@
     background-size: 101% 105%;
     background-repeat: no-repeat;
     padding: 2em 0 1.5em;
+    margin-top: 2em;
     min-width: 80%;
     border-bottom: 0.5em solid #020723;
+    @include breakpoint(l, xl, xxl) {
+      height: 60vh;
+    }
 
     @include breakpoint(xxs, xs, s) {
       background-image: url("../../images/grey_background_globe-element_for_mobile.png");
@@ -83,7 +87,7 @@
     }
 
     .content {
-      color: white;
+      color: $white;
       margin: 2em;
       width: 80%;
       margin: 2em auto;
@@ -113,14 +117,14 @@
         }
       }
       h2 {
-        color: #f52618;
+        color: #ee3e33;
         font-weight: 600;
         margin: none;
         text-shadow: 2px 2px 0.5px #000;
       }
       a {
         background: $royalBlue;
-        color: #f52618;
+        color: #ee3e33;
         padding: 0.2em;
         border-radius: 1em;
         font-weight: 500;
@@ -164,6 +168,7 @@
         position: relative;
         color: $lightBlue;
         margin-top: 1em;
+        border-radius: 1em;
         @include breakpoint(m, l) {
           width: 40%;
           margin: 10% auto 10%;

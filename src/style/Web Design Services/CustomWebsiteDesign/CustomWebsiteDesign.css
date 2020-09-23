@@ -1,8 +1,8 @@
 .custom-website-design img {
-  height: 50vh;
-  width: 100%;
-  border-top: 2px solid #020723;
-  border-bottom: 2px solid #020723;
+  height: 60vh;
+  width: 90%;
+  border: 2px solid #020723;
+  margin-top: 1em;
 }
 
 @media (min-width: 737px) and (max-width: 980px) {

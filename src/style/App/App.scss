@@ -41,6 +41,17 @@ html {
       width: 98%;
       margin: auto;
     }
+    a {
+      text-decoration: none;
+
+      // &:visited {
+      //   color: $royalBlue;
+      // }
+
+      &:hover {
+        color: $orange;
+      }
+    }
   }
   .covid-banner {
     color: $lightBlue;

@@ -91,13 +91,15 @@ export default function PrintAndDesignGraphicServices() {
                 id="coffeeShelf"
               />
               <p>
+                {/* todo fix text */}
                 An appropriate brochure, business card, logo or any printed
                 media is a necessity when it comes to spreading the word about
                 your company. And “appropriate” might mean the use of a burlap
                 envelope, a tipped-on photo, or a cinnamon-stick binding — it
                 all depends on your industry and your objectives. We get to know
                 you and what you do to be sure that your literature conveys an
-                <span>Blue Smoke Digital and Printed Media,</span> is{" "}
+                accurate image. Every product at
+                <span> Blue Smoke Digital and Printed Media,</span> is{" "}
                 <Link to="/article/9">custom designed</Link> to your digital or
                 graphic media needs, specifically to address the individual
                 challenges of each project we work on. Whether it’s the
