@@ -249,132 +249,14 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin: 5% auto 13%;
+  margin: 7% auto 13%;
 }
 
-@media (max-width: 360px) {
-  .home .services .services-card-container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-@media (min-width: 361px) and (max-width: 480px) {
-  .home .services .services-card-container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 736px) {
-  .home .services .services-card-container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-@media (min-width: 737px) and (max-width: 980px) {
-  .home .services .services-card-container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-.home .services .services-card-container .service-card-set {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 50%;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-@media (min-width: 481px) and (max-width: 736px) {
-  .home .services .services-card-container .service-card-set {
-    width: 90%;
-    margin: 1em auto;
-  }
-}
-
-@media (min-width: 737px) and (max-width: 980px) {
-  .home .services .services-card-container .service-card-set {
-    width: 90%;
-    margin: 1em auto;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 736px) {
-  .home .services .services-card-container .service-card-set {
-    margin-top: 0;
-    padding-top: 0;
-  }
-}
-
-@media (max-width: 360px) {
-  .home .services .services-card-container .service-card-set {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 100%;
-  }
-}
-
-@media (min-width: 361px) and (max-width: 480px) {
-  .home .services .services-card-container .service-card-set {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 100%;
-  }
-}
-
-.home .services .services-card-container .service-card-set .service-card {
-  width: 45%;
-}
-
-@media (max-width: 360px) {
-  .home .services .services-card-container .service-card-set .service-card {
-    margin: 0 auto 35%;
-  }
-}
-
-@media (min-width: 361px) and (max-width: 480px) {
-  .home .services .services-card-container .service-card-set .service-card {
-    margin: 0 auto 35%;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 736px) {
-  .home .services .services-card-container .service-card-set .service-card {
-    margin: 0 auto 35%;
-  }
-}
-
-@media (max-width: 360px) {
-  .home .services .services-card-container .service-card-set .service-card {
-    width: 80%;
-  }
-}
-
-@media (min-width: 361px) and (max-width: 480px) {
-  .home .services .services-card-container .service-card-set .service-card {
-    width: 80%;
-  }
-}
-
-.home .services .services-card-container .service-card-set .service-card .service-card-front {
+.home .services .services-card-container .service-card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -382,48 +264,75 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 19%;
   background: #04227a;
   border: 5px inset #020723;
-  padding: 1em;
+  padding: 0em 1em 1em;
+  position: relative;
+  color: #1e92f6;
 }
 
-.home .services .services-card-container .service-card-set .service-card .service-card-front img {
+@media (min-width: 737px) and (max-width: 980px) {
+  .home .services .services-card-container .service-card {
+    width: 40%;
+    margin: 10% auto 10%;
+  }
+}
+
+@media (min-width: 981px) and (max-width: 1280px) {
+  .home .services .services-card-container .service-card {
+    width: 40%;
+    margin: 10% auto 10%;
+  }
+}
+
+@media (max-width: 360px) {
+  .home .services .services-card-container .service-card {
+    width: 70%;
+    margin: 18% auto;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .home .services .services-card-container .service-card {
+    width: 70%;
+    margin: 18% auto;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .home .services .services-card-container .service-card {
+    width: 70%;
+    margin: 18% auto;
+  }
+}
+
+.home .services .services-card-container .service-card img {
   width: 50%;
-  height: 20%;
-  margin: 1em auto;
+  margin: 0 auto;
+  -webkit-transform: translate(0, -60%);
+          transform: translate(0, -60%);
 }
 
-.home .services .services-card-container .service-card-set .service-card .service-card-front h3 {
+.home .services .services-card-container .service-card h3 {
   color: goldenrod;
+  margin: -10% auto 0;
 }
 
-.home .services .services-card-container .service-card-set .service-card .service-card-back {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background: #1e92f6;
-  color: #020723;
-  padding: 1em 0.75em 0em;
-  border: 7px outset #020723;
-  position: absolute;
+@media (min-width: 737px) and (max-width: 980px) {
+  .home .services .services-card-container .service-card h3 {
+    margin: -20% auto 0;
+  }
 }
 
-.home .services .services-card-container .service-card-set .service-card .service-card-back h3 {
-  color: #020723;
-  margin: 0;
+@media (min-width: 981px) and (max-width: 1280px) {
+  .home .services .services-card-container .service-card h3 {
+    margin: -20% auto 0;
+  }
 }
 
-.home .services .services-card-container .service-card-set .service-card .service-card-back p {
-  font-size: 0.85em;
-  line-height: 1.3em;
-}
-
-.home .services .services-card-container .service-card-set .service-card .service-card-back p span {
-  font-weight: 600;
+.home .services .services-card-container .service-card a {
+  color: #ee3e0e;
 }
 
 .home .plans-pricing {

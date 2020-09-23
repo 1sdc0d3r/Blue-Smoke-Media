@@ -37,15 +37,6 @@
         margin: auto;
       }
 
-      // @include breakpoint(mobile) {
-      //   width: 90%;
-      //   height: 80%;
-      //   margin: 6% 30% auto 2%;
-      //   padding: 0;
-      //   text-align: left;
-      //   line-height: 1.25em;
-      // }
-
       h1 {
         display: inline-block;
         font-size: 2em;
@@ -159,80 +150,45 @@
     }
     .services-card-container {
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-around;
-      margin: 5% auto 13%;
-      @include breakpoint(xxs, xs, s, m) {
-        flex-direction: column;
-      }
+      margin: 7% auto 13%;
+      //todo colors (hover, links)
 
-      .service-card-set {
+      .service-card {
         display: flex;
-        width: 50%;
-        justify-content: space-around;
-        @include breakpoint(s, m) {
-          width: 90%;
-          margin: 1em auto;
+        flex-direction: column;
+        width: 19%;
+        background: $royalBlue;
+        border: 5px inset $darkBlue;
+        padding: 0em 1em 1em;
+        position: relative;
+        color: $lightBlue;
+        @include breakpoint(m, l) {
+          width: 40%;
+          margin: 10% auto 10%;
         }
-        @include breakpoint(s) {
-          margin-top: 0;
-          padding-top: 0;
-        }
-        @include breakpoint(xxs, xs) {
-          flex-direction: column;
-          width: 100%;
+        @include breakpoint(xxs, xs, s) {
+          width: 70%;
+          margin: 18% auto;
         }
 
-        .service-card {
-          width: 45%;
-          // background: $royalBlue;
-
+        img {
+          width: 50%;
+          margin: 0 auto;
+          transform: translate(0, -60%);
+        }
+        h3 {
+          color: goldenrod;
+          margin: -10% auto 0;
+          @include breakpoint(m, l) {
+            margin: -20% auto 0;
+          }
           @include breakpoint(xxs, xs, s) {
-            margin: 0 auto 35%;
           }
-          @include breakpoint(xxs, xs) {
-            width: 80%;
-          }
-
-          &:first-child {
-          }
-
-          .service-card-front {
-            display: flex;
-            flex-direction: column;
-            background: $royalBlue;
-            border: 5px inset $darkBlue;
-            padding: 1em;
-
-            img {
-              width: 50%;
-              height: 20%;
-              margin: 1em auto;
-            }
-            h3 {
-              color: goldenrod;
-            }
-          }
-          .service-card-back {
-            display: flex;
-            flex-direction: column;
-            background: $lightBlue;
-            color: $darkBlue;
-            padding: 1em 0.75em 0em;
-            border: 7px outset $darkBlue;
-            position: absolute;
-
-            h3 {
-              color: $darkBlue;
-              margin: 0;
-            }
-            p {
-              font-size: 0.85em;
-              line-height: 1.3em;
-              span {
-                font-weight: 600;
-              }
-            }
-          }
+        }
+        a {
+          color: $orange;
         }
       }
     }

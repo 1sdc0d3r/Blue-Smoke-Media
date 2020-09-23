@@ -167,120 +167,60 @@ export default function Home() {
             will do our very best to find someone who can!
           </p>
           <div className="services-card-container">
-            <div className="service-card-set">
-              <div
-                className="service-card"
-                onMouseEnter={() => setCard1(true)}
-                onMouseLeave={() => setCard1(false)}
-              >
-                <ReactCardFlip isFlipped={card1} flipDirection="horizontal">
-                  <div className="service-card-front">
-                    <img src={slide_custom} alt="placeholder" />
-                    <h3>
-                      Custom
-                      <br />
-                      Website
-                      <br />
-                      Design
-                    </h3>
-                  </div>
-                  <div className="service-card-back">
-                    <h3>Custom Website Design</h3>
-                    <p>
-                      Custom website design is a process because so much goes
-                      into it, but businesses get a lot more out of it over the
-                      long term.{" "}
-                      <Link to="/article/1"> Custom-made websites </Link> look
-                      better, do more, and accomplish specific business goals.
-                    </p>
-                  </div>
-                </ReactCardFlip>
-              </div>
-              <div
-                className="service-card"
-                onMouseEnter={() => setCard2(true)}
-                onMouseLeave={() => setCard2(false)}
-              >
-                <ReactCardFlip isFlipped={card2} flipDirection="horizontal">
-                  <div className="service-card-front">
-                    <img src={slide_seo} alt="Search Engine Optimization" />
-                    <h3>Search Engine Optimization (SEO)</h3>
-                  </div>
-                  <div className="service-card-back">
-                    <h3>Search Engine Optimization (SEO)</h3>
-                    <p>
-                      Making a website <Link to="/article/5">SEO friendly</Link>{" "}
-                      means that Google and other search engines can crawl each
-                      page on the website efficiently, interpret the content
-                      effectively, and index it in their database. Once indexed,
-                      they can then serve the most relevant and valuable web
-                      pages to their users based on the topics they search for.
-                    </p>
-                  </div>
-                </ReactCardFlip>
-              </div>
+            <div className="service-card">
+              <img src={slide_custom} alt="placeholder" />
+              <h3>Custom Website Design</h3>
+              <p>
+                Custom website design is a process because so much goes into it,
+                but businesses get a lot more out of it over the long term.{" "}
+                <Link to="/article/1"> Custom-made websites </Link> look better,
+                do more, and accomplish specific business goals.
+              </p>
             </div>
-            <div className="service-card-set">
-              <div
-                className="service-card"
-                onMouseEnter={() => setCard3(true)}
-                onMouseLeave={() => setCard3(false)}
-              >
-                <ReactCardFlip isFlipped={card3} flipDirection="horizontal">
-                  <div className="service-card-front">
-                    <img
-                      src={slide_graphic}
-                      alt="Digital and Printed Graphic Design"
-                    />
-                    <h3>Digital and Printed Graphic Design</h3>
-                  </div>
-                  <div className="service-card-back">
-                    <h3>Digital and Printed Graphic Design</h3>
-                    <p>
-                      The question of engagement in{" "}
-                      <Link to="/graphic-design/digital-and-print-graphic-design">
-                        digital and printed design
-                      </Link>{" "}
-                      is oriented mostly around how and where a viewer will
-                      encounter the work. The Blue Smoke Media{" "}
-                      <Link to="/team">team,</Link> are responsible for the
-                      design and layout of interactive and printed informational
-                      materials such as:{"  "}
-                      <span>
-                        Websites, Brochures, Advertising Flyers, Billboards, and
-                        Business Cards.
-                      </span>
-                    </p>
-                  </div>
-                </ReactCardFlip>
-              </div>
-              <div
-                className="service-card"
-                onMouseEnter={() => setCard4(true)}
-                onMouseLeave={() => setCard4(false)}
-              >
-                <ReactCardFlip isFlipped={card4} flipDirection="horizontal">
-                  <div className="service-card-front">
-                    <img
-                      src={slide_sm}
-                      alt="Social Media and Internet Marketing"
-                    />
-                    <h3>Social Media and Internet Marketing</h3>
-                  </div>
-                  <div className="service-card-back">
-                    <h3>Social Media and Internet Marketing</h3>
-                    <p>
-                      It’s crucial you determine which platforms you’re going to
-                      share your content on. There’s not necessarily a right or
-                      wrong answer when it comes to which{" "}
-                      <Link to="/article/8">social media</Link>
-                      channels your business should use — it’s more about the
-                      needs of your target audience and where they tend to spend
-                      their time.
-                    </p>
-                  </div>
-                </ReactCardFlip>
-              </div>
+            <div className="service-card">
+              <img src={slide_seo} alt="Search Engine Optimization" />
+              <h3>Search Engine Optimization (SEO)</h3>
+              <p>
+                Making a website <Link to="/article/5">SEO friendly</Link> means
+                that Google and other search engines can crawl each page on the
+                website efficiently, interpret the content effectively, and
+                index it in their database. Once indexed, they can then serve
+                the most relevant and valuable web pages to their users based on
+                the topics they search for.
+              </p>
+            </div>
+            <div className="service-card">
+              <img
+                src={slide_graphic}
+                alt="Digital and Printed Graphic Design"
+              />
+              <h3>Digital and Printed Graphic Design</h3>
+              <p>
+                The question of engagement in{" "}
+                <Link to="/graphic-design/digital-and-print-graphic-design">
+                  digital and printed design
+                </Link>{" "}
+                is oriented mostly around how and where a viewer will encounter
+                the work. The Blue Smoke Media <Link to="/team">team,</Link> are
+                responsible for the design and layout of interactive and printed
+                informational materials such as:{"  "}
+                <span>
+                  Websites, Brochures, Advertising Flyers, Billboards, and
+                  Business Cards.
+                </span>
+              </p>
+            </div>
+            <div className="service-card">
+              <img src={slide_sm} alt="Social Media and Internet Marketing" />
+              <h3>Social Media and Internet Marketing</h3>
+              <p>
+                It’s crucial you determine which platforms you’re going to share
+                your content on. There’s not necessarily a right or wrong answer
+                when it comes to which{" "}
+                <Link to="/article/8">social media </Link>
+                channels your business should use — it’s more about the needs of
+                your target audience and where they tend to spend their time.
+              </p>
             </div>
           </div>
         </section>
