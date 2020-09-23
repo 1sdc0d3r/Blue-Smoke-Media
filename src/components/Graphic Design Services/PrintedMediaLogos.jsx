@@ -1,10 +1,8 @@
 import React from "react";
-import printedMedia from "../../images/printed-media.png";
-import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 //* Images
-// const printedMedia =
-//   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/printed-media.png";
+import printedMedia from "../../images/printed-media.png";
 
 export default function PrintedMediaLogos() {
   return (
@@ -19,9 +17,10 @@ export default function PrintedMediaLogos() {
           identities are the result of a process that remains flexible while at
           the same time building a brand. Looking for a unique image to
           represent your corporate identity? Or do you just need to modify your
-          current logo for your web site?  At <span>Blue Smoke Digital and Printed Media,</span> 
-          we create <Link to="/article/11">logos</Link> that capture the essence of your business, leaving impact for both print and web
-          display.
+          current logo for your web site? At{" "}
+          <span>Blue Smoke Digital and Printed Media,</span>
+          we create <Link to="/article/11">logos</Link> that capture the essence
+          of your business, leaving impact for both print and web display.
         </p>
         <p>
           If you’re looking for a new logo or redesigning your current one for
@@ -29,9 +28,9 @@ export default function PrintedMediaLogos() {
           decision-making process. We specialize in both low-resolution (web)
           and high-resolution (print) graphic images. If you are interested in
           the prospect for a new logo, a redesign of your current logo or are in
-          need of a total corporate identity package, please complete the inquiry
-          form. A representative will <Link to="/contact">contact</Link> you
-          within 24 hours of receipt of your request.
+          need of a total corporate identity package, please complete the
+          inquiry form. A representative will <Link to="/contact">contact</Link>{" "}
+          you within 24 hours of receipt of your request.
         </p>
       </div>
       <Helmet>

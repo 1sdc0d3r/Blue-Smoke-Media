@@ -1,11 +1,12 @@
 import React from "react";
-import fingersCrossed from "../../images/fingers-crossed.png";
+import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
+//* Images
 import light from "../../images/recognition-remembrance-image.png";
+import fingersCrossed from "../../images/fingers-crossed.png";
+import coffeeShelf from "../../images/coffee-shelf.png";
 import respect from "../../images/respect-image.png";
 import eagle from "../../images/eagle.png";
-import coffeeShelf from "../../images/coffee-shelf.png";
-import { Helmet } from "react-helmet";
-import { Link } from "react-router-dom";
 
 export default function PrintAndDesignGraphicServices() {
   return (

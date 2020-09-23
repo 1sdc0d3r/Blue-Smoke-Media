@@ -1,4 +1,6 @@
 import React from "react";
+
+//* Images
 import phone from "../images/phone.png";
 import email from "../images/mail-icon.png";
 

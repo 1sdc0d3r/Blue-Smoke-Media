@@ -8,7 +8,7 @@ export default function Article() {
   const { id } = useParams();
   useEffect(() => {
     setArticle(articleData.find((e) => e.id == id));
-  }, []);
+  }, [id]);
 
   return (
     <div className="page-wrapper">

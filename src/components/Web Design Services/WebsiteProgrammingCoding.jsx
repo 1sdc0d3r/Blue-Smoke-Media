@@ -1,16 +1,17 @@
 import React from "react";
-import coding from "../../images/programming_coding.png";
-import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 //* Images
-// const coding =
-//   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/programming_coding.png";
+import coding from "../../images/programming_coding.png";
 
 export default function WebsiteProgrammingCoding() {
   return (
     <>
       <div className="website-programming-coding page-wrapper">
-        <img src={coding} alt="Matching your business needs with the most appropriate Web technology." />
+        <img
+          src={coding}
+          alt="Matching your business needs with the most appropriate Web technology."
+        />
         <div className="content">
           <h1>Coding and Web Programming</h1>
           <p>
@@ -65,8 +66,8 @@ export default function WebsiteProgrammingCoding() {
             <li>Application development & Web programming for your business</li>
             <li>Consultation on database construction and integration</li>
             <li>
-              Best known practices for bringing your <Link to="/article/17">marketing</Link> to life on the
-              web
+              Best known practices for bringing your{" "}
+              <Link to="/article/17">marketing</Link> to life on the web
             </li>
           </ul>
         </div>

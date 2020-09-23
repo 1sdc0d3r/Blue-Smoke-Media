@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
+//* Images
 import Check from "../images/checkmark.svg";
 import noCheck from "../images/Red_x.svg";
-import { Link } from "react-router-dom";
 
 export default function PriceChart() {
   const startNowHandler = () => {

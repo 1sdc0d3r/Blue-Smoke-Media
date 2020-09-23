@@ -2,14 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../style/Carousel/carousel.css";
 
-import {
-  CarouselProvider,
-  Slider,
-  Slide,
-  ButtonBack,
-  ButtonNext,
-  Dot,
-} from "pure-react-carousel";
+import { CarouselProvider, Slider, Slide, Dot } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import slide1 from "../images/slide-1.png";
 import slide2 from "../images/slide-2.png";
@@ -45,9 +38,7 @@ export default function Carousel() {
                 potential customers that you care, and that you're still in
                 business.
               </p>
-              {/* <button> */}
               <Link to="/website-design/inquiry-form">Get Started Now!</Link>
-              {/* </button> */}
             </div>
             <div className="dots">
               <Dot slide={0} />

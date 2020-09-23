@@ -2,11 +2,6 @@
   z-index: 50;
 }
 
-.home video {
-  width: 100%;
-  height: 100%;
-}
-
 .home .globe {
   display: -webkit-box;
   display: -ms-flexbox;

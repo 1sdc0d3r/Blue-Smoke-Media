@@ -1,10 +1,8 @@
 import React from "react";
-import seoBanner from "../../images/seo-banner.png";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-//todo LINKS
-// const seoBanner =
-// "https://blue-smoke-media.s3-us-west-1.amazonaws.com/seo-banner.png";
+//* Images
+import seoBanner from "../../images/seo-banner.png";
 
 export default function OrganicSeo() {
   return (
@@ -12,7 +10,6 @@ export default function OrganicSeo() {
       <img src={seoBanner} alt="Organic Search Engine Optimization Banner" />
       <h2>Organic Search Engine Optimization</h2>
       <p>
-        {/* <!-- //todo link --> */}
         Organic search engine optimization{" "}
         <Link to="/article/13">
           (see “what is organic search and how it can help your company),

@@ -1,7 +1,9 @@
 import React from "react";
-import { Helmet } from "react-helmet";
-import SocialMediaImg from "../images/High Quality Social Media Services_Social Account Boost_Boost Your Social Media Accounts.png";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
+//* Images
+import SocialMediaImg from "../images/High Quality Social Media Services_Social Account Boost_Boost Your Social Media Accounts.png";
+
 export default function SocialMedia() {
   return (
     <>
@@ -160,7 +162,7 @@ export default function SocialMedia() {
         />
         <meta
           itemprop="image"
-          content="../../images/High Quality Social Media Services_Social Account Boost_Boost Your Social Media Accounts.png"
+          content="../images/High Quality Social Media Services_Social Account Boost_Boost Your Social Media Accounts.png"
         />
 
         {/* <!-- Facebook Meta Tags --> */}
@@ -179,7 +181,7 @@ export default function SocialMedia() {
         />
         <meta
           property="og:image"
-          content="../../images/High Quality Social Media Services_Social Account Boost_Boost Your Social Media Accounts.png"
+          content="../images/High Quality Social Media Services_Social Account Boost_Boost Your Social Media Accounts.png"
         />
 
         {/* <!-- Twitter Meta Tags --> */}
@@ -194,7 +196,7 @@ export default function SocialMedia() {
         />
         <meta
           name="twitter:image"
-          content="../../images/High Quality Social Media Services_Social Account Boost_Boost Your Social Media Accounts.png"
+          content="../images/High Quality Social Media Services_Social Account Boost_Boost Your Social Media Accounts.png"
         />
       </Helmet>
     </>

@@ -32,24 +32,20 @@ import PrivacyPolicy from "./components/privacy";
 import Article from "./components/Article";
 import Pricing from "./components/Pricing";
 import circleX from "./images/circle-X.png";
-//todo learn E-Commerce
-function App() {
-  //! enable video here
-  // const [isPlaying, setIsPlaying] = useState(true);
-  // const videoPlayDelay = 259200000; //72hrs
-  const { pathname } = useLocation();
 
-  // useEffect(() => {
-  //   setIsPlaying(getStorage());
-  // }, []);
+// ! GOOGLE ANALYTICS
+import ReactGA from "react-ga";
+ReactGA.initialize("UA-177470204-1");
+
+//todo learn E-Commerce (magneto, Shopify)
+function App() {
+  const { pathname } = useLocation();
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    // if (document.querySelector(".covid-banner")) {
-    //   document.querySelector(".covid-banner").style.display = "none";
-    // }
+    ReactGA.pageview(pathname);
   }, [pathname]);
-  // console.log(useLocation().pathname);
+
   return (
     <div className="App" style={{ position: "relative" }}>
       <>
