@@ -74,7 +74,7 @@ export default function AdCopyWriting() {
 
         <link
           rel="canonical"
-          href="https://www.bluesmokedigitalandprintedmedia.com/#/website-design/Ad-CopyWriting"
+          href="https://www.bluesmokedigitalandprintedmedia.com/website-design/Ad-CopyWriting"
         />
 
         {/* <!-- HTML Meta Tags --> */}

@@ -16,8 +16,10 @@ export default function WebsiteUsability() {
           your company by helping your visitors find what they’re looking for.
           In addition to ensuring that your website is clear and easy to use,
           we’ll address issues of necessary information, speed of download, how
-          information “flows” through your site, and more . Our{" "}
-          <Link to="/website-design/custom-website-design">website design</Link>
+          information “flows” through your site, and more. Our{" "}
+          <Link to="/website-design/custom-website-design">
+            website design{" "}
+          </Link>
           includes solid graphic design skills,{" "}
           <Link to="/website-design/coding">
             high-end programming website applications,
@@ -41,6 +43,7 @@ export default function WebsiteUsability() {
             We’ll review your old website with you and determine along with you
             what features should be included or left out of the new site
             <Link to="/article/1">
+              {" "}
               (read 10 Prominent Website Design Mistakes, article).
             </Link>
           </li>
@@ -75,7 +78,7 @@ export default function WebsiteUsability() {
 
         <link
           rel="canonical"
-          href="https://www.bluesmokedigitalandprintedmedia.com/#/Web Design Services/WebsiteUseability"
+          href="https://www.bluesmokedigitalandprintedmedia.com/Web Design Services/WebsiteUseability"
         />
 
         {/* <!-- HTML Meta Tags --> */}

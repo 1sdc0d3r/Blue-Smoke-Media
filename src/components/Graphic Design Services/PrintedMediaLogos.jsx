@@ -42,7 +42,7 @@ export default function PrintedMediaLogos() {
 
         <link
           rel="canonical"
-          href="https://www.bluesmokedigitalandprintedmedia.com/#/website-design/PrintedMediaLogos"
+          href="https://www.bluesmokedigitalandprintedmedia.com/website-design/PrintedMediaLogos"
         />
 
         {/* <!-- HTML Meta Tags --> */}

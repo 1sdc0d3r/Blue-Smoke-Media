@@ -7,7 +7,7 @@
   width: min-content;
   position: absolute;
   left: 0;
-  @include breakpoint(l, xl, xxl) {
+  @include breakpoint(m, l, xl, xxl) {
     display: none;
   }
 
@@ -80,9 +80,9 @@
    */
     span {
       display: block;
-      width: 33px;
-      height: 4px;
-      margin-bottom: 5px;
+      width: 2em;
+      height: 6px;
+      margin-bottom: 10px;
       position: relative;
       background: $green;
       border-radius: 3px;

@@ -1,3 +1,7 @@
+.carousel {
+  margin-bottom: 2em;
+}
+
 .carousel .slider {
   background: #04227a;
 }
@@ -105,7 +109,7 @@
 .carousel .slider .inner-slide .slide-info h1 {
   color: #d7dae6;
   margin: 0;
-  font-size: 2em;
+  font-size: 1.9em;
 }
 
 @media (min-width: 737px) and (max-width: 980px) {
@@ -135,6 +139,7 @@
 .carousel .slider .inner-slide .slide-info h4 {
   padding-left: 2%;
   color: goldenrod;
+  margin: 0.125em;
 }
 
 @media (min-width: 737px) and (max-width: 980px) {
@@ -214,6 +219,7 @@
   .carousel .slider .inner-slide .slide-info a {
     width: 40%;
     margin-left: 8%;
+    padding: 0.7em 0;
   }
 }
 
@@ -221,6 +227,7 @@
   .carousel .slider .inner-slide .slide-info a {
     width: 40%;
     margin-left: 8%;
+    padding: 0.7em 0;
   }
 }
 

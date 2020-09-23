@@ -80,7 +80,7 @@ export default function WebsiteProgrammingCoding() {
 
           <link
             rel="canonical"
-            href="https://www.bluesmokedigitalandprintedmedia.com/#/Web Design Services/WebsiteProgramingCoding"
+            href="https://www.bluesmokedigitalandprintedmedia.com/Web Design Services/WebsiteProgramingCoding"
           />
 
           {/* // <!-- HTML Meta Tags --> */}
