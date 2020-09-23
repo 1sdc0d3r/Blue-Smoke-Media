@@ -14,7 +14,9 @@ export default function SocialMedia() {
         />
         <h1>
           {" "}
-          Social Media: Why It Is 100% Essential (and How to Use It Well).
+          Social Media: Why It Is 100% Essential 
+          (and How to Use It Well)
+        
         </h1>
         <p>
           Social media is a form of electronic communication designed to let
@@ -30,7 +32,7 @@ export default function SocialMedia() {
           “Social media are interactive computer-mediated technologies that
           facilitate the creation or sharing of information, ideas, career
           interests and other forms of expression via virtual communities and
-          networks.” They go on further to say,”Social media can help to improve
+          networks.” They go on further to say, ”Social media can help to improve
           an individual's sense of connectedness with real or 
           <a href="https://en.wikipedia.org/wiki/Online">online</a>
            communities and can be an effective communication (or 

@@ -47,8 +47,9 @@ export default function CustomWebsiteDesign() {
           lines of today’s business battlefield. You want YOUR site to be
           focused on YOUR users. You want it to bring results. We can help. For
           fast answers and an accurate quote, please fill out the{" "}
-          <Link to="/website-design/inquiry-form">inquiry form </Link>
-          and a representative will contact you.
+          <Link to="/website-design/inquiry-form">inquiry form</Link>{" "} 
+           and a representative will contact you.
+
         </p>
       </div>
       <Helmet>
