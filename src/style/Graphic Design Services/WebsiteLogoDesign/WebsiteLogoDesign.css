@@ -1,6 +1,7 @@
 .website-logo-design img {
-  width: 100%;
-  height: 50vh;
+  width: 85%;
+  height: 60vh;
+  margin-top: 5%;
 }
 
 @media (min-width: 737px) and (max-width: 980px) {
@@ -29,6 +30,7 @@
 
 .website-logo-design .content {
   margin: 2em 3em 4em;
+ 
 }
 
 .website-logo-design .content h1 {
@@ -37,6 +39,7 @@
   color: #04227a;
 }
 
+
 @media (min-width: 981px) and (max-width: 1280px) {
   .website-logo-design .content h1 {
     margin: 1.1em auto 1em;
@@ -44,12 +47,20 @@
 }
 
 .website-logo-design .content p {
+  color: #010a3d;
   text-align: left;
   font-size: 1.05em;
   margin-top: 1.5em;
 }
 
 .website-logo-design .content p span {
+  color: #04227a;
   font-weight: 600;
+}
+
+.website-logo-design .content p a:hover {
+  color: #fb3400;
+  text-decoration: none;
+  font-weight: 500;
 }
 /*# sourceMappingURL=WebsiteLogoDesign.css.map */

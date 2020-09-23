@@ -1,8 +1,9 @@
 .custom-website-design img {
-  height: 50vh;
-  width: 100%;
-  border-top: 2px solid #020723;
-  border-bottom: 2px solid #020723;
+  height: 80vh;
+  width: 85%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  filter: drop-shadow(3px 3px 10px #020723);
 }
 
 @media (min-width: 737px) and (max-width: 980px) {
@@ -54,7 +55,7 @@
 
 .custom-website-design .content h1 {
   text-align: center;
-  margin-bottom: 1.5em;
+  margin-bottom: 2em;
   color: #04227a;
 }
 
