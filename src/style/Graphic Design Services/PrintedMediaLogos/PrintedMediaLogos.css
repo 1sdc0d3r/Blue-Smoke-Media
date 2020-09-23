@@ -5,9 +5,11 @@
 }
 
 .printed-logos img {
-  width: 100%;
+  width: 85%;
   height: 60vh;
-  border-bottom: 2px solid #020723;
+  margin-top: 5%;
+  margin-bottom: 3.5%;
+  outline: 2px solid #020723;
 }
 
 @media (min-width: 737px) and (max-width: 980px) {

@@ -30,6 +30,7 @@
 
 .website-logo-design .content {
   margin: 2em 3em 4em;
+ 
 }
 
 .website-logo-design .content h1 {
@@ -46,16 +47,18 @@
 }
 
 .website-logo-design .content p {
+  color: #010a3d;
   text-align: left;
   font-size: 1.05em;
   margin-top: 1.5em;
 }
 
 .website-logo-design .content p span {
+  color: #04227a;
   font-weight: 600;
 }
 
-.website-logo-design a:hover {
+.website-logo-design .content p a:hover {
   color: #fb3400;
   text-decoration: none;
   font-weight: 500;

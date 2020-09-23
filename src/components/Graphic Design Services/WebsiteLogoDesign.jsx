@@ -20,13 +20,13 @@ export default function WebsiteLogoDesign() {
           uniform and consistent, and your logo will remind potential new
           customers of your company — on every page.
         </p>
-        <p>
+        <p class="link">
           If you already have a <Link to="/article/4">logo</Link>, we can
           prepare it for usage on the Web, helping to bring your offline message
           and branding to your online presence — and identify your website to
           your customers.
         </p>
-        <p>
+        <p class="link">
           We specialize in aesthetic, one-of-a-kind logos that say what you do.
           We use <Link to="/team">state-of-the-art graphics programs</Link> to
           translate your logo into Web formats, cutting down on “download” time
