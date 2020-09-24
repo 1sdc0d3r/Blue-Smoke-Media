@@ -17,7 +17,7 @@ export default function PrintedMediaLogos() {
           identities are the result of a process that remains flexible while at
           the same time building a brand. Looking for a unique image to
           represent your corporate identity? Or do you just need to modify your
-          current logo for your web site? At{" "}
+          current logo for your website? At{" "}
           <span>Blue Smoke Digital and Printed Media,</span>
           we create <Link to="/article/11">logos</Link> that capture the essence
           of your business, leaving impact for both print and web display.
