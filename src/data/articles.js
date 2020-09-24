@@ -2,13 +2,13 @@
 export const articleData = [{
         id: 1,
         title: "10 Prominent Website Mistakes",
-        author: "",
-        date: "",
+        author: "Constance Beebe",
+        date: "May, 2020",
         imageUrl: "",
         imageAlt: "",
-        category: "",
-        tags: [],
-        snippet: "",
+        category: "Custom Website Design",
+        tags: ["Affordable Custom Website Design", "Search Engine Optimization (SEO)", "Organic SEO", "E-Commerce Website Development", "Website Usability"],
+        snippet: "Nowadays, sites are getting better. With minimal design and highly maintained archives they continue to offer comprehensive services. However, prominent mistakes on several websites are still apparent. Here is a list of the website mistakes that scares visitors away and ruins the business reputation.",
         content: `
         Nowadays, sites are getting better. With minimal design and highly maintained archives they continue to offer comprehensive services. However, prominent mistakes on several websites are still apparent. Here is a list of the website mistakes that scares visitors away and ruins the business reputation.
 
@@ -34,13 +34,13 @@ export const articleData = [{
     }, {
         id: 2,
         title: "How Web Design Can Affect Search Engine Rankings",
-        author: "",
+        author: "John Metzler",
         date: "",
         imageUrl: "",
         imageAlt: "",
-        category: "",
-        tags: [],
-        snippet: "",
+        category: "Search Engine Optimization",
+        tags: ["Search Engine Optimization (SEO)", "Organic SEO", "Website Content Writing"],
+        snippet: "Uniquely built web sites can create unique issues when being promoted on the search engines. From a basic 3 page brochure site to a corporate site with hundreds of dynamically generated pages, every web site needs to have certain design aspects in order to achieve the full effects of an SEO campaign. Below are a few points to take into consideration when building or updating your web site.",
         content: `
         Uniquely built web sites can create unique issues when being promoted on the search engines. From a basic 3 page brochure site to a corporate site with hundreds of dynamically generated pages, every web site needs to have certain design aspects in order to achieve the full effects of an SEO campaign. Below are a few points to take into consideration when building or updating your web site.
 
@@ -66,27 +66,27 @@ export const articleData = [{
         date: "",
         imageUrl: "",
         imageAlt: "",
-        category: "",
-        tags: [],
-        snippet: "",
+        category: "Ad-Copywriting",
+        tags: ["Ad-copywriting", "Search Engine Optimization (SEO)", "Organic SEO", "Strategic Social Media Marketing", "Website Content Writing", "Reputation Management"],
+        snippet: "You’re ready to launch that new product or promotion, & you’re really counting on a piece of advertising copy to come through for you. You're are looking for stellar results! And, you’re determined to do everything in your power to get them. Which means surveys, thorough testing, and ongoing refinement of your ad copy.",
         content: `
         You’re ready to launch that new product or promotion, & you’re really counting on a piece of advertising copy to come through for you.You’re looking for stellar results! And, you’re determined to do everything in your power to get them. Which means surveys, thorough testing, and ongoing refinement of your ad copy.Hold the phone!When you’ve got your draft, run it through this 12-point inspection. Cover off these basics, and you can be sure you’re off to a running start.
 
         1 – Do You Have A Compelling Headline?Does it generate curiosity or envy? Does it promise a benefit that will compel someone with an interest in what you’re selling to keep reading. Remember, your headline is the ad for the ad.When I am being paid to write direct response ad copy, or a sales letter, or have a very important sales objective of my own, I normally write 25 headlines before I begin the body of the piece.Then I’ll pick half a dozen that I think will work & test them. The best of the rest, I use as sub headings throughout the piece to propel readership, and draw skimmers & skippers back into the copy as they move down the page.
 
-        2 – Are Your Headlines Pleasing To The Eye?I most often find that headlines work best when they are centered on the page, & present a balanced appearance in terms of the shape they create. Encasing them in quotation marks also serves to grab more attention.Long top headlines tend to reduce readership, but if they help qualify more effectively they can improve sales! Try them, but look for ways to modularize the text using punctuation & spacing so your readers don’t suffocate trying to read them. Sometimes a long top headline is better presented as two or even three separate headlines.
+        2 – Are Your Headlines Pleasing To The Eye? I most often find that headlines work best when they are centered on the page, & present a balanced appearance in terms of the shape they create. Encasing them in quotation marks also serves to grab more attention.Long top headlines tend to reduce readership, but if they help qualify more effectively they can improve sales! Try them, but look for ways to modularize the text using punctuation & spacing so your readers don’t suffocate trying to read them. Sometimes a long top headline is better presented as two or even three separate headlines.
 
         3 – Is Your Opening Provocative & Arresting?Does it trip the reader, interrupting the internal turbulence of the day? Each line of your ad copy must serve to “sell” the reader on continued reading, especially at the beginning.You are looking to build enough momentum & interest to convey the points necessary to generate a greater desire for the product than it’s price. Generally speaking, the higher the cost of the product, the more words required.
 
         4 – Are You FAB Balanced?You must focus on painting a picture of your prospects future life, as a result of their purchase. Does your copy promise emotional benefits? Does it pledge the realization of positive feelings, or the relief of negative ones?Does it show how these outcomes are achieved with concise descriptions of the features & advantages that will deliver them? Your ad copy must strike a balance between emotion & logic if it is to be effect.
 
-        5 – Are You Creating Excitement & Enthusiasm?Demonstrate your personal belief in what you are selling. Will your message quicken the readers pulse? Is it upbeat, positive, & full of inspired energy? Is there a sense of WOW?
+        5 – Are You Creating Excitement & Enthusiasm? Demonstrate your personal belief in what you are selling. Will your message quicken the readers pulse? Is it upbeat, positive, & full of inspired energy? Is there a sense of WOW?
 
         6 – Is Your Body Copy Highly Readable? Remember simple is best. Keep sentences short. Use a plain 0-point to 12-point font. Paragraphs no more than a few lines. Words that are comfortable & specific to the audience you are targeting. Inject subheads to break up text. Highlight important points.
 
-        7 – Do You Have High YOU density?Remember to you use the words YOU & YOUR to the hilt. Your reader is auto translating to ME & MINE.
+        7 – Do You Have High YOU density? Remember to you use the words YOU & YOUR to the hilt. Your reader is auto translating to ME & MINE.
 
-        8 – Are you speaking intimately?Can you get a strong sense of personality when you review your letter after being away from it for a while? Visualize yourself, or the character you are personifying, writing a personal letter to your perfect prospect. Never write to a crowd.
+        8 – Are you speaking intimately? Can you get a strong sense of personality when you review your letter after being away from it for a while? Visualize yourself, or the character you are personifying, writing a personal letter to your perfect prospect. Never write to a crowd.
 
         9 – Are you inspiring the readers imagination?You must trigger mental images with your writing. The mind has difficulty distinguishing between vividly painted word pictures, & reality. Daydreams enchant, & emotions flow in their wake.When you have emotion, you have desire. When you have desire, you have suggestibility. When you have suggestibility, you can direct action. Your levers are allegory (storytelling), metaphor, similes, verbs, adjectives, & specificity.
 
@@ -94,33 +94,33 @@ export const articleData = [{
 
         11 – Is your offer irresistible?People are greedy, & they don’t part with their money easily. Are you piling bonuses on top of your reasons why they should part with their hard earned money, in exchange for immediate action?
 
-        12 – And finally, do you have a killer P.S.?For some reason, the P.S. at the bottom of a sales letter gets read a lot. Make it stop your reader in their tracks, like a deer in the headlights! Associate a positive outcome with taking the desired action, or a negative one with delay or inaction.So there you have it. Exercise this 12-step ad copy checklist before your sales rubber hits the road.`
+        12 – And finally, do you have a killer P.S.? For some reason, the P.S. at the bottom of a sales letter gets read a lot. Make it stop your reader in their tracks, like a deer in the headlights! Associate a positive outcome with taking the desired action, or a negative one with delay or inaction.So there you have it. Exercise this 12-step ad copy checklist before your sales rubber hits the road.`
     },
     {
         id: 4,
         title: "The Difference Between a Print Logo and a Web Logo",
-        author: "",
-        date: "",
+        author: "Constance Beebe",
+        date: "June, 2020",
         imageUrl: "",
         imageAlt: "",
-        category: "",
-        tags: [],
-        snippet: "",
+        category: "Logos",
+        tags: ["Digital and Print Logo Design", "Digital Media Logos", "Graphic Design", "Printed Media Graphic Design", "Corporate Branding"],
+        snippet: "The difference between Print Logos and Digital Logos",
         content: `
 
-            Print logos require a much higher resolution (i.e., pixels per inch) to create and need to be saved in certain standard print file formats. Some of the most common and universal print formats for print jobs are TIFF, EPS, and Adobe Acrobat PDF. By creating a logo in these file formats, the logo can be opened up and printed even without having the original software application the logo was created in. Because print logos can become very large in file size, unless you have a fast Internet connection they are best sent on a form of removable media, such as a floppy disk, a Zip disk, or a CD-ROM.
+            Print logos require a much higher resolution (i.e., pixels per inch) to create and need to be saved in certain standard print file formats. Some of the most common and universal print formats for print jobs are TIFF, EPS, and Adobe Acrobat PDF. By creating a logo in these file formats, the logo can be opened up and printed even without having the original software application the logo was created in. Because print logos can become very large in file size, unless you have a fast Internet connection they are best sent on a form of removable media, such as a Zip disk, Portable Hard Drive, or a CD-ROM.
             Web logos require a much smaller resolution (since they only need to be displayed on screen), and can be sent directly through email or available for immediate download. Because web logos are so small in file size, they are not a good choice for printing, as the quality will appear very blurred or jagged on paper.`
     },
     {
         id: 5,
         title: "SEO Through Well Built Pages",
-        author: "",
+        author: "Mark Daoust",
         date: "",
         imageUrl: "",
         imageAlt: "",
-        category: "",
-        tags: [],
-        snippet: "",
+        category: "Organic SEO",
+        tags: ["Organic SEO", "Search Engine Optimization (SEO)", "Digital Graphic Design", "Website Content Writing", "Coding and Programming", "Website Useability"],
+        snippet: "Search engines have moved beyond simply calculating keyword density and link relevance. More and more, the major search engines are continuing to master the ability to identify natural human language and evaluate a web page based on natural human language. Back in the late 90’s and early 2000’s, AskJeeves.com was the first search engine to attempt to move to a natural human language system, although they focused on the user input aspect of search rather than evaluating the natural language of a web page itself.",
         content: `
         Search engines have moved beyond simply calculating keyword density and link relevance. More and more, the major search engines are continuing to master the ability to identify natural human language and evaluate a web page based on natural human language. Back in the late 90’s and early 2000’s, AskJeeves.com was the first search engine to attempt to move to a natural human language system, although they focused on the user input aspect of search rather than evaluating the natural language of a web page itself. By learning to identify natural human language, search engines are able to greatly reduce the amount of search engine spam. The advances of search engines continue, especially on the heels of<a href="https://www.searchenginejournal.com/google-algorithm-history"> Google's constant algorithm </a>changes which will enable Google to weigh the relevance of links against the content of their pages. Search engines will continue to look at the entire content of websites and continue to attempt to identify the real subjects and themes of any given site. However with Google, Mobile and content have become their primary focus.As the AI’s for the search engines learn to better identify the natural language structure of websites, sites that are well formed will have a natural advantage. Although good search engine rankings will always depend on more than just the structure and content of a website, the content of a website will always be the heart of a page's rankings.Make a Search Engine's Job EasySearch engine spiders have a lot of work to do. Not only do they spider billions of pages every month attempting to discover new web pages and update already discovered web pages, these spiders need to parse through hundreds or even thousands of lines of code trying to distinguish between titles, content, structural code, and even the occasional keyword stuffing by search engine spammers. By simplifying your website, you make the job easier for the spider and allow the spider to index more pages on your site in a shorter amount of time.
         Avoid Bloated Code (Keep it DRY - Don’t Repeat Yourself!) Unfortunately for the sake of design, many website owners have paid absolutely no attention to how efficient their code is. As a result, they may have a lot of extraneous, unnecessary code. The result of bloated code is a page that may be difficult and confusing for a search engine to decipher, or the spider may misinterpret the code.Fortunately, HTML and CSS has caught up to the design standards of website professionals. Using proper HTML and CSS, you can design extremely appealing websites that do not rely on tables for their layout. If you would like to see just how versatile and effective HTML and CSS is, look at the examples laid out at CSS Zen Garden. CSS Zen Garden is a website that displays the power of CSS and properly formed HTML. There are several different designs all using the exact same HTML, but through CSS they are able to build sites that looking completely different form each other.If you want to see something very amazing about what CSS Zen Garden is doing, follow these steps. View the HTML of their page. It does not matter what style you are viewing, the HTML is the same for every style. Now copy that code and paste it into your HTML editor and view the output. The page that you will see is an extremely basic looking page. More importantly, though, the page that you will see is a very well organized page which would be easy for any spider to understand.Learn More About HTMLIf you are like most website owners, you know very little about HTML. You may know a little bit of code here and there, but it really does not seem worth your time to learn the inner workings of HTML. If you feel this way, then you are really missing out on great SEO opportunities. There are plenty of FREE websites from which you can learn to code from. <a href='https://www.codecademy.com'>CodeAcademy</a> and <a href='https://www.freecodecamp.org'>FreeCodeCamp</a> are two of my favorites. HTML is built to naturally identify parts of your web page that are more important than others. It was built to be extremely organized. Using the organization that HTML provides, you can help a search engine spider identify the parts of your website that are more important. Below are some uncommon tags that HTML provides that you can use to help organize your content:Alt Tag – Most website owners know about this, but including an Alt Tag on your images is actually required if you want to have a properly formed website - Although using tables to determine the layout of your website is becoming a practice that will soon be extinct, tables will still be necessary. The caption tag allows you to identify what a specific table is about. An example: Table 3.2. Raw Sales Data. Usage note: Do not use this attribute, as it has been deprecated. The  element should be styled using the CSS properties caption-side and text-align.The H Tags – H1 tags have become some of the most important tags in SEO circles, once website owners learned that Google DID pay attention to this tag. However, there are actually 6 different heading tags. The H1 tag is the most important while the H6 tag is the least important. If a search engine were to try to form a table of contents from a website, it should be able to do so from the H tags. These are just a few examples, but HTML provides several tags for your content to help you organize your material, and help search engines know what to emphasize in your content.Article TipWe have started a thread of these HTML tags. If you would like to know more about HTML tags and CSS, check out <a href='https://developer.mozilla.org/en-US/docs/Web/HTML'>here<a/>. The lesson from this should be that learning HTML is not an endeavor that has few benefits. There is a lot of HTML that can help you both simplify your code and add more content to help your rankings.Fortunately, web technology is catching up. With the advent of HTML5 and CSS3, it is easier now than ever to create beautiful sites. If you are not familiar with CSS, just read that previous sentence as being a very good thing. As was demonstrated by the example of CSSZenGarden.com, CSS can be used to create a page that is extremely appealing.Most website owners know CSS to be a tool that they can use to edit the appearance of text and the colors of their site, but CSS is also a tool that can be used for the layout of your site. As CSS comes out with newer versions, layout will become a more important development.If you plan to design your own website, I would like to suggest you learn HTML and CSS. A little Javascript wouldn’t hurt.The Side Benefit: AccessibilityDid you know that blind people surf the Internet? That may not seem shocking initially, but consider that the Internet is a highly visual medium of transferring information. Blind people are able to use web readers and Braille machines that interpret HTML code.Unfortunately, the vast majority of websites are not accessible for blind people because they are not well formed sites. By moving to a well formed website, you will be adding access for an audience who marketers really do not focus on.  But they should!
@@ -132,13 +132,13 @@ export const articleData = [{
     {
         id: 6,
         title: "The Local Search Revolution has Arrived!...optimize your online LOCAL presence now - before the learning curve turns expensive.",
-        author: "",
+        author: "Esoos Bobnar",
         date: "",
         imageUrl: "",
         imageAlt: "",
-        category: "",
-        tags: [],
-        snippet: "",
+        category: "Local Search",
+        tags: ["Local Search", "Consumer Loyalty", "Organic SEO", "Website Content Writing", "Ad-Copywriting", "Website Usability"],
+        snippet: "While searching the web these days, it's hard not to notice all those little Local tabs sprouting up in the vicinity of the search field on virtually every major search engine. Within the past year, the race has been to integrate a plethora of advanced features into local search capabilities.",
         content: `
         While searching the web these days, it's hard not to notice all those little Local tabs sprouting up in the vicinity of the search field on virtually every major search engine. Within the past year, the race has been to integrate a plethora of advanced features into local search capabilities.
         We're constantly seeing features like customer reviews and ratings, storefront and product photos, detailed maps with directions, hours of operation, forms of accepted payment, integration with cell phones, and much more is promised to follow. Picture a million paper phone books combined – on steroids and capable of providing instant results for an information-hungry and time-challenged customer base. The potential for local search is really quite staggering!
@@ -169,8 +169,8 @@ export const articleData = [{
         How To Get Listed In Local Search
         The first step to getting your business listed in Local Search is (surprise) to buy a listing in the offline Yellow Pages (yep, that cheesy doorstop-to-be we just dis'd) . Here's why:
         Most search engines get the bulk of their local business listings from just two companies:
-            1.	InfoUSA
-            2.	Acxiom
+            1.	<a https://www.dataaxleusa.com>dataaxleusa</a>
+            2.	<a https://www.acxiom.com>Acxiom</a
         ...or else from Internet Yellow Pages sites which also derive their listings from these two companies. Both have compiled enormous databases containing detailed information on most of the businesses and consumer households in the US and Canada. And much of their data is pulled from your basic Yellow Page and Business White Page directories (aka, the cheesy doorstops) .
 
         The good news may be that your business already has a listing in your local Yellow Pages – if not, then you should get one! Don't worry about taking out a big colorful ad with lots of information about your company. We haven't any reason to believe that expensive ads offer any advantage in local search rankings. Nor does lots of business information in your Yellow Pages ad seem to enhance your local search listing's comprehensiveness. It appears to us that any Yellow Pages listing at all will get you included in most local search engines just fine.
@@ -188,11 +188,11 @@ export const articleData = [{
         date: "",
         imageUrl: "",
         imageAlt: "",
-        category: "",
-        tags: [],
-        snippet: "",
+        category: "Local Search",
+        tags: ["Local Search", "Brand Loyalty", "Affordable Custom Website Design", "Strategic Social Media Marketing", "Organic SEO", "Website Content Writing", "Website Usability", "Reputation Management"],
+        snippet: "Does your business have a Web site? Have you missed the idea that it can be your 24/7 virtual marketing machine? Do you wonder how it could bring you more customers and clients to your 'brick and mortar' location? The biggest mistake local businesses make is not using the Internet to let potential customers and clients know who they are, who they can be by offering valuable content to attract them back again and again, and why they are the first choice over their competition.",
         content: `
-        Does your business have a Web site? Have you missed the idea that it can be your 24/7 virtual marketing machine? Do you wonder how it could bring you minions more customers and clients to your 'brick and mortar' location? The biggest mistake local businesses make is not using the Internet to let potential customers and clients know who they are, who they can be by offering valuable content to attract them back again and again, and why they are the first choice over their competition.Did you know that many of your local potential customers will Google your Web name or your name to see what you offer and how you may be their choice over others? Today people are much more Internet savvy. You need to speak to them.Building traffic to your Web site to market it needs you to install proper content and sales messages on it as well as other tried and true Online promotion methods such as submitting articles and creating a blog.FACT: You have only 10 seconds to attract your potential customers and get them to stay long enough to show them your business is the best choice.How's your Web Site Doing?Take the 'Check and Correct Quiz” below to see if your Web site measures up. After your input what you don't know will be clearer. If you want your Web site to be more effective, stay open and learn how you can put more money in your checking account each month.Answer these questions to see if you are on track or need a professional partner to help you get the necessary marketing language and content on your site to bring targeted traffic. Realize the spiders of the search engines comb sites daily looking for good key word, free information, and power writing sales content.
+        Does your business have a Web site? Have you missed the idea that it can be your 24/7 virtual marketing machine? Do you wonder how it could bring you more customers and clients to your 'brick and mortar' location? The biggest mistake local businesses make is not using the Internet to let potential customers and clients know who they are, who they can be by offering valuable content to attract them back again and again, and why they are the first choice over their competition.Did you know that many of your local potential customers will Google your Web name or your name to see what you offer and how you may be their choice over others? Today people are much more Internet savvy. You need to speak to them.Building traffic to your Web site to market it needs you to install proper content and sales messages on it as well as other tried and true Online promotion methods such as submitting articles and creating a blog.FACT: You have only 10 seconds to attract your potential customers and get them to stay long enough to show them your business is the best choice.How's your Web Site Doing?Take the 'Check and Correct Quiz” below to see if your Web site measures up. After your input what you don't know will be clearer. If you want your Web site to be more effective, stay open and learn how you can put more money in your checking account each month.Answer these questions to see if you are on track or need a professional partner to help you get the necessary marketing language and content on your site to bring targeted traffic. Realize the spiders of the search engines comb sites daily looking for good key word, free information, and power writing sales content.
         Did you know your Web site needs?
 
         1. A sales letter (short or long) for each product or service you offer. You need to give your visitors a reason to buy from you.
@@ -223,22 +223,22 @@ export const articleData = [{
         date: "",
         imageUrl: "",
         imageAlt: "",
-        category: "",
-        tags: [],
-        snippet: "",
+        category: "Social Media Marketing",
+        tags: ["Social Media Marketing", "Website Content Writing", "Digital Graphic Design", "Typography"],
+        snippet: "Most people who have been involved with sales & marketing for any length of time have heard the axiom, “Sell them what they want. Then sell them what they need”. But what does it mean? It sounds a little odd doesn’t it?",
         content: `
         Most people who have been involved with sales & marketing for any length of time have heard the axiom, “Sell them what they want. Then sell them what they need”. But what does it mean? It sounds a little odd doesn’t it?Does it mean that people are frivolous & go around making irrational purchases that don’t meet their needs, before more serious ones that sustain them? Should you try to sell trivial goods first, & then follow up with those that are more substantial? Should you put games & entertainment on your home page, and flour & salt in your follow up messages?No, that’s not it.What it is trying to say is that people buy for emotional reasons. Does anybody buy a Mercedes Benz just because they NEED to get from point A to point B? Do they buy it because they NEED all of the amazing gizmos, the heated leather seats & hand polished wood trim?No, a person buys an expensive car that they don’t need because it makes them feel important. You may be shocked when I say this, but I’m going to say it anyway. Luxury purchases are motivated by vanity, envy, pride, jealousy, & narcissism, even greed. And, there is nothing sinister, or wrong with it. That’s just the way we are as human beings. It’s what makes us tick. In fact, these emotions are behind all kinds of everyday purchases too.Understanding how they motivate buying behavior is critical to selling.Look at this ad for the Wall Street Journal. It’s said to be one of the most successful advertisements in the history of the world, responsible for over $1 billion in sales.Look carefully, & see how skillfully it evokes one or more of these powerful emotions. Try to get a sense of how you feel when you read it.THE WALL STREET JOURNAL 'TWO YOUNG MEN' LETTEROn a beautiful late spring afternoon, twenty-five years ago, two young men graduated from the same college. They were very much alike, these two young men. Both had been better than average students, both were personable, and both – as young college graduates are - were filled with ambitious dreams for the future.Recently, these men returned to their college for their 25th reunion. They were still very much alike. Both were happily married. Both had three children. And both, it turned out, had gone to work for the same Midwestern manufacturing company after graduation, and were still there.But there was a difference. One of the men was manager of a small department of that company. The other was its president.Have you ever wondered, as I have, what makes this kind of difference in people's lives? It isn't always a native intelligence or talent or dedication. It isn't that one person wants success and the other doesn't. The difference lies in what each person knows and how he or she makes use of that knowledge.And that is why I am writing to you and to people like you about The Wall Street Journal. For that is the whole purpose of The Journal: To give its readers knowledge - knowledge that they can use in business.The letter closes:About those two college classmates I mention at the beginning of this letter: They were graduated from college together and together got started in the business world. So what made their lives in business different?Knowledge. Useful knowledge. And its application.I cannot promise you that success will be instantly yours if you start reading The Wall Street Journal. But I can guarantee that you will find The Journal always interesting, always reliable, and always useful.This is a newspaper! It doesn’t get much more mundane than that, but the same principle applies, do you see the power in it?What we are talking about here are emotions that are inextricably tied to the universal desire for esteem that’s hard wired into our nature as human beings. If you’ve got a pulse, you’re under its spell. But here’s the kicker. Most of the time, we are not even aware of the stimulus, only the response.When you were reading the story about the graduates and the reunion, chances are, you were playing out your own meta program inside your head, and experiencing one of the esteem emotions. And it triggered your own personal desire to show the world what you could do, didn’t it?Esteem (to feel valued) is NOT a WANT at all. It is a basic human NEED almost as fundamental as food & water. Your prospect’s hunger & thirst for it. Their emotions are the expressions of that craving.If you can trigger them, & then associate satisfaction of the “esteem needs” with your product, you’ve got a winning ad!
 `
     }, {
         id: 9,
         title: "Website Manifestation - 7 Steps to a Successful Web Site",
-        author: "",
-        date: "",
+        author: "Constance Beebe",
+        date: "July, 2020",
         imageUrl: "",
         imageAlt: "",
-        category: "",
-        tags: [],
-        snippet: "",
+        category: "Website Useability",
+        tags: ["Website Useability", "Custom Website Design", "Website Content Writing", "Search Engine Optimization (SEO)", "Digital Graphic Design", "Website Maintenance", "Website Usability"],
+        snippet: "The more time and effort you put into planning and building your website, or revamping an existing one, the more successful you'll be. Your new site will have more potential in accomplishing your business goals, your business will look more credible to all the people visiting your site, and you'll increase your bottom line.",
         content: `
         If you are in business for yourself, an executive with decision making power, or the head of your company, you are probably bombarded with advice, opinions and information about how to build or re-vamp your website and how to use it to your advantage in business.
         To be as successful as possible in your e-business, you'll need to plan ahead and you'll need to properly fuse the disciplines of design, technology and marketing. From conception to reality, the process of manifesting a website draws upon a multidisciplinary approach.
@@ -278,9 +278,9 @@ export const articleData = [{
         date: "",
         imageUrl: "",
         imageAlt: "",
-        category: "",
-        tags: [],
-        snippet: "",
+        category: "Contract Agreement",
+        tags: ["Strategic Social Media Marketing", "Website Content Writing", "Reputation Management", "Custom Website Design", "Search Engine Optimization (SEO)", "Digital Graphic Design", "E-Commerce Website Development"],
+        snippet: "Hortensia was thrilled when she landed her first web design client. She hadn't been eager to start a business. However, like many mid-career executives experiencing layoffs, she realized her industry was dying and going solo was, well, the way to go. When she called, my first tip was, 'Get out and celebrate!' My second tip was, 'Get an agreement. In writing!'",
         content: `
         Hortensia was thrilled when she landed her first web design client. She hadn't been eager to start a business. However, like many mid-career executives experiencing layoffs, she realized her industry was dying and going solo was, well, the way to go. When she called, my first tip was, 'Get out and celebrate!'My second tip was, 'Get an agreement. In writing!'Like many smart new business owners, Hortensia's first priority was marketing. But she had purchased several books with titles like 'Getting started in your own web business.' And sure enough, one of those books included a sample agreement.If Hortensia hadn't founded a sample agreement, I would have suggested she surf the web. Typing 'contract' plus your form of service will often pull up examples you can use to get started.Sample agreements usually are created by experienced business owners. They help you identify your client's hot buttons: price, delivery date, guarantees, and more. Each field will be different. For instance, if you're a web designer, who will be responsible for the images you use on a website? If your client supplies images or copy, make sure she agrees in writing to be responsible for any possible copyright claims.Will your ability to perform your job be affected by what your client gives you? Make sure he understands you can't meet a deadline if he hasn't delivered all the copy by a certain date.What exactly will you do? Many a client begins with, 'I want to make some tweaks,' and ends with so many requests, you're really doing an overhaul.
         What if your client is a friend?
@@ -312,13 +312,13 @@ export const articleData = [{
     }, {
         id: 11,
         title: "9 Keys to an Effective Logo",
-        author: "",
+        author: "Erin Ferree",
         date: "",
         imageUrl: "",
         imageAlt: "",
-        category: "",
-        tags: [],
-        snippet: "",
+        category: "Logos",
+        tags: ["Digital Media Logo", "Printed Media Logo", "Brand Loyalty", "Consumer Loyalty", "Reputation Management"],
+        snippet: "Strategic Social Media Marketing",
         content: `
         The right logo, with the right characteristics, will boost your visibility, credibility and memorability ­ which means more business for you!These characteristics include:Consistency in use of your logo, tagline, materials. Repetition of similar elements, used in the same or similar ways, helps people to remember who you are and what you do.Memorability, so that your logo stays at the forefront of your potential clients' minds. That way, they'll think of you next time they have a need.Meaningfulness, so that your logo can spread the message about the distinguishing characteristics of your business.Uniqueness, which helps you stand out from the crowd. For example, if everyone in your industry uses a particular symbol (i.e., travel agencies often use globes in their logos), try to use something else ­ that way, your logo doesn't just look like everyone else's.Professionalism, in the quality of the graphics, the printing and the paper on which your materials are printed.Timelessness in your logo will ensure that you don't have to redesign your logo in just a few years and that your investment and equity in your design will be lasting. Differentiation between the colors in your logo ­ and not just in terms of hue, but in terms of value as well, so that it translates well either to black and white or grey scale and colorblind people are able to see it.Unity among the different elements in the logo. The logo must fit together as a single unit, and not just appear as a jumble of elements pasted together.
         Scalability, so that your logo looks equally good on both a business card and on a sign for your business (or a billboard!), and at every size in between. Your business's name should be legible at different logo sizes ­ be sure that your designer chooses a font that is easily readable.
@@ -327,13 +327,13 @@ export const articleData = [{
     }, {
         id: 12,
         title: "Three Things You Must Do When Designing and Building Your Small Business Website",
-        author: "",
-        date: "",
+        author: "Constance Beebe",
+        date: "August, 2020",
         imageUrl: "",
         imageAlt: "",
-        category: "",
-        tags: [],
-        snippet: "",
+        category: "Custom Website Design",
+        tags: ["Affordable Custom Website Design", "Search Engine Optimization (SEO)", "Website Usability", "Website Content Writing"],
+        snippet: "If you are going to have a web presence for your small business, it only makes sense that it should actually help you get more business. In order to do so, your website design should focus on performing only one function – and that’s to convey your sales message to your site visitors in an effective and efficient manner.",
         content: `
         If you are going to have a web presence for your small business, it only makes sense that it should actually help you get more business. In order to do so, your website design should focus on performing only one function – and that’s to convey your sales message to your site visitors in an effective and efficient manner.
 
@@ -373,13 +373,13 @@ export const articleData = [{
     }, {
         id: 13,
         title: "What is 'organic' search and how can it help your company?",
-        author: "",
-        date: "",
+        author: "Constance Beebe",
+        date: "June, 2020",
         imageUrl: "",
         imageAlt: "",
-        category: "",
-        tags: [],
-        snippet: "",
+        category: "Organic SEO",
+        tags: ["Organic SEO", "Website Content Writing", "Custom Website Design", "Search Engine Optimization (SEO)", "Digital Graphic Design", "E-Commerce Website Development"],
+        snippet: "While optimizing your Web site to rank well for organic searches takes more effort than simply buying an ad, it can provide your business with one of the highest ROI results that you're likely to find. Numerous studies have placed search engine optimization at the top of the list of the most effective forms of online marketing. Its low cost, high relevancy, and high conversion rates make it an ideal marketing vehicle for almost any business.",
         content: `
         The first time I heard the term "organic search" I immediately thought of organic food at the grocery store. So, is this organic search healthier for me? Will it reduce my chances of getting cancer? Not only can the search engines bring most of the world's knowledge to my desktop, but now they can prevent deadly diseases too! Imagine my disappointment when I learned organic search was simply the next new buzzword for the concept of pure, or crawler-based search. As some of our readers may find it challenging to keep up with all of the latest lingo, I thought I'd take a moment to at least explain the concept of organic search.
         Organic describes a search that returns results by indexing pages based on content and keyword relevancy. This is in contrast to listings ranked based on who paid the most money to appear at the top such as those on Overture.com. Sometimes this is called "pure" or "natural search" as it is supposed to be "untainted" by commercial payments or bids.
@@ -390,30 +390,30 @@ export const articleData = [{
         Pros:
             1. Greater Click-throughs: People trust "organically grown" search results more than they do sponsored results. While the engines business is supported by paid ads, many consumers prefer the organic search results. Due to the contextual nature of organic search, the listings can be more relevant and offer a greater depth of choices. Therefore, while paid ads can play an important part in your marketing strategy, ultimately it is the organic search results that will more likely yield the greater click-through rates when all other things are equal. Therefore, it's this type of listing that will maximize the traffic to your site whenever you climb to the top.
 
-            2. Power of Branding: More and more large corporations are investing resources into organic search to gain the marketing benefits of promoting their brand. For example, most consumers would expect to find Dell.com in a search for computers. If your company does not show up for the keyword results in which you'd expect to appear it can be embarrassing. Consumers may wonder if Company X is as important as they once were if they don't even show up in MSN, Yahoo or Google. Conversely, inserting your brand in the top search results can give the impression that your company is important. Therefore, smaller companies can give the impression of big business importance by securing aa better position in organic search than their larger rivals.
+            2. Power of Branding: More and more large corporations are investing resources into organic search to gain the marketing benefits of promoting their brand. For example, most consumers would expect to find Dell.com in a search for computers. If your company does not show up for the keyword results in which you'd expect to appear it can be embarrassing. Consumers may wonder if Company X is as important as they once were if they don't even show up in Bing, Yahoo or Google. Conversely, inserting your brand in the top search results can give the impression that your company is important. Therefore, smaller companies can give the impression of big business importance by securing aa better position in organic search than their larger rivals.
 
             3. Greater Trust Equals Greater Conversions: Most adults learn to apply a healthy dose of skepticism when they see a commercial on TV, a banner ad on the Web, or a sponsored ad on a search engine. After all, we know those ads are commercially motivated and may not always be the most relevant product or solution for our needs. It may simply represent the company that was able to spend the most money to get their message in front of me. Sometimes bigger companies do offer the best products, but there's no guarantee. There's certainly not the same level of trust that we see from visitors arriving from organic search. Organic search can, of course, be commercially influenced. However, a recent survey shows that people tend to trust organic results compared to sponsored listings. On the whole, you should see more visitors from organic search converting to sales, assuming your rankings were for targeted, relevant keywords. In the business world, ROI, or Return On Investment, is king. Fortunately, organic search can give you the high ROI you're looking for or your boss is demanding.
 
-            4. Organic is Free: After all these years, it's still free to submit to Google, arguably the most popular of the organic search engines right now. Google has always been adamant about not charging for inclusion in its index of 4.2 billion pages. Most other organic engines will also index you for free, although some like Yahoo do have paid inclusion options. Paid inclusion simply guarantees your page will get indexed quickly and stay indexed for as long as you maintain your subscription, but does not promise a particular ranking. However, if you have a Web site with good quality content and links from third party sites, paid inclusion is "nice-to-have". It can be very useful in getting pages indexed or re-indexed quickly. This allows you to quickly test various page designs and to feed news and other time-sensitive content to the search engine as quickly as possible.
+            4. Organic is Free: After all these years, it's still free to submit to Google, arguably the most popular of the organic search engines. Google has always been adamant about not charging for inclusion in its index of 30 trillion pages. Most other organic engines will also index you for free, although some like Yahoo do have paid inclusion options. Paid inclusion simply guarantees your page will get indexed quickly and stay indexed for as long as you maintain your subscription, but does not promise a particular ranking. However, if you have a Web site with good quality content and links from third party sites, paid inclusion is "nice-to-have". It can be very useful in getting pages indexed or re-indexed quickly. This allows you to quickly test various page designs and to feed news and other time-sensitive content to the search engine as quickly as possible.
 
         Cons:
-            1. Organic Rankings are Not Automatic: With organic listings, you cannot simply hand over a certain amount of money and be guaranteed to quickly and automatically achieve any ranking you desire. Instead, achieving positions in organic search requires the proper technology, skill, and know-how. There has always been a cloud of mystery around the process of achieving top rankings. How's it done? Where do I start? That's why resources like this newsletter and products like WebPosition Gold are essential to a business's success in search engine marketing.
+            1. Organic Rankings are Not Automatic: With organic listings, you cannot simply hand over a certain amount of money and be guaranteed to quickly and automatically achieve any ranking you desire. Instead, achieving positions in organic search requires the proper technology, skill, and know-how. There has always been a cloud of mystery around the process of achieving top rankings. How's it done? Where do I start? That's why resources like this 'Inside Scoope' and products like Google Analytics, are essential to a business's success in search engine marketing.
 
-            2. Organic Rankings Require an Investment in Time: The age-old adage of "nothing worthwhile in life ever comes easy" rings true with organic rankings. While they are monetarily free, simply submitting your pages to the search engines is not enough to bring in a flood of new visitors to your Web site. Far too many businesses have been fooled into spending $100 or $400 to submit their site to "thousands" of sites, 99% of which are obscure names you've probably never heard of. The key is that someone doing a search on a major search engine must be able to easily find your Web site.If your site is buried at the bottom of the list, or simply fails to appear in the first few pages of search results, you can kiss your chances of being found good-bye. The key is to use responsible best practices to create pages that are highly relevant to the keywords that apply to your Web site and the products or solutions you have to offer. . In other words, optimize your pages for search engine visibility and see how fast your position improves. To do this, you simply need to know what each search engine needs for maximum visibility. Then tweak your Web page's content while paying attention to off-page factors like the number and type of links coming to your page. Tune the pages of your site to the preferences of the major search engines and then watch your rankings and traffic climb.
+            2. Organic Rankings Require an Investment in Time: The age-old adage of "nothing worthwhile in life ever comes easy" rings true with organic rankings. While they are monetarily free, simply submitting your pages to the search engines is not enough to bring in a flood of new visitors to your Web site. Far too many businesses have been fooled into spending $300 or $900 to submit their site to "thousands" of sites, 99% of which are obscure names you've probably never heard of. The key is that someone doing a search on a major search engine must be able to easily find your Web site. If your site is buried at the bottom of the list, or simply fails to appear in the first few pages of search results, you can kiss your chances of being found good-bye. The key is to use responsible best practices to create pages that are highly relevant to the keywords that apply to your Web site and the products or solutions you have to offer. In other words, optimize your pages for search engine visibility and see how fast your position improves. To do this, you simply need to know what each search engine needs for maximum visibility. Then tweak your Web page's content while paying attention to off-page factors like the number and type of links coming to your page. Tune the pages of your site to the preferences of the major search engines and then watch your rankings and traffic climb.
 
         While optimizing your Web site to rank well for organic searches takes more effort than simply buying an ad, it can provide your business with one of the highest ROI results that you're likely to find. Numerous studies have placed search engine optimization at the top of the list of the most effective forms of online marketing. Its low cost, high relevancy, and high conversion rates make it an ideal marketing vehicle for almost any business.
-        The catch? As with any area of marketing, SEO is a competitive field. Arming yourself with the best technology and knowledge is key to gaining a competitive advantage. Long-time readers of MarketPosition know that WebPosition was the first product on the market to track a Web site's rankings on the search engines and to help improve those rankings. That early lead has given WebPosition more time for its technology to grow and mature than any of its competition. WebPosition's Page Critic module contains a wealth of advice and statistics designed to move your site to the top of the organic search results. Not only that, it also tracks your rankings and gives you advice on how to achieve the best results in both organic and pay-per-click search engines as well. Therefore, you can capitalize on the best of both worlds.
+        The catch? As with any area of marketing, SEO is a competitive field. Arming yourself with the best technology and knowledge is key to gaining a competitive advantage. Blue Smoke Digital and Printed Media has SEO experts who have Google Analytic’s and Google AdWords Certifications and over 15 years in SEO. NO ONE can guarantee your website will organically appear on the first page of Google. We will however promise to do our very best in helping you to achieve that goal. That is why we include Organic SEO as part of our website contracts.
 `
     }, {
         id: 14,
         title: "10 TIPS FOR WRITING A HIGHLY PERSUASIVE AD",
-        author: "",
+        author: "Keith Gloster",
         date: "",
         imageUrl: "",
         imageAlt: "",
-        category: "",
-        tags: [],
-        snippet: "",
+        category: "Strategic Social Media Marketing",
+        tags: ["Strategic Social Media Marketing", "Ad-Copywriting", "Website Content Writing", "E-mail Marketing"],
+        snippet: "Are you a network marketer or an affiliate struggling to convert your web site visitors into eager sign-ups or buying customers? While there could be many reasons why you're not receiving the sign-ups and customers you deserve, the first thing you should consider is your ad copy.",
         content: `
         Are you a network marketer or an affiliate struggling to convert your web site visitors into eager sign-ups or buying customers? While there could be many reasons why you're not receiving the sign-ups and customers you deserve, the first thing you should consider is your ad copy. Be honest with yourself and consider these 3 qualifying questions in regard to your current ad copy:
 
@@ -451,13 +451,13 @@ export const articleData = [{
     }, {
         id: 15,
         title: "How to Write Effective Web Copy",
-        author: "",
+        author: "Herman Drost",
         date: "",
         imageUrl: "",
         imageAlt: "",
-        category: "",
-        tags: [],
-        snippet: "",
+        category: "Effective Website Copy",
+        tags: ["Effective Website Copy", "Affordable Custom Website Design", "Website Content Writing", "Website Usability"],
+        snippet: "Writing effective web copy begins with an understanding of what the goals of your web site are. Are you trying to get your visitors to purchase something or have them sign up for your newsletter? Remember you are trying to get someone you can't see and have never met take a step towards building a relationship with you or your company.",
         content: `
         Writing effective web copy begins with an understanding of what the goals of your web site are. Are you trying to get your visitors to purchase something or have them sign up for your newsletter? Remember you are trying to get someone you can't see and have never met take a step towards building a relationship with you or your company.
 
@@ -495,13 +495,13 @@ export const articleData = [{
     {
         id: 16,
         title: "Build It And They Will Come. True or False? Why So Many Online Businesses Fail.",
-        author: "",
+        author: "Jill St Claire",
         date: "",
         imageUrl: "",
         imageAlt: "",
-        category: "",
-        tags: [],
-        snippet: "",
+        category: "Custom Website Design",
+        tags: ["Affordable Custom Website Design", "Website Traffic","Strategic Social Media Marketing", "Search Engine Optimization (SEO)", "E-Commerce Website Development", "Coding and Programming", "Website Usability"],
+        snippet: "Build it and they will come! Well . . . sometimes. If you're real lucky, and I mean REALLY lucky.",
         content: `
         Build it and they will come! Well . . . sometimes. If you're real lucky, and I mean REALLY lucky.Now you have your beautiful website boasting your amazing products or services. It's out there, just waiting for people who want what you have to offer. You're going to dazzle them with your dynamic website and the sales are going to come flooding in. Wrong. The dream is over. It's time to come back to reality.I can't begin to tell you how many times I've heard the stories of disappointment from very sharp business people who actually thought that having a website is all there is to either starting and operating a successful and profitable online business, or incorporating eCommerce into their existing business of traditional commerce.Your website is quite simply, a brochure that is now lost in a very large online ocean of literally billions of other brochures. We'll compare it to a stack of beautifully printed brochures sitting on your desk; your prospects will never see it unless you place your brochures in a visible place where people look for what you have to offer - true? Your online brochure, (your website), also needs to be positioned in a visible place where your prospects can find you - on major search engine directories.Keywords and key phrases are the search words and terms Internet surfers use to find the products, services or information they are looking for.Choosing the right keywords and phrases for your website's search engine optimization (SEO) program is critical to its success. The right keywords drive targeted traffic to your website - prospects who are ready to buy. The wrong keywords attract web visitors that are not likely to purchase your products and services - wasting everyone's time and your money.
         By following these simple rules, you will be able to determine the right mix of keywords and phrases that will generate targeted prospects to your website. Remember that good search terms are those that are related to your business and have sufficient monthly search traffic.
@@ -514,26 +514,26 @@ export const articleData = [{
 
         Rule #4 Use <a href='www.wordtracker.com'>WordTracker</a> - For a small fee, you can use this tool to find niche keywords, use the thesaurus to find related search terms and determine general monthly search frequency. This is a great tool and worth the investment.
 
-        Rule #5 Use pay-per-click programs like Overture or Google's AdWords to choose keywords and phrases for your SEO program. Both programs help you generate search terms based on specific keyword relationships and show how often they are searched for. Set a small monthly budget and track the number of keyword impressions you receive for each search term. After one to two months of data, choose the search terms with adequate search frequency and incorporate them into your search engine optimization program.
+        Rule #5 Use pay-per-click programs like Google AdWords to choose keywords and phrases for your SEO program. Both programs help you generate search terms based on specific keyword relationships and show how often they are searched for. Set a small monthly budget and track the number of keyword impressions you receive for each search term. After one to two months of data, choose the search terms with adequate search frequency and incorporate them into your search engine optimization program.
 
         Rule #6 Don't forget Geographics. If your products and services are local or regional, be sure to include your state or city within your search phrases. For example, an investigations company that conducts most of its business in the Midwest would want to choose 'Indiana and private investigator.'
 
         Rule #7 Take a look at your competition. Based on your top three competitors, look at their website for specific search terms being used. Also, look at their META keywords to get a good idea of what search terms they think are important. Remember you want to look at competitors for your different markets served and products and service lines.
 
-        Rule #8 Analyze your website traffic. Make sure your web hosting company provides you with the ability to analyze your website log files. Some hosting companies have you log into your account to view monthly web traffic reports, while others email monthly reports. Information obtained can tell you the top search terms and search engines used to find your website and other valuable information. To get the most out of your log file data, it is recommended to use a log file analyzer such as Web Trends or Urchin.
+        Rule #8 Analyze your website traffic. Make sure your web hosting company provides you with the ability to analyze your website log files. Some hosting companies have you log into your account to view monthly web traffic reports, while others email monthly reports. Information obtained can tell you the top search terms and search engines used to find your website and other valuable information. To get the most out of your log file data, it is recommended to use a log file analyzer such as Google Analytics.
 
         By applying these simple rules, you will be well on your way to generating highly-targeted keywords and phrases that attract the right prospects - prospects who have direct interest in what you have to offer.`
     },
     {
         id: 17,
         title: "Social Media: Why It Is 100% Essential (and How to Use It Well)",
-        author: "",
-        date: "",
+        author: "Constance Beebe",
+        date: "September, 2020",
         imageUrl: "",
         imageAlt: "",
-        category: "",
-        tags: [],
-        snippet: "",
+        category: "Strategic Social Media Marketing",
+        tags: ["Brand Loyalty", "Consumer Loyalty", "Affordable Custom Website Design", "Strategic Social Media Marketing", "Content Writing", "Ad-Copywriting"],
+        snippet: "In today’s society, word of mouth IS digital. Think about the questions you constantly ask about products, services or businesses; your customers are asking the SAME questions. Addressing these common points of confusion could be your key to converting casual website visitors into new clients.",
         content: `Social media is a form of electronic communication designed to let people share content quickly, efficiently, and in real-time. While many people access social media through smartphone apps, this communication tool started with computers, and social media can refer to any internet communication tool that allows users to broadly share content and engage with the public.
 
         According to <a href="https://en.wikipedia.org/wiki/Social_media">Wikipedia</a>, “Social media are interactive computer-mediated technologies that facilitate the creation or sharing of information, ideas, career interests and other forms of expression via virtual communities and networks.” They go on further to say,”Social media can help to improve an individual's sense of connectedness with real or <a href="https://en.wikipedia.org/wiki/Online">online</a> communities and can be an effective communication (or <a href="https://en.wikipedia.org/wiki/Marketing">marketing</a>) tool for corporations, entrepreneurs, non-profit organizations, advocacy groups, political parties, and governments.”
