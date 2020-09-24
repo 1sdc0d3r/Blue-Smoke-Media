@@ -13,7 +13,7 @@ export default function Article() {
   return (
     <div className="page-wrapper">
       <h1>{article.title}</h1>
-      <span>{article.author}</span>
+      <span className="author">{article.author}</span>
       <pre>{ReactHtmlParser(article.content)}</pre>
     </div>
   );
