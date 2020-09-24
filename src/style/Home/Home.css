@@ -8,33 +8,15 @@
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
-  -ms-flex-direction: row-reverse;
-  flex-direction: row-reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
   background: url("../../images/globe-stretch-new.png");
   background-size: 101% 105%;
   background-repeat: no-repeat;
   padding: 2em 0 1.5em;
-  margin-top: 2em;
+  margin-top: 3em;
   min-width: 80%;
   border-bottom: 0.5em solid #020723;
-}
-
-@media (min-width: 981px) and (max-width: 1280px) {
-  .home .globe {
-    height: 60vh;
-  }
-}
-
-@media (min-width: 1281px) and (max-width: 1680px) {
-  .home .globe {
-    height: 60vh;
-  }
-}
-
-@media (min-width: 1681px) {
-  .home .globe {
-    height: 60vh;
-  }
 }
 
 @media (max-width: 360px) {
@@ -172,8 +154,8 @@
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: 4em auto 2em;
 }
 
@@ -268,9 +250,9 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   margin: 7% auto 13%;
 }
 
@@ -280,8 +262,8 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 19%;
   background: #04227a;
   border: 5px inset #020723;
@@ -331,7 +313,7 @@
   width: 50%;
   margin: 0 auto;
   -webkit-transform: translate(0, -60%);
-  transform: translate(0, -60%);
+          transform: translate(0, -60%);
 }
 
 .home .services .services-card-container .service-card h3 {
@@ -380,7 +362,7 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   margin-top: 5%;
 }
 
@@ -388,8 +370,8 @@
   .home .plans-pricing .plans-card-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -397,8 +379,8 @@
   .home .plans-pricing .plans-card-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -406,8 +388,8 @@
   .home .plans-pricing .plans-card-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -415,8 +397,8 @@
   .home .plans-pricing .plans-card-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -425,7 +407,7 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   width: 50%;
 }
 
@@ -440,8 +422,8 @@
   .home .plans-pricing .plans-card-container .plan-card-set {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 100%;
   }
 }
@@ -450,8 +432,8 @@
   .home .plans-pricing .plans-card-container .plan-card-set {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 100%;
   }
 }
@@ -460,8 +442,8 @@
   .home .plans-pricing .plans-card-container .plan-card-set {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 100%;
   }
 }
@@ -472,11 +454,11 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   border: 3px inset goldenrod;
   width: 37%;
   padding: 1em 1em 0;
@@ -549,7 +531,7 @@
   padding: 0.4em;
   border: 1px solid #020723;
   -webkit-box-shadow: 2px 2px #020723;
-  box-shadow: 2px 2px #020723;
+          box-shadow: 2px 2px #020723;
   color: #020723;
   background: #1e92f6;
   text-decoration: none;
@@ -560,5 +542,4 @@
   color: #d7dae6;
   outline: 2px solid #ee3e0e;
 }
-
 /*# sourceMappingURL=Home.css.map */

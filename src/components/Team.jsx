@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet";
 //* Data
 import team from "../data/team";
 //* Images
-import languages from "../images/Coding-Web-Development.jpg";
+import languages from "../images/Coding-Web-Development.png";
 const womanStudio =
   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/graphic-design-video-MTT.mp4";
 const globeVid =
@@ -17,11 +17,12 @@ export default function Team() {
     <div className="team page-wrapper">
       <section className="team-top">
         <h1>Meet Our Team</h1>
-        <p> 
-          <span>Blue Smoke Digital and Printed Media,</span> was founded
-          in 2019, by a group of talented individuals with a combined 35 years of programming,
-          graphic design, search engine optimization, and sales and marketing experience. Each <span>Blue 
-          Smoke Digital Media</span> team member is a student or graduate of{" "}
+        <p>
+          <span>Blue Smoke Digital and Printed Media,</span> was founded in
+          2019, by a group of talented individuals with a combined 35 years of
+          programming, graphic design, search engine optimization, and sales and
+          marketing experience. Each <span>Blue Smoke Digital Media</span> team
+          member is a student or graduate of{" "}
           <a
             href="https://lambdaschool.com/"
             rel="nofollow noopener noreferrer"
@@ -145,7 +146,7 @@ export default function Team() {
           itemprop="description"
           content="Blue Smoke Digital and Printed Media, a company founded in 2019, was formed by a cooperative interaction of talented individuals from a variety of disciplines, with a combined 35 years of programming, graphic design, search engine optimization, and sales experience. Each Blue Smoke Media team member is a student or graduate of Lambda School."
         />
-        <meta itemprop="image" content="../images/Coding-Web-Development.jpg" />
+        <meta itemprop="image" content="../images/Coding-Web-Development.png" />
 
         {/* <!-- Facebook Meta Tags --> */}
         <meta
@@ -163,7 +164,7 @@ export default function Team() {
         />
         <meta
           property="og:image"
-          content="../images/Coding-Web-Development.jpg"
+          content="../images/Coding-Web-Development.png"
         />
 
         {/* <!-- Twitter Meta Tags --> */}
@@ -178,7 +179,7 @@ export default function Team() {
         />
         <meta
           name="twitter:image"
-          content="../images/Coding-Web-Development.jpg"
+          content="../images/Coding-Web-Development.png"
         />
       </Helmet>
     </div>

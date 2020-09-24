@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import ReactCardFlip from "react-card-flip";
 //* Images
 import slide_seo from "../images/seo_file.png";
 import slide_custom from "../images/custom_website_design.png";
@@ -12,10 +11,6 @@ const socialMedia =
   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/Now-open-video_HD720.mp4";
 //LINKS
 export default function Home() {
-  const [card1, setCard1] = useState(false);
-  const [card2, setCard2] = useState(false);
-  const [card3, setCard3] = useState(false);
-  const [card4, setCard4] = useState(false);
   return (
     <div className="page-wrapper">
       <div className="home">
