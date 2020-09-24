@@ -59,6 +59,10 @@
       @include breakpoint(xxs, xs) {
         font-size: 0.9em;
       }
+      &:hover {
+        background: $royalBlue;
+        color: $green;
+      }
     }
   }
 

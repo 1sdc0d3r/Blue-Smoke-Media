@@ -126,6 +126,11 @@
   }
 }
 
+.contact form #submit-btn:hover {
+  background: #04227a;
+  color: #7ff76f;
+}
+
 .contact .icons {
   display: -webkit-box;
   display: -ms-flexbox;
