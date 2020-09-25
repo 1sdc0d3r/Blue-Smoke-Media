@@ -83,40 +83,40 @@ Many shortfalls of websites can easily be attributed to designers who just do no
 You’re ready to launch that new product or promotion and you’re really counting on a piece of advertising copy to come through for you. You are expecting stellar results! And, you’re determined to do everything in your power to get them. Which means surveys, thorough testing, and ongoing refinement of your ad copy. Hold the phone! When you receive your draft, run it through this 12-point inspection. Check off these basics and you can be sure you'll be off to a running start.
 
 <span>1. Do You Have A Compelling Headline?</span>
-Does it generate curiosity or envy? Does it promise a benefit that will compel someone with an interest in what you’re selling to keep reading. Remember, your headline is the ad for the ad.When I am being paid to write direct response ad copy, or a sales letter, or have a very important sales objective of my own, I normally write 25 headlines before I begin the body of the piece.Then I’ll pick half a dozen that I think will work & test them. The best of the rest, I use as sub headings throughout the piece to propel readership, and draw skimmers & skippers back into the copy as they move down the page.
+Does it generate curiosity or envy? Does it promise a benefit that will compel someone with an interest in what you’re selling to keep reading. Remember, your headline is the ad for <span>THE</span> ad. When I am being paid to write direct response ad copy, or a sales letter, or have a very important sales objective of my own, I normally write 25 headlines before I begin the body of the piece.Then I’ll pick half a dozen that I think will work & test them. The best of the rest, I use as sub headings throughout the piece to propel readership, and draw skimmers & skippers back into the copy as they move down the page.
 
-<span>2. Are Your Headlines Pleasing To The Eye?</span>
-I most often find that headlines work best when they are centered on the page, & present a balanced appearance in terms of the shape they create. Encasing them in quotation marks also serves to grab more attention.Long top headlines tend to reduce readership, but if they help qualify more effectively they can improve sales! Try them, but look for ways to modularize the text using punctuation & spacing so your readers don’t suffocate trying to read them. Sometimes a long top headline is better presented as two or even three separate headlines.
+<span>2. Are Your Headlines Pleasing to the Eye?</span>
+I most often find that headlines work best when they are centered on the page, & present a balanced appearance in terms of the shape they create. Encasing them in quotation marks also serves to grab more attention. Long top headlines tend to reduce readership, but if they help qualify more effectively they can improve sales! Try them, but look for ways to modularize the text using punctuation & spacing so your readers don’t suffocate trying to read them. Sometimes a long top headline is better presented as two or even three separate headlines.
 
-<span>3. Is Your Opening Provocative & Arresting?</span>
-Does it trip the reader, interrupting the internal turbulence of the day? Each line of your ad copy must serve to “sell” the reader on continued reading, especially at the beginning.You are looking to build enough momentum & interest to convey the points necessary to generate a greater desire for the product than it’s price. Generally speaking, the higher the cost of the product, the more words required.
+<span>3. Is Your Opening Provocative and Arresting?</span>
+Does it trip the reader, interrupting the internal turbulence of the day? Each line of your ad copy must serve to “sell” the reader on continued reading, especially at the beginning. You are looking to build enough momentum and interest to convey the points necessary to generate a greater desire for the product than its price. Generally speaking, the higher the cost of the product, the more words required.
 
 <span>4. Are You FAB Balanced?</span>
-You must focus on painting a picture of your prospects future life, as a result of their purchase. Does your copy promise emotional benefits? Does it pledge the realization of positive feelings, or the relief of negative ones?Does it show how these outcomes are achieved with concise descriptions of the features & advantages that will deliver them? Your ad copy must strike a balance between emotion & logic if it is to be effect.
+You must focus on painting a picture of your prospects future life, as a result of their purchase. Does your copy promise emotional benefits? Does it pledge the realization of positive feelings or the relief of negative ones? Does it show how these outcomes are achieved with concise descriptions of the features & advantages that will deliver them? Your ad copy must strike a balance between emotion and logic if it is to be effective.
 
-<span>5. Are You Creating Excitement & Enthusiasm?</span>
+<span>5. Are You Creating Excitement and Enthusiasm?</span>
 Demonstrate your personal belief in what you are selling. Will your message quicken the readers pulse? Is it upbeat, positive, & full of inspired energy? Is there a sense of WOW?
 
 <span>6. Is Your Body Copy Highly Readable?</span>
-Bare in mind that simple is best. Keep sentences short. Use a plain 0-point to 12-point font. Paragraphs no more than a few lines. Words that are comfortable & specific to the audience you are targeting. Inject subheads to break up text. Highlight important points.
+Bare in mind that simple is best. Keep sentences short. Use a plain 0-point to 12-point font. Paragraphs no more than a few lines. Words that are comfortable and specific to the audience you are targeting. Inject subheads to break up text. Highlight important points.
 
 <span>7. Do You Have High YOU density?</span>
-Remember to you use the words YOU & YOUR to the hilt. Your reader is auto translating to ME & MINE.
+Remember to you use the words YOU and YOUR to the hilt. Your reader is auto translating to ME & MINE.
 
-<span>8. Are you speaking intimately?</span>
-Can you get a strong sense of personality when you review your letter after being away from it for a while? Visualize yourself, or the character you are personifying, writing a personal letter to your perfect prospect. Never write to a crowd.
+<span>8. Are You Speaking Intimately?</span>
+Can you get a strong sense of personality when you review your letter after being away from it for a while? Visualize yourself or the character you are personifying, writing a personal letter to your perfect prospect. Never write to a crowd.
 
-<span>9. Are you inspiring the readers imagination?</span>
-You must trigger mental images with your writing. The mind has difficulty distinguishing between vividly painted word pictures, & reality. Daydreams enchant, & emotions flow in their wake.When you have emotion, you have desire. When you have desire, you have suggestibility. When you have suggestibility, you can direct action. Your levers are allegory (storytelling), metaphor, similes, verbs, adjectives, & specificity.
+<span>9. Are You Inspiring the Readers Imagination?</span>
+You must trigger mental images with your writing. The mind has difficulty distinguishing between vividly painted word pictures and reality. Daydreams enchant and emotions flow in their wake. When you have emotion, you have desire. When you have desire, you have suggestibility. When you have suggestibility, you can direct action. Your levers are allegory (storytelling), metaphor, similes, verbs, adjectives, & specificity.
 
-<span>10. Do you offer proof?</span>
-Specific testimonials & convincing guarantees worked into your ad copy are essential.
+<span>10. Do You Offer Proof?</span>
+Specific testimonials and convincing guarantees worked into your ad copy are essential.
 
-<span>11. Is your offer irresistible?</span>
-People are greedy, & they don’t part with their money easily. Are you piling bonuses on top of your reasons why they should part with their hard earned money, in exchange for immediate action?
+<span>11. Is Your Offer Irresistible?</span>
+People are greedy and they don’t part with their money easily. Are you piling bonuses on top of your reasons why they should part with their hard earned money, in exchange for immediate action?
 
-<span>12. And finally, do you have a killer P.S.?</span>
-For some reason, the P.S. at the bottom of a sales letter gets read a lot. Make it stop your reader in their tracks, like a deer in the headlights! Associate a positive outcome with taking the desired action, or a negative one with delay or inaction.So there you have it. Exercise this 12-step ad copy checklist before your sales rubber hits the road.`
+<span>12. And finally, Do You Have a Killer P.S.?</span>
+For some reason, the P.S. at the bottom of a sales letter gets read a lot. Make it stop your reader in their tracks, like a deer in the headlights! Associate a positive outcome with taking the desired action or a negative one with delay or inaction. So there you have it. Exercise this 12-step ad copy checklist before your sales rubber hits the road.`
     },
     {
         id: 4,
@@ -124,13 +124,13 @@ For some reason, the P.S. at the bottom of a sales letter gets read a lot. Make 
         author: "Constance Beebe",
         date: "June, 2020",
         imageUrl: "",
-        imageAlt: "",
+        imageAlt: "The difference between Print Logos and Digital Logos,",
         category: "Logos",
         tags: ["Digital and Print Logo Design", "Digital Media Logos", "Graphic Design", "Printed Media Graphic Design", "Corporate Branding"],
         snippet: "The difference between Print Logos and Digital Logos",
         content: `
 
-    Print logos require a much higher resolution (i.e., pixels per inch) to create and need to be saved in certain standard print file formats. Some of the most common and universal print formats for print jobs are TIFF, EPS, and Adobe Acrobat PDF. By creating a logo in these file formats, the logo can be opened up and printed even without having the original software application the logo was created in. Because print logos can become very large in file size, unless you have a fast Internet connection they are best sent on a form of removable media, such as a floppy disk, a Zip disk, or a CD-ROM.
+    Print logos require a much higher resolution (i.e., pixels per inch), to create and need to be saved in certain standard print file formats. Some of the most common and universal print formats for print jobs are TIFF, EPS, and Adobe Acrobat PDF. By creating a logo in these file formats, the logo can be opened up and printed even without having the original software application the logo was created in. Because print logos can become very large in file size, unless you have a fast Internet connection they are best sent on a form of removable media, such as a Thumb Drive, a Portable Hard Drive, or a CD-ROM.
     
     Web logos require a much smaller resolution (since they only need to be displayed on screen), and can be sent directly through email or available for immediate download. Because web logos are so small in file size, they are not a good choice for printing, as the quality will appear very blurred or jagged on paper.`
 
