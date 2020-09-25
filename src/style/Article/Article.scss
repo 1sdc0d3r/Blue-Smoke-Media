@@ -7,6 +7,12 @@ h1 {
 }
 .author {
   text-align: left;
+  margin-right: 10%;
+}
+
+.date {
+  text-align: left;
+  margin-right: 5%;
 }
 span {
   font-weight: 700;
@@ -16,6 +22,7 @@ span {
   font-weight: inherit;
 }
 pre {
+  color: $darkBlue;
   margin-top: 0;
   margin-bottom: 2em;
   text-align: left;
@@ -24,6 +31,5 @@ pre {
   background: $white;
   padding: 0.5em 1em;
   border: none;
-  font-size: 1em;
-  color: $darkBlue;
+  font-size: .75em;
 }
