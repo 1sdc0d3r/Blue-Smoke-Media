@@ -4,7 +4,7 @@ export const articleData = [{
         title: "10 Prominent Website Design Mistakes",
         author: "Constance Beebe",
         date: "May, 2020",
-        imageUrl: "../../src/images/Blog/Primary/JPEG-PNG/10_common_website_design_mistakes.jpg",
+        imageUrl: "amazon/10_common_website_design_mistakes.jpg",
         imageAlt: "10 Prominent Website Design Mistakes Commonly Made.",
         category: "Custom Website Design",
         tags: ["Affordable Custom Website Design", "Search Engine Optimization (SEO)", "Organic SEO", "E-Commerce Website Development", "Website Usability"],
@@ -36,7 +36,7 @@ export const articleData = [{
         title: "How Website Design Can Affect Search Engine Rankings",
         author: "John Metzler",
         date: "",
-        imageUrl: "../../src/images/Blog/Primary/JPEG-PNG/how-website-design-can-affect-search-engine-rankings.jpg",
+        imageUrl: "amazon/how-website-design-can-affect-search-engine-rankings.jpg",
         imageAlt: "How Website Design Can Affect Search Engine Rankings",
         category: "Search Engine Optimization",
         tags: ["Search Engine Optimization (SEO)", "Organic SEO", "Website Content Writing"],
@@ -77,7 +77,7 @@ Many shortfalls of websites can easily be attributed to designers who just do no
         title: "Ad Copy Inspection - Cover These 12 Points!",
         author: "Daniel Levis",
         date: "",
-        imageUrl: "",
+        imageUrl: "amazon/",
         imageAlt: "",
         category: "Ad-Copywriting",
         tags: ["Ad-copywriting", "Search Engine Optimization (SEO)", "Organic SEO", "Strategic Social Media Marketing", "Website Content Writing", "Reputation Management"],
@@ -126,15 +126,15 @@ For some reason, the P.S. at the bottom of a sales letter gets read a lot. Make 
         title: "The Difference Between a Print Logo and a Web Logo",
         author: "Constance Beebe",
         date: "June, 2020",
-        imageUrl: "",
-        imageAlt: "The difference between Print Logos and Digital Logos,",
+        imageUrl: "amazon/",
+        imageAlt: "",
         category: "Logos",
         tags: ["Digital and Print Logo Design", "Digital Media Logos", "Graphic Design", "Printed Media Graphic Design", "Corporate Branding"],
         snippet: "The difference between Print Logos and Digital Logos",
         content: `
 
-    Print logos require a much higher resolution (i.e., pixels per inch), to create and need to be saved in certain standard print file formats. Some of the most common and universal print formats for print jobs are TIFF, EPS, and Adobe Acrobat PDF. By creating a logo in these file formats, the logo can be opened up and printed even without having the original software application the logo was created in. Because print logos can become very large in file size, unless you have a fast Internet connection they are best sent on a form of removable media, such as a Thumb Drive, a Portable Hard Drive, or a CD-ROM.
-    
+    Print logos require a much higher resolution (i.e., pixels per inch) to create and need to be saved in certain standard print file formats. Some of the most common and universal print formats for print jobs are TIFF, EPS, and Adobe Acrobat PDF. By creating a logo in these file formats, the logo can be opened up and printed even without having the original software application the logo was created in. Because print logos can become very large in file size, unless you have a fast Internet connection they are best sent on a form of removable media, such as a floppy disk, a Zip disk, or a CD-ROM.
+
     Web logos require a much smaller resolution (since they only need to be displayed on screen), and can be sent directly through email or available for immediate download. Because web logos are so small in file size, they are not a good choice for printing, as the quality will appear very blurred or jagged on paper.`
 
     },
@@ -143,22 +143,22 @@ For some reason, the P.S. at the bottom of a sales letter gets read a lot. Make 
         title: "SEO Through Well Built Pages",
         author: "Mark Daoust",
         date: "",
-        imageUrl: "",
+        imageUrl: "amazon/",
         imageAlt: "",
         category: "Organic SEO",
         tags: ["Organic SEO", "Search Engine Optimization (SEO)", "Digital Graphic Design", "Website Content Writing", "Coding and Programming", "Website Useability"],
         snippet: "Search engines have moved beyond simply calculating keyword density and link relevance. More and more, the major search engines are continuing to master the ability to identify natural human language and evaluate a web page based on natural human language. Back in the late 90’s and early 2000’s, AskJeeves.com was the first search engine to attempt to move to a natural human language system, although they focused on the user input aspect of search rather than evaluating the natural language of a web page itself.",
         content: `
     Search engines have moved beyond simply calculating keyword density and link relevance. More and more, the major search engines are continuing to master the ability to identify natural human language and evaluate a web page based on natural human language. Back in the late 90’s and early 2000’s, AskJeeves.com was the first search engine to attempt to move to a natural human language system, although they focused on the user input aspect of search rather than evaluating the natural language of a web page itself.
-    
+
     By learning to identify natural human language, search engines are able to greatly reduce the amount of search engine spam. The advances of search engines continue, especially on the heels of<a href="https://www.searchenginejournal.com/google-algorithm-history"> Google's constant algorithm </a>changes which will enable Google to weigh the relevance of links against the content of their pages. Search engines will continue to look at the entire content of websites and continue to attempt to identify the real subjects and themes of any given site. However with Google, Mobile and content have become their primary focus.
-    
+
     As the AI’s for the search engines learn to better identify the natural language structure of websites, sites that are well formed will have a natural advantage. Although good search engine rankings will always depend on more than just the structure and content of a website, the content of a website will always be the heart of a page's rankings.
-    
+
     <span>Make a Search Engine's Job Easy.</span> Search engine spiders have a lot of work to do. Not only do they spider billions of pages every month attempting to discover new web pages and update already discovered web pages, these spiders need to parse through hundreds or even thousands of lines of code trying to distinguish between titles, content, structural code, and even the occasional keyword stuffing by search engine spammers. By simplifying your website, you make the job easier for the spider and allow the spider to index more pages on your site in a shorter amount of time.
-    
+
     <span class="italic">Avoid Bloated Code (Keep it DRY - Don’t Repeat Yourself!)</span>
-    
+
     Unfortunately for the sake of design, many website owners have paid absolutely no attention to how efficient their code is. As a result, they may have a lot of extraneous, unnecessary code. The result of bloated code is a page that may be difficult and confusing for a search engine to decipher, or the spider may misinterpret the code.Fortunately, HTML and CSS has caught up to the design standards of website professionals. Using proper HTML and CSS, you can design extremely appealing websites that do not rely on tables for their layout. If you would like to see just how versatile and effective HTML and CSS is, look at the examples laid out at CSS Zen Garden. CSS Zen Garden is a website that displays the power of CSS and properly formed HTML. There are several different designs all using the exact same HTML, but through CSS they are able to build sites that looking completely different form each other.If you want to see something very amazing about what CSS Zen Garden is doing, follow these steps. View the HTML of their page. It does not matter what style you are viewing, the HTML is the same for every style. Now copy that code and paste it into your HTML editor and view the output. The page that you will see is an extremely basic looking page. More importantly, though, the page that you will see is a very well organized page which would be easy for any spider to understand.Learn More About HTMLIf you are like most website owners, you know very little about HTML. You may know a little bit of code here and there, but it really does not seem worth your time to learn the inner workings of HTML. If you feel this way, then you are really missing out on great SEO opportunities. There are plenty of FREE websites from which you can learn to code from. <a href='https://www.codecademy.com'>CodeAcademy</a> and <a href='https://www.freecodecamp.org'>FreeCodeCamp</a> are two of my favorites. HTML is built to naturally identify parts of your web page that are more important than others. It was built to be extremely organized. Using the organization that HTML provides, you can help a search engine spider identify the parts of your website that are more important. Below are some uncommon tags that HTML provides that you can use to help organize your content:Alt Tag – Most website owners know about this, but including an Alt Tag on your images is actually required if you want to have a properly formed website - Although using tables to determine the layout of your website is becoming a practice that will soon be extinct, tables will still be necessary. The caption tag allows you to identify what a specific table is about. An example: Table 3.2. Raw Sales Data. Usage note: Do not use this attribute, as it has been deprecated. The  element should be styled using the CSS properties caption-side and text-align.The H Tags – H1 tags have become some of the most important tags in SEO circles, once website owners learned that Google DID pay attention to this tag. However, there are actually 6 different heading tags. The H1 tag is the most important while the H6 tag is the least important. If a search engine were to try to form a table of contents from a website, it should be able to do so from the H tags. These are just a few examples, but HTML provides several tags for your content to help you organize your material, and help search engines know what to emphasize in your content.Article TipWe have started a thread of these HTML tags. If you would like to know more about HTML tags and CSS, check out <a href='https://developer.mozilla.org/en-US/docs/Web/HTML'>here</a>. The lesson from this should be that learning HTML is not an endeavor that has few benefits. There is a lot of HTML that can help you both simplify your code and add more content to help your rankings.Fortunately, web technology is catching up. With the advent of HTML5 and CSS3, it is easier now than ever to create beautiful sites. If you are not familiar with CSS, just read that previous sentence as being a very good thing. As was demonstrated by the example of CSSZenGarden.com, CSS can be used to create a page that is extremely appealing.Most website owners know CSS to be a tool that they can use to edit the appearance of text and the colors of their site, but CSS is also a tool that can be used for the layout of your site. As CSS comes out with newer versions, layout will become a more important development.If you plan to design your own website, I would like to suggest you learn HTML and CSS. A little Javascript wouldn’t hurt.The Side Benefit: AccessibilityDid you know that blind people surf the Internet? That may not seem shocking initially, but consider that the Internet is a highly visual medium of transferring information. Blind people are able to use web readers and Braille machines that interpret HTML code.Unfortunately, the vast majority of websites are not accessible for blind people because they are not well formed sites. By moving to a well formed website, you will be adding access for an audience who marketers really do not focus on.  But they should!
     Accessible Rich Internet Applications (ARIA) is a set of attributes that define ways to make web content and web applications (especially those developed with JavaScript), more accessible to people with disabilities.
     It supplements HTML so that interactions and widgets commonly used in applications can be passed to assistive technologies when there is not otherwise a mechanism. For example, Wai-ARIA enables accessible navigation landmarks in HTML4, JavaScript widgets, form hints and error messages, live content updates, and more. 
@@ -170,7 +170,7 @@ For some reason, the P.S. at the bottom of a sales letter gets read a lot. Make 
         title: "The Local Search Revolution has Arrived!...optimize your online LOCAL presence now - before the learning curve turns expensive.",
         author: "Esoos Bobnar",
         date: "",
-        imageUrl: "",
+        imageUrl: "amazon/",
         imageAlt: "",
         category: "Local Search",
         tags: ["Local Search", "Consumer Loyalty", "Organic SEO", "Website Content Writing", "Ad-Copywriting", "Website Usability"],
@@ -223,7 +223,7 @@ For some reason, the P.S. at the bottom of a sales letter gets read a lot. Make 
         title: "Attract Targeted Local Customers With Online Marketing",
         author: "Judy Cullins",
         date: "",
-        imageUrl: "",
+        imageUrl: "amazon/",
         imageAlt: "",
         category: "Local Search",
         tags: ["Local Search", "Brand Loyalty", "Affordable Custom Website Design", "Strategic Social Media Marketing", "Organic SEO", "Website Content Writing", "Website Usability", "Reputation Management"],
@@ -267,7 +267,7 @@ For some reason, the P.S. at the bottom of a sales letter gets read a lot. Make 
         title: "What Makes A Winning Online Ad?",
         author: "Daniel Levis",
         date: "",
-        imageUrl: "",
+        imageUrl: "amazon/",
         imageAlt: "",
         category: "Social Media Marketing",
         tags: ["Social Media Marketing", "Website Content Writing", "Digital Graphic Design", "Typography"],
@@ -280,7 +280,7 @@ For some reason, the P.S. at the bottom of a sales letter gets read a lot. Make 
         title: "Website Manifestation - 7 Steps to a Successful website",
         author: "Constance Beebe",
         date: "July, 2020",
-        imageUrl: "",
+        imageUrl: "amazon/",
         imageAlt: "",
         category: "Website Useability",
         tags: ["Website Useability", "Custom Website Design", "Website Content Writing", "Search Engine Optimization (SEO)", "Digital Graphic Design", "Website Maintenance", "Website Usability"],
@@ -322,7 +322,7 @@ For some reason, the P.S. at the bottom of a sales letter gets read a lot. Make 
         title: "New client? Get it in writing!",
         author: "Cathy Goodwin, Ph.D.",
         date: "",
-        imageUrl: "",
+        imageUrl: "amazon/",
         imageAlt: "",
         category: "Contract Agreement",
         tags: ["Strategic Social Media Marketing", "Website Content Writing", "Reputation Management", "Custom Website Design", "Search Engine Optimization (SEO)", "Digital Graphic Design", "E-Commerce Website Development"],
@@ -360,7 +360,7 @@ For some reason, the P.S. at the bottom of a sales letter gets read a lot. Make 
         title: "9 Keys to an Effective Logo",
         author: "Erin Ferree",
         date: "",
-        imageUrl: "",
+        imageUrl: "amazon/",
         imageAlt: "",
         category: "Logos",
         tags: ["Digital Media Logo", "Printed Media Logo", "Brand Loyalty", "Consumer Loyalty", "Reputation Management"],
@@ -375,7 +375,7 @@ For some reason, the P.S. at the bottom of a sales letter gets read a lot. Make 
         title: "Three Things You Must Do When Designing and Building Your Small Business Website",
         author: "Constance Beebe",
         date: "August, 2020",
-        imageUrl: "",
+        imageUrl: "amazon/",
         imageAlt: "",
         category: "Custom Website Design",
         tags: ["Affordable Custom Website Design", "Search Engine Optimization (SEO)", "Website Usability", "Website Content Writing"],
@@ -421,7 +421,7 @@ For some reason, the P.S. at the bottom of a sales letter gets read a lot. Make 
         title: "What is 'organic' search and how can it help your company?",
         author: "Constance Beebe",
         date: "June, 2020",
-        imageUrl: "",
+        imageUrl: "amazon/",
         imageAlt: "",
         category: "Organic SEO",
         tags: ["Organic SEO", "Website Content Writing", "Custom Website Design", "Search Engine Optimization (SEO)", "Digital Graphic Design", "E-Commerce Website Development"],
@@ -459,7 +459,7 @@ For some reason, the P.S. at the bottom of a sales letter gets read a lot. Make 
         title: "10 TIPS FOR WRITING A HIGHLY PERSUASIVE AD",
         author: "Keith Gloster",
         date: "",
-        imageUrl: "",
+        imageUrl: "amazon/",
         imageAlt: "",
         category: "Strategic Social Media Marketing",
         tags: ["Strategic Social Media Marketing", "Ad-Copywriting", "Website Content Writing", "E-mail Marketing"],
@@ -503,7 +503,7 @@ For some reason, the P.S. at the bottom of a sales letter gets read a lot. Make 
         title: "How to Write Effective Web Copy",
         author: "Herman Drost",
         date: "",
-        imageUrl: "",
+        imageUrl: "amazon/",
         imageAlt: "",
         category: "Effective Website Copy",
         tags: ["Effective Website Copy", "Affordable Custom Website Design", "Website Content Writing", "Website Usability"],
@@ -547,10 +547,10 @@ For some reason, the P.S. at the bottom of a sales letter gets read a lot. Make 
         title: "Build It And They Will Come. True or False? Why So Many Online Businesses Fail.",
         author: "Jill St Claire",
         date: "",
-        imageUrl: "",
+        imageUrl: "amazon/",
         imageAlt: "",
         category: "Custom Website Design",
-        tags: ["Affordable Custom Website Design", "Website Traffic","Strategic Social Media Marketing", "Search Engine Optimization (SEO)", "E-Commerce Website Development", "Coding and Programming", "Website Usability"],
+        tags: ["Affordable Custom Website Design", "Website Traffic", "Strategic Social Media Marketing", "Search Engine Optimization (SEO)", "E-Commerce Website Development", "Coding and Programming", "Website Usability"],
         snippet: "Build it and they will come! Well . . . sometimes. If you're real lucky, and I mean REALLY lucky.",
         content: `
     Build it and they will come! Well . . . sometimes. If you're real lucky, and I mean REALLY lucky.Now you have your beautiful website boasting your amazing products or services. It's out there, just waiting for people who want what you have to offer. You're going to dazzle them with your dynamic website and the sales are going to come flooding in. Wrong. The dream is over. It's time to come back to reality.I can't begin to tell you how many times I've heard the stories of disappointment from very sharp business people who actually thought that having a website is all there is to either starting and operating a successful and profitable online business, or incorporating eCommerce into their existing business of traditional commerce.Your website is quite simply, a brochure that is now lost in a very large online ocean of literally billions of other brochures. We'll compare it to a stack of beautifully printed brochures sitting on your desk; your prospects will never see it unless you place your brochures in a visible place where people look for what you have to offer - true? Your online brochure, (your website), also needs to be positioned in a visible place where your prospects can find you - on major search engine directories.Keywords and key phrases are the search words and terms Internet surfers use to find the products, services or information they are looking for.Choosing the right keywords and phrases for your website's search engine optimization (SEO) program is critical to its success. The right keywords drive targeted traffic to your website - prospects who are ready to buy. The wrong keywords attract web visitors that are not likely to purchase your products and services - wasting everyone's time and your money.
@@ -579,7 +579,7 @@ For some reason, the P.S. at the bottom of a sales letter gets read a lot. Make 
         title: "Social Media: Why It Is 100% Essential (and How to Use It Well)",
         author: "Constance Beebe",
         date: "September, 2020",
-        imageUrl: "",
+        imageUrl: "amazon/",
         imageAlt: "",
         category: "Strategic Social Media Marketing",
         tags: ["Brand Loyalty", "Consumer Loyalty", "Affordable Custom Website Design", "Strategic Social Media Marketing", "Content Writing", "Ad-Copywriting"],
