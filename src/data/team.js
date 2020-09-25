@@ -22,7 +22,7 @@ export default [{
   {
     name: "Daniel Wallen - Social Sharing Specialist",
     img: Daniel,
-    description: "Daniel Wallen is a creative copywriter with a decade of experience. His content has reached millions of people and been shared more than 500,000 times. He's also published many best-selling Amazon books for both himself and ghostwriting clients. In 2019, he took a gap year to learn code, and loves creating mobile friendly experiences. Daniel once acted in a full-length move that had great success in film festivals and can talk his way out of anything."
+    description: "Daniel Wallen is a creative copywriter with a decade of experience. His content has reached millions of people and been shared more than 500,000 times. He's also published many best-selling Amazon books for both himself and ghostwriting clients. In 2019, he took a gap year to learn code, and loves creating mobile friendly experiences. Daniel once acted in a full-length movie that had great success in film festivals and can talk his way out of anything."
   }, {
     name: "Ramona Lucius - Email Marketing",
     img: Ramona,

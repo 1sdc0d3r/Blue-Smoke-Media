@@ -112,6 +112,8 @@
   color: #020723;
   border: 2px outset #020723;
   border-radius: 0.25em;
+  font-weight: 600;
+  padding: 0.125em 0.25em;
 }
 
 @media (max-width: 360px) {
