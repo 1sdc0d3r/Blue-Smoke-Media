@@ -78,7 +78,7 @@ Many shortfalls of websites can easily be attributed to designers who just do no
         author: "Daniel Levis",
         date: "",
         imageUrl: "amazon/",
-        imageAlt: "",
+        imageAlt: "Getting a piece of 'Advertising Copy'to come through for you and getting stellar results by following these 12 points!",
         category: "Ad-Copywriting",
         tags: ["Ad-copywriting", "Search Engine Optimization (SEO)", "Organic SEO", "Strategic Social Media Marketing", "Website Content Writing", "Reputation Management"],
         snippet: "You’re ready to launch that new product or promotion, & you’re really counting on a piece of advertising copy to come through for you. You're are looking for stellar results! And, you’re determined to do everything in your power to get them. Which means surveys, thorough testing, and ongoing refinement of your ad copy.",
@@ -133,9 +133,9 @@ For some reason, the P.S. at the bottom of a sales letter gets read a lot. Make 
         snippet: "The difference between Print Logos and Digital Logos",
         content: `
 
-    Print logos require a much higher resolution (i.e., pixels per inch) to create and need to be saved in certain standard print file formats. Some of the most common and universal print formats for print jobs are TIFF, EPS, and Adobe Acrobat PDF. By creating a logo in these file formats, the logo can be opened up and printed even without having the original software application the logo was created in. Because print logos can become very large in file size, unless you have a fast Internet connection they are best sent on a form of removable media, such as a floppy disk, a Zip disk, or a CD-ROM.
+Print logos require a much higher resolution (i.e., pixels per inch - begins at 300px), to create and need to be saved in certain standard print file formats. Some of the most common and universal print formats for print jobs are TIFF, EPS, and Adobe Acrobat PDF. By creating a logo in these file formats, the logo can be opened up and printed even without having the original software application the logo was created in. Because print logos can become very large in file size, unless you have a fast Internet connection they are best sent on a form of removable media, such as a Thumb Drive, a Portable Hard Drive, or a CD-ROM.
 
-    Web logos require a much smaller resolution (since they only need to be displayed on screen), and can be sent directly through email or available for immediate download. Because web logos are so small in file size, they are not a good choice for printing, as the quality will appear very blurred or jagged on paper.`
+Web logos require a much smaller resolution (since they only need to be displayed on screen - use 72px), and can be sent directly through email or available for immediate download. Because web logos are so small in file size, they are not a good choice for printing, as the quality will appear very blurred or jagged on paper.`
 
     },
     {
