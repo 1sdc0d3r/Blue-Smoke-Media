@@ -127,13 +127,13 @@ For some reason, the P.S. at the bottom of a sales letter gets read a lot. Make 
         author: "Constance Beebe",
         date: "June, 2020",
         imageUrl: "amazon/",
-        imageAlt: "",
+        imageAlt: "The Difference Between a Print Logo and a Web Logo",
         category: "Logos",
         tags: ["Digital and Print Logo Design", "Digital Media Logos", "Graphic Design", "Printed Media Graphic Design", "Corporate Branding"],
         snippet: "The difference between Print Logos and Digital Logos",
         content: `
 
-Print logos require a much higher resolution (i.e., pixels per inch - begins at 300px), to create and need to be saved in certain standard print file formats. Some of the most common and universal print formats for print jobs are TIFF, EPS, and Adobe Acrobat PDF. By creating a logo in these file formats, the logo can be opened up and printed even without having the original software application the logo was created in. Because print logos can become very large in file size, unless you have a fast Internet connection they are best sent on a form of removable media, such as a Thumb Drive, a Portable Hard Drive, or a CD-ROM.
+Print logos require a much higher resolution (i.e., pixels per inch - begins at 300px), to create your project. Printed media also needs to be saved in certain standard print file formats. Some of the most common and universal print formats for print jobs are TIFF, EPS, and Adobe Acrobat PDF. By creating a logo in these file formats, the logo can be opened up and printed, even without having the original software application the logo was created in. Because print logos can become very large in file size, unless you have a fast Internet connection. The files are best sent on a form of removable media, such as a Thumb Drive, a Portable Hard Drive, or a CD-ROM.
 
 Web logos require a much smaller resolution (since they only need to be displayed on screen - use 72px), and can be sent directly through email or available for immediate download. Because web logos are so small in file size, they are not a good choice for printing, as the quality will appear very blurred or jagged on paper.`
 
