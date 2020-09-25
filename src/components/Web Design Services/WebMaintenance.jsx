@@ -33,17 +33,17 @@ export default function WebMaintenance() {
         <p>
           Pay Per Incident
           <br />
-          Pay for web site maintenance as it is needed. The Client pays an “as
+          Pay for website maintenance as it is needed. The Client pays an “as
           needed” hourly rate based on current hourly rates to be agreed upon at
           the onset of the contract.
         </p>
         <h3>Option Two:</h3>
         <p>
           Your website is checked regularly for correct functionality. Every
-          month we will perform a web site maintenance check to ensure that
-          pages and links are working correctly and that forms within the site
-          are functioning as required. Any identified malfunctions are fixed.
-          Any updates required will be made within 48 hours of the request. The
+          month we will perform a website maintenance check to ensure that pages
+          and links are working correctly and that forms within the site are
+          functioning as required. Any identified malfunctions are fixed. Any
+          updates required will be made within 48 hours of the request. The
           amount of estimated services will determine the cost per month.
         </p>
       </div>

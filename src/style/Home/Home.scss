@@ -12,9 +12,6 @@
     margin-top: 3em;
     min-width: 80%;
     border-bottom: 0.5em solid #020723;
-    @include breakpoint(l, xl, xxl) {
-      // height: 60vh;
-    }
 
     @include breakpoint(xxs, xs, s) {
       background-image: url("../../images/grey_background_globe-element_for_mobile.png");
@@ -170,7 +167,7 @@
         margin-top: 1em;
         border-radius: 1em;
         @include breakpoint(m, l) {
-          width: 40%;
+          width: 32%;
           margin: 10% auto 10%;
         }
         @include breakpoint(xxs, xs, s) {

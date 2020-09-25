@@ -276,14 +276,14 @@
 
 @media (min-width: 737px) and (max-width: 980px) {
   .home .services .services-card-container .service-card {
-    width: 40%;
+    width: 32%;
     margin: 10% auto 10%;
   }
 }
 
 @media (min-width: 981px) and (max-width: 1280px) {
   .home .services .services-card-container .service-card {
-    width: 40%;
+    width: 32%;
     margin: 10% auto 10%;
   }
 }
