@@ -4,7 +4,7 @@ export const articleData = [{
         title: "10 Prominent Website Design Mistakes",
         author: "Constance Beebe",
         date: "May, 2020",
-        imageUrl: "amazon/10_common_website_design_mistakes.jpg",
+        imageUrl: "amazon/",
         imageAlt: "10 Prominent Website Design Mistakes Commonly Made.",
         category: "Custom Website Design",
         tags: ["Affordable Custom Website Design", "Search Engine Optimization (SEO)", "Organic SEO", "E-Commerce Website Development", "Website Usability"],
@@ -126,7 +126,7 @@ For some reason, the P.S. at the bottom of a sales letter gets read a lot. Make 
         title: "The Difference Between a Print Logo and a Web Logo",
         author: "Constance Beebe",
         date: "June, 2020",
-        imageUrl: "amazon/",
+        imageUrl: "amazon//Users/lambda_school_loaner_206/Desktop/Blue-Smoke-Media/src/images/Blog/Primary/JPEG-PNG/image-file-types.jpg",
         imageAlt: "The Difference Between a Print Logo and a Web Logo",
         category: "Logos",
         tags: ["Digital and Print Logo Design", "Digital Media Logos", "Graphic Design", "Printed Media Graphic Design", "Corporate Branding"],
@@ -143,8 +143,8 @@ Web logos require a much smaller resolution (since they only need to be displaye
         title: "SEO Through Well Built Pages",
         author: "Mark Daoust",
         date: "",
-        imageUrl: "amazon/",
-        imageAlt: "We build Organic SEO into your website at no extra cost.",
+        imageUrl: "amazon//Users/lambda_school_loaner_206/Desktop/Blue-Smoke-Media/src/images/Blog/Primary/JPEG-PNG/Organic-SEO-a-no-extra-cost.jpg",
+        imageAlt: "We build Organic SEO into your website at no extra cost!",
         category: "Organic SEO",
         tags: ["Organic SEO", "Search Engine Optimization (SEO)", "Digital Graphic Design", "Website Content Writing", "Coding and Programming", "Website Useability"],
         snippet: "Search engines have moved beyond simply calculating keyword density and link relevance. More and more, the major search engines are continuing to master the ability to identify natural human language and evaluate a web page based on natural human language. Back in the late 90’s and early 2000’s, AskJeeves.com was the first search engine to attempt to move to a natural human language system, although they focused on the user input aspect of search rather than evaluating the natural language of a web page itself.",
@@ -161,29 +161,35 @@ Search engine spiders have a lot of work to do. Not only do they spider billions
 <span class="italic">Avoid Bloated Code (Keep it DRY - Don’t Repeat Yourself!)</span>
 
 Unfortunately for the sake of design, many website owners have paid absolutely no attention to how efficient their code is. As a result, they may have a lot of extraneous, unnecessary code. The result of bloated code is a page that may be difficult and confusing for a search engine to decipher, or the spider may misinterpret the code.Fortunately, HTML and CSS has caught up to the design standards of website professionals. Using proper HTML and CSS, you can design extremely appealing websites that do not rely on tables for their layout. If you would like to see just how versatile and effective HTML and CSS is, look at the examples laid out at CSS Zen Garden. CSS Zen Garden is a website that displays the power of CSS and properly formed HTML. There are several different designs all using the exact same HTML, but through CSS they are able to build sites that looking completely different form each other.If you want to see something very amazing about what CSS Zen Garden is doing, follow these steps. View the HTML of their page. It does not matter what style you are viewing, the HTML is the same for every style. Now copy that code and paste it into your HTML editor and view the output. The page that you will see is an extremely basic looking page. More importantly, though, the page that you will see is a very well organized page which would be easy for any spider to understand.Learn More About HTMLIf you are like most website owners, you know very little about HTML. You may know a little bit of code here and there, but it really does not seem worth your time to learn the inner workings of HTML. If you feel this way, then you are really missing out on great SEO opportunities. There are plenty of FREE websites from which you can learn to code from. <a href='https://www.codecademy.com'>CodeAcademy</a> and <a href='https://www.freecodecamp.org'>FreeCodeCamp</a> are two of my favorites. HTML is built to naturally identify parts of your web page that are more important than others. It was built to be extremely organized. Using the organization that HTML provides, you can help a search engine spider identify the parts of your website that are more important. Below are some uncommon tags that HTML provides that you can use to help organize your content:Alt Tag – Most website owners know about this, but including an Alt Tag on your images is actually required if you want to have a properly formed website - Although using tables to determine the layout of your website is becoming a practice that will soon be extinct, tables will still be necessary. The caption tag allows you to identify what a specific table is about. An example: Table 3.2. Raw Sales Data. Usage note: Do not use this attribute, as it has been deprecated. The  element should be styled using the CSS properties caption-side and text-align.The H Tags – H1 tags have become some of the most important tags in SEO circles, once website owners learned that Google DID pay attention to this tag. However, there are actually 6 different heading tags. The H1 tag is the most important while the H6 tag is the least important. If a search engine were to try to form a table of contents from a website, it should be able to do so from the H tags. These are just a few examples, but HTML provides several tags for your content to help you organize your material, and help search engines know what to emphasize in your content.Article TipWe have started a thread of these HTML tags. If you would like to know more about HTML tags and CSS, check out <a href='https://developer.mozilla.org/en-US/docs/Web/HTML'>here</a>. The lesson from this should be that learning HTML is not an endeavor that has few benefits. There is a lot of HTML that can help you both simplify your code and add more content to help your rankings.Fortunately, web technology is catching up. With the advent of HTML5 and CSS3, it is easier now than ever to create beautiful sites. If you are not familiar with CSS, just read that previous sentence as being a very good thing. As was demonstrated by the example of CSSZenGarden.com, CSS can be used to create a page that is extremely appealing.Most website owners know CSS to be a tool that they can use to edit the appearance of text and the colors of their site, but CSS is also a tool that can be used for the layout of your site. As CSS comes out with newer versions, layout will become a more important development.If you plan to design your own website, I would like to suggest you learn HTML and CSS. A little Javascript wouldn’t hurt.The Side Benefit: AccessibilityDid you know that blind people surf the Internet? That may not seem shocking initially, but consider that the Internet is a highly visual medium of transferring information. Blind people are able to use web readers and Braille machines that interpret HTML code.Unfortunately, the vast majority of websites are not accessible for blind people because they are not well formed sites. By moving to a well formed website, you will be adding access for an audience who marketers really do not focus on.  But they should!
-    Accessible Rich Internet Applications (ARIA) is a set of attributes that define ways to make web content and web applications (especially those developed with JavaScript), more accessible to people with disabilities.
-    It supplements HTML so that interactions and widgets commonly used in applications can be passed to assistive technologies when there is not otherwise a mechanism. For example, Wai-ARIA enables accessible navigation landmarks in HTML4, JavaScript widgets, form hints and error messages, live content updates, and more. 
-    Google has now begun to implement certain penalties for either Not using the Wai-Aria codes or using them incorrectly.  Here is a guide from the <a href='https://developers.google.com/web/fundamentals/accessibility/semantics-aria>Google Developers</a> on to how to properly use the Aria codes
-    Article Tip Search engines love websites that adhere to W3C's Web Content Accessibility Guidelines Bringing it Back to SEO Many website owners are reluctant to take the time, energy, and money to really learn HTML and CSS, or to learn how they can make their websites truly accessible. However, in the end, they could be hurting their search engine rankings once search engines move closer to identifying natural human language.The creators of HTML have done a magnificent job in creating a structure that can be used to organize your content in ways that make search engine optimization extremely easy. As the owner of your website, you should take care to make sure that it is running the way it was intended to. You would never purchase a car that fails to meet basic standards of quality, so why would you trust your company's income to a website that is based on code that does not meet the quality standards of the Internet?Designing your site properly does take time and effort, but the rewards are numerous. Not only will you have the satisfaction of having a website that is both light in its code and efficient, but search engines will be able to identify the key points of your content much easier, thus giving you more control of your rankings.`
+Accessible Rich Internet Applications (ARIA) is a set of attributes that define ways to make web content and web applications (especially those developed with JavaScript), more accessible to people with disabilities.
+It supplements HTML so that interactions and widgets commonly used in applications can be passed to assistive technologies when there is not otherwise a mechanism. For example, Wai-ARIA enables accessible navigation landmarks in HTML4, JavaScript widgets, form hints and error messages, live content updates, and more. 
+Google has now begun to implement certain penalties for either Not using the Wai-Aria codes or using them incorrectly.  Here is a guide from the <a href='https://developers.google.com/web/fundamentals/accessibility/semantics-aria>Google Developers</a> on to how to properly use the Aria codes
+Article Tip Search engines love websites that adhere to W3C's Web Content Accessibility Guidelines Bringing it Back to SEO Many website owners are reluctant to take the time, energy, and money to really learn HTML and CSS, or to learn how they can make their websites truly accessible. However, in the end, they could be hurting their search engine rankings once search engines move closer to identifying natural human language.The creators of HTML have done a magnificent job in creating a structure that can be used to organize your content in ways that make search engine optimization extremely easy. As the owner of your website, you should take care to make sure that it is running the way it was intended to. You would never purchase a car that fails to meet basic standards of quality, so why would you trust your company's income to a website that is based on code that does not meet the quality standards of the Internet?Designing your site properly does take time and effort, but the rewards are numerous. Not only will you have the satisfaction of having a website that is both light in its code and efficient, but search engines will be able to identify the key points of your content much easier, thus giving you more control of your rankings.`
     },
     {
         id: 6,
         title: "The Local Search Revolution has Arrived!...optimize your online LOCAL presence now - before the learning curve turns expensive.",
         author: "Esoos Bobnar",
         date: "",
-        imageUrl: "amazon/",
-        imageAlt: "",
+        imageUrl: "amazon//Users/lambda_school_loaner_206/Desktop/Blue-Smoke-Media/src/images/Blog/Primary/JPEG-PNG/Advantages of Social Media.jpg",
+        imageAlt: "The Advantages of Local Search and how it can effect your business",
         category: "Local Search",
         tags: ["Local Search", "Consumer Loyalty", "Organic SEO", "Website Content Writing", "Ad-Copywriting", "Website Usability"],
         snippet: "While searching the web these days, it's hard not to notice all those little Local tabs sprouting up in the vicinity of the search field on virtually every major search engine. Within the past year, the race has been to integrate a plethora of advanced features into local search capabilities.",
         content: `
-    While searching the web these days, it's hard not to notice all those little Local tabs sprouting up in the vicinity of the search field on virtually every major search engine. Within the past year, the race has been to integrate a plethora of advanced features into local search capabilities.
-    We're constantly seeing features like customer reviews and ratings, storefront and product photos, detailed maps with directions, hours of operation, forms of accepted payment, integration with cell phones, and much more is promised to follow. Picture a million paper phone books <span>combined.</span> on steroids and capable of providing instant results for an information-hungry and time-challenged customer base. The potential for local search is really quite staggering!
-    <todo h3>So what exactly is local search</todo>, and how can you best position your business to take advantage of it?
-    To put it simply, local search is essentially the Internet's version of the phone book. The difference being that this "phone book" is much faster and far more responsive. For example, suppose I'm in Boston staying at the Harbor View Hotel and in need of a haircut? No problem. I Just enter haircut followed by the zip code of <span>the otel where  I'm staying. 02114. </span>and  instantly find  Richard's Haircutting for Men a scant 0.4 miles east and with directions.
-    All that took about 30 seconds from concept to completion leaving me with a feeling of satisfaction that no regular phone book could ever provide. I'm now addicted to local search after only a single dose! Throw away the phone book, never mind the concierge.
-    Now, if that little demo hasn't yet convinced you, chew on this recent finding...
-    86% of U.S. households now use the Internet as an information source to find a local business when shopping locally for products and services. Here is a breakdown for you:
+While searching the web these days, it's hard not to notice all those little Local tabs sprouting up in the vicinity of the search field on virtually every major search engine. Within the past year, the race has been to integrate a plethora of advanced features into local search capabilities.
+
+We're constantly seeing features like customer reviews and ratings, storefront and product photos, detailed maps with directions, hours of operation, forms of accepted payment, integration with cell phones, and much more is promised to follow. Picture a million paper phone books <span>combined.</span> on steroids and capable of providing instant results for an information-hungry and time-challenged customer base. The potential for local search is really quite staggering!
+    
+<span>So what exactly is local search</span>, and how can you best position your business to take advantage of it?
+
+Simply put, <span>local search is essentially the Internet's version of the phone book.</span> The difference being that this "phone book" is much faster and far more responsive. For example, suppose I'm in Boston staying at the Harbor View Hotel and in need of a haircut? No problem. I Just enter haircut followed by the zip code of the Hotel where I'm staying - 02114, and instantly, find  Richard's Haircutting for Men a scant 0.4 miles east and with directions. All that took about 30 seconds from concept to completion leaving me with a feeling of satisfaction that no regular 
+phone book could ever provide. I'm now addicted to local search after only a single dose! Throw away the phone book, never mind the concierge.
+
+Now, if that little demo hasn't yet convinced you, chew on this recent finding...
+<span>86% of U.S. households now use the Internet as an information source to find a local business when shopping locally for products and services.</span> 
+
+Here is a breakdown for you:
 
         ◆	80% of local searches convert
         ◆	46% of Google searches are for local businesses
@@ -202,38 +208,42 @@ Unfortunately for the sake of design, many website owners have paid absolutely n
         ◆	30% of Google mobile searches are related to location
         ◆	78% of local mobile searches result in an in-store purchase
 
-    <span>Simply ut,  local search. </span>including ocal <span> search on mobile devices. /span>is  dominating the world of brick-n-mortar marketing (especially with the Covid-19 epidemic). Ready or not, here it comes ! ...we suggest you get ready now, before it starts costing you a fortune to negotiate the learning curve. Oh, and get used to the fact that the big yellow phone book has almost  become nothing more than a cheesy doorstop.
-    How To Get Listed In Local Search
-    The first step to getting your business listed in Local Search is (surprise) to buy a listing in the offline Yellow Pages (yep, that cheesy doorstop-to-be we just dis'd) . Here's why:
-    Most search engines get the bulk of their local business listings from just two companies:
+<span>Simply put, local search, including local search on mobile devices, </span>is  dominating the world of brick-n-mortar marketing (especially with the Covid-19 epidemic). Ready or not, here it comes! ...we suggest you get ready now, before it starts costing you a fortune to negotiate the learning curve. Oh, and get used to the fact that the big yellow phone book has almost become nothing more than a cheesy doorstop.
+    
+<span>How To Get Listed In Local Search</span>
+
+The first step to getting your business listed in Local Search is (surprise) to buy a listing in the offline Yellow Pages (yep, that cheesy doorstop-to-be we just dis'd). 
+Here's why:
+Most search engines get the bulk of their local business listings from just two companies:
         1.	InfoUSA
         2.	Acxiom
-    ...or else from Internet Yellow Pages sites which also derive their listings from these two companies. Both have compiled enormous databases containing detailed information on most of the businesses and consumer households in the US and Canada. And much of their data is pulled from your basic Yellow Page and Business White Page directories (aka, the cheesy doorstops) .
+ ...or else from Internet Yellow Pages sites which also derive their listings from these two companies. Both have compiled enormous databases containing detailed information on most of the businesses and consumer households in the US and Canada. And much of their data is pulled from your basic Yellow Page and Business White Page directories (aka, the cheesy doorstops) .
 
-    The good news may be that your business already has a listing in your local Yellow <span>Pages.</span> if not, then you should get one! Don't worry about taking out a big colorful ad with lots of information about your company. We haven't any reason to believe that expensive ads offer any advantage in local search rankings. Nor does lots of business information in your Yellow Pages ad seem to enhance your local search listing's comprehensiveness. It appears to us that any Yellow Pages listing at all will get you included in most local search engines just fine.
+The good news may be that your business already has a listing in your <span>local Yellow Pages,</span> if not, then you should get one! Don't worry about taking out a big colorful ad with lots of information about your company. We haven't any reason to believe that expensive ads offer any advantage in local search rankings. Nor does lots of business information in your Yellow Pages ad seem to enhance your local search listing's comprehensiveness. It appears to us that any Yellow Pages listing at all will get you included in most local search engines just fine.
 
-    What is the most important thing you could do for your businesses Local Search?
-    Sign up for Google My Business! Google My Business is essential for Local SEO as it enables your business listing to appear in local search results for queries specific to your products or services. Even broad queries with large search volumes display local results in the three-pack, and this is something small business owners can capitalize on. It is a tool to manage your online presence across the Google suite of websites, including Google Search, Mobile Search, Local Search and Google Maps. It allows you to create, verify and edit a business listing in Google, without needing to do any extra work to your website or implementing a search engine optimization strategy.
-    In a nutshell, make sure that your business has an up-to-date and detailed Google My Business listing. If you have not taken the time to create and optimize one, then you’re missing out on one of the best free (and guaranteed!) ways of appearing in the Google search results.
-    Google My Business pages aren’t complicated, but they are important. While you may feel like it’s just one more web page to keep on top of, Google My Business should go to the top of the pile as one of the most important.
+<Span>What is the most important thing you could do for your businesses is Local Search? </span>
 
-`
-    },
+<span>Sign up for Google My Business!</Span>
+
+Google My Business is essential for Local SEO as it enables your business listing to appear in local search results for queries specific to your products or services. Even broad queries with large search volumes display local results in the three-pack, and this is something small business owners can capitalize on. It is a tool to manage your online presence across the Google suite of websites, including Google Search, Mobile Search, Local Search and Google Maps. It allows you to create, verify and edit a business listing in Google, without needing to do any extra work to your website or implementing a search engine optimization strategy.
+
+In a nutshell, make sure that your business has an up-to-date and detailed Google My Business listing. If you have not taken the time to create and optimize one, then you’re missing out on one of the best free (and guaranteed!) ways of appearing in the Google search results.
+
+Google My Business pages aren’t complicated, but they are important. While you may feel like it’s just one more web page to keep on top of, Google My Business should go to the top of the pile as one of the most important.
+`},
     {
         id: 7,
         title: "Attract Targeted Local Customers With Online Marketing",
         author: "Judy Cullins",
         date: "",
-        imageUrl: "amazon/",
-        imageAlt: "",
+        imageUrl: "amazon//Users/lambda_school_loaner_206/Desktop/Blue-Smoke-Media/src/images/Blog/Primary/JPEG-PNG/Digital-Marketing-vs-Traditional-Marketing.jpg",
+        imageAlt: "Social Media: Your 24/7 virtual marketing machine?",
         category: "Local Search",
         tags: ["Local Search", "Brand Loyalty", "Affordable Custom Website Design", "Strategic Social Media Marketing", "Organic SEO", "Website Content Writing", "Website Usability", "Reputation Management"],
-
         snippet: "Does your business have a website? Have you missed the idea that it can be your 24/7 virtual marketing machine? Do you wonder how it could bring you more customers and clients to your 'brick and mortar' location? The biggest mistake local businesses make is not using the Internet to let potential customers and clients know who they are, who they can be by offering valuable content to attract them back again and again, and why they are the first choice over their competition.",
         content: `
-    Does your business have a website? Have you missed the idea that it can be your 24/7 virtual marketing machine? Do you wonder how it could bring you minions more customers and clients to your 'brick and mortar' location? The biggest mistake local businesses make is not using the Internet to let potential customers and clients know who they are, who they can be by offering valuable content to attract them back again and again, and why they are the first choice over their competition.Did you know that many of your local potential customers will Google your Web name or your name to see what you offer and how you may be their choice over others? Today people are much more Internet savvy. You need to speak to them.Building traffic to your website to market it needs you to install proper content and sales messages on it as well as other tried and true Online promotion methods such as submitting articles and creating a blog.FACT: You have only 10 seconds to attract your potential customers and get them to stay long enough to show them your business is the best choice.How's your website Doing?Take the 'Check and Correct Quiz” below to see if your website measures up. After your input what you don't know will be clearer. If you want your website to be more effective, stay open and learn how you can put more money in your checking account each month.Answer these questions to see if you are on track or need a professional partner to help you get the necessary marketing language and content on your site to bring targeted traffic. Realize the spiders of the search engines comb sites daily looking for good key word, free information, and power writing sales content.
-    Did you know your website needs?
-
+Does your business have a website? Have you missed the idea that it can be your 24/7 virtual marketing machine? Do you wonder how it could bring you minions more customers and clients to your 'brick and mortar' location? The biggest mistake local businesses make is not using the Internet to let potential customers and clients know who they are, who they can be by offering valuable content to attract them back again and again, and why they are the first choice over their competition. Did you know that many of your local potential customers will Google your Web name or your name, to see what you offer and how you may be their choice over others? Today people are much more Internet savvy. You need to speak to them. Building traffic to your website to market it needs you to install proper content and sales messages on it as well as other tried and true Online promotion methods such as submitting articles and creating a blog. FACT: You have only 10 seconds to attract your potential customers and get them to stay long enough to show them your business is the best choice.How's your website Doing?Take the 'Check and Correct Quiz” below to see if your website measures up. After your input what you don't know will be clearer. If you want your website to be more effective, stay open and learn how you can put more money in your checking account each month.Answer these questions to see if you are on track or need a professional partner to help you get the necessary marketing language and content on your site to bring targeted traffic. Realize the spiders of the search engines comb sites daily looking for good key word, free information, and power writing sales content.
+Do you know your website needs?
 
     1. A sales letter (short or long) for each product or service you offer. You need to give your visitors a reason to buy from you.
 
@@ -245,9 +255,9 @@ Unfortunately for the sake of design, many website owners have paid absolutely n
 
     5. Less telling and more engaging the visitor to stay (They leave immediately if they don't see benefits and valuable content that answers their concerns. Forget the brochure-style home page.
 
-    6.A preplan naming the top 2-3 focuses you want to attract customers to, who your target market is, and your website's contacts and money goals.
+    6. A preplan naming the top 2-3 focuses you want to attract customers to, who your target market is, and your website's contacts and money goals.
 
-    6.A preplan naming the top 2-3 focuses you want to attract customers to, who your target market is, and your Website's contacts and money goals.
+    6. A preplan naming the top 2-3 focuses you want to attract customers to, who your target market is, and your Website's contacts and money goals.
 
     7. Much more 'You' centered information such as benefits or short tips and articles
 
@@ -268,7 +278,7 @@ Unfortunately for the sake of design, many website owners have paid absolutely n
         title: "What Makes A Winning Online Ad?",
         author: "Daniel Levis",
         date: "",
-        imageUrl: "amazon/",
+        imageUrl: "amazon/Users/lambda_school_loaner_206/Desktop/Blue-Smoke-Media/src/images/Blog/Primary/JPEG-PNG/Digital-Marketing-vs-Traditional-Marketing.jpg/",
         imageAlt: "",
         category: "Social Media Marketing",
         tags: ["Social Media Marketing", "Website Content Writing", "Digital Graphic Design", "Typography"],
@@ -278,7 +288,7 @@ Unfortunately for the sake of design, many website owners have paid absolutely n
 `
     }, {
         id: 9,
-        title: "Website Manifestation - 7 Steps to a Successful website",
+        title: "c",
         author: "Constance Beebe",
         date: "July, 2020",
         imageUrl: "amazon/",
@@ -287,36 +297,39 @@ Unfortunately for the sake of design, many website owners have paid absolutely n
         tags: ["Website Useability", "Custom Website Design", "Website Content Writing", "Search Engine Optimization (SEO)", "Digital Graphic Design", "Website Maintenance", "Website Usability"],
         snippet: "The more time and effort you put into planning and building your website, or revamping an existing one, the more successful you'll be. Your new site will have more potential in accomplishing your business goals, your business will look more credible to all the people visiting your site, and you'll increase your bottom line.",
         content: `
-    If you are in business for yourself, an executive with decision making power, or the head of your company, you are probably bombarded with advice, opinions and information about how to build or re-vamp your website and how to use it to your advantage in business.
-    To be as successful as possible in your e-business, you'll need to plan ahead and you'll need to properly fuse the disciplines of design, technology and marketing. From conception to reality, the process of manifesting a website draws upon a multidisciplinary approach.
-    The more time and effort you put into planning and building your website, or revamping an existing one, the more successful you'll be. Your new site will have more potential in accomplishing your business goals, your business will look more credible to all the people visiting your site, and you'll increase your bottom line.
-    The following is a guide for building a new website. It shows how a corporate webmaster or Web department creates a world-class website, and it is the same step by step process that every organization, no matter how small, should follow.
+If you are in business for yourself, an executive with decision making power, or the head of your company, you are probably bombarded with advice, opinions and information about how to build or re-vamp your website and how to use it to your advantage in business.
+To be as successful as possible in your e-business, you'll need to plan ahead and you'll need to properly fuse the disciplines of design, technology and marketing. From conception to reality, the process of manifesting a website draws upon a multidisciplinary approach.
+The more time and effort you put into planning and building your website, or revamping an existing one, the more successful you'll be. Your new site will have more potential in accomplishing your business goals, your business will look more credible to all the people visiting your site, and you'll increase your bottom line.
+The following is a guide for building a new website. It shows how a corporate webmaster or Web department creates a world-class website, and it is the same step by step process that every organization, no matter how small, should follow.
 
-    <s>Step . </s pan>Discovery:The first phase involves determining the scope of the project, the timeline and scheduling parameters, everyone's expectations, and your current human and technical resources.
+    <span>Step 1 - Discovery:</span> The first phase involves determining the scope of the project, the timeline and scheduling parameters, everyone's expectations, and your current human and technical resources.
 
-    Step 2 - Concept and Planning:The next step is to determine site requirements, business goals, types of functionality, site features, and a timeline and due date. You'll need to determine who your site audience is, the demographics and psychographics of your visitors.
-    In this phase the architecture or organization of the information that will be included on the site needs to be planned as well. The most important part of this step is determining your goals for the site. You need to ask yourself and any other stake holders exactly what the new site ought to yield when completed. What do you expect the site to do? What do you want to get out of it? What messages do you want to convey to all the people who will eventually view it? What are the priorities of the site in terms of your business and making money? What types of people will be using the site and what will they want to accomplish while there?
+    <span/>Step 2 - Concept and Planning: </span>The next step is to determine site requirements, business goals, types of functionality, site features, and a timeline and due date. You'll need to determine who your site audience is, the demographics and psychographics of your visitors.
+    
+In this phase the architecture or organization of the information that will be included on the site needs to be planned as well. The most important part of this step is determining your goals for the site. You need to ask yourself and any other stake holders exactly what the new site ought to yield when completed. What do you expect the site to do? What do you want to get out of it? What messages do you want to convey to all the people who will eventually view it? What are the priorities of the site in terms of your business and making money? What types of people will be using the site and what will they want to accomplish while there?
 
-    Step 3 - Design Specifications:This is when the look & feel and a visual design specification are created. Here you'll determine the fonts, colors and size and layouts, always trying to keep consistency paramount. You'll want to write specifications for the images you'll be using on the site as well. It's also the time to decide upon and design the technical infrastructure and architecture of the site, server, environment and platform. You'll determine what programming languages and databases will be used, if any, and any other technical features your site will need.
-    One of the secondary benefits of following Step 3 is that you'll have a document to refer back to later on when adding to the site. If you hire a new Web person of company, you can give them this design specification document for them to follow whenever they work on your site
+    <span>Step 3 - Design Specifications: </span>This is when the look & feel and a visual design specification are created. Here you'll determine the fonts, colors and size and layouts, always trying to keep consistency paramount. You'll want to write specifications for the images you'll be using on the site as well. It's also the time to decide upon and design the technical infrastructure and architecture of the site, server, environment and platform. You'll determine what programming languages and databases will be used, if any, and any other technical features your site will need.
+    
+One of the secondary benefits of following Step 3 is that you'll have a document to refer back to later on when adding to the site. If you hire a new Web person of company, you can give them this design specification document for them to follow whenever they work on your site
 
-    <s>Step . </s pan>Production:Before this phase begins, everyone who is involved in this project, including people who give the final ‘ok', need to know that there will be a technical and look and feel design freeze at this point. If any changes are needed during this point, then those changes will be done in the next redesign.
-    The production phase can be broken down into three areas and will include:
+    <span>Step 4 - Production: </span>Before this phase begins, everyone who is involved in this project, including people who give the final ‘ok', need to know that there will be a technical and look and feel design freeze at this point. If any changes are needed during this point, then those changes will be done in the next redesign.
+    
+The production phase can be broken down into three areas and will include:
 
-    Step 4a - The design production:The artistic look and feel design production, usability designing, the navigation production, and image and button creation. The homepage of the site and the inner page template both need the new design applied to them. The homepage design may use the same template the rest of the site uses, or it may be unique. If it differs from the rest of the site, then make sure its look and feel is very similar to the look and feel of the inner page template(s). Also, if it differs, consider applying this entire step-by-step guide to the homepage as well, treating it as a separate, but related entity.
+    <span>Step 4a - The design production: </span>The artistic look and feel design production, usability designing, the navigation production, and image and button creation. The homepage of the site and the inner page template both need the new design applied to them. The homepage design may use the same template the rest of the site uses, or it may be unique. If it differs from the rest of the site, then make sure its look and feel is very similar to the look and feel of the inner page template(s). Also, if it differs, consider applying this entire step-by-step guide to the homepage as well, treating it as a separate, but related entity.
 
-    Step 4b - The technical production:This entails the html coding, any other coding to contribute to the functionality and the configuration of the server's environment. The technical aspects could also include any server side coding in a major programming language, database design and development, and site security measures.
+    <span>Step 4b - The technical production: </span>This entails the HTML coding, any other coding to contribute to the functionality and the configuration of the server's environment. The technical aspects could also include any Server Side Coding in a major programming language, Database Design and Development, and site security measures.
 
-    Step 4c - The marketing production:This area includes creating the homepage and pre-determined inner pages to be search engine and index friendly. It also includes the copy writing for every page. Any mechanisms for interacting with the visitors will be produced here. For example, forms on your site that asks users to give information are ways for a user to interact with your site. Although the look & feel of the form falls under ‘design', and the actual mechanisms that make the form work falls under ‘technology', the purpose of the forms will be very marketing-centric. What you ask, how you store the data, and how you retrieve it and use it later are all marketing issues that should be addressed in this step.
+    <span>Step 4c - The marketing production: </span>This area includes creating the homepage and pre-determined inner pages to be search engine and index friendly. It also includes the copywriting for every page. Any mechanisms for interacting with the visitors will be produced here. For example, forms on your site that asks users to give information are ways for a user to interact with your site. Although the look & feel of the form falls under ‘design', and the actual mechanisms that make the form work falls under ‘technology', the purpose of the forms will be very marketing-centric. What you ask, how you store the data, and how you retrieve it and use it later are all marketing issues that should be addressed in this step.
 
-    <s>Step . </s pan>Testing:The produced site now must be loaded onto a staging area that is exactly like the production environment, or made accessible to testers only. During this phase, various people will test all aspects of site, including functionality, spelling and grammar, hyperlinks, and all other elements. This is often called the Quality Assurance phase.
+    <span>Step 5 - Testing: </span>The produced site now must be loaded onto a staging area that is exactly like the production environment, or made accessible to testers only. During this phase, various people will test all aspects of site, including functionality, spelling and grammar, hyperlinks, and all other elements. This is often called the Quality Assurance phase.
 
-    <s>Step . </s pan>Publishing:This phase is the push of the new site from staging to production. Here the site is made live and is now on the World Wide Web.
+    <span>Step 6 - Publishing: </span>This phase is the push of the new site from staging to production. Here the site is made live and is now on the World Wide Web.
 
-    Step 7 - E-marketing and maintenance:Unless the site is marketed, it won't matter how well-designed or technically robust it is, no one will ever visit or use it. Therefore, the final and ongoing phase entails implementing e-marketing techniques, keeping the site's content fresh, and making continual adjustments based on site specific and customer research.
+    <span>Step 7 - E-marketing and maintenance: </span>Unless the site is marketed, it won't matter how well-designed or technically robust it is, no one will ever visit or use it. Therefore, the final and ongoing phase entails implementing E-marketing techniques, keeping the site's content fresh, and making continual adjustments based on site specific and customer research.
 
-    Whether you decide to tackle building a new website yourself, or you choose to hire someone else to do it, the steps outlined above ought to be followed. If you decide to do it yourself, you'll need to read up on graphic design and usability, Web technologies and e-marketing.
-    If you hire an outside company to build a site for you, ask them how they plan to accomplish it. Ask them if they have a set method for building a new site or re-vamping an old one. If they have a good system, it ought to look a lot like the steps above. They ought to be proficient in all aspects of website development and be able to communicate to you everything they are doing and why. Remember, the better your site is initially and the better you manage your new site going forward, the better your business will be.
+Whether you decide to tackle building a new website yourself, or you choose to hire someone else to do it, the steps outlined above ought to be followed. If you decide to do it yourself, you'll need to read up on Graphic Design and Usability, Web Technologies and E-marketing.
+If you hire an outside company to build a site for you, ask them how they plan to accomplish it. Ask them if they have a set method for building a new site or re-vamping an old one. If they have a good system, it ought to look a lot like the steps above. They ought to be proficient in all aspects of website development and be able to communicate to you everything they are doing and why. Remember, the better your site is initially and the better you manage your new site going forward, the better your business will be.
 `
     }, {
         id: 10,
@@ -324,37 +337,38 @@ Unfortunately for the sake of design, many website owners have paid absolutely n
         author: "Cathy Goodwin, Ph.D.",
         date: "",
         imageUrl: "amazon/",
-        imageAlt: "",
+        imageAlt: "Get an agreement. In writing!",
         category: "Contract Agreement",
         tags: ["Strategic Social Media Marketing", "Website Content Writing", "Reputation Management", "Custom Website Design", "Search Engine Optimization (SEO)", "Digital Graphic Design", "E-Commerce Website Development"],
-        snippet: "Hortensia was thrilled when she landed her first web design client. She hadn't been eager to start a business. However, like many mid-career executives experiencing layoffs, she realized her industry was dying and going solo was, well, the way to go. When she called, my first tip was, 'Get out and celebrate!' My second tip was, 'Get an agreement. In writing!'",
+        snippet: "Hortensia was thrilled when she landed her first web design client. She hadn't been eager to start a business. However, like many mid-career executives experiencing layoffs, she realized her industry was dying and going solo was, well, was the way to go. When she called, my first tip was, 'Get out and celebrate!' My second tip was, 'Get an agreement. In writing!'",
         content: `
-    Hortensia was thrilled when she landed her first web design client. She hadn't been eager to start a business. However, like many mid-career executives experiencing layoffs, she realized her industry was dying and going solo was, well, the way to go. When she called, my first tip was, 'Get out and celebrate!'My second tip was, 'Get an agreement. In writing!'Like many smart new business owners, Hortensia's first priority was marketing. But she had purchased several books with titles like 'Getting started in your own web business.' And sure enough, one of those books included a sample agreement.If Hortensia hadn't founded a sample agreement, I would have suggested she surf the web. Typing 'contract' plus your form of service will often pull up examples you can use to get started.Sample agreements usually are created by experienced business owners. They help you identify your client's hot buttons: price, delivery date, guarantees, and more. Each field will be different. For instance, if you're a web designer, who will be responsible for the images you use on a website? If your client supplies images or copy, make sure she agrees in writing to be responsible for any possible copyright claims.Will your ability to perform your job be affected by what your client gives you? Make sure he understands you can't meet a deadline if he hasn't delivered all the copy by a certain date.What exactly will you do? Many a client begins with, 'I want to make some tweaks,' and ends with so many requests, you're really doing an overhaul.
-    What if your client is a friend?
+Hortensia was thrilled when she landed her first web design client. She hadn't been eager to start a business. However, like many mid-career executives experiencing layoffs, she realized her industry was dying and going solo was, well, the way to go. When she called, my first tip was, 'Get out and celebrate!'My second tip was, 'Get an agreement. In writing!'Like many smart new business owners, Hortensia's first priority was marketing. But she had purchased several books with titles like 'Getting started in your own web business.' And sure enough, one of those books included a sample agreement.If Hortensia hadn't founded a sample agreement, I would have suggested she surf the web. Typing 'contract' plus your form of service will often pull up examples you can use to get started.Sample agreements usually are created by experienced business owners. They help you identify your client's hot buttons: price, delivery date, guarantees, and more. Each field will be different. For instance, if you're a web designer, who will be responsible for the images you use on a website? If your client supplies images or copy, make sure she agrees in writing to be responsible for any possible copyright claims.Will your ability to perform your job be affected by what your client gives you? Make sure he understands you can't meet a deadline if he hasn't delivered all the copy by a certain date.What exactly will you do? Many a client begins with, 'I want to make some tweaks,' and ends with so many requests, you're really doing an overhaul.
+    
+<span>What if your client is a friend?</span>
 
-    Tim's neighbor belonged to a service club. Tim agreed to help his neighbor write a press release for a special event to be held February 15. Right after New Year's Day, Tim's phone rang.
+Tim's neighbor belonged to a service club. Tim agreed to help his neighbor write a press release for a special event to be held February 15. Right after New Year's Day, Tim's phone rang.
 
-    'Where's the release?' demanded the neighbor.
+'Where's the release?' demanded the neighbor.
 
-    'The local paper won't print anything this far ahead!' Tim was honestly baffled.
+'The local paper won't print anything this far ahead!' Tim was honestly baffled.
 
-    'It's not for the press! Our group's newsletter goes out next week and we need this announcement!'
+'It's not for the press! Our group's newsletter goes out next week and we need this announcement!'
 
-    Tim dashed off a release and vowed to get written agreements next time - with a mention of delivery dates.
+Tim dashed off a release and vowed to get written agreements next time - with a mention of delivery dates.
 
-    Many people - even managers and professionals -- are not accustomed to delegating jobs, hiring expertise or committing to deadlines. They don't realize what you need to do the job. And they have short memories.
+Many people - even managers and professionals -- are not accustomed to delegating jobs, hiring expertise or committing to deadlines. They don't realize what you need to do the job. And they have short memories.
 
-    One graduate student thought his dissertation deadline was extended thirty days - but his advisor recalled only a one week extension. Big difference!
+One graduate student thought his dissertation deadline was extended thirty days - but his advisor recalled only a one week extension. Big difference!
 
-    Many career gurus advise corporate executives to negotiate written agreements when they get a new job or a new boss. If your company's style calls for informality, you can draft a memo that sounds friendly and supportive, not legalistic.
+Many career gurus advise corporate executives to negotiate written agreements when they get a new job or a new boss. If your company's style calls for informality, you can draft a memo that sounds friendly and supportive, not legalistic.
 
-    Some organizations and some industries run on a handshake and everybody's happy. But other times, you will hear, 'We all agree on everything,' and learn - too late - that some of these happy people are signing severance agreements behind closed doors.
+Some organizations and some industries run on a handshake and everybody's happy. But other times, you will hear, 'We all agree on everything,' and learn - too late - that some of these happy people are signing severance agreements behind closed doors.
 
-    These days, I would consider written agreements even for lawn mowing, house cleaning and dog washing services. I'm constantly amazed at the way instructions can be interpreted. You say, 'If you have time, please trim the bushes.' Your eager helper hears, 'I'll pay extra if you need more time.'
+These days, I would consider written agreements even for lawn mowing, house cleaning and dog washing services. I'm constantly amazed at the way instructions can be interpreted. You say, 'If you have time, please trim the bushes.' Your eager helper hears, 'I'll pay extra if you need more time.'
 
-    Last year, my dog was left alone, in an unfenced yard, by a professional sitter who was known for being conscientious and caring. As some ezine readers will remember, she was attacked by another dog and suffered serious injuries. Ever since, I leave written instructions, even for sitters who have been here a dozen times: 'Never, ever leave Keesha outside alone - even for two minutes! And she must always be on a leash when she leaves my yard. No exceptions!'
+Last year, my dog was left alone, in an unfenced yard, by a professional sitter who was known for being conscientious and caring. As some ezine readers will remember, she was attacked by another dog and suffered serious injuries. Ever since, I leave written instructions, even for sitters who have been here a dozen times: 'Never, ever leave Keesha outside alone - even for two minutes! And she must always be on a leash when she leaves my yard. No exceptions!'
 
-    Nobody's complained. In fact, I think everyone appreciates knowing what's expected. Even the dog.
+Nobody's complained. In fact, I think everyone appreciates knowing what's expected. Even the dog.
 `
     }, {
         id: 11,
@@ -432,7 +446,7 @@ Unfortunately for the sake of design, many website owners have paid absolutely n
     The first time I heard the term "organic search" I immediately thought of organic food at the grocery store. So, is this organic search healthier for me? Will it reduce my chances of getting cancer? Not only can the search engines bring most of the world's knowledge to my desktop, but now they can prevent deadly diseases too! Imagine my disappointment when I learned organic search was simply the next new buzzword for the concept of pure, or crawler-based search. As some of our readers may find it challenging to keep up with all of the latest lingo, I thought I'd take a moment to at least explain the concept of organic search.
     Organic describes a search that returns results by indexing pages based on content and keyword relevancy. This is in contrast to listings ranked based on who paid the most money to appear at the top such as those on Overture.com. Sometimes this is called "pure" or "natural search" as it is supposed to be "untainted" by commercial payments or bids.
     Historically, Google has led the way in championing the virtues of natural or organic search. Its primary focus has always been to return fast, highly relevant results based on the content of the page, the relevancy of links pointing to that page, and other "objective" criteria. Sponsored listings have always been clearly separated from the organic search results on Google. However, many other engines have experimented with mixing the two types of search without clearly labeling which is which. This has been followed by public outcries, and at least one cautionary set of statements issued by the FTC in 2002.
-    Pros and Cons of Organic Search vs Paid Search
+    Pros and Cons of Organic Search vs Paid Search.
     Unlike organic foods at your local grocery store, you aren't required to pay extra to reap the healthy benefits of "organic" search. So what are the benefits of organic over paid search?
 
     Pros:
