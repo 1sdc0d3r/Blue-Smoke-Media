@@ -144,7 +144,7 @@ Web logos require a much smaller resolution (since they only need to be displaye
         author: "Mark Daoust",
         date: "",
         imageUrl: "amazon/",
-        imageAlt: "",
+        imageAlt: "We build Organic SEO into your website at no extra cost.",
         category: "Organic SEO",
         tags: ["Organic SEO", "Search Engine Optimization (SEO)", "Digital Graphic Design", "Website Content Writing", "Coding and Programming", "Website Useability"],
         snippet: "Search engines have moved beyond simply calculating keyword density and link relevance. More and more, the major search engines are continuing to master the ability to identify natural human language and evaluate a web page based on natural human language. Back in the late 90’s and early 2000’s, AskJeeves.com was the first search engine to attempt to move to a natural human language system, although they focused on the user input aspect of search rather than evaluating the natural language of a web page itself.",
