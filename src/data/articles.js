@@ -77,7 +77,7 @@ Many shortfalls of websites can easily be attributed to designers who just do no
         title: "Ad Copy Inspection - Cover These 12 Points!",
         author: "Daniel Levis",
         date: "",
-        imageUrl: "amazon/",
+        imageUrl: "amazon/Users/lambda_school_loaner_206/Desktop/Blue-Smoke-Media/src/images/ad-copy-writing-image.png",
         imageAlt: "Getting a piece of 'Advertising Copy'to come through for you and getting stellar results by following these 12 points!",
         category: "Ad-Copywriting",
         tags: ["Ad-copywriting", "Search Engine Optimization (SEO)", "Organic SEO", "Strategic Social Media Marketing", "Website Content Writing", "Reputation Management"],
