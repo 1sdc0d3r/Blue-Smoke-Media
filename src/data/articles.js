@@ -306,15 +306,15 @@ The following is a guide for building a new website. It shows how a corporate we
 
     <span/>Step 2 - Concept and Planning: </span>The next step is to determine site requirements, business goals, types of functionality, site features, and a timeline and due date. You'll need to determine who your site audience is, the demographics and psychographics of your visitors.
     
-In this phase the architecture or organization of the information that will be included on the site needs to be planned as well. The most important part of this step is determining your goals for the site. You need to ask yourself and any other stake holders exactly what the new site ought to yield when completed. What do you expect the site to do? What do you want to get out of it? What messages do you want to convey to all the people who will eventually view it? What are the priorities of the site in terms of your business and making money? What types of people will be using the site and what will they want to accomplish while there?
+    In this phase the architecture or organization of the information that will be included on the site needs to be planned as well. The most important part of this step is determining your goals for the site. You need to ask yourself and any other stake holders exactly what the new site ought to yield when completed. What do you expect the site to do? What do you want to get out of it? What messages do you want to convey to all the people who will eventually view it? What are the priorities of the site in terms of your business and making money? What types of people will be using the site and what will they want to accomplish while there?
 
     <span>Step 3 - Design Specifications: </span>This is when the look & feel and a visual design specification are created. Here you'll determine the fonts, colors and size and layouts, always trying to keep consistency paramount. You'll want to write specifications for the images you'll be using on the site as well. It's also the time to decide upon and design the technical infrastructure and architecture of the site, server, environment and platform. You'll determine what programming languages and databases will be used, if any, and any other technical features your site will need.
     
-One of the secondary benefits of following Step 3 is that you'll have a document to refer back to later on when adding to the site. If you hire a new Web person of company, you can give them this design specification document for them to follow whenever they work on your site
+    One of the secondary benefits of following Step 3 is that you'll have a document to refer back to later on when adding to the site. If you hire a new Web person of company, you can give them this design specification document for them to follow whenever they work on your site
 
     <span>Step 4 - Production: </span>Before this phase begins, everyone who is involved in this project, including people who give the final ‘ok', need to know that there will be a technical and look and feel design freeze at this point. If any changes are needed during this point, then those changes will be done in the next redesign.
     
-The production phase can be broken down into three areas and will include:
+    The production phase can be broken down into three areas and will include:
 
     <span>Step 4a - The design production: </span>The artistic look and feel design production, usability designing, the navigation production, and image and button creation. The homepage of the site and the inner page template both need the new design applied to them. The homepage design may use the same template the rest of the site uses, or it may be unique. If it differs from the rest of the site, then make sure its look and feel is very similar to the look and feel of the inner page template(s). Also, if it differs, consider applying this entire step-by-step guide to the homepage as well, treating it as a separate, but related entity.
 
@@ -336,27 +336,28 @@ If you hire an outside company to build a site for you, ask them how they plan t
         title: "New client? Get it in writing!",
         author: "Cathy Goodwin, Ph.D.",
         date: "",
-        imageUrl: "amazon/",
-        imageAlt: "Get an agreement. In writing!",
+        imageUrl: "amazon//Users/lambda_school_loaner_206/Desktop/Blue-Smoke-Media/src/images/Blog/Primary/JPEG-PNG/get-it-in-writing.jpg",
+        imageAlt: "New Client? Get an agreement. In writing!",
         category: "Contract Agreement",
         tags: ["Strategic Social Media Marketing", "Website Content Writing", "Reputation Management", "Custom Website Design", "Search Engine Optimization (SEO)", "Digital Graphic Design", "E-Commerce Website Development"],
         snippet: "Hortensia was thrilled when she landed her first web design client. She hadn't been eager to start a business. However, like many mid-career executives experiencing layoffs, she realized her industry was dying and going solo was, well, was the way to go. When she called, my first tip was, 'Get out and celebrate!' My second tip was, 'Get an agreement. In writing!'",
         content: `
-Hortensia was thrilled when she landed her first web design client. She hadn't been eager to start a business. However, like many mid-career executives experiencing layoffs, she realized her industry was dying and going solo was, well, the way to go. When she called, my first tip was, 'Get out and celebrate!'My second tip was, 'Get an agreement. In writing!'Like many smart new business owners, Hortensia's first priority was marketing. But she had purchased several books with titles like 'Getting started in your own web business.' And sure enough, one of those books included a sample agreement.If Hortensia hadn't founded a sample agreement, I would have suggested she surf the web. Typing 'contract' plus your form of service will often pull up examples you can use to get started.Sample agreements usually are created by experienced business owners. They help you identify your client's hot buttons: price, delivery date, guarantees, and more. Each field will be different. For instance, if you're a web designer, who will be responsible for the images you use on a website? If your client supplies images or copy, make sure she agrees in writing to be responsible for any possible copyright claims.Will your ability to perform your job be affected by what your client gives you? Make sure he understands you can't meet a deadline if he hasn't delivered all the copy by a certain date.What exactly will you do? Many a client begins with, 'I want to make some tweaks,' and ends with so many requests, you're really doing an overhaul.
+Hortensia was thrilled when she landed her first web design client. She hadn't been eager to start a business. However, like many mid-career executives experiencing layoffs, she realized her industry was dying and going solo was, well, the way to go. When she called, my first tip was, 'Get out and celebrate!'My second tip was, 'Get an agreement. In writing!
+'Like many smart new business owners, Hortensia's first priority was marketing. But she had purchased several books with titles like 'Getting started in your own web business.' And sure enough, one of those books included a sample agreement. If Hortensia hadn't founded a sample agreement, I would have suggested she surf the web. Typing 'contract' plus your form of service, will often pull up examples you can use to get started. Sample agreements usually are created by experienced business owners. They help you identify your client's hot buttons: price, delivery date, guarantees, and more. Each field will be different. For instance, if you're a web designer, who will be responsible for the images you use on a website? If your client supplies images or copy, make sure they agree in writing, to be responsible for any possible copyright claims. Will your ability to perform your job be affected by what your client gives you? Make sure they understand, you can't meet a deadline if they haven't delivered all the copy by a certain date. What exactly will you do? Many a client begins with, 'I want to make some tweaks,' and ends with so many requests, you're really doing an overhaul.
     
 <span>What if your client is a friend?</span>
 
-Tim's neighbor belonged to a service club. Tim agreed to help his neighbor write a press release for a special event to be held February 15. Right after New Year's Day, Tim's phone rang.
+    Tim's neighbor belonged to a service club. Tim agreed to help his neighbor write a press release for a special event to be held February 15. Right after New Year's Day, Tim's phone rang.
 
-'Where's the release?' demanded the neighbor.
+    'Where's the release?' demanded the neighbor.
 
-'The local paper won't print anything this far ahead!' Tim was honestly baffled.
+    'The local paper won't print anything this far ahead!' Tim was honestly baffled.
 
-'It's not for the press! Our group's newsletter goes out next week and we need this announcement!'
+    'It's not for the press! Our group's newsletter goes out next week and we need this announcement!'
 
-Tim dashed off a release and vowed to get written agreements next time - with a mention of delivery dates.
+    Tim dashed off a release and vowed to get written agreements next time - with a mention of delivery dates.
 
-Many people - even managers and professionals -- are not accustomed to delegating jobs, hiring expertise or committing to deadlines. They don't realize what you need to do the job. And they have short memories.
+Many people - even managers and professionals -- are not accustomed to delegating jobs, hiring expertise or committing to deadlines. They don't realize what you need to do the job - and they have short memories.
 
 One graduate student thought his dissertation deadline was extended thirty days - but his advisor recalled only a one week extension. Big difference!
 
@@ -364,9 +365,9 @@ Many career gurus advise corporate executives to negotiate written agreements wh
 
 Some organizations and some industries run on a handshake and everybody's happy. But other times, you will hear, 'We all agree on everything,' and learn - too late - that some of these happy people are signing severance agreements behind closed doors.
 
-These days, I would consider written agreements even for lawn mowing, house cleaning and dog washing services. I'm constantly amazed at the way instructions can be interpreted. You say, 'If you have time, please trim the bushes.' Your eager helper hears, 'I'll pay extra if you need more time.'
+These days, I would consider written agreements even for lawn mowing, house cleaning and dog washing services. I'm constantly amazed at the way instructions can be interpreted. You say, 'If you have time, please trim the bushes. 'Your eager helper hears, 'I'll pay extra if you need more time.'
 
-Last year, my dog was left alone, in an unfenced yard, by a professional sitter who was known for being conscientious and caring. As some ezine readers will remember, she was attacked by another dog and suffered serious injuries. Ever since, I leave written instructions, even for sitters who have been here a dozen times: 'Never, ever leave Keesha outside alone - even for two minutes! And she must always be on a leash when she leaves my yard. No exceptions!'
+Last year, my dog was left alone, in an unfenced yard, by a professional sitter who was known for being conscientious and caring. As some E-zine readers will remember, she was attacked by another dog and suffered serious injuries. Ever since, I leave written instructions, even for sitters who have been here a dozen times: 'Never, ever leave Keesha outside alone - even for two minutes! And she must always be on a leash when she leaves my yard. No exceptions!'
 
 Nobody's complained. In fact, I think everyone appreciates knowing what's expected. Even the dog.
 `
