@@ -376,16 +376,25 @@ Nobody's complained. In fact, I think everyone appreciates knowing what's expect
         title: "9 Keys to an Effective Logo",
         author: "Erin Ferree",
         date: "",
-        imageUrl: "amazon/",
-        imageAlt: "",
+        imageUrl: "amazon//Users/lambda_school_loaner_206/Desktop/Blue-Smoke-Media/src/images/Blog/Primary/JPEG-PNG/9-powerful-tips-for-an-effective-logo.jpg",
+        imageAlt: "9 Keys to an Effective Logo",
         category: "Logos",
         tags: ["Digital Media Logo", "Printed Media Logo", "Brand Loyalty", "Consumer Loyalty", "Reputation Management"],
         snippet: "Strategic Social Media Marketing",
         content: `
-    The right logo, with the right characteristics, will boost your visibility, credibility and memorability ­ which means more business for you!These characteristics include:Consistency in use of your logo, tagline, materials. Repetition of similar elements, used in the same or similar ways, helps people to remember who you are and what you do.Memorability, so that your logo stays at the forefront of your potential clients' minds. That way, they'll think of you next time they have a need.Meaningfulness, so that your logo can spread the message about the distinguishing characteristics of your business.Uniqueness, which helps you stand out from the crowd. For example, if everyone in your industry uses a particular symbol (i.e., travel agencies often use globes in their logos), try to use something else ­ that way, your logo doesn't just look like everyone else's.Professionalism, in the quality of the graphics, the printing and the paper on which your materials are printed.Timelessness in your logo will ensure that you don't have to redesign your logo in just a few years and that your investment and equity in your design will be lasting. Differentiation between the colors in your logo ­ and not just in terms of hue, but in terms of value as well, so that it translates well either to black and white or grey scale and colorblind people are able to see it.Unity among the different elements in the logo. The logo must fit together as a single unit, and not just appear as a jumble of elements pasted together.
-    Scalability, so that your logo looks equally good on both a business card and on a sign for your business (or a billboard!), and at every size in between. Your business's name should be legible at different logo sizes ­ be sure that your designer chooses a font that is easily readable.
+The right logo, with the right characteristics, will boost your visibility, credibility and memorability ­ which means more business for you!
+These characteristics include:
+    <span>Consistency</span> in use of your logo, tagline, materials.
+    <span>Repetition</span> of similar elements, used in the same or similar ways, helps people to remember who you are and what you do.
+    <span>Memorability,</span> so that your logo stays at the forefront of your potential clients' minds. That way, they'll think of you next time they have a need.
+    <span>Meaningfulness,</span> so that your logo can spread the message about the distinguishing characteristics of your business.
+    <span>Uniqueness,</span> which helps you stand out from the crowd. For example, if everyone in your industry uses a particular symbol (i.e., travel agencies often use globes in their logos), try to use something else, that way, your logo doesn't just look like everyone else's.
+    <span>Professionalism,</span> in the quality of the graphics, the printing and the paper on which your materials are printed.
+    <span>Timelessness in your logo</span> will ensure that you don't have to redesign your logo in just a few years and that your investment and equity in your design will be lasting. Differentiation between the colors in your logo  and not just in terms of hue, but in terms of value as well, so that it translates well either to black and white or grey scale and colorblind people are able to see it.
+    <span>Unity</span> among the different elements in the logo. The logo must fit together as a single unit, and not just appear as a jumble of elements pasted together.
+    <span>Scalability,</span> so that your logo looks equally good on both a business card and on a sign for your business (or a billboard!), and at every size in between. Your business's name should be legible at different logo sizes ­ be sure that your designer chooses a font that is easily readable.
 
-    Having a professionally designed logo can really give your business a jumpstart and helps your business get the attention ­and clients­ you need to succeed.`
+    Having a professionally designed logo can really give your business a jumpstart and help your business get the attention ­and clients­ you need to succeed.`
     }, {
         id: 12,
         title: "Three Things You Must Do When Designing and Building Your Small Business Website",
