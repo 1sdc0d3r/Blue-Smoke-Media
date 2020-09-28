@@ -469,7 +469,6 @@
 @media (max-width: 360px) {
   .home .plans-pricing .plans-card-container .plan-card-set .plan-card {
     width: 70%;
-    height: 65vh;
     margin: 5% auto;
   }
 }
@@ -477,7 +476,6 @@
 @media (min-width: 361px) and (max-width: 480px) {
   .home .plans-pricing .plans-card-container .plan-card-set .plan-card {
     width: 70%;
-    height: 65vh;
     margin: 5% auto;
   }
 }
@@ -485,7 +483,6 @@
 @media (min-width: 481px) and (max-width: 736px) {
   .home .plans-pricing .plans-card-container .plan-card-set .plan-card {
     width: 70%;
-    height: 65vh;
     margin: 5% auto;
   }
 }
