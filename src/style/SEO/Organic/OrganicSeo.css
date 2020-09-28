@@ -1,18 +1,13 @@
-.organic-seo img {
-  width: 85%;
-  height: 70vh;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 5%;
-}
-
-
 .organic-seo {
   color: #0d2971;
   text-align: justify;
 }
 
+.organic-seo img {
+  width: 100%;
+  height: 40vh;
+  border-bottom: 2px outset #020723;
+}
 
 @media (min-width: 737px) and (max-width: 980px) {
   .organic-seo img {
