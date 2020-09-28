@@ -585,7 +585,7 @@ It could be a product review, on a top ten list, an article, etc.
 
 <span>10. Provide testimonials from satisfied customers in your ad.</span> The testimonials should include specific and believable results your customers have received.
 
-Yes, you might think that your product or service is the best thing offered on the internet since sliced bread. But if you're unable to convey this message to your website visitors with your ad copy , you'll never earn a living online! Take some time to ponder the 3 questions presented above. Experiment with the 10 tips to improve your ad copy and you'll soon discover just how easy it really is to build your mailing list and earn a living online!`
+Yes, you might think that your product or service is the best thing offered on the internet since sliced bread. But if you're unable to convey this message to your website visitors with your ad-copy, you'll never earn a living online! Take some time to ponder the 3 questions presented above. Experiment with the 10 tips to improve your ad copy and you'll soon discover just how easy it really is to build your mailing list and earn a living online!`
     }, {
         id: 15,
         title: "How to Write Effective Web Copy",
