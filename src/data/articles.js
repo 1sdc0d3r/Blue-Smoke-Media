@@ -498,8 +498,8 @@ Hopefully, these guidelines will help you build a website that gets you more sal
         title: "What is 'organic' search and how can it help your company?",
         author: "Constance Beebe",
         date: "June, 2020",
-        imageUrl: "amazon/",
-        imageAlt: "",
+        imageUrl: "amazon//Users/lambda_school_loaner_206/Desktop/Blue-Smoke-Media/src/images/Blog/Primary/JPEG-PNG/What-is-organic-search-and-how-can-it-help-your-company.jpg",
+        imageAlt: "Prganic Search: The Concept of Pure, or Crawler-Based Search.",
         category: "Organic SEO",
         tags: "Organic SEO, Website Content Writing, Custom Website Design, Search Engine Optimization (SEO), Digital Graphic Design, E-Commerce Website Development",
         snippet: "While optimizing your website to rank well for organic searches takes more effort than simply buying an ad, it can provide your business with one of the highest ROI results that you're likely to find. Numerous studies have placed search engine optimization at the top of the list of the most effective forms of online marketing. Its low cost, high relevancy, and high conversion rates make it an ideal marketing vehicle for almost any business.",
@@ -519,7 +519,7 @@ PROS:
 
 <span>1. Greater Click-throughs:</span> People trust <span>"organically grown"</span> search results more than they do sponsored results. While the engines business is supported by paid ads, many consumers prefer the organic search results. Due to the contextual nature of organic search, the listings can be more relevant and offer a greater depth of choices. Therefore, while paid ads can play an important part in your marketing strategy, ultimately it is the organic search results that will more likely yield the greater click-through rates when all other things are equal. Therefore, it's this type of listing that will maximize the traffic to your site whenever you climb to the top.
 
-<span>2. Power of Branding:</span> More and more large corporations are investing resources into organic search to gain the marketing benefits of promoting their brand. For example, most consumers would expect to find Dell.com in a search for computers. If your company does not show up for the keyword results in which you'd expect to appear it can be embarrassing. Consumers may wonder if Company X is as important as they once were if they don't even show up in Bing, Yahoo or Google. Conversely, inserting your brand in the top search results can give the impression that your company is important. Therefore, smaller companies can give the impression of big business importance by securing aa better position in organic search than their larger rivals.
+<span>2. Power of Branding:</span> More and more large corporations are investing resources into organic search to gain the marketing benefits of promoting their brand. For example, most consumers would expect to find Dell.com in a search for computers. If your company does not show up for the keyword results in which you'd expect to appear it can be embarrassing. Consumers may wonder if Company X is as important as they once were if they don't even show up in Bing, Yahoo or Google. Conversely, inserting your brand in the top search results can give the impression that your company is important. Therefore, smaller companies can give the impression of big business importance by securing a better position in organic search than their larger rivals.
 
 <span>3. Greater Trust Equals Greater Conversions:</span> Most adults learn to apply a healthy dose of skepticism when they see a commercial on TV, a banner ad on the Web, or a sponsored ad on a search engine. After all, we know those ads are commercially motivated and may not always be the most relevant product or solution for our needs. It may simply represent the company that was able to spend the most money to get their message in front of me. Sometimes bigger companies do offer the best products, but there's no guarantee. There's certainly not the same level of trust that we see from visitors arriving from organic search. Organic search can, of course, be commercially influenced. However, a recent survey shows that people tend to trust organic results compared to sponsored listings. On the whole, you should see more visitors from organic search converting to sales, assuming your rankings were for targeted, relevant keywords. In the business world, ROI, or Return On Investment, is king. Fortunately, organic search can give you the high ROI you're looking for or your boss is demanding.
 
@@ -551,35 +551,39 @@ The catch? As with any area of marketing, SEO is a competitive field. Arming you
         content: `
 Are you a network marketer or an affiliate struggling to convert your website visitors into eager sign-ups or buying customers? While there could be many reasons why you're not receiving the sign-ups and customers you deserve, the first thing you should consider is your ad copy. Be honest with yourself and consider these 3 qualifying questions in regard to your current ad copy:
 
-1. Does your headline instill curiosity?
+<span>1. Does your headline instill curiosity?</span>
 
-2. Is your ad copy (sales letter) persuasive and compelling enough?
+<span>2. Is your ad copy (sales letter) persuasive and compelling enough?</span>
 
 and
 
-3. Does it serve its intended purpose and that is to get the visitor to click through your sign-up link or order button?
+<span>3. Does it serve its intended purpose and that is to get the visitor to click through your sign-up link or order button?</span>
 
-To get you on the right track, here are 10 essential tips you can use as a guide in writing persuasive ad copy:
+To get you on the right track, here are <span>10 essential tips you can use as a guide in writing persuasive ad copy:</span>
 
-1. Publish a picture of yourself in your ad. This will show people that you're not hiding behind your website and you're not afraid to backup your product.
+<span>1. Publish a picture of yourself in your ad.</span> 
+This will show people that you're not hiding behind your website and you're not afraid to backup your product.
 
-2. List how many famous or respected people have purchased your product in your ad. These people should be fairly known by your target audience.
+<span2. List how many famous or respected people have purchased your product in your ad.</span> 
+These people should be fairly known by your target audience.
 
-3. Publish the results of any tests your product has passed in your ad. Your product may have passed a durability test, safety test, quality test, etc.
+<span>3. Publish the results of any tests your product has passed in your ad.</span> 
+Your product may have passed a durability test, safety test, quality test, etc.
 
-4. Publish the results of any positive surveys you've taken from your customers in your ad. Just survey your current customers and list the results.
+<span>4. Publish the results of any positive surveys you've taken from your customers in your ad. Just survey your current customers and list the results.
 
-5. List any publications that have written about your business in your ad. It could be a product review, on a top ten list, an article, etc.
+<span>5. List any publications that have written about your business in your ad.</span> 
+It could be a product review, on a top ten list, an article, etc.
 
-6. List any related books that you've written in your ad. When you list a book(s) you've written, it gives you credibility because it shows you're an expert.
+<span>6. List any related books that you've written in your ad.</span> When you list a book(s) you've written, it gives you credibility because it shows you're an expert.
 
-7. Have a professional looking website to publish your ad on. When people visit your site and it looks unprofessional, they'll relate that to your product.
+<span>7. Have a professional looking website to publish your ad on.</span> When people visit your site and it looks unprofessional, they'll relate that to your product.
 
-8. Publish any endorsements from famous people in your ad. Some people will think if a famous person, enjoys your product, so will they.
+<span>8. Publish any endorsements from famous people in your ad.</span> Some people will think if a famous person, enjoys your product, so will they.
 
-9. Use a money back guarantee in your ad. This will remove the risk from your potential customers and show them that you stand behind your product.
+<span>9. Use a money back guarantee in your ad.</span> This will remove the risk from your potential customers and show them that you stand behind your product.
 
-10. Provide testimonials from satisfied customers in your ad. The testimonials should include specific and believable results your customers have received.
+<span>10. Provide testimonials from satisfied customers in your ad.</span> The testimonials should include specific and believable results your customers have received.
 
 Yes, you might think that your product or service is the best thing offered on the internet since sliced bread. But if you're unable to convey this message to your website visitors with your ad copy , you'll never earn a living online! Take some time to ponder the 3 questions presented above. Experiment with the 10 tips to improve your ad copy and you'll soon discover just how easy it really is to build your mailing list and earn a living online!`
     }, {
