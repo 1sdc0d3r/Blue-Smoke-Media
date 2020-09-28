@@ -279,56 +279,95 @@ Do you know your website needs?
         author: "Daniel Levis",
         date: "",
         imageUrl: "amazon/Users/lambda_school_loaner_206/Desktop/Blue-Smoke-Media/src/images/Blog/Primary/JPEG-PNG/Digital-Marketing-vs-Traditional-Marketing.jpg/",
-        imageAlt: "",
+        imageAlt: "Selling to meet the publics needs - and online ad strategy.",
         category: "Social Media Marketing",
         tags: ["Social Media Marketing", "Website Content Writing", "Digital Graphic Design", "Typography"],
         snippet: "Most people who have been involved with sales & marketing for any length of time have heard the axiom, “Sell them what they want. Then sell them what they need”. But what does it mean? It sounds a little odd doesn’t it?",
         content: `
-    Most people who have been involved with sales & marketing for any length of time have heard the axiom, “Sell them what they want. Then sell them what they need”. But what does it mean? It sounds a little odd doesn’t it?Does it mean that people are frivolous & go around making irrational purchases that don’t meet their needs, before more serious ones that sustain them? Should you try to sell trivial goods first, & then follow up with those that are more substantial? Should you put games & entertainment on your home page, and flour & salt in your follow up messages?No, that’s not it.What it is trying to say is that people buy for emotional reasons. Does anybody buy a Mercedes Benz just because they NEED to get from point A to point B? Do they buy it because they NEED all of the amazing gizmos, the heated leather seats & hand polished wood trim?No, a person buys an expensive car that they don’t need because it makes them feel important. You may be shocked when I say this, but I’m going to say it anyway. Luxury purchases are motivated by vanity, envy, pride, jealousy, & narcissism, even greed. And, there is nothing sinister, or wrong with it. That’s just the way we are as human beings. It’s what makes us tick. In fact, these emotions are behind all kinds of everyday purchases too.Understanding how they motivate buying behavior is critical to selling.Look at this ad for the Wall Street Journal. It’s said to be one of the most successful advertisements in the history of the world, responsible for over $1 billion in sales.Look carefully, & see how skillfully it evokes one or more of these powerful emotions. Try to get a sense of how you feel when you read it.THE WALL STREET JOURNAL 'TWO YOUNG MEN' LETTEROn a beautiful late spring afternoon, twenty-five years ago, two young men graduated from the same college. They were very much alike, these two young men. Both had been better than average students, both were personable, <span>and oth.  </span>as young college graduates are - were filled with ambitious dreams for the future.Recently, these men returned to their college for their 25th reunion. They were still very much alike. Both were happily married. Both had three children. And both, it turned out, had gone to work for the same Midwestern manufacturing company after graduation, and were still there.But there was a difference. One of the men was manager of a small department of that company. The other was its president.Have you ever wondered, as I have, what makes this kind of difference in people's lives? It isn't always a native intelligence or talent or dedication. It isn't that one person wants success and the other doesn't. The difference lies in what each person knows and how he or she makes use of that knowledge.And that is why I am writing to you and to people like you about The Wall Street Journal. For that is the whole purpose of The Journal: To give its readers knowledge - knowledge that they can use in business.The letter closes:About those two college classmates I mention at the beginning of this letter: They were graduated from college together and together got started in the business world. So what made their lives in business different?Knowledge. Useful knowledge. And its application.I cannot promise you that success will be instantly yours if you start reading The Wall Street Journal. But I can guarantee that you will find The Journal always interesting, always reliable, and always useful.This is a newspaper! It doesn’t get much more mundane than that, but the same principle applies, do you see the power in it?What we are talking about here are emotions that are inextricably tied to the universal desire for esteem that’s hard wired into our nature as human beings. If you’ve got a pulse, you’re under its spell. But here’s the kicker. Most of the time, we are not even aware of the stimulus, only the response.When you were reading the story about the graduates and the reunion, chances are, you were playing out your own meta program inside your head, and experiencing one of the esteem emotions. And it triggered your own personal desire to show the world what you could do, didn’t it?Esteem (to feel valued) is NOT a WANT at all. It is a basic human NEED almost as fundamental as food & water. Your prospect’s hunger & thirst for it. Their emotions are the expressions of that craving.If you can trigger them, & then associate satisfaction of the “esteem needs” with your product, you’ve got a winning ad!
+Most people who have been involved with sales & marketing for any length of time have heard the axiom, “Sell them what they want. Then sell them what they need”. But what does it mean? It sounds a little odd doesn’t it? Does it mean that people are frivolous & go around making irrational purchases that don’t meet their needs, before more serious ones that sustain them? Should you try to sell trivial goods first, & then follow up with those that are more substantial? Should you put games & entertainment on your home page, and flour & salt in your follow up messages?No, that’s not it.What it is trying to say is that people buy for emotional reasons. Does anybody buy a Mercedes Benz just because they NEED to get from point A to point B? Do they buy it because they NEED all of the amazing gizmos, the heated leather seats & hand polished wood trim?No, a person buys an expensive car that they don’t need because it makes them feel important. You may be shocked when I say this, but I’m going to say it anyway. Luxury purchases are motivated by vanity, envy, pride, jealousy, & narcissism, even greed. And, there is nothing sinister, or wrong with it. That’s just the way we are as human beings. It’s what makes us tick. In fact, these emotions are behind all kinds of everyday purchases too.Understanding how they motivate buying behavior is critical to selling.Look at this ad for the Wall Street Journal. It’s said to be one of the most successful advertisements in the history of the world, responsible for over $1 billion in sales. Look carefully, & see how skillfully it evokes one or more of these powerful emotions. Try to get a sense of how you feel when you read it.THE WALL STREET JOURNAL 'TWO YOUNG MEN' LETTER on a beautiful late spring afternoon, twenty-five years ago, two young men graduated from the same college. They were very much alike, these two young men. Both had been better than average students, both were personable, and as young college graduates are - were filled with ambitious dreams for the future. Recently, these men returned to their college for their 25th reunion. They were still very much alike. Both were happily married. Both had three children. And both, it turned out, had gone to work for the same Midwestern manufacturing company after graduation, and were still there.But there was a difference. One of the men was manager of a small department of that company. The other was its president. Have you ever wondered, as I have, what makes this kind of difference in people's lives? It isn't always a native intelligence or talent or dedication. It isn't that one person wants success and the other doesn't. The difference lies in what each person knows and how he or she makes use of that knowledge. And that is why I am writing to you and to people like you about The Wall Street Journal. For that is the whole purpose of The Journal: To give its readers knowledge - knowledge that they can use in business. The letter closes: About those two college classmates I mention at the beginning of this letter: They were graduated from college together and together got started in the business world. So what made their lives in business different? Knowledge. Useful knowledge. And its application. I cannot promise you that success will be instantly yours if you start reading The Wall Street Journal. But I can guarantee that you will find The Journal always interesting, always reliable, and always useful. This is a newspaper! It doesn’t get much more mundane than that, but the same principle applies, do you see the power in it? What we are talking about here are emotions that are inextricably tied to the universal desire for esteem that’s hard wired into our nature as human beings. If you’ve got a pulse, you’re under its spell. But here’s the kicker. Most of the time, we are not even aware of the stimulus, only the response. When you were reading the story about the graduates and the reunion, chances are, you were playing out your own meta program inside your head, and experiencing one of the esteem emotions. And it triggered your own personal desire to show the world what you could do, didn’t it? Esteem (to feel valued), is NOT a WANT at all. It is a basic human NEED almost as fundamental as food & water. Your prospect’s hunger & thirst for it. Their emotions are the expressions of that craving. If you can trigger them, & then associate satisfaction of the “esteem needs” with your product, you’ve got a winning ad!
 `
     }, {
         id: 9,
         title: "c",
         author: "Constance Beebe",
         date: "July, 2020",
-        imageUrl: "amazon/",
-        imageAlt: "",
+        imageUrl: "amazon//Users/lambda_school_loaner_206/Desktop/Blue-Smoke-Media/src/images/Blog/Primary/JPEG-PNG/5-components-of-website-useability.jpg",
+        imageAlt: "5 Components of Website Useability",
         category: "Website Useability",
         tags: ["Website Useability", "Custom Website Design", "Website Content Writing", "Search Engine Optimization (SEO)", "Digital Graphic Design", "Website Maintenance", "Website Usability"],
         snippet: "The more time and effort you put into planning and building your website, or revamping an existing one, the more successful you'll be. Your new site will have more potential in accomplishing your business goals, your business will look more credible to all the people visiting your site, and you'll increase your bottom line.",
         content: `
 If you are in business for yourself, an executive with decision making power, or the head of your company, you are probably bombarded with advice, opinions and information about how to build or re-vamp your website and how to use it to your advantage in business.
+
 To be as successful as possible in your e-business, you'll need to plan ahead and you'll need to properly fuse the disciplines of design, technology and marketing. From conception to reality, the process of manifesting a website draws upon a multidisciplinary approach.
+
 The more time and effort you put into planning and building your website, or revamping an existing one, the more successful you'll be. Your new site will have more potential in accomplishing your business goals, your business will look more credible to all the people visiting your site, and you'll increase your bottom line.
+
 The following is a guide for building a new website. It shows how a corporate webmaster or Web department creates a world-class website, and it is the same step by step process that every organization, no matter how small, should follow.
 
-    <span>Step 1 - Discovery:</span> The first phase involves determining the scope of the project, the timeline and scheduling parameters, everyone's expectations, and your current human and technical resources.
+    <span>Step 1 - Discovery:</span> The first phase involves determining the scope of the project, the timeline and scheduling 
+    parameters, everyone's expectations, and your current human and technical resources.
 
-    <span/>Step 2 - Concept and Planning: </span>The next step is to determine site requirements, business goals, types of functionality, site features, and a timeline and due date. You'll need to determine who your site audience is, the demographics and psychographics of your visitors.
+    <span/>Step 2 - Concept and Planning: </span>The next step is to determine site requirements, business goals, types of 
+    functionality, site features, and a timeline and due date. You'll need to determine who your site audience is, the 
+    demographics and psychographics of your visitors.
     
-    In this phase the architecture or organization of the information that will be included on the site needs to be planned as well. The most important part of this step is determining your goals for the site. You need to ask yourself and any other stake holders exactly what the new site ought to yield when completed. What do you expect the site to do? What do you want to get out of it? What messages do you want to convey to all the people who will eventually view it? What are the priorities of the site in terms of your business and making money? What types of people will be using the site and what will they want to accomplish while there?
+    In this phase the architecture or organization of the information that will be included on the site needs to be 
+    planned as well. The most important part of this step is determining your goals for the site. You need to ask yourself
+    and any other stake holders exactly what the new site ought to yield when completed. What do you expect the site 
+    to do? What do you want to get out of it? What messages do you want to convey to all the people who will 
+    eventually view it? What are the priorities of the site in terms of your business and making money? What types of 
+    people will be using the site and what will they want to accomplish while there?
 
-    <span>Step 3 - Design Specifications: </span>This is when the look & feel and a visual design specification are created. Here you'll determine the fonts, colors and size and layouts, always trying to keep consistency paramount. You'll want to write specifications for the images you'll be using on the site as well. It's also the time to decide upon and design the technical infrastructure and architecture of the site, server, environment and platform. You'll determine what programming languages and databases will be used, if any, and any other technical features your site will need.
+    <span>Step 3 - Design Specifications: </span>This is when the look & feel and a visual design specification are created. Here you'll 
+    determine the fonts, colors and size and layouts, always trying to keep consistency paramount. You'll want to write 
+    specifications for the images you'll be using on the site as well. It's also the time to decide upon and design the 
+    technical infrastructure and architecture of the site, server, environment and platform. You'll determine what 
+    programming languages and databases will be used, if any, and any other technical features your site will need.
     
-    One of the secondary benefits of following Step 3 is that you'll have a document to refer back to later on when adding to the site. If you hire a new Web person of company, you can give them this design specification document for them to follow whenever they work on your site
+    One of the secondary benefits of following Step 3 is that you'll have a document to refer back to later on when 
+    adding to the site. If you hire a new Web person of company, you can give them this design specification document 
+    for them to follow whenever they work on your site.
 
-    <span>Step 4 - Production: </span>Before this phase begins, everyone who is involved in this project, including people who give the final ‘ok', need to know that there will be a technical and look and feel design freeze at this point. If any changes are needed during this point, then those changes will be done in the next redesign.
+    <span>Step 4 - Production: </span>Before this phase begins, everyone who is involved in this project, including people who give 
+    the final ‘ok', need to know that there will be a technical and look and feel design freeze at this point. If any changes 
+    are needed during this point, then those changes will be done in the next redesign.
     
-    The production phase can be broken down into three areas and will include:
+   <span>The production phase can be broken down into three areas and will include:
+    </span><span>Step 4a- The Design Production:</span>  The artistic look and feel design production, usability designing, the navigation 
+   production, and image and button creation. The homepage of the site and the inner page template both need the 
+   new design applied to them. The homepage design may use the same template the rest of the site uses, or it may 
+   be unique. If it differs from the rest of the site, then make sure its look and feel is very similar to the look and feel of 
+   the inner page template(s). Also, if it differs, consider applying this entire step-by-step guide to the homepage as 
+   well, treating it as a separate, but related entity.
 
-    <span>Step 4a - The design production: </span>The artistic look and feel design production, usability designing, the navigation production, and image and button creation. The homepage of the site and the inner page template both need the new design applied to them. The homepage design may use the same template the rest of the site uses, or it may be unique. If it differs from the rest of the site, then make sure its look and feel is very similar to the look and feel of the inner page template(s). Also, if it differs, consider applying this entire step-by-step guide to the homepage as well, treating it as a separate, but related entity.
+   <span>Step 4b - The Technical Production: </span>This entails the HTML coding, any other coding to contribute to the functionality 
+   and the configuration of the server's environment. The technical aspects could also include any Server Side Coding 
+   in a major programming language, Database Design and Development, and site security measures.
 
-    <span>Step 4b - The technical production: </span>This entails the HTML coding, any other coding to contribute to the functionality and the configuration of the server's environment. The technical aspects could also include any Server Side Coding in a major programming language, Database Design and Development, and site security measures.
+   <span>Step 4c - The Marketing Production: </span>This area includes creating the homepage and pre-determined inner pages to 
+   be search engine and index friendly. It also includes the copywriting for every page. Any mechanisms for interacting 
+   with the visitors will be produced here. For example, forms on your site that asks users to give information are ways 
+   for a user to interact with your site. Although the look & feel of the form falls under ‘design', and the actual 
+   mechanisms that make the form work falls under ‘technology', the purpose of the forms will be very marketing-
+   centric. What you ask, how you store the data, and how you retrieve it and use it later are all marketing issues that 
+   should be addressed in this step.
 
-    <span>Step 4c - The marketing production: </span>This area includes creating the homepage and pre-determined inner pages to be search engine and index friendly. It also includes the copywriting for every page. Any mechanisms for interacting with the visitors will be produced here. For example, forms on your site that asks users to give information are ways for a user to interact with your site. Although the look & feel of the form falls under ‘design', and the actual mechanisms that make the form work falls under ‘technology', the purpose of the forms will be very marketing-centric. What you ask, how you store the data, and how you retrieve it and use it later are all marketing issues that should be addressed in this step.
+   <span>Step 5 - Testing: </span>The produced site now must be loaded onto a staging area that is exactly like the production 
+   environment, or made accessible to testers only. During this phase, various people will test all aspects of site, 
+   including functionality, spelling and grammar, hyperlinks, and all other elements. This is often called the Quality 
+   Assurance phase.
 
-    <span>Step 5 - Testing: </span>The produced site now must be loaded onto a staging area that is exactly like the production environment, or made accessible to testers only. During this phase, various people will test all aspects of site, including functionality, spelling and grammar, hyperlinks, and all other elements. This is often called the Quality Assurance phase.
+   <span>Step 6 - Publishing: </span>This phase is the push of the new site from staging to production. Here the site is made live 
+   and is now on the World Wide Web.
 
-    <span>Step 6 - Publishing: </span>This phase is the push of the new site from staging to production. Here the site is made live and is now on the World Wide Web.
-
-    <span>Step 7 - E-marketing and maintenance: </span>Unless the site is marketed, it won't matter how well-designed or technically robust it is, no one will ever visit or use it. Therefore, the final and ongoing phase entails implementing E-marketing techniques, keeping the site's content fresh, and making continual adjustments based on site specific and customer research.
+   <span>Step 7 - E-marketing and Maintenance: </span>Unless the site is marketed, it won't matter how well-designed or 
+   technically robust it is, no one will ever visit or use it. Therefore, the final and ongoing phase entails implementing 
+   E-marketing techniques, keeping the site's content fresh, and making continual adjustments based on site specific 
+   and customer research.
 
 Whether you decide to tackle building a new website yourself, or you choose to hire someone else to do it, the steps outlined above ought to be followed. If you decide to do it yourself, you'll need to read up on Graphic Design and Usability, Web Technologies and E-marketing.
+
 If you hire an outside company to build a site for you, ask them how they plan to accomplish it. Ask them if they have a set method for building a new site or re-vamping an old one. If they have a good system, it ought to look a lot like the steps above. They ought to be proficient in all aspects of website development and be able to communicate to you everything they are doing and why. Remember, the better your site is initially and the better you manage your new site going forward, the better your business will be.
 `
     }, {
@@ -347,7 +386,8 @@ Hortensia was thrilled when she landed her first web design client. She hadn't b
     
 <span>What if your client is a friend?</span>
 
-    Tim's neighbor belonged to a service club. Tim agreed to help his neighbor write a press release for a special event to be held February 15. Right after New Year's Day, Tim's phone rang.
+    Tim's neighbor belonged to a service club. Tim agreed to help his neighbor write a press release for a special event 
+    to be held February 15. Right after New Year's Day, Tim's phone rang.
 
     'Where's the release?' demanded the neighbor.
 
@@ -377,70 +417,81 @@ Nobody's complained. In fact, I think everyone appreciates knowing what's expect
         author: "Erin Ferree",
         date: "",
         imageUrl: "amazon//Users/lambda_school_loaner_206/Desktop/Blue-Smoke-Media/src/images/Blog/Primary/JPEG-PNG/9-powerful-tips-for-an-effective-logo.jpg",
-        imageAlt: "9 Keys to an Effective Logo",
+        imageAlt: "9 Powerful Tips to an Effective Logo",
         category: "Logos",
         tags: ["Digital Media Logo", "Printed Media Logo", "Brand Loyalty", "Consumer Loyalty", "Reputation Management"],
         snippet: "Strategic Social Media Marketing",
         content: `
-The right logo, with the right characteristics, will boost your visibility, credibility and memorability ­ which means more business for you!
-These characteristics include:
+The right logo, with the right characteristics, will boost your visibility, credibility and memorability which means more business for you! These characteristics include:
+    
     <span>Consistency</span> in use of your logo, tagline, materials.
-    <span>Repetition</span> of similar elements, used in the same or similar ways, helps people to remember who you are and what you do.
-    <span>Memorability,</span> so that your logo stays at the forefront of your potential clients' minds. That way, they'll think of you next time they have a need.
-    <span>Meaningfulness,</span> so that your logo can spread the message about the distinguishing characteristics of your business.
-    <span>Uniqueness,</span> which helps you stand out from the crowd. For example, if everyone in your industry uses a particular symbol (i.e., travel agencies often use globes in their logos), try to use something else, that way, your logo doesn't just look like everyone else's.
+    <span>Repetition</span> of similar elements, used in the same or similar ways, helps people to remember who you are and what 
+    you do.
+    <span>Memorability,</span> so that your logo stays at the forefront of your potential clients' minds. That way, they'll think of you 
+    next time they have a need.
+    <span>Meaningfulness,</span> so that your logo can spread the message about the distinguishing characteristics of your 
+    business.
+    <span>Uniqueness,</span> which helps you stand out from the crowd. For example, if everyone in your industry uses a particular 
+    symbol (i.e., travel agencies often use globes in their logos), try to use something else, that way, your logo doesn't 
+    just look like everyone else's.
     <span>Professionalism,</span> in the quality of the graphics, the printing and the paper on which your materials are printed.
-    <span>Timelessness in your logo</span> will ensure that you don't have to redesign your logo in just a few years and that your investment and equity in your design will be lasting. Differentiation between the colors in your logo  and not just in terms of hue, but in terms of value as well, so that it translates well either to black and white or grey scale and colorblind people are able to see it.
-    <span>Unity</span> among the different elements in the logo. The logo must fit together as a single unit, and not just appear as a jumble of elements pasted together.
-    <span>Scalability,</span> so that your logo looks equally good on both a business card and on a sign for your business (or a billboard!), and at every size in between. Your business's name should be legible at different logo sizes ­ be sure that your designer chooses a font that is easily readable.
+    <span>Timelessness in your logo</span> will ensure that you don't have to redesign your logo in just a few years and that your 
+    investment and equity in your design will be lasting. Differentiation between the colors in your logo  and not just in 
+    terms of hue, but in terms of value as well, so that it translates well either to black and white or grey scale and 
+    colorblind people are able to see it.
+    <span>Unity</span> among the different elements in the logo. The logo must fit together as a single unit, and not just appear as a 
+    jumble of elements pasted together.
+    <span>Scalability,</span> so that your logo looks equally good on both a business card and on a sign for your business (or a 
+    billboard!), and at every size in between. Your business's name should be legible at different logo sizes ­ be sure that 
+    your designer chooses a font that is easily readable.
 
-    Having a professionally designed logo can really give your business a jumpstart and help your business get the attention ­and clients­ you need to succeed.`
+Having a professionally designed logo can really give your business a jumpstart and help your business get the 
+attention ­and clients­ you need to succeed.`
     }, {
         id: 12,
         title: "Three Things You Must Do When Designing and Building Your Small Business Website",
         author: "Constance Beebe",
         date: "August, 2020",
-        imageUrl: "amazon/",
-        imageAlt: "",
+        imageUrl: "amazon//Users/lambda_school_loaner_206/Desktop/Blue-Smoke-Media/src/images/Blog/Primary/JPEG-PNG/small-business-website-design.jpg",
+        imageAlt: "Building your small business website",
         category: "Custom Website Design",
         tags: ["Affordable Custom Website Design", "Search Engine Optimization (SEO)", "Website Usability", "Website Content Writing"],
         snippet: "If you are going to have a web presence for your small business, it only makes sense that it should actually help you get more business. In order to do so, your website design should focus on performing only one function – and that’s to convey your sales message to your site visitors in an effective and efficient manner.",
         content: `
-    If you are going to have a web presence for your small business, it only makes sense that it should actually help you get more business. In order to do so, your website design should focus on performing only one <span>function.</span> and that’s to convey your sales message to your site visitors in an effective and efficient manner.
+If you are going to have a web presence for your small business, it only makes sense that it should actually help you get more business. In order to do so, your website design should focus on performing only one <span>function.</span> and that’s to convey your sales message to your site visitors in an effective and efficient manner.
 
-    No matter what your web designer tells you, simplicity is best when building your small business website. While having a website with lots of bright colors and flashy interactive graphics might win web design awards, it will probably not help you win customers. In fact, the more complicated your web design, the higher the risk that your sales message will be lost amidst all the fancy bells and whistles on your site.
+No matter what your web designer tells you, simplicity is best when building your small business website. While having a website with lots of bright colors and flashy interactive graphics might win web design awards, it will probably not help you win customers. In fact, the more complicated your web design, the higher the risk that your sales message will be lost amidst all the fancy bells and whistles on your site.
 
-    For most small businesses, a simple and elegant four or five page website is all they need to get the job done. As an added bonus, such sites are inexpensive when compared to flashier multimedia sites. If you want your small business website to increase your profits instead of emptying your pocketbook, pay close attention to the following design guidelines when you build your site.
+For most small businesses, a simple and elegant four or five page website is all they need to get the job done. As an added bonus, such sites are inexpensive when compared to flashier multimedia sites. If you want your small business website to increase your profits instead of emptying your pocketbook, pay close attention to the following design guidelines when you build your site.
 
-    Make Your Website Easy to Read
-    In order for your website to get sales and/or leads, your small business website design needs to be user and consumer-friendly - that means it needs to be easy to read. So, short sentences and paragraphs, dark text on white (or very, very light) backgrounds and lots of white space should be the norm.
+<span>Make Your Website Easy to Read</span>
+In order for your website to get sales and/or leads, your small business website design needs to be user and consumer-friendly - that means it needs to be easy to read. So, short sentences and paragraphs, dark text on white (or very, very light) backgrounds, and lots of white space should be the norm.
 
-    At the risk of sounding like a broken record, I’ll say it again - the purpose of having a website for your small business isn’t to win design awards. It’s to convey information about your product or service that guides the consumer toward making a buying decision in your favor.
+At the risk of sounding like a broken record, I’ll say it again - the purpose of having a website for your small business isn’t to win design awards. It’s to convey information about your product or service that guides the consumer toward making a buying decision in your favor.
 
+If you think that dark websites and colored text on colored backgrounds looks better, you may be right. However, as I mentioned earlier, loud colors and excessive graphics only serve to distract attention from the sales message contained in your site content and makes your site harder to read. Remember: keep it simple and you’ll keep the sale.
 
-    If you think that dark websites and colored text on colored backgrounds looks better, you may be right. However, as I mentioned earlier loud colors and excessive graphics only serve to distract attention from the sales message contained in your site content and makes your site harder to read. Remember: keep it simple and you’ll keep the sale.
+Also, remember that web users tend to scan text instead of reading it start to finish like printed text. Since the majority of your visitors will not read all your content, use headlines, subheadings, and bolded text that quickly convey your overall message. Done correctly, a visitor should be able to scan all your headlines, subheads, and bold text in just a few seconds and understand the central message of your site or page.
 
-    Also, remember that web users tend to scan text instead of reading it start to finish like printed text. Since the majority of your visitors will not read all your content, use headlines, subheadings, and bolded text that quickly convey your overall message. Done correctly, a visitor should be able to scan all your headlines, subheads, and bold text in just a few seconds and understand the central message of your site or page.
+<span>Make Your Website Easy to Navigate</span>
+Since the chief purpose of your site is to convey information, you should design your website so the information it contains is easy to find. If you make it easy for your visitors to navigate your site, they’ll thank you with their dollars. Make it difficult, and they’ll leave your website before you can say “Google.”
 
-    Make Your Website Easy to Navigate
-    Since the chief purpose of your site is to convey information, you should design your website so the information it contains is easy to find. If you make it easy for your visitors to navigate your site, they’ll thank you with their dollars. Make it difficult, and they’ll leave your website before you can say “Google.”
+At the bare minimum, you should have a navigation bar on every webpage that includes a link back to your home page and to every top-tier page in your website. In addition, you should consider placing links back to the previous page visited at the top and bottom of the current page. Some websites use “bread crumbs” for this <span>purpose.</span> a “trail” of links that show each page visited since landing at the site.
 
-    At the bare minimum, you should have a navigation bar on every webpage that includes a link back to your home page and to every top-tier page in your website. In addition, you should consider placing links back to the previous page visited at the top and bottom of the current page. Some websites use “bread crumbs” for this <span>purpose.</span> a “trail” of links that show each page visited since landing at the site.
+Lastly, make sure that there are no broken links on your website. Broken links may not seem like a big deal to you, but to a site visitor who was clicking on a link for more information they are a major frustration. Fix your broken links!
 
-    Lastly, make sure that there are no broken links on your website. Broken links may not seem like a big deal to you, but to a site visitor who was clicking on a link for more information they are a major frustration. Fix your broken links!
+Oh, and incidentally, making your site easy to navigate will also help the search engines to find and index all your pages, which might help you get more traffic over the long haul.
 
-    Oh, and incidentally, making your site easy to navigate will also help the search engines to find and index all your pages, which might help you get more traffic over the long haul.
+<span>Make Sure Your Website Loads Quickly</span>
+Despite the fact that high-speed internet access has become very affordable and accessible in recent years, many web users are still using dial-up connections to access the internet. Note that these people get very frustrated when they have to wait five minutes for your webpage to load. You will lose these visitors if your web page files are too large and take too long to load.
 
-    Make Sure Your Website Loads Quickly
-    Despite the fact that high-speed internet access has become very affordable and accessible in recent years, many web users are still using dial-up connections to access the internet. Note that these people get very frustrated when they have to wait five minutes for your webpage to load. You will lose these visitors if your web page files are too large and take too long to load.
+Keep photos, graphics, and animations to a tasteful minimum on your websites, and keep your total page size under 50K to ensure maximum usability for your visitors. In addition, avoid using background music on your pages unless it is absolutely necessary.
 
-    Keep photos, graphics, and animations to a tasteful minimum on your websites, and keep your total page size under 50K to ensure maximum usability for your visitors. In addition, avoid using background music on your pages unless it is absolutely necessary.
+Another way to increase the speed of your website is using SSR (Server Side Rendering). SSR allows your website to load within 3-5 milliseconds (depending on the amount of graphics and video on your site). This will allow your visitors quicker access to your website and onto buying your products.
 
-    Another way to increase the speed of your website is using SSR (Server Side Rendering). SSR allows your website to load within 3-5 milliseconds (depending on the amount of graphics and video on your site). This will allow your visitors quicker to your website and onto buying your products.
+By the way, smaller and faster loading pages make it easier for the search engines to <span>spider and rank  your site. </span>An added bonus for keeping your page files small and your load times fast.
 
-    By the way, smaller and faster loading pages make it easier for the search engines to <span>spider nd rank  your site. </span>an added bonus for keeping your page files small and your load times fast.
-
-    Hopefully, these guidelines will help you build a website that gets you more sales and leads for your small business. Remember, building a website that your visitors enjoy browsing will boost customer loyalty and encourage repeat sales. Create a fast-loading site that’s easy to read and navigate, and your visitors will thank you with their debit cards!`
+Hopefully, these guidelines will help you build a website that gets you more sales and leads for your small business. Remember, building a website that your visitors enjoy browsing will boost customer loyalty and encourage repeat sales. Create a fast-loading site that’s easy to read and navigate, and your visitors will thank you with their debit cards!`
     }, {
         id: 13,
         title: "What is 'organic' search and how can it help your company?",
@@ -453,29 +504,36 @@ These characteristics include:
         snippet: "While optimizing your website to rank well for organic searches takes more effort than simply buying an ad, it can provide your business with one of the highest ROI results that you're likely to find. Numerous studies have placed search engine optimization at the top of the list of the most effective forms of online marketing. Its low cost, high relevancy, and high conversion rates make it an ideal marketing vehicle for almost any business.",
 
         content: `
-    The first time I heard the term "organic search" I immediately thought of organic food at the grocery store. So, is this organic search healthier for me? Will it reduce my chances of getting cancer? Not only can the search engines bring most of the world's knowledge to my desktop, but now they can prevent deadly diseases too! Imagine my disappointment when I learned organic search was simply the next new buzzword for the concept of pure, or crawler-based search. As some of our readers may find it challenging to keep up with all of the latest lingo, I thought I'd take a moment to at least explain the concept of organic search.
-    Organic describes a search that returns results by indexing pages based on content and keyword relevancy. This is in contrast to listings ranked based on who paid the most money to appear at the top such as those on Overture.com. Sometimes this is called "pure" or "natural search" as it is supposed to be "untainted" by commercial payments or bids.
-    Historically, Google has led the way in championing the virtues of natural or organic search. Its primary focus has always been to return fast, highly relevant results based on the content of the page, the relevancy of links pointing to that page, and other "objective" criteria. Sponsored listings have always been clearly separated from the organic search results on Google. However, many other engines have experimented with mixing the two types of search without clearly labeling which is which. This has been followed by public outcries, and at least one cautionary set of statements issued by the FTC in 2002.
-    Pros and Cons of Organic Search vs Paid Search.
-    Unlike organic foods at your local grocery store, you aren't required to pay extra to reap the healthy benefits of "organic" search. So what are the benefits of organic over paid search?
+The first time I heard the term <span>"organic search"</span> I immediately thought of organic food at the grocery store. So, is this organic search healthier for me? Will it reduce my chances of getting cancer? Not only can the search engines bring most of the world's knowledge to my desktop, but now they can prevent deadly diseases too! Imagine my disappointment when I learned organic search was simply the next new buzzword for the concept of pure, or crawler-based search. As some of our readers may find it challenging to keep up with all of the latest lingo, I thought I'd take a moment to at least explain the concept of organic search.
 
-    Pros:
-        1. Greater Click-throughs: People trust "organically grown" search results more than they do sponsored results. While the engines business is supported by paid ads, many consumers prefer the organic search results. Due to the contextual nature of organic search, the listings can be more relevant and offer a greater depth of choices. Therefore, while paid ads can play an important part in your marketing strategy, ultimately it is the organic search results that will more likely yield the greater click-through rates when all other things are equal. Therefore, it's this type of listing that will maximize the traffic to your site whenever you climb to the top.
+Organic describes a search that returns results by indexing pages based on content and keyword relevancy. This is in contrast to listings ranked based on who paid the most money to appear at the top such as those on Bing. Sometimes this is called "pure" or "natural search" as it is supposed to be "untainted" by commercial payments or bids.
 
-        2. Power of Branding: More and more large corporations are investing resources into organic search to gain the marketing benefits of promoting their brand. For example, most consumers would expect to find Dell.com in a search for computers. If your company does not show up for the keyword results in which you'd expect to appear it can be embarrassing. Consumers may wonder if Company X is as important as they once were if they don't even show up in MSN, Yahoo or Google. Conversely, inserting your brand in the top search results can give the impression that your company is important. Therefore, smaller companies can give the impression of big business importance by securing aa better position in organic search than their larger rivals.
+Historically, Google has led the way in championing the virtues of natural or "organic search". Its primary focus has always been to return fast, highly relevant results based on the content of the page, the relevancy of links pointing to that page, and other "objective" criteria. Sponsored listings have always been clearly separated from the organic search results on Google. However, many other engines have experimented with mixing the two types of search without clearly labeling which is which. This has been followed by public outcries, and at least one cautionary set of statements issued by the FTC in 2002, 2011, 2018 and 2020.
 
-        3. Greater Trust Equals Greater Conversions: Most adults learn to apply a healthy dose of skepticism when they see a commercial on TV, a banner ad on the Web, or a sponsored ad on a search engine. After all, we know those ads are commercially motivated and may not always be the most relevant product or solution for our needs. It may simply represent the company that was able to spend the most money to get their message in front of me. Sometimes bigger companies do offer the best products, but there's no guarantee. There's certainly not the same level of trust that we see from visitors arriving from organic search. Organic search can, of course, be commercially influenced. However, a recent survey shows that people tend to trust organic results compared to sponsored listings. On the whole, you should see more visitors from organic search converting to sales, assuming your rankings were for targeted, relevant keywords. In the business world, ROI, or Return On Investment, is king. Fortunately, organic search can give you the high ROI you're looking for or your boss is demanding.
+<span>Pros and Cons of Organic Search vs Paid Search.</span>
 
-        4. Organic is Free: After all these years, it's still free to submit to Google, arguably the most popular of the organic search engines right now. Google has always been adamant about not charging for inclusion in its index of 4.2 billion pages. Most other organic engines will also index you for free, although some like Yahoo do have paid inclusion options. Paid inclusion simply guarantees your page will get indexed quickly and stay indexed for as long as you maintain your subscription, but does not promise a particular ranking. However, if you have a website with good quality content and links from third party sites, paid inclusion is "nice-to-have". It can be very useful in getting pages indexed or re-indexed quickly. This allows you to quickly test various page designs and to feed news and other time-sensitive content to the search engine as quickly as possible.
+Unlike organic foods at your local grocery store, you aren't required to pay extra to reap the healthy benefits of "organic" search. So what are the benefits of organic over paid search?
+
+PROS:
+
+<span>1. Greater Click-throughs:</span> People trust <span>"organically grown"</span> search results more than they do sponsored results. While the engines business is supported by paid ads, many consumers prefer the organic search results. Due to the contextual nature of organic search, the listings can be more relevant and offer a greater depth of choices. Therefore, while paid ads can play an important part in your marketing strategy, ultimately it is the organic search results that will more likely yield the greater click-through rates when all other things are equal. Therefore, it's this type of listing that will maximize the traffic to your site whenever you climb to the top.
+
+<span>2. Power of Branding:</span> More and more large corporations are investing resources into organic search to gain the marketing benefits of promoting their brand. For example, most consumers would expect to find Dell.com in a search for computers. If your company does not show up for the keyword results in which you'd expect to appear it can be embarrassing. Consumers may wonder if Company X is as important as they once were if they don't even show up in Bing, Yahoo or Google. Conversely, inserting your brand in the top search results can give the impression that your company is important. Therefore, smaller companies can give the impression of big business importance by securing aa better position in organic search than their larger rivals.
+
+<span>3. Greater Trust Equals Greater Conversions:</span> Most adults learn to apply a healthy dose of skepticism when they see a commercial on TV, a banner ad on the Web, or a sponsored ad on a search engine. After all, we know those ads are commercially motivated and may not always be the most relevant product or solution for our needs. It may simply represent the company that was able to spend the most money to get their message in front of me. Sometimes bigger companies do offer the best products, but there's no guarantee. There's certainly not the same level of trust that we see from visitors arriving from organic search. Organic search can, of course, be commercially influenced. However, a recent survey shows that people tend to trust organic results compared to sponsored listings. On the whole, you should see more visitors from organic search converting to sales, assuming your rankings were for targeted, relevant keywords. In the business world, ROI, or Return On Investment, is king. Fortunately, organic search can give you the high ROI you're looking for or your boss is demanding.
+
+<span>4. Organic is Free:</span> After all these years, it's still free to submit to Google, arguably the most popular of the organic search engines right now. Google has always been adamant about not charging for inclusion in its index of 4.2 billion pages. Most other organic engines will also index you for free, although some like Yahoo do have paid inclusion options. Paid inclusion simply guarantees your page will get indexed quickly and stay indexed for as long as you maintain your subscription, but does not promise a particular ranking. However, if you have a website with good quality content and links from third party sites, paid inclusion is "nice-to-have". It can be very useful in getting pages indexed or re-indexed quickly. This allows you to quickly test various page designs and to feed news and other time-sensitive content to the search engine as quickly as possible.
 
 
-    Cons:
-        1. Organic Rankings are Not Automatic: With organic listings, you cannot simply hand over a certain amount of money and be guaranteed to quickly and automatically achieve any ranking you desire. Instead, achieving positions in organic search requires the proper technology, skill, and know-how. There has always been a cloud of mystery around the process of achieving top rankings. How's it done? Where do I start? That's why resources like this newsletter and products like WebPosition Gold are essential to a business's success in search engine marketing.
+CONS:
 
-        2. Organic Rankings Require an Investment in Time: The age-old adage of "nothing worthwhile in life ever comes easy" rings true with organic rankings. While they are monetarily free, simply submitting your pages to the search engines is not enough to bring in a flood of new visitors to your website. Far too many businesses have been fooled into spending $100 or $400 to submit their site to "thousands" of sites, 99% of which are obscure names you've probably never heard of. The key is that someone doing a search on a major search engine must be able to easily find your website.If your site is buried at the bottom of the list, or simply fails to appear in the first few pages of search results, you can kiss your chances of being found good-bye. The key is to use responsible best practices to create pages that are highly relevant to the keywords that apply to your website and the products or solutions you have to offer. . In other words, optimize your pages for search engine visibility and see how fast your position improves. To do this, you simply need to know what each search engine needs for maximum visibility. Then tweak your Web page's content while paying attention to off-page factors like the number and type of links coming to your page. Tune the pages of your site to the preferences of the major search engines and then watch your rankings and traffic climb.
+<span>1. Organic Rankings are Not Automatic:</span> With organic listings, you cannot simply hand over a certain amount of money and be guaranteed to quickly and automatically achieve any ranking you desire. Instead, achieving positions in organic search requires the proper technology, skill, and know-how. There has always been a cloud of mystery around the process of achieving top rankings. How's it done? Where do I start? That's why resources like this newsletter and products like WebPosition Gold are essential to a business's success in search engine marketing.
 
-    While optimizing your website to rank well for organic searches takes more effort than simply buying an ad, it can provide your business with one of the highest ROI results that you're likely to find. Numerous studies have placed search engine optimization at the top of the list of the most effective forms of online marketing. Its low cost, high relevancy, and high conversion rates make it an ideal marketing vehicle for almost any business.
-    The catch? As with any area of marketing, SEO is a competitive field. Arming yourself with the best technology and knowledge is key to gaining a competitive advantage. Long-time readers of MarketPosition know that WebPosition was the first product on the market to track a website's rankings on the search engines and to help improve those rankings. That early lead has given WebPosition more time for its technology to grow and mature than any of its competition. WebPosition's Page Critic module contains a wealth of advice and statistics designed to move your site to the top of the organic search results. Not only that, it also tracks your rankings and gives you advice on how to achieve the best results in both organic and pay-per-click search engines as well. Therefore, you can capitalize on the best of both worlds.
+<span>2. Organic Rankings Require an Investment in Time:</span> The age-old adage of "nothing worthwhile in life ever comes easy" rings true with organic rankings. While they are monetarily free, simply submitting your pages to the search engines is not enough to bring in a flood of new visitors to your website. Far too many businesses have been fooled into spending $100 or $400 to submit their site to "thousands" of sites, 99% of which are obscure names you've probably never heard of. The key is that someone doing a search on a major search engine must be able to easily find your website. If your site is buried at the bottom of the list, or simply fails to appear in the first few pages of search results, you can kiss your chances of being found good-bye. The key is to use responsible best practices to create pages that are highly relevant to the keywords that apply to your website and the products or solutions you have to offer. . In other words, optimize your pages for search engine visibility and see how fast your position improves. To do this, you simply need to know what each search engine needs for maximum visibility. Then tweak your Web page's content while paying attention to off-page factors like the number and type of links coming to your page. Tune the pages of your site to the preferences of the major search engines and then watch your rankings and traffic climb.
+
+While optimizing your website to rank well for organic searches takes more effort than simply buying an ad, it can provide your business with one of the highest ROI results that you're likely to find. Numerous studies have placed search engine optimization at the top of the list of the most effective forms of online marketing. Its low cost, high relevancy, and high conversion rates make it an ideal marketing vehicle for almost any business.
+
+The catch? As with any area of marketing, SEO is a competitive field. Arming yourself with the best technology and knowledge is key to gaining a competitive advantage. Long-time readers of MarketPosition know that WebPosition was the first product on the market to track a website's rankings on the search engines and to help improve those rankings. That early lead has given WebPosition more time for its technology to grow and mature than any of its competition. WebPosition's Page Critic module contains a wealth of advice and statistics designed to move your site to the top of the organic search results. Not only that, it also tracks your rankings and gives you advice on how to achieve the best results in both organic and pay-per-click search engines as well. Therefore, you can capitalize on the best of both worlds.
 
 
 `
