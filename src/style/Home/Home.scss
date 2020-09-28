@@ -153,7 +153,6 @@
       flex-wrap: wrap;
       justify-content: space-around;
       margin: 7% auto 13%;
-      //todo colors (hover, links)
 
       .service-card {
         display: flex;
@@ -191,6 +190,9 @@
         }
         a {
           color: $orange;
+          &:hover {
+            color: $darkBlue;
+          }
         }
       }
     }

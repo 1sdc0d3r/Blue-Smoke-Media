@@ -337,6 +337,10 @@
   color: #ee3e0e;
 }
 
+.home .services .services-card-container .service-card a:hover {
+  color: #020723;
+}
+
 .home .plans-pricing {
   margin-bottom: 5em;
 }
