@@ -1,5 +1,5 @@
-//! 16 articles
-export const articleData = [{
+//! 17 articles
+export default [{
         id: 1,
         title: "10 Prominent Website Design Mistakes",
         author: "Constance Beebe",
@@ -7,30 +7,30 @@ export const articleData = [{
         imageUrl: "amazon/",
         imageAlt: "10 Prominent Website Design Mistakes Commonly Made.",
         category: "Custom Website Design",
-        tags: ["Affordable Custom Website Design", "Search Engine Optimization (SEO)", "Organic SEO", "E-Commerce Website Development", "Website Usability"],
+        tags: "Affordable Custom Website Design, Search Engine Optimization (SEO), Organic SEO, E-Commerce Website Development, Website Usability",
         snippet: "Nowadays, sites are getting better. With minimal design and highly maintained archives they continue to offer comprehensive services. However, prominent mistakes on several websites are still apparent. Here is a list of the website mistakes that scares visitors away and ruins the business reputation.",
         content: `
-    Nowadays, website designs are getting better and more user-friendly. With minimal design and highly maintained archives they continue to offer comprehensive services. However, prominent mistakes on several websites are still apparent. Here is a list of the website mistakes that scares visitors away and ruins the businesses reputation.
+Nowadays, website designs are getting better and more user-friendly. With minimal design and highly maintained archives they continue to offer comprehensive services. However, prominent mistakes on several websites are still apparent. Here is a list of the website mistakes that scares visitors away and ruins the businesses reputation.
 
-    <span>1. The under construction sign.</span> Putting an 'under construction' sign on your website marks you as a struggling beginner. Websites are supposed to grow in time. If your site is not yet ready to be shown in public, then don’t publish it.
+<span>1. The under construction sign.</span> Putting an 'under construction' sign on your website marks you as a struggling beginner. Websites are supposed to grow in time. If your site is not yet ready to be shown in public, then don’t publish it.
 
-    <span>2. Visitor counters.</span> Visitors generally are not bothered by the fact that many other people have visited your site. However, if the visitor counter shows a low number, that can be a psychological turn-off to people, if it's too high, people might think that it’s fictitious. The best way to do is not to include in your website. If you really want to know how many visitors you have had, check your analytics.
+<span>2. Visitor counters.</span> Visitors generally are not bothered by the fact that many other people have visited your site. However, if the visitor counter shows a low number, that can be a psychological turn-off to people, if it's too high, people might think that it’s fictitious. The best way to do is not to include in your website. If you really want to know how many visitors you have had, check your analytics.
 
-    <span>3. Lack of copyright statements.</span> Everything you write and create on the including your website is copyright-able. Make certain that you include copyright statements on every page, and appropriately update the copyright year.
+<span>3. Lack of copyright statements.</span> Everything you write and create on the including your website is copyright-able. Make certain that you include copyright statements on every page, and appropriately update the copyright year.
 
-    <span>4. Overuse of technology.</span> There are some really great and cool new technologies available today but they can tend to distract the visitors. In times that you have to choose between new technology and simplicity. Choose the latter for it is anchored on the website’s functionality.
+<span>4. Overuse of technology.</span> There are some really great and cool new technologies available today but they can tend to distract the visitors. In times that you have to choose between new technology and simplicity. Choose the latter for it is anchored on the website’s functionality.
 
-    <span>5. Passive verbs.</span> Use active verbs and active sentences when writing your site's copy. Active verbs are powerful and lend energy to your site. The more conversational the website is the better.
+<span>5. Passive verbs.</span> Use active verbs and active sentences when writing your site's copy. Active verbs are powerful and lend energy to your site. The more conversational the website is the better.
 
-    <span>6. Long sentences.</span> Long sentences are tedious to read. Better keep it short and simple so that it can easily be retained.
+<span>6. Long sentences.</span> Long sentences are tedious to read. Better keep it short and simple so that it can easily be retained.
 
-    <span>7. Lengthy pages.</span> Keep your pages brief and concise. People are easily bored of reading, so you have to adjust to their attention span. If you have a lot to say, you can create a series of pages with good navigation to explain your topics.
+<span>7. Lengthy pages.</span> Keep your pages brief and concise. People are easily bored of reading, so you have to adjust to their attention span. If you have a lot to say, you can create a series of pages with good navigation to explain your topics.
 
-    <span>8. Not identifying the benefits of your products or services.</span> There are two reasons why people make purchases. First is to get rid of pain and second is to get pleasure. They want to discern how your products and services will help them with their definite pain/pleasure situation.
+<span>8. Not identifying the benefits of your products or services.</span> There are two reasons why people make purchases. First is to get rid of pain and second is to get pleasure. They want to discern how your products and services will help them with their definite pain/pleasure situation.
 
-    <span>9. Neglecting to ask the visitor to do something.</span> In marketing, this is known as a Call To Action (CTA). There should be a space designated to tell your visitors what you want them to do next. "Sign up for my newsletter." "Order now!"
+<span>9. Neglecting to ask the visitor to do something.</span> In marketing, this is known as a Call To Action (CTA). There should be a space designated to tell your visitors what you want them to do next. "Sign up for my newsletter." "Order now!"
 
-    <span>10. Accepting as true the maxim build it and they will come.</span> Once you've built your website you have to let people know about it. If you don't deliver them to people, then your website is not worth the money you spent to create them!`
+<span>10. Accepting as true the maxim build it and they will come.</span> Once you've built your website you have to let people know about it. If you don't deliver them to people, then your website is not worth the money you spent to create them!`
     }, {
         id: 2,
         title: "How Website Design Can Affect Search Engine Rankings",
@@ -39,7 +39,7 @@ export const articleData = [{
         imageUrl: "amazon/how-website-design-can-affect-search-engine-rankings.jpg",
         imageAlt: "How Website Design Can Affect Search Engine Rankings",
         category: "Search Engine Optimization",
-        tags: ["Search Engine Optimization (SEO)", "Organic SEO", "Website Content Writing"],
+        tags: "Search Engine Optimization (SEO), Organic SEO, Website Content Writing",
         snippet: "Uniquely built websites can create unique issues when being promoted on the search engines. From a basic 3 page brochure site to a corporate site with hundreds of dynamically generated pages, every website needs to have certain design aspects in order to achieve the full effects of an SEO campaign. Below are a few points to take into consideration when building or updating your website.",
         content: `
 
@@ -48,8 +48,8 @@ Uniquely built websites can create unique issues when being promoted on the sear
 <span>1. Size Matters.</span>
 The size of a website can have a huge impact on search engine rankings. Search engines love content, so if you have only a few pages to your site and your competitors have dozens, it's difficult to see a top page ranking for your site. In some cases it may be difficult to present several pages of information about your business or products, so you may need to think about adding free resources for visitors. It will help in broadening the scope of your website (which search engines like), as well as keep visitors on your site longer, possibly resulting in more sales.
 
- <span>2. Graphics-Based Websites.</span>
- While websites that offer the visitor a more aesthetically-pleasing experience may seem like the best choice for someone searching for your product, they are the most difficult to optimize. Since search engine robots cannot read text within graphics or animation, what they see may be just a small amount of text. And if we learned anything from point #-1, small amounts of content will not result in top rankings. If you really must offer the visitor a graphics-heavy website, consider creating an html-based side of your website that is also available to visitors. This site will be much easier to promote on the search engines and your new found visitors will also have the option to jump over to the nicer looking part of your website.
+<span>2. Graphics-Based Websites.</span>
+While websites that offer the visitor a more aesthetically-pleasing experience may seem like the best choice for someone searching for your product, they are the most difficult to optimize. Since search engine robots cannot read text within graphics or animation, what they see may be just a small amount of text. And if we learned anything from point #-1, small amounts of content will not result in top rankings. If you really must offer the visitor a graphics-heavy website, consider creating an html-based side of your website that is also available to visitors. This site will be much easier to promote on the search engines and your new found visitors will also have the option to jump over to the nicer looking part of your website.
 
 <span>3. Dynamic Web Pages.</span>
 If most of your website is generated by a large database (such as a large book dealer with inventory that is changing by the minute), you may find that some of your pages do not get indexed by major search engines. If you look at the URL of these pages they can be extremely long and have characters such as ?, #, &, %, or = along with huge amounts of seemingly random numbers or letters. Since these pages are automatically generated by the database as needed, the search engines have a tough time keeping them up to date and relevant for search engine users.
@@ -59,17 +59,17 @@ One way to combat this problem is to offer a search engine friendly site map lis
 
 <span>4. Proper Use of Html5.</span>
 There is quite a bit of sub-par web design software out there. Text editors usually have a way to create html documents which can be easily uploaded to a site via ftp. However, in many cases the code that the search engine robots see is mostly lines and lines of font and position formatting, not relevant content. The more efficiently written websites usually achieve higher rankings. Our choice for web design, video creation, and graphic design software is the Adobe Creative Suite, as it is an industry standard. We write our own code using HTML5, JavaScript, React.js and Python. Writing our own code makes using CSS3 (Cascading Style Sheets) a breeze, which can drastically reduce the amount of text formatting in HTML and JavaScript. Hand-coding HTML and JavaScript to design sites is a great method if you are proficient enough.
-  
+
 There are some no brainers too: websites with abnormal amounts of hyperlinks, bold or italicized text, improper use of heading, alt, or comment tags can also expect to see low rankings.
 
 <span>5. Choosing a Domain Name.</span>
 The golden rule to web development of any kind is to keep your visitors in mind above all else - even search engine optimization. When choosing a domain name, one should pick either your business name (if you have a high-profile business name such as Olive Garden or Coca-Cola) or a brief description of your products. Domain names can always help with search engine optimization, since it is another area of your website in which important keywords can appear. Forget about long-winded domains such as www.number-one-best-books-on-earth.com. No one will ever remember it and it will be hard to print on business cards or in ads.
-   
+
 If you need to change your domain name for any reason you obviously don't want to lose existing rankings. An easy way to do this, and one that is currently supported by most search engines, is the 301 redirect. It allows you to keep your existing rankings for your old domain name, while forwarding visitors to your new website instantly.
 
 <span>6. Update Your Information.</span>
 Not only does information printed two or three years ago reflect badly on your organization when it is read by a visitor, it is also looked down upon by search engines. Businesses that continuously update and grow their websites usually experience higher rankings than stagnant sites. When the trick to SEO is offering visitors the most relevant information, you can bet that the age of web pages is taken into consideration by search engines. Consider creating a section of your site devoted to news within your organization, or have a constantly updated resources area.
-    
+
 Many shortfalls of websites can easily be attributed to designers who just do not keep the user or search engines in mind. Search engine algorithms are constantly improving to try and list the most user-friendly sites higher, given that the content and link popularity are there to back it up. So first and foremost, know your target market and make your website work for them before focusing on search engine optimization. If you build it (properly), they will come.`
 
     }, {
@@ -80,7 +80,7 @@ Many shortfalls of websites can easily be attributed to designers who just do no
         imageUrl: "amazon/Users/lambda_school_loaner_206/Desktop/Blue-Smoke-Media/src/images/ad-copy-writing-image.png",
         imageAlt: "Getting a piece of 'Advertising Copy'to come through for you and getting stellar results by following these 12 points!",
         category: "Ad-Copywriting",
-        tags: ["Ad-copywriting", "Search Engine Optimization (SEO)", "Organic SEO", "Strategic Social Media Marketing", "Website Content Writing", "Reputation Management"],
+        tags: "Ad-copywriting, Search Engine Optimization (SEO), Organic SEO, Strategic Social Media Marketing, Website Content Writing, Reputation Management",
         snippet: "You’re ready to launch that new product or promotion, & you’re really counting on a piece of advertising copy to come through for you. You're are looking for stellar results! And, you’re determined to do everything in your power to get them. Which means surveys, thorough testing, and ongoing refinement of your ad copy.",
         content: `
 You’re ready to launch that new product or promotion and you’re really counting on a piece of advertising copy to come through for you. You are expecting stellar results! And, you’re determined to do everything in your power to get them. Which means surveys, thorough testing, and ongoing refinement of your ad copy. Hold the phone! When you receive your draft, run it through this 12-point inspection. Check off these basics and you can be sure you'll be off to a running start.
@@ -126,10 +126,10 @@ For some reason, the P.S. at the bottom of a sales letter gets read a lot. Make 
         title: "The Difference Between a Print Logo and a Web Logo",
         author: "Constance Beebe",
         date: "June, 2020",
-        imageUrl: "amazon//Users/lambda_school_loaner_206/Desktop/Blue-Smoke-Media/src/images/Blog/Primary/JPEG-PNG/image-file-types.jpg",
+        imageUrl: "amazon/JPEG-PNG/image-file-types.jpg",
         imageAlt: "The Difference Between a Print Logo and a Web Logo",
         category: "Logos",
-        tags: ["Digital and Print Logo Design", "Digital Media Logos", "Graphic Design", "Printed Media Graphic Design", "Corporate Branding"],
+        tags: "Digital and Print Logo Design, Digital Media Logos, Graphic Design, Printed Media Graphic Design, Corporate Branding",
         snippet: "The difference between Print Logos and Digital Logos",
         content: `
 
@@ -143,10 +143,10 @@ Web logos require a much smaller resolution (since they only need to be displaye
         title: "SEO Through Well Built Pages",
         author: "Mark Daoust",
         date: "",
-        imageUrl: "amazon//Users/lambda_school_loaner_206/Desktop/Blue-Smoke-Media/src/images/Blog/Primary/JPEG-PNG/Organic-SEO-a-no-extra-cost.jpg",
+        imageUrl: "amazon/JPEG-PNG/Organic-SEO-a-no-extra-cost.jpg",
         imageAlt: "We build Organic SEO into your website at no extra cost!",
         category: "Organic SEO",
-        tags: ["Organic SEO", "Search Engine Optimization (SEO)", "Digital Graphic Design", "Website Content Writing", "Coding and Programming", "Website Useability"],
+        tags: "Organic SEO, Search Engine Optimization (SEO), Digital Graphic Design, Website Content Writing, Coding and Programming, Website Useability",
         snippet: "Search engines have moved beyond simply calculating keyword density and link relevance. More and more, the major search engines are continuing to master the ability to identify natural human language and evaluate a web page based on natural human language. Back in the late 90’s and early 2000’s, AskJeeves.com was the first search engine to attempt to move to a natural human language system, although they focused on the user input aspect of search rather than evaluating the natural language of a web page itself.",
         content: `
 Search engines have moved beyond simply calculating keyword density and link relevance. More and more, the major search engines are continuing to master the ability to identify natural human language and evaluate a web page based on natural human language. Back in the late 90’s and early 2000’s, AskJeeves.com was the first search engine to attempt to move to a natural human language system, although they focused on the user input aspect of search rather than evaluating the natural language of a web page itself.
@@ -155,7 +155,7 @@ By learning to identify natural human language, search engines are able to great
 
 As the AI’s for the search engines learn to better identify the natural language structure of websites, sites that are well formed will have a natural advantage. Although good search engine rankings will always depend on more than just the structure and content of a website, the content of a website will always be the heart of a page's rankings.
 
-<span>Make a Search Engine's Job Easy.</span> 
+<span>Make a Search Engine's Job Easy.</span>
 Search engine spiders have a lot of work to do. Not only do they spider billions of pages every month attempting to discover new web pages and update already discovered web pages, these spiders need to parse through hundreds or even thousands of lines of code trying to distinguish between titles, content, structural code, and even the occasional keyword stuffing by search engine spammers. By simplifying your website, you make the job easier for the spider and allow the spider to index more pages on your site in a shorter amount of time.
 
 <span class="italic">Avoid Bloated Code (Keep it DRY - Don’t Repeat Yourself!)</span>
@@ -171,53 +171,53 @@ Article Tip Search engines love websites that adhere to W3C's Web Content Acces
         title: "The Local Search Revolution has Arrived!...optimize your online LOCAL presence now - before the learning curve turns expensive.",
         author: "Esoos Bobnar",
         date: "",
-        imageUrl: "amazon//Users/lambda_school_loaner_206/Desktop/Blue-Smoke-Media/src/images/Blog/Primary/JPEG-PNG/Advantages of Social Media.jpg",
+        imageUrl: "amazon/JPEG-PNG/Advantages of Social Media.jpg",
         imageAlt: "The Advantages of Local Search and how it can effect your business",
         category: "Local Search",
-        tags: ["Local Search", "Consumer Loyalty", "Organic SEO", "Website Content Writing", "Ad-Copywriting", "Website Usability"],
+        tags: "Local Search, Consumer Loyalty, Organic SEO, Website Content Writing, Ad-Copywriting, Website Usability",
         snippet: "While searching the web these days, it's hard not to notice all those little Local tabs sprouting up in the vicinity of the search field on virtually every major search engine. Within the past year, the race has been to integrate a plethora of advanced features into local search capabilities.",
         content: `
 While searching the web these days, it's hard not to notice all those little Local tabs sprouting up in the vicinity of the search field on virtually every major search engine. Within the past year, the race has been to integrate a plethora of advanced features into local search capabilities.
 
 We're constantly seeing features like customer reviews and ratings, storefront and product photos, detailed maps with directions, hours of operation, forms of accepted payment, integration with cell phones, and much more is promised to follow. Picture a million paper phone books <span>combined.</span> on steroids and capable of providing instant results for an information-hungry and time-challenged customer base. The potential for local search is really quite staggering!
-    
+
 <span>So what exactly is local search</span>, and how can you best position your business to take advantage of it?
 
 Simply put, <span>local search is essentially the Internet's version of the phone book.</span> The difference being that this "phone book" is much faster and far more responsive. For example, suppose I'm in Boston staying at the Harbor View Hotel and in need of a haircut? No problem. I Just enter haircut followed by the zip code of the Hotel where I'm staying - 02114, and instantly, find  Richard's Haircutting for Men a scant 0.4 miles east and with directions. All that took about 30 seconds from concept to completion leaving me with a feeling of satisfaction that no regular 
 phone book could ever provide. I'm now addicted to local search after only a single dose! Throw away the phone book, never mind the concierge.
 
 Now, if that little demo hasn't yet convinced you, chew on this recent finding...
-<span>86% of U.S. households now use the Internet as an information source to find a local business when shopping locally for products and services.</span> 
+<span>86% of U.S. households now use the Internet as an information source to find a local business when shopping locally for products and services.</span>
 
 Here is a breakdown for you:
 
-        ◆	80% of local searches convert
-        ◆	46% of Google searches are for local businesses
-        ◆	56% of local retailers have not claimed their Google My Business listing
-        ◆	“Near me” searches have increased more than 500% in the past few years
-        ◆	More than 55% of consumers use voice search to find a local business
-        ◆	Over 75% of voice-enabled speaker owners use voice search each week to discover a local company
-        ◆	50% of users visit a store within a day of a local search
-        ◆	76% of people who search on smartphones visit a business within a day
-        ◆	28% of local searches result in a purchase
-        ◆	97% of search engine users search online to find a local business
-        ◆	1 in 3 people conduct a search on their smartphone before visiting a store
-        ◆	97% of consumers check a company’s online presence before deciding to visit them
-        ◆	14. 86% of people rely on the Internet to find a local business
-        ◆	29% of people search for local businesses at least once a week
-        ◆	30% of Google mobile searches are related to location
-        ◆	78% of local mobile searches result in an in-store purchase
+    ◆	80% of local searches convert
+    ◆	46% of Google searches are for local businesses
+    ◆	56% of local retailers have not claimed their Google My Business listing
+    ◆	“Near me” searches have increased more than 500% in the past few years
+    ◆	More than 55% of consumers use voice search to find a local business
+    ◆	Over 75% of voice-enabled speaker owners use voice search each week to discover a local company
+    ◆	50% of users visit a store within a day of a local search
+    ◆	76% of people who search on smartphones visit a business within a day
+    ◆	28% of local searches result in a purchase
+    ◆	97% of search engine users search online to find a local business
+    ◆	1 in 3 people conduct a search on their smartphone before visiting a store
+    ◆	97% of consumers check a company’s online presence before deciding to visit them
+    ◆	14. 86% of people rely on the Internet to find a local business
+    ◆	29% of people search for local businesses at least once a week
+    ◆	30% of Google mobile searches are related to location
+    ◆	78% of local mobile searches result in an in-store purchase
 
 <span>Simply put, local search, including local search on mobile devices, </span>is  dominating the world of brick-n-mortar marketing (especially with the Covid-19 epidemic). Ready or not, here it comes! ...we suggest you get ready now, before it starts costing you a fortune to negotiate the learning curve. Oh, and get used to the fact that the big yellow phone book has almost become nothing more than a cheesy doorstop.
-    
+
 <span>How To Get Listed In Local Search</span>
 
-The first step to getting your business listed in Local Search is (surprise) to buy a listing in the offline Yellow Pages (yep, that cheesy doorstop-to-be we just dis'd). 
+The first step to getting your business listed in Local Search is (surprise) to buy a listing in the offline Yellow Pages (yep, that cheesy doorstop-to-be we just dis'd).
 Here's why:
 Most search engines get the bulk of their local business listings from just two companies:
-        1.	InfoUSA
-        2.	Acxiom
- ...or else from Internet Yellow Pages sites which also derive their listings from these two companies. Both have compiled enormous databases containing detailed information on most of the businesses and consumer households in the US and Canada. And much of their data is pulled from your basic Yellow Page and Business White Page directories (aka, the cheesy doorstops) .
+    1.	InfoUSA
+    2.	Acxiom
+...or else from Internet Yellow Pages sites which also derive their listings from these two companies. Both have compiled enormous databases containing detailed information on most of the businesses and consumer households in the US and Canada. And much of their data is pulled from your basic Yellow Page and Business White Page directories (aka, the cheesy doorstops) .
 
 The good news may be that your business already has a listing in your <span>local Yellow Pages,</span> if not, then you should get one! Don't worry about taking out a big colorful ad with lots of information about your company. We haven't any reason to believe that expensive ads offer any advantage in local search rankings. Nor does lots of business information in your Yellow Pages ad seem to enhance your local search listing's comprehensiveness. It appears to us that any Yellow Pages listing at all will get you included in most local search engines just fine.
 
@@ -230,46 +230,47 @@ Google My Business is essential for Local SEO as it enables your business lis
 In a nutshell, make sure that your business has an up-to-date and detailed Google My Business listing. If you have not taken the time to create and optimize one, then you’re missing out on one of the best free (and guaranteed!) ways of appearing in the Google search results.
 
 Google My Business pages aren’t complicated, but they are important. While you may feel like it’s just one more web page to keep on top of, Google My Business should go to the top of the pile as one of the most important.
-`},
+`
+    },
     {
         id: 7,
         title: "Attract Targeted Local Customers With Online Marketing",
         author: "Judy Cullins",
         date: "",
-        imageUrl: "amazon//Users/lambda_school_loaner_206/Desktop/Blue-Smoke-Media/src/images/Blog/Primary/JPEG-PNG/Digital-Marketing-vs-Traditional-Marketing.jpg",
+        imageUrl: "amazon/JPEG-PNG/Digital-Marketing-vs-Traditional-Marketing.jpg",
         imageAlt: "Social Media: Your 24/7 virtual marketing machine?",
         category: "Local Search",
-        tags: ["Local Search", "Brand Loyalty", "Affordable Custom Website Design", "Strategic Social Media Marketing", "Organic SEO", "Website Content Writing", "Website Usability", "Reputation Management"],
+        tags: "Local Search, Brand Loyalty, Affordable Custom Website Design, Strategic Social Media Marketing, Organic SEO, Website Content Writing, Website Usability, Reputation Management",
         snippet: "Does your business have a website? Have you missed the idea that it can be your 24/7 virtual marketing machine? Do you wonder how it could bring you more customers and clients to your 'brick and mortar' location? The biggest mistake local businesses make is not using the Internet to let potential customers and clients know who they are, who they can be by offering valuable content to attract them back again and again, and why they are the first choice over their competition.",
         content: `
 Does your business have a website? Have you missed the idea that it can be your 24/7 virtual marketing machine? Do you wonder how it could bring you minions more customers and clients to your 'brick and mortar' location? The biggest mistake local businesses make is not using the Internet to let potential customers and clients know who they are, who they can be by offering valuable content to attract them back again and again, and why they are the first choice over their competition. Did you know that many of your local potential customers will Google your Web name or your name, to see what you offer and how you may be their choice over others? Today people are much more Internet savvy. You need to speak to them. Building traffic to your website to market it needs you to install proper content and sales messages on it as well as other tried and true Online promotion methods such as submitting articles and creating a blog. FACT: You have only 10 seconds to attract your potential customers and get them to stay long enough to show them your business is the best choice.How's your website Doing?Take the 'Check and Correct Quiz” below to see if your website measures up. After your input what you don't know will be clearer. If you want your website to be more effective, stay open and learn how you can put more money in your checking account each month.Answer these questions to see if you are on track or need a professional partner to help you get the necessary marketing language and content on your site to bring targeted traffic. Realize the spiders of the search engines comb sites daily looking for good key word, free information, and power writing sales content.
 Do you know your website needs?
 
-    1. A sales letter (short or long) for each product or service you offer. You need to give your visitors a reason to buy from you.
+1. A sales letter (short or long) for each product or service you offer. You need to give your visitors a reason to buy from you.
 
-    2. Benefit driven headlines on your home page to attract people to your sales messages. Drop your announcements because they bore. Make your visitor's mouths water, their skin tingle, and their eyes receive a positive picture of how they will be after they use you. Make your headlines on your home page and in your sales letters sizzle and seductive to get them to call you and come to your office.
+2. Benefit driven headlines on your home page to attract people to your sales messages. Drop your announcements because they bore. Make your visitor's mouths water, their skin tingle, and their eyes receive a positive picture of how they will be after they use you. Make your headlines on your home page and in your sales letters sizzle and seductive to get them to call you and come to your office.
 
-    3. Testimonials from former clients and customers Include these in every email campaign and in your sales letters.
+3. Testimonials from former clients and customers Include these in every email campaign and in your sales letters.
 
-    4. Less bio and credentials on the home page because your customer wants to know 'what's in it for me?' Put this information on your Contact or About Me page.
+4. Less bio and credentials on the home page because your customer wants to know 'what's in it for me?' Put this information on your Contact or About Me page.
 
-    5. Less telling and more engaging the visitor to stay (They leave immediately if they don't see benefits and valuable content that answers their concerns. Forget the brochure-style home page.
+5. Less telling and more engaging the visitor to stay (They leave immediately if they don't see benefits and valuable content that answers their concerns. Forget the brochure-style home page.
 
-    6. A preplan naming the top 2-3 focuses you want to attract customers to, who your target market is, and your website's contacts and money goals.
+6. A preplan naming the top 2-3 focuses you want to attract customers to, who your target market is, and your website's contacts and money goals.
 
-    6. A preplan naming the top 2-3 focuses you want to attract customers to, who your target market is, and your Website's contacts and money goals.
+6. A preplan naming the top 2-3 focuses you want to attract customers to, who your target market is, and your Website's contacts and money goals.
 
-    7. Much more 'You' centered information such as benefits or short tips and articles
+7. Much more 'You' centered information such as benefits or short tips and articles
 
-    8. Acknowledgement and answers for your visitor's concerns, problems or challenges. These hook your Web visitor to pick up the phone to call you.
+8. Acknowledgement and answers for your visitor's concerns, problems or challenges. These hook your Web visitor to pick up the phone to call you.
 
-    9. Proven strategies that get people to your site to include writing and submitting short articles to other websites and ezines, exchanging links, a blog page for your customer to interact with you and get questions answered, and many more.
+9. Proven strategies that get people to your site to include writing and submitting short articles to other websites and ezines, exchanging links, a blog page for your customer to interact with you and get questions answered, and many more.
 
-    10. Willingness to take the time and spend the money to make your website work. Without this, your site will languish with inactivity.When you don't know what you don't know, your site just sits there with no one to play with. Your brick and mortar business sits there too. Now that you do know more than you did, take a leap of faith and know that you too can learn how to make your website shine and bring people right to your business address. Find yourself a good professional Internet marketing person, read books on the topic or take a teleclass or seminar to boost your skills. Partner with a professional who can make your journey so much shorter, with fewer mistakes, and help you enjoy your business more.
+10. Willingness to take the time and spend the money to make your website work. Without this, your site will languish with inactivity.When you don't know what you don't know, your site just sits there with no one to play with. Your brick and mortar business sits there too. Now that you do know more than you did, take a leap of faith and know that you too can learn how to make your website shine and bring people right to your business address. Find yourself a good professional Internet marketing person, read books on the topic or take a teleclass or seminar to boost your skills. Partner with a professional who can make your journey so much shorter, with fewer mistakes, and help you enjoy your business more.
 
-    9. Proven strategies that get people to your site to include writing and submitting short articles to other Websites and ezines, exchanging links, a blog page for your customer to interact with you and get questions answered, and many more.
+9. Proven strategies that get people to your site to include writing and submitting short articles to other Websites and ezines, exchanging links, a blog page for your customer to interact with you and get questions answered, and many more.
 
-    10. Willingness to take the time and spend the money to make your Website work. Without this, your site will languish with inactivity.When you don't know what you don't know, your site just sits there with no one to play with. Your brick and mortar business sits there too. Now that you do know more than you did, take a leap of faith and know that you too can learn how to make your Website shine and bring people right to your business address. Find yourself a good professional Internet marketing person, read books on the topic or take a teleclass or seminar to boost your skills. Partner with a professional who can make your journey so much shorter, with fewer mistakes, and help you enjoy your business more.
+10. Willingness to take the time and spend the money to make your Website work. Without this, your site will languish with inactivity.When you don't know what you don't know, your site just sits there with no one to play with. Your brick and mortar business sits there too. Now that you do know more than you did, take a leap of faith and know that you too can learn how to make your Website shine and bring people right to your business address. Find yourself a good professional Internet marketing person, read books on the topic or take a teleclass or seminar to boost your skills. Partner with a professional who can make your journey so much shorter, with fewer mistakes, and help you enjoy your business more.
 
 `
     },
@@ -278,10 +279,10 @@ Do you know your website needs?
         title: "What Makes A Winning Online Ad?",
         author: "Daniel Levis",
         date: "",
-        imageUrl: "amazon/Users/lambda_school_loaner_206/Desktop/Blue-Smoke-Media/src/images/Blog/Primary/JPEG-PNG/Digital-Marketing-vs-Traditional-Marketing.jpg/",
+        imageUrl: "amazonJPEG-PNG/Digital-Marketing-vs-Traditional-Marketing.jpg/",
         imageAlt: "Selling to meet the publics needs - and online ad strategy.",
         category: "Social Media Marketing",
-        tags: ["Social Media Marketing", "Website Content Writing", "Digital Graphic Design", "Typography"],
+        tags: "Social Media Marketing, Website Content Writing, Digital Graphic Design, Typography",
         snippet: "Most people who have been involved with sales & marketing for any length of time have heard the axiom, “Sell them what they want. Then sell them what they need”. But what does it mean? It sounds a little odd doesn’t it?",
         content: `
 Most people who have been involved with sales & marketing for any length of time have heard the axiom, “Sell them what they want. Then sell them what they need”. But what does it mean? It sounds a little odd doesn’t it? Does it mean that people are frivolous & go around making irrational purchases that don’t meet their needs, before more serious ones that sustain them? Should you try to sell trivial goods first, & then follow up with those that are more substantial? Should you put games & entertainment on your home page, and flour & salt in your follow up messages?No, that’s not it.What it is trying to say is that people buy for emotional reasons. Does anybody buy a Mercedes Benz just because they NEED to get from point A to point B? Do they buy it because they NEED all of the amazing gizmos, the heated leather seats & hand polished wood trim?No, a person buys an expensive car that they don’t need because it makes them feel important. You may be shocked when I say this, but I’m going to say it anyway. Luxury purchases are motivated by vanity, envy, pride, jealousy, & narcissism, even greed. And, there is nothing sinister, or wrong with it. That’s just the way we are as human beings. It’s what makes us tick. In fact, these emotions are behind all kinds of everyday purchases too.Understanding how they motivate buying behavior is critical to selling.Look at this ad for the Wall Street Journal. It’s said to be one of the most successful advertisements in the history of the world, responsible for over $1 billion in sales. Look carefully, & see how skillfully it evokes one or more of these powerful emotions. Try to get a sense of how you feel when you read it.THE WALL STREET JOURNAL 'TWO YOUNG MEN' LETTER on a beautiful late spring afternoon, twenty-five years ago, two young men graduated from the same college. They were very much alike, these two young men. Both had been better than average students, both were personable, and as young college graduates are - were filled with ambitious dreams for the future. Recently, these men returned to their college for their 25th reunion. They were still very much alike. Both were happily married. Both had three children. And both, it turned out, had gone to work for the same Midwestern manufacturing company after graduation, and were still there.But there was a difference. One of the men was manager of a small department of that company. The other was its president. Have you ever wondered, as I have, what makes this kind of difference in people's lives? It isn't always a native intelligence or talent or dedication. It isn't that one person wants success and the other doesn't. The difference lies in what each person knows and how he or she makes use of that knowledge. And that is why I am writing to you and to people like you about The Wall Street Journal. For that is the whole purpose of The Journal: To give its readers knowledge - knowledge that they can use in business. The letter closes: About those two college classmates I mention at the beginning of this letter: They were graduated from college together and together got started in the business world. So what made their lives in business different? Knowledge. Useful knowledge. And its application. I cannot promise you that success will be instantly yours if you start reading The Wall Street Journal. But I can guarantee that you will find The Journal always interesting, always reliable, and always useful. This is a newspaper! It doesn’t get much more mundane than that, but the same principle applies, do you see the power in it? What we are talking about here are emotions that are inextricably tied to the universal desire for esteem that’s hard wired into our nature as human beings. If you’ve got a pulse, you’re under its spell. But here’s the kicker. Most of the time, we are not even aware of the stimulus, only the response. When you were reading the story about the graduates and the reunion, chances are, you were playing out your own meta program inside your head, and experiencing one of the esteem emotions. And it triggered your own personal desire to show the world what you could do, didn’t it? Esteem (to feel valued), is NOT a WANT at all. It is a basic human NEED almost as fundamental as food & water. Your prospect’s hunger & thirst for it. Their emotions are the expressions of that craving. If you can trigger them, & then associate satisfaction of the “esteem needs” with your product, you’ve got a winning ad!
@@ -291,10 +292,10 @@ Most people who have been involved with sales & marketing for any length of time
         title: "c",
         author: "Constance Beebe",
         date: "July, 2020",
-        imageUrl: "amazon//Users/lambda_school_loaner_206/Desktop/Blue-Smoke-Media/src/images/Blog/Primary/JPEG-PNG/5-components-of-website-useability.jpg",
+        imageUrl: "amazon/JPEG-PNG/5-components-of-website-useability.jpg",
         imageAlt: "5 Components of Website Useability",
         category: "Website Useability",
-        tags: ["Website Useability", "Custom Website Design", "Website Content Writing", "Search Engine Optimization (SEO)", "Digital Graphic Design", "Website Maintenance", "Website Usability"],
+        tags: "Website Useability, Custom Website Design, Website Content Writing, Search Engine Optimization (SEO), Digital Graphic Design, Website Maintenance, Website Usability",
         snippet: "The more time and effort you put into planning and building your website, or revamping an existing one, the more successful you'll be. Your new site will have more potential in accomplishing your business goals, your business will look more credible to all the people visiting your site, and you'll increase your bottom line.",
         content: `
 If you are in business for yourself, an executive with decision making power, or the head of your company, you are probably bombarded with advice, opinions and information about how to build or re-vamp your website and how to use it to your advantage in business.
@@ -305,66 +306,66 @@ The more time and effort you put into planning and building your website, or rev
 
 The following is a guide for building a new website. It shows how a corporate webmaster or Web department creates a world-class website, and it is the same step by step process that every organization, no matter how small, should follow.
 
-    <span>Step 1 - Discovery:</span> The first phase involves determining the scope of the project, the timeline and scheduling 
-    parameters, everyone's expectations, and your current human and technical resources.
+<span>Step 1 - Discovery:</span> The first phase involves determining the scope of the project, the timeline and scheduling
+parameters, everyone's expectations, and your current human and technical resources.
 
-    <span/>Step 2 - Concept and Planning: </span>The next step is to determine site requirements, business goals, types of 
-    functionality, site features, and a timeline and due date. You'll need to determine who your site audience is, the 
-    demographics and psychographics of your visitors.
-    
-    In this phase the architecture or organization of the information that will be included on the site needs to be 
-    planned as well. The most important part of this step is determining your goals for the site. You need to ask yourself
-    and any other stake holders exactly what the new site ought to yield when completed. What do you expect the site 
-    to do? What do you want to get out of it? What messages do you want to convey to all the people who will 
-    eventually view it? What are the priorities of the site in terms of your business and making money? What types of 
-    people will be using the site and what will they want to accomplish while there?
+<span/>Step 2 - Concept and Planning: </span>The next step is to determine site requirements, business goals, types of
+functionality, site features, and a timeline and due date. You'll need to determine who your site audience is, the
+demographics and psychographics of your visitors.
 
-    <span>Step 3 - Design Specifications: </span>This is when the look & feel and a visual design specification are created. Here you'll 
-    determine the fonts, colors and size and layouts, always trying to keep consistency paramount. You'll want to write 
-    specifications for the images you'll be using on the site as well. It's also the time to decide upon and design the 
-    technical infrastructure and architecture of the site, server, environment and platform. You'll determine what 
-    programming languages and databases will be used, if any, and any other technical features your site will need.
-    
-    One of the secondary benefits of following Step 3 is that you'll have a document to refer back to later on when 
-    adding to the site. If you hire a new Web person of company, you can give them this design specification document 
-    for them to follow whenever they work on your site.
+In this phase the architecture or organization of the information that will be included on the site needs to be
+planned as well. The most important part of this step is determining your goals for the site. You need to ask yourself
+and any other stake holders exactly what the new site ought to yield when completed. What do you expect the site
+to do? What do you want to get out of it? What messages do you want to convey to all the people who will
+eventually view it? What are the priorities of the site in terms of your business and making money? What types of
+people will be using the site and what will they want to accomplish while there?
 
-    <span>Step 4 - Production: </span>Before this phase begins, everyone who is involved in this project, including people who give 
-    the final ‘ok', need to know that there will be a technical and look and feel design freeze at this point. If any changes 
-    are needed during this point, then those changes will be done in the next redesign.
-    
-   <span>The production phase can be broken down into three areas and will include:
-    </span><span>Step 4a- The Design Production:</span>  The artistic look and feel design production, usability designing, the navigation 
-   production, and image and button creation. The homepage of the site and the inner page template both need the 
-   new design applied to them. The homepage design may use the same template the rest of the site uses, or it may 
-   be unique. If it differs from the rest of the site, then make sure its look and feel is very similar to the look and feel of 
-   the inner page template(s). Also, if it differs, consider applying this entire step-by-step guide to the homepage as 
-   well, treating it as a separate, but related entity.
+<span>Step 3 - Design Specifications: </span>This is when the look & feel and a visual design specification are created. Here you'll
+determine the fonts, colors and size and layouts, always trying to keep consistency paramount. You'll want to write
+specifications for the images you'll be using on the site as well. It's also the time to decide upon and design the
+technical infrastructure and architecture of the site, server, environment and platform. You'll determine what
+programming languages and databases will be used, if any, and any other technical features your site will need.
 
-   <span>Step 4b - The Technical Production: </span>This entails the HTML coding, any other coding to contribute to the functionality 
-   and the configuration of the server's environment. The technical aspects could also include any Server Side Coding 
-   in a major programming language, Database Design and Development, and site security measures.
+One of the secondary benefits of following Step 3 is that you'll have a document to refer back to later on when
+adding to the site. If you hire a new Web person of company, you can give them this design specification document
+for them to follow whenever they work on your site.
 
-   <span>Step 4c - The Marketing Production: </span>This area includes creating the homepage and pre-determined inner pages to 
-   be search engine and index friendly. It also includes the copywriting for every page. Any mechanisms for interacting 
-   with the visitors will be produced here. For example, forms on your site that asks users to give information are ways 
-   for a user to interact with your site. Although the look & feel of the form falls under ‘design', and the actual 
-   mechanisms that make the form work falls under ‘technology', the purpose of the forms will be very marketing-
-   centric. What you ask, how you store the data, and how you retrieve it and use it later are all marketing issues that 
-   should be addressed in this step.
+<span>Step 4 - Production: </span>Before this phase begins, everyone who is involved in this project, including people who give
+the final ‘ok', need to know that there will be a technical and look and feel design freeze at this point. If any changes
+are needed during this point, then those changes will be done in the next redesign.
 
-   <span>Step 5 - Testing: </span>The produced site now must be loaded onto a staging area that is exactly like the production 
-   environment, or made accessible to testers only. During this phase, various people will test all aspects of site, 
-   including functionality, spelling and grammar, hyperlinks, and all other elements. This is often called the Quality 
-   Assurance phase.
+<span>The production phase can be broken down into three areas and will include:
+</span><span>Step 4a- The Design Production:</span>  The artistic look and feel design production, usability designing, the navigation
+production, and image and button creation. The homepage of the site and the inner page template both need the
+new design applied to them. The homepage design may use the same template the rest of the site uses, or it may
+be unique. If it differs from the rest of the site, then make sure its look and feel is very similar to the look and feel of
+the inner page template(s). Also, if it differs, consider applying this entire step-by-step guide to the homepage as
+well, treating it as a separate, but related entity.
 
-   <span>Step 6 - Publishing: </span>This phase is the push of the new site from staging to production. Here the site is made live 
-   and is now on the World Wide Web.
+<span>Step 4b - The Technical Production: </span>This entails the HTML coding, any other coding to contribute to the functionality
+and the configuration of the server's environment. The technical aspects could also include any Server Side Coding
+in a major programming language, Database Design and Development, and site security measures.
 
-   <span>Step 7 - E-marketing and Maintenance: </span>Unless the site is marketed, it won't matter how well-designed or 
-   technically robust it is, no one will ever visit or use it. Therefore, the final and ongoing phase entails implementing 
-   E-marketing techniques, keeping the site's content fresh, and making continual adjustments based on site specific 
-   and customer research.
+<span>Step 4c - The Marketing Production: </span>This area includes creating the homepage and pre-determined inner pages to
+be search engine and index friendly. It also includes the copywriting for every page. Any mechanisms for interacting
+with the visitors will be produced here. For example, forms on your site that asks users to give information are ways
+for a user to interact with your site. Although the look & feel of the form falls under ‘design', and the actual
+mechanisms that make the form work falls under ‘technology', the purpose of the forms will be very marketing-
+centric. What you ask, how you store the data, and how you retrieve it and use it later are all marketing issues that
+should be addressed in this step.
+
+<span>Step 5 - Testing: </span>The produced site now must be loaded onto a staging area that is exactly like the production
+environment, or made accessible to testers only. During this phase, various people will test all aspects of site,
+including functionality, spelling and grammar, hyperlinks, and all other elements. This is often called the Quality
+Assurance phase.
+
+<span>Step 6 - Publishing: </span>This phase is the push of the new site from staging to production. Here the site is made live
+and is now on the World Wide Web.
+
+<span>Step 7 - E-marketing and Maintenance: </span>Unless the site is marketed, it won't matter how well-designed or
+technically robust it is, no one will ever visit or use it. Therefore, the final and ongoing phase entails implementing
+E-marketing techniques, keeping the site's content fresh, and making continual adjustments based on site specific
+and customer research.
 
 Whether you decide to tackle building a new website yourself, or you choose to hire someone else to do it, the steps outlined above ought to be followed. If you decide to do it yourself, you'll need to read up on Graphic Design and Usability, Web Technologies and E-marketing.
 
@@ -375,27 +376,27 @@ If you hire an outside company to build a site for you, ask them how they plan t
         title: "New client? Get it in writing!",
         author: "Cathy Goodwin, Ph.D.",
         date: "",
-        imageUrl: "amazon//Users/lambda_school_loaner_206/Desktop/Blue-Smoke-Media/src/images/Blog/Primary/JPEG-PNG/get-it-in-writing.jpg",
+        imageUrl: "amazon/JPEG-PNG/get-it-in-writing.jpg",
         imageAlt: "New Client? Get an agreement. In writing!",
         category: "Contract Agreement",
-        tags: ["Strategic Social Media Marketing", "Website Content Writing", "Reputation Management", "Custom Website Design", "Search Engine Optimization (SEO)", "Digital Graphic Design", "E-Commerce Website Development"],
+        tags: "Strategic Social Media Marketing, Website Content Writing, Reputation Management, Custom Website Design, Search Engine Optimization (SEO), Digital Graphic Design, E-Commerce Website Development",
         snippet: "Hortensia was thrilled when she landed her first web design client. She hadn't been eager to start a business. However, like many mid-career executives experiencing layoffs, she realized her industry was dying and going solo was, well, was the way to go. When she called, my first tip was, 'Get out and celebrate!' My second tip was, 'Get an agreement. In writing!'",
         content: `
 Hortensia was thrilled when she landed her first web design client. She hadn't been eager to start a business. However, like many mid-career executives experiencing layoffs, she realized her industry was dying and going solo was, well, the way to go. When she called, my first tip was, 'Get out and celebrate!'My second tip was, 'Get an agreement. In writing!
 'Like many smart new business owners, Hortensia's first priority was marketing. But she had purchased several books with titles like 'Getting started in your own web business.' And sure enough, one of those books included a sample agreement. If Hortensia hadn't founded a sample agreement, I would have suggested she surf the web. Typing 'contract' plus your form of service, will often pull up examples you can use to get started. Sample agreements usually are created by experienced business owners. They help you identify your client's hot buttons: price, delivery date, guarantees, and more. Each field will be different. For instance, if you're a web designer, who will be responsible for the images you use on a website? If your client supplies images or copy, make sure they agree in writing, to be responsible for any possible copyright claims. Will your ability to perform your job be affected by what your client gives you? Make sure they understand, you can't meet a deadline if they haven't delivered all the copy by a certain date. What exactly will you do? Many a client begins with, 'I want to make some tweaks,' and ends with so many requests, you're really doing an overhaul.
-    
+
 <span>What if your client is a friend?</span>
 
-    Tim's neighbor belonged to a service club. Tim agreed to help his neighbor write a press release for a special event 
-    to be held February 15. Right after New Year's Day, Tim's phone rang.
+Tim's neighbor belonged to a service club. Tim agreed to help his neighbor write a press release for a special event
+to be held February 15. Right after New Year's Day, Tim's phone rang.
 
-    'Where's the release?' demanded the neighbor.
+'Where's the release?' demanded the neighbor.
 
-    'The local paper won't print anything this far ahead!' Tim was honestly baffled.
+'The local paper won't print anything this far ahead!' Tim was honestly baffled.
 
-    'It's not for the press! Our group's newsletter goes out next week and we need this announcement!'
+'It's not for the press! Our group's newsletter goes out next week and we need this announcement!'
 
-    Tim dashed off a release and vowed to get written agreements next time - with a mention of delivery dates.
+Tim dashed off a release and vowed to get written agreements next time - with a mention of delivery dates.
 
 Many people - even managers and professionals -- are not accustomed to delegating jobs, hiring expertise or committing to deadlines. They don't realize what you need to do the job - and they have short memories.
 
@@ -416,46 +417,46 @@ Nobody's complained. In fact, I think everyone appreciates knowing what's expect
         title: "9 Keys to an Effective Logo",
         author: "Erin Ferree",
         date: "",
-        imageUrl: "amazon//Users/lambda_school_loaner_206/Desktop/Blue-Smoke-Media/src/images/Blog/Primary/JPEG-PNG/9-powerful-tips-for-an-effective-logo.jpg",
+        imageUrl: "amazon/JPEG-PNG/9-powerful-tips-for-an-effective-logo.jpg",
         imageAlt: "9 Powerful Tips to an Effective Logo",
         category: "Logos",
-        tags: ["Digital Media Logo", "Printed Media Logo", "Brand Loyalty", "Consumer Loyalty", "Reputation Management"],
+        tags: "Digital Media Logo, Printed Media Logo, Brand Loyalty, Consumer Loyalty, Reputation Management",
         snippet: "Strategic Social Media Marketing",
         content: `
 The right logo, with the right characteristics, will boost your visibility, credibility and memorability which means more business for you! These characteristics include:
-    
-    <span>Consistency</span> in use of your logo, tagline, materials.
-    <span>Repetition</span> of similar elements, used in the same or similar ways, helps people to remember who you are and what 
-    you do.
-    <span>Memorability,</span> so that your logo stays at the forefront of your potential clients' minds. That way, they'll think of you 
-    next time they have a need.
-    <span>Meaningfulness,</span> so that your logo can spread the message about the distinguishing characteristics of your 
-    business.
-    <span>Uniqueness,</span> which helps you stand out from the crowd. For example, if everyone in your industry uses a particular 
-    symbol (i.e., travel agencies often use globes in their logos), try to use something else, that way, your logo doesn't 
-    just look like everyone else's.
-    <span>Professionalism,</span> in the quality of the graphics, the printing and the paper on which your materials are printed.
-    <span>Timelessness in your logo</span> will ensure that you don't have to redesign your logo in just a few years and that your 
-    investment and equity in your design will be lasting. Differentiation between the colors in your logo  and not just in 
-    terms of hue, but in terms of value as well, so that it translates well either to black and white or grey scale and 
-    colorblind people are able to see it.
-    <span>Unity</span> among the different elements in the logo. The logo must fit together as a single unit, and not just appear as a 
-    jumble of elements pasted together.
-    <span>Scalability,</span> so that your logo looks equally good on both a business card and on a sign for your business (or a 
-    billboard!), and at every size in between. Your business's name should be legible at different logo sizes ­ be sure that 
-    your designer chooses a font that is easily readable.
 
-Having a professionally designed logo can really give your business a jumpstart and help your business get the 
+<span>Consistency</span> in use of your logo, tagline, materials.
+<span>Repetition</span> of similar elements, used in the same or similar ways, helps people to remember who you are and what
+you do.
+<span>Memorability,</span> so that your logo stays at the forefront of your potential clients' minds. That way, they'll think of you
+next time they have a need.
+<span>Meaningfulness,</span> so that your logo can spread the message about the distinguishing characteristics of your
+business.
+<span>Uniqueness,</span> which helps you stand out from the crowd. For example, if everyone in your industry uses a particular
+symbol (i.e., travel agencies often use globes in their logos), try to use something else, that way, your logo doesn't
+just look like everyone else's.
+<span>Professionalism,</span> in the quality of the graphics, the printing and the paper on which your materials are printed.
+<span>Timelessness in your logo</span> will ensure that you don't have to redesign your logo in just a few years and that your
+investment and equity in your design will be lasting. Differentiation between the colors in your logo  and not just in
+terms of hue, but in terms of value as well, so that it translates well either to black and white or grey scale and
+colorblind people are able to see it.
+<span>Unity</span> among the different elements in the logo. The logo must fit together as a single unit, and not just appear as a
+jumble of elements pasted together.
+<span>Scalability,</span> so that your logo looks equally good on both a business card and on a sign for your business (or a
+billboard!), and at every size in between. Your business's name should be legible at different logo sizes ­ be sure that
+your designer chooses a font that is easily readable.
+
+Having a professionally designed logo can really give your business a jumpstart and help your business get the
 attention ­and clients­ you need to succeed.`
     }, {
         id: 12,
         title: "Three Things You Must Do When Designing and Building Your Small Business Website",
         author: "Constance Beebe",
         date: "August, 2020",
-        imageUrl: "amazon//Users/lambda_school_loaner_206/Desktop/Blue-Smoke-Media/src/images/Blog/Primary/JPEG-PNG/small-business-website-design.jpg",
+        imageUrl: "amazon/JPEG-PNG/small-business-website-design.jpg",
         imageAlt: "Building your small business website",
         category: "Custom Website Design",
-        tags: ["Affordable Custom Website Design", "Search Engine Optimization (SEO)", "Website Usability", "Website Content Writing"],
+        tags: "Affordable Custom Website Design, Search Engine Optimization (SEO), Website Usability, Website Content Writing",
         snippet: "If you are going to have a web presence for your small business, it only makes sense that it should actually help you get more business. In order to do so, your website design should focus on performing only one function – and that’s to convey your sales message to your site visitors in an effective and efficient manner.",
         content: `
 If you are going to have a web presence for your small business, it only makes sense that it should actually help you get more business. In order to do so, your website design should focus on performing only one <span>function.</span> and that’s to convey your sales message to your site visitors in an effective and efficient manner.
@@ -500,7 +501,7 @@ Hopefully, these guidelines will help you build a website that gets you more sal
         imageUrl: "amazon/",
         imageAlt: "",
         category: "Organic SEO",
-        tags: ["Organic SEO", "Website Content Writing", "Custom Website Design", "Search Engine Optimization (SEO)", "Digital Graphic Design", "E-Commerce Website Development"],
+        tags: "Organic SEO, Website Content Writing, Custom Website Design, Search Engine Optimization (SEO), Digital Graphic Design, E-Commerce Website Development",
         snippet: "While optimizing your website to rank well for organic searches takes more effort than simply buying an ad, it can provide your business with one of the highest ROI results that you're likely to find. Numerous studies have placed search engine optimization at the top of the list of the most effective forms of online marketing. Its low cost, high relevancy, and high conversion rates make it an ideal marketing vehicle for almost any business.",
 
         content: `
@@ -545,42 +546,42 @@ The catch? As with any area of marketing, SEO is a competitive field. Arming you
         imageUrl: "amazon/",
         imageAlt: "",
         category: "Strategic Social Media Marketing",
-        tags: ["Strategic Social Media Marketing", "Ad-Copywriting", "Website Content Writing", "E-mail Marketing"],
+        tags: "Strategic Social Media Marketing, Ad-Copywriting, Website Content Writing, E-mail Marketing",
         snippet: "Are you a network marketer or an affiliate struggling to convert your website visitors into eager sign-ups or buying customers? While there could be many reasons why you're not receiving the sign-ups and customers you deserve, the first thing you should consider is your ad copy.",
         content: `
-    Are you a network marketer or an affiliate struggling to convert your website visitors into eager sign-ups or buying customers? While there could be many reasons why you're not receiving the sign-ups and customers you deserve, the first thing you should consider is your ad copy. Be honest with yourself and consider these 3 qualifying questions in regard to your current ad copy:
+Are you a network marketer or an affiliate struggling to convert your website visitors into eager sign-ups or buying customers? While there could be many reasons why you're not receiving the sign-ups and customers you deserve, the first thing you should consider is your ad copy. Be honest with yourself and consider these 3 qualifying questions in regard to your current ad copy:
 
-    1. Does your headline instill curiosity?
+1. Does your headline instill curiosity?
 
-    2. Is your ad copy (sales letter) persuasive and compelling enough?
+2. Is your ad copy (sales letter) persuasive and compelling enough?
 
-    and
+and
 
-    3. Does it serve its intended purpose and that is to get the visitor to click through your sign-up link or order button?
+3. Does it serve its intended purpose and that is to get the visitor to click through your sign-up link or order button?
 
-    To get you on the right track, here are 10 essential tips you can use as a guide in writing persuasive ad copy:
+To get you on the right track, here are 10 essential tips you can use as a guide in writing persuasive ad copy:
 
-    1. Publish a picture of yourself in your ad. This will show people that you're not hiding behind your website and you're not afraid to backup your product.
+1. Publish a picture of yourself in your ad. This will show people that you're not hiding behind your website and you're not afraid to backup your product.
 
-    2. List how many famous or respected people have purchased your product in your ad. These people should be fairly known by your target audience.
+2. List how many famous or respected people have purchased your product in your ad. These people should be fairly known by your target audience.
 
-    3. Publish the results of any tests your product has passed in your ad. Your product may have passed a durability test, safety test, quality test, etc.
+3. Publish the results of any tests your product has passed in your ad. Your product may have passed a durability test, safety test, quality test, etc.
 
-    4. Publish the results of any positive surveys you've taken from your customers in your ad. Just survey your current customers and list the results.
+4. Publish the results of any positive surveys you've taken from your customers in your ad. Just survey your current customers and list the results.
 
-    5. List any publications that have written about your business in your ad. It could be a product review, on a top ten list, an article, etc.
+5. List any publications that have written about your business in your ad. It could be a product review, on a top ten list, an article, etc.
 
-    6. List any related books that you've written in your ad. When you list a book(s) you've written, it gives you credibility because it shows you're an expert.
+6. List any related books that you've written in your ad. When you list a book(s) you've written, it gives you credibility because it shows you're an expert.
 
-    7. Have a professional looking website to publish your ad on. When people visit your site and it looks unprofessional, they'll relate that to your product.
+7. Have a professional looking website to publish your ad on. When people visit your site and it looks unprofessional, they'll relate that to your product.
 
-    8. Publish any endorsements from famous people in your ad. Some people will think if a famous person, enjoys your product, so will they.
+8. Publish any endorsements from famous people in your ad. Some people will think if a famous person, enjoys your product, so will they.
 
-    9. Use a money back guarantee in your ad. This will remove the risk from your potential customers and show them that you stand behind your product.
+9. Use a money back guarantee in your ad. This will remove the risk from your potential customers and show them that you stand behind your product.
 
-    10. Provide testimonials from satisfied customers in your ad. The testimonials should include specific and believable results your customers have received.
+10. Provide testimonials from satisfied customers in your ad. The testimonials should include specific and believable results your customers have received.
 
-    Yes, you might think that your product or service is the best thing offered on the internet since sliced bread. But if you're unable to convey this message to your website visitors with your ad copy , you'll never earn a living online! Take some time to ponder the 3 questions presented above. Experiment with the 10 tips to improve your ad copy and you'll soon discover just how easy it really is to build your mailing list and earn a living online!`
+Yes, you might think that your product or service is the best thing offered on the internet since sliced bread. But if you're unable to convey this message to your website visitors with your ad copy , you'll never earn a living online! Take some time to ponder the 3 questions presented above. Experiment with the 10 tips to improve your ad copy and you'll soon discover just how easy it really is to build your mailing list and earn a living online!`
     }, {
         id: 15,
         title: "How to Write Effective Web Copy",
@@ -589,40 +590,40 @@ The catch? As with any area of marketing, SEO is a competitive field. Arming you
         imageUrl: "amazon/",
         imageAlt: "",
         category: "Effective Website Copy",
-        tags: ["Effective Website Copy", "Affordable Custom Website Design", "Website Content Writing", "Website Usability"],
+        tags: "Effective Website Copy, Affordable Custom Website Design, Website Content Writing, Website Usability",
         snippet: "Writing effective web copy begins with an understanding of what the goals of your website are. Are you trying to get your visitors to purchase something or have them sign up for your newsletter? Remember you are trying to get someone you can't see and have never met take a step towards building a relationship with you or your company.",
         content: `
-    Writing effective web copy begins with an understanding of what the goals of your website are. Are you trying to get your visitors to purchase something or have them sign up for your newsletter? Remember you are trying to get someone you can't see and have never met take a step towards building a relationship with you or your company.
+Writing effective web copy begins with an understanding of what the goals of your website are. Are you trying to get your visitors to purchase something or have them sign up for your newsletter? Remember you are trying to get someone you can't see and have never met take a step towards building a relationship with you or your company.
 
-    1. Create a customer profile – try to find out what are the needs and desires of your visitors. Below are some examples of questions you could ask:
-    Are they young, middle aged or senior?Are they primarily male or female?Are they financially secure or budget-minded?What gets him or her excited?What are his or her most pressing concerns?
-    Try to brainstorm a list of topics that might interest your target audience.
+1. Create a customer profile – try to find out what are the needs and desires of your visitors. Below are some examples of questions you could ask:
+Are they young, middle aged or senior?Are they primarily male or female?Are they financially secure or budget-minded?What gets him or her excited?What are his or her most pressing concerns?
+Try to brainstorm a list of topics that might interest your target audience.
 
-    2. Create a Unique Selling Position (USP) – This is a statement of 2-3 sentences that explains why you are different from everybody else. This is the unique factor that sets you apart from your competition. Make this the first thing your visitor sees when they arrive on your home page.
+2. Create a Unique Selling Position (USP) – This is a statement of 2-3 sentences that explains why you are different from everybody else. This is the unique factor that sets you apart from your competition. Make this the first thing your visitor sees when they arrive on your home page.
 
-    3. Focus on benefits – most web users want to find the information about the product or service they need as fast as possible. If they land on your site, they want to know how they will benefit from buying your product or subscribing to your ezine. You will need to answer that question as clearly and concisely as possible or you will lose that visitor.
+3. Focus on benefits – most web users want to find the information about the product or service they need as fast as possible. If they land on your site, they want to know how they will benefit from buying your product or subscribing to your ezine. You will need to answer that question as clearly and concisely as possible or you will lose that visitor.
 
-    4. Use the inverted pyramid style – provide a summary of your information by clearly communicating the direction of your discussion. Use informative headings and subheadings with a paragraph of 4 to 5 lines that supports them. You only have a few seconds to grab your visitors attention. Most will simply scan for the information they are seeking.
-    Use bulleted or numbered lists, boldface or colored font to emphasize the points you wish to make. Include links at the end of your paragraph (or within the text) to direct visitors to other pages of your site for more in-depth information.
+4. Use the inverted pyramid style – provide a summary of your information by clearly communicating the direction of your discussion. Use informative headings and subheadings with a paragraph of 4 to 5 lines that supports them. You only have a few seconds to grab your visitors attention. Most will simply scan for the information they are seeking.
+Use bulleted or numbered lists, boldface or colored font to emphasize the points you wish to make. Include links at the end of your paragraph (or within the text) to direct visitors to other pages of your site for more in-depth information.
 
-    5. Write in an informal or personal style – write in a unique way that differentiates you from other small businesses in a similar business or niche. It doesn't have to be elaborate or super-creative. You simply provide a style that gets the attention of your visitors.
+5. Write in an informal or personal style – write in a unique way that differentiates you from other small businesses in a similar business or niche. It doesn't have to be elaborate or super-creative. You simply provide a style that gets the attention of your visitors.
 
-    6. Keep your sentences simple – you are not writing to impress. You are writing to communicate. You want to pre-sell your product or service, therefore write as if you are talking to a 13 year old.
-    Don't use large words but opt for strong verbs over weak ones. Use the active voice instead of a passive one. i.e. Instead of "a good score was achieved by the team"...say "the team scored a season high". Speak "to" but not "at" your visitor. Keep your sentences short and snappy.
+6. Keep your sentences simple – you are not writing to impress. You are writing to communicate. You want to pre-sell your product or service, therefore write as if you are talking to a 13 year old.
+Don't use large words but opt for strong verbs over weak ones. Use the active voice instead of a passive one. i.e. Instead of "a good score was achieved by the team"...say "the team scored a season high". Speak "to" but not "at" your visitor. Keep your sentences short and snappy.
 
-    7. Include searchable keywords – use targeted keywords in your web copy that will allow the search engines to find your site. Include these keywords in your meta tags, links and file names also.
+7. Include searchable keywords – use targeted keywords in your web copy that will allow the search engines to find your site. Include these keywords in your meta tags, links and file names also.
 
-    8. Eliminate the fluff - don't waffle on in your writing. You will only bore your visitors and they will click elsewhere. Try to remove filler sentences that contain phrases like "for those of you" and "all of you".
+8. Eliminate the fluff - don't waffle on in your writing. You will only bore your visitors and they will click elsewhere. Try to remove filler sentences that contain phrases like "for those of you" and "all of you".
 
-    9. Proof read your web copy – errors in your web copy give the impression of being unprofessional or sloppy. Read the copy aloud to yourself or get someone else to proof read it. Often they will find more errors because they are more objective.
-    Use the spell checker but don't rely on it. Often it doesn't pick up all incorrectly spelled words. Print a copy of your content. It's easier to find grammatical or spelling errors on a hard copy.
+9. Proof read your web copy – errors in your web copy give the impression of being unprofessional or sloppy. Read the copy aloud to yourself or get someone else to proof read it. Often they will find more errors because they are more objective.
+Use the spell checker but don't rely on it. Often it doesn't pick up all incorrectly spelled words. Print a copy of your content. It's easier to find grammatical or spelling errors on a hard copy.
 
-    10. Take a break – revise your web copy after taking a break from it for several hours or a few days. This allows you to see it from a different viewpoint. You may find a better way to say something to further improve your copy.
+10. Take a break – revise your web copy after taking a break from it for several hours or a few days. This allows you to see it from a different viewpoint. You may find a better way to say something to further improve your copy.
 
-    11. Use images sparingly – images should only be used if they relate and support your web content. If not, they will only distract the visitor from reading your web copy. Too many images will slow down the time it takes for your visitor to load your site in their browser.
+11. Use images sparingly – images should only be used if they relate and support your web content. If not, they will only distract the visitor from reading your web copy. Too many images will slow down the time it takes for your visitor to load your site in their browser.
 
-    12. Use effective navigation – your navigation bar should help visitors easily find the main sections of your site.
-    Writing effective web copy is the key to converting visitors into buyers. Getting 1000s of visitors to your website doesn't guarantee sales. Reading your web copy should pre-sell your product with the words you use. Once you achieve this, your website will become very profitable.
+12. Use effective navigation – your navigation bar should help visitors easily find the main sections of your site.
+Writing effective web copy is the key to converting visitors into buyers. Getting 1000s of visitors to your website doesn't guarantee sales. Reading your web copy should pre-sell your product with the words you use. Once you achieve this, your website will become very profitable.
 `
     },
     {
@@ -633,59 +634,59 @@ The catch? As with any area of marketing, SEO is a competitive field. Arming you
         imageUrl: "amazon/",
         imageAlt: "",
         category: "Custom Website Design",
-        tags: ["Affordable Custom Website Design", "Website Traffic", "Strategic Social Media Marketing", "Search Engine Optimization (SEO)", "E-Commerce Website Development", "Coding and Programming", "Website Usability"],
+        tags: "Affordable Custom Website Design, Website Traffic, Strategic Social Media Marketing, Search Engine Optimization (SEO), E-Commerce Website Development, Coding and Programming, Website Usability",
         snippet: "Build it and they will come! Well . . . sometimes. If you're real lucky, and I mean REALLY lucky.",
         content: `
-    Build it and they will come! Well . . . sometimes. If you're real lucky, and I mean REALLY lucky.Now you have your beautiful website boasting your amazing products or services. It's out there, just waiting for people who want what you have to offer. You're going to dazzle them with your dynamic website and the sales are going to come flooding in. Wrong. The dream is over. It's time to come back to reality.I can't begin to tell you how many times I've heard the stories of disappointment from very sharp business people who actually thought that having a website is all there is to either starting and operating a successful and profitable online business, or incorporating eCommerce into their existing business of traditional commerce.Your website is quite simply, a brochure that is now lost in a very large online ocean of literally billions of other brochures. We'll compare it to a stack of beautifully printed brochures sitting on your desk; your prospects will never see it unless you place your brochures in a visible place where people look for what you have to offer - true? Your online brochure, (your website), also needs to be positioned in a visible place where your prospects can find you - on major search engine directories.Keywords and key phrases are the search words and terms Internet surfers use to find the products, services or information they are looking for.Choosing the right keywords and phrases for your website's search engine optimization (SEO) program is critical to its success. The right keywords drive targeted traffic to your website - prospects who are ready to buy. The wrong keywords attract web visitors that are not likely to purchase your products and services - wasting everyone's time and your money.
-    By following these simple rules, you will be able to determine the right mix of keywords and phrases that will generate targeted prospects to your website. Remember that good search terms are those that are related to your business and have sufficient monthly search traffic.
+Build it and they will come! Well . . . sometimes. If you're real lucky, and I mean REALLY lucky.Now you have your beautiful website boasting your amazing products or services. It's out there, just waiting for people who want what you have to offer. You're going to dazzle them with your dynamic website and the sales are going to come flooding in. Wrong. The dream is over. It's time to come back to reality.I can't begin to tell you how many times I've heard the stories of disappointment from very sharp business people who actually thought that having a website is all there is to either starting and operating a successful and profitable online business, or incorporating eCommerce into their existing business of traditional commerce.Your website is quite simply, a brochure that is now lost in a very large online ocean of literally billions of other brochures. We'll compare it to a stack of beautifully printed brochures sitting on your desk; your prospects will never see it unless you place your brochures in a visible place where people look for what you have to offer - true? Your online brochure, (your website), also needs to be positioned in a visible place where your prospects can find you - on major search engine directories.Keywords and key phrases are the search words and terms Internet surfers use to find the products, services or information they are looking for.Choosing the right keywords and phrases for your website's search engine optimization (SEO) program is critical to its success. The right keywords drive targeted traffic to your website - prospects who are ready to buy. The wrong keywords attract web visitors that are not likely to purchase your products and services - wasting everyone's time and your money.
+By following these simple rules, you will be able to determine the right mix of keywords and phrases that will generate targeted prospects to your website. Remember that good search terms are those that are related to your business and have sufficient monthly search traffic.
 
-    Rule #1 Select keywords that represent your company's 'bread and butter.' What products and service lines are the most profitable, have the strongest sales, and continue to show good market demand. And yes, typically the 80/20 rule applies here. 80% of your sales and sales leads are produced by 20% of your keywords and phrases.
+Rule #1 Select keywords that represent your company's 'bread and butter.' What products and service lines are the most profitable, have the strongest sales, and continue to show good market demand. And yes, typically the 80/20 rule applies here. 80% of your sales and sales leads are produced by 20% of your keywords and phrases.
 
-    Rule #2 Look at complementary products and services that people tend to buy that you don't offer. Often, these keywords generate good prospects and typically have less competition than your primary keywords and phrases.
+Rule #2 Look at complementary products and services that people tend to buy that you don't offer. Often, these keywords generate good prospects and typically have less competition than your primary keywords and phrases.
 
-    Rule #3 Use online tools to help determine keyword variations and search frequency. The best free programs to use include <a href='https://ads.google.com/home/tools/keyword-planner/'>Google’s search term suggestion tool</a> and <a href='https://www.wordstream.com/keywords'>Word Stream’s keyword tool.</a>
+Rule #3 Use online tools to help determine keyword variations and search frequency. The best free programs to use include <a href='https://ads.google.com/home/tools/keyword-planner/'>Google’s search term suggestion tool</a> and <a href='https://www.wordstream.com/keywords'>Word Stream’s keyword tool.</a>
 
-    Rule #4 Use <a href='www.wordtracker.com'>WordTracker</a> - For a small fee, you can use this tool to find niche keywords, use the thesaurus to find related search terms and determine general monthly search frequency. This is a great tool and worth the investment.
+Rule #4 Use <a href='www.wordtracker.com'>WordTracker</a> - For a small fee, you can use this tool to find niche keywords, use the thesaurus to find related search terms and determine general monthly search frequency. This is a great tool and worth the investment.
 
-    Rule #5 Use pay-per-click programs like Overture or Google's AdWords to choose keywords and phrases for your SEO program. Both programs help you generate search terms based on specific keyword relationships and show how often they are searched for. Set a small monthly budget and track the number of keyword impressions you receive for each search term. After one to two months of data, choose the search terms with adequate search frequency and incorporate them into your search engine optimization program.
+Rule #5 Use pay-per-click programs like Overture or Google's AdWords to choose keywords and phrases for your SEO program. Both programs help you generate search terms based on specific keyword relationships and show how often they are searched for. Set a small monthly budget and track the number of keyword impressions you receive for each search term. After one to two months of data, choose the search terms with adequate search frequency and incorporate them into your search engine optimization program.
 
-    Rule #6 Don't forget Geographics. If your products and services are local or regional, be sure to include your state or city within your search phrases. For example, an investigations company that conducts most of its business in the Midwest would want to choose 'Indiana and private investigator.'
+Rule #6 Don't forget Geographics. If your products and services are local or regional, be sure to include your state or city within your search phrases. For example, an investigations company that conducts most of its business in the Midwest would want to choose 'Indiana and private investigator.'
 
-    Rule #7 Take a look at your competition. Based on your top three competitors, look at their website for specific search terms being used. Also, look at their META keywords to get a good idea of what search terms they think are important. Remember you want to look at competitors for your different markets served and products and service lines.
+Rule #7 Take a look at your competition. Based on your top three competitors, look at their website for specific search terms being used. Also, look at their META keywords to get a good idea of what search terms they think are important. Remember you want to look at competitors for your different markets served and products and service lines.
 
-    Rule #8 Analyze your website traffic. Make sure your web hosting company provides you with the ability to analyze your website log files. Some hosting companies have you log into your account to view monthly web traffic reports, while others email monthly reports. Information obtained can tell you the top search terms and search engines used to find your website and other valuable information. To get the most out of your log file data, it is recommended to use a log file analyzer such as Web Trends or Urchin.
+Rule #8 Analyze your website traffic. Make sure your web hosting company provides you with the ability to analyze your website log files. Some hosting companies have you log into your account to view monthly web traffic reports, while others email monthly reports. Information obtained can tell you the top search terms and search engines used to find your website and other valuable information. To get the most out of your log file data, it is recommended to use a log file analyzer such as Web Trends or Urchin.
 
-    By applying these simple rules, you will be well on your way to generating highly-targeted keywords and phrases that attract the right prospects - prospects who have direct interest in what you have to offer.`
+By applying these simple rules, you will be well on your way to generating highly-targeted keywords and phrases that attract the right prospects - prospects who have direct interest in what you have to offer.`
     },
     {
         id: 17,
         title: "Social Media: Why It Is 100% Essential (and How to Use It Well)",
         author: "Constance Beebe",
         date: "September, 2020",
-        imageUrl: "amazon/i/Users/lambda_school_loaner_206/Desktop/Blue-Smoke-Media/src/images/Blog/Primary/JPEG-PNG/marketing-through-social-media (1).webp",
+        imageUrl: "amazon/iJPEG-PNG/marketing-through-social-media (1).webp",
         imageAlt: "Social Media: Why It Is 100% Essential (and How to Use It Well), getting your brand out there amongst the people who fit in your niche.",
         category: "Strategic Social Media Marketing",
-        tags: ["Brand Loyalty", "Consumer Loyalty", "Affordable Custom Website Design", "Strategic Social Media Marketing", "Content Writing", "Ad-Copywriting"],
+        tags: "Brand Loyalty, Consumer Loyalty, Affordable Custom Website Design, Strategic Social Media Marketing, Content Writing, Ad-Copywriting",
         snippet: "In today’s society, word of mouth IS digital. Think about the questions you constantly ask about products, services or businesses; your customers are asking the SAME questions. Addressing these common points of confusion could be your key to converting casual website visitors into new clients.",
         content: `Social media is a form of electronic communication designed to let people share content quickly, efficiently, and in real-time. While many people access social media through smartphone apps, this communication tool started with computers, and social media can refer to any internet communication tool that allows users to broadly share content and engage with the public.
 
-    According to <a href="https://en.wikipedia.org/wiki/Social_media">Wikipedia</a>, “Social media are interactive computer-mediated technologies that facilitate the creation or sharing of information, ideas, career interests and other forms of expression via virtual communities and networks.” They go on further to say,”Social media can help to improve an individual's sense of connectedness with real or <a href="https://en.wikipedia.org/wiki/Online">online</a> communities and can be an effective communication (or <a href="https://en.wikipedia.org/wiki/Marketing">marketing</a>) tool for corporations, entrepreneurs, non-profit organizations, advocacy groups, political parties, and governments.”
+According to <a href="https://en.wikipedia.org/wiki/Social_media">Wikipedia</a>, “Social media are interactive computer-mediated technologies that facilitate the creation or sharing of information, ideas, career interests and other forms of expression via virtual communities and networks.” They go on further to say,”Social media can help to improve an individual's sense of connectedness with real or <a href="https://en.wikipedia.org/wiki/Online">online</a> communities and can be an effective communication (or <a href="https://en.wikipedia.org/wiki/Marketing">marketing</a>) tool for corporations, entrepreneurs, non-profit organizations, advocacy groups, political parties, and governments.”
 
-    In today’s society, word of mouth IS digital.  Think about the questions you constantly ask about products, services or businesses; your customers are asking the SAME questions. Addressing these common points of confusion could be your key to converting  casual website visitors into new clients. The biggest question of all though, is whether potential customers will WANT to visit your website based on your social media presence. So, start or join a conversation, and participate with the idea in mind that you can achieve a significant influence. Take a hold and grow your brand by taking hold of your social media presence!
+In today’s society, word of mouth IS digital.  Think about the questions you constantly ask about products, services or businesses; your customers are asking the SAME questions. Addressing these common points of confusion could be your key to converting  casual website visitors into new clients. The biggest question of all though, is whether potential customers will WANT to visit your website based on your social media presence. So, start or join a conversation, and participate with the idea in mind that you can achieve a significant influence. Take a hold and grow your brand by taking hold of your social media presence!
 
-    “How can a social media presence  help my business?”  Social media is used to market your products, promote your brand, connect to current and possible new clients, and help foster new business. Again, you ask “How?”  Let’s start with  some statistics that will help you to understand the importance of social media marketing. In fact, it is so important that 97% of marketers are using social media and <a href="https://www.forbes.com/sites/markfidelman/2013/05/19/study-78-of-salespeople-using-social-media-outsell-their-peers/#715beee67c32">78% of salespeople outsell their peers</a> simply by using social media for their business.
+“How can a social media presence  help my business?”  Social media is used to market your products, promote your brand, connect to current and possible new clients, and help foster new business. Again, you ask “How?”  Let’s start with  some statistics that will help you to understand the importance of social media marketing. In fact, it is so important that 97% of marketers are using social media and <a href="https://www.forbes.com/sites/markfidelman/2013/05/19/study-78-of-salespeople-using-social-media-outsell-their-peers/#715beee67c32">78% of salespeople outsell their peers</a> simply by using social media for their business.
 
-    However, not all businesses are aware of the benefits of social media marketing. In fact, <a href="http://stlblackbiz.com/small-businesses-arent-readily-using-social-media/">50% of small businesses aren’t using social media</a> to promote their business and an additional 25% don’t plan to use social media in the future. There is clearly a large disconnect between those who are seeing the benefits of social media and those struggling to get started.
+However, not all businesses are aware of the benefits of social media marketing. In fact, <a href="http://stlblackbiz.com/small-businesses-arent-readily-using-social-media/">50% of small businesses aren’t using social media</a> to promote their business and an additional 25% don’t plan to use social media in the future. There is clearly a large disconnect between those who are seeing the benefits of social media and those struggling to get started.
 
-    You may ask, “How will my business benefit from and active social media presence?”  Here are just three of the ways your business could benefit:
-        ◆	Social Media can be a valuable tool as profiles can provide general information and updates about your business.
-        ◆	Business can interact and engage with current and future clients in a community like setting.
-        ◆	Your business’ social profiles can also help improve your organic SEO for your website.
+You may ask, “How will my business benefit from and active social media presence?”  Here are just three of the ways your business could benefit:
+    ◆	Social Media can be a valuable tool as profiles can provide general information and updates about your business.
+    ◆	Business can interact and engage with current and future clients in a community like setting.
+    ◆	Your business’ social profiles can also help improve your organic SEO for your website.
 
-        <a href="https://clutch.co/agencies/resources/social-media-2015-small-business-survey">Mike Rosa</a> of 180Fusion, stated that “If small businesses want to compete, if they want to level the playing field with their competitors, if they don’t want to lose ground, they have to be participating in social media.”
+    <a href="https://clutch.co/agencies/resources/social-media-2015-small-business-survey">Mike Rosa</a> of 180Fusion, stated that “If small businesses want to compete, if they want to level the playing field with their competitors, if they don’t want to lose ground, they have to be participating in social media.”
 
-    The world of digital tech is a constantly moving landscape with social media marketing seeming to move even faster. And because it’s so fast moving it can be tough to figure out how each piece of the puzzle fits with your small business. Social Media Engagement remains an essential ingredient of business and marketing success. To win over audiences in a world increasingly dominated by instantaneous social media and the 24-hour news cycle, the power of connecting with people can be the difference between success and failure.
+The world of digital tech is a constantly moving landscape with social media marketing seeming to move even faster. And because it’s so fast moving it can be tough to figure out how each piece of the puzzle fits with your small business. Social Media Engagement remains an essential ingredient of business and marketing success. To win over audiences in a world increasingly dominated by instantaneous social media and the 24-hour news cycle, the power of connecting with people can be the difference between success and failure.
 
-    If you would like to increase your Social Media Presence or create it, I invite you to give us a call or email us at Blue Smoke Digital and Printed Media. We would welcome the opportunity to help you increase your social presence, improve your branding recognition and increase your sales. `
+If you would like to increase your Social Media Presence or create it, I invite you to give us a call or email us at Blue Smoke Digital and Printed Media. We would welcome the opportunity to help you increase your social presence, improve your branding recognition and increase your sales. `
     }
 ]
