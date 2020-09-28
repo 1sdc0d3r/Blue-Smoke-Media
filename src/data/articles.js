@@ -289,7 +289,7 @@ Most people who have been involved with sales & marketing for any length of time
 `
     }, {
         id: 9,
-        title: "c",
+        title: "Website Manifestation - 7 Steps to a Successful website",
         author: "Constance Beebe",
         date: "July, 2020",
         imageUrl: "amazon/JPEG-PNG/5-components-of-website-useability.jpg",
