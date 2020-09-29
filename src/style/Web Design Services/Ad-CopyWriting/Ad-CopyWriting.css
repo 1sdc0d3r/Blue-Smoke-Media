@@ -1,8 +1,6 @@
 .ad-copy-writing img {
-  padding-top: 5%;
   width: 85%;
   height: 70vh;
-  
 }
 
 @media (min-width: 737px) and (max-width: 980px) {

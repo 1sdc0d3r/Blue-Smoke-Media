@@ -277,7 +277,6 @@ footer ul p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 15vh;
 }
 
 @media (max-width: 360px) {
@@ -286,7 +285,6 @@ footer ul p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: 10vh;
   }
 }
 
@@ -296,7 +294,6 @@ footer ul p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: 10vh;
   }
 }
 
@@ -306,7 +303,6 @@ footer ul p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: 10vh;
   }
 }
 
@@ -321,6 +317,7 @@ footer ul p {
           align-items: center;
   width: 35%;
   color: #7ff76f;
+  padding: 0.25em 0;
 }
 
 @media (min-width: 737px) and (max-width: 980px) {

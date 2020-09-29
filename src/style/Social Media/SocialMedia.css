@@ -1,18 +1,13 @@
 @charset "UTF-8";
 .social-media {
   margin: 5% auto 8%;
-  width: 91%;
+  width: 95%;
   text-align: justify;
 }
 
 .social-media img {
-  height: 40vw;
-  width: 80%;
-  display: block;
-  margin-left: auto;
-  margin-right:auto;
-  padding-bottom: 5%;
-  
+  height: 50vw;
+  width: 100%;
 }
 
 .social-media h1 {
