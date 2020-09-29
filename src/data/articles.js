@@ -3,8 +3,8 @@ export default [{
         id: 1,
         title: "10 Prominent Website Design Mistakes",
         author: "Constance Beebe",
-        date: "May, 2020",
-        imageUrl: "",
+        date: "5/2020",
+        imageUrl: "amazon/10 Prominent Website Design Mistakes",
         imageAlt: "10 Prominent Website Design Mistakes Commonly Made.",
         category: "Custom Website Design",
         tags: "Affordable Custom Website Design, Search Engine Optimization (SEO), Organic SEO, E-Commerce Website Development, Website Usability",
@@ -81,18 +81,18 @@ Many shortfalls of websites can easily be attributed to designers who just do no
         imageAlt: "Getting a piece of 'Advertising Copy'to come through for you and getting stellar results by following these 12 points!",
         category: "Ad-Copywriting",
         tags: "Ad-copywriting, Search Engine Optimization (SEO), Organic SEO, Strategic Social Media Marketing, Website Content Writing, Reputation Management",
-        snippet: "You’re ready to launch that new product or promotion, & you’re really counting on a piece of advertising copy to come through for you. You're are looking for stellar results! And, you’re determined to do everything in your power to get them. Which means surveys, thorough testing, and ongoing refinement of your ad copy.",
+        snippet: "You are ready to launch that new product or promotion, & you are really counting on a piece of advertising copy to come through for you. You're are looking for stellar results! And, you are determined to do everything in your power to get them. Which means surveys, thorough testing, and ongoing refinement of your ad copy.",
         content: `
-You’re ready to launch that new product or promotion and you’re really counting on a piece of advertising copy to come through for you. You are expecting stellar results! And, you’re determined to do everything in your power to get them. Which means surveys, thorough testing, and ongoing refinement of your ad copy. Hold the phone! When you receive your draft, run it through this 12-point inspection. Check off these basics and you can be sure you'll be off to a running start.
+You are ready to launch that new product or promotion and you are really counting on a piece of advertising copy to come through for you. You are expecting stellar results! And, you are determined to do everything in your power to get them. Which means surveys, thorough testing, and ongoing refinement of your ad copy. Hold the phone! When you receive your draft, run it through this 12-point inspection. Check off these basics and you can be sure you'll be off to a running start.
 
 <span>1. Do You Have A Compelling Headline?</span>
-Does it generate curiosity or envy? Does it promise a benefit that will compel someone with an interest in what you’re selling to keep reading. Remember, your headline is the ad for <span>THE</span> ad. When I am being paid to write direct response ad copy, or a sales letter, or have a very important sales objective of my own, I normally write 25 headlines before I begin the body of the piece.Then I’ll pick half a dozen that I think will work & test them. The best of the rest, I use as sub headings throughout the piece to propel readership, and draw skimmers & skippers back into the copy as they move down the page.
+Does it generate curiosity or envy? Does it promise a benefit that will compel someone with an interest in what you are selling to keep reading. Remember, your headline is the ad for <span>THE</span> ad. When I am being paid to write direct response ad copy, or a sales letter, or have a very important sales objective of my own, I normally write 25 headlines before I begin the body of the piece. Then I will pick half a dozen that I think will work & test them. The best of the rest, I use as sub headings throughout the piece to propel readership, and draw skimmers & skippers back into the copy as they move down the page.
 
 <span>2. Are Your Headlines Pleasing to the Eye?</span>
-I most often find that headlines work best when they are centered on the page, & present a balanced appearance in terms of the shape they create. Encasing them in quotation marks also serves to grab more attention. Long top headlines tend to reduce readership, but if they help qualify more effectively they can improve sales! Try them, but look for ways to modularize the text using punctuation & spacing so your readers don’t suffocate trying to read them. Sometimes a long top headline is better presented as two or even three separate headlines.
+I most often find that headlines work best when they are centered on the page, & present a balanced appearance in terms of the shape they create. Encasing them in quotation marks also serves to grab more attention. Long top headlines tend to reduce readership, but if they help qualify more effectively they can improve sales! Try them, but look for ways to modularize the text using punctuation & spacing so your readers do not suffocate trying to read them. Sometimes a long top headline is better presented as two or even three separate headlines.
 
 <span>3. Is Your Opening Provocative and Arresting?</span>
-Does it trip the reader, interrupting the internal turbulence of the day? Each line of your ad copy must serve to “sell” the reader on continued reading, especially at the beginning. You are looking to build enough momentum and interest to convey the points necessary to generate a greater desire for the product than its price. Generally speaking, the higher the cost of the product, the more words required.
+Does it trip the reader, interrupting the internal turbulence of the day? Each line of your ad copy must serve to 'sell' the reader on continued reading, especially at the beginning. You are looking to build enough momentum and interest to convey the points necessary to generate a greater desire for the product than its price. Generally speaking, the higher the cost of the product, the more words required.
 
 <span>4. Are You FAB Balanced?</span>
 You must focus on painting a picture of your prospects future life, as a result of their purchase. Does your copy promise emotional benefits? Does it pledge the realization of positive feelings or the relief of negative ones? Does it show how these outcomes are achieved with concise descriptions of the features & advantages that will deliver them? Your ad copy must strike a balance between emotion and logic if it is to be effective.
@@ -125,8 +125,8 @@ For some reason, the P.S. at the bottom of a sales letter gets read a lot. Make 
         id: 4,
         title: "The Difference Between a Print Logo and a Web Logo",
         author: "Constance Beebe",
-        date: "June, 2020",
-        imageUrl: "image-file-types.jpg",
+        date: "6/2020",
+        imageUrl: "amazon/JPEG-PNG/image-file-types.jpg",
         imageAlt: "The Difference Between a Print Logo and a Web Logo",
         category: "Logos",
         tags: "Digital and Print Logo Design, Digital Media Logos, Graphic Design, Printed Media Graphic Design, Corporate Branding",
@@ -229,7 +229,7 @@ Google My Business is essential for Local SEO as it enables your business lis
 
 In a nutshell, make sure that your business has an up-to-date and detailed Google My Business listing. If you have not taken the time to create and optimize one, then you’re missing out on one of the best free (and guaranteed!) ways of appearing in the Google search results.
 
-Google My Business pages aren’t complicated, but they are important. While you may feel like it’s just one more web page to keep on top of, Google My Business should go to the top of the pile as one of the most important.
+Google My Business pages aren’t complicated, but they are important. While you may feel like it’s just one more web page to keep on top of, Google My Business should go to the top of the pile as one of the most important.
 `
     },
     {
@@ -279,8 +279,8 @@ Do you know your website needs?
         title: "What Makes A Winning Online Ad?",
         author: "Daniel Levis",
         date: "",
-        imageUrl: "amazonDigital-Marketing-vs-Traditional-Marketing.jpg/",
-        imageAlt: "Selling to meet the publics needs - and online ad strategy.",
+        imageUrl: "Digital-Marketing-vs-Traditional-Marketing.jpg",
+        imageAlt: "Selling to meet the publics needs - an online ad strategy.",
         category: "Social Media Marketing",
         tags: "Social Media Marketing, Website Content Writing, Digital Graphic Design, Typography",
         snippet: "Most people who have been involved with sales & marketing for any length of time have heard the axiom, “Sell them what they want. Then sell them what they need”. But what does it mean? It sounds a little odd doesn’t it?",
@@ -291,8 +291,8 @@ Most people who have been involved with sales & marketing for any length of time
         id: 9,
         title: "Website Manifestation - 7 Steps to a Successful website",
         author: "Constance Beebe",
-        date: "July, 2020",
-        imageUrl: "5-components-of-website-useability.jpg",
+        date: "7/2020",
+        imageUrl: "amazon/JPEG-PNG/5-components-of-website-useability.jpg",
         imageAlt: "5 Components of Website Useability",
         category: "Website Useability",
         tags: "Website Useability, Custom Website Design, Website Content Writing, Search Engine Optimization (SEO), Digital Graphic Design, Website Maintenance, Website Usability",
@@ -452,8 +452,8 @@ attention ­and clients­ you need to succeed.`
         id: 12,
         title: "Three Things You Must Do When Designing and Building Your Small Business Website",
         author: "Constance Beebe",
-        date: "August, 2020",
-        imageUrl: "small-business-website-design.jpg",
+        date: "8/2020",
+        imageUrl: "amazon/JPEG-PNG/small-business-website-design.jpg",
         imageAlt: "Building your small business website",
         category: "Custom Website Design",
         tags: "Affordable Custom Website Design, Search Engine Optimization (SEO), Website Usability, Website Content Writing",
@@ -497,9 +497,9 @@ Hopefully, these guidelines will help you build a website that gets you more sal
         id: 13,
         title: "What is 'organic' search and how can it help your company?",
         author: "Constance Beebe",
-        date: "June, 2020",
-        imageUrl: "/Blog/Primary/What-is-organic-search-and-how-can-it-help-your-company.jpg",
-        imageAlt: "Prganic Search: The Concept of Pure, or Crawler-Based Search.",
+        date: "6/2020",
+        imageUrl: "amazon//Users/lambda_school_loaner_206/Desktop/Blue-Smoke-Media/src/images/Blog/Primary/JPEG-PNG/What-is-organic-search-and-how-can-it-help-your-company.jpg",
+        imageAlt: "Organic Search: The Concept of Pure, or Crawler-Based Search.",
         category: "Organic SEO",
         tags: "Organic SEO, Website Content Writing, Custom Website Design, Search Engine Optimization (SEO), Digital Graphic Design, E-Commerce Website Development",
         snippet: "While optimizing your website to rank well for organic searches takes more effort than simply buying an ad, it can provide your business with one of the highest ROI results that you're likely to find. Numerous studies have placed search engine optimization at the top of the list of the most effective forms of online marketing. Its low cost, high relevancy, and high conversion rates make it an ideal marketing vehicle for almost any business.",
@@ -543,90 +543,99 @@ The catch? As with any area of marketing, SEO is a competitive field. Arming you
         title: "10 TIPS FOR WRITING A HIGHLY PERSUASIVE AD",
         author: "Keith Gloster",
         date: "",
-        imageUrl: "",
-        imageAlt: "",
+        imageUrl: "amazon//Users/lambda_school_loaner_206/Desktop/Blue-Smoke-Media/src/images/Blog/Primary/JPEG-PNG/10 tips-for-writing-a-highly-persuasive-ad.jpg",
+        imageAlt: "Instilling curiosity to your clients through Highly Persuasive Ads.",
         category: "Strategic Social Media Marketing",
         tags: "Strategic Social Media Marketing, Ad-Copywriting, Website Content Writing, E-mail Marketing",
         snippet: "Are you a network marketer or an affiliate struggling to convert your website visitors into eager sign-ups or buying customers? While there could be many reasons why you're not receiving the sign-ups and customers you deserve, the first thing you should consider is your ad copy.",
         content: `
 Are you a network marketer or an affiliate struggling to convert your website visitors into eager sign-ups or buying customers? While there could be many reasons why you're not receiving the sign-ups and customers you deserve, the first thing you should consider is your ad copy. Be honest with yourself and consider these 3 qualifying questions in regard to your current ad copy:
 
-<span>1. Does your headline instill curiosity?</span>
+<span>1. Does your headline instill curiosity?
 
-<span>2. Is your ad copy (sales letter) persuasive and compelling enough?</span>
+2. Is your ad copy (sales letter) persuasive and compelling enough?</span>
 
 and
 
 <span>3. Does it serve its intended purpose and that is to get the visitor to click through your sign-up link or order button?</span>
 
-To get you on the right track, here are <span>10 essential tips you can use as a guide in writing persuasive ad copy:</span>
+To get you on the right track, here are <span>10 essential tips you can use as a guide in writing persuasive ad copy:
 
-<span>1. Publish a picture of yourself in your ad.</span> 
+1. Publish a picture of yourself in your ad.</span> 
 This will show people that you're not hiding behind your website and you're not afraid to backup your product.
 
-<span2. List how many famous or respected people have purchased your product in your ad.</span> 
+<span>2. List how many famous or respected people have purchased your product in your ad.</span> 
 These people should be fairly known by your target audience.
 
 <span>3. Publish the results of any tests your product has passed in your ad.</span> 
 Your product may have passed a durability test, safety test, quality test, etc.
 
-<span>4. Publish the results of any positive surveys you've taken from your customers in your ad. Just survey your current customers and list the results.
+<span>4. Publish the results of any positive surveys you've taken from your customers in your ad.</span> 
+Just survey your current customers and list the results.
 
 <span>5. List any publications that have written about your business in your ad.</span> 
 It could be a product review, on a top ten list, an article, etc.
 
-<span>6. List any related books that you've written in your ad.</span> When you list a book(s) you've written, it gives you credibility because it shows you're an expert.
+<span>6. List any related books that you've written in your ad.</span> 
+When you list a book(s) you've written, it gives you credibility because it shows you're an expert.
 
-<span>7. Have a professional looking website to publish your ad on.</span> When people visit your site and it looks unprofessional, they'll relate that to your product.
+<span>7. Have a professional looking website to publish your ad on.</span> 
+When people visit your site and it looks unprofessional, they'll relate that to your product.
 
-<span>8. Publish any endorsements from famous people in your ad.</span> Some people will think if a famous person, enjoys your product, so will they.
+<span>8. Publish any endorsements from famous people in your ad.</span> 
+Some people will think if a famous person, enjoys your product, so will they.
 
-<span>9. Use a money back guarantee in your ad.</span> This will remove the risk from your potential customers and show them that you stand behind your product.
+<span>9. Use a money back guarantee in your ad.</span> 
+This will remove the risk from your potential customers and show them that you stand behind your product.
 
-<span>10. Provide testimonials from satisfied customers in your ad.</span> The testimonials should include specific and believable results your customers have received.
+<span>10. Provide testimonials from satisfied customers in your ad.</span> 
+The testimonials should include specific and believable results your customers have received.
 
 Yes, you might think that your product or service is the best thing offered on the internet since sliced bread. But if you're unable to convey this message to your website visitors with your ad-copy, you'll never earn a living online! Take some time to ponder the 3 questions presented above. Experiment with the 10 tips to improve your ad copy and you'll soon discover just how easy it really is to build your mailing list and earn a living online!`
     }, {
         id: 15,
-        title: "How to Write Effective Web Copy",
+        title: "How to Write Effective Website Copy",
         author: "Herman Drost",
         date: "",
-        imageUrl: "",
-        imageAlt: "",
+        imageUrl: "How-to-Write-Effective-Website-Copy.jpg",
+        imageAlt: "What are the goals of your website? Without knowing this, you cannot write effective Website Copy!",
         category: "Effective Website Copy",
         tags: "Effective Website Copy, Affordable Custom Website Design, Website Content Writing, Website Usability",
         snippet: "Writing effective web copy begins with an understanding of what the goals of your website are. Are you trying to get your visitors to purchase something or have them sign up for your newsletter? Remember you are trying to get someone you can't see and have never met take a step towards building a relationship with you or your company.",
         content: `
-Writing effective web copy begins with an understanding of what the goals of your website are. Are you trying to get your visitors to purchase something or have them sign up for your newsletter? Remember you are trying to get someone you can't see and have never met take a step towards building a relationship with you or your company.
+Writing effective web copy begins with an understanding of what the goals of your website are. Are you trying to get your visitors to purchase something or have them sign up for your newsletter? Remember, you are trying to get someone you can't see and have never met, take a step towards building a relationship with you or your company.
 
-1. Create a customer profile – try to find out what are the needs and desires of your visitors. Below are some examples of questions you could ask:
+<span>1. Create a customer profile –</span> try to find out what are the needs and desires of your visitors. Below are some examples of questions you could ask:
+
 Are they young, middle aged or senior?Are they primarily male or female?Are they financially secure or budget-minded?What gets him or her excited?What are his or her most pressing concerns?
+
 Try to brainstorm a list of topics that might interest your target audience.
 
-2. Create a Unique Selling Position (USP) – This is a statement of 2-3 sentences that explains why you are different from everybody else. This is the unique factor that sets you apart from your competition. Make this the first thing your visitor sees when they arrive on your home page.
+<span>2. Create a Unique Selling Position (USP) –</span> This is a statement of 2-3 sentences that explains why you are different from everybody else. This is the unique factor that sets you apart from your competition. Make this the first thing your visitor sees when they arrive on your home page.
 
-3. Focus on benefits – most web users want to find the information about the product or service they need as fast as possible. If they land on your site, they want to know how they will benefit from buying your product or subscribing to your ezine. You will need to answer that question as clearly and concisely as possible or you will lose that visitor.
+<span>3. Focus on benefits –</span> most web users want to find the information about the product or service they need as fast as possible. If they land on your site, they want to know how they will benefit from buying your product or subscribing to your ezine. You will need to answer that question as clearly and concisely as possible or you will lose that visitor.
 
-4. Use the inverted pyramid style – provide a summary of your information by clearly communicating the direction of your discussion. Use informative headings and subheadings with a paragraph of 4 to 5 lines that supports them. You only have a few seconds to grab your visitors attention. Most will simply scan for the information they are seeking.
+<span>4. Use the inverted pyramid style –</span> provide a summary of your information by clearly communicating the direction of your discussion. Use informative headings and subheadings with a paragraph of 4 to 5 lines that supports them. You only have a few seconds to grab your visitors attention. Most will simply scan for the information they are seeking.
 Use bulleted or numbered lists, boldface or colored font to emphasize the points you wish to make. Include links at the end of your paragraph (or within the text) to direct visitors to other pages of your site for more in-depth information.
 
-5. Write in an informal or personal style – write in a unique way that differentiates you from other small businesses in a similar business or niche. It doesn't have to be elaborate or super-creative. You simply provide a style that gets the attention of your visitors.
+<span>5. Write in an informal or personal style –</span> write in a unique way that differentiates you from other small businesses in a similar business or niche. It doesn't have to be elaborate or super-creative. You simply provide a style that gets the attention of your visitors.
 
-6. Keep your sentences simple – you are not writing to impress. You are writing to communicate. You want to pre-sell your product or service, therefore write as if you are talking to a 13 year old.
+<span>6. Keep your sentences simple –</span> you are not writing to impress. You are writing to communicate. You want to pre-sell your product or service, therefore write as if you are talking to a 13 year old.
 Don't use large words but opt for strong verbs over weak ones. Use the active voice instead of a passive one. i.e. Instead of "a good score was achieved by the team"...say "the team scored a season high". Speak "to" but not "at" your visitor. Keep your sentences short and snappy.
 
-7. Include searchable keywords – use targeted keywords in your web copy that will allow the search engines to find your site. Include these keywords in your meta tags, links and file names also.
+<span>7. Include searchable keywords –</span> use targeted keywords in your web copy that will allow the search engines to find your site. Include these keywords in your meta tags, links and file names also.
 
-8. Eliminate the fluff - don't waffle on in your writing. You will only bore your visitors and they will click elsewhere. Try to remove filler sentences that contain phrases like "for those of you" and "all of you".
+<span>8. Eliminate the fluff -</span> don't waffle on in your writing. You will only bore your visitors and they will click elsewhere. Try to remove filler sentences that contain phrases like "for those of you" and "all of you".
 
-9. Proof read your web copy – errors in your web copy give the impression of being unprofessional or sloppy. Read the copy aloud to yourself or get someone else to proof read it. Often they will find more errors because they are more objective.
+<span>9. Proof read your web copy –</span> errors in your web copy give the impression of being unprofessional or sloppy. Read the copy aloud to yourself or get someone else to proof read it. Often they will find more errors because they are more objective.
+
 Use the spell checker but don't rely on it. Often it doesn't pick up all incorrectly spelled words. Print a copy of your content. It's easier to find grammatical or spelling errors on a hard copy.
 
-10. Take a break – revise your web copy after taking a break from it for several hours or a few days. This allows you to see it from a different viewpoint. You may find a better way to say something to further improve your copy.
+<span>10. Take a break –</span> revise your web copy after taking a break from it for several hours or a few days. This allows you to see it from a different viewpoint. You may find a better way to say something to further improve your copy.
 
-11. Use images sparingly – images should only be used if they relate and support your web content. If not, they will only distract the visitor from reading your web copy. Too many images will slow down the time it takes for your visitor to load your site in their browser.
+<span>11. Use images sparingly –</span> images should only be used if they relate and support your web content. If not, they will only distract the visitor from reading your web copy. Too many images will slow down the time it takes for your visitor to load your site in their browser.
 
-12. Use effective navigation – your navigation bar should help visitors easily find the main sections of your site.
+<span>12. Use effective navigation –</span> your navigation bar should help visitors easily find the main sections of your site.
 Writing effective web copy is the key to converting visitors into buyers. Getting 1000s of visitors to your website doesn't guarantee sales. Reading your web copy should pre-sell your product with the words you use. Once you achieve this, your website will become very profitable.
 `
     },
@@ -635,30 +644,39 @@ Writing effective web copy is the key to converting visitors into buyers. Gettin
         title: "Build It And They Will Come. True or False? Why So Many Online Businesses Fail.",
         author: "Jill St Claire",
         date: "",
-        imageUrl: "",
-        imageAlt: "",
+        imageUrl: "amazon/",
+        imageAlt: "Why So Many Online Business Fail",
         category: "Custom Website Design",
         tags: "Affordable Custom Website Design, Website Traffic, Strategic Social Media Marketing, Search Engine Optimization (SEO), E-Commerce Website Development, Coding and Programming, Website Usability",
         snippet: "Build it and they will come! Well . . . sometimes. If you're real lucky, and I mean REALLY lucky.",
         content: `
-Build it and they will come! Well . . . sometimes. If you're real lucky, and I mean REALLY lucky.Now you have your beautiful website boasting your amazing products or services. It's out there, just waiting for people who want what you have to offer. You're going to dazzle them with your dynamic website and the sales are going to come flooding in. Wrong. The dream is over. It's time to come back to reality.I can't begin to tell you how many times I've heard the stories of disappointment from very sharp business people who actually thought that having a website is all there is to either starting and operating a successful and profitable online business, or incorporating eCommerce into their existing business of traditional commerce.Your website is quite simply, a brochure that is now lost in a very large online ocean of literally billions of other brochures. We'll compare it to a stack of beautifully printed brochures sitting on your desk; your prospects will never see it unless you place your brochures in a visible place where people look for what you have to offer - true? Your online brochure, (your website), also needs to be positioned in a visible place where your prospects can find you - on major search engine directories.Keywords and key phrases are the search words and terms Internet surfers use to find the products, services or information they are looking for.Choosing the right keywords and phrases for your website's search engine optimization (SEO) program is critical to its success. The right keywords drive targeted traffic to your website - prospects who are ready to buy. The wrong keywords attract web visitors that are not likely to purchase your products and services - wasting everyone's time and your money.
+Build it and they will come! Well . . . sometimes. If you're real lucky, and I mean REALLY lucky. Now you have your beautiful website boasting your amazing products or services. It's out there, just waiting for people who want what you have to offer. You're going to dazzle them with your dynamic website and the sales are going to come flooding in. Wrong. The dream is over. It's time to come back to reality. 
+
+I can't begin to tell you how many times I've heard the stories of disappointment from very sharp business people who actually thought that having a website is all there is to either starting and operating a successful and profitable online business, or incorporating E-Commerce into their existing business of traditional commerce. 
+
+Your website is quite simply, a brochure that is now lost in a very large online ocean of literally billions of other brochures. We'll compare it to a stack of beautifully printed brochures sitting on your desk; your prospects will never see it unless you place your brochures in a visible place where people look for what you have to offer - true? Your online brochure, (your website), also needs to be positioned in a visible place where your prospects can find you - on major search engine directories.
+
+Keywords and key phrases are the search words and terms Internet surfers use to find the products, services or information they are looking for.
+
+Choosing the right keywords and phrases for your website's search engine optimization (SEO) program is critical to its success. The right keywords drive targeted traffic to your website - prospects who are ready to buy. The wrong keywords attract web visitors that are not likely to purchase your products and services - wasting everyone's time and your money.
+
 By following these simple rules, you will be able to determine the right mix of keywords and phrases that will generate targeted prospects to your website. Remember that good search terms are those that are related to your business and have sufficient monthly search traffic.
 
-Rule #1 Select keywords that represent your company's 'bread and butter.' What products and service lines are the most profitable, have the strongest sales, and continue to show good market demand. And yes, typically the 80/20 rule applies here. 80% of your sales and sales leads are produced by 20% of your keywords and phrases.
+<span>Rule #1.  Select keywords that represent your company's 'bread and butter.'</span> What products and service lines are the most profitable, have the strongest sales, and continue to show good market demand. And yes, typically the 80/20 rule applies here. 80% of your sales and sales leads are produced by 20% of your keywords and phrases.
 
-Rule #2 Look at complementary products and services that people tend to buy that you don't offer. Often, these keywords generate good prospects and typically have less competition than your primary keywords and phrases.
+<span>Rule #2. Look at complementary products and services that people tend to buy that you don't offer.</span> Often, these keywords generate good prospects and typically have less competition than your primary keywords and phrases.
 
-Rule #3 Use online tools to help determine keyword variations and search frequency. The best free programs to use include <a href='https://ads.google.com/home/tools/keyword-planner/'>Google’s search term suggestion tool</a> and <a href='https://www.wordstream.com/keywords'>Word Stream’s keyword tool.</a>
+<span>Rule #3. Use online tools to help determine keyword variations and search frequency.</span> The best free programs to use include <a href='https://ads.google.com/home/tools/keyword-planner/'>Google’s search term suggestion tool</a> and <a href='https://www.wordstream.com/keywords'>Word Stream’s keyword tool</a>. 
 
-Rule #4 Use <a href='www.wordtracker.com'>WordTracker</a> - For a small fee, you can use this tool to find niche keywords, use the thesaurus to find related search terms and determine general monthly search frequency. This is a great tool and worth the investment.
+<span>Rule #4. Use <a href='www.wordtracker.com'>WordTracker</a> -</span> For a small fee, you can use this tool to find niche keywords, use the thesaurus to find related search terms and determine general monthly search frequency. This is a great tool and worth the investment.
 
-Rule #5 Use pay-per-click programs like Overture or Google's AdWords to choose keywords and phrases for your SEO program. Both programs help you generate search terms based on specific keyword relationships and show how often they are searched for. Set a small monthly budget and track the number of keyword impressions you receive for each search term. After one to two months of data, choose the search terms with adequate search frequency and incorporate them into your search engine optimization program.
+<span>Rule #5. Use pay-per-click programs like Google's AdWords to choose keywords and phrases for your SEO program.</span> Both programs help you generate search terms based on specific keyword relationships and show how often they are searched for. Set a small monthly budget and track the number of keyword impressions you receive for each search term. After one to two months of data, choose the search terms with adequate search frequency and incorporate them into your 'search engine optimization' program.
 
-Rule #6 Don't forget Geographics. If your products and services are local or regional, be sure to include your state or city within your search phrases. For example, an investigations company that conducts most of its business in the Midwest would want to choose 'Indiana and private investigator.'
+<span>Rule #6. Don't forget Geographics.</span> If your products and services are local or regional, be sure to include your state or city within your search phrases. For example, an investigations company that conducts most of its business in the Midwest would want to choose 'Indiana and private investigator.'
 
-Rule #7 Take a look at your competition. Based on your top three competitors, look at their website for specific search terms being used. Also, look at their META keywords to get a good idea of what search terms they think are important. Remember you want to look at competitors for your different markets served and products and service lines.
+<span>Rule #7. Take a look at your competition.</span> Based on your top three competitors, look at their website for specific search terms being used. Also, look at their META keywords to get a good idea of what search terms they think are important. Remember you want to look at competitors for your different markets served and products and service lines.
 
-Rule #8 Analyze your website traffic. Make sure your web hosting company provides you with the ability to analyze your website log files. Some hosting companies have you log into your account to view monthly web traffic reports, while others email monthly reports. Information obtained can tell you the top search terms and search engines used to find your website and other valuable information. To get the most out of your log file data, it is recommended to use a log file analyzer such as Web Trends or Urchin.
+<span>Rule #8. Analyze your website traffic.</span> Make sure your web hosting company provides you with the ability to analyze your website log files. Some hosting companies have you log into your account to view monthly web traffic reports, while others email monthly reports. Information obtained can tell you the top search terms and search engines used to find your website and other valuable information. To get the most out of your log file data, it is recommended to use a log file analyzer such as Web Trends or Google Ad-Words.
 
 By applying these simple rules, you will be well on your way to generating highly-targeted keywords and phrases that attract the right prospects - prospects who have direct interest in what you have to offer.`
     },
@@ -666,8 +684,8 @@ By applying these simple rules, you will be well on your way to generating highl
         id: 17,
         title: "Social Media: Why It Is 100% Essential (and How to Use It Well)",
         author: "Constance Beebe",
-        date: "September, 2020",
-        imageUrl: "imarketing-through-social-media (1).webp",
+        date: "9/2020",
+        imageUrl: "amazon//Users/lambda_school_loaner_206/Desktop/Blue-Smoke-Media/src/images/Blog/Primary/JPEG-PNG/marketing-through-social-media.jpg",
         imageAlt: "Social Media: Why It Is 100% Essential (and How to Use It Well), getting your brand out there amongst the people who fit in your niche.",
         category: "Strategic Social Media Marketing",
         tags: "Brand Loyalty, Consumer Loyalty, Affordable Custom Website Design, Strategic Social Media Marketing, Content Writing, Ad-Copywriting",
@@ -678,19 +696,201 @@ According to <a href="https://en.wikipedia.org/wiki/Social_media">Wikipedia</a>,
 
 In today’s society, word of mouth IS digital.  Think about the questions you constantly ask about products, services or businesses; your customers are asking the SAME questions. Addressing these common points of confusion could be your key to converting  casual website visitors into new clients. The biggest question of all though, is whether potential customers will WANT to visit your website based on your social media presence. So, start or join a conversation, and participate with the idea in mind that you can achieve a significant influence. Take a hold and grow your brand by taking hold of your social media presence!
 
-“How can a social media presence  help my business?”  Social media is used to market your products, promote your brand, connect to current and possible new clients, and help foster new business. Again, you ask “How?”  Let’s start with  some statistics that will help you to understand the importance of social media marketing. In fact, it is so important that 97% of marketers are using social media and <a href="https://www.forbes.com/sites/markfidelman/2013/05/19/study-78-of-salespeople-using-social-media-outsell-their-peers/#715beee67c32">78% of salespeople outsell their peers</a> simply by using social media for their business.
+<span>“How can a social media presence  help my business?”</span>  Social media is used to market your products, promote your brand, connect to current and possible new clients, and help foster new business. Again, you ask “How?”  Let’s start with  some statistics that will help you to understand the importance of social media marketing. In fact, it is so important that 97% of marketers are using social media and <a href="https://www.forbes.com/sites/markfidelman/2013/05/19/study-78-of-salespeople-using-social-media-outsell-their-peers/#715beee67c32">78% of salespeople outsell their peers</a> simply by using social media for their business.
 
 However, not all businesses are aware of the benefits of social media marketing. In fact, <a href="http://stlblackbiz.com/small-businesses-arent-readily-using-social-media/">50% of small businesses aren’t using social media</a> to promote their business and an additional 25% don’t plan to use social media in the future. There is clearly a large disconnect between those who are seeing the benefits of social media and those struggling to get started.
 
-You may ask, “How will my business benefit from and active social media presence?”  Here are just three of the ways your business could benefit:
-    ◆	Social Media can be a valuable tool as profiles can provide general information and updates about your business.
+You may ask, <span>“How will my business benefit from and active social media presence?”</span>  Here are just three of the ways your business could benefit:
+    
+    ◆	Social Media can be a valuable tool as profiles can provide general information and updates about your 
+        business.
     ◆	Business can interact and engage with current and future clients in a community like setting.
     ◆	Your business’ social profiles can also help improve your organic SEO for your website.
 
-    <a href="https://clutch.co/agencies/resources/social-media-2015-small-business-survey">Mike Rosa</a> of 180Fusion, stated that “If small businesses want to compete, if they want to level the playing field with their competitors, if they don’t want to lose ground, they have to be participating in social media.”
+    <a href="https://clutch.co/agencies/resources/social-media-2015-small-business-survey">Mike Rosa</a> of 180Fusion, stated that <span>“If small businesses want to compete, if they want to level the playing field with their competitors, if they don’t want to lose ground, they have to be participating in social media.”</span>
 
 The world of digital tech is a constantly moving landscape with social media marketing seeming to move even faster. And because it’s so fast moving it can be tough to figure out how each piece of the puzzle fits with your small business. Social Media Engagement remains an essential ingredient of business and marketing success. To win over audiences in a world increasingly dominated by instantaneous social media and the 24-hour news cycle, the power of connecting with people can be the difference between success and failure.
 
 If you would like to increase your Social Media Presence or create it, I invite you to give us a call or email us at Blue Smoke Digital and Printed Media. We would welcome the opportunity to help you increase your social presence, improve your branding recognition and increase your sales. `
+    },
+    {
+        id: 18,
+        title: "Competing with the Big Guys",
+        author: "Constance Beebe",
+        date: "8/2020",
+        imageUrl: "amazon//Users/lambda_school_loaner_206/Desktop/Blue-Smoke-Media/src/images/Blog/Primary/JPEG-PNG/ID_18_Helping-you-to-compete-with-the-big-guys.jpg",
+        imageAlt: "Helping you to Compete with the Big Guys!",
+        category: "Strategic Small Business Marketing Strategy",
+        tags: "Custom Website Design, Search Engine Optimization, Organic SEO, Website Useability, Strategic Social Media Marketing, Effective Website Copy",
+        snippet: "The best thing you can do as a small business or web site starting out on the Internet, is to understand your customers and their needs. You must exploit the advantages many small businesses have over large companies. ",
+        content: `
+<span>When starting a business or website on the Internet,</span> it is often easy to become intimidated by large companies or web sites offering similar services to you. While you may not be able to match the million dollar advertising budgets, or employee numbers of your competitors, there are many things you can do to make your business or web site stand out from the rest. The aim of this article is to provide you with an approach, and the motivation to take on those competitors you never thought you could match!
+
+Throughout the rest of this article, I will be using the example of a hypothetical small web design company called “Coffee Digital Cafe ”. As you may or may not know, the web design industry is an incredibly competitive market, which makes it an excellent example for this article. With the huge amount of large, well established companies active in the industry, it would be incredibly easy for a small company such as Coffee Digital Cafe to be swallowed and taken under in the first few months of operation. We will explore some of the tactics the owners of Coffee Cafe Digital may use in order to gain some kind of advantage over their large competitors.
+
+<span>What do customers want?</span>
+It is important to get back to basics and ask yourself "What is it that customers purchasing this service require?". Knowing some of the decisive factors in customers choices is very important. If you know what your customers want, you may be able to tailor your marketing strategies to emphasize these areas.
+
+<span>Making a list:</span>
+In our example of the Coffee Digital Cafe company, the owners may come up with the following list (after researching customer needs) of nine features customers desire in a web design company.
+
+    <span>1.</span> Excellent support
+    <span>2.</span> Package features (eg. disk quotas, email boxes, monthly bandwidth)
+    <span>3.</span> Special language support (eg. JavaScript, PHP, Python, React.js, Ruby on Rails, etc.)
+    <span>4.</span> Reasonable pricing
+    <span>5.</span> Easy account management
+    <span>6.</span> Reliability
+    <span>7.</span> Do they write content
+    <span>8.</span> Do they have an in-house graphic design team
+    <span>9.</span> They offer Social Media Management
+
+After reviewing this list, the Coffee Digital Cafe  owners could choose areas they believe their big company competitors are lacking. These areas would then become areas of focus for both product development and marketing.
+
+The first item in the list<span> (Excellent support),</span> is often an area big companies leave a lot to be desired. This opens the door to create a major selling point for the Coffee Digital Cafe  service. The reasonably simple task of ensuring the timely response to queries could have customers singing your praises, generating a lot of new business.
+
+Suggestion: If it is feasible for your business, setting up an account on one (or some) of the major instant messaging programs (eg. Chat on your website, Google Meet, and Zoom) can leave an excellent impression on customers. Think how happy you would be receiving a reply to a query almost instantly!
+
+<span>Getting Info for the List:</span>
+
+You may be asking just where you are expected to get such information about your customers needs. Below is a short list of suggestions to get you started.
+
+    <span>*</span> Survey customers.
+    <span>*</span> Participate in discussion groups relating to the subject. You will often find forums around the Internet with real 
+       customers discussing what they like and dislike about certain products and services. Participating in these 
+       discussions may also get you business!
+    <span>*</span>Visit web sites and read newsletters which deal with the subject.
+    <span>*</span>Put yourself in your customers shoes and look at it from their perspective.
+
+<span>Personalize your Service</span>
+
+I don't know about you, but I find it much more appealing when I can actually talk to the owner or employees of a business throughout the use of their service. A personal response to an order beats auto responders any day!
+
+<span>There are many aspects needed to be considered</span> when personalizing a service. Listening to user feedback, being available to talk and offering opinions on different issues all contribute to personalizing a service. The common goal of many of these aspects is to build trust with your customers.
+
+<span>Building trust with your customers is an incredibly important</span> and often underestimated aspect, which must be considered. To put it simply, no one is going to buy anything from you on the Internet if they do not trust you. <span>Personalizing a service</span> is an excellent way of gaining this customer trust.
+
+Our Coffee Digital Cafe team may decide to incorporate some of the following things to help <span>personalize their service and gain trust</span> from their customers.
+
+    <span>**On sign up,</span> Coffee Digital Cafe should ensure customers have the contact information for appropriate personnel 
+        to voice their queries or comments. This information should be presented in a way which welcomes customer 
+        interaction.
+
+    <span>**Building trust with your customers</span> is an incredibly important, and often underestimated, aspect which must be 
+        considered. To put it simply, no one is going to buy anything from you on the Internet if they do not trust you. 
+        Personalizing a service is an excellent way of gaining this customer trust.    
+
+        Our Coffee Digital Cafe team may decide to incorporate some of the following things to help personalize their 
+        service and gain trust from customers.
+
+    <span>**</span>On sign up, Coffee Digital Cafe should ensure customers have the contact information for appropriate personnel 
+        to voice their queries or comments. This information should be presented in a way which welcomes customer 
+        interaction.   
+        
+    <span>**</span>Every so often, Coffee Digital Cafe <span>owners should contact customers personally</span> to make sure everything is 
+        going well and answer any queries they may have. Many customers will not go out of their way to give feedback
+        unless asked specifically.
+
+    <span>**Keep customers informed</span> of updates, changes and upcoming services.
+
+    <span>**Give valid explanations</span> for any down-time which may occur.
+
+    <span>**Provide an area for customers to give feedback</span> and talk with each other.
+
+<span>Charge Reasonable Prices</span>
+
+The last point I am going to make in this article, is that <span>you must charge reasonable prices.</span> Although you may not be 
+able to match the extremely low prices of big companies in some industries, it is important, that you do not over-
+charge your customers. <span>Nothing scares customers off quicker than ridiculously high prices.</span>
+
+If you use the techniques described in this article, customers may not mind paying that little bit extra. Especially, if it is 
+going to get them a service which the big competitors do not provide so well.
+
+In conclusion, <span>the best thing you can do as a small business</span> or website starting out on the Internet <span>is to understand 
+your customers and their needs.</span> You must exploit the advantages many small businesses have over large 
+companies. Using the techniques outlined in this article, along with your own initiative and creativity, will help you gain 
+respect, build a reputation and hopefully reach your goals!
+`
+    },
+    {
+        id: 19,
+        title: "Best Practices: How to Market Yourself Like a Corporation",
+        author: "Ramona Lucius",
+        date: "7/2020",
+        imageUrl: "amazon//Users/lambda_school_loaner_206/Desktop/Blue-Smoke-Media/src/images/Blog/Primary/JPEG-PNG/ID-19_How_to_Market_Yourself_Like a_Corporation.jpg",
+        imageAlt: "How to Market Yourself Like a Corporation",
+        category: "Corporate Branding",
+        tags: "Strategic Social Media Marketing,Affordable Custom Website Design, Typography, Brand Loyalty, Consumer Loyalty, Digital and Print Logo Design, Website Content Writing, Reputation Management",
+        snippet: "Corporations are people is probably not a new concept to you. Collective ownership not bound to a single lifetime started with an argument of a wealthy robber baron who wanted his business to exploit the 14th amendment. Here is a bit on the dubious journey from business to personhood if you want to learn more. As ridiculous as the idea started, it was successful.",
+        content: `
+<span>Got a favorite brand?</span>
+
+Something that inspires the confidence that____is the best value? Most of us would answer yes. There is a specific toothpaste you seek, or brand of trash bags you avoid. Out of so many choices in this age of options - How did you grow this relationship? Of all the toothpastes in the world, why did you walk over to that one? Aside from the dollar in your wallet that serves as your ballot - this is a pretty one-sided affinity. How did this loyalty begin? More importantly, how can you use the same tools to inspire confidence that you are the best choice out of a stack of resumes?
+       
+Let's talk about how they did it. <a href="https://www.npr.org/2014/07/28/335288388/when-did-companies-become-people-excavating-the-legal-evolution">Corporations are people is probably not a new concept to you.</a> Collective ownership not bound to a single lifetime started with an argument of a wealthy 
+robber baron who wanted his business to exploit the 14th amendment. <a href="https://www.theatlantic.com/business/archive/2018/03/corporations-people-adam-winkler/554852/">Here is a bit on the dubious journey from business to personhood if you want to learn more.</a> As ridiculous as the idea started, it was successful.
+
+Over time as the concept matured and became more sophisticated. We now have company rivalries, million dollar commercials, and fierce consumer loyalty.  When we think of big corporations we are invoking emotional connections. They impress meaning beyond their function. Trash bags are just trash bags - so why do company brands inspire feelings of family, financial status, care, comfort, luxury. When you boil it down, each brand builds rapport and communicates it's worth through carefully placed words and pictures. You can too.
+
+<span>Let's go one step further.</span>
+If someone asks you right now - What company do you really want to work for? Everyone has an answer. Now ask yourself - how did _______ company make it onto your well thought out success strategy road map? Did you see a post they made about a social value you hold?  Have you heard great things about the company culture?  Whatever you think you know about this "person" is all built using tools to make a first and lasting impression.
+
+<span>Appropriate the machine!</span>
+Whoever you chose as the company of your dreams - has attracted strong talent (yes, I mean you).  Let's turn the lens to them - How did they do it?
+
+        <span>1)</span> If you engage in social media - consider making your personal pages private and allow 
+        your strategized branded pages to be searched publicly. Being yourself is cool and all- but 
+        does your dream job need to know about your obsession with 90's sci-fi?  Probably not. 
+        There is potential to use your web print to leave an impression that makes you a more 
+        attractive candidate.  Consider it.  Friends you want to invite over for a Cleopatra 2525 
+        marathon will still be able to get the invite if you tighten the security on your page.
+
+        <span>2)</span> Watch the companies you like - what does their web print say about them? Look at 
+        their posts, charities they support, what is the impression they offer? Most companies have 
+        a strategy for their voice - are they supportive, casual, pedantic, etc. Figure out their voice 
+        and utilize it in your posts. Does this company try to educate the consumer - be a thought 
+        leader. Offer posts that will attract their attention as someone who is aligned with their 
+        objectives and interests.
+
+<span>There are so many opportunities to create your own brand.</span> You can really go down a rabbit 
+hole here. Typography, color palette, even the source of information you use when you post are 
+paints to create a more colorful picture. Choose wisely. 
+
+<span>Everything you give to the world is a handshake. Make it a memorable one!</span>
+`
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ]
