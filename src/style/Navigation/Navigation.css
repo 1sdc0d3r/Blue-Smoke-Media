@@ -45,13 +45,13 @@
 
 @media (min-width: 1281px) and (max-width: 1680px) {
   .main-nav .nav-item {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
   }
 }
 
 @media (min-width: 1681px) {
   .main-nav .nav-item {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
   }
 }
 

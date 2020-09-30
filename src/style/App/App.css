@@ -9,19 +9,19 @@ html {
   font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.3em;
+  font-size: 1.1em;
   color: #020723;
-}
-
-@media (min-width: 1681px) {
-  .App {
-    font-size: 1.8em;
-  }
 }
 
 @media (min-width: 1281px) and (max-width: 1680px) {
   .App {
-    font-size: 1.6em;
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 1681px) {
+  .App {
+    font-size: 1.3em;
   }
 }
 
