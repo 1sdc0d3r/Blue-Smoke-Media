@@ -1,5 +1,5 @@
 //! 19 articles
-/*  ID-1-"10 Prominent Website Design Mistakes  */
+/*  ID-1-"10_Prominent_Website_Design_Mistakes.jpg"  */
 
 
 export default [{
@@ -312,7 +312,7 @@ Does your business have a website? Have you missed the idea that it can be your 
         title: "What Makes A Winning Online Ad?",
         author: "Daniel Levis",
         date: "",
-        imageUrl: "Digital-Marketing-vs-Traditional-Marketing.jpg",
+        imageUrl: "",
         imageAlt: "Selling to meet the publics needs - an online ad strategy.",
         category: "Social Media Marketing",
         tags: "Social Media Marketing, Website Content Writing, Digital Graphic Design, Typography",
@@ -325,7 +325,7 @@ Most people who have been involved with sales & marketing for any length of time
 
     {
         id: 9,
-        title: "Website Manifestation - 7 Steps to a Successful website",
+        title: "Website Manifestation - 5 Steps to a Successful website",
         author: "Constance Beebe",
         date: "07/2020",
         imageUrl: "5-components-of-website-useability.jpg",
@@ -720,7 +720,7 @@ By applying these simple rules, you will be well on your way to generating highl
         title: "Social Media: Why It Is 100% Essential (and How to Use It Well)",
         author: "Constance Beebe",
         date: "9/2020",
-        imageUrl: "ial (and How to Use It Well), getting your brand out there amongst the people who fit in your niche.",
+        imageUrl: "Social Media: Why It Is 100% Essential (and How to Use It Well), getting your brand out there amongst the people who fit in your niche.",
         category: "Strategic Social Media Marketing",
         tags: "Brand Loyalty, Consumer Loyalty, Affordable Custom Website Design, Strategic Social Media Marketing, Content Writing, Ad-Copywriting",
         snippet: "In today’s society, word of mouth IS digital. Think about the questions you constantly ask about products, services or businesses; your customers are asking the SAME questions. Addressing these common points of confusion could be your key to converting casual website visitors into new clients.",
@@ -748,9 +748,8 @@ The world of digital tech is a constantly moving landscape with social media mar
 
 If you would like to increase your Social Media Presence or create it, I invite you to give us a call or email us at Blue Smoke Digital and Printed Media. We would welcome the opportunity to help you increase your social presence, improve your branding recognition, and increase your sales.`
     },
-
-    /* ID-18  --->    "marketing-through-social-media.jpg"    <----    */
-
+    /* ID-18  --->    "ID_18_Helping-you-to-compete-with-the-big-guys.jpg"    <----    */
+    
     {
         id: 18,
         title: "Competing with the Big Guys",
@@ -834,9 +833,8 @@ going to get them a service that the big competitors do not provide so well.
 
 In conclusion, <span>the best thing you can do as a small business</span> or website starting out on the Internet <span>is to understand your customers and their needs.</span> You must exploit the advantages many small businesses have over large companies. Using the techniques outlined in this article, along with your own initiative and creativity, will help you gain respect, build a reputation, and hopefully reach your goals!`
     },
-
-    /* ID-19  --->   "marketing-through-social-media.jpg"    <----    */
-
+     /* ID-19  --->   How to Market Yourself Like a Corporation"   <----    */
+    
     {
         id: 19,
         title: "Best Practices: How to Market Yourself Like a Corporation",
