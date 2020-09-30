@@ -175,11 +175,37 @@ Search engine spiders have a lot of work to do. Not only do they spider billions
 
 <span class="italic">Avoid Bloated Code (Keep it DRY - Don’t Repeat Yourself!)</span>
 
-Unfortunately for the sake of design, many website owners have paid absolutely no attention to how efficient their code is. As a result, they may have a lot of extraneous, unnecessary code. The result of bloated code is a page that may be difficult and confusing for a search engine to decipher, or the spider may misinterpret the code.Fortunately, HTML and CSS has caught up to the design standards of website professionals. Using proper HTML and CSS, you can design extremely appealing websites that do not rely on tables for their layout. If you would like to see just how versatile and effective HTML and CSS is, look at the examples laid out at CSS Zen Garden. CSS Zen Garden is a website that displays the power of CSS and properly formed HTML. There are several different designs all using the exact same HTML, but through CSS they are able to build sites that looking completely different form each other.If you want to see something very amazing about what CSS Zen Garden is doing, follow these steps. View the HTML of their page. It does not matter what style you are viewing, the HTML is the same for every style. Now copy that code and paste it into your HTML editor and view the output. The page that you will see is an extremely basic looking page. More importantly, though, the page that you will see is a very well organized page which would be easy for any spider to understand.Learn More About HTMLIf you are like most website owners, you know very little about HTML. You may know a little bit of code here and there, but it really does not seem worth your time to learn the inner workings of HTML. If you feel this way, then you are really missing out on great SEO opportunities. There are plenty of FREE websites from which you can learn to code from. <a href='https://www.codecademy.com'>CodeAcademy</a> and <a href='https://www.freecodecamp.org'>FreeCodeCamp</a> are two of my favorites. HTML is built to naturally identify parts of your web page that are more important than others. It was built to be extremely organized. Using the organization that HTML provides, you can help a search engine spider identify the parts of your website that are more important. Below are some uncommon tags that HTML provides that you can use to help organize your content:Alt Tag – Most website owners know about this, but including an Alt Tag on your images is actually required if you want to have a properly formed website - Although using tables to determine the layout of your website is becoming a practice that will soon be extinct, tables will still be necessary. The caption tag allows you to identify what a specific table is about. An example: Table 3.2. Raw Sales Data. Usage note: Do not use this attribute, as it has been deprecated. The  element should be styled using the CSS properties caption-side and text-align.The H Tags – H1 tags have become some of the most important tags in SEO circles, once website owners learned that Google DID pay attention to this tag. However, there are actually 6 different heading tags. The H1 tag is the most important while the H6 tag is the least important. If a search engine were to try to form a table of contents from a website, it should be able to do so from the H tags. These are just a few examples, but HTML provides several tags for your content to help you organize your material, and help search engines know what to emphasize in your content.Article TipWe have started a thread of these HTML tags. If you would like to know more about HTML tags and CSS, check out <a href='https://developer.mozilla.org/en-US/docs/Web/HTML'>here</a>. The lesson from this should be that learning HTML is not an endeavor that has few benefits. There is a lot of HTML that can help you both simplify your code and add more content to help your rankings.Fortunately, web technology is catching up. With the advent of HTML5 and CSS3, it is easier now than ever to create beautiful sites. If you are not familiar with CSS, just read that previous sentence as being a very good thing. As was demonstrated by the example of CSSZenGarden.com, CSS can be used to create a page that is extremely appealing.Most website owners know CSS to be a tool that they can use to edit the appearance of text and the colors of their site, but CSS is also a tool that can be used for the layout of your site. As CSS comes out with newer versions, layout will become a more important development.If you plan to design your own website, I would like to suggest you learn HTML and CSS. A little Javascript wouldn’t hurt.The Side Benefit: AccessibilityDid you know that blind people surf the Internet? That may not seem shocking initially, but consider that the Internet is a highly visual medium of transferring information. Blind people are able to use web readers and Braille machines that interpret HTML code.Unfortunately, the vast majority of websites are not accessible for blind people because they are not well formed sites. By moving to a well formed website, you will be adding access for an audience who marketers really do not focus on.  But they should!
-Accessible Rich Internet Applications (ARIA) is a set of attributes that define ways to make web content and web applications (especially those developed with JavaScript), more accessible to people with disabilities.
-It supplements HTML so that interactions and widgets commonly used in applications can be passed to assistive technologies when there is not otherwise a mechanism. For example, Wai-ARIA enables accessible navigation landmarks in HTML4, JavaScript widgets, form hints and error messages, live content updates, and more. 
-Google has now begun to implement certain penalties for either Not using the Wai-Aria codes or using them incorrectly.  Here is a guide from the <a href='https://developers.google.com/web/fundamentals/accessibility/semantics-aria>Google Developers</a> on to how to properly use the Aria codes
-Article Tip Search engines love websites that adhere to W3C's Web Content Accessibility Guidelines Bringing it Back to SEO Many website owners are reluctant to take the time, energy, and money to really learn HTML and CSS, or to learn how they can make their websites truly accessible. However, in the end, they could be hurting their search engine rankings once search engines move closer to identifying natural human language.The creators of HTML have done a magnificent job in creating a structure that can be used to organize your content in ways that make search engine optimization extremely easy. As the owner of your website, you should take care to make sure that it is running the way it was intended to. You would never purchase a car that fails to meet basic standards of quality, so why would you trust your company's income to a website that is based on code that does not meet the quality standards of the Internet?Designing your site properly does take time and effort, but the rewards are numerous. Not only will you have the satisfaction of having a website that is both light in its code and efficient, but search engines will be able to identify the key points of your content much easier, thus giving you more control of your rankings.`
+Unfortunately for the sake of design, many website owners have paid absolutely no attention to how efficient their 
+code is. As a result, they may have a lot of extraneous, unnecessary code. The result of bloated code is a page 
+that may be difficult and confusing for a search engine to decipher, or the spider may misinterpret the code. Fortunately, HTML and CSS has caught up to the design standards of website professionals. Using proper HTML and CSS, you can design extremely reponsive appealing websites. 
+
+If you would like to see just how versatile and effective HTML and CSS is,look at the examples laid out at CSS Zen Garden. CSS Zen Garden is a website that displays the power of CSS and properly formed HTML. There are several different designs all using the exact same HTML, but through CSS they are able to build sites that looking completely different form each other. If you want to see something very amazing about what CSS Zen Garden is doing, follow these steps: View the HTML of their page. It does not matter what style you are viewing, the HTML is the same for every style. Now copy that code and paste it into your HTML editor and view the output. The page that you will see is an extremely basic looking page. More importantly, though, the page that you will see is a very well organized page which would be easy for any spider to understand. 
+
+Learn More About HTML If you are like most website owners, you know very little about HTML. You may know a little bit of code here and there, but it really does not seem worth your time to learn the inner workings of HTML. If you feel this way, then you are really missing out on great SEO opportunities. There are plenty of FREE websites from which you can learn to code from. <a href='https://www.codecademy.com'>CodeAcademy</a> and <a href='https://www.freecodecamp.org'>FreeCodeCamp</a> are two of my favorites. 
+
+HTML is built to naturally identify parts of your web page that are more important than others. It was built to be extremely organized. Using the organization that HTML provides, you can help a search engine spider identify the parts of your website that are more important. 
+
+Below are some uncommon tags that HTML provides that you can use to help organize your content: the Alt Tag – Most website owners know about this, but including an Alt-Tag on your images is actually required if you want to have a properly formed website. The caption tag allows you to identify what a specific table is about. The element should be styled using the CSS properties caption-side and text-align. 
+
+The H Tags – H1 tags have become some of the most important tags in SEO circles, once website owners learned that Google DID pay attention to this tag. However, there are actually 6 different heading tags. The H1 tag is the most important while the H6 tag is the least important. If a search engine were to try to form a table of contents from a website, it should be able to do so from the H tags. These are just a few examples, but HTML provides several tags for your content to help you organize your material, and help search engines know what to emphasize in your content. Article Tip: We have started a thread of these HTML tags. If you would like to know more about HTML tags and CSS, check out <a href='https://developer.mozilla.org/en-US/docs/Web/HTML'>here</a>. 
+
+The lesson from this should be that learning HTML is not an endeavor that has few benefits. There is a lot of HTML that can help you both simplify your code and add more content to help your rankings. Fortunately, web technology is catching up. With the advent of HTML5 (and working on HTML6) and CSS3, it is easier now than ever to create beautiful sites. If you are not familiar with CSS, just read that previous sentence as being a very good thing. As was demonstrated by the example of CSSZenGarden.com, CSS can be used to create a page that is extremely appealing. Most website owners know CSS to be a tool that they can use to edit the appearance of text and the colors of their site, but CSS is also a tool that can be used for the layout of your site. As CSS comes out with newer versions, layout will become a more important development. If you plan to design your own website, I would like to suggest you learn HTML and CSS. A little Javascript wouldn’t hurt. 
+
+The Side Benefit: Accessibility! Did you know that blind people surf the Internet? That may not seem shocking initially, but consider that the Internet is a highly visual medium of transferring information. Blind people are able to use web readers and Braille machines that interpret HTML code.Unfortunately, the vast majority of websites are not accessible for blind people because they are not well formed sites. By moving to a well formed website, you will be adding access for an audience who marketers really do not focus on.  But they should!
+
+Accessible Rich Internet Applications (WAI-ARIA) is a set of attributes that define ways to make web content and web applications (especially those developed with JavaScript), more accessible to people with disabilities.
+
+It supplements HTML so that interactions and widgets commonly used in applications can be passed to assistive technologies when there is not otherwise a mechanism. For example, WAI-ARIA enables accessible navigation landmarks in HTML5, JavaScript widgets, form hints and error messages, live content updates, and more. 
+
+Google has now begun to implement certain penalties for either Not using the Wai-Aria codes or using them incorrectly.  Here is a guide from the <a href='https://developers.google.com/web/fundamentals/accessibility/semantics-aria>Google Developers</a> on how to properly use the Aria codes.
+
+Article Tip: Search engines love websites that adhere to the W3C's Web Content Accessibility Guidelines. 
+
+Bringing it back to SEO, many website owners are reluctant to take the time, energy, and money to really learn HTML and CSS, or to learn how they can make their websites truly accessible. However, in the end, they could be hurting their search engine rankings once search engines move closer to identifying natural human language. 
+
+The creators of HTML have done a magnificent job in creating a structure that can be used to organize your content in ways that make search engine optimization extremely easy. As the owner of your website, you should take care to make sure that it is running the way it was intended to. You would never purchase a car that fails to meet basic standards of quality, so why would you trust your company's income to a website that is based on code that does not meet the quality standards of the Internet? 
+
+Designing your site properly does take time and effort, but the rewards are numerous. Not only will you have the satisfaction of having a website that is both light in its code and efficient, but search engines will be able to identify the key points of your content much easier, thus giving you more control of your rankings.`
     },
     
   /* ID-6   --->  "Advantages_of_Social_Media.jpg" <----    */    
@@ -267,31 +293,25 @@ Google My Business pages aren’t complicated, but they are important. While yo
 Does your business have a website? Have you missed the idea that it can be your 24/7 virtual marketing machine? Do you wonder how it could bring you minions more customers and clients to your 'brick and mortar' location? The biggest mistake local businesses make is not using the Internet to let potential customers and clients know who they are, who they can be by offering valuable content to attract them back again and again, and why they are the first choice over their competition. Did you know that many of your local potential customers will Google your Web name or your name, to see what you offer and how you may be their choice over others? Today people are much more Internet savvy. You need to speak to them. Building traffic to your website to market it needs you to install proper content and sales messages on it as well as other tried and true Online promotion methods such as submitting articles and creating a blog. FACT: You have only 10 seconds to attract your potential customers and get them to stay long enough to show them your business is the best choice.How's your website Doing?Take the 'Check and Correct Quiz” below to see if your website measures up. After your input what you don't know will be clearer. If you want your website to be more effective, stay open and learn how you can put more money in your checking account each month.Answer these questions to see if you are on track or need a professional partner to help you get the necessary marketing language and content on your site to bring targeted traffic. Realize the spiders of the search engines comb sites daily looking for good key word, free information, and power writing sales content.
 Do you know your website needs?
 
-1. A sales letter (short or long) for each product or service you offer. You need to give your visitors a reason to buy from you.
+<span>1. A sales letter </span>(short or long) for each product or service you offer. You need to give your visitors a reason to buy from you.
 
-2. Benefit driven headlines on your home page to attract people to your sales messages. Drop your announcements because they bore. Make your visitor's mouths water, their skin tingle, and their eyes receive a positive picture of how they will be after they use you. Make your headlines on your home page and in your sales letters sizzle and seductive to get them to call you and come to your office.
+<span>2. Benefit driven headlines</span> on your home page to attract people to your sales messages. Drop your announcements because they bore. Make your visitor's mouths water, their skin tingle, and their eyes receive a positive picture of how they will be after they use you. Make your headlines on your home page and in your sales letters sizzle and seductive to get them to call you and come to your office.
 
-3. Testimonials from former clients and customers Include these in every email campaign and in your sales letters.
+<span>3. Testimonials</span> from former clients and customers Include these in every email campaign and in your sales letters.
 
-4. Less bio and credentials on the home page because your customer wants to know 'what's in it for me?' Put this information on your Contact or About Me page.
+<span>4. Less bio and credentials</span> on the home page because your customer wants to know 'what's in it for me?' Put this information on your Contact or About Me page.
 
-5. Less telling and more engaging the visitor to stay (They leave immediately if they don't see benefits and valuable content that answers their concerns. Forget the brochure-style home page.
+<span>5. Less telling and more engaging</span> the visitor to stay (They leave immediately if they don't see benefits and valuable content that answers their concerns. Forget the brochure-style home page.
 
-6. A preplan naming the top 2-3 focuses you want to attract customers to, who your target market is, and your website's contacts and money goals.
+<span>6. A preplan naming the top 2-3 focuses</span> you want to attract customers to, who your target market is, and your website's contacts and money goals.
 
-6. A preplan naming the top 2-3 focuses you want to attract customers to, who your target market is, and your Website's contacts and money goals.
+<span>7. Much more 'You' centered information</span> such as benefits or short tips and articles.
 
-7. Much more 'You' centered information such as benefits or short tips and articles
+<span>8. Acknowledgement and answers</span> for your visitor's concerns, problems or challenges. These hook your Web visitor to pick up the phone to call you.
 
-8. Acknowledgement and answers for your visitor's concerns, problems or challenges. These hook your Web visitor to pick up the phone to call you.
+<span>9. Proven strategies</span> that get people to your site to include writing and submitting short articles to other websites and ezines, exchanging links, a blog page for your customer to interact with you and get questions answered, and many more.
 
-9. Proven strategies that get people to your site to include writing and submitting short articles to other websites and ezines, exchanging links, a blog page for your customer to interact with you and get questions answered, and many more.
-
-10. Willingness to take the time and spend the money to make your website work. Without this, your site will languish with inactivity.When you don't know what you don't know, your site just sits there with no one to play with. Your brick and mortar business sits there too. Now that you do know more than you did, take a leap of faith and know that you too can learn how to make your website shine and bring people right to your business address. Find yourself a good professional Internet marketing person, read books on the topic or take a teleclass or seminar to boost your skills. Partner with a professional who can make your journey so much shorter, with fewer mistakes, and help you enjoy your business more.
-
-9. Proven strategies that get people to your site to include writing and submitting short articles to other Websites and ezines, exchanging links, a blog page for your customer to interact with you and get questions answered, and many more.
-
-10. Willingness to take the time and spend the money to make your Website work. Without this, your site will languish with inactivity.When you don't know what you don't know, your site just sits there with no one to play with. Your brick and mortar business sits there too. Now that you do know more than you did, take a leap of faith and know that you too can learn how to make your Website shine and bring people right to your business address. Find yourself a good professional Internet marketing person, read books on the topic or take a teleclass or seminar to boost your skills. Partner with a professional who can make your journey so much shorter, with fewer mistakes, and help you enjoy your business more.
+<span>10. Willingness to take the time</span> and spend the money to make your website work. Without this, your site will languish with inactivity.When you don't know what you don't know, your site just sits there with no one to play with. Your brick and mortar business sits there too. Now that you do know more than you did, take a leap of faith and know that you too can learn how to make your website shine and bring people right to your business address. Find yourself a good professional Internet marketing person, read books on the topic or take a teleclass or seminar to boost your skills. Partner with a professional who can make your journey so much shorter, with fewer mistakes, and help you enjoy your business more.
 
 `
     },
@@ -313,7 +333,7 @@ Most people who have been involved with sales & marketing for any length of time
 `
     }, 
     
-     /* ID-9   --->  "Digital-Marketing-vs-Traditional-Marketing.jpg" <----    */  
+     /* ID-9   --->  "5-components-of-website-useability.jpg" <----    */  
     
     {
         id: 9,
@@ -414,12 +434,12 @@ If you hire an outside company to build a site for you, ask them how they plan t
         tags: "Strategic Social Media Marketing, Website Content Writing, Reputation Management, Custom Website Design, Search Engine Optimization (SEO), Digital Graphic Design, E-Commerce Website Development",
         snippet: "Hortensia was thrilled when she landed her first web design client. She hadn't been eager to start a business. However, like many mid-career executives experiencing layoffs, she realized her industry was dying and going solo was, well, was the way to go. When she called, my first tip was, 'Get out and celebrate!' My second tip was, 'Get an agreement. In writing!'",
         content: `
-Hortensia was thrilled when she landed her first web design client. She hadn't been eager to start a business. However, like many mid-career executives experiencing layoffs, she realized her industry was dying and going solo was, well, the way to go. When she called, my first tip was, 'Get out and celebrate!'My second tip was, 'Get an agreement. In writing!
-'Like many smart new business owners, Hortensia's first priority was marketing. But she had purchased several books with titles like 'Getting started in your own web business.' And sure enough, one of those books included a sample agreement. If Hortensia hadn't founded a sample agreement, I would have suggested she surf the web. Typing 'contract' plus your form of service, will often pull up examples you can use to get started. Sample agreements usually are created by experienced business owners. They help you identify your client's hot buttons: price, delivery date, guarantees, and more. Each field will be different. For instance, if you're a web designer, who will be responsible for the images you use on a website? If your client supplies images or copy, make sure they agree in writing, to be responsible for any possible copyright claims. Will your ability to perform your job be affected by what your client gives you? Make sure they understand, you can't meet a deadline if they haven't delivered all the copy by a certain date. What exactly will you do? Many a client begins with, 'I want to make some tweaks,' and ends with so many requests, you're really doing an overhaul.
+Hortensia was thrilled when she landed her first web design client. She hadn't been eager to start a business. However, like many mid-career executives experiencing layoffs, she realized her industry was dying and going solo was, well, the way to go. When she called, my first tip was, 'Get out and celebrate!' My second tip was, 'Get an agreement. In writing!'
+Like many smart new business owners, Hortensia's first priority was marketing. But she had purchased several books with titles like 'Getting started in your own web business.' And sure enough, one of those books included a sample agreement. If Hortensia hadn't found a sample agreement, I would have suggested she surf the web. Typing 'contract' plus your form of service, will often pull up examples you can use to get started. Sample agreements usually are created by experienced business owners. They help you identify your client's hot buttons: price, delivery date, guarantees, and more. Each field will be different. For instance, if you're a web designer, who will be responsible for the images you use on a website? If your client supplies images or copy, make sure they agree in writing, to be responsible for any possible copyright claims. Will your ability to perform your job be affected by what your client gives you? Make sure they understand, you can't meet a deadline if they haven't delivered all the copy by a certain date. What exactly will you do? Many a client begins with, 'I want to make some tweaks,' and ends with so many requests, you're really doing an overhaul.
 
 <span>What if your client is a friend?</span>
 
-Tim's neighbor belonged to a service club. Tim agreed to help his neighbor write a press release for a special event
+Tim's neighbor belonged to a service club. Tim agreed to help his neighbor, write a press release for a special event
 to be held February 15. Right after New Year's Day, Tim's phone rang.
 
 'Where's the release?' demanded the neighbor.
@@ -434,7 +454,7 @@ Many people - even managers and professionals -- are not accustomed to delegatin
 
 One graduate student thought his dissertation deadline was extended thirty days - but his advisor recalled only a one week extension. Big difference!
 
-Many career gurus advise corporate executives to negotiate written agreements when they get a new job or a new boss. If your company's style calls for informality, you can draft a memo that sounds friendly and supportive, not legalistic.
+Many career gurus advise corporate executives to negotiate 'written agreements' when they get a new job or a new boss. If your company's style calls for informality, you can draft a memo that sounds friendly and supportive, not legalistic.
 
 Some organizations and some industries run on a handshake and everybody's happy. But other times, you will hear, 'We all agree on everything,' and learn - too late - that some of these happy people are signing severance agreements behind closed doors.
 
@@ -446,7 +466,7 @@ Nobody's complained. In fact, I think everyone appreciates knowing what's expect
 `
     }, 
     
-    /* ID-11   --->    "9-powerful-tips-for-an-effective-logo.jpg"      <----    */
+    /* ID-11   ---->    "9-powerful-tips-for-an-effective-logo.jpg"    <----    */
     
     {
         id: 11,
@@ -462,23 +482,31 @@ Nobody's complained. In fact, I think everyone appreciates knowing what's expect
 The right logo, with the right characteristics, will boost your visibility, credibility and memorability which means more business for you! These characteristics include:
 
 <span>Consistency</span> in use of your logo, tagline, materials.
+
 <span>Repetition</span> of similar elements, used in the same or similar ways, helps people to remember who you are and what
 you do.
+
 <span>Memorability,</span> so that your logo stays at the forefront of your potential clients' minds. That way, they'll think of you
 next time they have a need.
+
 <span>Meaningfulness,</span> so that your logo can spread the message about the distinguishing characteristics of your
 business.
+
 <span>Uniqueness,</span> which helps you stand out from the crowd. For example, if everyone in your industry uses a particular
 symbol (i.e., travel agencies often use globes in their logos), try to use something else, that way, your logo doesn't
 just look like everyone else's.
+
 <span>Professionalism,</span> in the quality of the graphics, the printing and the paper on which your materials are printed.
+
 <span>Timelessness in your logo</span> will ensure that you don't have to redesign your logo in just a few years and that your
 investment and equity in your design will be lasting. Differentiation between the colors in your logo  and not just in
 terms of hue, but in terms of value as well, so that it translates well either to black and white or grey scale and
 colorblind people are able to see it.
+
 <span>Unity</span> among the different elements in the logo. The logo must fit together as a single unit, and not just appear as a
 jumble of elements pasted together.
-<span>Scalability,</span> so that your logo looks equally good on both a business card and on a sign for your business (or a
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           <span>Scalability,</span> so that your logo looks equally good on both a business card and on a sign for your business (or a
 billboard!), and at every size in between. Your business's name should be legible at different logo sizes ­ be sure that
 your designer chooses a font that is easily readable.
 
@@ -486,7 +514,7 @@ Having a professionally designed logo can really give your business a jumpstart 
 attention ­and clients­ you need to succeed.`
     }, 
     
-    /* ID-12   --->    "9-powerful-tips-for-an-effective-logo.jpg"      <----    */
+    /* ID-12   --->    "small-business-website-design.jpg"      <----    */
     
     {
         id: 12,
@@ -535,7 +563,7 @@ By the way, smaller and faster loading pages make it easier for the search engin
 Hopefully, these guidelines will help you build a website that gets you more sales and leads for your small business. Remember, building a website that your visitors enjoy browsing will boost customer loyalty and encourage repeat sales. Create a fast-loading site that’s easy to read and navigate, and your visitors will thank you with their debit cards!`
     }, 
     
-    /* ID-13   --->    "9-powerful-tips-for-an-effective-logo.jpg"      <----    */
+    /* ID-13   --->    "What-is-organic-search-and-how-can-it-help-your-company.jpg"      <----    */
     
     {
         id: 13,
@@ -603,11 +631,12 @@ Are you a network marketer or an affiliate struggling to convert your website vi
 
 2. Is your ad copy (sales letter) persuasive and compelling enough?</span>
 
-and
+and  
 
 <span>3. Does it serve its intended purpose and that is to get the visitor to click through your sign-up link or order button?</span>
 
-To get you on the right track, here are <span>10 essential tips you can use as a guide in writing persuasive ad copy:
+To get you on the right track, here are 
+<span>10 essential tips you can use as a guide in writing persuasive ad copy:
 
 1. Publish a picture of yourself in your ad.</span> 
 This will show people that you're not hiding behind your website and you're not afraid to backup your product.
@@ -700,7 +729,7 @@ Writing effective web copy is the key to converting visitors into buyers. Gettin
         title: "Build It And They Will Come. True or False? Why So Many Online Businesses Fail.",
         author: "Jill St Claire",
         date: "",
-        imageUrl: "",
+        imageUrl: "How-to-Write-Effective-Website-Copy.jpg",
         imageAlt: "Why So Many Online Businesses Fail",
         category: "Custom Website Design",
         tags: "Affordable Custom Website Design, Website Traffic, Strategic Social Media Marketing, Search Engine Optimization (SEO), E-Commerce Website Development, Coding and Programming, Website Usability",
@@ -737,15 +766,14 @@ By following these simple rules, you will be able to determine the right mix of 
 By applying these simple rules, you will be well on your way to generating highly-targeted keywords and phrases that attract the right prospects - prospects who have direct interest in what you have to offer.`
     },
     
-     /* ID-17  --->    "marketing-through-social-media.jpg"    <----    */
+         /* ID-17   --->    "How-to-Write-Effective-Website-Copy.jpg"    <----    */
     
     {
         id: 17,
         title: "Social Media: Why It Is 100% Essential (and How to Use It Well)",
         author: "Constance Beebe",
         date: "9/2020",
-        imageUrl: "marketing-through-social-media.jpg",
-        imageAlt: "Social Media: Why It Is 100% Essential (and How to Use It Well), getting your brand out there amongst the people who fit in your niche.",
+        imageUrl: "ial (and How to Use It Well), getting your brand out there amongst the people who fit in your niche.",
         category: "Strategic Social Media Marketing",
         tags: "Brand Loyalty, Consumer Loyalty, Affordable Custom Website Design, Strategic Social Media Marketing, Content Writing, Ad-Copywriting",
         snippet: "In today’s society, word of mouth IS digital. Think about the questions you constantly ask about products, services or businesses; your customers are asking the SAME questions. Addressing these common points of confusion could be your key to converting casual website visitors into new clients.",
