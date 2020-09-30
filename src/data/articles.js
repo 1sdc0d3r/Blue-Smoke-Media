@@ -1,5 +1,5 @@
 //! 19 articles
-/*  ID-1-"10 Prominent Website Design Mistakes  */
+/*  ID-1-"10_Prominent_Website_Design_Mistakes.jpg"  */
 
 
 export default [{
@@ -36,8 +36,7 @@ Nowadays, website designs are getting better and more user-friendly. With minima
 
 <span>10. Accepting as true the maxim build it and they will come.</span> Once you've built your website you have to let people know about it. If you don't deliver them to people, then your website is not worth the money you spent to create them!`
     }, 
-  /* ID-2   "how-website-design-can-affect-search-engine-rankings.jpg"   */  
-    {
+  /* ID-2  zz  */
         id: 2,
         title: "How Website Design Can Affect Search Engine Rankings",
         author: "John Metzler",
@@ -323,7 +322,7 @@ Do you know your website needs?
         title: "What Makes A Winning Online Ad?",
         author: "Daniel Levis",
         date: "",
-        imageUrl: "Digital-Marketing-vs-Traditional-Marketing.jpg",
+        imageUrl: "",
         imageAlt: "Selling to meet the publics needs - an online ad strategy.",
         category: "Social Media Marketing",
         tags: "Social Media Marketing, Website Content Writing, Digital Graphic Design, Typography",
@@ -337,7 +336,7 @@ Most people who have been involved with sales & marketing for any length of time
     
     {
         id: 9,
-        title: "Website Manifestation - 7 Steps to a Successful website",
+        title: "Website Manifestation - 5 Steps to a Successful website",
         author: "Constance Beebe",
         date: "07/2020",
         imageUrl: "5-components-of-website-useability.jpg",
@@ -766,14 +765,14 @@ By following these simple rules, you will be able to determine the right mix of 
 By applying these simple rules, you will be well on your way to generating highly-targeted keywords and phrases that attract the right prospects - prospects who have direct interest in what you have to offer.`
     },
     
-         /* ID-17   --->    "How-to-Write-Effective-Website-Copy.jpg"    <----    */
+         /* ID-17   --->    ""    <----    */
     
     {
         id: 17,
         title: "Social Media: Why It Is 100% Essential (and How to Use It Well)",
         author: "Constance Beebe",
         date: "9/2020",
-        imageUrl: "ial (and How to Use It Well), getting your brand out there amongst the people who fit in your niche.",
+        imageUrl: "Social Media: Why It Is 100% Essential (and How to Use It Well), getting your brand out there amongst the people who fit in your niche.",
         category: "Strategic Social Media Marketing",
         tags: "Brand Loyalty, Consumer Loyalty, Affordable Custom Website Design, Strategic Social Media Marketing, Content Writing, Ad-Copywriting",
         snippet: "In today’s society, word of mouth IS digital. Think about the questions you constantly ask about products, services or businesses; your customers are asking the SAME questions. Addressing these common points of confusion could be your key to converting casual website visitors into new clients.",
@@ -801,7 +800,7 @@ The world of digital tech is a constantly moving landscape with social media mar
 If you would like to increase your Social Media Presence or create it, I invite you to give us a call or email us at Blue Smoke Digital and Printed Media. We would welcome the opportunity to help you increase your social presence, improve your branding recognition and increase your sales. `
     },
     
-    /* ID-18  --->    "marketing-through-social-media.jpg"    <----    */
+    /* ID-18  --->    "ID_18_Helping-you-to-compete-with-the-big-guys.jpg"    <----    */
     
     {
         id: 18,
@@ -902,7 +901,7 @@ respect, build a reputation and hopefully reach your goals!
 `
     },
     
-     /* ID-19  --->   "marketing-through-social-media.jpg"    <----    */
+     /* ID-19  --->   How to Market Yourself Like a Corporation"   <----    */
     
     {
         id: 19,
@@ -951,39 +950,4 @@ paints to create a more colorful picture. Choose wisely.
 <span>Everything you give to the world is a handshake. Make it a memorable one!</span>
 `
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]
