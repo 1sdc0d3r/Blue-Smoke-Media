@@ -7,7 +7,7 @@ export default [{
         title: "10 Prominent Website Design Mistakes",
         author: "Constance Beebe",
         date: "05/2020",
-        imageUrl: "10 Prominent Website Design Mistakes",
+        imageUrl: "ID_1_10_Prominent_Website_Design_Mistakes.jpg",
         imageAlt: "10 Prominent Website Design Mistakes Commonly Made.",
         category: "Custom Website Design",
         tags: "Affordable Custom Website Design, Search Engine Optimization (SEO), Organic SEO, E-Commerce Website Development, Website Usability",
@@ -34,20 +34,13 @@ Nowadays, website designs are getting better and more user-friendly. With minima
 <span>9. Neglecting to ask the visitor to do something.</span> In marketing, this is known as a Call To Action (CTA). There should be a space designated to tell your visitors what you want them to do next. "Sign up for my newsletter." "Order now!"
 
 <span>10. Accepting as true the maxim build it and they will come.</span> Once you've built your website you have to let people know about it. If you don't deliver them to people, then your website is not worth the money you spent to create them!`
-<<<<<<< HEAD
-    }, 
-  /* ID-2_a  "how-website-design-can-affect-search-engine-rankings.jpg"   
-  {
-=======
     },
-    /* ID-2   "how-website-design-can-affect-search-engine-rankings.jpg"   
     {
->>>>>>> ce02ee1691c288e9cc28d2d24f1a2687e069a9ae
         id: 2,
         title: "How Website Design Can Affect Search Engine Rankings",
         author: "John Metzler",
         date: "",
-        imageUrl: "how-website-design-can-affect-search-engine-rankings.jpg",
+        imageUrl: "ID_2_how-website-design-can-affect-search-engine-rankings.jpg",
         imageAlt: "How Website Design Can Affect Search Engine Rankings",
         category: "Search Engine Optimization",
         tags: "Search Engine Optimization (SEO), Organic SEO, Website Content Writing",
@@ -81,19 +74,12 @@ Not only does information printed two or three years ago reflect badly on your o
 
 Many shortfalls of websites can easily be attributed to designers who just do not keep the user or search engines in mind. Search engine algorithms are constantly improving to try and list the most user-friendly sites higher, given that the content and link popularity are there to back it up. So first and foremost, know your target market and make your website work for them before focusing on search engine optimization. If you build it (properly), they will come.`
     },
-
-<<<<<<< HEAD
-}, 
-=======
-    /* ID-3 --->Image is in the original images file  --->  "ad-copy-writing-image.png"*/
->>>>>>> ce02ee1691c288e9cc28d2d24f1a2687e069a9ae
-
     {
         id: 3,
         title: "Ad Copy Inspection - Cover These 12 Points!",
         author: "Daniel Levis",
         date: "",
-        imageUrl: "ad-copy-writing-image.png",
+        imageUrl: "ID_3_ad-copy-writing-image.png",
         imageAlt: "Getting a piece of 'Advertising Copy'to come through for you and getting stellar results by following these 12 points!",
         category: "Ad-Copywriting",
         tags: "Ad-copywriting, Search Engine Optimization (SEO), Organic SEO, Strategic Social Media Marketing, Website Content Writing, Reputation Management",
@@ -145,7 +131,7 @@ For some reason, the P.S. at the bottom of a sales letter gets read a lot. Make 
         title: "The Difference Between a Print Logo and a Web Logo",
         author: "Constance Beebe",
         date: "06/2020",
-        imageUrl: "image-file-types.jpg",
+        imageUrl: "ID_4_image-file-types.jpg",
         imageAlt: "The Difference Between a Print Logo and a Web Logo",
         category: "Logos",
         tags: "Digital and Print Logo Design, Digital Media Logos, Graphic Design, Printed Media Graphic Design, Corporate Branding",
@@ -163,7 +149,7 @@ Web logos require a much smaller resolution (since they only need to be displaye
         title: "SEO Through Well Built Pages",
         author: "Mark Daoust",
         date: "",
-        imageUrl: "Organic-SEO-at-no-extra-cost.jpg",
+        imageUrl: "ID_5_Organic-SEO-a-no-extra-cost.jpg",
         imageAlt: "We build Organic SEO into your website at no extra cost!",
         category: "Organic SEO",
         tags: "Organic SEO, Search Engine Optimization (SEO), Digital Graphic Design, Website Content Writing, Coding and Programming, Website Useability",
@@ -218,7 +204,7 @@ Designing your site properly does take time and effort, but the rewards are nume
         title: "The Local Search Revolution has Arrived!...optimize your online LOCAL presence now - before the learning curve turns expensive.",
         author: "Esoos Bobnar",
         date: "",
-        imageUrl: "Advantages_of_Social_Media.jpg",
+        imageUrl: "ID_6_Advantages of Social Media.jpg",
         imageAlt: "The Advantages of Local Search and how it can effect your business",
         category: "Local Search",
         tags: "Local Search, Consumer Loyalty, Organic SEO, Website Content Writing, Ad-Copywriting, Website Usability",
@@ -284,7 +270,7 @@ Google My Business pages aren’t complicated, but they are important. While yo
         title: "Attract Targeted Local Customers With Online Marketing",
         author: "Judy Cullins",
         date: "",
-        imageUrl: "Digital-Marketing-vs-Traditional-Marketing.jpg",
+        imageUrl: "ID_7_Digital-Marketing-vs-Traditional-Marketing.jpg",
         imageAlt: "Social Media: Your 24/7 virtual marketing machine?",
         category: "Local Search",
         tags: "Local Search, Brand Loyalty, Affordable Custom Website Design, Strategic Social Media Marketing, Organic SEO, Website Content Writing, Website Usability, Reputation Management",
@@ -322,7 +308,7 @@ Does your business have a website? Have you missed the idea that it can be your 
         title: "What Makes A Winning Online Ad?",
         author: "Daniel Levis",
         date: "",
-        imageUrl: "",
+        imageUrl: "ID_8_Local-Search-Social-Media-through-well-built-pages.jpg",
         imageAlt: "Selling to meet the publics needs - an online ad strategy.",
         category: "Social Media Marketing",
         tags: "Social Media Marketing, Website Content Writing, Digital Graphic Design, Typography",
@@ -338,7 +324,7 @@ Most people who have been involved with sales & marketing for any length of time
         title: "Website Manifestation - 5 Steps to a Successful website",
         author: "Constance Beebe",
         date: "07/2020",
-        imageUrl: "5-components-of-website-useability.jpg",
+        imageUrl: "ID_9_5-components-of-website-useability.jpg",
         imageAlt: "5 Components of Website Useability",
         category: "Website Useability",
         tags: "Website Useability, Custom Website Design, Website Content Writing, Search Engine Optimization (SEO), Digital Graphic Design, Website Maintenance, Website Usability",
@@ -392,7 +378,7 @@ If you hire an outside company to build a site for you, ask them how they plan t
         title: "New client? Get it in writing!",
         author: "Cathy Goodwin, Ph.D.",
         date: "",
-        imageUrl: "get-it-in-writing.jpg",
+        imageUrl: "ID_10_get-it-in-writing.jpg",
         imageAlt: "New Client? Get an agreement. In writing!",
         category: "Contract Agreement",
         tags: "Strategic Social Media Marketing, Website Content Writing, Reputation Management, Custom Website Design, Search Engine Optimization (SEO), Digital Graphic Design, E-Commerce Website Development",
@@ -436,7 +422,7 @@ Nobody's complained. In fact, I think everyone appreciates knowing what's expect
         title: "9 Keys to an Effective Logo",
         author: "Erin Ferree",
         date: "",
-        imageUrl: "9-powerful-tips-for-an-effective-logo.jpg",
+        imageUrl: "ID_11_9-powerful-tips-for-an-effective-logo.jpg",
         imageAlt: "9 Powerful Tips to an Effective Logo",
         category: "Logos",
         tags: "Digital Media Logo, Printed Media Logo, Brand Loyalty, Consumer Loyalty, Reputation Management",
@@ -483,7 +469,7 @@ Having a professionally designed logo can really give your business a jump-start
         title: "Three Things You Must Do When Designing and Building Your Small Business Website",
         author: "Constance Beebe",
         date: "8/2020",
-        imageUrl: "small-business-website-design.jpg",
+        imageUrl: "ID_12_small-business-website-design.jpg",
         imageAlt: "Building your small business website",
         category: "Custom Website Design",
         tags: "Affordable Custom Website Design, Search Engine Optimization (SEO), Website Usability, Website Content Writing",
@@ -532,7 +518,7 @@ Hopefully, these guidelines will help you build a website that gets you more sal
         title: "What is 'organic' search and how can it help your company?",
         author: "Constance Beebe",
         date: "6/2020",
-        imageUrl: "What-is-organic-search-and-how-can-it-help-your-company.jpg",
+        imageUrl: "ID_13_What-is-organic-search-and-how-can-it-help-your-company.jpg",
         imageAlt: "Organic Search: The Concept of Pure, or Crawler-Based Search.",
         category: "Organic SEO",
         tags: "Organic SEO, Website Content Writing, Custom Website Design, Search Engine Optimization (SEO), Digital Graphic Design, E-Commerce Website Development",
@@ -578,7 +564,7 @@ The catch? As with any area of marketing, SEO is a competitive field. Arming you
         title: "10 TIPS FOR WRITING A HIGHLY PERSUASIVE AD",
         author: "Keith Gloster",
         date: "",
-        imageUrl: "10 tips-for-writing-a-highly-persuasive-ad.jpg",
+        imageUrl: "ID_14_10 tips-for-writing-a-highly-persuasive-ad.jpg",
         imageAlt: "Instilling curiosity to your clients through Highly Persuasive Ads.",
         category: "Strategic Social Media Marketing",
         tags: "Strategic Social Media Marketing, Ad-Copywriting, Website Content Writing, E-mail Marketing",
@@ -636,7 +622,7 @@ Yes, you might think that your product or service is the best thing offered on t
         title: "How to Write Effective Website Copy",
         author: "Herman Drost",
         date: "",
-        imageUrl: "How-to-Write-Effective-Website-Copy.jpg",
+        imageUrl: "ID_15_How-to-Write-Effective-Website-Copy.jpg",
         imageAlt: "What are the goals of your website? Without knowing this, you cannot write effective Website Copy!",
         category: "Effective Website Copy",
         tags: "Effective Website Copy, Affordable Custom Website Design, Website Content Writing, Website Usability",
@@ -686,7 +672,7 @@ Writing effective web copy is the key to converting visitors into buyers. Gettin
         title: "Build It And They Will Come. True or False? Why So Many Online Businesses Fail.",
         author: "Jill St Claire",
         date: "",
-        imageUrl: "How-to-Write-Effective-Website-Copy.jpg",
+        imageUrl: "ID_16_How-SEO-works.jpg",
         imageAlt: "Why So Many Online Businesses Fail",
         category: "Custom Website Design",
         tags: "Affordable Custom Website Design, Website Traffic, Strategic Social Media Marketing, Search Engine Optimization (SEO), E-Commerce Website Development, Coding and Programming, Website Usability",
@@ -730,7 +716,7 @@ By applying these simple rules, you will be well on your way to generating highl
         title: "Social Media: Why It Is 100% Essential (and How to Use It Well)",
         author: "Constance Beebe",
         date: "9/2020",
-        imageUrl: "Social Media: Why It Is 100% Essential (and How to Use It Well), getting your brand out there amongst the people who fit in your niche.",
+        imageUrl: "ID_17_marketing-through-social-media.jpg",
         imageAlt: "Social Media is used to market your products, promote your brand, connect to current and possible new clients, and help foster new business.",
         category: "Strategic Social Media Marketing",
         tags: "Brand Loyalty, Consumer Loyalty, Affordable Custom Website Design, Strategic Social Media Marketing, Content Writing, Ad-Copywriting",
@@ -760,7 +746,7 @@ The world of digital tech is a constantly moving landscape with social media mar
 If you would like to increase your Social Media Presence or create it, I invite you to give us a call or email us at Blue Smoke Digital and Printed Media. We would welcome the opportunity to help you increase your social presence, improve your branding recognition, and increase your sales.`
     },
     /* ID-18  --->    "ID_18_Helping-you-to-compete-with-the-big-guys.jpg"    <----    */
-    
+
     {
         id: 18,
         title: "Competing with the Big Guys",
@@ -844,14 +830,14 @@ going to get them a service that the big competitors do not provide so well.
 
 In conclusion, <span>the best thing you can do as a small business</span> or website starting out on the Internet <span>is to understand your customers and their needs.</span> You must exploit the advantages many small businesses have over large companies. Using the techniques outlined in this article, along with your own initiative and creativity, will help you gain respect, build a reputation, and hopefully reach your goals!`
     },
-     /* ID-19  --->   How to Market Yourself Like a Corporation"   <----    */
-    
+    /* ID-19  --->   How to Market Yourself Like a Corporation"   <----    */
+
     {
         id: 19,
         title: "Best Practices: How to Market Yourself Like a Corporation",
         author: "Ramona Lucius",
         date: "07/2020",
-        imageUrl: "ID-19_How_to_Market_Yourself_Like a_Corporation.jpg",
+        imageUrl: "ID_19_How_to_Market_Yourself_Like a_Corporation.jpg",
         imageAlt: "How to Market Yourself Like a Corporation",
         category: "Corporate Branding",
         tags: "Strategic Social Media Marketing,Affordable Custom Website Design, Typography, Brand Loyalty, Consumer Loyalty, Digital and Print Logo Design, Website Content Writing, Reputation Management",
