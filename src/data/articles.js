@@ -37,6 +37,7 @@ Nowadays, website designs are getting better and more user-friendly. With minima
 <span>10. Accepting as true the maxim build it and they will come.</span> Once you've built your website you have to let people know about it. If you don't deliver them to people, then your website is not worth the money you spent to create them!`
     }, 
   /* ID-2  zz  */
+  {
         id: 2,
         title: "How Website Design Can Affect Search Engine Rankings",
         author: "John Metzler",
@@ -47,7 +48,6 @@ Nowadays, website designs are getting better and more user-friendly. With minima
         tags: "Search Engine Optimization (SEO), Organic SEO, Website Content Writing",
         snippet: "Uniquely built websites can create unique issues when being promoted on the search engines. From a basic 3 page brochure site to a corporate site with hundreds of dynamically generated pages, every website needs to have certain design aspects in order to achieve the full effects of an SEO campaign. Below are a few points to take into consideration when building or updating your website.",
         content: `
-
 Uniquely built websites can create unique issues when being promoted on the search engines. From a basic 3 page brochure website to a corporate branding website with hundreds of dynamically generated pages, every website needs to have certain digital graphic design aspects in order to achieve the full effects of an SEO campaign. Below are a few points to take into consideration when building or updating your website.
 
 <span>1. Size Matters.</span>
@@ -76,7 +76,7 @@ Not only does information printed two or three years ago reflect badly on your o
 
 Many shortfalls of websites can easily be attributed to designers who just do not keep the user or search engines in mind. Search engine algorithms are constantly improving to try and list the most user-friendly sites higher, given that the content and link popularity are there to back it up. So first and foremost, know your target market and make your website work for them before focusing on search engine optimization. If you build it (properly), they will come.`
 
-    }, 
+}, 
 
   /* ID-3 --->Image is in the original images file  --->  "ad-copy-writing-image.png"*/  
    
@@ -237,7 +237,7 @@ Here is a breakdown for you:
     ◆	80% of local searches convert
     ◆	46% of Google searches are for local businesses
     ◆	56% of local retailers have not claimed their Google My Business listing
-    ◆	“Near me” searches have increased more than 500% in the past few years
+    ◆	'Near me' searches have increased more than 500% in the past few years
     ◆	More than 55% of consumers use voice search to find a local business
     ◆	Over 75% of voice-enabled speaker owners use voice search each week to discover a local company
     ◆	50% of users visit a store within a day of a local search
@@ -253,10 +253,10 @@ Here is a breakdown for you:
 
 <span>Simply put, local search, including local search on mobile devices, </span>is  dominating the world of brick-n-mortar marketing (especially with the Covid-19 epidemic). Ready or not, here it comes! ...we suggest you get ready now, before it starts costing you a fortune to negotiate the learning curve. Oh, and get used to the fact that the big yellow phone book has almost become nothing more than a cheesy doorstop.
 
-<span>How To Get Listed In Local Search</span>
+<span>How To Get Listed in Local Search</span>
 
 The first step to getting your business listed in Local Search is (surprise) to buy a listing in the offline Yellow Pages (yep, that cheesy doorstop-to-be we just dis'd).
-Here's why:
+Here's why: 
 Most search engines get the bulk of their local business listings from just two companies:
     1.	InfoUSA
     2.	Acxiom
@@ -685,15 +685,15 @@ Yes, you might think that your product or service is the best thing offered on t
         content: `
 Writing effective web copy begins with an understanding of what the goals of your website are. Are you trying to get your visitors to purchase something or have them sign up for your newsletter? Remember, you are trying to get someone you can't see and have never met, take a step towards building a relationship with you or your company.
 
-<span>1. Create a customer profile –</span> try to find out what are the needs and desires of your visitors. Below are some examples of questions you could ask:
+<span>1. Create a customer profile –                 </span> try to find out what are the needs and desires of your visitors. Below are some examples of questions you could ask:
 
 Are they young, middle aged or senior?Are they primarily male or female?Are they financially secure or budget-minded?What gets him or her excited?What are his or her most pressing concerns?
 
 Try to brainstorm a list of topics that might interest your target audience.
 
-<span>2. Create a Unique Selling Position (USP) –</span> This is a statement of 2-3 sentences that explains why you are different from everybody else. This is the unique factor that sets you apart from your competition. Make this the first thing your visitor sees when they arrive on your home page.
+<span>2. Create a Unique Selling Position (USP) – </span> This is a statement of 2-3 sentences that explains why you are different from everybody else. This is the unique factor that sets you apart from your competition. Make this the first thing your visitor sees when they arrive on your home page.
 
-<span>3. Focus on benefits –</span> most web users want to find the information about the product or service they need as fast as possible. If they land on your site, they want to know how they will benefit from buying your product or subscribing to your ezine. You will need to answer that question as clearly and concisely as possible or you will lose that visitor.
+<span>3. Focus on benefits – </span> most web users want to find the information about the product or service they need as fast as possible. If they land on your site, they want to know how they will benefit from buying your product or subscribing to your ezine. You will need to answer that question as clearly and concisely as possible or you will lose that visitor.
 
 <span>4. Use the inverted pyramid style –</span> provide a summary of your information by clearly communicating the direction of your discussion. Use informative headings and subheadings with a paragraph of 4 to 5 lines that supports them. You only have a few seconds to grab your visitors attention. Most will simply scan for the information they are seeking.
 Use bulleted or numbered lists, boldface or colored font to emphasize the points you wish to make. Include links at the end of your paragraph (or within the text) to direct visitors to other pages of your site for more in-depth information.
@@ -773,6 +773,7 @@ By applying these simple rules, you will be well on your way to generating highl
         author: "Constance Beebe",
         date: "9/2020",
         imageUrl: "Social Media: Why It Is 100% Essential (and How to Use It Well), getting your brand out there amongst the people who fit in your niche.",
+        imageAlt: "Social Media is used to market your products, promote your brand, connect to current and possible new clients, and help foster new business.",
         category: "Strategic Social Media Marketing",
         tags: "Brand Loyalty, Consumer Loyalty, Affordable Custom Website Design, Strategic Social Media Marketing, Content Writing, Ad-Copywriting",
         snippet: "In today’s society, word of mouth IS digital. Think about the questions you constantly ask about products, services or businesses; your customers are asking the SAME questions. Addressing these common points of confusion could be your key to converting casual website visitors into new clients.",
@@ -924,8 +925,7 @@ robber baron who wanted his business to exploit the 14th amendment. <a href="htt
 Over time as the concept matured and became more sophisticated. We now have company rivalries, million dollar commercials, and fierce consumer loyalty.  When we think of big corporations we are invoking emotional connections. They impress meaning beyond their function. Trash bags are just trash bags - so why do company brands inspire feelings of family, financial status, care, comfort, luxury. When you boil it down, each brand builds rapport and communicates it's worth through carefully placed words and pictures. You can too.
 
 <span>Let's go one step further.</span>
-If someone asks you right now - What company do you really want to work for? Everyone has an answer. Now ask yourself - how did _______ company make it onto your well thought out success strategy road map? Did you see a post they made about a social value you hold?  Have you heard great things about the company culture?  Whatever you think you know about this "person" is all built using tools to make a first and lasting impression.
-
+If someone asks you right now - What company do you really want to work for? Eve
 <span>Appropriate the machine!</span>
 Whoever you chose as the company of your dreams - has attracted strong talent (yes, I mean you).  Let's turn the lens to them - How did they do it?
 
