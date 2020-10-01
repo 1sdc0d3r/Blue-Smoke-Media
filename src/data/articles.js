@@ -652,11 +652,7 @@ Try to brainstorm a list of topics that might interest your target audience.
 
 <span>2. Create a Unique Selling Position (USP) – </span> This is a statement of 2-3 sentences that explains why you are different from everybody else. This is the unique factor that sets you apart from your competition. Make this the first thing your visitor sees when they arrive on your home page.
 
-<<<<<<< HEAD
-<span>3. Focus on benefits – </span> most web users want to find the information about the product or service they need as fast as possible. If they land on your site, they want to know how they will benefit from buying your product or subscribing to your ezine. You will need to answer that question as clearly and concisely as possible or you will lose that visitor.
-=======
 <span>3. Focus on benefits –</span> most web users want to find the information about the product or service they need as fast as possible. If they land on your site, they want to know how they will benefit from buying your product or subscribing to your e-zine. You will need to answer that question as clearly and concisely as possible or you will lose that visitor.
->>>>>>> ce02ee1691c288e9cc28d2d24f1a2687e069a9ae
 
 <span>4. Use the inverted pyramid style –</span> provide a summary of your information by clearly communicating the direction of your discussion. Use informative headings and subheadings with a paragraph of 4 to 5 lines that supports them. You only have a few seconds to grab your visitors attention. Most will simply scan for the information they are seeking.
 Use bulleted or numbered lists, boldface or colored font to emphasize the points you wish to make. Include links at the end of your paragraph (or within the text) to direct visitors to other pages of your site for more in-depth information.
