@@ -8,7 +8,7 @@ export default function OrganicSeo() {
   return (
     <div className="organic-seo page-wrapper">
       <img src={seoBanner} alt="Organic Search Engine Optimization Banner" />
-      <h2>Organic Search Engine Optimization</h2>
+      <h1>Organic Search Engine Optimization</h1>
       <p>
         Organic search engine optimization{" "}
         <Link to="/article/13">

@@ -12,6 +12,7 @@ export default function PriceChart() {
   return (
     <>
       <div className="price-chart">
+        <h1 style={{ display: "none" }}>Plans and Pricing</h1>
         <div className="col col-1">
           <div>
             <p>Price Table</p>
