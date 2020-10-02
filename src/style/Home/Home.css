@@ -88,7 +88,7 @@
   font-size: 2em;
   font-weight: bold;
   color: #1e92f6;
-  margin: 0 auto 0.5em;
+  margin: 0 auto 1em;
   text-shadow: 2px 2px black;
   line-height: 1.1em;
 }
@@ -276,14 +276,14 @@
 
 @media (min-width: 737px) and (max-width: 980px) {
   .home .services .services-card-container .service-card {
-    width: 40%;
+    width: 32%;
     margin: 10% auto 10%;
   }
 }
 
 @media (min-width: 981px) and (max-width: 1280px) {
   .home .services .services-card-container .service-card {
-    width: 40%;
+    width: 32%;
     margin: 10% auto 10%;
   }
 }
@@ -335,6 +335,10 @@
 
 .home .services .services-card-container .service-card a {
   color: #ee3e0e;
+}
+
+.home .services .services-card-container .service-card a:hover {
+  color: #020723;
 }
 
 .home .plans-pricing {
@@ -469,7 +473,6 @@
 @media (max-width: 360px) {
   .home .plans-pricing .plans-card-container .plan-card-set .plan-card {
     width: 70%;
-    height: 65vh;
     margin: 5% auto;
   }
 }
@@ -477,7 +480,6 @@
 @media (min-width: 361px) and (max-width: 480px) {
   .home .plans-pricing .plans-card-container .plan-card-set .plan-card {
     width: 70%;
-    height: 65vh;
     margin: 5% auto;
   }
 }
@@ -485,7 +487,6 @@
 @media (min-width: 481px) and (max-width: 736px) {
   .home .plans-pricing .plans-card-container .plan-card-set .plan-card {
     width: 70%;
-    height: 65vh;
     margin: 5% auto;
   }
 }

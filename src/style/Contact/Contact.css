@@ -4,7 +4,7 @@
   margin: auto;
 }
 
-.contact h2 {
+.contact h1 {
   margin-top: 1.2em;
   color: #020723;
 }
@@ -112,6 +112,8 @@
   color: #020723;
   border: 2px outset #020723;
   border-radius: 0.25em;
+  font-weight: 600;
+  padding: 0.125em 0.25em;
 }
 
 @media (max-width: 360px) {
@@ -124,6 +126,11 @@
   .contact form #submit-btn {
     font-size: 0.9em;
   }
+}
+
+.contact form #submit-btn:hover {
+  background: #04227a;
+  color: #7ff76f;
 }
 
 .contact .icons {

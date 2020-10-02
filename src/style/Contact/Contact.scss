@@ -5,7 +5,8 @@
   height: 100%;
   width: 90%;
   margin: auto;
-  h2 {
+
+  h1 {
     margin-top: 1.2em;
     color: $darkBlue;
   }
@@ -56,8 +57,14 @@
       color: $darkBlue;
       border: 2px outset $darkBlue;
       border-radius: 0.25em;
+      font-weight: 600;
+      padding: 0.125em 0.25em;
       @include breakpoint(xxs, xs) {
         font-size: 0.9em;
+      }
+      &:hover {
+        background: $royalBlue;
+        color: $green;
       }
     }
   }

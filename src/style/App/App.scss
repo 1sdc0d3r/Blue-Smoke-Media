@@ -12,14 +12,14 @@ html {
   font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.3em;
+  font-size: 1.1em;
   color: $darkBlue;
 
-  @include breakpoint(xxl) {
-    font-size: 1.8em;
-  }
   @include breakpoint(xl) {
-    font-size: 1.6em;
+    font-size: 1.2em;
+  }
+  @include breakpoint(xxl) {
+    font-size: 1.3em;
   }
   header {
     display: flex;

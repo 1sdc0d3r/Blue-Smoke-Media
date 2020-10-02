@@ -5,7 +5,6 @@ import PaymentIcon from "react-payment-icons";
 import twitter from "../../images/Twitter.png";
 import linkedIn from "../../images/linkedIn_social_media_button.png";
 import facebook from "../../images/faceBook.png";
-import googleReview from "../../images/icon-Google-review.png";
 
 const chevron = (
   <svg

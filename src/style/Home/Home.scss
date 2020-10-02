@@ -12,9 +12,6 @@
     margin-top: 3em;
     min-width: 80%;
     border-bottom: 0.5em solid #020723;
-    @include breakpoint(l, xl, xxl) {
-      // height: 60vh;
-    }
 
     @include breakpoint(xxs, xs, s) {
       background-image: url("../../images/grey_background_globe-element_for_mobile.png");
@@ -46,7 +43,7 @@
         font-size: 2em;
         font-weight: bold;
         color: $lightBlue;
-        margin: 0 auto 0.5em;
+        margin: 0 auto 1em;
         // margin-bottom: 1em;
         text-shadow: 2px 2px black;
         line-height: 1.1em;
@@ -156,7 +153,6 @@
       flex-wrap: wrap;
       justify-content: space-around;
       margin: 7% auto 13%;
-      //todo colors (hover, links)
 
       .service-card {
         display: flex;
@@ -170,7 +166,7 @@
         margin-top: 1em;
         border-radius: 1em;
         @include breakpoint(m, l) {
-          width: 40%;
+          width: 32%;
           margin: 10% auto 10%;
         }
         @include breakpoint(xxs, xs, s) {
@@ -194,6 +190,9 @@
         }
         a {
           color: $orange;
+          &:hover {
+            color: $darkBlue;
+          }
         }
       }
     }
@@ -246,7 +245,7 @@
 
           @include breakpoint(xxs, xs, s) {
             width: 70%;
-            height: 65vh;
+            // height: 65vh;
             margin: 5% auto;
           }
 

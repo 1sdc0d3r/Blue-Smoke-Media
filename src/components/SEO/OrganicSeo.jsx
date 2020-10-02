@@ -8,21 +8,21 @@ export default function OrganicSeo() {
   return (
     <div className="organic-seo page-wrapper">
       <img src={seoBanner} alt="Organic Search Engine Optimization Banner" />
-      <h2>Organic Search Engine Optimization</h2>
+      <h1>Organic Search Engine Optimization</h1>
       <p>
         Organic search engine optimization{" "}
         <Link to="/article/13">
           (see “what is organic search and how it can help your company),
         </Link>{" "}
         also referred to as traditional search engine optimization, is the
-        process of enhancing your web site with the goal of increasing your
+        process of enhancing your website with the goal of increasing your
         visibility in the top search engines when specific keywords or phrases
         are searched for. The overall process involves a variety of aspects
-        including keyword analysis and selection, web site optimization for
+        including keyword analysis and selection, website optimization for
         optimal search engine positioning, search engine crawler inclusion,
         creating and submitting directory listings , link popularity enhancement
         and ongoing campaign reporting and maintenance. The end result is that
-        people will be able to easily find your web site when searching for
+        people will be able to easily find your website when searching for
         products and services related to your
         <Link to="/article/16"> business.</Link>
       </p>
@@ -66,7 +66,7 @@ export default function OrganicSeo() {
         <title>Organic Search Engine Optimization</title>
         <meta
           name="description"
-          content="Organic search engine optimization also referred to as traditional search engine optimization, is the process of enhancing your web site with the goal of
+          content="Organic search engine optimization also referred to as traditional search engine optimization, is the process of enhancing your website with the goal of
 increasing your visibility in the top search engines when specific keywords or phrases are searched for."
         />
 
@@ -80,7 +80,7 @@ increasing your visibility in the top search engines when specific keywords or p
         <meta
           itemprop="description"
           content="Organic search engine optimization also referred to as traditional search engine
-optimization, is the process of enhancing your web site with the goal of
+optimization, is the process of enhancing your website with the goal of
 increasing your visibility in the top search engines when specific keywords
 or phrases are searched for."
         />
@@ -99,7 +99,7 @@ or phrases are searched for."
         <meta
           property="og:description"
           content="Organic search engine optimization  also referred to as traditional search engine
-optimization, is the process of enhancing your web site with the goal of
+optimization, is the process of enhancing your website with the goal of
 increasing your visibility in the top search engines when specific keywords
 or phrases are searched for."
         />
@@ -113,7 +113,7 @@ or phrases are searched for."
         />
         <meta
           name="twitter:description"
-          content="Organic search engine optimization  also referred to as traditional search engine optimization, is the process of enhancing your web site with the goal of increasing your visibility in the top search engines when specific keywords or phrases are searched for."
+          content="Organic search engine optimization  also referred to as traditional search engine optimization, is the process of enhancing your website with the goal of increasing your visibility in the top search engines when specific keywords or phrases are searched for."
         />
         <meta name="twitter:image" content="../../images/seo-banner.png" />
       </Helmet>

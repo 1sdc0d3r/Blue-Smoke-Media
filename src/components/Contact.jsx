@@ -55,9 +55,9 @@ export default function Contact() {
 
   return (
     <section className="contact clicker">
-      <h2>Contact Us</h2>
+      <h1>Contact Us</h1>
       <p>
-        Effective Internet marketing and Web site Design requires a staff of
+        Effective Internet marketing and Website Design requires a staff of
         diverse disciplines. Our full-service approach will save you time and
         the added expense of discovering the missing pieces and hiring multiple
         companies to collaborate. For quick answers, accurate quotes and 24/7

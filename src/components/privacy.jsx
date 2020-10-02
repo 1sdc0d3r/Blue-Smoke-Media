@@ -20,8 +20,9 @@ export default function PrivacyPolicy() {
   const ref14 = useRef(null);
   return (
     <section className="privacy">
+      <h1 style={{ display: "none" }}>Privacy Policy</h1>
       <pre>
-        <h3>PRIVACY NOTICE Last updated September 07, 2020</h3>
+        <h1>PRIVACY NOTICE Last updated September 07, 2020</h1>
         {ReactHtmlParser(`Thank you for choosing to be part of our community at Blue Smoke Digital and Printed Media (“Company”, “we”, “us”, or “our”). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice, or our practices with regards to your personal information, please contact us at <a href='mailto:CoBe@BlueSmokeMedia.net?subject=Privacy Policy'>CoBe@BlueSmokeMedia.net.</a>
         When you visit our website <a href='https://www.bluesmokedigitalandprintedmedia.com'>https://www.bluesmokedigitalandprintedmedia.com</a> (the “Website”), and more generally, use any of our services (the “Services”, which include the Website), we appreciate that you are trusting us with your personal information. We take your privacy very seriously. In this privacy notice, we seek to explain to you in the clearest way possible what information we collect, how we use it and what rights you have in relation to it. We hope you take some time to read through it carefully, as it is important. If there are any terms in this privacy notice that you do not agree with, please discontinue use of our Services immediately.
         This privacy notice applies to all information collected through our Services (which, as described above, includes our Website), as well as any related services, sales, marketing or events. Please read this privacy notice carefully as it will help you understand what we do with the information that we collect.

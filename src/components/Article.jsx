@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { articleData } from "../data/articles";
+import articleData from "../data/articles";
 import ReactHtmlParser from "react-html-parser";
 
 export default function Article() {

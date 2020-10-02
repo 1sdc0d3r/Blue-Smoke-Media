@@ -26,17 +26,17 @@ export default function OrganicSeo() {
           many website owners have discovered, simply having a website does not
           mean that people will find it. Enter search engine friendly web
           design. In today’s competitive market, it isn’t just about having
-          great meta tags any longer - web sites must be built to rank well
+          great meta tags any longer - websites must be built to rank well
           within the search engines.
         </p>
         <p>
-          At <span>Blue Smoke Digital Media</span>, we know that a web site’s
+          At <span>Blue Smoke Digital Media</span>, we know that a website’s
           basic <Link to="/article/5">search engine “friendliness” </Link>
           should, in most cases, be part of the overall design plan for a new
-          web site. Good search engine rankings are often crucial to the goals
-          of our clients. This is why we incorporate these fundamental
-          techniques in our designs as a standard part of even our most
-          affordable packages.
+          website. Good search engine rankings are often crucial to the goals of
+          our clients. This is why we incorporate these fundamental techniques
+          in our designs as a standard part of even our most affordable
+          packages.
         </p>
         <h4>What about high rankings in the search engines?</h4>
         <p>
@@ -46,7 +46,7 @@ export default function OrganicSeo() {
           time.
         </p>
         <p>
-          While developing your custom designed web site from the ground up,
+          While developing your custom designed website from the ground up,
           <span> Blue Smoke Digital Media </span>
           includes built in organic search engine optimization. This includes
           online architectural design principles carefully combining information
@@ -85,7 +85,7 @@ export default function OrganicSeo() {
         </title>
         <meta
           name="description"
-          content="At Blue Smoke Digital Media, we know that a web site’s basic search engine “friendliness” should, in most cases, be part of the overall design plan for a new website. Good search engine rankings are often crucial to the goals of our clients. This is why we incorporate these fundamental techniques in our designs as a standard part of even our most affordable packages."
+          content="At Blue Smoke Digital Media, we know that a website’s basic search engine “friendliness” should, in most cases, be part of the overall design plan for a new website. Good search engine rankings are often crucial to the goals of our clients. This is why we incorporate these fundamental techniques in our designs as a standard part of even our most affordable packages."
         />
 
         <meta
@@ -100,7 +100,7 @@ export default function OrganicSeo() {
         />
         <meta
           itemprop="description"
-          content="At Blue Smoke Digital Media, we know that a web site’s basic search engine “friendliness” should, in most cases, be part of the overall design plan for a new website. Good search engine rankings are often crucial to the goals of our clients. This is why we incorporate these fundamental techniques in our designs as a standard part of even our most affordable packages."
+          content="At Blue Smoke Digital Media, we know that a website’s basic search engine “friendliness” should, in most cases, be part of the overall design plan for a new website. Good search engine rankings are often crucial to the goals of our clients. This is why we incorporate these fundamental techniques in our designs as a standard part of even our most affordable packages."
         />
         <meta itemprop="image" content="../../images/seo-puzzle.png" />
 
@@ -116,7 +116,7 @@ export default function OrganicSeo() {
         />
         <meta
           property="og:description"
-          content="At Blue Smoke Digital Media, we know that a web site’s basic search engine “friendliness” should, in most cases, be part of the overall design plan for a new website. Good search engine rankings are often crucial to the goals of our clients. This is why we incorporate these fundamental techniques in our designs as a standard part of even our most affordable packages."
+          content="At Blue Smoke Digital Media, we know that a website’s basic search engine “friendliness” should, in most cases, be part of the overall design plan for a new website. Good search engine rankings are often crucial to the goals of our clients. This is why we incorporate these fundamental techniques in our designs as a standard part of even our most affordable packages."
         />
         <meta property="og:image" content="../../images/seo-puzzle.png" />
 
@@ -128,7 +128,7 @@ export default function OrganicSeo() {
         />
         <meta
           name="twitter:description"
-          content="At Blue Smoke Digital Media, we know that a web site’s basic search engine “friendliness” should, in most cases, be part of the overall design plan for a new website. Good search engine rankings are often crucial to the goals of our clients. This is why we incorporate these fundamental techniques in our designs as a standard part of even our most affordable packages."
+          content="At Blue Smoke Digital Media, we know that a website’s basic search engine “friendliness” should, in most cases, be part of the overall design plan for a new website. Good search engine rankings are often crucial to the goals of our clients. This is why we incorporate these fundamental techniques in our designs as a standard part of even our most affordable packages."
         />
         <meta name="twitter:image" content="../../images/seo-puzzle.png" />
       </Helmet>

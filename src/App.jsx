@@ -30,7 +30,7 @@ import HamburgerMenu from "./components/Utils/HamburgerMenu";
 // * Media
 import PrivacyPolicy from "./components/privacy";
 import Article from "./components/Article";
-import Pricing from "./components/Pricing";
+import Plans from "./components/Plans";
 import circleX from "./images/circle-X.png";
 
 import Help from "./components/Help";
@@ -60,8 +60,8 @@ function App() {
             }
           />
           Due to the COVID-19 epidemic, we have lowered our prices to
-          accommodate the smaller businesses in the US. &nbsp; It is our goal to help
-          in keeping our communities together.
+          accommodate the smaller businesses in the US. &nbsp; It is our goal to
+          help in keeping our communities together.
         </p>
         <header>
           <div>
@@ -121,7 +121,7 @@ function App() {
           />
           <Route path="/social-media" component={SocialMedia} />
           <Route path="/contact" component={Contact} />
-          <Route path="/plans" component={Pricing} />
+          <Route path="/plans" component={Plans} />
           <Route path="/help" component={Help} />
           <Route path="/article/:id" component={Article} />
           <Redirect to="/" />
