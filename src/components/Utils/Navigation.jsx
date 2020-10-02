@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink, withRouter } from "react-router-dom";
 
-export default withRouter(function Navigation(props) {
+export default withRouter(function Navigation({ history }) {
   const dropArrow = (
     <svg
       style={{
@@ -14,12 +14,13 @@ export default withRouter(function Navigation(props) {
       <polygon points="5,5 13,15 20,5" />
     </svg>
   );
+  // todo fix dropdown-content not going away on change
   return (
     <nav className="main-nav">
       <div className="dropdown">
         <button
-          className="drop-btn nav-item "
-          onClick={() => props.history.push("/")}
+          className="drop-btn nav-item"
+          onClick={() => history.push("/")}
           uk-icon="icon: triangle-down-NOTHING"
         >
           Home{dropArrow}
