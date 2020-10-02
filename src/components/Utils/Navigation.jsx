@@ -8,7 +8,7 @@ export default withRouter(function Navigation({ history }) {
         width: "20",
         height: "20",
         viewBox: "0 0 20 20",
-        color: "#7ff76f",
+        fill: "#7ff76f",
       }}
     >
       <polygon points="5,5 13,15 20,5" />
