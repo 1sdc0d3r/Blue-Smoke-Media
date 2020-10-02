@@ -1,8 +1,12 @@
 import React from "react";
 
 //* Images
-import phone from "../images/phone.png";
-import email from "../images/mail-icon.png";
+// import phone from "../images/phone.png";
+// import email from "../images/mail-icon.png";
+const email =
+  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/Header/mail.png";
+const phone =
+  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/Header/phone.png";
 
 export default function cta() {
   return (

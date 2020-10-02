@@ -71,7 +71,7 @@ export default function Team() {
           <video
             type="video/mp4"
             src={seoVid}
-            alt="Video of how SEO can act like a lightbulb moment going off on your website."
+            alt="Video of how SEO can act like a light bulb moment going off on your website."
             preload="auto"
             autoPlay
             loading="lazy"
