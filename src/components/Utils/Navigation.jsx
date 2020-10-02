@@ -139,9 +139,8 @@ export default withRouter(function Navigation(props) {
       {/* <NavLink to="/portfolio" className="nav-item">
         Our Work
       </NavLink> */}
-      {/* //todo BLOG */}
       <a
-        href="#blog"
+        href="https://bluesmokemedianomads.com"
         target="_blank"
         rel="noopener noreferrer"
         className="nav-item"
