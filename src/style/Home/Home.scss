@@ -84,6 +84,8 @@
     }
 
     .content {
+      display: flex;
+      flex-direction: column;
       color: $white;
       margin: 2em;
       width: 80%;
@@ -101,16 +103,13 @@
       }
 
       video {
-        margin: 1em 1em 2em;
+        // margin-left: 15%;
+        margin: 1em auto 2em;
         width: 70%;
-        margin-left: 15%;
         border: 4px solid $darkBlue;
         @include breakpoint(xxs, xs, s, m) {
           width: 90%;
-          // margin: 5em 1em;
-        }
-        @include breakpoint(m) {
-          // margin: 8em 1em;
+          // margin: auto;
         }
       }
       h2 {
