@@ -252,7 +252,7 @@ export default function Home() {
           {/* <!-- Google / Search Engine Tags --> */}
           <meta
             itemprop="name"
-            content="Blue Smoke Digital and Printed Media is an online Digital company specializing in Custom Designed Websites with Organic SEO built into your site at NO EXTRA COST, a Digital and Printed Media company and Social Media Marketing company."
+            content="Blue Smoke Digital and Printed Media"
           />
           <meta
             itemprop="description"
