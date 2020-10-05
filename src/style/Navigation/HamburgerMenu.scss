@@ -137,7 +137,7 @@
 
     .sub-menu-btn:hover ~ .sub-drop-menu {
       // display: block;
-      transform: translateX(470%);
+      transform: translateX(370%);
     }
 
     .sub-drop-menu {
@@ -150,7 +150,7 @@
       margin-top: 0;
 
       &:hover {
-        transform: translateX(470%);
+        transform: translateX(370%);
       }
       li {
         color: #232323;
