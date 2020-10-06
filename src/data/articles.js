@@ -244,7 +244,7 @@ Here is a breakdown for you:
 <span>How To Get Listed in Local Search</span>
 
 The first step to getting your business listed in Local Search is (surprise) to buy a listing in the offline Yellow Pages (yep, that cheesy doorstop-to-be we just dis'd).
-Here's why: 
+Here's why:
 Most search engines get the bulk of their local business listings from just two companies:
     1.	InfoUSA
     2.	Acxiom
@@ -279,7 +279,7 @@ Google My Business pages aren’t complicated, but they are important. While yo
 Does your business have a website? Have you missed the idea that it can be your 24/7 virtual marketing machine? Do you wonder how it could bring you minions more customers and clients to your 'brick and mortar' location? The biggest mistake local businesses make is not using the Internet to let potential customers and clients know who they are, who they can be by offering valuable content to attract them back again and again, and why they are the first choice over their competition. Did you know that many of your local potential customers will Google your Web name or your name, to see what you offer and how you may be their choice over others? Today people are much more Internet savvy. You need to speak to them. Building traffic to your website to market it needs you to install proper content and sales messages on it as well as other tried and true Online promotion methods such as submitting articles and creating a blog. FACT: You have only 10 seconds to attract your potential customers and get them to stay long enough to show them your business is the best choice.How's your website Doing?Take the 'Check and Correct Quiz” below to see if your website measures up. After your input what you don't know will be clearer. If you want your website to be more effective, stay open and learn how you can put more money in your checking account each month.Answer these questions to see if you are on track or need a professional partner to help you get the necessary marketing language and content on your site to bring targeted traffic. Realize the spiders of the search engines comb sites daily looking for good key word, free information, and power writing sales content.
 
 <span>Do you know your website needs?</span>
-
+<br/>
 <span>1. A sales letter </span>(short or long) for each product or service you offer. You need to give your visitors a reason to buy from you.
 
 <span>2. Benefit driven headlines</span> on your home page to attract people to your sales messages. Drop your announcements because they bore. Make your visitor's mouths water, their skin tingle, and their eyes receive a positive picture of how they will be after they use you. Make your headlines on your home page and in your sales letters sizzle and seductive to get them to call you and come to your office.
@@ -734,12 +734,11 @@ However, not all businesses are aware of the benefits of social media marketing.
 
 You may ask, <span>“How will my business benefit from an active social media presence?”</span>  Here are just three of the ways your business could benefit:
 
-    ◆   Social Media can be a valuable tool as profiles can provide general information and updates about your
-        business.
+    ◆   Social Media can be a valuable tool as profiles can provide general information and updates about your business.
     ◆   Businesses can interact and engage with current and future clients in a community-like setting.
     ◆   Your business’ social profiles can also help improve your organic SEO for your website.
 
-    <a href="https://clutch.co/agencies/resources/social-media-2015-small-business-survey">Mike Rosa</a> of 180Fusion, stated that <span>“If small businesses want to compete, if they want to level the playing field with their competitors, if they don’t want to lose ground, they have to be participating in social media.”</span>
+<a href="https://clutch.co/agencies/resources/social-media-2015-small-business-survey">Mike Rosa</a> of 180Fusion, stated that <span>“If small businesses want to compete, if they want to level the playing field with their competitors, if they don’t want to lose ground, they have to be participating in social media.”</span>
 
 The world of digital tech is a constantly moving landscape with social media marketing seeming to move even faster. And because it’s so fast-moving it can be tough to figure out how each piece of the puzzle fits with your small business. Social Media Engagement remains an essential ingredient of business and marketing success. To win over audiences in a world increasingly dominated by instantaneous social media and the 24-hour news cycle, the power of connecting with people can be the difference between success and failure.
 
@@ -768,15 +767,15 @@ It is important to get back to basics and ask yourself "What is it that customer
 <span>Making a list:</span>
 In our example of the Coffee Digital Cafe company, the owners may come up with the following list (after researching customer needs) of nine features customers desire in a web design company.
 
-    <span>1.</span> Excellent support
-    <span>2.</span> Package features (eg. disk quotas, email boxes, monthly bandwidth)
-    <span>3.</span> Special language support (eg. JavaScript, PHP, Python, React.js, Ruby on Rails, etc.)
-    <span>4.</span> Reasonable pricing
-    <span>5.</span> Easy account management
-    <span>6.</span> Reliability
-    <span>7.</span> Do they write content
-    <span>8.</span> Do they have an in-house graphic design team
-    <span>9.</span> They offer Social Media Management
+<span>1.</span> Excellent support
+<span>2.</span> Package features (eg. disk quotas, email boxes, monthly bandwidth)
+<span>3.</span> Special language support (eg. JavaScript, PHP, Python, React.js, Ruby on Rails, etc.)
+<span>4.</span> Reasonable pricing
+<span>5.</span> Easy account management
+<span>6.</span> Reliability
+<span>7.</span> Do they write content
+<span>8.</span> Do they have an in-house graphic design team
+<span>9.</span> They offer Social Media Management
 
 After reviewing this list, the Coffee Digital Cafe owners could choose areas they believe their big company competitors are lacking. These areas would then become areas of focus for both product development and marketing.
 
@@ -788,10 +787,10 @@ Suggestion: If it is feasible for your business, setting up an account on one (o
 
 You may be asking just where you are expected to get a lot of information about your customer's needs. Below is a shortlist of suggestions to get you started.
 
-    <span>*</span> Survey customers.
-    <span>*</span> Participate in discussion groups relating to the subject. You will often find forums around the Internet with real customers discussing what they like and dislike about certain products and services. Participating in these discussions may also get your business!
-    <span>*</span>Visit websites and read newsletters that deal with the subject.
-    <span>*</span>Put yourself in your customer's shoes and look at it from their perspective.
+<span>*</span>Survey customers.
+<span>*</span>Participate in discussion groups relating to the subject. You will often find forums around the Internet with real customers discussing what they like and dislike about certain products and services. Participating in these discussions may also get your business!
+<span>*</span>Visit websites and read newsletters that deal with the subject.
+<span>*</span>Put yourself in your customer's shoes and look at it from their perspective.
 
 <span>Personalize your Service</span>
 
@@ -803,23 +802,23 @@ I don't know about you, but I find it much more appealing when I can actually ta
 
 Our Coffee Digital Cafe team may decide to incorporate some of the following things to help <span>personalize their service and gain trust</span> from their customers.
 
-    <span>**On sign up,</span> Coffee Digital Cafe should ensure customers have the contact information for appropriate personnel to voice their queries or comments. This information should be presented in a way that welcomes customer interaction.
+<span>**On sign up,</span> Coffee Digital Cafe should ensure customers have the contact information for appropriate personnel to voice their queries or comments. This information should be presented in a way that welcomes customer interaction.
 
-    <span>**Building trust with your customers</span> is an incredibly important, and often underestimated, aspect which must be considered. To put it simply, no one is going to buy anything from you on the Internet if they do not trust you.
-        Personalizing a service is an excellent way of gaining this customer trust.
+<span>**Building trust with your customers</span> is an incredibly important, and often underestimated, aspect which must be considered. To put it simply, no one is going to buy anything from you on the Internet if they do not trust you.
+Personalizing a service is an excellent way of gaining this customer trust.
 
-        Our Coffee Digital Cafe team may decide to incorporate some of the following things to help personalize their
-        service and gain trust from customers.
+Our Coffee Digital Cafe team may decide to incorporate some of the following things to help personalize their
+service and gain trust from customers.
 
-    <span>**</span>On sign up, Coffee Digital Cafe should ensure customers have the contact information for appropriate personnel to voice their queries or comments. This information should be presented in a way that welcomes customer interaction.
+<span>**</span>On sign up, Coffee Digital Cafe should ensure customers have the contact information for appropriate personnel to voice their queries or comments. This information should be presented in a way that welcomes customer interaction.
 
-    <span>**</span>Every so often, Coffee Digital Cafe <span>owners should contact customers personally</span> to make sure everything is going well and answer any queries they may have. Many customers will not go out of their way to give feedback unless asked specifically.
+<span>**</span>Every so often, Coffee Digital Cafe <span>owners should contact customers personally</span> to make sure everything is going well and answer any queries they may have. Many customers will not go out of their way to give feedback unless asked specifically.
 
-    <span>**Keep customers informed</span> of updates, changes and upcoming services.
+<span>**Keep customers informed</span> of updates, changes and upcoming services.
 
-    <span>**Give valid explanations</span> for any down-time which may occur.
+<span>**Give valid explanations</span> for any down-time which may occur.
 
-    <span>**Provide an area for customers to give feedback</span> and talk with each other.
+<span>**Provide an area for customers to give feedback</span> and talk with each other.
 
 <span>Charge Reasonable Prices</span>
 
@@ -856,19 +855,19 @@ If someone asks you right now - What company do you really want to work for? Eve
 <span>Appropriate the machine!</span>
 Whoever you chose as the company of your dreams - has attracted strong talent (yes, I mean you).  Let's turn the lens to them - How did they do it?
 
-        <span>1)</span> If you engage in social media - consider making your personal pages private and allow
-        your strategized branded pages to be searched publicly. Being yourself is cool and all- but
-        does your dream job need to know about your obsession with 90's sci-fi?  Probably not.
-        There is potential to use your web print to leave an impression that makes you a more
-        attractive candidate.  Consider it.  Friends you want to invite over for a Cleopatra 2525
-        marathon will still be able to get the invite if you tighten the security on your page.
+<span>1)</span> If you engage in social media - consider making your personal pages private and allow
+your strategized branded pages to be searched publicly. Being yourself is cool and all- but
+does your dream job need to know about your obsession with 90's sci-fi?  Probably not.
+There is potential to use your web print to leave an impression that makes you a more
+attractive candidate.  Consider it.  Friends you want to invite over for a Cleopatra 2525
+marathon will still be able to get the invite if you tighten the security on your page.
 
-        <span>2)</span> Watch the companies you like - what does their web print say about them? Look at
-        their posts, charities they support, what is the impression they offer? Most companies have
-        a strategy for their voice - are they supportive, casual, pedantic, etc. Figure out their voice
-        and utilize it in your posts. Does this company try to educate the consumer - be a thought
-        leader. Offer posts that will attract their attention as someone who is aligned with their
-        objectives and interests.
+<span>2)</span> Watch the companies you like - what does their web print say about them? Look at
+their posts, charities they support, what is the impression they offer? Most companies have
+a strategy for their voice - are they supportive, casual, pedantic, etc. Figure out their voice
+and utilize it in your posts. Does this company try to educate the consumer - be a thought
+leader. Offer posts that will attract their attention as someone who is aligned with their
+objectives and interests.
 
 <span>There are so many opportunities to create your own brand.</span> You can really go down a rabbit
 hole here. Typography, color palette, even the source of information you use when you post are
