@@ -3,17 +3,17 @@
   "name": "Blue Smoke Digital and Printed Media",
   "icons": [
     {
-      "src": "flame_favicon.png",
+      "src": "flame_favicon_64.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "flame_favicon.png",
+      "src": "flame_favicon_192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "flame_favicon.png",
+      "src": "flame_favicon_512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
