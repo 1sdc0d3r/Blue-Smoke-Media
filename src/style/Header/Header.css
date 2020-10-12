@@ -346,7 +346,7 @@ header .cta .btns .cta-btn {
 }
 
 header .cta .btns a:last-child {
-  width: 50%;
+  width: 100%;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -358,8 +358,8 @@ header .cta .btns .cta-mail {
 }
 
 header .cta .btns .cta-phone {
-  width: 95%;
-  height: 80%;
+  width: 100%;
+  height: 70%;
 }
 
 @media (max-width: 360px) {

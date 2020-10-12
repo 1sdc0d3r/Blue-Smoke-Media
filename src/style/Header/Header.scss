@@ -198,7 +198,7 @@ header {
         margin: auto;
       }
       a:last-child {
-        width: 50%;
+        width: 100%;
         align-self: center;
       }
 
@@ -208,8 +208,8 @@ header {
       }
 
       .cta-phone {
-        width: 95%;
-        height: 80%;
+        width: 100%;
+        height: 70%;
         // margin-top: 10%;
         @include breakpoint(xxs, xs, s) {
           margin-top: 25%;
