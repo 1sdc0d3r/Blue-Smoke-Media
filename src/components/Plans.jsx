@@ -38,7 +38,7 @@ export default function PriceChart() {
               </h5>
               <hr />
               <p>
-                Starts At <span>$749</span>
+                Starts At <span>$949</span>
               </p>
             </div>
           </div>
@@ -88,7 +88,7 @@ export default function PriceChart() {
               </h5>
               <hr />
               <p>
-                Starts At <span>$1,249</span>
+                Starts At <span>$1,599</span>
               </p>
             </div>
           </div>
@@ -138,7 +138,7 @@ export default function PriceChart() {
               </h5>
               <hr />
               <p>
-                Starts At <span>$1,899</span>
+                Starts At <span>$2,499</span>
               </p>
             </div>
           </div>
@@ -185,7 +185,7 @@ export default function PriceChart() {
               </h5>
               <hr />
               <p>
-                Starts At <span>$1,499</span>
+                Starts At <span>$1,999</span>
               </p>
             </div>
           </div>
@@ -227,7 +227,7 @@ export default function PriceChart() {
         <div className="card">
           <h3>5 page website</h3>
           <p>
-            Starts At <span>$749</span>
+            Starts At <span>$949</span>
           </p>
           <div className="w-space" />
           <ul>
@@ -246,7 +246,7 @@ export default function PriceChart() {
         <div className="card">
           <h3>6-10 page website</h3>
           <p>
-            Starts At <span>$1,249</span>
+            Starts At <span>$1,599</span>
           </p>
           <div className="w-space" />
           <ul>
@@ -265,7 +265,7 @@ export default function PriceChart() {
         <div className="card">
           <h3>11-15+ page website</h3>
           <p>
-            Starts At <span>$1,899</span>
+            Starts At <span>$2,499</span>
           </p>
           <div className="w-space" />
           <ul>
@@ -287,7 +287,7 @@ export default function PriceChart() {
         <div className="card">
           <h3>E-Commerce website</h3>
           <p>
-            Starts At <span>$1,499</span>
+            Starts At <span>$1,999</span>
           </p>
           <div className="w-space" />
           <ul>

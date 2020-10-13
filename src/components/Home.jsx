@@ -104,7 +104,7 @@ export default function Home() {
                 <h6>Includes Organic SEO</h6>
                 <hr className="line" />
                 <p>Starts At</p>
-                <p className="price">$749</p>
+                <p className="price">$949</p>
                 <Link to="/plans">View Plans</Link>
               </div>
               <div className="plan-card">
@@ -116,7 +116,7 @@ export default function Home() {
                 <h6>Includes Organic SEO</h6>
                 <hr className="line" />
                 <p>Starts At</p>
-                <p className="price">$1,399</p>
+                <p className="price">$1,599</p>
                 <Link to="/plans">View Plans</Link>
               </div>
             </div>
@@ -130,7 +130,7 @@ export default function Home() {
                 <h6>Includes Organic SEO</h6>
                 <hr className="line" />
                 <p>Starts At</p>
-                <p className="price">$2,299</p>
+                <p className="price">$2,499</p>
                 <Link to="/plans">View Plans</Link>
               </div>
               <div className="plan-card">
@@ -145,7 +145,7 @@ export default function Home() {
                 </h6>
                 <hr className="line" />
                 <p>Starts At</p>
-                <p className="price">$1,749</p>
+                <p className="price">$1,999</p>
                 <Link to="/plans">View Plans</Link>
               </div>
             </div>
