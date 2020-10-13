@@ -1,0 +1,77 @@
+@import "../Utils/Mixins/Mixins.scss";
+
+.drop-menu {
+  .show-drop {
+    z-index: 1;
+    margin-top: 0;
+    max-height: -webkit-min-content;
+    max-height: -moz-min-content;
+    max-height: min-content;
+  }
+  h2 {
+    color: $orange;
+    text-shadow: 2px 2px $darkBlue;
+    text-transform: uppercase;
+    cursor: pointer;
+    @include breakpoint(xxs, xs, s, m) {
+      margin: 0;
+      padding: 0.25em 0;
+    }
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+    max-height: 0;
+    overflow: hidden;
+    // @include breakpoint(xxs, xs, s, m) {
+    //   position: absolute;
+    //   top: 0;
+    //   z-index: -1;
+    //   display: none;
+    //   width: 100%;
+    //   &:hover {
+    //     display: block;
+    //     position: relative;
+    //   }
+    // }
+
+    // li:hover {
+    //   margin-left: 5%;
+    //   img {
+    //     border: 2px solid $lightBlue;
+    //     border-radius: 50%;
+    //   }
+    // }
+    li {
+      // padding: 0.5em 0;
+      // text-shadow: 1px 1px $darkBlue;
+      // transition: 0.3s ease-in-out;
+      // :hover {
+      //   color: goldenrod;
+      // }
+      // @include breakpoint(xxs, xs, s, m) {
+      //   width: 100%;
+      // }
+
+      // a {
+      //   text-decoration: none;
+      //   color: skyblue;
+      //   svg {
+      //     width: 1em;
+      //   }
+      // }
+      // img {
+      //   width: 2em;
+      // }
+    }
+    #services-content {
+      display: flex;
+      flex-direction: column;
+      h3 {
+      }
+      a {
+      }
+    }
+  }
+}

@@ -107,7 +107,7 @@ footer {
     align-items: center;
     width: 35%;
     color: $green;
-    padding: 0.25em 0;
+    padding: 0.75em 0;
     @include breakpoint(m) {
       width: 40%;
     }

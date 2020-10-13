@@ -116,7 +116,7 @@ export default function Home() {
                 <h6>Includes Organic SEO</h6>
                 <hr className="line" />
                 <p>Starts At</p>
-                <p className="price">$1,599</p>
+                <p className="price">$1,499</p>
                 <Link to="/plans">View Plans</Link>
               </div>
             </div>

@@ -27,6 +27,7 @@ import WebsiteLogoDesign from "./components/Graphic Design Services/WebsiteLogoD
 import Contact from "./components/Contact";
 import CTA from "./components/Header-CTA";
 import HamburgerMenu from "./components/Utils/HamburgerMenu";
+import DropMenu from "./components/Utils/DropMenu";
 // * Media
 import PrivacyPolicy from "./components/privacy";
 import Article from "./components/Article";
@@ -67,10 +68,11 @@ function App() {
           <div>
             <Header />
             <Navigation />
-            <HamburgerMenu />
+            {/* <HamburgerMenu /> */}
           </div>
           <CTA />
         </header>
+        <DropMenu />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/team" component={Team} />

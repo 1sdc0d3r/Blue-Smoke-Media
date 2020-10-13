@@ -1,0 +1,60 @@
+.drop-menu .show-drop {
+  z-index: 1;
+  margin-top: 0;
+  max-height: -webkit-min-content;
+  max-height: -moz-min-content;
+  max-height: min-content;
+}
+
+.drop-menu h2 {
+  color: #ee3e0e;
+  text-shadow: 2px 2px #020723;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+@media (max-width: 360px) {
+  .drop-menu h2 {
+    margin: 0;
+    padding: 0.25em 0;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .drop-menu h2 {
+    margin: 0;
+    padding: 0.25em 0;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .drop-menu h2 {
+    margin: 0;
+    padding: 0.25em 0;
+  }
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  .drop-menu h2 {
+    margin: 0;
+    padding: 0.25em 0;
+  }
+}
+
+.drop-menu ul {
+  padding: 0;
+  list-style: none;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.drop-menu ul #services-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/*# sourceMappingURL=DropMenu.css.map */

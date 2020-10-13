@@ -21,6 +21,30 @@
 
 @media (max-width: 360px) {
   .home .globe {
+    margin-top: 2em;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .home .globe {
+    margin-top: 2em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .home .globe {
+    margin-top: 2em;
+  }
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  .home .globe {
+    margin-top: 2em;
+  }
+}
+
+@media (max-width: 360px) {
+  .home .globe {
     background-image: url("../../images/grey_background_globe-element_for_mobile.png");
   }
 }
@@ -471,7 +495,7 @@
           justify-content: space-evenly;
   border: 3px inset goldenrod;
   width: 37%;
-  padding: 1em 1em 0;
+  padding: 1.5em 1em 1.5em;
   color: #1e92f6;
   background: #04227a;
 }

@@ -13,6 +13,10 @@
     min-width: 80%;
     border-bottom: 0.5em solid #020723;
 
+    @include breakpoint(xxs, xs, s, m) {
+      margin-top: 2em;
+    }
+
     @include breakpoint(xxs, xs, s) {
       background-image: url("../../images/grey_background_globe-element_for_mobile.png");
     }
@@ -238,7 +242,7 @@
           justify-content: space-evenly;
           border: 3px inset goldenrod;
           width: 37%;
-          padding: 1em 1em 0;
+          padding: 1.5em 1em 1.5em;
           color: $lightBlue;
           background: $royalBlue;
 
