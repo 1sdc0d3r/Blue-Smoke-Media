@@ -59,9 +59,10 @@ function App() {
               (document.querySelector(".covid-banner").style.display = "none")
             }
           />
-          Due to the COVID-19 epidemic, we have lowered our prices to
-          accommodate the smaller businesses in the US. &nbsp; It is our goal to
-          help in keeping our communities together.
+          Due to the Covid 19 epidemic, we are willing to offer discounts to
+          individual and small businesses. Please email or call us for further
+          information. It is our goal to help in keeping our communities
+          together.
         </p>
         <header>
           <div>
