@@ -4,9 +4,9 @@
   @include breakpoint(m, l, xl, xxl) {
     display: none;
   }
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   .show-drop {
     z-index: 1;
@@ -23,9 +23,12 @@
     margin: 0;
     padding: 0.125em 0 0;
   }
-
+  h5 {
+    margin: 0 auto;
+  }
   ul {
     padding: 0;
+    margin: 0;
     list-style: none;
     max-height: 0;
     overflow: hidden;
@@ -40,14 +43,12 @@
         height: 100%;
       }
     }
-
-    #services-content {
+    .drop-content {
       display: flex;
       flex-direction: column;
       background: lightgrey;
-      h3 {
-        margin: 0 auto;
-      }
+    }
+    #services-content {
       a {
       }
     }

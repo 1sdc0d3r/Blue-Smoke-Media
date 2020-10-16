@@ -1,28 +1,31 @@
 import React from "react";
 import { NavLink, withRouter } from "react-router-dom";
+//todo choose chevron import
+//todo change this on blog nav
+import { FiChevronDown } from "react-icons/fi";
+import { FaChevronDown } from "react-icons/fa";
 
 export default withRouter(function Navigation({ history }) {
-  const dropArrow = (
-    <svg
-      style={{
-        width: "20",
-        height: "20",
-        viewBox: "0 0 20 20",
-        fill: "#7ff76f",
-      }}
-    >
-      <polygon points="5,5 13,15 20,5" />
-    </svg>
-  );
+  // history.listen(() => {});
+  const dropArrow = <FiChevronDown color="#7ff76f" />;
+  // const dropArrow = (
+  //   <svg
+  //     style={{
+  //       width: "20",
+  //       height: "20",
+  //       viewBox: "0 0 20 20",
+  //       fill: "#7ff76f",
+  //     }}
+  //   >
+  //     <polygon points="5,5 13,15 20,5" />
+  //   </svg>
+  // //  uk-icon="icon: triangle-down-NOTHING"
+  // );
   // todo fix dropdown-content not going away on change
   return (
     <nav className="main-nav">
       <div className="dropdown">
-        <button
-          className="drop-btn nav-item"
-          onClick={() => history.push("/")}
-          uk-icon="icon: triangle-down-NOTHING"
-        >
+        <button className="drop-btn nav-item" onClick={() => history.push("/")}>
           Home{dropArrow}
         </button>
         <div className="dropdown-content home-drop">
@@ -46,10 +49,7 @@ export default withRouter(function Navigation({ history }) {
         Our Team
       </NavLink>
       <div className="dropdown">
-        <button
-          className="drop-btn nav-item"
-          uk-icon="icon: triangle-down-NOTHING"
-        >
+        <button className="drop-btn nav-item">
           Services
           {dropArrow}
         </button>

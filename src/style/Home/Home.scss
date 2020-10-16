@@ -1,6 +1,12 @@
 @import "../Utils/Mixins/Mixins.scss";
 .home {
   z-index: 50;
+  width: 95%;
+  margin: auto;
+  @include breakpoint(xxs, xs, s, m) {
+    width: 98%;
+    margin: auto;
+  }
 
   .globe {
     display: flex;
@@ -155,7 +161,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
-      margin: 7% auto 13%;
+      margin: 2em auto 0;
 
       .service-card {
         display: flex;
@@ -242,7 +248,7 @@
           justify-content: space-evenly;
           border: 3px inset goldenrod;
           width: 37%;
-          padding: 1.5em 1em 1.5em;
+          padding: 1.5em 1em 2em;
           color: $lightBlue;
           background: $royalBlue;
 
@@ -285,7 +291,7 @@
             font-weight: 700;
           }
           a {
-            margin: 0.5em auto 1em;
+            margin: 0.75em auto 1em;
             padding: 0.4em;
             border: 1px solid $darkBlue;
             box-shadow: 2px 2px $darkBlue;
@@ -303,3 +309,4 @@
     }
   }
 }
+// }

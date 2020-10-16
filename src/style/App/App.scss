@@ -28,15 +28,10 @@ html {
       // margin-bottom: 1em;
     }
   }
-  video {
-    // width: 100%;
-    // position: absolute;
-    // bottom: 0;
-    // z-index: 50;
-  }
+
   .page-wrapper {
     width: 95%;
-    margin: auto;
+    margin: 0 2em 0;
     @include breakpoint(xxs, xs, s, m) {
       width: 98%;
       margin: auto;
@@ -56,7 +51,7 @@ html {
   .hero-image {
     height: 30em;
     width: 95%;
-    margin: 2em auto 0 !important;
+    margin: 2em 2.5em 0 !important;
     display: block;
     @include breakpoint(m) {
       height: 30em;
