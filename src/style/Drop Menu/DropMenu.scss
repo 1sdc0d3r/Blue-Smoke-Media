@@ -1,6 +1,13 @@
 @import "../Utils/Mixins/Mixins.scss";
 
 .drop-menu {
+  @include breakpoint(m, l, xl, xxl) {
+    display: none;
+  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   .show-drop {
     z-index: 1;
     margin-top: 0;
@@ -24,26 +31,11 @@
     list-style: none;
     max-height: 0;
     overflow: hidden;
-    // @include breakpoint(xxs, xs, s, m) {
-    //   position: absolute;
-    //   top: 0;
-    //   z-index: -1;
-    //   display: none;
-    //   width: 100%;
-    //   &:hover {
-    //     display: block;
-    //     position: relative;
-    //   }
-    // }
-
-    // li:hover {
-    //   margin-left: 5%;
-    //   img {
-    //     border: 2px solid $lightBlue;
-    //     border-radius: 50%;
-    //   }
-    // }
     li {
+      color: $lightBlue;
+      &:hover {
+        color: $royalBlue;
+      }
       // padding: 0.5em 0;
       // text-shadow: 1px 1px $darkBlue;
       // transition: 0.3s ease-in-out;
@@ -65,13 +57,15 @@
       //   width: 2em;
       // }
     }
-    #services-content {
-      display: flex;
-      flex-direction: column;
-      h3 {
-      }
-      a {
-      }
+  }
+  #menu {
+  }
+  #services-content {
+    display: flex;
+    flex-direction: column;
+    h3 {
+    }
+    a {
     }
   }
 }

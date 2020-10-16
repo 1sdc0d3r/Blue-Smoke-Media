@@ -1,3 +1,40 @@
+.drop-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  .drop-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 981px) and (max-width: 1280px) {
+  .drop-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 1281px) and (max-width: 1680px) {
+  .drop-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 1681px) {
+  .drop-menu {
+    display: none;
+  }
+}
+
 .drop-menu .show-drop {
   z-index: 1;
   margin-top: 0;
@@ -48,7 +85,15 @@
   overflow: hidden;
 }
 
-.drop-menu ul #services-content {
+.drop-menu ul li {
+  color: #1e92f6;
+}
+
+.drop-menu ul li:hover {
+  color: #04227a;
+}
+
+.drop-menu #services-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

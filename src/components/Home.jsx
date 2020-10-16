@@ -15,7 +15,7 @@ export default function Home() {
     <div className="page-wrapper">
       <div className="home">
         <section className="globe">
-          <p>
+          <div>
             <h1>
               Blue Smoke Digital and
               <br />
@@ -33,7 +33,7 @@ export default function Home() {
             <p>
               What do your customers see... <span>Are You SURE??</span>
             </p>
-          </p>
+          </div>
         </section>
         <section className="social-media">
           <div className="content">

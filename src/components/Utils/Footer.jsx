@@ -15,7 +15,7 @@ const chevron = (
     <polyline
       fill="none"
       stroke="#ee3e0e"
-      stroke-width="3.0"
+      strokeWidth="3.0"
       points="7 4 13 10 7 16"
     ></polyline>
   </svg>

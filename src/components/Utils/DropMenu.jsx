@@ -2,16 +2,19 @@ import React from "react";
 import { Link, withRouter } from "react-router-dom";
 
 export default withRouter(function HamburgerMenu(props) {
-  // props.history.listen(() => {
-  //   document.querySelector("input[type='checkbox']").checked = false;
-  // });
+  props.history.listen(() => {
+    document.getElementById("menu").classList.remove("show-drop");
+  });
   return (
     <nav role="navigation" className="drop-menu">
       <h2
         onClick={() => {
           const menu = document.getElementById("menu");
           dropdown(menu);
-          console.log(menu.classList.contains("show-drop"));
+          if (menu.classList.contains("show-drop"))
+            document
+              .getElementById("services-content")
+              .classList.remove("show-drop");
         }}
       >
         Menu
@@ -25,6 +28,7 @@ export default withRouter(function HamburgerMenu(props) {
         </Link>
         <li
           onClick={() => dropdown(document.getElementById("services-content"))}
+          className="services"
         >
           Services
         </li>
@@ -92,5 +96,5 @@ export default withRouter(function HamburgerMenu(props) {
 
 function dropdown(evt) {
   evt.classList.toggle("show-drop");
-  console.log(evt.classList);
+  // console.log(evt.classList);
 }
