@@ -1,12 +1,13 @@
 @import "../Utils/Mixins/Mixins.scss";
 
 .drop-menu {
-  @include breakpoint(m, l, xl, xxl) {
-    display: none;
-  }
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 1em;
+  @include breakpoint(m, l, xl, xxl) {
+    display: none;
+  }
 
   .show-drop {
     z-index: 1;

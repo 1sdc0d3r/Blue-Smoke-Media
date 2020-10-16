@@ -1,7 +1,8 @@
 @import "../Utils/Mixins/Mixins.scss";
 .team {
-  text-align: justify;
-  margin: 3rem 3rem;
+  text-align: left;
+  // margin: 3rem 3rem;
+  // margin: 0 5em;
 
   @include breakpoint(xxs, xs, s) {
     margin: 1.5rem;
@@ -97,11 +98,14 @@
     .member {
       display: flex;
       margin: 3rem auto;
+      @include breakpoint(xxs, xs, s) {
+        flex-direction: column;
+      }
 
       img {
         width: 10em;
         height: 12em;
-        margin: auto 0rem;
+        margin: auto 0;
 
         @include breakpoint(l) {
           width: 7em;
@@ -109,8 +113,10 @@
         }
 
         @include breakpoint(xxs, xs, s) {
-          width: 4.5em;
-          height: 6.5em;
+          // width: 5.5em;
+          // height: 7.5em;
+          margin: auto;
+          margin-bottom: 0.75em;
         }
       }
 
@@ -134,6 +140,8 @@
 
           @include breakpoint(xxs, xs, s) {
             font-size: 1.2em;
+            display: block;
+            text-align: center;
           }
         }
       }

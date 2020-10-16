@@ -9,6 +9,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 1em;
 }
 
 @media (min-width: 737px) and (max-width: 980px) {

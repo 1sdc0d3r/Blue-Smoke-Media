@@ -31,11 +31,8 @@ html {
 
   .page-wrapper {
     width: 95%;
-    margin: 0 2em 0;
-    @include breakpoint(xxs, xs, s, m) {
-      width: 98%;
-      margin: auto;
-    }
+    margin: auto;
+
     a {
       text-decoration: none;
       // &:visited {

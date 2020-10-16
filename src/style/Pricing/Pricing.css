@@ -169,6 +169,7 @@
       flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin-top: 0;
 }
 
 @media (min-width: 981px) and (max-width: 1280px) {
@@ -196,9 +197,32 @@
   overflow: hidden;
   position: relative;
   width: 20em;
-  margin: 2.5em 0.5em;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
+}
+
+@media (max-width: 360px) {
+  .price-cards .card {
+    margin: 2.5em 0.5em 2.5em;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .price-cards .card {
+    margin: 2.5em 0.5em 2.5em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .price-cards .card {
+    margin: 2.5em 0.5em 2.5em;
+  }
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  .price-cards .card {
+    margin: 2.5em 0.5em 2.5em;
+  }
 }
 
 .price-cards .card:hover h3 {

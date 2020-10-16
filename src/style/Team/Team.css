@@ -1,6 +1,5 @@
 .team {
-  text-align: justify;
-  margin: 3rem 3rem;
+  text-align: left;
 }
 
 @media (max-width: 360px) {
@@ -210,10 +209,37 @@
   margin: 3rem auto;
 }
 
+@media (max-width: 360px) {
+  .team .team-bottom .member {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .team .team-bottom .member {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .team .team-bottom .member {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .team .team-bottom .member img {
   width: 10em;
   height: 12em;
-  margin: auto 0rem;
+  margin: auto 0;
 }
 
 @media (min-width: 981px) and (max-width: 1280px) {
@@ -225,22 +251,22 @@
 
 @media (max-width: 360px) {
   .team .team-bottom .member img {
-    width: 4.5em;
-    height: 6.5em;
+    margin: auto;
+    margin-bottom: 0.75em;
   }
 }
 
 @media (min-width: 361px) and (max-width: 480px) {
   .team .team-bottom .member img {
-    width: 4.5em;
-    height: 6.5em;
+    margin: auto;
+    margin-bottom: 0.75em;
   }
 }
 
 @media (min-width: 481px) and (max-width: 736px) {
   .team .team-bottom .member img {
-    width: 4.5em;
-    height: 6.5em;
+    margin: auto;
+    margin-bottom: 0.75em;
   }
 }
 
@@ -285,18 +311,24 @@
 @media (max-width: 360px) {
   .team .team-bottom .member p span {
     font-size: 1.2em;
+    display: block;
+    text-align: center;
   }
 }
 
 @media (min-width: 361px) and (max-width: 480px) {
   .team .team-bottom .member p span {
     font-size: 1.2em;
+    display: block;
+    text-align: center;
   }
 }
 
 @media (min-width: 481px) and (max-width: 736px) {
   .team .team-bottom .member p span {
     font-size: 1.2em;
+    display: block;
+    text-align: center;
   }
 }
 /*# sourceMappingURL=Team.css.map */
