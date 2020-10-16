@@ -5,31 +5,31 @@
 
 .seo-friendly img {
   width: 100%;
-  height: 70%;
+  height: 70vh;
   border-bottom: 2px outset #020723;
 }
 
 @media (min-width: 737px) and (max-width: 980px) {
   .seo-friendly img {
-    height: 50%;
+    height: 50vh;
   }
 }
 
 @media (max-width: 360px) {
   .seo-friendly img {
-    height: 30%;
+    height: 30vh;
   }
 }
 
 @media (min-width: 361px) and (max-width: 480px) {
   .seo-friendly img {
-    height: 30%;
+    height: 30vh;
   }
 }
 
 @media (min-width: 481px) and (max-width: 736px) {
   .seo-friendly img {
-    height: 30%;
+    height: 30vh;
   }
 }
 

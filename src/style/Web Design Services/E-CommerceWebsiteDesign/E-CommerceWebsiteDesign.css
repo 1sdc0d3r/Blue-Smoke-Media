@@ -1,30 +1,30 @@
 .e-commerce-website-development img {
   width: 100%;
-  height: 65%;
+  height: 65vh;
   border-bottom: 2px outset #020723;
 }
 
 @media (min-width: 737px) and (max-width: 980px) {
   .e-commerce-website-development img {
-    height: 50%;
+    height: 50vh;
   }
 }
 
 @media (max-width: 360px) {
   .e-commerce-website-development img {
-    height: 35%;
+    height: 35vh;
   }
 }
 
 @media (min-width: 361px) and (max-width: 480px) {
   .e-commerce-website-development img {
-    height: 35%;
+    height: 35vh;
   }
 }
 
 @media (min-width: 481px) and (max-width: 736px) {
   .e-commerce-website-development img {
-    height: 35%;
+    height: 35vh;
   }
 }
 

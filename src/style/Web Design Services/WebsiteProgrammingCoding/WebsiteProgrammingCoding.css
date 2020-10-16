@@ -1,31 +1,31 @@
 @charset "UTF-8";
 .website-programming-coding img {
   width: 100%;
-  height: 60%;
+  height: 60vh;
   border-bottom: 2px outset #020723;
 }
 
 @media (min-width: 737px) and (max-width: 980px) {
   .website-programming-coding img {
-    height: 50%;
+    height: 50vh;
   }
 }
 
 @media (max-width: 360px) {
   .website-programming-coding img {
-    height: 35%;
+    height: 35vh;
   }
 }
 
 @media (min-width: 361px) and (max-width: 480px) {
   .website-programming-coding img {
-    height: 35%;
+    height: 35vh;
   }
 }
 
 @media (min-width: 481px) and (max-width: 736px) {
   .website-programming-coding img {
-    height: 35%;
+    height: 35vh;
   }
 }
 

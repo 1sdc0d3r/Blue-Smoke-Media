@@ -5,31 +5,31 @@
 
 .organic-seo img {
   width: 100%;
-  height: 40%;
+  height: 40vh;
   border-bottom: 2px outset #020723;
 }
 
 @media (min-width: 737px) and (max-width: 980px) {
   .organic-seo img {
-    height: 35%;
+    height: 35vh;
   }
 }
 
 @media (max-width: 360px) {
   .organic-seo img {
-    height: 25%;
+    height: 25vh;
   }
 }
 
 @media (min-width: 361px) and (max-width: 480px) {
   .organic-seo img {
-    height: 25%;
+    height: 25vh;
   }
 }
 
 @media (min-width: 481px) and (max-width: 736px) {
   .organic-seo img {
-    height: 25%;
+    height: 25vh;
   }
 }
 
