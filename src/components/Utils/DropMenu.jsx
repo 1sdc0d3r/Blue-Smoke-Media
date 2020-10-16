@@ -28,15 +28,19 @@ export default withRouter(function HamburgerMenu(props) {
         <li>
           <Link to="/team">Our Team</Link>
         </li>
-        <h5
+        <li
           onClick={() => dropdown(document.getElementById("services-content"))}
         >
           Services{chevron}
-        </h5>
+        </li>
         <ul id="services-content" className="drop-content">
-          <h5 onClick={() => dropdown(document.getElementById("seo-content"))}>
+          <li
+            onClick={() => dropdown(document.getElementById("seo-content"))}
+            className="sub-category"
+          >
             SEO{chevron}
-          </h5>
+          </li>
+
           <ul id="seo-content" className="drop-content">
             <li>
               <Link to="/seo/Friendly">SEO - Search Engine Optimization</Link>
@@ -47,12 +51,13 @@ export default withRouter(function HamburgerMenu(props) {
               </Link>
             </li>
           </ul>
-          <li>
-            <Link to="/social-media">Social Media</Link>
-          </li>
-          <h5 onClick={() => dropdown(document.getElementById("web-content"))}>
+
+          <li
+            onClick={() => dropdown(document.getElementById("web-content"))}
+            className="sub-category"
+          >
             Website Design{chevron}
-          </h5>
+          </li>
           <ul id="web-content" className="drop-content">
             <li>
               <Link to="/ad-CopyWriting">Website Ad-Copy Writing</Link>
@@ -85,11 +90,12 @@ export default withRouter(function HamburgerMenu(props) {
             </li>
           </ul>
 
-          <h5
+          <li
             onClick={() => dropdown(document.getElementById("graphic-content"))}
+            className="sub-category"
           >
             Graphic Design{chevron}
-          </h5>
+          </li>
           <ul id="graphic-content" className="drop-content">
             <li>
               <Link to="/graphic-design/website-logo-design">
@@ -107,6 +113,9 @@ export default withRouter(function HamburgerMenu(props) {
               </Link>
             </li>
           </ul>
+          <li>
+            <Link to="/social-media">Social Media</Link>
+          </li>
         </ul>
         <li>
           <Link to="/plans">Pricing</Link>

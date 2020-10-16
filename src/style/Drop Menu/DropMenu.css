@@ -42,6 +42,8 @@
   max-height: -webkit-min-content;
   max-height: -moz-min-content;
   max-height: min-content;
+  width: 50%;
+  margin: auto;
 }
 
 .drop-menu h2 {
@@ -87,6 +89,14 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: lightgrey;
+  width: 100%;
+}
+
+.drop-menu ul .sub-category {
+  color: #ee3e0e;
+}
+
+.drop-menu ul .sub-category:hover {
+  color: #020723;
 }
 /*# sourceMappingURL=DropMenu.css.map */
