@@ -1,16 +1,3 @@
-.drop-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 @media (min-width: 737px) and (max-width: 980px) {
   .drop-menu {
     display: none;
@@ -48,34 +35,8 @@
   text-shadow: 2px 2px #020723;
   text-transform: uppercase;
   cursor: pointer;
-}
-
-@media (max-width: 360px) {
-  .drop-menu h2 {
-    margin: 0;
-    padding: 0.25em 0;
-  }
-}
-
-@media (min-width: 361px) and (max-width: 480px) {
-  .drop-menu h2 {
-    margin: 0;
-    padding: 0.25em 0;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 736px) {
-  .drop-menu h2 {
-    margin: 0;
-    padding: 0.25em 0;
-  }
-}
-
-@media (min-width: 737px) and (max-width: 980px) {
-  .drop-menu h2 {
-    margin: 0;
-    padding: 0.25em 0;
-  }
+  margin: 0;
+  padding: 0.125em 0 0;
 }
 
 .drop-menu ul {
@@ -93,7 +54,13 @@
   color: #04227a;
 }
 
-.drop-menu #services-content {
+.drop-menu ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.drop-menu ul #services-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -101,5 +68,10 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background: lightgrey;
+}
+
+.drop-menu ul #services-content h3 {
+  margin: 0 auto;
 }
 /*# sourceMappingURL=DropMenu.css.map */

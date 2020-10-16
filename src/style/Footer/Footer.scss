@@ -5,6 +5,7 @@ footer {
   justify-content: space-evenly;
   background: $royalBlue;
   padding-top: 2em;
+  margin-top: 3em;
   text-align: left;
   @include breakpoint(xxs, xs, s, m) {
     flex-direction: column;

@@ -4,20 +4,11 @@
   text-align: left;
 
   img {
-    width: 100%;
-    height: 60vh;
     border-bottom: 2px outset $darkBlue;
-
-    @include breakpoint(m) {
-      height: 50vh;
-    }
-    @include breakpoint(xxs, xs, s) {
-      height: 35vh;
-    }
   }
 
   .content {
-    margin: 2em;
+    // margin: 2em;
 
     h1 {
       text-align: center;

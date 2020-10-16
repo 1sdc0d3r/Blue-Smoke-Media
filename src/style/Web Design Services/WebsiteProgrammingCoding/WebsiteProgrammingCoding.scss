@@ -2,20 +2,11 @@
 
 .website-programming-coding {
   img {
-    width: 100%;
-    height: 60vh;
     border-bottom: 2px outset $darkBlue;
-
-    @include breakpoint(m) {
-      height: 50vh;
-    }
-    @include breakpoint(xxs, xs, s) {
-      height: 35vh;
-    }
   }
 
   .content {
-    margin: auto 2em 2em;
+    // margin: auto 2em 2em;
     text-align: justify;
 
     .bold {

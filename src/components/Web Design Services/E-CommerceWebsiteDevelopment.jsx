@@ -10,6 +10,7 @@ export default function ECommerceWebsiteDevelopment() {
       <img
         src={eCommerce}
         alt="E-commerce and all it entails to become a successful business."
+        className="hero-image"
       />
       <div className="content">
         <h1>Websites and E - Commerce</h1>{" "}

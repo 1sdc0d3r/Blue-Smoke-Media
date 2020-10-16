@@ -3,18 +3,7 @@
 .print-and-graphic-design-services {
   img {
     width: 100.1%;
-    height: 40vh;
-
-    @include breakpoint(l) {
-      height: 45vh;
-    }
-
-    @include breakpoint(m) {
-      height: 25vh;
-    }
-    @include breakpoint(xxs, xs, s) {
-      height: 20vh;
-    }
+    height: 20em !important;
   }
 
   h1 {
@@ -27,7 +16,6 @@
   }
 
   .bottom-content {
-    margin-bottom: 2em;
     p {
       margin-bottom: 3em;
       margin: 2em 2em;

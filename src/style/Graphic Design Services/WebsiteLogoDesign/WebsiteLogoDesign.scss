@@ -2,19 +2,10 @@
 
 .website-logo-design {
   img {
-    width: 100%;
-    height: 50vh;
-
-    @include breakpoint(m) {
-      height: 40vh;
-    }
-    @include breakpoint(xxs, xs, s) {
-      height: 25vh;
-    }
   }
 
   .content {
-    margin: 2em 3em 4em;
+    // margin: 2em 3em 4em;
 
     h1 {
       font-size: 2em;

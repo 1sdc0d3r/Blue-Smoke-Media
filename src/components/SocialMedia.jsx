@@ -10,6 +10,7 @@ export default function SocialMedia() {
         <img
           src={SocialMediaImg}
           alt="High Quality Social Media Services_Social Account Boost_Boost Your Social Media Accounts"
+          className="hero-image"
         />
         <h1>
           {" "}

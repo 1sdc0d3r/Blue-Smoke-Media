@@ -7,7 +7,11 @@ import websiteUsability from "../../images/website_design_useability.png";
 export default function WebsiteUsability() {
   return (
     <div className="website-usability page-wrapper">
-      <img src={websiteUsability} alt="Website Useability Equals Sales" />
+      <img
+        src={websiteUsability}
+        alt="Website Useability Equals Sales"
+        className="hero-image"
+      />
       <div className="content">
         <h1>Website Useability Equals Sales</h1>
         <p>

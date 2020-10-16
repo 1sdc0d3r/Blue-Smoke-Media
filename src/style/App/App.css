@@ -72,6 +72,37 @@ html {
   color: #ee3e0e;
 }
 
+.App .hero-image {
+  height: 30em;
+  width: 95%;
+  margin: 2em auto 0 !important;
+  display: block;
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  .App .hero-image {
+    height: 30em;
+  }
+}
+
+@media (max-width: 360px) {
+  .App .hero-image {
+    height: 20em;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .App .hero-image {
+    height: 20em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .App .hero-image {
+    height: 20em;
+  }
+}
+
 .App .covid-banner {
   color: #1e92f6;
   background: #04227a;

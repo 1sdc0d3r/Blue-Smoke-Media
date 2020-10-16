@@ -10,6 +10,7 @@ export default function WebMaintenance() {
       <img
         src={websiteMaintenance}
         alt="Website Maintenance -bug fixes, updates, keyword update, content update, improper graphics."
+        className="hero-image"
       />
       <div className="content">
         <h1>Website Maintenance Agreements</h1>

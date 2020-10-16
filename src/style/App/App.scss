@@ -52,6 +52,19 @@ html {
       }
     }
   }
+
+  .hero-image {
+    height: 30em;
+    width: 95%;
+    margin: 2em auto 0 !important;
+    display: block;
+    @include breakpoint(m) {
+      height: 30em;
+    }
+    @include breakpoint(xxs, xs, s) {
+      height: 20em;
+    }
+  }
   .covid-banner {
     color: $lightBlue;
     background: $royalBlue;

@@ -5,60 +5,49 @@
   text-align: justify;
 
   img {
-    width: 100%;
-    height: 70vh;
     border-bottom: 2px outset $darkBlue;
-    @include breakpoint(m) {
-      height: 50vh;
-    }
-    @include breakpoint(xxs, xs, s) {
-      height: 30vh;
+    // margin: auto !important;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 1.25em auto;
+
+    @include breakpoint(xxs, xs, s, m) {
+      font-size: 1.7em;
     }
   }
 
-  .wrapper {
-    margin: 0 1.5rem;
+  h2 {
+    text-align: center;
+    @include breakpoint(l) {
+      font-size: 1.35em;
+    }
+  }
 
-    h1 {
-      text-align: center;
-      margin: 1.25em auto;
+  p {
+    a {
+      text-decoration: none;
 
-      @include breakpoint(xxs, xs, s, m) {
-        font-size: 1.7em;
+      span {
+        font-weight: 600;
       }
     }
 
-    h2 {
-      text-align: center;
-      @include breakpoint(l) {
-        font-size: 1.35em;
-      }
+    &:last-child {
+      margin-bottom: 2.2em;
     }
+  }
 
-    p {
-      a {
-        text-decoration: none;
+  h4 {
+    font-size: 1.25em;
 
-        span {
-          font-weight: 600;
-        }
-      }
-
-      &:last-child {
-        margin-bottom: 2.2em;
-      }
+    @include breakpoint(l) {
+      margin-bottom: 0;
     }
+  }
 
-    h4 {
-      font-size: 1.25em;
-
-      @include breakpoint(l) {
-        margin-bottom: 0;
-      }
-    }
-
-    #contact {
-      color: $orange;
-    }
+  #contact {
+    color: $orange;
   }
 }

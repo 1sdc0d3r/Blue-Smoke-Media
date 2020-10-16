@@ -7,7 +7,11 @@ import seoBanner from "../../images/seo-banner.png";
 export default function OrganicSeo() {
   return (
     <div className="organic-seo page-wrapper">
-      <img src={seoBanner} alt="Organic Search Engine Optimization Banner" />
+      <img
+        src={seoBanner}
+        alt="Organic Search Engine Optimization Banner"
+        className="hero-image"
+      />
       <h1>Organic Search Engine Optimization</h1>
       <p>
         Organic search engine optimization{" "}
