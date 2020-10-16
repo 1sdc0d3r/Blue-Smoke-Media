@@ -4,31 +4,31 @@
 
 .web-maintenance img {
   width: 100%;
-  height: 60vh;
+  height: 60%;
   border-bottom: 2px outset #020723;
 }
 
 @media (min-width: 737px) and (max-width: 980px) {
   .web-maintenance img {
-    height: 50vh;
+    height: 50%;
   }
 }
 
 @media (max-width: 360px) {
   .web-maintenance img {
-    height: 35vh;
+    height: 35%;
   }
 }
 
 @media (min-width: 361px) and (max-width: 480px) {
   .web-maintenance img {
-    height: 35vh;
+    height: 35%;
   }
 }
 
 @media (min-width: 481px) and (max-width: 736px) {
   .web-maintenance img {
-    height: 35vh;
+    height: 35%;
   }
 }
 

@@ -3,17 +3,17 @@
 .print-and-graphic-design-services {
   img {
     width: 100.1%;
-    height: 40vh;
+    height: 45%;
 
     @include breakpoint(l) {
-      height: 45vh;
+      height: 45%;
     }
 
     @include breakpoint(m) {
-      height: 25vh;
+      height: 25%;
     }
     @include breakpoint(xxs, xs, s) {
-      height: 20vh;
+      height: 20%;
     }
   }
 

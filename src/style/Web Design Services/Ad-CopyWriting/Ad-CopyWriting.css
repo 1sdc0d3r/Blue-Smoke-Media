@@ -1,29 +1,29 @@
 .ad-copy-writing img {
   width: 85%;
-  height: 70vh;
+  height: 70%;
 }
 
 @media (min-width: 737px) and (max-width: 980px) {
   .ad-copy-writing img {
-    height: 50vh;
+    height: 50%;
   }
 }
 
 @media (max-width: 360px) {
   .ad-copy-writing img {
-    height: 30vh;
+    height: 30%;
   }
 }
 
 @media (min-width: 361px) and (max-width: 480px) {
   .ad-copy-writing img {
-    height: 30vh;
+    height: 30%;
   }
 }
 
 @media (min-width: 481px) and (max-width: 736px) {
   .ad-copy-writing img {
-    height: 30vh;
+    height: 30%;
   }
 }
 

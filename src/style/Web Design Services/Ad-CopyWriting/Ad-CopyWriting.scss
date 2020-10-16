@@ -3,13 +3,13 @@
 .ad-copy-writing {
   img {
     width: 85%;
-    height: 70vh;
+    height: 70%;
 
     @include breakpoint(m) {
-      height: 50vh;
+      height: 50%;
     }
     @include breakpoint(xxs, xs, s) {
-      height: 30vh;
+      height: 30%;
     }
   }
 

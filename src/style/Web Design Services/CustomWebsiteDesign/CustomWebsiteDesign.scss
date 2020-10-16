@@ -2,16 +2,16 @@
 
 .custom-website-design {
   img {
-    height: 60vh;
+    height: 60%;
     width: 90%;
     border: 2px solid $darkBlue;
     // border-bottom: 2px solid $darkBlue;
     margin-top: 1em;
     @include breakpoint(m) {
-      height: 40vh;
+      height: 40%;
     }
     @include breakpoint(xxs, xs, s) {
-      height: 30vh;
+      height: 30%;
     }
   }
 

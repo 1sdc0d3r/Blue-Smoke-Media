@@ -1,35 +1,35 @@
 .print-and-graphic-design-services img {
   width: 100.1%;
-  height: 40vh;
+  height: 45%;
 }
 
 @media (min-width: 981px) and (max-width: 1280px) {
   .print-and-graphic-design-services img {
-    height: 45vh;
+    height: 45%;
   }
 }
 
 @media (min-width: 737px) and (max-width: 980px) {
   .print-and-graphic-design-services img {
-    height: 25vh;
+    height: 25%;
   }
 }
 
 @media (max-width: 360px) {
   .print-and-graphic-design-services img {
-    height: 20vh;
+    height: 20%;
   }
 }
 
 @media (min-width: 361px) and (max-width: 480px) {
   .print-and-graphic-design-services img {
-    height: 20vh;
+    height: 20%;
   }
 }
 
 @media (min-width: 481px) and (max-width: 736px) {
   .print-and-graphic-design-services img {
-    height: 20vh;
+    height: 20%;
   }
 }
 

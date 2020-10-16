@@ -1,30 +1,30 @@
 .printed-logos img {
   width: 100%;
-  height: 60vh;
+  height: 60%;
   border-bottom: 2px solid #020723;
 }
 
 @media (min-width: 737px) and (max-width: 980px) {
   .printed-logos img {
-    height: 50vh;
+    height: 50%;
   }
 }
 
 @media (max-width: 360px) {
   .printed-logos img {
-    height: 27vh;
+    height: 27%;
   }
 }
 
 @media (min-width: 361px) and (max-width: 480px) {
   .printed-logos img {
-    height: 27vh;
+    height: 27%;
   }
 }
 
 @media (min-width: 481px) and (max-width: 736px) {
   .printed-logos img {
-    height: 27vh;
+    height: 27%;
   }
 }
 
