@@ -1,9 +1,6 @@
 import React from "react";
 import { NavLink, withRouter } from "react-router-dom";
-//todo choose chevron import
-//todo change this on blog nav
 import { FiChevronDown } from "react-icons/fi";
-import { FaChevronDown } from "react-icons/fa";
 
 export default withRouter(function Navigation({ history }) {
   // history.listen(() => {});

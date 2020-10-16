@@ -5,14 +5,14 @@ import Daniel from '../images/daniel.png'
 import Ramona from "../images/Ramona-Lucius.png";
 
 export default [{
-    name: "Constance Beebe (CoBe) - Co-Founder, Graphic Design, SEO Specialist",
+    name: "Constance Beebe (CoBe) - Co-Founder, Graphic Designer, SEO Specialist",
     img: CoBe,
-    description: "Constance Beebe is a FrontEnd Web Developer & Graphic Design Artist based out of Knoxville, TN. She is highly accomplished in Search Engine Optimization (SEO), Social Media Marketing and holds a Google Certification in Analytics. She is also skilled in Website Design, Keyword Research, Page Layout, Copywriting and is proficient in the Adobe Creative Suite for Design. She has prior management experience from the many hotels and cabin rental companies, of which she has had the honor of being the general manager. She is a strong engineering professional with a Certificate focused in CSS from the University of Tennessee - Knoxville and a Business Major from Charleston Southern University, in Charleston, SC.",
+    description: "Constance Beebe is a Front-End Web Developer & Graphic Design Artist based out of Knoxville, TN. She is highly accomplished in Search Engine Optimization (SEO), Social Media Marketing and holds a Google Certification in Analytics. She is also skilled in Website Design, Keyword Research, Page Layout, Copywriting and is proficient in the Adobe Creative Suite for Design. She has prior management experience from the many hotels and cabin rental companies, of which she has had the honor of being the general manager. She is a strong engineering professional with a Certificate focused in CSS from the University of Tennessee - Knoxville and a Business Major from Charleston Southern University, in Charleston, SC.",
   },
   {
-    name: "Braden Bell - Co-Founder & Fullstack Developer",
+    name: "Braden Bell - Co-Founder, Fullstack Developer",
     img: Braden,
-    description: "I am an avid fisherman with a passion to develop software. The spark that was struck in my youth ignited with a roaring ball of flame. I love to help people solve their problems with a unique solution only I can provide."
+    description: "I am an avid fisherman with a passion to develop software. The spark that was struck in my youth ignited with a roaring ball of flame. I love to help people solve their problems with a unique solution only I can provide. Change is inevitable, there will always be something that is going to try to hold you back. When there is a new problem, I find a new solution. This is the only way to progress. Today is a new day. I love being a source of color in a binary world!"
   },
   {
     name: "AJ - UX Designer",
