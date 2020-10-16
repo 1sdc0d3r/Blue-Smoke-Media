@@ -1,6 +1,5 @@
 @import "../Utils/Mixins/Mixins.scss";
 
-// .page-wrapper {
 .contact {
   height: 100%;
   width: 90%;
@@ -54,11 +53,13 @@
       font-family: "Roboto", sans-serif;
       font-size: 1em;
       background: $orange;
-      color: $darkBlue;
+      color: white;
+      text-shadow: 1px 1px 1px #000;
       border: 2px outset $darkBlue;
       border-radius: 0.25em;
       font-weight: 600;
-      padding: 0.125em 0.25em;
+      padding: 0.25em 0.5em;
+      margin-top: 1em;
       @include breakpoint(xxs, xs) {
         font-size: 0.9em;
       }

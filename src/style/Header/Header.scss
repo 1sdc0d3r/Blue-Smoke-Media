@@ -25,10 +25,10 @@ header {
       width: 12%;
     }
     @include breakpoint(s) {
-      width: 17%;
+      width: 15%;
     }
     @include breakpoint(xxs, xs) {
-      width: 25%;
+      width: 23%;
     }
   }
 
