@@ -12,7 +12,7 @@ export default withRouter(function HamburgerMenu(props) {
       <h2
         onClick={() => {
           const menu = document.getElementById("menu");
-          dropdown(menu);
+          dropdown("menu");
           if (menu.classList.contains("show-drop"))
             document
               .getElementById("services-content")
@@ -29,19 +29,24 @@ export default withRouter(function HamburgerMenu(props) {
           <Link to="/team">Our Team</Link>
         </li>
         <li
-          onClick={() => dropdown(document.getElementById("services-content"))}
+          id="services"
+          className="category"
+          onClick={() => dropdown("services-content", "services")}
         >
           Services{chevron}
         </li>
         <ul id="services-content" className="drop-content">
+          <li>
+            <Link to="/social-media">Social Media</Link>
+          </li>
           <li
-            onClick={() => dropdown(document.getElementById("seo-content"))}
-            className="sub-category"
+            id="seo"
+            onClick={() => dropdown("seo-content", "seo")}
+            className="category sub-category"
           >
             SEO{chevron}
           </li>
-
-          <ul id="seo-content" className="drop-content">
+          <ul id="seo-content" className="drop-content sub-drop-content">
             <li>
               <Link to="/seo/Friendly">SEO - Search Engine Optimization</Link>
             </li>
@@ -51,14 +56,14 @@ export default withRouter(function HamburgerMenu(props) {
               </Link>
             </li>
           </ul>
-
           <li
-            onClick={() => dropdown(document.getElementById("web-content"))}
-            className="sub-category"
+            id="web-design"
+            onClick={() => dropdown("web-content", "web-design")}
+            className="category sub-category"
           >
             Website Design{chevron}
           </li>
-          <ul id="web-content" className="drop-content">
+          <ul id="web-content" className="drop-content sub-drop-content">
             <li>
               <Link to="/ad-CopyWriting">Website Ad-Copy Writing</Link>
             </li>
@@ -91,12 +96,13 @@ export default withRouter(function HamburgerMenu(props) {
           </ul>
 
           <li
-            onClick={() => dropdown(document.getElementById("graphic-content"))}
-            className="sub-category"
+            id="graphic-design"
+            onClick={() => dropdown("graphic-content", "graphic-design")}
+            className="category sub-category"
           >
             Graphic Design{chevron}
           </li>
-          <ul id="graphic-content" className="drop-content">
+          <ul id="graphic-content" className="drop-content sub-drop-content">
             <li>
               <Link to="/graphic-design/website-logo-design">
                 Website Logo Design
@@ -113,9 +119,6 @@ export default withRouter(function HamburgerMenu(props) {
               </Link>
             </li>
           </ul>
-          <li>
-            <Link to="/social-media">Social Media</Link>
-          </li>
         </ul>
         <li>
           <Link to="/plans">Pricing</Link>
@@ -137,7 +140,23 @@ export default withRouter(function HamburgerMenu(props) {
   );
 });
 
-function dropdown(evt) {
-  evt.classList.toggle("show-drop");
-  // console.log(evt.classList);
+function dropdown(list, active) {
+  document.getElementById(list).classList.toggle("show-drop");
+  const orange = "rgb(251, 52, 0)";
+  const blue = "#1e92f6";
+
+  if (active) {
+    const aStyle = document.getElementById(active).style;
+    aStyle.color === orange ? (aStyle.color = blue) : (aStyle.color = orange);
+  }
+  // todo close sub drop menu's on closing of menu
+  // if (active === "services") {
+  //   const categoryList = document.getElementsByClassName("sub-drop-content");
+  //   // console.log(categoryList);
+  //   for (let i = 0; i < categoryList.length; i++) {
+  //     console.log(categoryList[i]);
+  //     categoryList[i].classList.remove("show-drop");
+  //     categoryList[i].style.color = blue;
+  //   }
+  // }
 }

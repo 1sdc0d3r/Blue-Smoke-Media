@@ -1,5 +1,6 @@
 @import "../Utils/Mixins/Mixins.scss";
-
+//todo sub-drop content colors/slide right (little)
+// todo transitions
 .drop-menu {
   display: flex;
   flex-direction: column;
@@ -15,7 +16,8 @@
     max-height: -webkit-min-content;
     max-height: -moz-min-content;
     max-height: min-content;
-    width: 50%;
+    // width: 50%;
+    width: 80%;
     margin: auto;
   }
   h2 {
@@ -35,31 +37,35 @@
     list-style: none;
     max-height: 0;
     overflow: hidden;
+    // background: $royalBlue;
     li {
       color: $lightBlue;
-      &:hover {
-        color: $royalBlue;
-      }
+      text-align: left;
+      cursor: pointer;
+      // &:hover {
+      //   color: $royalBlue;
+      // }
       a {
         display: block;
         width: 100%;
         height: 100%;
+        &:hover {
+          color: $royalBlue;
+        }
       }
+    }
+    .category:hover {
+      color: $royalBlue;
+      cursor: pointer;
     }
     .drop-content {
       display: flex;
       flex-direction: column;
+      // justify-content: right;
+      // background: pink;
+      // width: 92%;
       width: 100%;
-    }
-    .sub-category {
-      color: $orange;
-      &:hover {
-        color: $darkBlue;
-      }
-    }
-    #services-content {
-      a {
-      }
+      padding-left: 1em;
     }
   }
 }

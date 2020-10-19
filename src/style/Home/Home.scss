@@ -19,7 +19,7 @@
     min-width: 80%;
 
     @include breakpoint(xxs, xs, s, m) {
-      margin-top: 2em;
+      margin-top: 1em;
     }
 
     @include breakpoint(xxs, xs, s) {

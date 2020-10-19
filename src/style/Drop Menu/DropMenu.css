@@ -42,7 +42,7 @@
   max-height: -webkit-min-content;
   max-height: -moz-min-content;
   max-height: min-content;
-  width: 50%;
+  width: 80%;
   margin: auto;
 }
 
@@ -69,16 +69,23 @@
 
 .drop-menu ul li {
   color: #1e92f6;
-}
-
-.drop-menu ul li:hover {
-  color: #04227a;
+  text-align: left;
+  cursor: pointer;
 }
 
 .drop-menu ul li a {
   display: block;
   width: 100%;
   height: 100%;
+}
+
+.drop-menu ul li a:hover {
+  color: #04227a;
+}
+
+.drop-menu ul .category:hover {
+  color: #04227a;
+  cursor: pointer;
 }
 
 .drop-menu ul .drop-content {
@@ -90,13 +97,6 @@
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
-}
-
-.drop-menu ul .sub-category {
-  color: #ee3e0e;
-}
-
-.drop-menu ul .sub-category:hover {
-  color: #020723;
+  padding-left: 1em;
 }
 /*# sourceMappingURL=DropMenu.css.map */
