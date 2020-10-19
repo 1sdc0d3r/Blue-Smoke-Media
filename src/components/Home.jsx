@@ -208,6 +208,141 @@ export default function Home() {
               channels your business should use — it’s more about the needs of
               your target audience and where they tend to spend their time.
             </p>
+          {/* <img src={socialMedia} alt="social media globe" /> */}
+        </section>
+        <section className="plans-pricing">
+          <h1>
+            <span>Our </span>Plans & Pricing
+          </h1>
+          <p className="sub-text">
+            (All prices may be subject to change without
+            <br />
+            notice, unless under contract.)
+          </p>
+          <div className="plans-card-container">
+            <div className="plan-card-set">
+              <div className="plan-card">
+                <h3>
+                  5 Page
+                  <br />
+                  Website
+                </h3>
+                <h6>Includes Organic SEO</h6>
+                <hr className="line" />
+                <p>Starts At</p>
+                <p className="price">$949</p>
+                <Link to="/plans">View Plans</Link>
+              </div>
+              <div className="plan-card">
+                <h3>
+                  6-10 Page
+                  <br />
+                  Website
+                </h3>
+                <h6>Includes Organic SEO</h6>
+                <hr className="line" />
+                <p>Starts At</p>
+                <p className="price">$1,599</p>
+                <Link to="/plans">View Plans</Link>
+              </div>
+            </div>
+            <div className="plan-card-set">
+              <div className="plan-card">
+                <h3>
+                  11-15+ Page
+                  <br />
+                  Website
+                </h3>
+                <h6>Includes Organic SEO</h6>
+                <hr className="line" />
+                <p>Starts At</p>
+                <p className="price">$2,499</p>
+                <Link to="/plans">View Plans</Link>
+              </div>
+              <div className="plan-card">
+                <h3>
+                  E-Commerce
+                  <br />
+                  Website
+                </h3>
+                <h6>
+                  Includes Organic SEO
+                  <br /> Price is for 5 pages and 10 items.
+                </h6>
+                <hr className="line" />
+                <p>Starts At</p>
+                <p className="price">$1,999</p>
+                <Link to="/plans">View Plans</Link>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="services">
+          <h1>
+            <span>Our </span>Services
+          </h1>
+          <p className="sub-text">
+            If you should need a service not offered on our site, PLEASE do not
+            hesitate to call us.
+            <br /> We will make every effort to help you - and if we cannot, we
+            will do our very best to find someone who can!
+          </p>
+          <div className="services-card-container">
+            <div className="service-card">
+              <img src={slide_custom} alt="placeholder" />
+              <h3>Custom Website Design</h3>
+              <p>
+                Custom website design is a process because so much goes into it,
+                but businesses get a lot more out of it over the long term.{" "}
+                <Link to="/article/1"> Custom-made websites </Link> look better,
+                do more, and accomplish specific business goals.
+              </p>
+            </div>
+            <div className="service-card">
+              <img src={slide_seo} alt="Search Engine Optimization" />
+              <h3>Search Engine Optimization (SEO)</h3>
+              <p>
+                Making a website <Link to="/article/5">SEO friendly</Link> means
+                that Google and other search engines can crawl each page on the
+                website efficiently, interpret the content effectively, and
+                index it in their database. Once indexed, they can then serve
+                the most relevant and valuable web pages to their users based on
+                the topics they search for.
+              </p>
+            </div>
+            <div className="service-card">
+              <img
+                src={slide_graphic}
+                alt="Digital and Printed Graphic Design"
+              />
+              <h3>Digital and Printed Graphic Design</h3>
+              <p>
+                The question of engagement in{" "}
+                <Link to="/graphic-design/digital-and-print-graphic-design">
+                  digital and printed design
+                </Link>{" "}
+                is oriented mostly around how and where a viewer will encounter
+                the work. The Blue Smoke Media <Link to="/team">team,</Link> are
+                responsible for the design and layout of interactive and printed
+                informational materials such as:{"  "}
+                <span>
+                  Websites, Brochures, Advertising Flyers, Billboards, and
+                  Business Cards.
+                </span>
+              </p>
+            </div>
+            <div className="service-card">
+              <img src={slide_sm} alt="Social Media and Internet Marketing" />
+              <h3>Social Media and Internet Marketing</h3>
+              <p>
+                It’s crucial you determine which platforms you’re going to share
+                your content on. There’s not necessarily a right or wrong answer
+                when it comes to which{" "}
+                <Link to="/article/8">social media </Link>
+                channels your business should use — it’s more about the needs of
+                your target audience and where they tend to spend their time.
+              </p>
+            </div>
           </div>
         </div>
       </section>

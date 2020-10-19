@@ -95,11 +95,8 @@ footer {
   color: $white;
   background: $darkBlue;
   justify-content: space-between;
-  // height: 15vh;
-  // padding: 0.125em 0;
   @include breakpoint(xxs, xs, s) {
     flex-direction: column;
-    // height: 10vh;
   }
 
   .payment {
