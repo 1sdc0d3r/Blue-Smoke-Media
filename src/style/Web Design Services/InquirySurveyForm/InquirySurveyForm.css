@@ -52,6 +52,10 @@
   }
 }
 
+.inquiryForm form {
+  width: 90%;
+}
+
 @media (max-width: 360px) {
   .inquiryForm form {
     margin-left: 5%;
@@ -240,6 +244,42 @@
   .inquiryForm form .left .time div {
     margin: auto;
     width: 75%;
+  }
+}
+
+@media (max-width: 360px) {
+  .inquiryForm form .left .time div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .inquiryForm form .left .time div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .inquiryForm form .left .time div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 

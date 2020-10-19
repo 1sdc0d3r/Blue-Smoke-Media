@@ -164,30 +164,36 @@ export default function Contact() {
             <div className="time">
               <label for="time">Best Time to be Reached: </label>
               <div>
-                <input
-                  type="radio"
-                  name="time"
-                  className="radio"
-                  value="morning"
-                  onChange={onChangeHandler}
-                />
-                Morning
-                <input
-                  type="radio"
-                  name="time"
-                  className="radio"
-                  value="afternoon"
-                  onChange={onChangeHandler}
-                />
-                Afternoon
-                <input
-                  type="radio"
-                  name="time"
-                  className="radio"
-                  value="evening"
-                  onChange={onChangeHandler}
-                />
-                Evening
+                <label>
+                  <input
+                    type="radio"
+                    name="time"
+                    className="radio"
+                    value="morning"
+                    onChange={onChangeHandler}
+                  />
+                  Morning
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="time"
+                    className="radio"
+                    value="afternoon"
+                    onChange={onChangeHandler}
+                  />
+                  Afternoon
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="time"
+                    className="radio"
+                    value="evening"
+                    onChange={onChangeHandler}
+                  />
+                  Evening
+                </label>
               </div>
             </div>
           </div>
