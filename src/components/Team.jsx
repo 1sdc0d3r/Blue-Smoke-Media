@@ -23,10 +23,7 @@ export default function Team() {
           programming, graphic design, search engine optimization, and sales and
           marketing experience. Each <span>Blue Smoke Digital Media</span> team
           member is a student or graduate of{" "}
-          <a
-            href="https://lambdaschool.com/"
-            rel="nofollow noopener noreferrer"
-          >
+          <a href="https://lambdaschool.com/" rel="noopener noreferrer">
             Lambda School.
           </a>
         </p>
