@@ -168,8 +168,8 @@
 }
 
 .hamburger-menu #menu .sub-menu-btn:hover ~ .sub-drop-menu {
-  -webkit-transform: translateX(470%);
-          transform: translateX(470%);
+  -webkit-transform: translateX(370%);
+          transform: translateX(370%);
 }
 
 .hamburger-menu #menu .sub-drop-menu {
@@ -184,8 +184,8 @@
 }
 
 .hamburger-menu #menu .sub-drop-menu:hover {
-  -webkit-transform: translateX(470%);
-          transform: translateX(470%);
+  -webkit-transform: translateX(370%);
+          transform: translateX(370%);
 }
 
 .hamburger-menu #menu .sub-drop-menu li {

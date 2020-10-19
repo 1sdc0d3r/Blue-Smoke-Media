@@ -7,7 +7,11 @@ import customDesign from "../../images/custom_website_design_image.png";
 export default function CustomWebsiteDesign() {
   return (
     <div className="custom-website-design page-wrapper">
-      <img src={customDesign} alt="Watercolor Wireframes of Website Design" />
+      <img
+        src={customDesign}
+        alt="Watercolor Wireframes of Website Design"
+        className="hero-image"
+      />
       <div className="content">
         <h1>Custom Website Design</h1>
         <p>
@@ -47,9 +51,8 @@ export default function CustomWebsiteDesign() {
           lines of today’s business battlefield. You want YOUR site to be
           focused on YOUR users. You want it to bring results. We can help. For
           fast answers and an accurate quote, please fill out the{" "}
-          <Link to="/website-design/inquiry-form">inquiry form</Link>{" "} 
-           and a representative will contact you.
-
+          <Link to="/website-design/inquiry-form">inquiry form</Link> and a
+          representative will contact you.
         </p>
       </div>
       <Helmet>

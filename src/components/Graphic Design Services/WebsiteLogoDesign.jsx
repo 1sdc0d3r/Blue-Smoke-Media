@@ -7,7 +7,11 @@ import logoDesign from "../../images/Website-logo-design-services.png";
 export default function WebsiteLogoDesign() {
   return (
     <div className="website-logo-design page-wrapper">
-      <img src={logoDesign} alt="Professionally Designed Branded Logos" />
+      <img
+        src={logoDesign}
+        alt="Professionally Designed Branded Logos"
+        className="hero-image"
+      />
       <div className="content">
         <h1>Website Logos</h1>
         <p>

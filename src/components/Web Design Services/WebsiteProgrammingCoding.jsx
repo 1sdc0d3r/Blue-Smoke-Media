@@ -11,6 +11,7 @@ export default function WebsiteProgrammingCoding() {
         <img
           src={coding}
           alt="Matching your business needs with the most appropriate Web technology."
+          className="hero-image"
         />
         <div className="content">
           <h1>Coding and Web Programming</h1>

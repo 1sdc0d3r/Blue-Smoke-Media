@@ -1,8 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 //* Images
-import SocialMediaImg from "../images/High Quality Social Media Services_Social Account Boost_Boost Your Social Media Accounts.png";
+import SocialMediaImg from "../images/High_Quality_Social_Media_Services.png";
 
 export default function SocialMedia() {
   return (
@@ -11,12 +10,11 @@ export default function SocialMedia() {
         <img
           src={SocialMediaImg}
           alt="High Quality Social Media Services_Social Account Boost_Boost Your Social Media Accounts"
+          className="hero-image"
         />
         <h1>
           {" "}
-          Social Media: Why It Is 100% Essential 
-          (and How to Use It Well)
-        
+          Social Media: Why It Is 100% Essential (and How to Use It Well)
         </h1>
         <p>
           Social media is a form of electronic communication designed to let
@@ -32,8 +30,8 @@ export default function SocialMedia() {
           “Social media are interactive computer-mediated technologies that
           facilitate the creation or sharing of information, ideas, career
           interests and other forms of expression via virtual communities and
-          networks.” They go on further to say, ”Social media can help to improve
-          an individual's sense of connectedness with real or 
+          networks.” They go on further to say, ”Social media can help to
+          improve an individual's sense of connectedness with real or 
           <a href="https://en.wikipedia.org/wiki/Online">online</a>
            communities and can be an effective communication (or 
           <a href="https://en.wikipedia.org/wiki/Marketing">marketing</a>) tool

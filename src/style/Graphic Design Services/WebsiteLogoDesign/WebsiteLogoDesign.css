@@ -1,36 +1,3 @@
-.website-logo-design img {
-  width: 100%;
-  height: 50vh;
-}
-
-@media (min-width: 737px) and (max-width: 980px) {
-  .website-logo-design img {
-    height: 40vh;
-  }
-}
-
-@media (max-width: 360px) {
-  .website-logo-design img {
-    height: 25vh;
-  }
-}
-
-@media (min-width: 361px) and (max-width: 480px) {
-  .website-logo-design img {
-    height: 25vh;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 736px) {
-  .website-logo-design img {
-    height: 25vh;
-  }
-}
-
-.website-logo-design .content {
-  margin: 2em 3em 4em;
-}
-
 .website-logo-design .content h1 {
   font-size: 2em;
   margin: 1.2em auto;

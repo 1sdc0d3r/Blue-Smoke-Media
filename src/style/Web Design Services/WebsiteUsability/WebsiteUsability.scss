@@ -1,18 +1,6 @@
 @import "../../Utils/Mixins/Mixins.scss";
 
 .website-usability {
-  img {
-    width: 100%;
-    height: 65vh;
-
-    @include breakpoint(m) {
-      height: 50vh;
-    }
-    @include breakpoint(xxs, xs, s) {
-      height: 30vh;
-    }
-  }
-
   .content {
     margin: auto 2em 2em;
     text-align: left;

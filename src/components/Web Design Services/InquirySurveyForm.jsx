@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import * as emailjs from "emailjs-com";
+import { Helmet } from "react-helmet";
 
 export default function Contact() {
   const [data, setData] = useState({
@@ -163,30 +164,36 @@ export default function Contact() {
             <div className="time">
               <label for="time">Best Time to be Reached: </label>
               <div>
-                <input
-                  type="radio"
-                  name="time"
-                  className="radio"
-                  value="morning"
-                  onChange={onChangeHandler}
-                />
-                Morning
-                <input
-                  type="radio"
-                  name="time"
-                  className="radio"
-                  value="afternoon"
-                  onChange={onChangeHandler}
-                />
-                Afternoon
-                <input
-                  type="radio"
-                  name="time"
-                  className="radio"
-                  value="evening"
-                  onChange={onChangeHandler}
-                />
-                Evening
+                <label>
+                  <input
+                    type="radio"
+                    name="time"
+                    className="radio"
+                    value="morning"
+                    onChange={onChangeHandler}
+                  />
+                  Morning
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="time"
+                    className="radio"
+                    value="afternoon"
+                    onChange={onChangeHandler}
+                  />
+                  Afternoon
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="time"
+                    className="radio"
+                    value="evening"
+                    onChange={onChangeHandler}
+                  />
+                  Evening
+                </label>
               </div>
             </div>
           </div>
@@ -296,6 +303,21 @@ export default function Contact() {
           </div>
         </form>
       </div>
+      <Helmet>
+        <meta name="title" content=" Inquiry Form" />
+        <meta
+          name="description"
+          content="We are a Digital & Printed Media company in the following locations: Knoxville TN, Ogden UT, Salt Lake City UT, Spokane WA, Austin TX"
+        />
+        <meta
+          name="keywords"
+          content="Custom Website Design, Search Engine Optimization (SEO), Social Media Marketing (SMM)"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta http-equiv="content-Type" content="text/html" />
+        <meta name="language" content="English" />
+        <meta name="revisit-after" content="3 days" />
+      </Helmet>
     </>
   );
 }

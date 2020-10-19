@@ -1,20 +1,8 @@
 @import "../../Utils/Mixins/Mixins.scss";
 
 .ad-copy-writing {
-  img {
-    width: 85%;
-    height: 70vh;
-
-    @include breakpoint(m) {
-      height: 50vh;
-    }
-    @include breakpoint(xxs, xs, s) {
-      height: 30vh;
-    }
-  }
-
   .content {
-    margin: auto 2em 4em;
+    // margin: auto 2em 4em;
 
     h1 {
       margin: 1.8em auto 1.2em;

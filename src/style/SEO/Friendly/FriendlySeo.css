@@ -4,101 +4,71 @@
 }
 
 .seo-friendly img {
-  width: 100%;
-  height: 70vh;
   border-bottom: 2px outset #020723;
 }
 
-@media (min-width: 737px) and (max-width: 980px) {
-  .seo-friendly img {
-    height: 50vh;
-  }
-}
-
-@media (max-width: 360px) {
-  .seo-friendly img {
-    height: 30vh;
-  }
-}
-
-@media (min-width: 361px) and (max-width: 480px) {
-  .seo-friendly img {
-    height: 30vh;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 736px) {
-  .seo-friendly img {
-    height: 30vh;
-  }
-}
-
-.seo-friendly .wrapper {
-  margin: 0 1.5rem;
-}
-
-.seo-friendly .wrapper h1 {
+.seo-friendly h1 {
   text-align: center;
   margin: 1.25em auto;
 }
 
 @media (max-width: 360px) {
-  .seo-friendly .wrapper h1 {
+  .seo-friendly h1 {
     font-size: 1.7em;
   }
 }
 
 @media (min-width: 361px) and (max-width: 480px) {
-  .seo-friendly .wrapper h1 {
+  .seo-friendly h1 {
     font-size: 1.7em;
   }
 }
 
 @media (min-width: 481px) and (max-width: 736px) {
-  .seo-friendly .wrapper h1 {
+  .seo-friendly h1 {
     font-size: 1.7em;
   }
 }
 
 @media (min-width: 737px) and (max-width: 980px) {
-  .seo-friendly .wrapper h1 {
+  .seo-friendly h1 {
     font-size: 1.7em;
   }
 }
 
-.seo-friendly .wrapper h2 {
+.seo-friendly h2 {
   text-align: center;
 }
 
 @media (min-width: 981px) and (max-width: 1280px) {
-  .seo-friendly .wrapper h2 {
+  .seo-friendly h2 {
     font-size: 1.35em;
   }
 }
 
-.seo-friendly .wrapper p a {
+.seo-friendly p a {
   text-decoration: none;
 }
 
-.seo-friendly .wrapper p a span {
+.seo-friendly p a span {
   font-weight: 600;
 }
 
-.seo-friendly .wrapper p:last-child {
+.seo-friendly p:last-child {
   margin-bottom: 2.2em;
 }
 
-.seo-friendly .wrapper h4 {
+.seo-friendly h4 {
   font-size: 1.25em;
 }
 
 @media (min-width: 981px) and (max-width: 1280px) {
-  .seo-friendly .wrapper h4 {
+  .seo-friendly h4 {
     margin-bottom: 0;
   }
 }
 
-.seo-friendly .wrapper #contact {
+.seo-friendly #contact {
   color: #ee3e0e;
 }
 /*# sourceMappingURL=FriendlySeo.css.map */

@@ -1,6 +1,12 @@
 @import "../Utils/Mixins/Mixins.scss";
 .home {
   z-index: 50;
+  width: 95%;
+  margin: auto;
+  @include breakpoint(xxs, xs, s, m) {
+    width: 98%;
+    margin: auto;
+  }
 
   .globe {
     display: flex;
@@ -11,13 +17,16 @@
     padding: 2em 0 1.5em;
     margin-top: 3em;
     min-width: 80%;
-    border-bottom: 0.5em solid #020723;
+
+    @include breakpoint(xxs, xs, s, m) {
+      margin-top: 1em;
+    }
 
     @include breakpoint(xxs, xs, s) {
       background-image: url("../../images/grey_background_globe-element_for_mobile.png");
     }
 
-    p:first-child {
+    div {
       text-align: center;
       font-weight: normal;
       width: 40%;
@@ -84,6 +93,8 @@
     }
 
     .content {
+      display: flex;
+      flex-direction: column;
       color: $white;
       margin: 2em;
       width: 80%;
@@ -101,16 +112,13 @@
       }
 
       video {
-        margin: 1em 1em 2em;
+        // margin-left: 15%;
+        margin: 1em auto 2em;
         width: 70%;
-        margin-left: 15%;
         border: 4px solid $darkBlue;
         @include breakpoint(xxs, xs, s, m) {
           width: 90%;
-          // margin: 5em 1em;
-        }
-        @include breakpoint(m) {
-          // margin: 8em 1em;
+          // margin: auto;
         }
       }
       h2 {
@@ -152,7 +160,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
-      margin: 7% auto 13%;
+      margin: 2em auto 0;
 
       .service-card {
         display: flex;
@@ -191,7 +199,7 @@
         a {
           color: $orange;
           &:hover {
-            color: $darkBlue;
+            color: goldenrod;
           }
         }
       }
@@ -239,7 +247,7 @@
           justify-content: space-evenly;
           border: 3px inset goldenrod;
           width: 37%;
-          padding: 1em 1em 0;
+          padding: 1.5em 1em 2em;
           color: $lightBlue;
           background: $royalBlue;
 
@@ -281,7 +289,7 @@
             font-weight: 700;
           }
           a {
-            margin: 0.5em auto 1em;
+            margin: 0.75em auto 1em;
             padding: 0.4em;
             border: 1px solid $darkBlue;
             box-shadow: 2px 2px $darkBlue;
@@ -299,3 +307,4 @@
     }
   }
 }
+// }

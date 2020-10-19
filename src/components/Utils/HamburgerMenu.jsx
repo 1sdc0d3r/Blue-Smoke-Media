@@ -82,7 +82,11 @@ export default withRouter(function HamburgerMenu(props) {
             <li>Pricing</li>
           </Link>
 
-          <a href="#blog" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://bluesmokemedianomads.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <li>Blog</li>
           </a>
 

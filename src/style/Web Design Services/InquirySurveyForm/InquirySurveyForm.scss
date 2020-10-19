@@ -33,6 +33,7 @@
   }
 
   form {
+    width: 90%;
     @include breakpoint(xxs, xs, s, m) {
       margin-left: 5%;
     }
@@ -85,9 +86,12 @@
 
         div {
           @include breakpoint(xxs, xs, s, m) {
-            // display: flex;
             margin: auto;
             width: 75%;
+          }
+          @include breakpoint(xxs, xs, s) {
+            display: flex;
+            flex-direction: column;
           }
 
           input[type="radio"] {

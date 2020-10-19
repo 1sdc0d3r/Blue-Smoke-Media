@@ -14,6 +14,7 @@ export default function PrintAndDesignGraphicServices() {
       <img
         src={fingersCrossed}
         alt="Blue Smoke Digital and Printed Media Graphic Design Experts"
+        className="hero-image"
       />
 
       <h1>Print and Graphic Design Services</h1>

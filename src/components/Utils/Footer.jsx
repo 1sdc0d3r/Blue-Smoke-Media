@@ -5,7 +5,7 @@ import PaymentIcon from "react-payment-icons";
 import twitter from "../../images/Twitter.png";
 import linkedIn from "../../images/linkedIn_social_media_button.png";
 import facebook from "../../images/faceBook.png";
-
+import googleReview from "../../images/icon-Google-review.png";
 const chevron = (
   <svg
     viewBox="0 0 20 20"
@@ -15,7 +15,7 @@ const chevron = (
     <polyline
       fill="none"
       stroke="#ee3e0e"
-      stroke-width="3.0"
+      strokeWidth="3.0"
       points="7 4 13 10 7 16"
     ></polyline>
   </svg>
@@ -184,13 +184,16 @@ export default function Footer() {
                 <img src={twitter} alt="Twitter Social Media Button" />
               </a>
             </li>
-            {/* <li>
-              //todo google link here
-              <a href="https://google.com/" target="_blank" rel="noopener noreferrer">
+            <li>
+              <a
+                href="https://search.google.com/local/writereview?placeid=ChIJJfs6ZcFvWogRJE1LyrS-E5Y"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 {chevron}
                 <img src={googleReview} alt="Google Social Media Button" />
               </a>
-            </li> */}
+            </li>
           </ul>
         </div>
       </footer>

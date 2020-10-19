@@ -10,6 +10,7 @@ export default function AdCopyWriting() {
       <img
         src={AdCopyWritingImg}
         alt="Creating copy that will allow your clients to envision your product or service."
+        className="hero-image"
       />
       <div className="content">
         <h1>

@@ -2,21 +2,12 @@
 
 .e-commerce-website-development {
   img {
-    width: 100%;
-    height: 65vh;
-    // border-top: 2px solid $darkBlue;
     border-bottom: 2px outset $darkBlue;
-
-    @include breakpoint(m) {
-      height: 50vh;
-    }
-    @include breakpoint(xxs, xs, s) {
-      height: 35vh;
-    }
   }
 
   .content {
-    margin: auto 2em 2em;
+    // margin: auto 2em 2em;
+    // margin-bottom: 2em;
 
     h1 {
       margin: 1em auto 0.8em;

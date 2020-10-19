@@ -1,55 +1,9 @@
 .custom-website-design img {
-  height: 60vh;
-  width: 90%;
   border: 2px solid #020723;
-  margin-top: 1em;
-}
-
-@media (min-width: 737px) and (max-width: 980px) {
-  .custom-website-design img {
-    height: 40vh;
-  }
-}
-
-@media (max-width: 360px) {
-  .custom-website-design img {
-    height: 30vh;
-  }
-}
-
-@media (min-width: 361px) and (max-width: 480px) {
-  .custom-website-design img {
-    height: 30vh;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 736px) {
-  .custom-website-design img {
-    height: 30vh;
-  }
 }
 
 .custom-website-design .content {
-  margin: 2em 2em 4em;
   text-align: left;
-}
-
-@media (max-width: 360px) {
-  .custom-website-design .content {
-    margin: 1.5em 0;
-  }
-}
-
-@media (min-width: 361px) and (max-width: 480px) {
-  .custom-website-design .content {
-    margin: 1.5em 0;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 736px) {
-  .custom-website-design .content {
-    margin: 1.5em 0;
-  }
 }
 
 .custom-website-design .content h1 {

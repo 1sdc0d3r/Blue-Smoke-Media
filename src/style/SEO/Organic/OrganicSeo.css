@@ -4,60 +4,12 @@
 }
 
 .organic-seo img {
-  width: 100%;
-  height: 40vh;
   border-bottom: 2px outset #020723;
-}
-
-@media (min-width: 737px) and (max-width: 980px) {
-  .organic-seo img {
-    height: 35vh;
-  }
-}
-
-@media (max-width: 360px) {
-  .organic-seo img {
-    height: 25vh;
-  }
-}
-
-@media (min-width: 361px) and (max-width: 480px) {
-  .organic-seo img {
-    height: 25vh;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 736px) {
-  .organic-seo img {
-    height: 25vh;
-  }
 }
 
 .organic-seo h1 {
   text-align: center;
   margin: 1.25em auto;
-}
-
-.organic-seo p {
-  margin: 0.5em 1.5em;
-}
-
-@media (max-width: 360px) {
-  .organic-seo p {
-    margin: 1.5em 2em;
-  }
-}
-
-@media (min-width: 361px) and (max-width: 480px) {
-  .organic-seo p {
-    margin: 1.5em 2em;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 736px) {
-  .organic-seo p {
-    margin: 1.5em 2em;
-  }
 }
 
 .organic-seo p:last-child {

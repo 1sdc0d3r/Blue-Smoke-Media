@@ -7,7 +7,11 @@ import printedMedia from "../../images/printed-media.png";
 export default function PrintedMediaLogos() {
   return (
     <div className="printed-logos page-wrapper">
-      <img src={printedMedia} alt="Printed Media and Materials Logo Designs" />
+      <img
+        src={printedMedia}
+        alt="Printed Media and Materials Logo Designs"
+        className="hero-image"
+      />
       <div>
         <h1>Printed Media Logos</h1>
         <p>

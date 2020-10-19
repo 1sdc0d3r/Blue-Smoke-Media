@@ -1,27 +1,28 @@
 import React from "react";
 import { NavLink, withRouter } from "react-router-dom";
+import { FiChevronDown } from "react-icons/fi";
 
-export default withRouter(function Navigation(props) {
-  const dropArrow = (
-    <svg
-      style={{
-        width: "20",
-        height: "20",
-        viewBox: "0 0 20 20",
-        color: "#7ff76f",
-      }}
-    >
-      <polygon points="5,5 13,15 20,5" />
-    </svg>
-  );
+export default withRouter(function Navigation({ history }) {
+  // history.listen(() => {});
+  const dropArrow = <FiChevronDown color="#7ff76f" />;
+  // const dropArrow = (
+  //   <svg
+  //     style={{
+  //       width: "20",
+  //       height: "20",
+  //       viewBox: "0 0 20 20",
+  //       fill: "#7ff76f",
+  //     }}
+  //   >
+  //     <polygon points="5,5 13,15 20,5" />
+  //   </svg>
+  // //  uk-icon="icon: triangle-down-NOTHING"
+  // );
+  // todo fix dropdown-content not going away on change
   return (
     <nav className="main-nav">
       <div className="dropdown">
-        <button
-          className="drop-btn nav-item "
-          onClick={() => props.history.push("/")}
-          uk-icon="icon: triangle-down-NOTHING"
-        >
+        <button className="drop-btn nav-item" onClick={() => history.push("/")}>
           Home{dropArrow}
         </button>
         <div className="dropdown-content home-drop">
@@ -45,10 +46,7 @@ export default withRouter(function Navigation(props) {
         Our Team
       </NavLink>
       <div className="dropdown">
-        <button
-          className="drop-btn nav-item"
-          uk-icon="icon: triangle-down-NOTHING"
-        >
+        <button className="drop-btn nav-item">
           Services
           {dropArrow}
         </button>
@@ -139,9 +137,8 @@ export default withRouter(function Navigation(props) {
       {/* <NavLink to="/portfolio" className="nav-item">
         Our Work
       </NavLink> */}
-      {/* //todo BLOG */}
       <a
-        href="#blog"
+        href="https://bluesmokemedianomads.com"
         target="_blank"
         rel="noopener noreferrer"
         className="nav-item"

@@ -27,6 +27,7 @@ import WebsiteLogoDesign from "./components/Graphic Design Services/WebsiteLogoD
 import Contact from "./components/Contact";
 import CTA from "./components/Header-CTA";
 import HamburgerMenu from "./components/Utils/HamburgerMenu";
+import DropMenu from "./components/Utils/DropMenu";
 // * Media
 import PrivacyPolicy from "./components/privacy";
 import Article from "./components/Article";
@@ -59,19 +60,19 @@ function App() {
               (document.querySelector(".covid-banner").style.display = "none")
             }
           />
-          Due to the Covid 19 epidemic, we are willing to offer discounts to
-          individual and small businesses. Please email or call us for further
-          information. It is our goal to help in keeping our communities
-          together.
+          Due to the COVID-19 pandemic, we are offering lower prices to help
+          accommodate the smaller businesses in the US. It is our goal to help
+          in keeping our communities together.
         </p>
         <header>
           <div>
             <Header />
             <Navigation />
-            <HamburgerMenu />
+            {/* <HamburgerMenu /> */}
           </div>
           <CTA />
         </header>
+        <DropMenu />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/team" component={Team} />
@@ -127,6 +128,12 @@ function App() {
           <Route path="/article/:id" component={Article} />
           <Redirect to="/" />
         </Switch>
+
+        {/* //todo scroll to top
+         <p id="scroll-top">
+          ^<br />
+          Top
+        </p> */}
         <Footer />
       </>
     </div>

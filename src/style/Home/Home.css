@@ -1,5 +1,35 @@
 .home {
   z-index: 50;
+  width: 95%;
+  margin: auto;
+}
+
+@media (max-width: 360px) {
+  .home {
+    width: 98%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .home {
+    width: 98%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .home {
+    width: 98%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  .home {
+    width: 98%;
+    margin: auto;
+  }
 }
 
 .home .globe {
@@ -16,7 +46,30 @@
   padding: 2em 0 1.5em;
   margin-top: 3em;
   min-width: 80%;
-  border-bottom: 0.5em solid #020723;
+}
+
+@media (max-width: 360px) {
+  .home .globe {
+    margin-top: 1em;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .home .globe {
+    margin-top: 1em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .home .globe {
+    margin-top: 1em;
+  }
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  .home .globe {
+    margin-top: 1em;
+  }
 }
 
 @media (max-width: 360px) {
@@ -37,7 +90,7 @@
   }
 }
 
-.home .globe p:first-child {
+.home .globe div {
   text-align: center;
   font-weight: normal;
   width: 40%;
@@ -47,20 +100,20 @@
 }
 
 @media (min-width: 981px) and (max-width: 1280px) {
-  .home .globe p:first-child {
+  .home .globe div {
     margin-top: 3%;
   }
 }
 
 @media (min-width: 737px) and (max-width: 980px) {
-  .home .globe p:first-child {
+  .home .globe div {
     font-size: 0.9em;
     text-align: left;
   }
 }
 
 @media (max-width: 360px) {
-  .home .globe p:first-child {
+  .home .globe div {
     text-align: center;
     width: 90%;
     margin: auto;
@@ -68,7 +121,7 @@
 }
 
 @media (min-width: 361px) and (max-width: 480px) {
-  .home .globe p:first-child {
+  .home .globe div {
     text-align: center;
     width: 90%;
     margin: auto;
@@ -76,14 +129,14 @@
 }
 
 @media (min-width: 481px) and (max-width: 736px) {
-  .home .globe p:first-child {
+  .home .globe div {
     text-align: center;
     width: 90%;
     margin: auto;
   }
 }
 
-.home .globe p:first-child h1 {
+.home .globe div h1 {
   display: inline-block;
   font-size: 2em;
   font-weight: bold;
@@ -94,25 +147,25 @@
 }
 
 @media (min-width: 737px) and (max-width: 980px) {
-  .home .globe p:first-child h1 {
+  .home .globe div h1 {
     font-size: 1.6em;
   }
 }
 
 @media (max-width: 360px) {
-  .home .globe p:first-child h1 {
+  .home .globe div h1 {
     font-size: 1.5em;
   }
 }
 
 @media (min-width: 361px) and (max-width: 480px) {
-  .home .globe p:first-child h1 {
+  .home .globe div h1 {
     font-size: 1.5em;
   }
 }
 
 @media (min-width: 481px) and (max-width: 736px) {
-  .home .globe p:first-child h1 {
+  .home .globe div h1 {
     font-size: 1.5em;
   }
 }
@@ -160,6 +213,13 @@
 }
 
 .home .social-media .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   color: #d7dae6;
   margin: 2em;
   width: 80%;
@@ -177,9 +237,8 @@
 }
 
 .home .social-media .content video {
-  margin: 1em 1em 2em;
+  margin: 1em auto 2em;
   width: 70%;
-  margin-left: 15%;
   border: 4px solid #020723;
 }
 
@@ -253,7 +312,7 @@
       flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin: 7% auto 13%;
+  margin: 2em auto 0;
 }
 
 .home .services .services-card-container .service-card {
@@ -338,7 +397,7 @@
 }
 
 .home .services .services-card-container .service-card a:hover {
-  color: #020723;
+  color: goldenrod;
 }
 
 .home .plans-pricing {
@@ -465,7 +524,7 @@
           justify-content: space-evenly;
   border: 3px inset goldenrod;
   width: 37%;
-  padding: 1em 1em 0;
+  padding: 1.5em 1em 2em;
   color: #1e92f6;
   background: #04227a;
 }
@@ -528,7 +587,7 @@
 }
 
 .home .plans-pricing .plans-card-container .plan-card-set .plan-card a {
-  margin: 0.5em auto 1em;
+  margin: 0.75em auto 1em;
   padding: 0.4em;
   border: 1px solid #020723;
   -webkit-box-shadow: 2px 2px #020723;
