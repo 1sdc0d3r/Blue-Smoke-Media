@@ -128,6 +128,12 @@ function App() {
           <Route path="/article/:id" component={Article} />
           <Redirect to="/" />
         </Switch>
+
+        {/* //todo scroll to top
+         <p id="scroll-top">
+          ^<br />
+          Top
+        </p> */}
         <Footer />
       </>
     </div>

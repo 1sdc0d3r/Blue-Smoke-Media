@@ -99,4 +99,18 @@ html {
       align-self: center;
   margin: 0 0.25em 0 0.5em;
 }
+
+.App #scroll-top {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 1em;
+  left: 0.75em;
+  text-align: center;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  font-weight: 700;
+  color: #ee3e0e;
+  line-height: 0.8em;
+}
 /*# sourceMappingURL=App.css.map */

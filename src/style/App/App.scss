@@ -80,4 +80,17 @@ html {
   //   fill: red !important;
   //   color: goldenrod !important;
   // }
+  #scroll-top {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 1em;
+    left: 0.75em;
+    text-align: center;
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+    font-weight: 700;
+    color: $orange;
+    line-height: 0.8em;
+  }
 }
