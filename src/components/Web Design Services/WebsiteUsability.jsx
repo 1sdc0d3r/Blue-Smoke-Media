@@ -78,11 +78,10 @@ export default function WebsiteUsability() {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
         {/* <!-- Mobile Meta --> */}
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <link
           rel="canonical"
-          href="https://www.bluesmokedigitalandprintedmedia.com/Web Design Services/WebsiteUseability"
+          href="https://bluesmokedigitalandprintedmedia.com/website-design/website-useability"
         />
 
         {/* <!-- HTML Meta Tags --> */}

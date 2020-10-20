@@ -71,7 +71,6 @@ export default function AdCopyWriting() {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
         {/* <!-- Mobile Meta --> */}
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <link
           rel="canonical"
