@@ -208,8 +208,9 @@ export default function Home() {
               channels your business should use — it’s more about the needs of
               your target audience and where they tend to spend their time.
             </p>
-          {/* <img src={socialMedia} alt="social media globe" /> */}
-        </section>
+            {/* <img src={socialMedia} alt="social media globe" /> */}
+          </div>
+        </div>
         <section className="plans-pricing">
           <h1>
             <span>Our </span>Plans & Pricing
@@ -344,9 +345,8 @@ export default function Home() {
               </p>
             </div>
           </div>
-        </div>
+        </section>
       </section>
-
       <Helmet>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
