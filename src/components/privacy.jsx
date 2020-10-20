@@ -92,7 +92,7 @@ export default function PrivacyPolicy() {
         </span>
         {ReactHtmlParser(` for further information.
 
-        To post testimonials. We post testimonials on our Website that may contain personal information. Prior to posting a testimonial, we will obtain your consent to use your name and the consent of the testimonial. If you wish to update, or delete your testimonial, please contact us at <a href="mailto:info@bluesmokemedia.net">info@bluesmokemedia.net</a> and be sure to include your name, testimonial location, and contact information.
+        To post testimonials. We post testimonials on our Website that may contain personal information. Prior to posting a testimonial, we will obtain your consent to use your name and the consent of the testimonial. If you wish to update, or delete your testimonial, please contact us at <a href="mailto:services@bluesmokemedia.net">services@bluesmokemedia.net</a> and be sure to include your name, testimonial location, and contact information.
 
         Request feedback. We may use your information to request feedback and to contact you about your use of our Website.
 
@@ -158,7 +158,7 @@ We have implemented appropriate technical and organizational security measures d
 `}
         <h4 ref={ref8}>8. DO WE COLLECT INFORMATION FROM MINORS?</h4>
         {ReactHtmlParser(`In Short:  We do not knowingly collect data from or market to children under 18 years of age.
-We do not knowingly solicit data from or market to children under 18 years of age. By using the Website, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Website. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at <a href="mailto:info@bluesmokemedia.net">info@bluesmokemedia.net</a>.
+We do not knowingly solicit data from or market to children under 18 years of age. By using the Website, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Website. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at <a href="mailto:services@bluesmokemedia.net">services@bluesmokemedia.net</a>.
 `)}
         <h4 ref={ref9}>9. WHAT ARE YOUR PRIVACY RIGHTS?</h4>
         {ReactHtmlParser(`In Short:  You may review, change, or terminate your account at any time.
@@ -239,7 +239,7 @@ How do we use and share your personal information?
 
 More information about our data collection and sharing practices can be found in this privacy notice.
 
-You may contact us by email at <a href='mailto:info@bluesmokemedia.net'>info@bluesmokemedia.net</a>, by visiting <a href='https://www.bluesmokedigitalandprintedmedia.com'>BlueSmokePrintedAndDigitalMedia.com</a>, or by referring to the contact details at the bottom of this document.
+You may contact us by email at <a href='mailto:services@bluesmokemedia.net'>services@bluesmokemedia.net</a>, by visiting <a href='https://www.bluesmokedigitalandprintedmedia.com'>BlueSmokePrintedAndDigitalMedia.com</a>, or by referring to the contact details at the bottom of this document.
 
 If you are using an authorized agent to exercise your right to opt-out, we may deny a request if the authorized agent does not submit proof that they have been validly authorized to act on your behalf.
 
@@ -284,7 +284,7 @@ you may object to the processing of your personal data
 you may request correction of your personal data if it is incorrect or no longer relevant, or ask to restrict the processing of the data
 you can designate an authorized agent to make a request under the CCPA on your behalf. We may deny a request from an authorized agent that does not submit proof that they have been validly authorized to act on your behalf in accordance with the CCPA.
 you may request to opt-out from future selling of your personal information to third parties. Upon receiving a request to opt-out, we will act upon the request as soon as feasibly possible, but no later than 15 days from the date of the request submission.
-To exercise these rights, you can contact us by email at <a href='mailto:info@bluesmokemedia.net'>info@bluesmokemedia.net</a>, by visiting <a href='https://www.bluesmokedigitalandprintedmedia.com'>BlueSmokePrintedAndDigitalMedia.com</a>, or by referring to the contact details at the bottom of this document. If you have a complaint about how we handle your data, we would like to hear from you.
+To exercise these rights, you can contact us by email at <a href='mailto:services@bluesmokemedia.net'>services@bluesmokemedia.net</a>, by visiting <a href='https://www.bluesmokedigitalandprintedmedia.com'>BlueSmokePrintedAndDigitalMedia.com</a>, or by referring to the contact details at the bottom of this document. If you have a complaint about how we handle your data, we would like to hear from you.
 `)}
         <h4 ref={ref12}>12. DO WE MAKE UPDATES TO THIS NOTICE?</h4>
         {`In Short:  Yes, we will update this notice as necessary to stay compliant with relevant laws.
@@ -292,7 +292,7 @@ We may update this privacy notice from time to time. The updated version will b
 
 `}
         <h4 ref={ref13}>13. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</h4>
-        {ReactHtmlParser(`If you have questions or comments about this notice, you may email us at <a href='mailto:info@bluesmokemedia.net'>info@bluesmokemedia.net</a> or by mail to: Blue Smoke Digital and Printed Media LLC
+        {ReactHtmlParser(`If you have questions or comments about this notice, you may email us at <a href='mailto:services@bluesmokemedia.net'>services@bluesmokemedia.net</a> or by mail to: Blue Smoke Digital and Printed Media LLC
 
 
 HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?
