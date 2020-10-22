@@ -6,7 +6,7 @@ import noCheck from "../images/Red_x.svg";
 
 export default function PriceChart() {
   const startNowHandler = () => {
-    console.log("start now");
+    // console.log("start now");
   };
 
   return (
@@ -15,10 +15,14 @@ export default function PriceChart() {
         <h1 style={{ display: "none" }}>Plans and Pricing</h1>
         <div className="col col-1">
           <div>
-            <p>Price Table</p>
+            <p>
+              Price
+              <br />
+              Table
+            </p>
           </div>
           <p className="row row-light">Organic SEO</p>
-          <p className="row row-dark">Custom Domain Name</p>
+          <p className="row row-dark domain-name">Custom Domain Name</p>
           <p className="row row-light">E-mail Addresses</p>
           <p className="row row-dark">Bandwidth per Month</p>
           <p className="row row-light">Secure Website (SSL)</p>
@@ -218,11 +222,15 @@ export default function PriceChart() {
           <Link
             className="row row-light start-now"
             onClick={() => startNowHandler}
+            to="/website-design/inquiry-form"
           >
             Start Now
           </Link>
         </div>
       </div>
+      <p className="domain-name-info domain-table">
+        Included free for first year.
+      </p>
       <div className="price-cards">
         <div className="card">
           <h3>5 page website</h3>
@@ -232,7 +240,7 @@ export default function PriceChart() {
           <div className="w-space" />
           <ul>
             <li>Organic SEO</li>
-            <li>Custom Domain Name</li>
+            <li className="domain-name">Custom Domain Name</li>
             <li>5 e-mail addresses</li>
             <li>5 GB Bandwidth per month</li>
             <li>Secure Website (SSL)</li>
@@ -251,7 +259,7 @@ export default function PriceChart() {
           <div className="w-space" />
           <ul>
             <li>Organic SEO</li>
-            <li>Custom Domain Name</li>
+            <li className="domain-name">Custom Domain Name</li>
             <li>10 e-mail addresses</li>
             <li>15 GB Bandwidth per month</li>
             <li>Secure Website (SSL)</li>
@@ -270,9 +278,9 @@ export default function PriceChart() {
           <div className="w-space" />
           <ul>
             <li>Organic SEO</li>
-            <li>Custom Domain Name</li>
+            <li className="domain-name">Custom Domain Name</li>
             <li>20 e-mail addresses</li>
-            <li>Unlimited Bandwidth per month</li>
+            <li>Unlimited Bandwidth</li>
             <li>Secure Website (SSL)</li>
             <li>Mobile-Friendly Site</li>
             <li>Website Support</li>
@@ -292,9 +300,9 @@ export default function PriceChart() {
           <div className="w-space" />
           <ul>
             <li>Organic SEO</li>
-            <li>Custom Domain Name</li>
+            <li className="domain-name">Custom Domain Name</li>
             <li>10 e-mail addresses</li>
-            <li>Unlimited Bandwidth per month</li>
+            <li>Unlimited Bandwidth</li>
             <li>Secure Website (SSL)</li>
             <li>Mobile-Friendly Site</li>
             <li>Website Support</li>
@@ -307,6 +315,9 @@ export default function PriceChart() {
           </div>
         </div>
       </div>
+      <p className="domain-name-info domain-cards">
+        Included free for first year.
+      </p>
     </>
   );
 }

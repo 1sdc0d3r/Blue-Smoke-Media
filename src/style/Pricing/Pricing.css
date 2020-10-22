@@ -1,3 +1,59 @@
+.domain-name::after {
+  content: "*";
+}
+
+.domain-name-info {
+  text-align: center;
+  margin: 0;
+  font-size: 0.8em;
+}
+
+.domain-name-info::before {
+  content: "*";
+}
+
+@media (max-width: 360px) {
+  .domain-table {
+    display: none;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .domain-table {
+    display: none;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .domain-table {
+    display: none;
+  }
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  .domain-table {
+    display: none;
+  }
+}
+
+@media (min-width: 981px) and (max-width: 1280px) {
+  .domain-cards {
+    display: none;
+  }
+}
+
+@media (min-width: 1281px) and (max-width: 1680px) {
+  .domain-cards {
+    display: none;
+  }
+}
+
+@media (min-width: 1681px) {
+  .domain-cards {
+    display: none;
+  }
+}
+
 .price-chart {
   text-transform: uppercase;
   display: -webkit-box;
