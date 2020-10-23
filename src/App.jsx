@@ -26,14 +26,12 @@ import PrintedMediaLogos from "./components/Graphic Design Services/PrintedMedia
 import WebsiteLogoDesign from "./components/Graphic Design Services/WebsiteLogoDesign";
 import Contact from "./components/Contact";
 import CTA from "./components/Header-CTA";
-import HamburgerMenu from "./components/Utils/HamburgerMenu";
 import DropMenu from "./components/Utils/DropMenu";
 // * Media
 import PrivacyPolicy from "./components/privacy";
 import Article from "./components/Article";
 import Plans from "./components/Plans";
 import circleX from "./images/circle-X.png";
-
 import Help from "./components/Help";
 
 // ! GOOGLE ANALYTICS

@@ -2,3 +2,4 @@
 User-agent: *
 Disallow:
 Sitemap: https://www.bluesmokedigitalandprintedmedia.com/sitemap.xml
+Crawl-Delay: 10

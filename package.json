@@ -2,6 +2,7 @@
   "name": "blue-smoke-media",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://bluesmokedigitalandprintedmedia.com",
   "dependencies": {
     "@babel/preset-env": "7.11.5",
     "@testing-library/jest-dom": "5.11.4",

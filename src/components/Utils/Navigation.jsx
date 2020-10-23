@@ -36,9 +36,9 @@ export default withRouter(function Navigation({ history }) {
             <NavLink to="/privacy" className="drop-item">
               Privacy Policy
             </NavLink>
-            <NavLink to="/sitemap" className="drop-item">
+            <a href="/sitemap.xml" className="drop-item">
               Sitemap
-            </NavLink>
+            </a>
           </div>
         </div>
       </div>
