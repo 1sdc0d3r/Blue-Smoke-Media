@@ -4,6 +4,12 @@
   "major": {
     "automerge": true
   },
+  "packageRules": [
+    {
+      "updateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    }
+  ],
   "prHourlyLimit": 1,
   "updateNotScheduled": false,
   "timezone": "America/Denver",
