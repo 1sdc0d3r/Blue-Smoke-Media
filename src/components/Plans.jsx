@@ -42,7 +42,8 @@ export default function PriceChart() {
               </h5>
               <hr />
               <p>
-                Starts At <span>$849</span>
+                Starts At <br />
+                <span>$849</span>
               </p>
             </div>
           </div>
@@ -92,7 +93,8 @@ export default function PriceChart() {
               </h5>
               <hr />
               <p>
-                Starts At <span>$1,449</span>
+                Starts At <br />
+                <span>$1,449</span>
               </p>
             </div>
           </div>
@@ -142,7 +144,8 @@ export default function PriceChart() {
               </h5>
               <hr />
               <p>
-                Starts At <span>$2,249</span>
+                Starts At <br />
+                <span>$2,249</span>
               </p>
             </div>
           </div>
@@ -189,7 +192,8 @@ export default function PriceChart() {
               </h5>
               <hr />
               <p>
-                Starts At <span>$1,749</span>
+                Starts At <br />
+                <span>$1,749</span>
               </p>
             </div>
           </div>
