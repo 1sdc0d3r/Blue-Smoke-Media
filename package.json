@@ -25,7 +25,7 @@
     "react-payment-icons": "1.2.6",
     "react-router-dom": "5.2.0",
     "react-scripts": "4.0.0",
-    "uikit": "3.5.8",
+    "uikit": "3.5.9",
     "url-loader": "4.1.0"
   },
   "devDependencies": {
