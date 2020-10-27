@@ -27,9 +27,6 @@ export default withRouter(function Navigation({ history }) {
         </button>
         <div className="dropdown-content home-drop">
           <div className="nav-section">
-            <NavLink to="/plans" className="drop-item">
-              Plans & Pricing
-            </NavLink>
             <NavLink to="/help" className="drop-item">
               Need Help?
             </NavLink>
@@ -133,7 +130,9 @@ export default withRouter(function Navigation({ history }) {
           </div>
         </div>
       </div>
-
+      <NavLink to="/plans" className="nav-item">
+        Pricing
+      </NavLink>
       {/* <NavLink to="/portfolio" className="nav-item">
         Our Work
       </NavLink> */}
