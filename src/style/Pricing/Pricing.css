@@ -109,7 +109,8 @@
 
 .price-chart .col div {
   height: 30%;
-  padding: 0.5em 0 1.2em;
+  padding: 1.5em 0 0.5em;
+  margin: auto;
 }
 
 .price-chart .col div h5,
@@ -198,8 +199,8 @@
 }
 
 .price-chart .col-2 div {
-  background: -webkit-gradient(linear, left bottom, left top, from(#e83e39), color-stop(95%, #c185b3));
-  background: linear-gradient(0deg, #e83e39 0%, #c185b3 95%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#e83e39), to(#c185b3));
+  background: linear-gradient(0deg, #e83e39 0%, #c185b3 100%);
 }
 
 .price-chart .col-3 div {
