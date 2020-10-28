@@ -1,6 +1,7 @@
 import React, { useEffect, lazy, Suspense } from "react";
 import { Switch, Route, useLocation, Redirect } from "react-router-dom";
-import "./style/App/App.css";
+import "./style/core.css";
+
 //* components
 import Home from "./components/Home";
 import Team from "./components/Team";

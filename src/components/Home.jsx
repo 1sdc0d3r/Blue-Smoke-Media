@@ -1,7 +1,7 @@
 import React, { lazy } from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import "../style/Home/Home.css";
+
 //* Images
 import slide_seo from "../images/seo_file.png";
 import slide_custom from "../images/custom_website_design.png";

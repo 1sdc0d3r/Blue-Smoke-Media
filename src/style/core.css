@@ -1,8 +1,8 @@
-/* @import "./App/App.css"; */
-/* @import "./Header/Header.css"; */
+@import "./App/App.css";
+@import "./Header/Header.css";
 @import "./Navigation/Navigation.css";
-/* @import "./Footer/Footer.css"; */
-/* @import "./Home/Home.css"; */
+@import "./Footer/Footer.css";
+@import "./Home/Home.css";
 @import "./Team/Team.css";
 
 /* * Web Design Services*/
