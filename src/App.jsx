@@ -162,6 +162,7 @@ function App() {
             <Route path="/social-media" component={SocialMedia} />
             <Route path="/contact" component={Contact} />
             <Route path="/plans" component={Plans} />
+            <Route path="/pricing" component={Plans} />
             <Route path="/help" component={Help} />
             <Route path="/article/:id" component={Article} />
             <Redirect to="/" />
