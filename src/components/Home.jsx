@@ -8,7 +8,7 @@ import slide_custom from "../images/custom_website_design.webp";
 import slide_sm from "../images/social_media.webp";
 import slide_graphic from "../images/graphic_design.webp";
 
-const cover = lazy(() => import("../images/now-open-cover.webp"));
+import cover from "../images/now-open-cover.webp";
 
 const socialMedia =
   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/Now-open-video_HD720.mp4";
@@ -46,7 +46,7 @@ export default function Home() {
             alt="Video of Services by Blue Smoke Digital and Printed Media"
             type="video/mp4"
             src={socialMedia}
-            preload="none"
+            preload="metadata"
             poster={cover}
             controls
           />
