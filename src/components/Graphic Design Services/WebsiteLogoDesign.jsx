@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 //* Images
-import logoDesign from "../../images/Website-logo-design-services.png";
+import logoDesign from "../../images/Website-logo-design-services.webp";
 
 export default function WebsiteLogoDesign() {
   return (
@@ -75,7 +75,7 @@ export default function WebsiteLogoDesign() {
         />
         <meta
           itemprop="image"
-          content="../../images/Website-logo-design-services.png.png"
+          content="../../images/Website-logo-design-services.webp.webp"
         />
 
         {/* <!-- Facebook Meta Tags --> */}
@@ -91,7 +91,7 @@ export default function WebsiteLogoDesign() {
         />
         <meta
           property="og:image"
-          content="../../images/Website-logo-design-services.png.png"
+          content="../../images/Website-logo-design-services.webp.webp"
         />
 
         {/* <!-- Twitter Meta Tags --> */}
@@ -103,7 +103,7 @@ export default function WebsiteLogoDesign() {
         />
         <meta
           name="twitter:image"
-          content="../../images/Website-logo-design-services.png"
+          content="../../images/Website-logo-design-services.webp"
         />
       </Helmet>
     </div>

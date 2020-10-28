@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 //* Images
-import websiteUsability from "../../images/website_design_useability.png";
+import websiteUsability from "../../images/website_design_useability.webp";
 
 export default function WebsiteUsability() {
   return (
@@ -99,7 +99,7 @@ export default function WebsiteUsability() {
         />
         <meta
           itemprop="image"
-          content="../../images/website_design_useability.png"
+          content="../../images/website_design_useability.webp"
         />
 
         {/* <!-- Facebook Meta Tags --> */}
@@ -115,7 +115,7 @@ export default function WebsiteUsability() {
         />
         <meta
           property="og:image"
-          content="../../images/website_design_useability.png"
+          content="../../images/website_design_useability.webp"
         />
 
         {/* <!-- Twitter Meta Tags --> */}
@@ -130,7 +130,7 @@ export default function WebsiteUsability() {
         />
         <meta
           name="twitter:image"
-          content="../../images/website_design_useability.png"
+          content="../../images/website_design_useability.webp"
         />
       </Helmet>
     </div>

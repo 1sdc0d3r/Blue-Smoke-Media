@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Carousel from "../components/Carousel";
-import help1 from "../images/help-icon-1.png";
-import help2 from "../images/help-icon-2.png";
-import help3 from "../images/help-icon-3.png";
+import help1 from "../images/help-icon-1.webp";
+import help2 from "../images/help-icon-2.webp";
+import help3 from "../images/help-icon-3.webp";
 
 export default function Help() {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
 
 //* Images
-// import phone from "../images/phone.png";
-// import email from "../images/mail-icon.png";
+// import phone from "../images/phone.webp";
+// import email from "../images/mail-icon.webp";
 const email =
   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/Header/mail.png";
 const phone =

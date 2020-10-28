@@ -4,9 +4,9 @@ import "../style/Carousel/carousel.css";
 
 import { CarouselProvider, Slider, Slide, Dot } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
-import slide1 from "../images/slide-1.png";
-import slide2 from "../images/slide-2.png";
-import slide3 from "../images/slide-3.png";
+import slide1 from "../images/slide-1.webp";
+import slide2 from "../images/slide-2.webp";
+import slide3 from "../images/slide-3.webp";
 
 export default function Carousel() {
   return (

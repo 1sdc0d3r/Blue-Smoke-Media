@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
 //* Images
-import slide_seo from "../images/seo_file.png";
-import slide_custom from "../images/custom_website_design.png";
-import slide_sm from "../images/social_media.png";
-import slide_graphic from "../images/graphic_design.png";
+import slide_seo from "../images/seo_file.webp";
+import slide_custom from "../images/custom_website_design.webp";
+import slide_sm from "../images/social_media.webp";
+import slide_graphic from "../images/graphic_design.webp";
 
-const cover = lazy(() => import("../images/now-open-cover.png"));
+const cover = lazy(() => import("../images/now-open-cover.webp"));
 
 const socialMedia =
   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/Now-open-video_HD720.mp4";
