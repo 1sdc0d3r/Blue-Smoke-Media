@@ -19,10 +19,10 @@
     <!--! END Global site tag -->
 
     <script>
-      //! remove devtools in production
+      //todo remove devtools in production
       if (process.env.NODE_ENV === "production")
         if (typeof window.__REACT_DEVTOOLS_GLOBAL_HOOK__ === "object") {
-          window.__REACT_DEVTOOLS_GLOBAL_HOOK__.inject = function () {};
+          __REACT_DEVTOOLS_GLOBAL_HOOK__ = function () {};
         }
     </script>
 
