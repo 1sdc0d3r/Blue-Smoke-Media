@@ -1,6 +1,6 @@
 import React, { useEffect, lazy, Suspense } from "react";
-import "./style/core.css";
 import { Switch, Route, useLocation, Redirect } from "react-router-dom";
+import "./style/core.css";
 
 //* components
 import Home from "./components/Home";
@@ -13,6 +13,7 @@ import CTA from "./components/Header-CTA";
 import DropMenu from "./components/Utils/DropMenu";
 import circleX from "./images/circle-X.png";
 import ReactGA from "react-ga";
+
 // * Web Design Services
 const AdCopyWriting = lazy(() =>
   import("./components/Web Design Services/Ad-CopyWriting")
@@ -68,8 +69,24 @@ function App() {
     ReactGA.pageview(pathname);
   }, [pathname]);
 
+  //! Start of  Zendesk Widget script
+  useEffect(() => {
+    document.body.addEventListener("click", loadZendeskWidget);
+    function loadZendeskWidget() {
+      console.log("click");
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.id = "ze-snippet";
+      script.async = true;
+      script.src =
+        "https://static.zdassets.com/ekr/snippet.js?key=9943bbf5-43b7-407f-8af4-f245012b262f";
+      document.getElementsByTagName("head")[0].appendChild(script);
+      document.body.removeEventListener("click", loadZendeskWidget);
+    }
+  }, []);
+  //! End of  Zendesk Widget script
   return (
-    <div className="App" style={{ position: "relative" }}>
+    <div className="App">
       <>
         <p className="covid-banner">
           <img

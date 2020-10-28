@@ -27,9 +27,7 @@ export default withRouter(function HamburgerMenu(props) {
           <Link to="/team">
             <li>Our Team</li>
           </Link>
-          <li className="sub-menu-btn" uk-icon="icon: triangle-right">
-            Services
-          </li>
+          <li className="sub-menu-btn">Services</li>
           <ul className="sub-drop-menu">
             <div className="dropdown-content">
               <h3>SEO</h3>

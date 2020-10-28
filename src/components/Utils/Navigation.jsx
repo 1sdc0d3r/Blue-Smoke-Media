@@ -5,19 +5,6 @@ import { FiChevronDown } from "react-icons/fi";
 export default withRouter(function Navigation({ history }) {
   // history.listen(() => {});
   const dropArrow = <FiChevronDown color="#7ff76f" />;
-  // const dropArrow = (
-  //   <svg
-  //     style={{
-  //       width: "20",
-  //       height: "20",
-  //       viewBox: "0 0 20 20",
-  //       fill: "#7ff76f",
-  //     }}
-  //   >
-  //     <polygon points="5,5 13,15 20,5" />
-  //   </svg>
-  // //  uk-icon="icon: triangle-down-NOTHING"
-  // );
   // todo fix dropdown-content not going away on change
   return (
     <nav className="main-nav">
