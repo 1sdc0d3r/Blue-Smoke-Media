@@ -1,7 +1,6 @@
 import React, { useEffect, lazy, Suspense } from "react";
 import { Switch, Route, useLocation, Redirect } from "react-router-dom";
-import "./style/core.css";
-
+import "./style/App/App.css";
 //* components
 import Home from "./components/Home";
 import Team from "./components/Team";
@@ -54,6 +53,7 @@ const Contact = lazy(() => import("./components/Contact"));
 const PrivacyPolicy = lazy(() => import("./components/privacy"));
 const Article = lazy(() => import("./components/Article"));
 
+lazy(() => import("./style/core.css"));
 // ! GOOGLE ANALYTICS
 ReactGA.initialize("UA-177470204-1");
 

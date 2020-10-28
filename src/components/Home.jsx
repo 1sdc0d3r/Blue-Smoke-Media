@@ -1,16 +1,18 @@
 import React, { lazy } from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import "../style/Home/Home.css";
 //* Images
 import slide_seo from "../images/seo_file.png";
 import slide_custom from "../images/custom_website_design.png";
 import slide_sm from "../images/social_media.png";
 import slide_graphic from "../images/graphic_design.png";
+
 const cover = lazy(() => import("../images/now-open-cover.png"));
 
 const socialMedia =
   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/Now-open-video_HD720.mp4";
-//LINKS
+
 export default function Home() {
   return (
     <div className="home">

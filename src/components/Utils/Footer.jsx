@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../../style/Footer/Footer.css";
 import PaymentIcon from "react-payment-icons";
 //* Images
 import twitter from "../../images/Twitter.png";
