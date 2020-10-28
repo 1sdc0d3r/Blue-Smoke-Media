@@ -26,12 +26,12 @@ RewriteCond %{HTTP_HOST} ^bluesmokemedia\.online$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.bluesmokemedia\.online$
 RewriteRule ^(.*)$ "https\:\/\/www\.bluesmokedigitalandprintedmedia\.com\/$1" [R=301,L]
 
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
+
 RewriteRule ^index\.html$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-l
 RewriteRule . /index.html [L,QSA]
-
-<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
-Header set Cache-Control "max-age=604800, public"
-</FilesMatch>
