@@ -15,7 +15,7 @@ const socialMedia =
 
 export default function Home() {
   return (
-    <div className="home">
+    <div className="home page-wrapper">
       <section className="globe">
         <div>
           <h1>
