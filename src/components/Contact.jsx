@@ -87,6 +87,7 @@ export default function Contact() {
             value={data.name}
             onChange={onChangeHandler}
             className="field"
+            required
           />
           <input
             type="text"
@@ -105,6 +106,7 @@ export default function Contact() {
             value={data.email}
             onChange={onChangeHandler}
             className="field"
+            required
           />
           <input
             type="text"
@@ -114,6 +116,7 @@ export default function Contact() {
             value={data.subject}
             onChange={onChangeHandler}
             className="field"
+            required
           />
           <textarea
             name="message"
@@ -123,6 +126,7 @@ export default function Contact() {
             value={data.message}
             onChange={onChangeHandler}
             className="field text"
+            required
           />
           <input
             className="antiSpam"

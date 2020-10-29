@@ -34,18 +34,16 @@ export default function PriceChart() {
         </div>
         <div className="col col-2">
           <div>
-            <div>
-              <h5>
-                5 page
-                <br />
-                website
-              </h5>
-              <hr />
-              <p>
-                Starts At <br />
-                <span>$849</span>
-              </p>
-            </div>
+            <h5>
+              5 page
+              <br />
+              website
+            </h5>
+            <hr />
+            <p>
+              Starts At <br />
+              <span>$849</span>
+            </p>
           </div>
           <p className="row row-light">
             <img src={Check} alt="checkmark" />
@@ -85,18 +83,16 @@ export default function PriceChart() {
         </div>
         <div className="col col-3">
           <div>
-            <div>
-              <h5>
-                6-10 page
-                <br />
-                website
-              </h5>
-              <hr />
-              <p>
-                Starts At <br />
-                <span>$1,449</span>
-              </p>
-            </div>
+            <h5>
+              6-10 page
+              <br />
+              website
+            </h5>
+            <hr />
+            <p>
+              Starts At <br />
+              <span>$1,449</span>
+            </p>
           </div>
           <p className="row row-light">
             <img src={Check} alt="checkmark" />
@@ -136,18 +132,16 @@ export default function PriceChart() {
         </div>
         <div className="col col-4">
           <div>
-            <div>
-              <h5>
-                11-15+ page
-                <br />
-                website
-              </h5>
-              <hr />
-              <p>
-                Starts At <br />
-                <span>$2,249</span>
-              </p>
-            </div>
+            <h5>
+              11-15+ page
+              <br />
+              website
+            </h5>
+            <hr />
+            <p>
+              Starts At <br />
+              <span>$2,249</span>
+            </p>
           </div>
           <p className="row row-light">
             <img src={Check} alt="checkmark" />
@@ -184,18 +178,16 @@ export default function PriceChart() {
         </div>
         <div className="col col-5">
           <div>
-            <div>
-              <h5>
-                E-Commerce
-                <br />
-                website
-              </h5>
-              <hr />
-              <p>
-                Starts At <br />
-                <span>$1,749</span>
-              </p>
-            </div>
+            <h5>
+              E-Commerce
+              <br />
+              website
+            </h5>
+            <hr />
+            <p>
+              Starts At <br />
+              <span>$1,749</span>
+            </p>
           </div>
           <p className="row row-light">
             <img src={Check} alt="checkmark" />

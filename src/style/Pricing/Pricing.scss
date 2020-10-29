@@ -37,7 +37,7 @@
   height: -moz-max-content;
   height: max-content;
   margin: 2% auto 15%;
-  padding-bottom: 4em;
+  padding-bottom: 3em;
   min-width: -webkit-min-content;
   min-width: -moz-min-content;
   min-width: min-content;
@@ -56,13 +56,13 @@
 
     div {
       height: 30%;
-      padding: 0.5em 0 1.2em;
+      padding: 1.5em 0 0.5em;
+      margin: auto;
 
       h5,
       p,
       span {
         text-shadow: 3px 3px 3px black;
-        // padding: 0 0.1em;
       }
 
       h5 {
@@ -129,7 +129,13 @@
   }
   .col-2 {
     div {
-      background: linear-gradient(0deg, #e83e39 0%, #c185b3 95%);
+      // background: linear-gradient(0deg, #e83e39 0%, #c185b3 100%);
+      // background: rgb(232, 62, 57);
+      background: linear-gradient(
+        0deg,
+        rgba(232, 62, 57, 1) 0%,
+        rgba(193, 133, 179, 1) 100%
+      );
     }
   }
   .col-3 {

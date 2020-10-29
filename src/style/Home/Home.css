@@ -1,7 +1,5 @@
 .home {
   z-index: 50;
-  width: 95%;
-  margin: auto;
 }
 
 @media (max-width: 360px) {
@@ -46,6 +44,10 @@
   padding: 2em 0 1.5em;
   margin-top: 3em;
   min-width: 80%;
+}
+
+.home .globe a {
+  color: #1e92f6;
 }
 
 @media (max-width: 360px) {

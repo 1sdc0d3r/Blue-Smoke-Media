@@ -1,18 +1,21 @@
-import React from "react";
+import React, { lazy } from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
+
 //* Images
 import slide_seo from "../images/seo_file.png";
 import slide_custom from "../images/custom_website_design.png";
 import slide_sm from "../images/social_media.png";
 import slide_graphic from "../images/graphic_design.png";
 
+import cover from "../images/now-open-cover.png";
+
 const socialMedia =
   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/Now-open-video_HD720.mp4";
-//LINKS
+
 export default function Home() {
   return (
-    <div className="home">
+    <div className="home page-wrapper">
       <section className="globe">
         <div>
           <h1>
@@ -43,14 +46,11 @@ export default function Home() {
             alt="Video of Services by Blue Smoke Digital and Printed Media"
             type="video/mp4"
             src={socialMedia}
-            preload="auto"
-            loading="lazy"
+            preload="metadata"
+            poster={cover}
             controls
-            onClick={() => {
-              const smVideo = document.getElementById("sm-video");
-              smVideo.paused ? smVideo.play() : smVideo.pause();
-            }}
           />
+
           <h2>Emerging Social Media Channels and Trends</h2>
           <p>
             <span>Social media trends are like friends, they come and go.</span>{" "}

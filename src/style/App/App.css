@@ -3,6 +3,7 @@ html {
 }
 
 .App {
+  position: relative;
   text-align: center;
   background: #d7dae6;
   margin: auto;
@@ -36,12 +37,12 @@ html {
   margin: auto;
 }
 
-.App .page-wrapper a {
+.App a {
   text-decoration: none;
   cursor: pointer;
 }
 
-.App .page-wrapper a:hover {
+.App a:hover {
   color: #ee3e0e;
 }
 

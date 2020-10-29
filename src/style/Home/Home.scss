@@ -1,8 +1,6 @@
 @import "../Utils/Mixins/Mixins.scss";
 .home {
   z-index: 50;
-  width: 95%;
-  margin: auto;
   @include breakpoint(xxs, xs, s, m) {
     width: 98%;
     margin: auto;
@@ -17,6 +15,9 @@
     padding: 2em 0 1.5em;
     margin-top: 3em;
     min-width: 80%;
+    a {
+      color: $lightBlue;
+    }
 
     @include breakpoint(xxs, xs, s, m) {
       margin-top: 1em;
