@@ -129,6 +129,7 @@ export default function Contact() {
                 id="name"
                 value={data.name}
                 onChange={onChangeHandler}
+                required
               />
             </label>
             <label for="email">
@@ -139,6 +140,7 @@ export default function Contact() {
                 id="email"
                 value={data.email}
                 onChange={onChangeHandler}
+                required
               />
             </label>
             <label for="phone">
