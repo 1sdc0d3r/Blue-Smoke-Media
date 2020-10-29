@@ -4,16 +4,9 @@
   "private": true,
   "homepage": "https://bluesmokedigitalandprintedmedia.com",
   "dependencies": {
-    "@babel/preset-env": "7.11.5",
-    "@testing-library/jest-dom": "5.11.5",
-    "@testing-library/react": "9.5.0",
-    "@testing-library/user-event": "12.1.6",
     "axios": "0.19.2",
-    "babel-cli": "6.26.0",
     "emailjs-com": "2.4.1",
     "express": "4.17.1",
-    "file-loader": "6.1.0",
-    "ignore-styles": "5.0.1",
     "node-sass": "4.14.1",
     "pure-react-carousel": "1.27.3",
     "react": "17.0.1",
@@ -24,16 +17,26 @@
     "react-icons": "^3.11.0",
     "react-payment-icons": "1.2.6",
     "react-router-dom": "5.2.0",
-    "react-scripts": "4.0.0",
-    "url-loader": "4.1.0"
+    "react-scripts": "4.0.0"
   },
   "devDependencies": {
-    "css-loader": "4.3.0"
+    "@babel/preset-env": "7.11.5",
+    "@testing-library/jest-dom": "5.11.5",
+    "@testing-library/react": "9.5.0",
+    "@testing-library/user-event": "12.1.6",
+    "babel-cli": "6.26.0",
+    "css-loader": "4.3.0",
+    "file-loader": "6.1.0",
+    "ignore-styles": "5.0.1",
+    "url-loader": "4.1.0",
+    "webpack": "^5.3.1",
+    "webpack-cli": "^4.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "ssr": "node server/index.js",
     "build": "react-scripts build",
+    "wpbuild": "webpack --config webpack.config.js",
     "test": "react-scripts test",
     "ngrok": "/Users/Braden/Documents/Programming/utils/ngrok http 3000",
     "eject": "react-scripts eject",
