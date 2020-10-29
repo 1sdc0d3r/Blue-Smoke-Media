@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 //* Images
-import eCommerce from "../../images/E-commerce_image.webp";
+import eCommerce from "../../images/E-commerce_image.png";
 
 export default function ECommerceWebsiteDevelopment() {
   return (
@@ -92,7 +92,7 @@ export default function ECommerceWebsiteDevelopment() {
           itemprop="description"
           content="Blue Smoke digital and printed Media in Knoxville, TN, UT, WA, NC, SC and ID, offer complete e-commerce solutions from online shopping systems to a wide variety of revenue processing facilities and supporting services for our customers businesses."
         />
-        <meta itemprop="image" content="../../images/E-commerce_image.webp" />
+        <meta itemprop="image" content="../../images/E-commerce_image.png" />
 
         {/* <!-- Facebook Meta Tags --> */}
         <meta
@@ -108,10 +108,7 @@ export default function ECommerceWebsiteDevelopment() {
           property="og:description"
           content="Blue Smoke digital and printed Media in Knoxville, TN, UT, WA, NC, SC and ID, offer complete e-commerce solutions from online shopping systems to a wide variety of revenue processing facilities and supporting services for our customers businesses."
         />
-        <meta
-          property="og:image"
-          content="../../images/E-commerce_image.webp"
-        />
+        <meta property="og:image" content="../../images/E-commerce_image.png" />
 
         {/* <!-- Twitter Meta Tags --> */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -125,7 +122,7 @@ export default function ECommerceWebsiteDevelopment() {
         />
         <meta
           name="twitter:image"
-          content="../../images/E-commerce_image.webp"
+          content="../../images/E-commerce_image.png"
         />
       </Helmet>
     </div>

@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import PaymentIcon from "react-payment-icons";
 
 //* Images
-import twitter from "../../images/Twitter.webp";
-import linkedIn from "../../images/linkedIn_social_media_button.webp";
-import facebook from "../../images/faceBook.webp";
-import googleReview from "../../images/icon-Google-review.webp";
+import twitter from "../../images/Twitter.png";
+import linkedIn from "../../images/linkedIn_social_media_button.png";
+import facebook from "../../images/faceBook.png";
+import googleReview from "../../images/icon-Google-review.png";
 const chevron = (
   <svg
     viewBox="0 0 20 20"

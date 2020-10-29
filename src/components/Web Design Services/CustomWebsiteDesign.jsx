@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 //* Images
-import customDesign from "../../images/custom_website_design_image.webp";
+import customDesign from "../../images/custom_website_design_image.png";
 
 export default function CustomWebsiteDesign() {
   return (

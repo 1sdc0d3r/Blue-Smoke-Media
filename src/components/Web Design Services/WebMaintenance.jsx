@@ -72,7 +72,7 @@ export default function WebMaintenance() {
           itemprop="description"
           content="Blue Smoke Digital and Printed Media, provides maintenance agreements to fit your specific maintenance needs, offering comprehensive website maintenance solutions to maintain your website."
         />
-        <meta itemprop="image" content="../../images/website-maintance.webp" />
+        <meta itemprop="image" content="../../images/website-maintance.png" />
 
         {/* <!-- Facebook Meta Tags --> */}
         <meta
@@ -87,7 +87,7 @@ export default function WebMaintenance() {
         />
         <meta
           property="og:image"
-          content="../../images/website-maintance.webp"
+          content="../../images/website-maintance.png"
         />
 
         {/* <!-- Twitter Meta Tags --> */}
@@ -99,7 +99,7 @@ export default function WebMaintenance() {
         />
         <meta
           name="twitter:image"
-          content="../../images/website-maintance.webp"
+          content="../../images/website-maintance.png"
         />
       </Helmet>
     </div>

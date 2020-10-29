@@ -2,11 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 //* Images
-import light from "../../images/recognition-remembrance-image.webp";
-import fingersCrossed from "../../images/fingers-crossed.webp";
-import coffeeShelf from "../../images/coffee-shelf.webp";
-import respect from "../../images/respect-image.webp";
-import eagle from "../../images/eagle.webp";
+import light from "../../images/recognition-remembrance-image.png";
+import fingersCrossed from "../../images/fingers-crossed.png";
+import coffeeShelf from "../../images/coffee-shelf.png";
+import respect from "../../images/respect-image.png";
+import eagle from "../../images/eagle.png";
 
 export default function PrintAndDesignGraphicServices() {
   return (
@@ -136,7 +136,7 @@ export default function PrintAndDesignGraphicServices() {
           itemprop="description"
           content="Every project at Blue Smoke Digital and Printed Media, is custom designed to your digital or graphic media needs, specifically to address the individual challenges of each project we work on. "
         />
-        <meta itemprop="image" content="../../images/fingers-crossed.webp" />
+        <meta itemprop="image" content="../../images/fingers-crossed.png" />
 
         {/* <!-- Facebook Meta Tags --> */}
         <meta
@@ -149,7 +149,7 @@ export default function PrintAndDesignGraphicServices() {
           property="og:description"
           content="Every project at Blue Smoke Digital and Printed Media, is custom designed to your digital or graphic media needs, specifically to address the individual challenges of each project we work on. "
         />
-        <meta property="og:image" content="../../images/fingers-crossed.webp" />
+        <meta property="og:image" content="../../images/fingers-crossed.png" />
 
         {/* <!-- Twitter Meta Tags --> */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -161,10 +161,7 @@ export default function PrintAndDesignGraphicServices() {
           name="twitter:description"
           content="Every project at Blue Smoke Digital and Printed Media, is custom designed to your digital or graphic media needs, specifically to address the individual challenges of each project we work on. "
         />
-        <meta
-          name="twitter:image"
-          content="../../images/fingers-crossed.webp"
-        />
+        <meta name="twitter:image" content="../../images/fingers-crossed.png" />
       </Helmet>
     </div>
   );

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 //* Images
-import seoPuzzle from "../../images/seo-puzzle.webp";
+import seoPuzzle from "../../images/seo-puzzle.png";
 
 export default function OrganicSeo() {
   return (
@@ -97,7 +97,7 @@ export default function OrganicSeo() {
           itemprop="description"
           content="At Blue Smoke Digital Media, we know that a website’s basic search engine “friendliness” should, in most cases, be part of the overall design plan for a new website. Good search engine rankings are often crucial to the goals of our clients. This is why we incorporate these fundamental techniques in our designs as a standard part of even our most affordable packages."
         />
-        <meta itemprop="image" content="../../images/seo-puzzle.webp" />
+        <meta itemprop="image" content="../../images/seo-puzzle.png" />
 
         {/* <!-- Facebook Meta Tags --> */}
         <meta
@@ -113,7 +113,7 @@ export default function OrganicSeo() {
           property="og:description"
           content="At Blue Smoke Digital Media, we know that a website’s basic search engine “friendliness” should, in most cases, be part of the overall design plan for a new website. Good search engine rankings are often crucial to the goals of our clients. This is why we incorporate these fundamental techniques in our designs as a standard part of even our most affordable packages."
         />
-        <meta property="og:image" content="../../images/seo-puzzle.webp" />
+        <meta property="og:image" content="../../images/seo-puzzle.png" />
 
         {/* <!-- Twitter Meta Tags --> */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -125,7 +125,7 @@ export default function OrganicSeo() {
           name="twitter:description"
           content="At Blue Smoke Digital Media, we know that a website’s basic search engine “friendliness” should, in most cases, be part of the overall design plan for a new website. Good search engine rankings are often crucial to the goals of our clients. This is why we incorporate these fundamental techniques in our designs as a standard part of even our most affordable packages."
         />
-        <meta name="twitter:image" content="../../images/seo-puzzle.webp" />
+        <meta name="twitter:image" content="../../images/seo-puzzle.png" />
       </Helmet>
     </div>
   );

@@ -11,7 +11,7 @@ import Footer from "./components/Utils/Footer";
 import SocialMedia from "./components/SocialMedia";
 import CTA from "./components/Header-CTA";
 import DropMenu from "./components/Utils/DropMenu";
-import circleX from "./images/circle-X.webp";
+import circleX from "./images/circle-X.png";
 import ReactGA from "react-ga";
 import Plans from "./components/Plans";
 

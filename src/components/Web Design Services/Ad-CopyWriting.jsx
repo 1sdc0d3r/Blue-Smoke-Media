@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 //* Images
-import AdCopyWritingImg from "../../images/ad-copy-writing-image.webp";
+import AdCopyWritingImg from "../../images/ad-copy-writing-image.png";
 
 export default function AdCopyWriting() {
   return (
@@ -95,7 +95,7 @@ export default function AdCopyWriting() {
         />
         <meta
           itemprop="image"
-          content="../../images/ad-copy-writing-image.webp"
+          content="../../images/ad-copy-writing-image.png"
         />
 
         {/* <!-- Facebook Meta Tags --> */}
@@ -114,7 +114,7 @@ export default function AdCopyWriting() {
         />
         <meta
           property="og:image"
-          content="../../images/ad-copy-writing-image.webp"
+          content="../../images/ad-copy-writing-image.png"
         />
 
         {/* <!-- Twitter Meta Tags --> */}
@@ -129,7 +129,7 @@ export default function AdCopyWriting() {
         />
         <meta
           name="twitter:image"
-          content="../../images/ad-copy-writing-image.webp"
+          content="../../images/ad-copy-writing-image.png"
         />
       </Helmet>
     </div>

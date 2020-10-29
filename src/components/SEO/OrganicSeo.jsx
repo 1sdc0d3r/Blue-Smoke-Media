@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 //* Images
-import seoBanner from "../../images/seo-banner.webp";
+import seoBanner from "../../images/seo-banner.png";
 
 export default function OrganicSeo() {
   return (
@@ -87,7 +87,7 @@ optimization, is the process of enhancing your website with the goal of
 increasing your visibility in the top search engines when specific keywords
 or phrases are searched for."
         />
-        <meta itemprop="image" content="../../images/seo-banner.webp" />
+        <meta itemprop="image" content="../../images/seo-banner.png" />
 
         {/* <!-- Facebook Meta Tags --> */}
         <meta
@@ -106,7 +106,7 @@ optimization, is the process of enhancing your website with the goal of
 increasing your visibility in the top search engines when specific keywords
 or phrases are searched for."
         />
-        <meta property="og:image" content="../../images/seo-banner.webp" />
+        <meta property="og:image" content="../../images/seo-banner.png" />
 
         {/* <!-- Twitter Meta Tags --> */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -118,7 +118,7 @@ or phrases are searched for."
           name="twitter:description"
           content="Organic search engine optimization  also referred to as traditional search engine optimization, is the process of enhancing your website with the goal of increasing your visibility in the top search engines when specific keywords or phrases are searched for."
         />
-        <meta name="twitter:image" content="../../images/seo-banner.webp" />
+        <meta name="twitter:image" content="../../images/seo-banner.png" />
       </Helmet>
     </div>
   );

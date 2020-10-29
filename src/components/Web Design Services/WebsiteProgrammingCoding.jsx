@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 //* Images
-import coding from "../../images/programming_coding.webp";
+import coding from "../../images/programming_coding.png";
 
 export default function WebsiteProgrammingCoding() {
   return (
@@ -103,7 +103,7 @@ export default function WebsiteProgrammingCoding() {
           />
           <meta
             itemprop="image"
-            content="../../images/programming_coding.webp"
+            content="../../images/programming_coding.png"
           />
 
           {/* <!-- Facebook Meta Tags --> */}
@@ -119,7 +119,7 @@ export default function WebsiteProgrammingCoding() {
           />
           <meta
             property="og:image"
-            content="../../images/programming_coding.webp"
+            content="../../images/programming_coding.png"
           />
 
           {/* <!-- Twitter Meta Tags --> */}
@@ -131,7 +131,7 @@ export default function WebsiteProgrammingCoding() {
           />
           <meta
             name="twitter:image"
-            content="../../images/programming_coding.webp"
+            content="../../images/programming_coding.png"
           />
         </Helmet>
       </div>
