@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://bluesmokedigitalandprintedmedia.com",
   "dependencies": {
-    "axios": "0.19.2",
+    "axios": "0.21.0",
     "emailjs-com": "2.4.1",
     "express": "4.17.1",
     "node-sass": "5.0.0",
