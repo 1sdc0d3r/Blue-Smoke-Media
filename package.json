@@ -9,12 +9,7 @@
     "@testing-library/react": "9.5.0",
     "@testing-library/user-event": "12.1.6",
     "axios": "0.19.2",
-    "babel-cli": "6.26.0",
     "emailjs-com": "2.4.1",
-    "express": "4.17.1",
-    "file-loader": "6.1.0",
-    "ignore-styles": "5.0.1",
-    "node-sass": "4.14.1",
     "pure-react-carousel": "1.27.3",
     "react": "17.0.1",
     "react-dom": "17.0.1",
@@ -24,12 +19,9 @@
     "react-icons": "^3.11.0",
     "react-payment-icons": "1.2.6",
     "react-router-dom": "5.2.0",
-    "react-scripts": "4.0.0",
-    "url-loader": "4.1.0"
+    "react-scripts": "4.0.0"
   },
-  "devDependencies": {
-    "css-loader": "4.3.0"
-  },
+  "devDependencies": {},
   "scripts": {
     "start": "react-scripts start",
     "ssr": "node server/index.js",

@@ -1,5 +1,5 @@
 # pull official base image
-FROM node:13.12.0-alpine
+FROM node:current-alpine
 
 # set working directory
 WORKDIR /app
@@ -9,12 +9,18 @@ ENV PATH /app/node_modules/.bin:$PATH
 
 # install app dependencies
 COPY package.json ./
-COPY yarn.lock ./
+COPY package-lock.json ./
+# COPY yarn.lock ./
 
-RUN yarn --pure-lockfile --ignore-engines
+RUN npm install
+# RUN yarn install --ignore-platform
+# --pure-lockfile
+# --ignore-engines
 
 # add app
 COPY . ./
 
 # start app
-CMD ["yarn", "start"]
+CMD ["npm", "start"]
+# docker build -t bsm:dev .
+# docker run -it --rm -v ${pwd}:/app -v /app/node_modules -p 3001:3000 -e CHOKIDAR_USEPOLLING=true bsm:dev
