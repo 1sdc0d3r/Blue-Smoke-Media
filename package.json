@@ -5,7 +5,7 @@
   "homepage": "https://bluesmokedigitalandprintedmedia.com",
   "dependencies": {
     "axios": "0.19.2",
-    "emailjs-com": "2.4.1",
+    "emailjs-com": "2.6.3",
     "express": "4.17.1",
     "node-sass": "5.0.0",
     "pure-react-carousel": "1.27.3",
