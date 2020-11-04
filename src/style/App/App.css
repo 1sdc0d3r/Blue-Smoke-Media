@@ -39,6 +39,7 @@ html {
 
 .App a {
   text-decoration: none;
+  color: #1e92f6;
   cursor: pointer;
 }
 
