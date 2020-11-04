@@ -121,6 +121,9 @@ export default withRouter(function HamburgerMenu(props) {
           </ul>
         </ul>
         <li>
+          <Link to="/portfolio">Portfolio</Link>
+        </li>
+        <li>
           <Link to="/plans">Pricing</Link>
         </li>
         <li>

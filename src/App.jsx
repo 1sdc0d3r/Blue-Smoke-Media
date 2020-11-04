@@ -14,6 +14,7 @@ import DropMenu from "./components/Utils/DropMenu";
 import circleX from "./images/circle-X.png";
 import ReactGA from "react-ga";
 import Plans from "./components/Plans";
+import Portfolio from "./components/Portfolio";
 
 // * Web Design Services
 import AdCopyWriting from "./components/Web Design Services/Ad-CopyWriting";
@@ -141,6 +142,8 @@ function App() {
           <Route path="/plans" component={Plans} />
           <Route path="/pricing" component={Plans} />
           <Route path="/help" component={Help} />
+          <Route path="/portfolio" component={Portfolio} />
+
           <Route path="/article/:id" component={Article} />
           <Redirect to="/" />
         </Switch>

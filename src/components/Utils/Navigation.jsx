@@ -117,6 +117,10 @@ export default withRouter(function Navigation({ history }) {
           </div>
         </div>
       </div>
+      <NavLink to="/portfolio" className="nav-item">
+        Portfolio
+      </NavLink>
+
       <NavLink to="/plans" className="nav-item">
         Pricing
       </NavLink>
