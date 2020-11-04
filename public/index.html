@@ -34,7 +34,10 @@
 
     <script>
       //todo remove devtools in production
-      if (process.env.NODE_ENV === "production")
+      if (
+        typeof process !== "undefined" &&
+        process.env.NODE_ENV === "production"
+      )
         if (typeof window.__REACT_DEVTOOLS_GLOBAL_HOOK__ === "object") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__ = function () {};
         }
