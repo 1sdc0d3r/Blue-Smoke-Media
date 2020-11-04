@@ -28,13 +28,15 @@
     "url-loader": "4.1.0"
   },
   "devDependencies": {
-    "css-loader": "4.3.0"
+    "css-loader": "4.3.0",
+    "cypress": "^5.5.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "ssr": "node server/index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "cy:open": "cypress open",
+    "test:cy": "cypress",
     "ngrok": "/Users/Braden/Documents/Programming/utils/ngrok http 3000",
     "eject": "react-scripts eject",
     "deploy": "yarn build && roast deploy"
