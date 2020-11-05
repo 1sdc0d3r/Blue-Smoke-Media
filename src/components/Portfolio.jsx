@@ -1,6 +1,23 @@
 import React, { useState, useEffect } from "react";
 import projects from "../data/projects";
 import { Link } from "react-router-dom";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import {
+//   faVideo,
+//   faShoppingCart,
+// } from "@fortawesome/free-solid-svg-icons";
+import { SiBrandDotAi } from "react-icons/si";
+import { MdPhoto } from "react-icons/md";
+import { FiShare2 } from "react-icons/fi";
+import { GiPenguin } from "react-icons/gi";
+import {
+  FaStore,
+  FaBattleNet,
+  FaCompass,
+  FaVideo,
+  FaShoppingCart,
+  FaDev,
+} from "react-icons/fa";
 
 export default function Portfolio({ location }) {
   const [category, setCategory] = useState("websites");
@@ -17,31 +34,55 @@ export default function Portfolio({ location }) {
         <div className="categories">
           <ul>
             <li>
-              <Link to="#websites">Websites</Link>
+              <Link to="#">
+                <GiPenguin className="react-icon" /> All
+              </Link>
             </li>
             <li>
-              <Link to="#E-Commerce Websites">E-Commerce Websites</Link>
+              <Link to="#websites">
+                <FaCompass className="react-icon" /> Websites
+              </Link>
             </li>
             <li>
-              <Link to="#Logos">Logos</Link>
+              <Link to="#E-Commerce Websites">
+                {/* //todo choose icon */}
+                <FaShoppingCart className="react-icon" />
+                <FaStore className="react-icon" /> E-Commerce Websites
+              </Link>
             </li>
             <li>
-              <Link to="#Branding">Branding</Link>
+              <Link to="#Logos">
+                <FaBattleNet className="react-icon" /> Logos
+              </Link>
             </li>
             <li>
-              <Link to="#Photo Manipulation">Photo Manipulation</Link>
+              <Link to="#Branding">
+                <SiBrandDotAi className="react-icon" /> Branding
+              </Link>
             </li>
             <li>
-              <Link to="#Videography">Videography</Link>
+              <Link to="#Photo Manipulation">
+                <MdPhoto className="react-icon" /> Photo Manipulation
+              </Link>
             </li>
             <li>
-              <Link to="#Social Media Marketing">Social Media Marketing</Link>
+              <Link to="#Videography">
+                <FaVideo className="react-icon" /> Videography
+              </Link>
+            </li>
+            <li>
+              <Link to="#Social Media Marketing">
+                <FiShare2 className="react-icon" /> Social Media Marketing
+              </Link>
             </li>
           </ul>
         </div>
         <div className="projects">
           {projects
-            //   .filter((e) => e.category === category)
+            .filter((e) => {
+              if (category === "") return e;
+              return e.category.toLowerCase() === category.toLowerCase();
+            })
             .map((e) => (
               <div className="project" key={e.id}>
                 <h3 className="title">{e.title}</h3>

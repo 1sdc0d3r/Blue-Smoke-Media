@@ -40,7 +40,6 @@ import "./style/core.css";
 import Help from "./components/Help";
 ReactGA.initialize("UA-177470204-1");
 
-//todo learn E-Commerce (magneto, Shopify)
 function App() {
   const { pathname } = useLocation();
 

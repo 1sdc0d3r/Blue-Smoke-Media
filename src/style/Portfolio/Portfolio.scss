@@ -16,19 +16,41 @@
   .portfolio {
     display: flex;
     justify-content: space-between;
+    @include breakpoint(xxs, xs, s) {
+      flex-direction: column;
+    }
     .categories {
-      // display: none;
+      @include breakpoint(xxs, xs, s) {
+        margin: auto;
+      }
+
       ul {
         list-style: none;
         padding: 0;
-        width: -webkit-max-content;
-        width: -moz-max-content;
-        width: max-content;
-        margin-top: 1.5em;
-        // padding: 0 1em;
+        margin-top: 3em;
+        //todo section off somehow
+        @include breakpoint(xxs, xs, s) {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+
         li {
-          margin-bottom: 0.25em;
+          margin-bottom: 0.5em;
           word-spacing: 0.05em;
+          white-space: nowrap;
+          text-align: left;
+          @include breakpoint(xxs, xs, s) {
+            margin: 0.25em 0.45em;
+          }
+          a {
+            display: inline-block;
+            width: 100%;
+            .react-icon {
+              vertical-align: bottom;
+              padding-bottom: 1px;
+            }
+          }
         }
       }
     }
@@ -36,39 +58,36 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-evenly;
+      margin: auto;
+      margin-top: 3em;
+
       .project {
         margin: 3em 2em;
         min-width: -webkit-min-content;
         min-width: -moz-min-content;
         min-width: min-content;
-        width: 20em;
+        width: 16em;
+        box-shadow: 0px 0px 13px $darkBlue;
 
-        @include breakpoint(l) {
-          width: 16em;
+        @include breakpoint(m, l) {
+          width: 13em;
           img {
-            height: 16em;
-            width: 16em;
+            height: 13em;
+            width: 13em;
           }
         }
-        @include breakpoint(m) {
-          width: 16.5em;
-          img {
-            height: 16.5em;
-            width: 16.5em;
-          }
-        }
-        @include breakpoint(xs, s) {
+        @include breakpoint(s) {
           width: 20em;
           img {
-            height: 20em;
-            width: 20em;
+            height: 20em !important;
+            width: 20em !important;
           }
         }
-        @include breakpoint(xxs) {
+        @include breakpoint(xxs, xs) {
           width: 15em;
           img {
-            height: 15em;
-            width: 15em;
+            height: 15em !important;
+            width: 15em !important;
           }
         }
 
@@ -82,10 +101,8 @@
         img {
           display: block;
           margin: auto;
-          height: 20em;
-          width: 20em;
-          // margin-bottom: 0;
-          // padding: 0;
+          height: 16em;
+          width: 16em;
         }
         .info {
           background: $orange;
@@ -93,14 +110,10 @@
           margin-top: 0;
           text-align: left;
           padding-bottom: 0.75em;
-          // max-width: -webkit-min-content;
-          // max-width: -moz-min-content;
-          // max-width: min-content;
           p,
           span {
             padding: 0 0.45em;
             margin-top: 0;
-            //   margin-top: 0;
           }
         }
       }
