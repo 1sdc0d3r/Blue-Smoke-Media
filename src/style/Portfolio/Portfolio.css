@@ -1,33 +1,45 @@
-.portfolio {
-  background: #020723;
+.portfolio-wrapper {
+  background: #d7dae6;
 }
 
-.portfolio h1 {
-  color: goldenrod;
+.portfolio-wrapper h1 {
+  color: #04227a;
   margin-top: 0;
-  padding-top: 1.5em;
+  padding-top: 1em;
   font-size: 3em;
 }
 
-.portfolio h2 {
-  color: goldenrod;
+.portfolio-wrapper h2 {
+  color: #04227a;
   font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-.portfolio .categories {
-  display: none;
+.portfolio-wrapper .portfolio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.portfolio .categories ul {
+.portfolio-wrapper .portfolio .categories ul {
   list-style: none;
   padding: 0;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-top: 1.5em;
 }
 
-.portfolio .categories ul li {
-  color: white;
+.portfolio-wrapper .portfolio .categories ul li {
+  margin-bottom: 0.25em;
+  word-spacing: 0.05em;
 }
 
-.portfolio .projects {
+.portfolio-wrapper .portfolio .projects {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -38,7 +50,7 @@
           justify-content: space-evenly;
 }
 
-.portfolio .projects .project {
+.portfolio-wrapper .portfolio .projects .project {
   margin: 3em 2em;
   min-width: -webkit-min-content;
   min-width: -moz-min-content;
@@ -46,18 +58,72 @@
   width: 20em;
 }
 
-.portfolio .projects .project .title {
-  color: darkorange;
-  font-size: 1.5em;
-  margin-bottom: 0.125em;
+@media (min-width: 981px) and (max-width: 1280px) {
+  .portfolio-wrapper .portfolio .projects .project {
+    width: 16em;
+  }
+  .portfolio-wrapper .portfolio .projects .project img {
+    height: 16em;
+    width: 16em;
+  }
 }
 
-.portfolio .projects .project img {
-  width: 100%;
-  height: 22em;
+@media (min-width: 737px) and (max-width: 980px) {
+  .portfolio-wrapper .portfolio .projects .project {
+    width: 16.5em;
+  }
+  .portfolio-wrapper .portfolio .projects .project img {
+    height: 16.5em;
+    width: 16.5em;
+  }
 }
 
-.portfolio .projects .project .info {
+@media (min-width: 361px) and (max-width: 480px) {
+  .portfolio-wrapper .portfolio .projects .project {
+    width: 20em;
+  }
+  .portfolio-wrapper .portfolio .projects .project img {
+    height: 20em;
+    width: 20em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .portfolio-wrapper .portfolio .projects .project {
+    width: 20em;
+  }
+  .portfolio-wrapper .portfolio .projects .project img {
+    height: 20em;
+    width: 20em;
+  }
+}
+
+@media (max-width: 360px) {
+  .portfolio-wrapper .portfolio .projects .project {
+    width: 15em;
+  }
+  .portfolio-wrapper .portfolio .projects .project img {
+    height: 15em;
+    width: 15em;
+  }
+}
+
+.portfolio-wrapper .portfolio .projects .project .title {
+  color: #1e92f6;
+  text-shadow: 1px 1px #020723;
+  font-size: 1.75em;
+  margin-bottom: 0.25em;
+  margin-top: 0;
+}
+
+.portfolio-wrapper .portfolio .projects .project img {
+  display: block;
+  margin: auto;
+  height: 20em;
+  width: 20em;
+}
+
+.portfolio-wrapper .portfolio .projects .project .info {
   background: #ee3e0e;
   color: white;
   margin-top: 0;
@@ -65,8 +131,9 @@
   padding-bottom: 0.75em;
 }
 
-.portfolio .projects .project .info p,
-.portfolio .projects .project .info span {
+.portfolio-wrapper .portfolio .projects .project .info p,
+.portfolio-wrapper .portfolio .projects .project .info span {
   padding: 0 0.45em;
+  margin-top: 0;
 }
 /*# sourceMappingURL=Portfolio.css.map */

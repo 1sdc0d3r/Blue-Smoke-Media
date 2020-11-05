@@ -53,7 +53,7 @@ function App() {
   useEffect(() => {
     document.body.addEventListener("click", loadZendeskWidget);
     function loadZendeskWidget() {
-      console.log("click");
+      // console.log("click");
       var script = document.createElement("script");
       script.type = "text/javascript";
       script.id = "ze-snippet";
