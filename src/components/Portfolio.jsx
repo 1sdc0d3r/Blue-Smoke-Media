@@ -86,10 +86,12 @@ export default function Portfolio({ location }) {
             .map((e) => (
               <div className="project" key={e.id}>
                 <h3 className="title">{e.title}</h3>
-                <img src={e.image} alt={e.imgAlt} />
-                <div className="info">
-                  <p>{e.desc}</p>
-                  <span>{e.date}</span>
+                <div className="card">
+                  <img src={e.image} alt={e.imgAlt} />
+                  <div className="info">
+                    <p>{e.desc}</p>
+                    <span>{e.date}</span>
+                  </div>
                 </div>
               </div>
             ))}
