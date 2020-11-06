@@ -1,9 +1,9 @@
+@import "./App/App.css";
 @import "./Header/Header.css";
 @import "./Navigation/Navigation.css";
 @import "./Footer/Footer.css";
 @import "./Home/Home.css";
 @import "./Team/Team.css";
-@import "./App/App.css";
 
 /* * Web Design Services*/
 @import "./Web Design Services/Ad-CopyWriting/Ad-CopyWriting.css";
