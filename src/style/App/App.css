@@ -114,4 +114,9 @@ html {
   color: #ee3e0e;
   line-height: 0.8em;
 }
+
+.App .react-icon {
+  vertical-align: bottom;
+  padding-bottom: 1px;
+}
 /*# sourceMappingURL=App.css.map */

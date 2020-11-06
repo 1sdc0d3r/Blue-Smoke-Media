@@ -3,6 +3,7 @@ import React from "react";
 //* Images
 // import phone from "../images/phone.png";
 // import email from "../images/mail-icon.png";
+import { FiPhone, FiMail } from "react-icons/fi";
 const email =
   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/Header/mail.png";
 const phone =
@@ -19,10 +20,15 @@ export default function cta() {
       </p>
       <div className="btns">
         <a href="mailto:services@bluesmokemedia.net">
-          <img src={email} alt="contact-mail" className="cta-mail cta-btn" />
+          {/* <img src={email} alt="contact-mail" className="cta-mail cta-btn" /> */}
+          <FiMail className="react-icon cta-mail cta-btn" alt="contact-mail" />
         </a>
         <a href="tel:‭+1.865.274.1371‬">
-          <img src={phone} alt="contact-phone" className="cta-phone cta-btn" />
+          {/* <img src={phone} alt="contact-phone" className="cta-phone cta-btn" /> */}
+          <FiPhone
+            className="react-icon cta-phone cta-btn"
+            alt="contact-phone"
+          />
         </a>
       </div>
     </div>

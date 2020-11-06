@@ -75,11 +75,6 @@ html {
       margin: 0 0.25em 0 0.5em;
     }
   }
-  // .hcGzIK svg,
-  // .hcGzIK path {
-  //   fill: red !important;
-  //   color: goldenrod !important;
-  // }
   #scroll-top {
     position: -webkit-sticky;
     position: sticky;
@@ -92,5 +87,9 @@ html {
     font-weight: 700;
     color: $orange;
     line-height: 0.8em;
+  }
+  .react-icon {
+    vertical-align: bottom;
+    padding-bottom: 1px;
   }
 }
