@@ -36,32 +36,38 @@ header {
 }
 
 header #flame {
-  width: 9%;
+  width: 7%;
   padding-top: 1%;
   height: 100%;
 }
 
+@media (min-width: 981px) and (max-width: 1280px) {
+  header #flame {
+    padding-top: 1.5%;
+  }
+}
+
 @media (min-width: 737px) and (max-width: 980px) {
   header #flame {
-    width: 12%;
+    width: 10%;
   }
 }
 
 @media (min-width: 481px) and (max-width: 736px) {
   header #flame {
-    width: 15%;
+    width: 13%;
   }
 }
 
 @media (max-width: 360px) {
   header #flame {
-    width: 23%;
+    width: 15%;
   }
 }
 
 @media (min-width: 361px) and (max-width: 480px) {
   header #flame {
-    width: 23%;
+    width: 15%;
   }
 }
 
@@ -77,6 +83,7 @@ header .blue-smoke {
 @media (min-width: 481px) and (max-width: 736px) {
   header .blue-smoke {
     width: 50%;
+    margin-right: 0.25em;
   }
 }
 
@@ -182,6 +189,7 @@ header .center p {
 @media (min-width: 481px) and (max-width: 736px) {
   header .center p {
     font-size: 0.75em;
+    margin-right: 0.5em;
   }
 }
 
@@ -250,9 +258,8 @@ header .cta {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   width: -webkit-min-content;
   width: -moz-min-content;
   width: min-content;
@@ -315,71 +322,41 @@ header .cta .btns {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  height: 30%;
-  width: 90%;
-  margin: auto;
-}
-
-@media (max-width: 360px) {
-  header .cta .btns {
-    width: 100%;
-  }
-}
-
-@media (min-width: 361px) and (max-width: 480px) {
-  header .cta .btns {
-    width: 100%;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 736px) {
-  header .cta .btns {
-    width: 100%;
-  }
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 10%;
 }
 
 header .cta .btns .cta-btn {
-  margin: auto;
-}
-
-header .cta .btns a:last-child {
-  width: 100%;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-
-header .cta .btns .cta-mail {
-  height: 100%;
-  width: 100%;
-}
-
-header .cta .btns .cta-phone {
-  width: 100%;
-  height: 70%;
+  font-size: 2.5em;
 }
 
 @media (max-width: 360px) {
-  header .cta .btns .cta-phone {
-    margin-top: 25%;
-    height: 80%;
+  header .cta .btns .cta-btn {
+    font-size: 2em;
   }
 }
 
 @media (min-width: 361px) and (max-width: 480px) {
-  header .cta .btns .cta-phone {
-    margin-top: 25%;
-    height: 80%;
+  header .cta .btns .cta-btn {
+    font-size: 2em;
   }
 }
 
 @media (min-width: 481px) and (max-width: 736px) {
-  header .cta .btns .cta-phone {
-    margin-top: 25%;
-    height: 80%;
+  header .cta .btns .cta-btn {
+    font-size: 2em;
   }
+}
+
+header .cta .btns .cta-mail {
+  fill: white;
+  color: #020723;
+}
+
+header .cta .btns .cta-phone {
+  color: #020723;
+  fill: white;
 }
 /*# sourceMappingURL=Header.css.map */
