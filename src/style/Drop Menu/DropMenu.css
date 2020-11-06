@@ -71,6 +71,9 @@
   color: #1e92f6;
   text-align: left;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .drop-menu ul li a {

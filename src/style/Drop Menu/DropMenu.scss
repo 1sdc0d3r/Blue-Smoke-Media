@@ -42,9 +42,8 @@
       color: $lightBlue;
       text-align: left;
       cursor: pointer;
-      // &:hover {
-      //   color: $royalBlue;
-      // }
+      display: flex;
+
       a {
         display: block;
         width: 100%;

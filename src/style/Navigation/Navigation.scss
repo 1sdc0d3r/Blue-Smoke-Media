@@ -45,6 +45,7 @@
       border: none;
       background-color: inherit;
       cursor: pointer;
+      display: flex;
 
       @include breakpoint(mobile) {
         /* margin important for vertical align on mobile phones */

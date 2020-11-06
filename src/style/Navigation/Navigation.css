@@ -75,6 +75,9 @@
   border: none;
   background-color: inherit;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .main-nav .dropdown:hover .dropdown-content {
