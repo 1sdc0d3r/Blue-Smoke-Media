@@ -159,7 +159,7 @@ export default function Footer() {
               <a
                 href="https://www.linkedin.com/company/blue-smoke-digital-and-printed-media/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener"
               >
                 {chevron}
                 <img src={linkedIn} alt="LinkedIn Social Media Button" />
@@ -169,7 +169,7 @@ export default function Footer() {
               <a
                 href="https://www.facebook.com/bluesmokemedia/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener"
               >
                 {chevron}
                 <img src={facebook} alt="Facebook Social Media Button" />
@@ -179,7 +179,7 @@ export default function Footer() {
               <a
                 href="https://twitter.com/bluesmokemedia/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener"
               >
                 {chevron}
                 <img src={twitter} alt="Twitter Social Media Button" />
@@ -189,7 +189,7 @@ export default function Footer() {
               <a
                 href="https://search.google.com/local/writereview?placeid=ChIJJfs6ZcFvWogRJE1LyrS-E5Y"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener"
               >
                 {chevron}
                 <img src={googleReview} alt="Google Social Media Button" />

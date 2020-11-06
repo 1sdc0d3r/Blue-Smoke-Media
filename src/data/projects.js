@@ -45,7 +45,7 @@ export default [{
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
         image: Test,
         imgAlt: "image alt",
-        url: "https://www.neldeacon.com/",
+        url: "",
         category: "Logos",
         date: "Oct 24, 2020"
     }, {
@@ -54,7 +54,7 @@ export default [{
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
         image: NelDeacon,
         imgAlt: "image alt",
-        url: "https://www.neldeacon.com/",
+        url: "",
         category: "Branding",
         date: "Oct 24, 2020"
     },
@@ -64,7 +64,7 @@ export default [{
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
         image: NelDeacon,
         imgAlt: "image alt",
-        url: "https://www.neldeacon.com/",
+        url: "",
         category: "Photo Manipulation",
         date: "Oct 24, 2020"
 
@@ -74,7 +74,7 @@ export default [{
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
         image: Test,
         imgAlt: "image alt",
-        url: "https://www.neldeacon.com/",
+        url: "",
         category: "Videography",
         date: "Oct 24, 2020"
     }, {
@@ -83,7 +83,7 @@ export default [{
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
         image: NelDeacon,
         imgAlt: "image alt",
-        url: "https://www.neldeacon.com/",
+        url: "",
         category: "Social Media Marketing",
         date: "Oct 24, 2020"
     }, {
@@ -92,7 +92,7 @@ export default [{
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
         image: NelDeacon,
         imgAlt: "image alt",
-        url: "https://www.neldeacon.com/",
+        url: "",
         category: "branding",
         date: "Oct 24, 2020"
     },

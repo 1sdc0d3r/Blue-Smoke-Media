@@ -83,7 +83,7 @@ export default withRouter(function HamburgerMenu(props) {
           <a
             href="https://bluesmokemedianomads.com"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener"
           >
             <li>Blog</li>
           </a>

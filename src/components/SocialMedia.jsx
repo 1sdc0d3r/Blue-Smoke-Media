@@ -118,7 +118,7 @@ export default function SocialMedia() {
           If you would like to increase your Social Media Presence or create it,
           I invite you to give us a <a href="tel:8652741371">call</a>,{" "}
           <a href="mailto:services@bluesmokemedia.net">email</a>, or{" "}
-          <a href="https://zoom.us/" target="_blank" rel="noopener noreferrer">
+          <a href="https://zoom.us/" target="_blank" rel="noopener">
             zoom
           </a>{" "}
           us at Blue Smoke Digital and Printed Media. We would welcome the

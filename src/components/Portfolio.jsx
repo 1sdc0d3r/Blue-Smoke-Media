@@ -8,16 +8,10 @@ import { Link } from "react-router-dom";
 // } from "@fortawesome/free-solid-svg-icons";
 import { SiBrandDotAi } from "react-icons/si";
 import { MdPhoto } from "react-icons/md";
-import { FiShare2 } from "react-icons/fi";
-import { GiPenguin } from "react-icons/gi";
-import {
-  FaStore,
-  FaBattleNet,
-  FaCompass,
-  FaVideo,
-  FaShoppingCart,
-  FaDev,
-} from "react-icons/fa";
+import { GiFlyingShuriken } from "react-icons/gi";
+import { GoMegaphone } from "react-icons/go";
+import { HiShare } from "react-icons/hi";
+import { FaStore, FaCompass, FaVideo, FaPhoenixSquadron } from "react-icons/fa";
 
 export default function Portfolio({ location }) {
   const [category, setCategory] = useState("websites");
@@ -28,14 +22,16 @@ export default function Portfolio({ location }) {
 
   return (
     <div className="page-wrapper portfolio-wrapper">
-      <h1>Portfolio</h1>
-      <h2>{category.charAt(0).toUpperCase() + category.slice(1)}</h2>
       <div className="portfolio">
+        <h1 className="title-lg">Portfolio</h1>
+        <h2 className="title-lg">
+          {category.charAt(0).toUpperCase() + category.slice(1)}
+        </h2>
         <div className="categories">
           <ul>
             <li>
               <Link to="#">
-                <GiPenguin className="react-icon" /> All
+                <GiFlyingShuriken className="react-icon" /> All
               </Link>
             </li>
             <li>
@@ -45,14 +41,17 @@ export default function Portfolio({ location }) {
             </li>
             <li>
               <Link to="#E-Commerce Websites">
-                {/* //todo choose icon */}
-                <FaShoppingCart className="react-icon" />
                 <FaStore className="react-icon" /> E-Commerce Websites
               </Link>
             </li>
             <li>
               <Link to="#Logos">
-                <FaBattleNet className="react-icon" /> Logos
+                <FaPhoenixSquadron className="react-icon" /> Logos
+              </Link>
+            </li>
+            <li>
+              <Link to="#Advertizing">
+                <GoMegaphone className="react-icon" /> Advertizing
               </Link>
             </li>
             <li>
@@ -72,29 +71,44 @@ export default function Portfolio({ location }) {
             </li>
             <li>
               <Link to="#Social Media Marketing">
-                <FiShare2 className="react-icon" /> Social Media Marketing
+                <HiShare className="react-icon" /> Social Media Marketing
               </Link>
             </li>
           </ul>
         </div>
-        <div className="projects">
-          {projects
-            .filter((e) => {
-              if (category === "") return e;
-              return e.category.toLowerCase() === category.toLowerCase();
-            })
-            .map((e) => (
-              <div className="project" key={e.id}>
-                <h3 className="title">{e.title}</h3>
-                <div className="card">
-                  <img src={e.image} alt={e.imgAlt} />
-                  <div className="info">
-                    <p>{e.desc}</p>
-                    <span>{e.date}</span>
+        {/* <div> */}
+        <div style={{ width: "100%" }}>
+          <h1 className="title-sm">Portfolio</h1>
+          <h2 className="title-sm">
+            {category.charAt(0).toUpperCase() + category.slice(1)}
+          </h2>
+          <div className="projects">
+            {/* //todo add right hand banner (roast.io) for categories on "All"  */}
+            {projects
+              .filter((e) => {
+                if (category === "") return e;
+                return e.category.toLowerCase() === category.toLowerCase();
+              })
+              .map((e) => (
+                <div className="project" key={e.id}>
+                  <h3 className="title">{e.title}</h3>
+                  <div className="card">
+                    <img src={e.image} alt={e.imgAlt} />
+                    <div className="info">
+                      <p>{e.desc}</p>
+                      <div className="btm">
+                        <span>{e.date}</span>
+                        {e.url ? (
+                          <a href={e.url} target="_blank" rel="nofollow">
+                            Visit Website
+                          </a>
+                        ) : null}
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
+          </div>
         </div>
       </div>
     </div>

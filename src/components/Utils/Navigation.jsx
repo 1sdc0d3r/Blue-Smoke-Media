@@ -130,7 +130,7 @@ export default withRouter(function Navigation({ history }) {
       <a
         href="https://bluesmokemedianomads.com"
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noopener"
         className="nav-item"
       >
         Blog
