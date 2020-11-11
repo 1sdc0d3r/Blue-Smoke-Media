@@ -3,7 +3,7 @@
 }
 
 .team a {
-  color: blue;
+  color: lightBlue;
 }
 
 @media (max-width: 360px) {
