@@ -2,6 +2,10 @@
   text-align: left;
 }
 
+.team a {
+  color: blue;
+}
+
 @media (max-width: 360px) {
   .team {
     margin: 1.5rem;
