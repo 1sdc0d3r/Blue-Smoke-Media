@@ -1,0 +1,37 @@
+RewriteOptions inherit
+RewriteEngine on
+
+# BlueSmokeDigitalMedia.com
+RewriteCond %{HTTP_HOST} ^bluesmokedigitalmedia\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.bluesmokedigitalmedia\.com$
+RewriteRule ^(.*)$ "https\:\/\/www\.bluesmokedigitalandprintedmedia\.com\/$1" [R=301,L]
+
+# BlueSmokeMedia.net
+RewriteCond %{HTTP_HOST} ^bluesmokemedia\.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.bluesmokemedia\.net$
+RewriteRule ^(.*)$ "https\:\/\/www\.bluesmokedigitalandprintedmedia\.com\/$1" [R=301,L]
+
+# BlueSmokeMedia.site
+RewriteCond %{HTTP_HOST} ^bluesmokemedia\.site$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.bluesmokemedia\.site$
+RewriteRule ^(.*)$ "https\:\/\/www\.bluesmokedigitalandprintedmedia\.com\/$1" [R=301,L]
+
+# BlueSmokeMedia.website
+RewriteCond %{HTTP_HOST} ^bluesmokemedia\.website$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.bluesmokemedia\.website$
+RewriteRule ^(.*)$ "https\:\/\/www\.bluesmokedigitalandprintedmedia\.com\/$1" [R=301,L]
+
+# BlueSmokeMedia.online
+RewriteCond %{HTTP_HOST} ^bluesmokemedia\.online$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.bluesmokemedia\.online$
+RewriteRule ^(.*)$ "https\:\/\/www\.bluesmokedigitalandprintedmedia\.com\/$1" [R=301,L]
+
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
+
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule . /index.html [L,QSA]
