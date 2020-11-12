@@ -260,7 +260,7 @@ export default function Home() {
         />
         <meta
           property="og:description"
-          content="Blue Smoke Digital and Printed Media is a full-service marketing agency. We partner with clients to either supplement their in-house marketing department or serve as their full outsourced marketing department. Our areas of expertise include Website Design, Branding, Graphic Design, Online Marketing and Traditional Marketing, Social Media Marketing, and Reputation Management and Review. We are located in TN, UT, FL, NC, SC, VA, ID and WA."
+          content="Blue Smoke Digital and Printed Media is a full-service marketing agency. We partner with clients to either supplement their in-house marketing department or serve as their full outsourced marketing department. Our areas of expertise include Website Design, Branding, Graphic Design, Online Marketing and Traditional Marketing, Social Media Marketing, and Reputation Management and Review, with offices in the following cities: Erwin, TN; Johnson City, TN; Kingsport, TN; Bristol TN; Pigeon Forge, TN; Gatlinburg, TN; Sevierville, TN; Knoxville, TN; Asheville, NC; Charleston, SC; Ogden, UT; Salt Lake City, UT; Tyler, TX; Dallas, TX; Fort Worth, TX; Spokane, WA."
         />
         <meta property="og:image" content="../images/Web-Development.jpg" />
 
@@ -268,11 +268,11 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Blue Smoke Digital and Printed Media is an online Digital company specializing in Custom Designed Websites with Organic SEO built into your site at NO EXTRA COST, a Digital and Printed Media company and Social Media Marketing company."
-        />
+          content="Blue Smoke Digital and Printed Media is a full-service marketing agency. We partner with clients to either supplement their in-house marketing department or serve as their full outsourced marketing department. Our areas of expertise include Website Design, Branding, Graphic Design, Online Marketing and Traditional Marketing, Social Media Marketing, and Reputation Management and Review, with offices in the following cities: Erwin, TN; Johnson City, TN; Kingsport, TN; Bristol TN; Pigeon Forge, TN; Gatlinburg, TN; Sevierville, TN; Knoxville, TN; Asheville, NC; Charleston, SC; Ogden, UT; Salt Lake City, UT; Tyler, TX; Dallas, TX; Fort Worth, TX; Spokane, WA."
+        />  
         <meta
           name="twitter:description"
-          content="Blue Smoke Digital and Printed Media is a full-service marketing agency. We partner with clients to either supplement their in-house marketing department or serve as their full outsourced marketing department. Our areas of expertise include Website Design, Branding, Graphic Design, Online Marketing and Traditional Marketing, Social Media Marketing, and Reputation Management and Review. We are located in TN, UT, FL, NC, SC, VA, ID and WA."
+          content="Blue Smoke Digital and Printed Media is a full-service marketing agency. We partner with clients to either supplement their in-house marketing department or serve as their full outsourced marketing department. Our areas of expertise include Website Design, Branding, Graphic Design, Online Marketing and Traditional Marketing, Social Media Marketing, and Reputation Management and Review, with offices in the following cities: Erwin, TN; Johnson City, TN; Kingsport, TN; Bristol TN; Pigeon Forge, TN; Gatlinburg, TN; Sevierville, TN; Knoxville, TN; Asheville, NC; Charleston, SC; Ogden, UT; Salt Lake City, UT; Tyler, TX; Dallas, TX; Fort Worth, TX; Spokane, WA."
         />
         <meta name="twitter:image" content="../images/Web-Development.jpg" />
       </Helmet>
