@@ -9,7 +9,7 @@ export default function SocialMedia() {
       <section className="social-media">
         <img
           src={SocialMediaImg}
-          alt="High Quality Social Media Services_Social Account Boost_Boost Your Social Media Accounts"
+          alt="High Quality Social Media Services_Social Media Account Boost located in Erwin, TN; Johnson City, TN; Kingsport, TN; Bristol TN; Pigeon Forge, TN; Gatlinburg, TN; Sevierville, TN; Knoxville, TN; Asheville, NC; Charleston, SC; Ogden, UT; Salt Lake City, UT; Tyler, TX; Dallas, TX; Fort Worth, TX; Spokane, WA;"
           className="hero-image"
         />
         <h1>
@@ -40,15 +40,15 @@ export default function SocialMedia() {
         </p>
         <p>
           In today’s society, word of mouth IS digital. Think about the
-          questions you constantly ask about products, services or businesses;
+          questions you constantly ask about products, services or businesses;
           your customers are asking the SAME questions. Addressing these common
           points of confusion could be your key to converting casual website
           visitors into new clients. The biggest question of all though, is
           whether potential customers will WANT to visit your website based on
           your social media presence. So, start or join a conversation, and
           participate with the idea in mind that you can achieve a significant
-          influence. Take a hold and grow your brand by taking hold of your
-          social media presence!
+          influence. Control and grow your brand by taking hold of your
+          social media presence with Blue Smoke Digital and Printed Media of Knoxville, TN!
         </p>
         <p>
           “How can a social media presence help my business?” Social media is
@@ -122,8 +122,10 @@ export default function SocialMedia() {
             zoom
           </a>{" "}
           us at Blue Smoke Digital and Printed Media. We would welcome the
-          opportunity to help you increase your social presence, improve your
-          branding recognition and increase your sales.
+          opportunity to help you increase your social media presence, improve your
+          branding recognition and increase your sales. We have locations in Erwin, TN; Johnson City, TN; Kingsport, TN; Bristol TN; Pigeon Forge, TN; Gatlinburg, TN; Sevierville, TN; Knoxville, TN; Asheville, NC; Charleston, SC; Ogden, UT; Salt Lake City, UT; Tyler, TX; Dallas, TX; Fort Worth, TX; Spokane, WA. 
+
+          Let Blue Smoke Digital and Printed Media help you "Get Your Business BACK into Business" with a Social Media Marketing Package, today!
         </p>
       </section>
       <Helmet>
@@ -144,12 +146,12 @@ export default function SocialMedia() {
         </title>
         <meta
           name="description"
-          content="Social Media can be a valuable tool as profiles can provide general information and updates about your business. Business can interact and engage with current and future clients in a community like setting. Your business’ social profiles can also help improve your organic SEO for your website."
+          content="Blue Smoke Digital and Printed Media is a Social Media Marketing agency with offices in the following cities: Erwin, TN; Johnson City, TN; Kingsport, TN; Bristol TN; Pigeon Forge, TN; Gatlinburg, TN; Sevierville, TN; Knoxville, TN; Asheville, NC; Charleston, SC; Ogden, UT; Salt Lake City, UT; Tyler, TX; Dallas, TX; Fort Worth, TX; Spokane, WA;"
         />
 
         <meta
           name="keywords"
-          content="social media marketing strategy, smm marketing, digital and social media marketing, social marketing agency, digital marketing solution service, digital marketing service, digital marketing company, digital marketing strategy, internet marketing, social media marketing agency, online marketing agency, content marketing agency, best digital marketing agency, top digital marketing agencies, web marketing agency, sms marketing, digital ad agency, digital marketing advertising, seo and digital marketing, online digital marketing agency, online media marketing, corporate digital marketing, online and social media marketing, digital marketing online marketing"
+          content="social media marketing strategy, smm marketing, digital and social media marketing in Knoxville, TN, social marketing agency, digital marketing solution service in Ogden, UT, digital marketing service, digital marketing company, digital marketing strategy, internet marketing, social media marketing agency Spokane, WA, online marketing agency, content marketing agency in Dallas, TX, best digital marketing agency, top digital marketing agencies, web marketing agency in Tyler, TX, sms marketing, digital ad agency, digital marketing advertising, seo and digital marketing, online digital marketing agency, online media marketing, corporate digital marketing, online and social media marketing in Salt Lake City, UT, digital marketing online marketing"
         />
 
         {/* <!-- Google / Search Engine Tags --> */}
@@ -159,7 +161,7 @@ export default function SocialMedia() {
         />
         <meta
           itemprop="description"
-          content="Social Media can be a valuable tool as profiles can provide general information and updates about your business. Business can interact and engage with current and future clients in a community like setting. Your business’ social profiles can also help improve your organic SEO for your website."
+          content="Blue Smoke Digital and Printed Media is a Social Media Marketing agency with offices in the following cities: Erwin, TN; Johnson City, TN; Kingsport, TN; Bristol TN; Pigeon Forge, TN; Gatlinburg, TN; Sevierville, TN; Knoxville, TN; Asheville, NC; Charleston, SC; Ogden, UT; Salt Lake City, UT; Tyler, TX; Dallas, TX; Fort Worth, TX; Spokane, WA;"
         />
         <meta
           itemprop="image"
@@ -178,7 +180,7 @@ export default function SocialMedia() {
         />
         <meta
           property="og:description"
-          content="Social Media can be a valuable tool as profiles can provide general information and updates about your business. Business can interact and engage with current and future clients in a community like setting. Your business’ social profiles can also help improve your organic SEO for your website."
+          content="Blue Smoke Digital and Printed Media is a Social Media Marketing agency with offices in the following cities: Erwin, TN; Johnson City, TN; Kingsport, TN; Bristol TN; Pigeon Forge, TN; Gatlinburg, TN; Sevierville, TN; Knoxville, TN; Asheville, NC; Charleston, SC; Ogden, UT; Salt Lake City, UT; Tyler, TX; Dallas, TX; Fort Worth, TX; Spokane, WA;"
         />
         <meta
           property="og:image"
@@ -193,7 +195,7 @@ export default function SocialMedia() {
         />
         <meta
           name="twitter:description"
-          content="Social Media can be a valuable tool as profiles can provide general information and updates about your business. Business can interact and engage with current and future clients in a community like setting. Your business’ social profiles can also help improve your organic SEO for your website."
+          content="Blue Smoke Digital and Printed Media is a Social Media Marketing agency with offices in the following cities: Erwin, TN; Johnson City, TN; Kingsport, TN; Bristol TN; Pigeon Forge, TN; Gatlinburg, TN; Sevierville, TN; Knoxville, TN; Asheville, NC; Charleston, SC; Ogden, UT; Salt Lake City, UT; Tyler, TX; Dallas, TX; Fort Worth, TX; Spokane, WA;"
         />
         <meta
           name="twitter:image"
