@@ -74,7 +74,7 @@ export default function OrganicSeo() {
 
         <meta
           name="keywords"
-          content="social media marketing strategy, smm marketing, digital and social media marketing, social marketing agency, digital marketing solution service, digital marketing service, digital marketing company, digital marketing strategy, internet marketing, social media marketing agency, online marketing agency, content marketing agency, best digital marketing agency, top digital marketing agencies, web marketing agency, sms marketing, digital ad agency, digital marketing advertising, seo and digital marketing, online digital marketing agency, online media marketing, corporate digital marketing, online and social media marketing, digital marketing online marketing"
+          content="SEO, Search Engine Optimization, SEO Marketing, Organic Search Engine Optimization, Search Engine Ranking, SEO Ranking, Organic SEO, SEO Services, Google SEO, Backlinks, SEO Site Checkup, seo website, organic search, white hat SEO, seo packages, seo website content, website optimization, afforadable seo, keyword ranking, google search engine optimization, mobile seo, seo content writing, small business seo, seo management, page ranking, search engine optimization services, website seo services, bing seo, google search engine optimization, e-commerce seo services, local search engine optimization, local search"
         />
 
         {/* <!-- Google / Search Engine Tags --> */}
