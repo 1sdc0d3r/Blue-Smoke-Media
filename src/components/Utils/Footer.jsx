@@ -218,6 +218,7 @@ export default function Footer() {
         </div>
       </section>
       <p className="copy">
+        <h5>"Blue Smoke Digital and Printed Media is a Social Media Marketing agency and Website Design Agency with offices in the following cities: Erwin, TN; Johnson City, TN; Kingsport, TN; Bristol TN; Pigeon Forge, TN; Gatlinburg, TN; Sevierville, TN; Knoxville, TN; Asheville, NC; Charleston, SC; Ogden, UT; Salt Lake City, UT; Tyler, TX; Dallas, TX; Fort Worth, TX; Spokane, WA;"</h5>
         © 2019-2020 - Blue Smoke Digital and Printed Media - All rights reserved
       </p>
     </>
