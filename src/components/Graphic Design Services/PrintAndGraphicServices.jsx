@@ -13,7 +13,7 @@ export default function PrintAndDesignGraphicServices() {
     <div className="print-and-graphic-design-services page-wrapper">
       <img
         src={fingersCrossed}
-        alt="Blue Smoke Digital and Printed Media Graphic Design Experts"
+        alt="Blue Smoke Digital and Printed Media and Graphic Design Experts in Erwin, TN; Johnson City, TN; Kingsport, TN; Bristol TN; Pigeon Forge, TN; Gatlinburg, TN; Sevierville, TN; Knoxville, TN; Asheville, NC; Charleston, SC; Ogden, UT; Salt Lake City, UT; Tyler, TX; Dallas, TX; Fort Worth, TX; Spokane, WA."
         className="hero-image"
       />
 
@@ -43,9 +43,9 @@ export default function PrintAndDesignGraphicServices() {
                   better than the crowd.
                 </p>
                 <p>
-                  <span>Remembrance - </span>If they can’t remember who you were
-                  or what you were about, your chances of doing business with
-                  them again are probably slim. Good design will make an
+                  <span>Remembrance - </span>If they can’t remember who you are
+                  or what you are about, your chances of doing business with
+                  them again are probably slim. Good custom designs will make an
                   impression on your customers or clients. They won’t forget
                   about you.
                 </p>
@@ -61,7 +61,7 @@ export default function PrintAndDesignGraphicServices() {
                 <span>Respect - </span>Believe it or not,{" "}
                 <Link to="/article/12">good design</Link> is apparent to almost
                 everyone. They might not know exactly why, but they know when
-                something looks good. People respect design because it shows
+                something looks good. People respect custom designs because it shows
                 that you care about how you look. It’s an easy connection to
                 make that if you care about how you look, you care just as much
                 about your products, services and ideas. People will see that
@@ -88,7 +88,7 @@ export default function PrintAndDesignGraphicServices() {
               <img
                 src={coffeeShelf}
                 loading="lazy"
-                alt="Small Business and Corporate Branding"
+                alt="Small Business and Corporate Branding in Kingsport, TN"
                 id="coffeeShelf"
               />
               <p>
@@ -127,14 +127,14 @@ export default function PrintAndDesignGraphicServices() {
         <title>Print and Graphic Design Services</title>
         <meta
           name="description"
-          content="Every project at Blue Smoke Digital and Printed Media, is custom designed to your digital or graphic media needs, specifically to address the individual challenges of each project we work on. "
+          content="Every project at Blue Smoke Digital and Printed Media in Knoxville, TN, is custom designed to your digital or graphic media needs, specifically to address the individual challenges of each project we work on. "
         />
 
         {/* <!-- Google / Search Engine Tags --> */}
         <meta itemprop="name" content="Print and Graphic Design Services" />
         <meta
           itemprop="description"
-          content="Every project at Blue Smoke Digital and Printed Media, is custom designed to your digital or graphic media needs, specifically to address the individual challenges of each project we work on. "
+          content="Every project at Blue Smoke Digital and Printed Media in Knoxville,TN, is custom designed to your digital or graphic media needs, specifically to address the individual challenges of each project we work on. "
         />
         <meta itemprop="image" content="../../images/fingers-crossed.png" />
 
@@ -147,7 +147,7 @@ export default function PrintAndDesignGraphicServices() {
         <meta property="og:title" content="Print and Graphic Design Services" />
         <meta
           property="og:description"
-          content="Every project at Blue Smoke Digital and Printed Media, is custom designed to your digital or graphic media needs, specifically to address the individual challenges of each project we work on. "
+          content="Every project at Blue Smoke Digital and Printed Media in Ogden, UT, is custom designed to your digital or graphic media needs, specifically to address the individual challenges of each project we work on. "
         />
         <meta property="og:image" content="../../images/fingers-crossed.png" />
 
@@ -159,7 +159,7 @@ export default function PrintAndDesignGraphicServices() {
         />
         <meta
           name="twitter:description"
-          content="Every project at Blue Smoke Digital and Printed Media, is custom designed to your digital or graphic media needs, specifically to address the individual challenges of each project we work on. "
+          content="Every project at Blue Smoke Digital and Printed Media in Knoxville, TN, is custom designed to your digital or graphic media needs, specifically to address the individual challenges of each project we work on. "
         />
         <meta name="twitter:image" content="../../images/fingers-crossed.png" />
       </Helmet>
