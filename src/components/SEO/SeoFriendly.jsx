@@ -13,12 +13,12 @@ export default function OrganicSeo() {
         className="hero-image"
       />
       <h1>
-        Search Engine Friendly Web Design
+        Search Engine Friendly Website Design
         <br />
         and Search Engine Optimization
       </h1>
       <h2>
-        First, what is search engine friendly web design and search engine
+        First, what is search engine friendly website design and search engine
         optimization?
       </h2>
       <p>
@@ -45,19 +45,19 @@ export default function OrganicSeo() {
       </p>
       <p>
         While developing your custom designed website from the ground up,
-        <span> Blue Smoke Digital Media </span>
-        includes built in organic search engine optimization. This includes
+        <span> Blue Smoke Digital and Printed Media of Knoxville, TN, </span>
+        includes "built in" organic search engine optimization. This includes
         online architectural design principles carefully combining information
         delivery and intuitive navigation to satisfy the visitor’s needs.
         However, paid or not, most search engines base how high your website
         ranks on various factors. If yours meets their criteria, you’ll get a
         better ranking than the next website. As part of your website package,
-        we will utilize our organic search engine friendly design methodology,
+        we will utilize our friendly organic search engine optimization design methodology,
         which has been successful in gaining excellent rankings in the search
         engines.
       </p>
       <p>
-        Get traffic and potential clients with a search engine friendly website.{" "}
+        Get traffic and potential clients with a friendly organic search engine optimized website by Blue Smoke Digital and Printed Media of Knoxville, TN.{" "}
         <Link to="/contact">
           <span id="contact">Contact us</span>{" "}
         </Link>
@@ -76,11 +76,11 @@ export default function OrganicSeo() {
 
         {/* // <!-- HTML Meta Tags --> */}
         <title>
-          Search Engine Friendly Web Design and Search Engine Optimization
+          Search Engine Friendly Custom Website Design and Search Engine Optimization
         </title>
         <meta
           name="description"
-          content="At Blue Smoke Digital Media, we know that a website’s basic search engine “friendliness” should, in most cases, be part of the overall design plan for a new website. Good search engine rankings are often crucial to the goals of our clients. This is why we incorporate these fundamental techniques in our designs as a standard part of even our most affordable packages."
+          content="Blue Smoke Digital and Printed Media is a Digital and Printed Media marketing agency specializing in Organic SEO, Website Design and Social Media Marketing. Our Agency offices are in the following cities: Erwin, TN; Johnson City, TN; Kingsport, TN; Bristol TN; Pigeon Forge, TN; Gatlinburg, TN; Sevierville, TN; Knoxville, TN; Asheville, NC; Charleston, SC; Ogden, UT; Salt Lake City, UT; Tyler, TX; Dallas, TX; Fort Worth, TX; Spokane, WA."
         />
 
         <meta
@@ -95,7 +95,7 @@ export default function OrganicSeo() {
         />
         <meta
           itemprop="description"
-          content="At Blue Smoke Digital Media, we know that a website’s basic search engine “friendliness” should, in most cases, be part of the overall design plan for a new website. Good search engine rankings are often crucial to the goals of our clients. This is why we incorporate these fundamental techniques in our designs as a standard part of even our most affordable packages."
+          content="Blue Smoke Digital and Printed Media is a Digital and Printed Media marketing agency specializing in Organic SEO, Website Design and Social Media Marketing. Our Agency offices are in the following cities: Erwin, TN; Johnson City, TN; Kingsport, TN; Bristol TN; Pigeon Forge, TN; Gatlinburg, TN; Sevierville, TN; Knoxville, TN; Asheville, NC; Charleston, SC; Ogden, UT; Salt Lake City, UT; Tyler, TX; Dallas, TX; Fort Worth, TX; Spokane, WA."
         />
         <meta itemprop="image" content="../../images/seo-puzzle.png" />
 
@@ -111,7 +111,7 @@ export default function OrganicSeo() {
         />
         <meta
           property="og:description"
-          content="At Blue Smoke Digital Media, we know that a website’s basic search engine “friendliness” should, in most cases, be part of the overall design plan for a new website. Good search engine rankings are often crucial to the goals of our clients. This is why we incorporate these fundamental techniques in our designs as a standard part of even our most affordable packages."
+          content="Blue Smoke Digital and Printed Media is a Digital and Printed Media marketing agency specializing in Organic SEO, Website Design and Social Media Marketing. Our Agency offices are in the following cities: Erwin, TN; Johnson City, TN; Kingsport, TN; Bristol TN; Pigeon Forge, TN; Gatlinburg, TN; Sevierville, TN; Knoxville, TN; Asheville, NC; Charleston, SC; Ogden, UT; Salt Lake City, UT; Tyler, TX; Dallas, TX; Fort Worth, TX; Spokane, WA."
         />
         <meta property="og:image" content="../../images/seo-puzzle.png" />
 
@@ -123,7 +123,7 @@ export default function OrganicSeo() {
         />
         <meta
           name="twitter:description"
-          content="At Blue Smoke Digital Media, we know that a website’s basic search engine “friendliness” should, in most cases, be part of the overall design plan for a new website. Good search engine rankings are often crucial to the goals of our clients. This is why we incorporate these fundamental techniques in our designs as a standard part of even our most affordable packages."
+          content="Blue Smoke Digital and Printed Media is a Digital and Printed Media marketing agency specializing in Organic SEO, Website Design and Social Media Marketing. Our Agency offices are in the following cities: Erwin, TN; Johnson City, TN; Kingsport, TN; Bristol TN; Pigeon Forge, TN; Gatlinburg, TN; Sevierville, TN; Knoxville, TN; Asheville, NC; Charleston, SC; Ogden, UT; Salt Lake City, UT; Tyler, TX; Dallas, TX; Fort Worth, TX; Spokane, WA."
         />
         <meta name="twitter:image" content="../../images/seo-puzzle.png" />
       </Helmet>
