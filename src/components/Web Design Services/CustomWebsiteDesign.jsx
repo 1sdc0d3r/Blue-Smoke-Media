@@ -9,7 +9,7 @@ export default function CustomWebsiteDesign() {
     <div className="custom-website-design page-wrapper">
       <img
         src={customDesign}
-        alt="Watercolor Wireframes of Website Design"
+        alt="Watercolor Wireframes of Custom Website Design"
         className="hero-image"
       />
       <div className="content">
