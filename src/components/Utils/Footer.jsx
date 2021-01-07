@@ -218,7 +218,7 @@ export default function Footer() {
         </div>
       </section>
       <p className="copy">
-        © 2019-2020 - Blue Smoke Digital and Printed Media - All rights reserved
+        © 2019-2021 - Blue Smoke Digital and Printed Media - All rights reserved
       </p>
     </>
   );
