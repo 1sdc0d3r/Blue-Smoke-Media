@@ -13,7 +13,7 @@ export default function WebsiteLogoDesign() {
         className="hero-image"
       />
       <div className="content">
-        <h1>Website Logos</h1>
+        <h1>Custom Designed Website Logos</h1>
         <p>
           Websites without a logo look incomplete — and miss on an important
           “branding” opportunity — while logos that do not look professional
@@ -21,12 +21,12 @@ export default function WebsiteLogoDesign() {
         </p>
         <p>
           With your professionally-designed logo on every page, your customers
-          will know that they’ve arrived at your website, your website will look
+          will know that they’ve arrived at your website. Your website will look
           uniform and consistent, and your logo will remind potential new
           customers of your company — on every page.
         </p>
         <p>
-          If you already have a <Link to="/article/4">logo</Link>, we can
+          If you already have a <Link to="/article/4">custom designed printed logo</Link>, we can
           prepare it for usage on the Web, helping to bring your offline message
           and branding to your online presence — and identify your website to
           your customers.
@@ -59,7 +59,7 @@ export default function WebsiteLogoDesign() {
         <title>Website Logo Design</title>
         <meta
           name="description"
-          content="Blue Smoke Digital and Printed Media specializes in aesthetic, one-of-a-kind logos that say what you do. We use state-of-the-art graphics programs to translate your logo into Web formats, cutting down on “download” time as much as possible while retaining the quality of the image."
+          content="Blue Smoke Digital and Printed Media is a Digital and Printed Media agency specializing in custom website logo designs, with offices in the following cities: Erwin, TN; Johnson City, TN; Kingsport, TN; Bristol TN; Pigeon Forge, TN; Gatlinburg, TN; Sevierville, TN; Knoxville, TN; Asheville, NC; Charleston, SC; Ogden, UT; Salt Lake City, UT; Tyler, TX; Dallas, TX; Fort Worth, TX; Spokane, WA."
         />
 
         <meta
@@ -71,7 +71,7 @@ export default function WebsiteLogoDesign() {
         <meta itemprop="name" content="Website Logo Design" />
         <meta
           itemprop="description"
-          content="Blue Smoke Digital and Printed Media specializes in aesthetic, one-of-a-kind logos that say what you do. We use state-of-the-art graphics programs to translate your logo into Web formats, cutting down on “download” time as much as possible while retaining the quality of the image."
+          content="Blue Smoke Digital and Printed Media specializes in aesthetic, one-of-a-kind custom designed logos that say what you do. We use state-of-the-art graphics programs to translate your logo into Web formats, cutting down on “download” time as much as possible while retaining the quality of the image."
         />
         <meta
           itemprop="image"
@@ -87,7 +87,7 @@ export default function WebsiteLogoDesign() {
         <meta property="og:title" content="Website Logo Design" />
         <meta
           property="og:description"
-          content="Blue Smoke Digital and Printed Media specializes in aesthetic, one-of-a-kind logos that say what you do. We use state-of-the-art graphics programs to translate your logo into Web formats, cutting down on “download” time as much as possible while retaining the quality of the image."
+          content="Blue Smoke Digital and Printed Media specializes in aesthetic, one-of-a-kind custom designed logos that say what you do. We use state-of-the-art graphics programs to translate your logo into Web formats, cutting down on “download” time as much as possible while retaining the quality of the image."
         />
         <meta
           property="og:image"
@@ -99,7 +99,7 @@ export default function WebsiteLogoDesign() {
         <meta name="twitter:title" content="Website Logo Design" />
         <meta
           name="twitter:description"
-          content="Blue Smoke Digital and Printed Media specializes in aesthetic, one-of-a-kind logos that say what you do. We use state-of-the-art graphics programs to translate your logo into Web formats, cutting down on “download” time as much as possible while retaining the quality of the image."
+          content="Blue Smoke Digital and Printed Media specializes in aesthetic, one-of-a-kind custom designed logos that say what you do. We use state-of-the-art graphics programs to translate your logo into Web formats, cutting down on “download” time as much as possible while retaining the quality of the image."
         />
         <meta
           name="twitter:image"

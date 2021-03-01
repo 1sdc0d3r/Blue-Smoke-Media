@@ -9,7 +9,7 @@ export default function PrintedMediaLogos() {
     <div className="printed-logos page-wrapper">
       <img
         src={printedMedia}
-        alt="Printed Media and Materials Logo Designs"
+        alt="Printed Media and Materials Logo Designs with Blue Smoke Digital and Printed Media in Knoxville, TN."
         className="hero-image"
       />
       <div>
@@ -19,16 +19,16 @@ export default function PrintedMediaLogos() {
           organization to a single symbol. Many companies are complex systems of
           individuals and entities working toward a variety of goals. Our
           identities are the result of a process that remains flexible while at
-          the same time building a brand. Looking for a unique image to
+          the same time building a brand. Are you looking for a unique image to
           represent your corporate identity? Or do you just need to modify your
           current logo for your website? At{" "}
-          <span>Blue Smoke Digital and Printed Media,</span>
+          <span>Blue Smoke Digital and Printed Media in Koxville, TN,</span>
           we create <Link to="/article/11">logos</Link> that capture the essence
           of your business, leaving impact for both print and web display.
         </p>
         <p>
           If you’re looking for a new logo or redesigning your current one for
-          your website or corporate identity, we can assist you in the
+          your website or corporate identity, Blue Smoke Digital and Printed Media can assist you in the
           decision-making process. We specialize in both low-resolution (web)
           and high-resolution (print) graphic images. If you are interested in
           the prospect for a new logo, a redesign of your current logo or are in
@@ -52,14 +52,14 @@ export default function PrintedMediaLogos() {
         <title>Printed Media Logos</title>
         <meta
           name="description"
-          content="One of the toughest design projects is reducing the identity of an organization to a single symbol. Many companies are complex systems of individuals and entities working toward a variety of goals. Our identities are the result of a process that remains flexible while at the same time building a brand."
+          content="Blue Smoke Digital and Printed Media is a Digital and Printed Media agency specializing in logos, business cards, brochures, and flyers, etc., with offices in the following cities: Erwin, TN; Johnson City, TN; Kingsport, TN; Bristol TN; Pigeon Forge, TN; Gatlinburg, TN; Sevierville, TN; Knoxville, TN; Asheville, NC; Charleston, SC; Ogden, UT; Salt Lake City, UT; Tyler, TX; Dallas, TX; Fort Worth, TX; Spokane, WA;"
         />
 
         {/* <!-- Google / Search Engine Tags --> */}
         <meta itemprop="name" content="Printed Media Logos" />
         <meta
           itemprop="description"
-          content="One of the toughest design projects is reducing the identity of an organization to a single symbol. Many companies are complex systems of individuals and entities working toward a variety of goals. Our identities are the result of a process that remains flexible while at the same time building a brand."
+          content="Blue Smoke Digital and Printed Media is a Digital and Printed Media agency specializing in logos, business cards, brochures, and flyers, etc., with offices in the following cities: Erwin, TN; Johnson City, TN; Kingsport, TN; Bristol TN; Pigeon Forge, TN; Gatlinburg, TN; Sevierville, TN; Knoxville, TN; Asheville, NC; Charleston, SC; Ogden, UT; Salt Lake City, UT; Tyler, TX; Dallas, TX; Fort Worth, TX; Spokane, WA."
         />
         <meta itemprop="image" content="../../images/printed-media.png" />
 
@@ -72,7 +72,7 @@ export default function PrintedMediaLogos() {
         <meta property="og:title" content="Printed Media Logos" />
         <meta
           property="og:description"
-          content="One of the toughest design projects is reducing the identity of an organization to a single symbol. Many companies are complex systems of individuals and entities working toward a variety of goals. Our identities are the result of a process that remains flexible while at the same time building a brand."
+          content="Blue Smoke Digital and Printed Media is a Digital and Printed Media agency specializing in logos, business cards, brochures, and flyers, etc., with offices in the following cities: Erwin, TN; Johnson City, TN; Kingsport, TN; Bristol TN; Pigeon Forge, TN; Gatlinburg, TN; Sevierville, TN; Knoxville, TN; Asheville, NC; Charleston, SC; Ogden, UT; Salt Lake City, UT; Tyler, TX; Dallas, TX; Fort Worth, TX; Spokane, WA."
         />
         <meta property="og:image" content="../../images/printed-media.png" />
 
@@ -81,7 +81,7 @@ export default function PrintedMediaLogos() {
         <meta name="twitter:title" content="Printed Media Logos" />
         <meta
           name="twitter:description"
-          content="One of the toughest design projects is reducing the identity of an organization to a single symbol. Many companies are complex systems of individuals and entities working toward a variety of goals. Our identities are the result of a process that remains flexible while at the same time building a brand."
+          content="Blue Smoke Digital and Printed Media is a Digital and Printed Media agency specializing in logos, business cards, brochures, and flyers, etc., with offices in the following cities: Erwin, TN; Johnson City, TN; Kingsport, TN; Bristol TN; Pigeon Forge, TN; Gatlinburg, TN; Sevierville, TN; Knoxville, TN; Asheville, NC; Charleston, SC; Ogden, UT; Salt Lake City, UT; Tyler, TX; Dallas, TX; Fort Worth, TX; Spokane, WA."
         />
         <meta name="twitter:image" content="../../images/printed-media.png" />
       </Helmet>

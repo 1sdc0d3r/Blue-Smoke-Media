@@ -22,7 +22,7 @@ export default function OrganicSeo() {
         process of enhancing your website with the goal of increasing your
         visibility in the top search engines when specific keywords or phrases
         are searched for. The overall process involves a variety of aspects
-        including keyword analysis and selection, website optimization for
+        including keyword analysis and selection, website content optimization for
         optimal search engine positioning, search engine crawler inclusion,
         creating and submitting directory listings , link popularity enhancement
         and ongoing campaign reporting and maintenance. The end result is that
@@ -33,10 +33,10 @@ export default function OrganicSeo() {
       <p>
         <span>Organic or Natural Keyword Optimization</span> is critical to
         ensuring your site is organized properly and that your content, (we
-        suggest at least 250 words of rich content), reflects your target
+        suggest at least 250 words of rich content), reflects your targeted
         keyword phrases accurately. Relevant content is key for top search
-        engine rankings. We start with Title and Meta Tags and work through the
-        on-page text content and layout and internal linking of your web pages
+        engine rankings. We start with Title and Description Meta Tags and work through the
+        on-page text content, layout and internal linking of your web pages
         to ensure proper page formatting and keyword relevancy.
       </p>
       <p>
@@ -69,23 +69,19 @@ export default function OrganicSeo() {
         <title>Organic Search Engine Optimization</title>
         <meta
           name="description"
-          content="Organic search engine optimization also referred to as traditional search engine optimization, is the process of enhancing your website with the goal of
-increasing your visibility in the top search engines when specific keywords or phrases are searched for."
+          content="Blue Smoke Digital and Printed Media is a Search Engine Marketing agency specializing in Organic SEO, with offices in the following cities: Erwin, TN; Johnson City, TN; Kingsport, TN; Bristol TN; Pigeon Forge, TN; Gatlinburg, TN; Sevierville, TN; Knoxville, TN; Asheville, NC; Charleston, SC; Ogden, UT; Salt Lake City, UT; Tyler, TX; Dallas, TX; Fort Worth, TX; Spokane, WA."
         />
 
         <meta
           name="keywords"
-          content="social media marketing strategy, smm marketing, digital and social media marketing, social marketing agency, digital marketing solution service, digital marketing service, digital marketing company, digital marketing strategy, internet marketing, social media marketing agency, online marketing agency, content marketing agency, best digital marketing agency, top digital marketing agencies, web marketing agency, sms marketing, digital ad agency, digital marketing advertising, seo and digital marketing, online digital marketing agency, online media marketing, corporate digital marketing, online and social media marketing, digital marketing online marketing"
+          content="SEO, Search Engine Optimization, SEO Marketing, Organic Search Engine Optimization, Search Engine Ranking, SEO Ranking, Organic SEO, SEO Services, Google SEO, Backlinks, SEO Site Checkup, seo website, organic search, white hat SEO, seo packages, seo website content, website optimization, afforadable seo, keyword ranking, google search engine optimization, mobile seo, seo content writing, small business seo, seo management, page ranking, search engine optimization services, website seo services, bing seo, google search engine optimization, e-commerce seo services, local search engine optimization, local search"
         />
 
         {/* <!-- Google / Search Engine Tags --> */}
         <meta itemprop="name" content="Organic Search Engine Optimization" />
         <meta
           itemprop="description"
-          content="Organic search engine optimization also referred to as traditional search engine
-optimization, is the process of enhancing your website with the goal of
-increasing your visibility in the top search engines when specific keywords
-or phrases are searched for."
+          content="Blue Smoke Digital and Printed Media is a Search Engine Marketing agency specializing in Organic SEO, with offices in the following cities: Erwin, TN; Johnson City, TN; Kingsport, TN; Bristol TN; Pigeon Forge, TN; Gatlinburg, TN; Sevierville, TN; Knoxville, TN; Asheville, NC; Charleston, SC; Ogden, UT; Salt Lake City, UT; Tyler, TX; Dallas, TX; Fort Worth, TX; Spokane, WA."
         />
         <meta itemprop="image" content="../../images/seo-banner.png" />
 
@@ -101,10 +97,7 @@ or phrases are searched for."
         />
         <meta
           property="og:description"
-          content="Organic search engine optimization  also referred to as traditional search engine
-optimization, is the process of enhancing your website with the goal of
-increasing your visibility in the top search engines when specific keywords
-or phrases are searched for."
+          content="Blue Smoke Digital and Printed Media is a Search Engine Marketing agency specializing in Organic SEO, with offices in the following cities: Erwin, TN; Johnson City, TN; Kingsport, TN; Bristol TN; Pigeon Forge, TN; Gatlinburg, TN; Sevierville, TN; Knoxville, TN; Asheville, NC; Charleston, SC; Ogden, UT; Salt Lake City, UT; Tyler, TX; Dallas, TX; Fort Worth, TX; Spokane, WA."
         />
         <meta property="og:image" content="../../images/seo-banner.png" />
 
@@ -116,7 +109,7 @@ or phrases are searched for."
         />
         <meta
           name="twitter:description"
-          content="Organic search engine optimization  also referred to as traditional search engine optimization, is the process of enhancing your website with the goal of increasing your visibility in the top search engines when specific keywords or phrases are searched for."
+          content="Blue Smoke Digital and Printed Media is a Search Engine Marketing agency specializing in Organic SEO, with offices in the following cities: Erwin, TN; Johnson City, TN; Kingsport, TN; Bristol TN; Pigeon Forge, TN; Gatlinburg, TN; Sevierville, TN; Knoxville, TN; Asheville, NC; Charleston, SC; Ogden, UT; Salt Lake City, UT; Tyler, TX; Dallas, TX; Fort Worth, TX; Spokane, WA."
         />
         <meta name="twitter:image" content="../../images/seo-banner.png" />
       </Helmet>
