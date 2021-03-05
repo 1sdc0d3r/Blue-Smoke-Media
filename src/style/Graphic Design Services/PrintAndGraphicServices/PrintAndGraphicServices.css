@@ -121,34 +121,30 @@
 
 .print-and-graphic-design-services .bottom-content section img {
   height: 11em;
-  width: 12.5em;
+  width: 17em;
 }
 
 @media (max-width: 360px) {
   .print-and-graphic-design-services .bottom-content section img {
     margin-top: 1.5em;
-    width: 15em;
   }
 }
 
 @media (min-width: 361px) and (max-width: 480px) {
   .print-and-graphic-design-services .bottom-content section img {
     margin-top: 1.5em;
-    width: 15em;
   }
 }
 
 @media (min-width: 481px) and (max-width: 736px) {
   .print-and-graphic-design-services .bottom-content section img {
     margin-top: 1.5em;
-    width: 15em;
   }
 }
 
 @media (min-width: 737px) and (max-width: 980px) {
   .print-and-graphic-design-services .bottom-content section img {
     margin-top: 1.5em;
-    width: 15em;
   }
 }
 

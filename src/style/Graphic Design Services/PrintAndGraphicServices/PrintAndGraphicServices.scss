@@ -38,11 +38,10 @@
       }
       img {
         height: 11em;
-        width: 12.5em;
+        width: 17em;
 
         @include breakpoint(xxs, xs, s, m) {
           margin-top: 1.5em;
-          width: 15em;
         }
       }
 

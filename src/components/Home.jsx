@@ -82,6 +82,7 @@ export default function Home() {
       </section>
 
       <section className="services">
+        {/* //todo remove span from h1 */}
         <h1>
           <span>Our </span>Services
         </h1>
