@@ -86,6 +86,23 @@
           align-items: center;
 }
 
+.main-nav .dropdown .drop-btn div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-nav .dropdown .drop-btn div p {
+  padding: 0;
+  margin: 0;
+}
+
+.main-nav .dropdown .drop-btn div svg {
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+}
+
 .main-nav .dropdown:hover .dropdown-content {
   display: -webkit-box;
   display: -ms-flexbox;

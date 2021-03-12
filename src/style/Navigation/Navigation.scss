@@ -48,10 +48,21 @@
       cursor: pointer;
       display: flex;
       align-items: center;
+      // position: relative;
 
       @include breakpoint(mobile) {
         /* margin important for vertical align on mobile phones */
         margin: 0;
+      }
+      div {
+        display: flex;
+        p {
+          padding: 0;
+          margin: 0;
+        }
+        svg {
+          align-self: end;
+        }
       }
     }
 

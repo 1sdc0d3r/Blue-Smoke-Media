@@ -4,13 +4,16 @@ import { FiChevronDown } from "react-icons/fi";
 
 export default withRouter(function Navigation({ history }) {
   // history.listen(() => {});
-  const dropArrow = <FiChevronDown color="#7ff76f" />;
+  const dropArrow = <FiChevronDown color="#7ff76f" className="arrow" />;
   // todo fix dropdown-content not going away on change
   return (
     <nav className="main-nav">
       <div className="dropdown">
         <button className="drop-btn nav-item" onClick={() => history.push("/")}>
-          Home{dropArrow}
+          <div>
+            <p>Home</p>
+            {dropArrow}
+          </div>
         </button>
         <div className="dropdown-content home-drop">
           <div className="nav-section">
@@ -31,8 +34,10 @@ export default withRouter(function Navigation({ history }) {
       </NavLink>
       <div className="dropdown">
         <button className="drop-btn nav-item">
-          Services
-          {dropArrow}
+          <div>
+            <p>Services</p>
+            {dropArrow}
+          </div>
         </button>
         <div className="dropdown-content">
           <div className="nav-section">
