@@ -4,10 +4,8 @@ import React from "react";
 // import phone from "../images/phone.png";
 // import email from "../images/mail-icon.png";
 import { FiPhone, FiMail } from "react-icons/fi";
-const email =
-  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/Header/mail.png";
-const phone =
-  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/Header/phone.png";
+const email = "https://bluesmokemedia.s3-us-west-1.amazonaws.com/mail.png";
+const phone = "https://bluesmokemedia.s3-us-west-1.amazonaws.com/phone.png";
 
 export default function cta() {
   return (

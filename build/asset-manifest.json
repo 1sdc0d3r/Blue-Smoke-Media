@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.10fd9196.chunk.css",
-    "main.js": "/static/js/main.e71e3f83.chunk.js",
-    "main.js.map": "/static/js/main.e71e3f83.chunk.js.map",
+    "main.css": "/static/css/main.d2459fdc.chunk.css",
+    "main.js": "/static/js/main.f804ee01.chunk.js",
+    "main.js.map": "/static/js/main.f804ee01.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8c6928dc.js",
     "runtime-main.js.map": "/static/js/runtime-main.8c6928dc.js.map",
     "static/css/2.136a4374.chunk.css": "/static/css/2.136a4374.chunk.css",
@@ -10,15 +10,16 @@
     "static/js/2.f7d78560.chunk.js.map": "/static/js/2.f7d78560.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.136a4374.chunk.css.map": "/static/css/2.136a4374.chunk.css.map",
-    "static/css/main.10fd9196.chunk.css.map": "/static/css/main.10fd9196.chunk.css.map",
+    "static/css/main.d2459fdc.chunk.css.map": "/static/css/main.d2459fdc.chunk.css.map",
     "static/js/2.f7d78560.chunk.js.LICENSE.txt": "/static/js/2.f7d78560.chunk.js.LICENSE.txt",
-    "static/js/main.e71e3f83.chunk.js.LICENSE.txt": "/static/js/main.e71e3f83.chunk.js.LICENSE.txt",
+    "static/js/main.f804ee01.chunk.js.LICENSE.txt": "/static/js/main.f804ee01.chunk.js.LICENSE.txt",
     "static/media/Aeson-Johnson.57e18c8a.png": "/static/media/Aeson-Johnson.57e18c8a.png",
     "static/media/Braden.6d95331d.png": "/static/media/Braden.6d95331d.png",
     "static/media/CoBe.9462829a.png": "/static/media/CoBe.9462829a.png",
     "static/media/Coding-Web-Development.53dc7a45.png": "/static/media/Coding-Web-Development.53dc7a45.png",
     "static/media/E-commerce_image.e0027a46.png": "/static/media/E-commerce_image.e0027a46.png",
     "static/media/High_Quality_Social_Media_Services.90980c72.png": "/static/media/High_Quality_Social_Media_Services.90980c72.png",
+    "static/media/LandingPageVideo.326a402d.mp4": "/static/media/LandingPageVideo.326a402d.mp4",
     "static/media/Ramona-Lucius.bffc5f3b.png": "/static/media/Ramona-Lucius.bffc5f3b.png",
     "static/media/Red_x.aa39c2d9.svg": "/static/media/Red_x.aa39c2d9.svg",
     "static/media/Twitter.105ffd2a.png": "/static/media/Twitter.105ffd2a.png",
@@ -51,7 +52,7 @@
     "static/js/runtime-main.8c6928dc.js",
     "static/css/2.136a4374.chunk.css",
     "static/js/2.f7d78560.chunk.js",
-    "static/css/main.10fd9196.chunk.css",
-    "static/js/main.e71e3f83.chunk.js"
+    "static/css/main.d2459fdc.chunk.css",
+    "static/js/main.f804ee01.chunk.js"
   ]
 }

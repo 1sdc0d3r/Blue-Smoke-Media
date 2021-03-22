@@ -9,9 +9,9 @@ import slide_sm from "../images/social_media.png";
 import slide_graphic from "../images/graphic_design.png";
 
 import cover from "../images/now-open-cover.png";
-
-const socialMedia =
-  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/Now-open-video_HD720.mp4";
+import video from "../videos/LandingPageVideo.mp4";
+const socialMedia = video;
+// "https://bluesmokemedia.s3-us-west-1.amazonaws.com/Now-open-video_HD720.mp4";
 
 export default function Home() {
   return (

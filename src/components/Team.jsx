@@ -6,11 +6,11 @@ import team from "../data/team";
 //* Images
 import languages from "../images/Coding-Web-Development.png";
 const womanStudio =
-  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/graphic-design-video-MTT.mp4";
+  "https://bluesmokemedia.s3-us-west-1.amazonaws.com/graphic-design-video-MTT.mp4";
 const globeVid =
-  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/local-regional-nationalClients-MTT-globe.mp4";
+  "https://bluesmokemedia.s3-us-west-1.amazonaws.com/local-regional-nationalClients-MTT-globe.mp4";
 const seoVid =
-  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/SEO-search-engine-optimization-MTT.mp4";
+  "https://bluesmokemedia.s3-us-west-1.amazonaws.com/SEO-search-engine-optimization-MTT.mp4";
 
 export default function Team() {
   return (
