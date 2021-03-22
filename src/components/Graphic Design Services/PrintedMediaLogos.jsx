@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 //* Images
-import printedMedia from "../../images/printed-media.png";
+import printedMedia from "../../images/printed-media.webp";
 
 export default function PrintedMediaLogos() {
   return (
@@ -61,7 +61,7 @@ export default function PrintedMediaLogos() {
           itemprop="description"
           content="One of the toughest design projects is reducing the identity of an organization to a single symbol. Many companies are complex systems of individuals and entities working toward a variety of goals. Our identities are the result of a process that remains flexible while at the same time building a brand."
         />
-        <meta itemprop="image" content="../../images/printed-media.png" />
+        <meta itemprop="image" content="../../images/printed-media.webp" />
 
         {/* <!-- Facebook Meta Tags --> */}
         <meta
@@ -74,7 +74,7 @@ export default function PrintedMediaLogos() {
           property="og:description"
           content="One of the toughest design projects is reducing the identity of an organization to a single symbol. Many companies are complex systems of individuals and entities working toward a variety of goals. Our identities are the result of a process that remains flexible while at the same time building a brand."
         />
-        <meta property="og:image" content="../../images/printed-media.png" />
+        <meta property="og:image" content="../../images/printed-media.webp" />
 
         {/* <!-- Twitter Meta Tags --> */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -83,7 +83,7 @@ export default function PrintedMediaLogos() {
           name="twitter:description"
           content="One of the toughest design projects is reducing the identity of an organization to a single symbol. Many companies are complex systems of individuals and entities working toward a variety of goals. Our identities are the result of a process that remains flexible while at the same time building a brand."
         />
-        <meta name="twitter:image" content="../../images/printed-media.png" />
+        <meta name="twitter:image" content="../../images/printed-media.webp" />
       </Helmet>
     </div>
   );

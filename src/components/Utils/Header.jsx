@@ -1,13 +1,13 @@
 import React from "react";
 //* Images
-// import blueSmoke from "../../images/blue-smoke.png";
+// import blueSmoke from "../../images/blue-smoke.webp";
 const blueSmoke =
   "https://bluesmokemedia.s3-us-west-1.amazonaws.com/blue-smoke.webp";
-// import flame from "../../images/flame.png";
+// import flame from "../../images/flame.webp";
 const flame = "https://bluesmokemedia.s3-us-west-1.amazonaws.com/flame.webp";
-// import silhouettes from "../../images/black-silhouettes.png";
+// import silhouettes from "../../images/black-silhouettes.webp";
 const silhouettes =
-  "https://bluesmokemedia.s3-us-west-1.amazonaws.com/black-silhouettes.png";
+  "https://bluesmokemedia.s3-us-west-1.amazonaws.com/black-silhouettes.webp";
 
 export default function Header() {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 //* Images
-import SocialMediaImg from "../images/High_Quality_Social_Media_Services.png";
+import SocialMediaImg from "../images/High_Quality_Social_Media_Services.webp";
 
 export default function SocialMedia() {
   return (
@@ -163,7 +163,7 @@ export default function SocialMedia() {
         />
         <meta
           itemprop="image"
-          content="../images/High Quality Social Media Services_Social Account Boost_Boost Your Social Media Accounts.png"
+          content="../images/High Quality Social Media Services_Social Account Boost_Boost Your Social Media Accounts.webp"
         />
 
         {/* <!-- Facebook Meta Tags --> */}
@@ -182,7 +182,7 @@ export default function SocialMedia() {
         />
         <meta
           property="og:image"
-          content="../images/High Quality Social Media Services_Social Account Boost_Boost Your Social Media Accounts.png"
+          content="../images/High Quality Social Media Services_Social Account Boost_Boost Your Social Media Accounts.webp"
         />
 
         {/* <!-- Twitter Meta Tags --> */}
@@ -197,7 +197,7 @@ export default function SocialMedia() {
         />
         <meta
           name="twitter:image"
-          content="../images/High Quality Social Media Services_Social Account Boost_Boost Your Social Media Accounts.png"
+          content="../images/High Quality Social Media Services_Social Account Boost_Boost Your Social Media Accounts.webp"
         />
       </Helmet>
     </>

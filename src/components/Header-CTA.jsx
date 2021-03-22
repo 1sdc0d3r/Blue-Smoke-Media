@@ -1,11 +1,11 @@
 import React from "react";
 
 //* Images
-// import phone from "../images/phone.png";
-// import email from "../images/mail-icon.png";
+// import phone from "../images/phone.webp";
+// import email from "../images/mail-icon.webp";
 import { FiPhone, FiMail } from "react-icons/fi";
-const email = "https://bluesmokemedia.s3-us-west-1.amazonaws.com/mail.png";
-const phone = "https://bluesmokemedia.s3-us-west-1.amazonaws.com/phone.png";
+const email = "https://bluesmokemedia.s3-us-west-1.amazonaws.com/mail.webp";
+const phone = "https://bluesmokemedia.s3-us-west-1.amazonaws.com/phone.webp";
 
 export default function cta() {
   return (
