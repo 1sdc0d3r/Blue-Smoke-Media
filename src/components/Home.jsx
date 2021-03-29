@@ -9,8 +9,7 @@ import slide_sm from "../images/social_media.webp";
 import slide_graphic from "../images/graphic_design.webp";
 
 import cover from "../images/now-open-cover.webp";
-import video from "../videos/LandingPageVideo.mp4";
-const socialMedia = video;
+import nowOpenVideo from "../videos/LandingPageVideo.mp4";
 // "https://bluesmokemedia.s3-us-west-1.amazonaws.com/Now-open-video_HD720.mp4";
 
 export default function Home() {
@@ -45,7 +44,7 @@ export default function Home() {
             id="sm-video"
             alt="Video of Services by Blue Smoke Digital and Printed Media"
             type="video/mp4"
-            src={socialMedia}
+            src={nowOpenVideo}
             preload="metadata"
             poster={cover}
             controls
