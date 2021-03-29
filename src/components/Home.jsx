@@ -202,7 +202,7 @@ export default function Home() {
               </h3>
               <h6>
                 Includes Organic SEO
-                <br /> Price is for 5 pages and 10 items.
+                <br /> Price is for 5 pages
               </h6>
               <hr className="line" />
               <p>Starts At</p>
