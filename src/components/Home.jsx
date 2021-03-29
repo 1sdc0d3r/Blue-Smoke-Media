@@ -9,7 +9,7 @@ import slide_sm from "../images/social_media.webp";
 import slide_graphic from "../images/graphic_design.webp";
 
 import cover from "../images/now-open-cover.webp";
-import nowOpenVideo from "../videos/LandingPageVideo.mp4";
+import nowOpenVideo from "../videos/Blue_Smoke_Media_A_Digital_and_Printed_Media_Agency";
 // "https://bluesmokemedia.s3-us-west-1.amazonaws.com/Now-open-video_HD720.mp4";
 
 export default function Home() {
