@@ -4,26 +4,49 @@
     <!-- Global site tag (gtag.js) - Google Analytics in script tag-->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="../favicon-64.png" />
-    <title>Template</title>
+    <link rel="icon" href="../../favicon-64.png" />
+    <!-- <link rel="stylesheet" href="../../css/index/index.css" /> -->
+    <title>Blue Smoke Media</title>
   </head>
   <body>
-    <header id="header"></header>
-    <nav id="navigation"></nav>
+    <p class="covid-banner">
+      <img
+        src="../../assets/circle-X.png"
+        alt="close 'x'"
+        onClick="document.querySelector('.covid-banner').style.display = 'none'"
+      />
+      Due to the COVID-19 pandemic, we are offering lower prices to help
+      accommodate the smaller businesses in the US. It is our goal to help in
+      keeping our communities together.
+    </p>
+    <header>
+      <div>
+        <div id="header"></div>
+        <div id="navigation"></div>
+      </div>
+      <div id="header-cta"></div>
+    </header>
+    <div id="drop-menu"></div>
 
     <!--! Content goes here -->
 
-    <footer id="footer"></footer>
+    <div id="footer"></div>
     <!--* Load React. -->
     <script
-      src="https://unpkg.com/react@17/umd/react.production.js"
+      src="https://unpkg.com/react@17/umd/react.production.min.js"
       crossorigin
     ></script>
     <script
-      src="https://unpkg.com/react-dom@17/umd/react-dom.production.js"
+      src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"
       crossorigin
     ></script>
-    <script src="https://unpkg.com/babel-standalone@6/babel.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
     <!--* Load React components -->
+    <script type="text/babel" src="../../js/Header.jsx"></script>
+    <script type="text/babel" src="../../js/Navigation.jsx"></script>
+    <script type="text/babel" src="../../js/Header-CTA.jsx"></script>
+    <script type="text/babel" src="../../js/DropMenu.jsx"></script>
+    <script type="text/babel" src="../../js/Footer.jsx"></script>
   </body>
 </html>
