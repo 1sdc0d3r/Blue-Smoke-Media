@@ -1,0 +1,42 @@
+{
+  "name": "LandsBeautyEnterprises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "sqlite3": "^5.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-csp-header": "^4.0.0",
+    "helmet": "^4.1.0",
+    "knex": "^0.21.5",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.5.0"
+  },
+  "resolutions": {},
+  "scripts": {
+    "test": "knex seed: run --env testing && cross-env DB_ENV=testing jest --watchAll --verbose",
+    "server": "nodemon index.js",
+    "start": "node index.js",
+    "dev": "concurrently 'yarn start' 'cd client && yarn start'",
+    "client": "cd client && yarn start",
+    "dbreset": "knex migrate:rollback && knex migrate:latest && knex seed:run",
+    "dynamo": "cd /Users/braden/Documents/Programming/utils/dynamodb_local_latest && java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "author": "1sdc0d3r",
+  "license": "ISC"
+}

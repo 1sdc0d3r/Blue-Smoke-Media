@@ -1,0 +1,18 @@
+@import "./BreakPoints.scss";
+
+$lightBlue: #00bdf5;
+$lightGrey: #c3c1c1;
+$darkGrey: #707070;
+$teal: #0f495f;
+$success: #7ff76f;
+$error: #f12538;
+@mixin navSpace($size) {
+  &::before {
+    display: block;
+    content: " ";
+    margin-top: $size;
+    height: $size;
+    visibility: hidden;
+    pointer-events: none;
+  }
+}

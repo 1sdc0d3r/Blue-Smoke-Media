@@ -1,0 +1,41 @@
+RewriteOptions inherit
+RewriteEngine on
+
+## BlueSmokeMedia.net
+#RewriteCond %{HTTP_HOST} ^bluesmokemedia\.net$ [OR]
+#RewriteCond %{HTTP_HOST} ^www\.bluesmokemedia\.net$
+#RewriteRule ^(.*)$ "https\:\/\/www\.#bluesmokedigitalandprintedmedia\.com\/$1" [R=301,L]
+
+# Cache Control for images and CSS
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|webp)#$">
+Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
+
+Header set Access-Control-Allow-Origin "*"
+
+# Trying to serve from HTML directory
+#RewriteBase /html/
+
+#RewriteRule ^index\.html$ - [L]
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME} !-l
+#RewriteRule . $1 [L,QSA]
+#RewriteRule (.*) /$1 [L]
+
+#RewriteCond %{HTTP_HOST} ^LandsBeautyEnterprises.com$ [NC,OR]
+#RewriteCond %{HTTP_HOST} ^www.LandsBeautyEnterprises.com$
+#RewriteCond %{REQUEST_URI} !html/
+#RewriteRule (.*) /html/$1 [L]
+
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.LandsBeautyEnterprises.com/$1 [R,L]
+
+# add on .html if its missing
+RewriteCond %{REQUEST_URI} !\.[a-zA-Z0-9]{3,4}
+RewriteCond %{REQUEST_URI} !/$
+RewriteCond %{REQUEST_URI} !\.(html|css|js|less|jpg|png|gif|webp)$
+RewriteRule ^(.*)$ $1.html
+
+# Redirect to 404 page
+ErrorDocument 404 /404.html
