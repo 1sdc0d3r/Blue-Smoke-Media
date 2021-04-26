@@ -38,7 +38,7 @@
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
-  background: url("../assets/globe-stretch-new.png");
+  background: url("../../assets/globe-stretch-new.png");
   background-size: 101% 105%;
   background-repeat: no-repeat;
   padding: 2em 0 1.5em;
@@ -76,19 +76,19 @@
 
 @media (max-width: 360px) {
   .home .globe {
-    background-image: url("../assets/grey_background_globe-element_for_mobile.png");
+    background-image: url("../../assets/grey_background_globe-element_for_mobile.png");
   }
 }
 
 @media (min-width: 361px) and (max-width: 480px) {
   .home .globe {
-    background-image: url("../assets/grey_background_globe-element_for_mobile.png");
+    background-image: url("../../assets/grey_background_globe-element_for_mobile.png");
   }
 }
 
 @media (min-width: 481px) and (max-width: 736px) {
   .home .globe {
-    background-image: url("../assets/grey_background_globe-element_for_mobile.png");
+    background-image: url("../../assets/grey_background_globe-element_for_mobile.png");
   }
 }
 
@@ -233,6 +233,7 @@
   font-weight: 900;
   text-transform: uppercase;
   color: goldenrod;
+  text-align: center;
   margin: 0;
   font-size: 2.3em;
   text-shadow: 3px 3px 1px #000;

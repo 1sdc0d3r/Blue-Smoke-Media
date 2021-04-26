@@ -9,7 +9,8 @@
   .globe {
     display: flex;
     flex-direction: row-reverse;
-    background: url("../assets/globe-stretch-new.png");
+    //
+    background: url("../../assets/globe-stretch-new.png");
     background-size: 101% 105%;
     background-repeat: no-repeat;
     padding: 2em 0 1.5em;
@@ -24,7 +25,7 @@
     }
 
     @include breakpoint(xxs, xs, s) {
-      background-image: url("../assets/grey_background_globe-element_for_mobile.png");
+      background-image: url("../../assets/grey_background_globe-element_for_mobile.png");
     }
 
     div {
@@ -90,8 +91,6 @@
     text-align: center;
     flex-direction: column;
     margin: 4em auto 2em;
-    @include breakpoint(xxs, xs, s, m) {
-    }
 
     .content {
       display: flex;
@@ -106,7 +105,7 @@
         font-weight: 900;
         text-transform: uppercase;
         color: goldenrod;
-        // text-align: left;
+        text-align: center;
         margin: 0;
         font-size: 2.3em;
         text-shadow: 3px 3px 1px #000;

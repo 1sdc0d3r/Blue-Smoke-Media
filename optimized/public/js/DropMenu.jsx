@@ -58,7 +58,7 @@ class DropMenu extends React.Component {
                 <a href="/seo/Friendly">SEO - Search Engine Optimization</a>
               </li>
               <li>
-                <a href="/seo/seoOrganic">Organic Search Engine Optimization</a>
+                <a href="/seo/organic">Organic Search Engine Optimization</a>
               </li>
             </ul>
             <li

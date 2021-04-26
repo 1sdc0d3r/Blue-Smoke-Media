@@ -122,7 +122,7 @@ class Footer extends React.Component {
                 </a>
               </li>
               <li>
-                <a href="/seo/seoOrganic">
+                <a href="/seo/organic">
                   {chevron}
                   Organic SEO
                 </a>
