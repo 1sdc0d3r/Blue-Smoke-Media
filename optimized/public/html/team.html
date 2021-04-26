@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="../favicon-64.png" />
-    <link rel="stylesheet" href="../css/Index/Index.css" />
+    <link rel="stylesheet" href="../css/Team/Team.css" />
 
     <link rel="stylesheet" href="../css/Core/Core.css" />
     <link rel="stylesheet" href="../css/Header/Header.css" />
@@ -25,6 +25,166 @@
     <div id="drop-menu"></div>
 
     <!--! Content goes here -->
+    <div class="team page-wrapper">
+      <section class="team-top">
+        <h1>Meet Our Team</h1>
+        <p>
+          <span>Blue Smoke Digital and Printed Media,</span> was founded in
+          2019, by a group of talented individuals with a combined 35 years of
+          programming, graphic design, search engine optimization, and sales and
+          marketing experience. Each <span>Blue Smoke Digital Media</span> team
+          member is a student or graduate of 
+          <a href="https://lambdaschool.com/" rel="noopener noreferrer">
+            Lambda School.
+          </a>
+        </p>
+      </section>
+      <section class="team-middle">
+        <div>
+          <video
+            type="video/mp4"
+            src="https://bluesmokemedia.s3-us-west-1.amazonaws.com/graphic-design-video-MTT.mp4"
+            alt="Video of a woman in her studio painting"
+            preload="auto"
+            autoPlay
+            loading="lazy"
+            loop
+          ></video>
+          <p>
+            The <span>Blue Smoke Digital and Printed Media</span> design staff
+            consists of graphic designers, web designers, 
+            <Link to="/graphic-design/website-logo-design">logo designers</Link>
+            , and usability experts versed in the latest up to date design
+            standards.
+          </p>
+        </div>
+        <div>
+          <img
+            src="../assets/Coding-Web-Development.png"
+            alt="Man pointing to programming languages, marketing and design programs"
+          />
+          <p>
+            The <span>Blue Smoke Digital Media</span> 
+            <Link to="/website-design/coding">
+              Full-Stack and Front-End developers
+            </Link> 
+            are proficient in, but not limited to the following languages: HTML5
+            • CSS3 • SASS • Tailwind • Bootstrap • JSON • Javascript • Python •
+            React • Redux • NodeJS • Express • REST • SQL • SQLite • Postgres •
+            UI/UX • Github • Testing (Jest • Cypress) • Computer Science
+          </p>
+        </div>
+        <div>
+          <video
+            type="video/mp4"
+            src="https://bluesmokemedia.s3-us-west-1.amazonaws.com/SEO-search-engine-optimization-MTT.mp4"
+            alt="Video of how SEO can act like a light bulb moment going off on your website."
+            preload="auto"
+            autoPlay
+            loading="lazy"
+            loop
+          ></video>
+          <p>
+            "The <span>Blue Smoke Digital Media</span> marketing staff consists
+            of search engine optimization (SEO) specialists, copywriters,
+            Corporate Branding specialists, publicists, and 
+            <Link to="/social-media">Social Media marketing</Link> experts."
+          </p>
+        </div>
+        <div>
+          <video
+            type="video/mp4"
+            src="https://bluesmokemedia.s3-us-west-1.amazonaws.com/local-regional-nationalClients-MTT-globe.mp4"
+            alt="Video of a digital spinning globe. "
+            preload="auto"
+            autoPlay
+            loading="lazy"
+            loop
+          ></video>
+          <p>
+            <span> Blue Smoke Digital and Printed Media,</span> enjoys a growing
+            roster of local, regional and national clients ranging from one -
+            person companies, small and medium sized business to non - profit
+            organizations.
+          </p>
+        </div>
+      </section>
+      <section class="team-bottom">
+        <p>
+          At<span> Blue Smoke Digital and Printed Media,</span> our product is
+          built on appealing, solid websites and 
+          <Link to="/graphic-design/digital-and-print-graphic-design">
+            graphic design
+          </Link>
+          , that represents the client while appealing to their customers. We
+          will always remember that we are a service company. Each and every
+          customer is valued as we will work to earn our customers’ trust and
+          loyalty. And more than simply responding to customer needs, we will
+          work to anticipate them - With unquestionable honesty, fairness and
+          respect.
+        </p>
+        <div id="team-members"></div>
+      </section>
+        <script>
+        const team = [{
+    name: "Constance Beebe (CoBe) - Co-Founder, Graphic Designer, SEO Specialist",
+    img: "../assets/CoBe.png",
+    description: "Constance Beebe is a Front-End Web Developer & Graphic Design Artist based out of Knoxville, TN. She is highly accomplished in Search Engine Optimization (SEO), Social Media Marketing and holds a Google Certification in Analytics. She is also skilled in Website Design, Keyword Research, Page Layout, Copywriting and is proficient in the Adobe Creative Suite for Design. She has prior management experience from the many hotels and cabin rental companies, of which she has had the honor of being the general manager. She is a strong engineering professional with a Certificate focused in CSS from the University of Tennessee - Knoxville and a Business Major from Charleston Southern University, in Charleston, SC.",
+  },
+  {
+    name: "Braden Bell - Co-Founder, Fullstack Developer",
+    img: "../assets/Braden.png",
+    description: "I am an avid fisherman with a passion to develop software. The spark that was struck in my youth ignited with a roaring ball of flame. I love to help people solve their problems with a unique solution only I can provide. Change is inevitable, there will always be something that is going to try to hold you back. When there is a new problem, I find a new solution. This is the only way to progress. Today is a new day. I love being a source of color in a binary world!"
+  },
+  {
+    name: "AJ - UX Designer",
+    img: "../assets/Aeson-Johnson.png",
+    description: "My name is Aeson 'AJ' Johnson, and I am a Front End Web Developer skilled in UI/UX, Graphic Design, and Printed and Digital Art. I am also skilled in HTML5, CSS3, Javascript, React, and the Adobe Creative Suite for Design. I'm passionate about fresh, clean design, and always strive to make my work the best it can be. When I'm not working, you can usually find me hunched over a table playing Dungeons & Dragons with my closest friends.",
+  },
+  {
+    name: "Daniel Wallen - Sales and Social Engineer",
+    img: '../assets/daniel.png',
+    description: "Daniel Wallen is a creative copywriter with a decade of experience. His content has reached millions of people and been shared more than 500,000 times. He's also published many best-selling Amazon books for both himself and ghostwriting clients. In 2019, he took a gap year to learn code, and loves creating mobile friendly experiences. Daniel once acted in a full-length movie that had great success in film festivals and can talk his way out of anything."
+  }, {
+    name: "Ramona Lucius - Email Marketing",
+    img: "../assets/Ramona-Lucius.png",
+    description: "Ramona Lucius graduated with a BFA in Acting at Wayne State University. She holds a certificate from the Moscow Art Theatre . Ramona is the founder of Hands-On Folktales which conducts inclusive arts residencies for K-12 schools and transitional youth centers, promoting literacy throughout the nation. Most recently Ramona began a full stack web development program and started a career as an email marketer where she can use her background- combining storytelling, practices of inclusion, and technology.",
+  },
+];
+        createMember(team)
+        function createMember(team) {
+          team.forEach(e => {
+            const root = document.getElementById("team-members")
+            const member = document.createElement("div");
+            member.className = "member";
+            const img = document.createElement("img");
+            img.src = e.img;
+            img.loading = "lazy"
+            img.alt="profile img"
+            const desc = document.createElement("p");
+            desc.className="description"
+            const name = document.createElement("p");
+            name.className="name"
+            name.innerText = e.name
+            desc.innerHTML = e.description
+
+            member.appendChild(img)
+            desc.prepend(name)
+            member.appendChild(desc)
+            return root.appendChild(member)
+          });
+          }
+          {/*<div class="member">
+           <img src={e.img} loading="lazy" alt="profile img" />
+            <p>
+              <span>{e.name}</span>
+              <br />
+              {e.description}
+            </p>
+          </div>*/}
+        </script>
+      
+    </div>
 
     <div id="footer"></div>
     <!--* Load React. -->

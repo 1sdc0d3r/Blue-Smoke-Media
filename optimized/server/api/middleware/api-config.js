@@ -32,10 +32,9 @@ module.exports = app => {
       'default-src': [SELF, INLINE,
         /*Localhost*/
         "localhost:5000", "http://localhost:5000", "localhost:5000/api/", "http://localhost:5000/api/",
-        /*heroku*/
-        "https://lands-beauty-enterprises.herokuapp.com/api/",
-        /* LandsBeautyEnterprises.com */
-        "LandsBeautyEnterprises.com", "http://LandsBeautyEnterprises.com", "https://LandsBeautyEnterprises.com",
+        /*AWS*/
+        "https://bluesmokemedia.s3-us-west-1.amazonaws.com/",
+        "bluesmokemedia.s3-us-west-1.amazonaws.com/",
       ],
       'script-src': [SELF, INLINE, 'unpkg.com'],
       'style-src': [SELF, INLINE],

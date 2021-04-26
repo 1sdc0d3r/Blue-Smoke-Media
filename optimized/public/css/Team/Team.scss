@@ -1,0 +1,154 @@
+@import "../Utils/Mixins.scss";
+.team {
+  text-align: left;
+  // margin: 3rem 3rem;
+  // margin: 0 5em;
+  a {
+    color: $lightBlue;
+  }
+
+  @include breakpoint(xxs, xs, s) {
+    margin: 1.5rem;
+  }
+
+  span {
+    font-weight: 600;
+  }
+
+  .team-top {
+    h1 {
+      font-size: 3em;
+      text-align: center;
+      margin: 1em auto 3rem;
+      color: $royalBlue;
+      // text-shadow: $darkBlue 2px 2px;
+
+      @include breakpoint(xxs, xs, s) {
+        margin: 1.5rem auto;
+      }
+    }
+
+    p {
+      a {
+        text-decoration: none;
+
+        &:visited {
+          color: $royalBlue;
+        }
+
+        &:hover {
+          color: $orange;
+        }
+      }
+    }
+  }
+
+  .team-middle {
+    margin-top: 4rem;
+
+    @include breakpoint(xxs, xs, s) {
+      margin-top: 2rem;
+    }
+
+    div {
+      display: flex;
+      margin-bottom: 2.5rem;
+
+      @include breakpoint(xxs, xs, s) {
+        flex-direction: column;
+      }
+
+      img {
+        width: 9em;
+        height: 100%;
+        margin-right: 2.4rem;
+
+        @include breakpoint(xxs, xs, s) {
+          width: 70%;
+          margin: auto;
+        }
+      }
+
+      video {
+        width: 9em;
+        height: 20%;
+        margin-right: 2.4rem;
+
+        @include breakpoint(xxs, xs, s) {
+          width: 70%;
+          margin: auto;
+        }
+      }
+
+      p {
+        margin: auto;
+
+        @include breakpoint(xxs, xs, s) {
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+
+  .team-bottom {
+    margin-top: 4rem;
+    padding-bottom: 1.75rem;
+
+    p {
+      margin-bottom: 5rem;
+    }
+
+    .member {
+      display: flex;
+      margin: 3rem auto;
+      @include breakpoint(xxs, xs, s) {
+        flex-direction: column;
+      }
+
+      img {
+        width: 10em;
+        height: 12em;
+        margin: auto 0;
+
+        @include breakpoint(l) {
+          width: 7em;
+          height: 9em;
+        }
+
+        @include breakpoint(xxs, xs, s) {
+          // width: 5.5em;
+          // height: 7.5em;
+          margin: auto;
+          margin-bottom: 0.75em;
+        }
+      }
+
+      .name {
+        font-size: 1.45em;
+        color: black;
+        margin: 0;
+        font-weight: 700;
+
+        @include breakpoint(xxs, xs, s) {
+          font-size: 1.2em;
+          display: block;
+          text-align: center;
+        }
+      }
+      .description {
+        margin: auto;
+        margin-left: 1.5em;
+        font-size: 1.1em;
+
+        @include breakpoint(l) {
+          font-size: 1em;
+        }
+
+        @include breakpoint(xxs, xs, s) {
+          font-size: 1em;
+          margin-left: 1em;
+        }
+      }
+    }
+  }
+}

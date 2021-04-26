@@ -1,0 +1,340 @@
+.team {
+  text-align: left;
+}
+
+.team a {
+  color: #1e92f6;
+}
+
+@media (max-width: 360px) {
+  .team {
+    margin: 1.5rem;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .team {
+    margin: 1.5rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .team {
+    margin: 1.5rem;
+  }
+}
+
+.team span {
+  font-weight: 600;
+}
+
+.team .team-top h1 {
+  font-size: 3em;
+  text-align: center;
+  margin: 1em auto 3rem;
+  color: #04227a;
+}
+
+@media (max-width: 360px) {
+  .team .team-top h1 {
+    margin: 1.5rem auto;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .team .team-top h1 {
+    margin: 1.5rem auto;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .team .team-top h1 {
+    margin: 1.5rem auto;
+  }
+}
+
+.team .team-top p a {
+  text-decoration: none;
+}
+
+.team .team-top p a:visited {
+  color: #04227a;
+}
+
+.team .team-top p a:hover {
+  color: #ee3e0e;
+}
+
+.team .team-middle {
+  margin-top: 4rem;
+}
+
+@media (max-width: 360px) {
+  .team .team-middle {
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .team .team-middle {
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .team .team-middle {
+    margin-top: 2rem;
+  }
+}
+
+.team .team-middle div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2.5rem;
+}
+
+@media (max-width: 360px) {
+  .team .team-middle div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .team .team-middle div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .team .team-middle div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.team .team-middle div img {
+  width: 9em;
+  height: 100%;
+  margin-right: 2.4rem;
+}
+
+@media (max-width: 360px) {
+  .team .team-middle div img {
+    width: 70%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .team .team-middle div img {
+    width: 70%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .team .team-middle div img {
+    width: 70%;
+    margin: auto;
+  }
+}
+
+.team .team-middle div video {
+  width: 9em;
+  height: 20%;
+  margin-right: 2.4rem;
+}
+
+@media (max-width: 360px) {
+  .team .team-middle div video {
+    width: 70%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .team .team-middle div video {
+    width: 70%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .team .team-middle div video {
+    width: 70%;
+    margin: auto;
+  }
+}
+
+.team .team-middle div p {
+  margin: auto;
+}
+
+@media (max-width: 360px) {
+  .team .team-middle div p {
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .team .team-middle div p {
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .team .team-middle div p {
+    margin-top: 1rem;
+  }
+}
+
+.team .team-bottom {
+  margin-top: 4rem;
+  padding-bottom: 1.75rem;
+}
+
+.team .team-bottom p {
+  margin-bottom: 5rem;
+}
+
+.team .team-bottom .member {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 3rem auto;
+}
+
+@media (max-width: 360px) {
+  .team .team-bottom .member {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .team .team-bottom .member {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .team .team-bottom .member {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.team .team-bottom .member img {
+  width: 10em;
+  height: 12em;
+  margin: auto 0;
+}
+
+@media (min-width: 981px) and (max-width: 1280px) {
+  .team .team-bottom .member img {
+    width: 7em;
+    height: 9em;
+  }
+}
+
+@media (max-width: 360px) {
+  .team .team-bottom .member img {
+    margin: auto;
+    margin-bottom: 0.75em;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .team .team-bottom .member img {
+    margin: auto;
+    margin-bottom: 0.75em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .team .team-bottom .member img {
+    margin: auto;
+    margin-bottom: 0.75em;
+  }
+}
+
+.team .team-bottom .member .name {
+  font-size: 1.45em;
+  color: black;
+  margin: 0;
+  font-weight: 700;
+}
+
+@media (max-width: 360px) {
+  .team .team-bottom .member .name {
+    font-size: 1.2em;
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .team .team-bottom .member .name {
+    font-size: 1.2em;
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .team .team-bottom .member .name {
+    font-size: 1.2em;
+    display: block;
+    text-align: center;
+  }
+}
+
+.team .team-bottom .member .description {
+  margin: auto;
+  margin-left: 1.5em;
+  font-size: 1.1em;
+}
+
+@media (min-width: 981px) and (max-width: 1280px) {
+  .team .team-bottom .member .description {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 360px) {
+  .team .team-bottom .member .description {
+    font-size: 1em;
+    margin-left: 1em;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .team .team-bottom .member .description {
+    font-size: 1em;
+    margin-left: 1em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  .team .team-bottom .member .description {
+    font-size: 1em;
+    margin-left: 1em;
+  }
+}
+/*# sourceMappingURL=Team.css.map */
