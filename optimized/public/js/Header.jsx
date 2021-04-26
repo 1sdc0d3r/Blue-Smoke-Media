@@ -13,7 +13,7 @@ class Header extends React.Component {
   render() {
     const { flame, blueSmoke, silhouettes } = this.state;
     return (
-      <div>
+      <div className="header">
         <img src={flame} alt="logo-flame" id="flame" />
         <div className="blue-smoke">
           <img src={blueSmoke} alt="blue-smoke" />

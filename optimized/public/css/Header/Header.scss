@@ -1,143 +1,146 @@
 @import "../Utils/Mixins.scss";
 header {
-  background-image: url("../../assets/blue-background-globe-image.webp");
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
+  .header {
+    background-image: url("../../assets/blue-background-globe-image.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
 
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-
-  @include breakpoint(m) {
-    // height: 100%;
-  }
-  @include breakpoint(xxs, xs, s, m) {
-    border-bottom: 2px solid $darkBlue;
-  }
-
-  #flame {
-    width: 7%;
-    padding-top: 1%;
-    height: 100%;
-    @include breakpoint(l) {
-      padding-top: 1.5%;
-    }
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 
     @include breakpoint(m) {
-      width: 10%;
+      // height: 100%;
     }
-    @include breakpoint(s) {
-      width: 13%;
-    }
-    @include breakpoint(xxs, xs) {
-      width: 15%;
-    }
-  }
-
-  .blue-smoke {
-    width: 35%;
-    margin: auto;
-    margin-left: 0.4%;
-    padding-top: 1.2em;
-    min-height: 2em;
-    height: 100%;
-    @include breakpoint(s) {
-      width: 50%;
-      margin-right: 0.25em;
-    }
-    @include breakpoint(xxs, xs) {
-      width: 80%;
+    @include breakpoint(xxs, xs, s, m) {
+      border-bottom: 2px solid $darkBlue;
     }
 
-    img {
-      width: 100%;
-      height: 50%;
-    }
-
-    p {
-      font-size: 1.2em;
-      color: $orange;
-      margin: 0;
-      text-shadow: 3px 3px $darkBlue;
-      white-space: nowrap;
-      text-align: center;
-      font-weight: 700;
-      line-height: 1.75;
-      text-align: center;
-      @include breakpoint(xl, xxl) {
-        font-size: 1.2em;
-      }
-      @include breakpoint(xs, m) {
-        font-size: 1em;
-      }
-      @include breakpoint(xxs, s) {
-        font-size: 0.8em;
-      }
-    }
-
-    span {
-      margin-top: 0.9em;
-      font-weight: 700;
-      -webkit-text-stroke: 0.5px $darkBlue;
-      font-size: 1.05em;
-    }
-  }
-
-  .center {
-    color: $white;
-    width: 30%;
-    margin: auto 0.25em;
-
-    p {
-      font-weight: 900;
-      font-size: 0.9em;
-      text-shadow: black 1px 4px 4px;
-      letter-spacing: 2px;
-      -webkit-margin-after: 0.5em;
-      margin-block-end: 0.5em;
-      @include breakpoint(xl, xxl) {
-        font-size: 1.15em;
+    #flame {
+      width: 7%;
+      padding-top: 1%;
+      height: 100%;
+      @include breakpoint(l) {
+        padding-top: 1.5%;
       }
 
+      @include breakpoint(m) {
+        width: 10%;
+      }
       @include breakpoint(s) {
-        font-size: 0.75em;
-        margin-right: 0.5em;
+        width: 13%;
       }
       @include breakpoint(xxs, xs) {
-        display: none;
-        position: absolute;
+        width: 15%;
+      }
+    }
+
+    .blue-smoke {
+      width: 35%;
+      margin: auto;
+      margin-left: 0.4%;
+      padding-top: 1.2em;
+      min-height: 2em;
+      height: 100%;
+      @include breakpoint(s) {
+        width: 50%;
+        margin-right: 0.25em;
+      }
+      @include breakpoint(xxs, xs) {
+        width: 80%;
       }
 
-      &:nth-child(2) {
-        text-align: right;
-        -webkit-margin-before: 0;
-        margin-block-start: 0;
+      img {
+        width: 100%;
+        height: 50%;
+      }
+
+      p {
+        font-size: 1.2em;
+        color: $orange;
+        margin: 0;
+        text-shadow: 3px 3px $darkBlue;
+        white-space: nowrap;
+        text-align: center;
+        font-weight: 700;
+        line-height: 1.75;
+        text-align: center;
+        @include breakpoint(xl, xxl) {
+          font-size: 1.2em;
+        }
+        @include breakpoint(xs, m) {
+          font-size: 1em;
+        }
+        @include breakpoint(xxs, s) {
+          font-size: 0.8em;
+        }
       }
 
       span {
-        text-transform: uppercase;
-        color: $orange;
+        margin-top: 0.9em;
+        font-weight: 700;
+        -webkit-text-stroke: 0.5px $darkBlue;
+        font-size: 1.05em;
+      }
+    }
+
+    .center {
+      color: $white;
+      width: 30%;
+      margin: auto 0.25em;
+
+      p {
+        font-weight: 900;
+        font-size: 0.9em;
+        text-shadow: black 1px 4px 4px;
+        letter-spacing: 2px;
+        -webkit-margin-after: 0.5em;
+        margin-block-end: 0.5em;
+        @include breakpoint(xl, xxl) {
+          font-size: 1.15em;
+        }
+
+        @include breakpoint(s) {
+          font-size: 0.75em;
+          margin-right: 0.5em;
+        }
+        @include breakpoint(xxs, xs) {
+          display: none;
+          position: absolute;
+        }
+
+        &:nth-child(2) {
+          text-align: right;
+          -webkit-margin-before: 0;
+          margin-block-start: 0;
+        }
+
+        span {
+          text-transform: uppercase;
+          color: $orange;
+        }
+      }
+    }
+    .silhouette-div {
+      width: 25%;
+      position: relative;
+      @include breakpoint(xxs, xs, s) {
+        display: none;
+      }
+
+      .silhouettes {
+        height: 80%;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
       }
     }
   }
-  .silhouette-div {
-    width: 25%;
-    position: relative;
-    @include breakpoint(xxs, xs, s) {
-      display: none;
-    }
 
-    .silhouettes {
-      height: 80%;
-      width: 100%;
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-    }
-  }
   .cta {
     display: flex;
     flex-direction: column;
@@ -146,8 +149,9 @@ header {
     width: -webkit-min-content;
     width: -moz-min-content;
     width: min-content;
+    height: 100%;
     font-size: 0.75em;
-    padding: 1%;
+    padding: 0 0.5em;
     background: rgb(248, 54, 0);
     background: linear-gradient(
       0deg,
@@ -160,9 +164,6 @@ header {
       font-size: 0.8em;
     }
 
-    @include breakpoint(s) {
-      width: 20%;
-    }
     @include breakpoint(xxs, xs) {
       display: none;
     }
