@@ -260,12 +260,8 @@ header .cta {
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  width: -webkit-min-content;
-  width: -moz-min-content;
-  width: min-content;
   height: 100%;
   font-size: 0.75em;
-  padding: 0 0.5em;
   background: #f83600;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(10%, #f83600), color-stop(80%, #facc22));
   background: linear-gradient(0deg, #f83600 10%, #facc22 80%);
@@ -273,7 +269,6 @@ header .cta {
 
 @media (min-width: 981px) and (max-width: 1280px) {
   header .cta {
-    padding: 0.125em;
     font-size: 0.8em;
   }
 }
@@ -291,7 +286,6 @@ header .cta {
 }
 
 header .cta p {
-  margin: 4% auto;
   font-size: 1.2em;
   font-weight: 700;
 }
@@ -325,6 +319,7 @@ header .cta .btns {
 
 header .cta .btns .cta-btn {
   font-size: 2.5em;
+  cursor: pointer;
 }
 
 @media (max-width: 360px) {
@@ -345,13 +340,12 @@ header .cta .btns .cta-btn {
   }
 }
 
-header .cta .btns .cta-mail {
+header .cta .btns svg {
   fill: white;
   color: #020723;
 }
 
-header .cta .btns .cta-phone {
-  color: #020723;
-  fill: white;
+header .cta .btns a {
+  cursor: pointer;
 }
 /*# sourceMappingURL=Header.css.map */

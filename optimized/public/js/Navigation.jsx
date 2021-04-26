@@ -9,6 +9,25 @@ class Navigation extends React.Component {
 
   render() {
     // const dropArrow = <FiChevronDown color="#7ff76f" className="arrow" />;
+    const dropArrow = (
+      <svg
+        stroke="currentColor"
+        fill="none"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        color="#7ff76f"
+        class="arrow"
+        height="1em"
+        width="1em"
+        // xmlns="http://www.w3.org/2000/svg"
+        // style="color: rgb(127, 247, 111)"
+      >
+        <polyline points="6 9 12 15 18 9"></polyline>
+      </svg>
+    );
+
     return (
       <nav className="main-nav">
         <div className="dropdown">
@@ -16,7 +35,7 @@ class Navigation extends React.Component {
             <a href="/">
               <div>
                 <p>Home</p>
-                {"<!>"}
+                {dropArrow}
               </div>
             </a>
           </button>
@@ -41,7 +60,7 @@ class Navigation extends React.Component {
           <button className="drop-btn nav-item">
             <div>
               <p>Services</p>
-              {"<!>"}
+              {dropArrow}
             </div>
           </button>
           <div className="dropdown-content">
