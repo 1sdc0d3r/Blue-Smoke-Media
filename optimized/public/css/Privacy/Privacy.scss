@@ -1,0 +1,43 @@
+@import "../Utils/Mixins.scss";
+
+.privacy {
+  text-align: left;
+  margin: 0 3em 3em;
+  scroll-behavior: smooth;
+  h1 {
+    display: none;
+  }
+  .scroll-top {
+    position: -webkit-sticky;
+    position: sticky;
+    cursor: pointer;
+    bottom: 0;
+    left: 0;
+    color: $orange;
+  }
+  pre {
+    white-space: pre-wrap;
+  }
+  a {
+    color: $lightBlue;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 0.5em;
+  }
+  .scroll-item {
+    margin: 0;
+    color: $lightBlue;
+    cursor: pointer;
+  }
+  h4 {
+    margin: 2em auto 0;
+  }
+
+  .disclaimer {
+    white-space: pre-wrap;
+    h3 {
+      font-weight: 900;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.privacy {
+  text-align: left;
+  margin: 0 3em 3em;
+  scroll-behavior: smooth;
+}
+
+.privacy h1 {
+  display: none;
+}
+
+.privacy .scroll-top {
+  position: -webkit-sticky;
+  position: sticky;
+  cursor: pointer;
+  bottom: 0;
+  left: 0;
+  color: #ee3e0e;
+}
+
+.privacy pre {
+  white-space: pre-wrap;
+}
+
+.privacy a {
+  color: #1e92f6;
+}
+
+.privacy h1 {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.privacy .scroll-item {
+  margin: 0;
+  color: #1e92f6;
+  cursor: pointer;
+}
+
+.privacy h4 {
+  margin: 2em auto 0;
+}
+
+.privacy .disclaimer {
+  white-space: pre-wrap;
+}
+
+.privacy .disclaimer h3 {
+  font-weight: 900;
+}
+/*# sourceMappingURL=Privacy.css.map */
