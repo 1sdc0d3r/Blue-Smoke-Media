@@ -1,0 +1,67 @@
+@import "../Utils/Mixins.scss";
+
+.help {
+  background: #333;
+  border-top: 2px solid $darkBlue;
+  padding-bottom: 5%;
+  margin-top: 2em;
+  h1 {
+    text-transform: uppercase;
+    color: $orange;
+    text-shadow: 2px 2px black;
+    padding-top: 1.5em;
+    margin-bottom: 2em;
+    font-size: 2.5em;
+    span {
+      color: $lightBlue;
+    }
+  }
+  .help-card-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5% auto 0;
+    @include breakpoint(xxs, xs, s, m) {
+      flex-direction: column;
+    }
+
+    .help-card {
+      width: 31%;
+      background: $white;
+      margin-bottom: 3em;
+      padding-bottom: 1em;
+      border-radius: 2em;
+      @include breakpoint(xxs, xs, s, m) {
+        width: 70%;
+        margin: 0 auto 13%;
+        padding-bottom: 7%;
+      }
+      @include breakpoint(xxs, xs) {
+        margin-bottom: 15%;
+      }
+
+      img {
+        width: 20%;
+        margin: -9% auto 0;
+        border: 2px outset $darkBlue;
+        border-radius: 0.5em;
+      }
+      h3 {
+        color: #f52618;
+        text-shadow: 1px 1px $darkBlue;
+        letter-spacing: 0.125em;
+        margin-bottom: 0;
+      }
+      p {
+        padding: 0 1em;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        font-size: 0.9em;
+        span {
+          color: $orange;
+          font-weight: 700;
+          text-shadow: 0.5px 0.5px $darkBlue;
+        }
+      }
+    }
+  }
+}
