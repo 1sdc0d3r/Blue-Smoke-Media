@@ -1,0 +1,225 @@
+@import "../Utils/Mixins/Mixins.scss";
+
+.hamburger-menu {
+  // padding-bottom: 0;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  position: absolute;
+  left: 0;
+  @include breakpoint(m, l, xl, xxl) {
+    display: none;
+  }
+
+  #menuToggle {
+    display: block;
+    position: relative;
+    z-index: 1;
+    background: $royalBlue;
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    a {
+      text-decoration: none;
+      color: #232323;
+    }
+    input {
+      display: block;
+      width: 2.25em;
+      height: 2.25em;
+      position: absolute;
+      cursor: pointer;
+      opacity: 0; /* hide this */
+      z-index: 2; /* and place it over the hamburger */
+      color: $lightBlue;
+      -webkit-touch-callout: none;
+
+      // @include breakpoint(xxs, xs, s) {
+      // width: 100vw;
+      // }
+
+      /*
+   * Transform all the slices of hamburger
+   * into a cross-mark.
+   */
+      &:checked ~ span {
+        opacity: 1;
+        transform: rotate(45deg) translate(-2px, -1px);
+        background: $royalBlue;
+
+        /*
+   * But let's hide the middle one.
+   */
+        &:nth-last-child(3) {
+          opacity: 0;
+          transform: rotate(0deg) scale(0.2, 0.2);
+        }
+        &:nth-last-child(2) {
+          transform: rotate(-45deg) translate(0, -1px);
+        }
+      }
+      /*
+   * And let's slide it in from the left
+   */
+      &:checked ~ #menu {
+        // transform: none;
+        transform: translate(170%, 0);
+      }
+
+      /*
+   * Oh yeah and the last one should go the other direction
+   */
+    }
+    /*
+   * Just a quick hamburger
+   */
+    span {
+      display: block;
+      width: 2em;
+      height: 6px;
+      margin-bottom: 10px;
+      position: relative;
+      background: $green;
+      border-radius: 3px;
+      z-index: 1;
+      transform-origin: 4px 0px;
+      transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+        background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+      // @include breakpoint(xxs, xs, s) {
+      //   width: 100vw;
+      // }
+    }
+    &:first-child {
+      transform-origin: 0% 0%;
+    }
+    &:nth-last-child(2) {
+      transform-origin: 0% 0%;
+    }
+  }
+
+  /*
+   * Make this absolute positioned
+   * at the top left of the screen
+   */
+  #menu {
+    position: absolute;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    margin: -85% 0 0 0;
+    padding: 1em 0;
+    right: 500%;
+    top: 1em;
+
+    background: $darkBlue;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+
+    transform-origin: 0% 0%;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+
+    li {
+      padding: 0.75em 2em;
+      transition: 0.3s ease;
+      font-weight: 600;
+      color: $lightBlue;
+      &:hover {
+        color: $orange;
+        text-shadow: 1px 1px $darkBlue;
+      }
+    }
+
+    .sub-menu-btn:hover ~ .sub-drop-menu {
+      // display: block;
+      transform: translateX(370%);
+    }
+
+    .sub-drop-menu {
+      position: absolute;
+      transform: translateX(-700%);
+
+      transition: ease-in-out 250ms;
+      z-index: -5;
+      top: 0;
+      margin-top: 0;
+
+      &:hover {
+        transform: translateX(370%);
+      }
+      li {
+        color: #232323;
+      }
+
+      .dropdown-content {
+        position: absolute;
+        z-index: 5;
+        background: $darkBlue;
+        padding: 0.15em 0.5em 0.5em;
+        min-width: -webkit-min-content;
+        min-width: -moz-min-content;
+        min-width: min-content;
+        width: 10em;
+        justify-content: space-between;
+        left: 0;
+        right: 0;
+        height: 80vh;
+        overflow: auto;
+
+        &::-webkit-scrollbar {
+          -webkit-appearance: none;
+        }
+
+        &::-webkit-scrollbar:vertical {
+          width: 0.75em;
+        }
+
+        &::-webkit-scrollbar:horizontal {
+          height: 0;
+        }
+
+        &::-webkit-scrollbar-thumb {
+          border-radius: 0.5em;
+          border: 2px solid $darkBlue;
+          background-color: $lightBlue;
+        }
+
+        h3 {
+          color: $orange;
+          text-decoration: underline;
+          margin-bottom: 0.25em;
+          text-shadow: 1px 1px $darkBlue;
+        }
+
+        a {
+          // float: none;
+          color: $lightBlue;
+          padding: 0.5em 1em;
+          margin: auto;
+          text-decoration: none;
+          display: block;
+          text-align: center;
+          font-size: 0.85em;
+          font-weight: inherit;
+          min-width: -webkit-min-content;
+          min-width: -moz-min-content;
+          min-width: min-content;
+          font-weight: 600;
+
+          &:hover {
+            color: goldenrod;
+            font-weight: 700;
+            text-shadow: 1px 1px $darkBlue;
+            // transform: scale(1.01);
+            // transition: ease-in-out 200ms;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,4 +1,4 @@
-("use strict");
+"use strict";
 
 class Footer extends React.Component {
   constructor(props) {
@@ -22,11 +22,7 @@ class Footer extends React.Component {
         ></polyline>
       </svg>
     );
-    //* Images
-    const twitter = "../../images/Twitter.webp";
-    const linkedIn = "../../images/linkedIn_social_media_button.webp";
-    const facebook = "../../images/faceBook.webp";
-    const googleReview = "../../images/icon-Google-review.webp";
+
     return (
       <div>
         <footer>
@@ -169,7 +165,10 @@ class Footer extends React.Component {
                   rel="noopener noreferrer"
                 >
                   {chevron}
-                  <img src={linkedIn} alt="LinkedIn Social Media Button" />
+                  <img
+                    src="../assets/linkedIn_social_media_button.webp"
+                    alt="LinkedIn Social Media Button"
+                  />
                 </a>
               </li>
               <li>
@@ -179,7 +178,10 @@ class Footer extends React.Component {
                   rel="noopener noreferrer"
                 >
                   {chevron}
-                  <img src={facebook} alt="Facebook Social Media Button" />
+                  <img
+                    src="../assets/faceBook.webp"
+                    alt="Facebook Social Media Button"
+                  />
                 </a>
               </li>
               <li>
@@ -189,7 +191,10 @@ class Footer extends React.Component {
                   rel="noopener noreferrer"
                 >
                   {chevron}
-                  <img src={twitter} alt="Twitter Social Media Button" />
+                  <img
+                    src="../assets/Twitter.webp"
+                    alt="Twitter Social Media Button"
+                  />
                 </a>
               </li>
               <li>
@@ -199,7 +204,10 @@ class Footer extends React.Component {
                   rel="noopener noreferrer"
                 >
                   {chevron}
-                  <img src={googleReview} alt="Google Social Media Button" />
+                  <img
+                    src="../assets/icon-Google-review.webp"
+                    alt="Google Social Media Button"
+                  />
                 </a>
               </li>
             </ul>

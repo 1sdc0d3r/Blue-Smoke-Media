@@ -1,0 +1,258 @@
+.hamburger-menu {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  position: absolute;
+  left: 0;
+  /*
+   * Make this absolute positioned
+   * at the top left of the screen
+   */
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  .hamburger-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 981px) and (max-width: 1280px) {
+  .hamburger-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 1281px) and (max-width: 1680px) {
+  .hamburger-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 1681px) {
+  .hamburger-menu {
+    display: none;
+  }
+}
+
+.hamburger-menu #menuToggle {
+  display: block;
+  position: relative;
+  z-index: 1;
+  background: #04227a;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /*
+   * Just a quick hamburger
+   */
+}
+
+.hamburger-menu #menuToggle a {
+  text-decoration: none;
+  color: #232323;
+}
+
+.hamburger-menu #menuToggle input {
+  display: block;
+  width: 2.25em;
+  height: 2.25em;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0;
+  /* hide this */
+  z-index: 2;
+  /* and place it over the hamburger */
+  color: #1e92f6;
+  -webkit-touch-callout: none;
+  /*
+   * Transform all the slices of hamburger
+   * into a cross-mark.
+   */
+  /*
+   * And let's slide it in from the left
+   */
+  /*
+   * Oh yeah and the last one should go the other direction
+   */
+}
+
+.hamburger-menu #menuToggle input:checked ~ span {
+  opacity: 1;
+  -webkit-transform: rotate(45deg) translate(-2px, -1px);
+          transform: rotate(45deg) translate(-2px, -1px);
+  background: #04227a;
+  /*
+   * But let's hide the middle one.
+   */
+}
+
+.hamburger-menu #menuToggle input:checked ~ span:nth-last-child(3) {
+  opacity: 0;
+  -webkit-transform: rotate(0deg) scale(0.2, 0.2);
+          transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+.hamburger-menu #menuToggle input:checked ~ span:nth-last-child(2) {
+  -webkit-transform: rotate(-45deg) translate(0, -1px);
+          transform: rotate(-45deg) translate(0, -1px);
+}
+
+.hamburger-menu #menuToggle input:checked ~ #menu {
+  -webkit-transform: translate(170%, 0);
+          transform: translate(170%, 0);
+}
+
+.hamburger-menu #menuToggle span {
+  display: block;
+  width: 2em;
+  height: 6px;
+  margin-bottom: 10px;
+  position: relative;
+  background: #7ff76f;
+  border-radius: 3px;
+  z-index: 1;
+  -webkit-transform-origin: 4px 0px;
+          transform-origin: 4px 0px;
+  -webkit-transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+
+.hamburger-menu #menuToggle:first-child {
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+}
+
+.hamburger-menu #menuToggle:nth-last-child(2) {
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+}
+
+.hamburger-menu #menu {
+  position: absolute;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: -85% 0 0 0;
+  padding: 1em 0;
+  right: 500%;
+  top: 1em;
+  background: #020723;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+
+.hamburger-menu #menu li {
+  padding: 0.75em 2em;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  font-weight: 600;
+  color: #1e92f6;
+}
+
+.hamburger-menu #menu li:hover {
+  color: #ee3e0e;
+  text-shadow: 1px 1px #020723;
+}
+
+.hamburger-menu #menu .sub-menu-btn:hover ~ .sub-drop-menu {
+  -webkit-transform: translateX(370%);
+          transform: translateX(370%);
+}
+
+.hamburger-menu #menu .sub-drop-menu {
+  position: absolute;
+  -webkit-transform: translateX(-700%);
+          transform: translateX(-700%);
+  -webkit-transition: ease-in-out 250ms;
+  transition: ease-in-out 250ms;
+  z-index: -5;
+  top: 0;
+  margin-top: 0;
+}
+
+.hamburger-menu #menu .sub-drop-menu:hover {
+  -webkit-transform: translateX(370%);
+          transform: translateX(370%);
+}
+
+.hamburger-menu #menu .sub-drop-menu li {
+  color: #232323;
+}
+
+.hamburger-menu #menu .sub-drop-menu .dropdown-content {
+  position: absolute;
+  z-index: 5;
+  background: #020723;
+  padding: 0.15em 0.5em 0.5em;
+  min-width: -webkit-min-content;
+  min-width: -moz-min-content;
+  min-width: min-content;
+  width: 10em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  left: 0;
+  right: 0;
+  height: 80vh;
+  overflow: auto;
+}
+
+.hamburger-menu #menu .sub-drop-menu .dropdown-content::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.hamburger-menu #menu .sub-drop-menu .dropdown-content::-webkit-scrollbar:vertical {
+  width: 0.75em;
+}
+
+.hamburger-menu #menu .sub-drop-menu .dropdown-content::-webkit-scrollbar:horizontal {
+  height: 0;
+}
+
+.hamburger-menu #menu .sub-drop-menu .dropdown-content::-webkit-scrollbar-thumb {
+  border-radius: 0.5em;
+  border: 2px solid #020723;
+  background-color: #1e92f6;
+}
+
+.hamburger-menu #menu .sub-drop-menu .dropdown-content h3 {
+  color: #ee3e0e;
+  text-decoration: underline;
+  margin-bottom: 0.25em;
+  text-shadow: 1px 1px #020723;
+}
+
+.hamburger-menu #menu .sub-drop-menu .dropdown-content a {
+  color: #1e92f6;
+  padding: 0.5em 1em;
+  margin: auto;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-size: 0.85em;
+  font-weight: inherit;
+  min-width: -webkit-min-content;
+  min-width: -moz-min-content;
+  min-width: min-content;
+  font-weight: 600;
+}
+
+.hamburger-menu #menu .sub-drop-menu .dropdown-content a:hover {
+  color: goldenrod;
+  font-weight: 700;
+  text-shadow: 1px 1px #020723;
+}
+/*# sourceMappingURL=HamburgerMenu.css.map */

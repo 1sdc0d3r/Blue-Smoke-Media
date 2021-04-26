@@ -1,18 +1,8 @@
-@import "./BreakPoints.scss";
-
-$lightBlue: #00bdf5;
-$lightGrey: #c3c1c1;
-$darkGrey: #707070;
-$teal: #0f495f;
-$success: #7ff76f;
-$error: #f12538;
-@mixin navSpace($size) {
-  &::before {
-    display: block;
-    content: " ";
-    margin-top: $size;
-    height: $size;
-    visibility: hidden;
-    pointer-events: none;
-  }
-}
+@import "./Breakpoints.scss";
+// $orange: rgb(246, 74, 30);
+$orange: #ee3e0e;
+$lightBlue: #1e92f6;
+$darkBlue: #020723;
+$royalBlue: #04227a;
+$white: #d7dae6;
+$green: #7ff76f;

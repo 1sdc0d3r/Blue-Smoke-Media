@@ -3,7 +3,7 @@
     "mappings": "",
     "sources": [
         "mixins.scss",
-        "BreakPoints.scss"
+        "Breakpoints.scss"
     ],
     "names": [],
     "file": "mixins.css"

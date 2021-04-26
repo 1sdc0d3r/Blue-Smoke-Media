@@ -1,0 +1,165 @@
+@import "../Utils/Mixins/Mixins.scss";
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background: $royalBlue;
+  padding-top: 2em;
+  margin-top: 3em;
+  text-align: left;
+  @include breakpoint(xxs, xs, s, m) {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2em;
+  }
+
+  div {
+    width: 16%;
+    padding: 0 0.5em;
+    position: relative;
+    @include breakpoint(xxs, xs, s, m) {
+      width: -webkit-max-content;
+      width: -moz-max-content;
+      width: max-content;
+      text-align: center;
+    }
+  }
+
+  .show-drop {
+    display: block;
+    z-index: 1;
+    position: relative;
+    margin-top: 0;
+  }
+  h3 {
+    color: $orange;
+    text-shadow: 2px 2px $darkBlue;
+    text-transform: uppercase;
+    cursor: pointer;
+    @include breakpoint(xxs, xs, s, m) {
+      margin: 0;
+      padding: 0.25em 0;
+    }
+  }
+  ul {
+    padding: 0;
+    list-style: none;
+    @include breakpoint(xxs, xs, s, m) {
+      position: absolute;
+      top: 0;
+      z-index: -1;
+      display: none;
+      width: 100%;
+      &:hover {
+        display: block;
+        position: relative;
+      }
+    }
+
+    li:hover {
+      margin-left: 5%;
+      img {
+        border: 2px solid $lightBlue;
+        border-radius: 50%;
+      }
+    }
+    li {
+      padding: 0.5em 0;
+      text-shadow: 1px 1px $darkBlue;
+      transition: 0.3s ease-in-out;
+      :hover {
+        color: goldenrod;
+      }
+      @include breakpoint(xxs, xs, s, m) {
+        width: 100%;
+      }
+
+      a {
+        text-decoration: none;
+        color: skyblue;
+        display: flex;
+        svg {
+          width: 1em;
+        }
+      }
+      img {
+        width: 2em;
+      }
+    }
+    p {
+      color: skyblue;
+    }
+  }
+}
+.bottom {
+  display: flex;
+  color: $white;
+  background: $darkBlue;
+  justify-content: space-between;
+  @include breakpoint(xxs, xs, s) {
+    flex-direction: column;
+  }
+
+  .payment {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 35%;
+    color: $green;
+    padding: 0.75em 0;
+    @include breakpoint(m) {
+      width: 40%;
+    }
+    @include breakpoint(xxs, xs, s) {
+      width: 80%;
+      margin: auto;
+    }
+
+    .payment-icon {
+      width: 20%;
+    }
+  }
+  .contact {
+    display: flex;
+    justify-content: flex-end;
+    width: 65%;
+    align-items: center;
+    text-transform: uppercase;
+    @include breakpoint(xxs, xs, s) {
+      display: none;
+      width: 60%;
+    }
+
+    p {
+      color: $orange;
+      text-align: right;
+      margin: 0;
+      margin-left: 0.8em;
+      font-size: 1.2em;
+      font-weight: 600;
+      @include breakpoint(s) {
+        font-size: 0.95em;
+        margin-left: 0.125em;
+      }
+    }
+    .numbers {
+      margin-right: 1em;
+      @include breakpoint(s) {
+        margin-right: 0.5em;
+        margin-left: 0;
+        padding-left: 0;
+      }
+
+      a {
+        color: $green;
+        font-weight: 500;
+        text-decoration: none;
+      }
+    }
+  }
+}
+.copy {
+  margin: 0;
+  padding: 0.25em 0;
+  width: 100%;
+}

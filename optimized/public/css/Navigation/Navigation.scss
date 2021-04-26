@@ -1,0 +1,149 @@
+@import "../Utils/Mixins/Mixins.scss";
+
+.main-nav {
+  display: flex;
+  background: $darkBlue;
+  padding: 0 15%;
+  z-index: 100;
+  justify-content: space-around;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  padding: 0 7%;
+
+  @include breakpoint(xxs, xs, s) {
+    display: none;
+  }
+
+  /* Links inside the navbar */
+  .nav-item {
+    color: $white;
+    font-size: 1em;
+    text-align: center;
+    padding: 0.5em 0.65em;
+    text-decoration: none;
+    @include breakpoint(xl, xxl) {
+      font-size: 1.3rem;
+    }
+
+    &:hover {
+      color: $orange;
+      transform: scale(1.1);
+      transition: ease-in-out 150ms;
+    }
+  }
+
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    position: relative;
+    display: flex;
+
+    .drop-btn {
+      border: none;
+      background-color: inherit;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      // position: relative;
+
+      @include breakpoint(mobile) {
+        /* margin important for vertical align on mobile phones */
+        margin: 0;
+      }
+      div {
+        display: flex;
+        p {
+          padding: 0;
+          margin: 0;
+        }
+        svg {
+          align-self: end;
+        }
+      }
+    }
+
+    &:hover .dropdown-content {
+      display: flex;
+    }
+
+    &:hover .drop-btn {
+      color: $orange;
+    }
+
+    .dropdown-content {
+      position: absolute;
+      display: none;
+      z-index: 5;
+      background: #020723;
+      padding: 0.15em 0.65em 0.5em;
+      opacity: 0.9;
+      width: -webkit-min-content;
+      width: -moz-min-content;
+      width: min-content;
+      width: 60vw;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      justify-content: space-between;
+      top: 100%;
+      left: 50%;
+      transform: translate(-50%, 0);
+
+      .nav-section {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &:nth-child(2) {
+          width: 50%;
+
+          .split {
+            display: flex;
+            justify-content: center;
+
+            div {
+              width: 50%;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+            }
+          }
+        }
+
+        h3 {
+          color: $orange;
+          text-decoration: underline;
+          margin-bottom: 0.25em;
+        }
+      }
+      .drop-item {
+        float: none;
+        color: $white;
+        padding: 0.5em 1em;
+        margin: 0.2em;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        font-size: 0.85em;
+        font-weight: inherit;
+        min-width: -webkit-min-content;
+        min-width: -moz-min-content;
+        min-width: min-content;
+
+        &:hover {
+          color: $orange;
+          transform: scale(1.15);
+          transition: ease-in-out 200ms;
+        }
+      }
+    }
+    .home-drop {
+      width: -webkit-min-content;
+      width: -moz-min-content;
+      width: min-content;
+    }
+  }
+}
