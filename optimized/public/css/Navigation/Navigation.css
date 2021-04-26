@@ -90,6 +90,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  color: #d7dae6;
 }
 
 .main-nav .dropdown .drop-btn div p {
