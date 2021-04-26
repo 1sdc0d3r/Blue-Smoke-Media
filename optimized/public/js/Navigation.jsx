@@ -70,7 +70,7 @@ class Navigation extends React.Component {
                 SEO - Search Engine Optimization
               </a>
 
-              <a href="/seo/seoOrganic" className="drop-item">
+              <a href="/seo/organic" className="drop-item">
                 Organic Search Engine Optimization
               </a>
 
