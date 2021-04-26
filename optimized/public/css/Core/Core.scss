@@ -1,0 +1,95 @@
+@import "../Utils/Mixins.scss";
+
+html {
+  background: black;
+}
+
+body {
+  position: relative;
+  text-align: center;
+  background: $white;
+  margin: auto;
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1em;
+  color: $darkBlue;
+
+  @include breakpoint(xl) {
+    font-size: 1.2em;
+  }
+  @include breakpoint(xxl) {
+    font-size: 1.3em;
+  }
+  header {
+    display: flex;
+    // height: 100%;
+    @include breakpoint(m) {
+      // margin-bottom: 1em;
+    }
+  }
+
+  .page-wrapper {
+    width: 95%;
+    margin: auto;
+  }
+
+  a {
+    text-decoration: none;
+    color: $lightBlue;
+    // &:visited {
+    //   color: $royalBlue;
+    // }
+    cursor: pointer;
+    &:hover {
+      color: $orange;
+    }
+  }
+  .hero-image {
+    height: 30em;
+    width: 95%;
+    display: block;
+    margin: auto;
+    margin: 2em auto 0;
+    @include breakpoint(m) {
+      height: 30em;
+    }
+    @include breakpoint(xxs, xs, s) {
+      height: 20em;
+    }
+  }
+  .covid-banner {
+    color: $lightBlue;
+    background: $royalBlue;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0.75em 0 0.5em;
+    display: flex;
+    justify-content: center;
+    font-size: 0.9em;
+    // position: absolute;
+
+    img {
+      width: 1.2em;
+      align-self: center;
+      margin: 0 0.25em 0 0.5em;
+    }
+  }
+  #scroll-top {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 1em;
+    left: 0.75em;
+    text-align: center;
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+    font-weight: 700;
+    color: $orange;
+    line-height: 0.8em;
+  }
+  .react-icon {
+    vertical-align: bottom;
+    padding-bottom: 1px;
+  }
+}
