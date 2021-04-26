@@ -110,10 +110,10 @@ class Navigation extends React.Component {
                     Website Maintenance
                   </a>
                   <a
-                    href="/website-design/website-useability"
+                    href="/website-design/website-usability"
                     className="drop-item"
                   >
-                    Creating Your Website-Useability
+                    Creating Your Website-usability
                   </a>
                 </div>
               </div>
@@ -138,7 +138,7 @@ class Navigation extends React.Component {
               </a>
 
               <a
-                href="/graphic-design/digital-and-print-graphic-design"
+                href="/graphic-design/digital-and-printed-graphic-design"
                 className="drop-item"
               >
                 Print & Graphic Design Services
