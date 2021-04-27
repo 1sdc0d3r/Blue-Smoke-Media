@@ -1,0 +1,30 @@
+@import "../../utils/Mixins.scss";
+
+.website-logo-design {
+  img {
+  }
+
+  .content {
+    // margin: 2em 3em 4em;
+
+    h1 {
+      font-size: 2em;
+      margin: 1.2em auto;
+      color: $royalBlue;
+
+      @include breakpoint(l) {
+        margin: 1.1em auto 1em;
+      }
+    }
+
+    p {
+      text-align: left;
+      font-size: 1.05em;
+      margin-top: 1.5em;
+
+      span {
+        font-weight: 600;
+      }
+    }
+  }
+}

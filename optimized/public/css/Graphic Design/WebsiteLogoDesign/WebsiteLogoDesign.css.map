@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAOI,oBAPgB,CAIlB,QAAQ,CAGN,EAAE,CAAC;EACD,SAAS,EAAE,GAAG;EACd,MAAM,EAAE,UAAU;EAClB,KAAK,ECPC,OAAO;CDYd;;AEOC,MAAM,EAAE,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,MAAM;EFtBtD,AAOI,oBAPgB,CAIlB,QAAQ,CAGN,EAAE,CAAC;IAMC,MAAM,EAAE,cAAc;GAEzB;;;AAfL,AAiBI,oBAjBgB,CAIlB,QAAQ,CAaN,CAAC,CAAC;EACA,UAAU,EAAE,IAAI;EAChB,SAAS,EAAE,MAAM;EACjB,UAAU,EAAE,KAAK;CAKlB;;AAzBL,AAsBM,oBAtBc,CAIlB,QAAQ,CAaN,CAAC,CAKC,IAAI,CAAC;EACH,WAAW,EAAE,GAAG;CACjB",
+    "sources": [
+        "WebsiteLogoDesign.scss",
+        "../../utils/Mixins.scss",
+        "../../utils/Breakpoints.scss"
+    ],
+    "names": [],
+    "file": "WebsiteLogoDesign.css"
+}

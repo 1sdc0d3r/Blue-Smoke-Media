@@ -1,0 +1,33 @@
+@import "../../utils/Mixins.scss";
+
+.printed-logos {
+  img {
+    border-bottom: 2px solid $darkBlue;
+  }
+
+  h1 {
+    color: $royalBlue;
+    @include breakpoint(l) {
+      margin: 1.1em auto;
+    }
+  }
+
+  p {
+    // margin: 1em 2em 3em;
+    text-align: left;
+
+    span {
+      font-weight: 600;
+    }
+
+    a {
+      text-decoration: none;
+      color: $darkBlue;
+      font-weight: 600;
+
+      &:hover {
+        color: $orange;
+      }
+    }
+  }
+}

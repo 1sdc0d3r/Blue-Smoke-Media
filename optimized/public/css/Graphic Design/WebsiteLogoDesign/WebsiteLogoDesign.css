@@ -1,0 +1,22 @@
+.website-logo-design .content h1 {
+  font-size: 2em;
+  margin: 1.2em auto;
+  color: #04227a;
+}
+
+@media (min-width: 981px) and (max-width: 1280px) {
+  .website-logo-design .content h1 {
+    margin: 1.1em auto 1em;
+  }
+}
+
+.website-logo-design .content p {
+  text-align: left;
+  font-size: 1.05em;
+  margin-top: 1.5em;
+}
+
+.website-logo-design .content p span {
+  font-weight: 600;
+}
+/*# sourceMappingURL=WebsiteLogoDesign.css.map */

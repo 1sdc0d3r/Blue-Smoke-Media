@@ -1,0 +1,80 @@
+@import "../../utils/Mixins.scss";
+
+.print-and-graphic-design-services {
+  img {
+    width: 100.1%;
+    height: 20em !important;
+  }
+
+  h1 {
+    margin: 1em auto 0.6em;
+    color: $royalBlue;
+
+    @include breakpoint(xxs, xs, s, m) {
+      font-size: 1.5em;
+    }
+  }
+
+  .bottom-content {
+    p {
+      margin-bottom: 3em;
+      margin: 2em 2em;
+
+      @include breakpoint(xxs, xs, s, m) {
+        margin: auto;
+        text-align: justify;
+        margin: 1em;
+      }
+    }
+
+    section {
+      display: flex;
+      margin: 2rem;
+      align-items: center;
+
+      @include breakpoint(xxs, xs, s, m) {
+        flex-direction: column;
+        margin: 1rem auto;
+      }
+      img {
+        height: 11em;
+        width: 17em;
+
+        @include breakpoint(xxs, xs, s, m) {
+          margin-top: 1.5em;
+        }
+      }
+
+      #eagle {
+        height: 9.75em;
+      }
+
+      #coffeeShelf {
+        padding-top: 0.5em;
+        height: 14em;
+
+        @include breakpoint(l) {
+          height: 16em;
+        }
+
+        @include breakpoint(xxs, xs, s, m) {
+          display: none;
+        }
+      }
+
+      p {
+        text-align: left;
+        line-height: 1.27em;
+
+        @include breakpoint(xxs, xs, s, m) {
+          margin-top: 1.25em;
+          margin-bottom: 0;
+        }
+
+        span {
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
