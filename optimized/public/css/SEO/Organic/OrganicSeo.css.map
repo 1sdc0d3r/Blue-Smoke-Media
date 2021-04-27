@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,YAAY,CAAC;EACX,KAAK,EAAE,OAAgB;EACvB,UAAU,EAAE,OAAO;CA8BpB;;AAhCD,AAKE,YALU,CAKV,GAAG,CAAC;EACF,aAAa,EAAE,GAAG,CAAC,MAAM,CCJlB,OAAO;CDKf;;AAPH,AASE,YATU,CASV,EAAE,CAAC;EACD,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,WAAW;CACpB;;AAZH,AAoBI,YApBQ,CAcV,CAAC,AAME,WAAW,CAAC;EACX,aAAa,EAAE,GAAG;CACnB;;AAtBL,AAuBI,YAvBQ,CAcV,CAAC,CASC,CAAC,CAAC;EACA,eAAe,EAAE,IAAI;EACrB,KAAK,ECxBC,OAAO;CDyBd;;AA1BL,AA6BE,YA7BU,CA6BV,IAAI,CAAC;EACH,WAAW,EAAE,GAAG;CACjB",
+    "sources": [
+        "OrganicSeo.scss",
+        "../../utils/Mixins.scss",
+        "../../utils/Breakpoints.scss"
+    ],
+    "names": [],
+    "file": "OrganicSeo.css"
+}

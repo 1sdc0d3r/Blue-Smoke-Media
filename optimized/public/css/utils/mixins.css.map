@@ -2,9 +2,9 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "mixins.scss",
+        "Mixins.scss",
         "Breakpoints.scss"
     ],
     "names": [],
-    "file": "mixins.css"
+    "file": "Mixins.css"
 }

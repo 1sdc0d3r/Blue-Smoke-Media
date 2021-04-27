@@ -1,0 +1,53 @@
+@import "../../utils/Mixins.scss";
+
+.seo-friendly {
+  color: rgb(13, 41, 113);
+  text-align: justify;
+
+  img {
+    border-bottom: 2px outset $darkBlue;
+    // margin: auto !important;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 1.25em auto;
+
+    @include breakpoint(xxs, xs, s, m) {
+      font-size: 1.7em;
+    }
+  }
+
+  h2 {
+    text-align: center;
+    @include breakpoint(l) {
+      font-size: 1.35em;
+    }
+  }
+
+  p {
+    a {
+      text-decoration: none;
+
+      span {
+        font-weight: 600;
+      }
+    }
+
+    &:last-child {
+      margin-bottom: 2.2em;
+    }
+  }
+
+  h4 {
+    font-size: 1.25em;
+
+    @include breakpoint(l) {
+      margin-bottom: 0;
+    }
+  }
+
+  #contact {
+    color: $orange;
+  }
+}

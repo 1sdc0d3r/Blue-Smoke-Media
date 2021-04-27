@@ -1,0 +1,27 @@
+.organic-seo {
+  color: #0d2971;
+  text-align: justify;
+}
+
+.organic-seo img {
+  border-bottom: 2px outset #020723;
+}
+
+.organic-seo h1 {
+  text-align: center;
+  margin: 1.25em auto;
+}
+
+.organic-seo p:last-child {
+  margin-bottom: 2em;
+}
+
+.organic-seo p a {
+  text-decoration: none;
+  color: #1e92f6;
+}
+
+.organic-seo span {
+  font-weight: 600;
+}
+/*# sourceMappingURL=OrganicSeo.css.map */

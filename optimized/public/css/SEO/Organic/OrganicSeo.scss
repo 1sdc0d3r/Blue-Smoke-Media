@@ -1,0 +1,35 @@
+@import "../../utils/Mixins.scss";
+
+.organic-seo {
+  color: rgb(13, 41, 113);
+  text-align: justify;
+
+  // letter-spacing: 0.15rem;
+  img {
+    border-bottom: 2px outset $darkBlue;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 1.25em auto;
+  }
+
+  p {
+    // margin: 0.5em 1.5em;
+    @include breakpoint(xxs, xs, s) {
+      // margin: 1.5em 2em;
+    }
+
+    &:last-child {
+      margin-bottom: 2em;
+    }
+    a {
+      text-decoration: none;
+      color: $lightBlue;
+    }
+  }
+
+  span {
+    font-weight: 600;
+  }
+}
