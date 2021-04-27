@@ -1,0 +1,21 @@
+@charset "UTF-8";
+.social-media {
+  margin: 0 auto 8%;
+  width: 95%;
+  text-align: justify;
+}
+
+.social-media h1 {
+  text-align: center;
+  font-size: 1.75em;
+  color: #04227a;
+}
+
+.social-media ul {
+  list-style: none;
+}
+
+.social-media ul li :before {
+  content: "◆";
+}
+/*# sourceMappingURL=SocialMedia.css.map */
