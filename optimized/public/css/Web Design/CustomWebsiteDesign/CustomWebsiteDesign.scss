@@ -1,0 +1,54 @@
+@import "../../utils/Mixins.scss";
+
+.custom-website-design {
+  img {
+    border: 2px solid $darkBlue;
+  }
+
+  .content {
+    // margin: 2em auto 4em;
+    text-align: left;
+
+    // @include breakpoint(xxs, xs, s, m) {
+    //   margin: 1.5em 0;
+    // }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 1.5em;
+      color: $royalBlue;
+
+      @include breakpoint(l) {
+        margin-bottom: 1.1em;
+      }
+
+      @include breakpoint(xxs, xs, s) {
+        margin-bottom: 1em;
+      }
+    }
+
+    @include breakpoint(xxs, xs, s) {
+      p {
+        margin: 2em 1em;
+      }
+    }
+
+    ol {
+      margin: 2em auto;
+      margin-left: 1.75em;
+
+      @include breakpoint(xxs, xs, s) {
+        margin-left: 1em;
+      }
+
+      li {
+        color: $orange;
+        line-height: 1.35em;
+      }
+    }
+
+    span {
+      font-weight: 600;
+    }
+  }
+}

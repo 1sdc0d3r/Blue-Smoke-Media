@@ -1,0 +1,25 @@
+.web-maintenance {
+  text-align: left;
+}
+
+.web-maintenance img {
+  border-bottom: 2px outset #020723;
+}
+
+.web-maintenance .content h1 {
+  text-align: center;
+  color: #04227a;
+}
+
+.web-maintenance .content h3 {
+  margin: 1em auto auto;
+}
+
+.web-maintenance .content p {
+  margin: 0;
+}
+
+.web-maintenance .content p span {
+  font-size: 1.1em;
+}
+/*# sourceMappingURL=WebMaintenance.css.map */

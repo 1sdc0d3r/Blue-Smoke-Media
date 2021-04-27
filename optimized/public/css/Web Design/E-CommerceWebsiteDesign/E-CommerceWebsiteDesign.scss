@@ -1,0 +1,21 @@
+@import "../../utils/Mixins.scss";
+
+.e-commerce-website-development {
+  img {
+    border-bottom: 2px outset $darkBlue;
+  }
+
+  .content {
+    // margin: auto 2em 2em;
+    // margin-bottom: 2em;
+
+    h1 {
+      margin: 1em auto 0.8em;
+      color: $royalBlue;
+    }
+
+    p {
+      text-align: left;
+    }
+  }
+}

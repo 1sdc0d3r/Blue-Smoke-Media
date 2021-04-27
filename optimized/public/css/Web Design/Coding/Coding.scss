@@ -1,0 +1,42 @@
+@import "../../utils/Mixins.scss";
+
+.website-programming-coding {
+  img {
+    border-bottom: 2px outset $darkBlue;
+  }
+
+  .content {
+    // margin: auto 2em 2em;
+    text-align: justify;
+
+    .bold {
+      font-weight: bold;
+    }
+
+    h1 {
+      text-align: center;
+      color: $royalBlue;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 1.25em;
+
+      li {
+        margin: none;
+        line-height: 1.4em;
+
+        &::before {
+          content: "•";
+          color: $orange;
+          font-size: 1.5em;
+          margin-right: 0.45em;
+        }
+
+        @include breakpoint(xxs, xs, s, m) {
+          margin-bottom: 0.25em;
+        }
+      }
+    }
+  }
+}

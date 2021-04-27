@@ -1,0 +1,213 @@
+@import "../../Utils/Mixins/Mixins.scss";
+
+.inquiryForm {
+  height: 100%;
+
+  h1 {
+    padding-top: 0.7em;
+    color: $darkBlue;
+  }
+  span {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .message-sent {
+    visibility: visible;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    transition: 700ms ease-in-out all;
+
+    background: lightgreen;
+    border: 2px solid green;
+  }
+
+  p {
+    font-style: italic;
+    margin: 1em auto 3em;
+
+    @include breakpoint(xxs, xs, s, m) {
+      display: none;
+    }
+  }
+
+  form {
+    width: 90%;
+    @include breakpoint(xxs, xs, s, m) {
+      margin-left: 5%;
+    }
+
+    .left {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      margin: auto 3em;
+
+      @include breakpoint(xxs, xs, s, m) {
+        margin: auto 1em;
+      }
+
+      label {
+        font-size: 1.2em;
+        margin-top: 0.25em;
+
+        @include breakpoint(xxs, xs, s, m) {
+          font-size: 1.05em;
+        }
+
+        input[type="text"] {
+          display: flex;
+          margin: 0.1em auto 0.2em 0.5em;
+          font-size: 0.9em;
+          width: 50%;
+
+          @include breakpoint(m) {
+            width: 80%;
+          }
+
+          @include breakpoint(xxs, xs, s) {
+            width: 95%;
+            margin: 0.1em auto 0.2em 0.5em;
+          }
+        }
+      }
+
+      .time {
+        display: flex;
+        flex-direction: column;
+
+        label {
+          @include breakpoint(xxs, xs, s, m) {
+            text-align: center;
+            margin: 0.3em auto 0.15em;
+          }
+        }
+
+        div {
+          @include breakpoint(xxs, xs, s, m) {
+            margin: auto;
+            width: 75%;
+          }
+          @include breakpoint(xxs, xs, s) {
+            display: flex;
+            flex-direction: column;
+          }
+
+          input[type="radio"] {
+            margin: auto 1em;
+            transform: scale(1.25);
+          }
+        }
+      }
+    }
+
+    h3 {
+      text-align: left;
+      margin: 2.5em 3em 1em;
+
+      @include breakpoint(xxs, xs, s, m) {
+        margin: 1.5em 1em 1em;
+      }
+    }
+
+    .right {
+      margin: auto 3em;
+      // padding-left: 2em;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+      @include breakpoint(xxs, xs, s, m) {
+        margin: auto 2em;
+      }
+
+      label {
+        font-size: 1.2em;
+        text-align: left;
+        width: 45%;
+        margin-bottom: 0.5em;
+
+        @include breakpoint(xxs, xs, s, m) {
+          font-size: 1em;
+          margin-bottom: 0.6em;
+          width: 48%;
+        }
+
+        //todo custom checkbox
+        //   input[type="checkbox"] {
+        //     // visibility: hidden;
+        //   }
+
+        //   .check-mark {
+        //     position: absolute;
+        //     top: 0;
+        //     left: 0;
+        //     height: 25px;
+        //     width: 25px;
+        //     background-color: #eee;
+        //   }
+
+        //   // input:active~.check-mark {
+        //   //   background-color: red;
+        //   // }
+
+        //   input:checked~.check-mark {
+        //     background-color: green;
+        //   }
+
+        //   .check-mark:after {
+        //     content: "";
+        //     position: absolute;
+        //     display: none;
+        //   }
+
+        //   input:checked~.check-mark:after {
+        //     display: block;
+        //   }
+
+        //   .check-mark:after {
+        //     left: 8px;
+        //     bottom: 5px;
+        //     width: 6px;
+        //     height: 12px;
+        //     border: solid $white;
+        //     border-width: 0 4px 4px 0;
+        //     -webkit-transform: rotate(45deg);
+        //     -ms-transform: rotate(45deg);
+        //     transform: rotate(45deg);
+        //   }
+      }
+    }
+
+    .actions {
+      width: 20%;
+      margin: 1em auto 2em;
+      display: flex;
+
+      @include breakpoint(l) {
+        margin: 1.2em auto 2em;
+      }
+
+      @include breakpoint(xxs, xs, s, m) {
+        width: 50%;
+        margin: 1.2em auto 2em;
+      }
+
+      button {
+        font-size: 1.2em;
+        margin: auto;
+        font-weight: 700;
+        border-radius: 0.5em;
+
+        &:hover {
+          color: $lightBlue;
+        }
+      }
+    }
+
+    .antiSpam {
+      display: none;
+    }
+  }
+}

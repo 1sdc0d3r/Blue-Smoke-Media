@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAII,gBAJY,CACd,QAAQ,CAGN,EAAE,CAAC;EACD,MAAM,EAAE,gBAAgB;EACxB,KAAK,ECHC,OAAO;CDId;;AAPL,AASI,gBATY,CACd,QAAQ,CAQN,CAAC,CAAC;EACA,UAAU,EAAE,IAAI;CASjB;;AAnBL,AAYM,gBAZU,CACd,QAAQ,CAQN,CAAC,CAGC,IAAI,CAAC;EACH,WAAW,EAAE,GAAG;CACjB;;AAdP,AAgBM,gBAhBU,CACd,QAAQ,CAQN,CAAC,CAOC,OAAO,CAAC;EACN,KAAK,ECjBJ,OAAO;CDkBT",
+    "sources": [
+        "Ad-CopyWriting.scss",
+        "../../Utils/Mixins/Mixins.scss",
+        "../../Utils/Breakpoints/Breakpoints.scss"
+    ],
+    "names": [],
+    "file": "Ad-CopyWriting.css"
+}

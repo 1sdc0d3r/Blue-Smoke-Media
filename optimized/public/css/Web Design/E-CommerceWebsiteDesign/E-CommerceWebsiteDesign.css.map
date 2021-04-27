@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AACE,+BAD6B,CAC7B,GAAG,CAAC;EACF,aAAa,EAAE,GAAG,CAAC,MAAM,CCAlB,OAAO;CDCf;;AAHH,AASI,+BAT2B,CAK7B,QAAQ,CAIN,EAAE,CAAC;EACD,MAAM,EAAE,cAAc;EACtB,KAAK,ECRC,OAAO;CDSd;;AAZL,AAcI,+BAd2B,CAK7B,QAAQ,CASN,CAAC,CAAC;EACA,UAAU,EAAE,IAAI;CACjB",
+    "sources": [
+        "E-CommerceWebsiteDesign.scss",
+        "../../utils/Mixins.scss",
+        "../../utils/Breakpoints.scss"
+    ],
+    "names": [],
+    "file": "E-CommerceWebsiteDesign.css"
+}
