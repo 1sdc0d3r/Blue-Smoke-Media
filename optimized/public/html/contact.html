@@ -41,15 +41,13 @@
       <form onSubmit="onSubmitHandler();return false">
         <input
           type="text"
-          value="business"
           name="business"
-          placeholder="Business"
+          placeholder="Business Name"
           id="business"
           class="field"
         ></input>
         <input
           type="text"
-          value="test"
           name="name"
           placeholder="Name"
           id="name"
@@ -59,7 +57,6 @@
 
         <input
           type="text"
-          value="email"
           name="email"
           placeholder="Email Address"
           id="email"
@@ -68,7 +65,6 @@
         ></input>
         <input
           type="text"
-          value="subject"
           name="subject"
           placeholder="Subject"
           id="subject"
@@ -90,7 +86,7 @@
           id="anti-spam"
         ></div>
         <div class="actions">
-          <input type="submit" value="Send Message" id="submit-btn"></input>
+          <input type="submit" value="Send Message" id="submit-btn" />
         </div>
       </form>
     </section>
@@ -121,6 +117,17 @@
         setTimeout(() => {
           document.querySelector(".contact span").classList.remove("message-sent");
         }, 5000);
+
+        resetHandler()
+        function resetHandler(){
+          document.getElementById("anti-spam").value = "";
+          document.getElementById("business").value = "";
+          document.getElementById("email").value = "";
+          document.getElementById("subject").value = "";
+          document.getElementById("name").value = "";
+          document.getElementById("subject").value = "";
+          document.getElementById("message").value = "";
+        }
       }
     </script>
 

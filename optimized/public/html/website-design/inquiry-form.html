@@ -5,7 +5,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="../favicon-64.png" />
-    <link rel="stylesheet" href="../../css/Index/Index.css" />
+    <link
+      rel="stylesheet"
+      href="../../css/InquirySurveyForm/InquirySurveyForm.css"
+    />
+
     <link rel="stylesheet" href="../../css/Core/Core.css" />
     <link rel="stylesheet" href="../../css/Header/Header.css" />
     <link rel="stylesheet" href="../../css/Navigation/Navigation.css" />
@@ -24,6 +28,211 @@
     <div id="drop-menu"></div>
 
     <!--! Content goes here -->
+    <div class="inquiryForm">
+      <h1>Inquiry Form</h1>
+      <span>Message sent successfully</span>
+      <p>
+        To receive more information about our company, services,
+        industry-specific recent projects and case studies, please fill out the
+        form below.
+      </p>
+      <form onSubmit="onSubmitHandler();return false">
+        <div class="left">
+          <label for="company">
+            Company:
+            <input
+              type="text"
+              name="company"
+              id="company"
+            ></input>
+          </label>
+          <label for="name">
+            Name:
+            <input
+              type="text"
+              name="name"
+              id="name"
+              required
+            ></input>
+          </label>
+          <label for="email">
+            Email:
+            <input
+              type="text"
+              name="email"
+              id="email"
+              required
+            ></input>
+          </label>
+          <label for="phone">
+            Contact Number:
+            <input type="text" name="phone" id="phone"></input>
+          </label>
+          <label for="website">
+            Website URL:
+            <input
+              type="text"
+              name="website"
+              id="website"
+            ></input>
+          </label>
+          <div class="time">
+            <label for="time">Best Time to be Reached: </label>
+            <div>
+              <label>
+                <input
+                  type="radio"
+                  name="time"
+                  class="radio"
+                  value="morning"
+                  checked
+                ></input>
+                Morning
+              </label>
+              <label>
+                <input
+                  type="radio"
+                  name="time"
+                  class="radio"
+                  value="afternoon"
+                ></input>
+                Afternoon
+              </label>
+              <label>
+                <input
+                  type="radio"
+                  name="time"
+                  class="radio"
+                  value="evening"
+                ></input>
+                Evening
+              </label>
+            </div>
+          </div>
+        </div>
+        <h3>Interested in:</h3>
+        <div class="right">
+          <label for="customWebDesign">
+            <input
+              name="customWebDesign"
+              type="checkbox"
+            >Custom Website Design</input>
+          </label>
+          <label for="reDesignUpdate">
+            <input
+              name="reDesignUpdate"
+              type="checkbox"
+            >Re-Design And Update</input>
+          </label>
+          <label for="eCommerce">
+            <input
+              name="eCommerce"
+              type="checkbox"
+            >E-Commerce</input>
+          </label>
+          <label for="adCopy">
+            <input name="adCopy" type="checkbox">Ad-Copy Writing</input>
+          </label>
+          <label for="webMaintenance">
+            <input
+              name="webMaintenance"
+              type="checkbox"
+            >Website Maintenance</input>
+          </label>
+          <label for="seo">
+            <input name="seo" type="checkbox">SEO</input>
+          </label>
+          <label for="printLogo">
+            <input
+              name="printLogo"
+              type="checkbox"
+            >Print Logo</input>
+          </label>
+          <label for="webLogo">
+            <input name="webLogo" type="checkbox">Website Logo</input>
+          </label>
+          <label for="blog">
+            <input name="blog" type="checkbox">Blog</input>
+          </label>
+          <label for="printedMedia">
+            <input
+              name="printedMedia"
+              type="checkbox"
+            >Printed Media</input>
+          </label>
+          <input
+            id="antiSpam"
+            class="antiSpam"
+            name="antiSpam"
+            type="text"
+          ></input>
+        </div>
+        <div class="actions">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    <script>
+      function onSubmitHandler() {
+        //* set antiSpam to true if spam
+        const antiSpam = document.getElementById("antiSpam").value !== ""
+        const templateParams = {
+          company: document.getElementById("company").value,
+          from_name: document.getElementById("name").value,
+          reply_to: document.getElementById("email").value,
+          phone: document.getElementById("phone").value,
+          website_url: document.getElementById("website").value,
+          time: "",
+          customWebDesign: document.querySelector("input[name='customWebDesign']").checked,
+          reDesignUpdate: document.querySelector("input[name='reDesignUpdate']").checked,
+          eCommerce: document.querySelector("input[name='eCommerce']").checked,
+          adCopy: document.querySelector("input[name='adCopy']").checked,
+          webMaintenance: document.querySelector("input[name='webMaintenance']").checked,
+          seo: document.querySelector("input[name='seo']").checked,
+          printLogo: document.querySelector("input[name='printLogo']").checked,
+          webLogo: document.querySelector("input[name='webLogo']").checked,
+          blog: document.querySelector("input[name='blog']").checked,
+          printedMedia: document.querySelector("input[name='printedMedia']").checked,
+      };
+      //* set time to ratio selected
+      document.querySelectorAll("input[name='time']").forEach(e => e.checked ? templateParams.time=e.value:null)
+
+      if (!antiSpam) emailjs.send(
+        "service_kys3ouv",
+        "template_x9c27y2",
+        templateParams,
+        "user_AKrWjfONfbrIagrKBIYq0"
+      );
+
+      document.querySelector(".inquiryForm span").classList.add("message-sent");
+      setTimeout(() => {
+        document
+          .querySelector(".inquiryForm span")
+          .classList.remove("message-sent");
+      }, 5000);
+
+      resetHandler()
+      function resetHandler(){
+        document.getElementById("antiSpam").value = "";
+        document.getElementById("company").value = "";
+        document.getElementById("name").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("phone").value = "";
+        document.getElementById("website").value = "";
+        document.querySelector("input[name='time']").checked = true;
+        document.querySelector("input[name='customWebDesign']").checked = false;
+        document.querySelector("input[name='reDesignUpdate']").checked = false;
+        document.querySelector("input[name='eCommerce']").checked = false;
+        document.querySelector("input[name='adCopy']").checked = false;
+        document.querySelector("input[name='webMaintenance']").checked = false;
+        document.querySelector("input[name='seo']").checked = false;
+        document.querySelector("input[name='printLogo']").checked = false;
+        document.querySelector("input[name='webLogo']").checked = false;
+        document.querySelector("input[name='blog']").checked = false;
+        document.querySelector("input[name='printedMedia']").checked = false;
+      }
+    }
+    </script>
 
     <div id="footer"></div>
     <!--* Load React. -->
@@ -43,5 +252,15 @@
     <script type="text/babel" src="../js/Header-CTA.jsx"></script>
     <script type="text/babel" src="../js/DropMenu.jsx"></script>
     <script type="text/babel" src="../js/Footer.jsx"></script>
+
+    <!--* Load email-js -->
+    <script type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function(){
+        emailjs.init("user_AKrWjfONfbrIagrKBIYq0");
+      })();
+    </script>
   </body>
 </html>
