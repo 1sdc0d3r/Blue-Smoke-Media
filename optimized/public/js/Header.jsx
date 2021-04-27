@@ -4,9 +4,9 @@ class Header extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      blueSmoke: "../assets/blue-smoke.webp",
-      flame: "../assets/flame.webp",
-      silhouettes: "../assets/black-silhouettes.webp",
+      blueSmoke: "../assets/blue-smoke.png",
+      flame: "../assets/flame.png",
+      silhouettes: "../assets/black-silhouettes.png",
     };
   }
 

@@ -1,8 +1,6 @@
 Optimized todo list:
 
-- cache control
-- remove all {" "}
-- webp vs png
+- cache control (server?)
 - jpg -> png
 - <Link> -> <a>
 - to="" -> href=""

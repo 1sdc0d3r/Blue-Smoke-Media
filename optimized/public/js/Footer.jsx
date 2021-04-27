@@ -166,7 +166,7 @@ class Footer extends React.Component {
                 >
                   {chevron}
                   <img
-                    src="../assets/linkedIn_social_media_button.webp"
+                    src="../assets/linkedIn_social_media_button.png"
                     alt="LinkedIn Social Media Button"
                   />
                 </a>
@@ -179,7 +179,7 @@ class Footer extends React.Component {
                 >
                   {chevron}
                   <img
-                    src="../assets/faceBook.webp"
+                    src="../assets/faceBook.png"
                     alt="Facebook Social Media Button"
                   />
                 </a>
@@ -192,7 +192,7 @@ class Footer extends React.Component {
                 >
                   {chevron}
                   <img
-                    src="../assets/Twitter.webp"
+                    src="../assets/Twitter.png"
                     alt="Twitter Social Media Button"
                   />
                 </a>
@@ -205,7 +205,7 @@ class Footer extends React.Component {
                 >
                   {chevron}
                   <img
-                    src="../assets/icon-Google-review.webp"
+                    src="../assets/icon-Google-review.png"
                     alt="Google Social Media Button"
                   />
                 </a>
