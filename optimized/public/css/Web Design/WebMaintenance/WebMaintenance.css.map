@@ -3,8 +3,8 @@
     "mappings": "AAEA,AAAA,gBAAgB,CAAC;EACf,UAAU,EAAE,IAAI;CA0BjB;;AA3BD,AAGE,gBAHc,CAGd,GAAG,CAAC;EACF,aAAa,EAAE,GAAG,CAAC,MAAM,CCFlB,OAAO;CDGf;;AALH,AAUI,gBAVY,CAOd,QAAQ,CAGN,EAAE,CAAC;EACD,UAAU,EAAE,MAAM;EAClB,KAAK,ECTC,OAAO;CDUd;;AAbL,AAeI,gBAfY,CAOd,QAAQ,CAQN,EAAE,CAAC;EACD,MAAM,EAAE,aAAa;CACtB;;AAjBL,AAmBI,gBAnBY,CAOd,QAAQ,CAYN,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;CAKV;;AAzBL,AAsBM,gBAtBU,CAOd,QAAQ,CAYN,CAAC,CAGC,IAAI,CAAC;EACH,SAAS,EAAE,KAAK;CACjB",
     "sources": [
         "WebMaintenance.scss",
-        "../../Utils/Mixins/Mixins.scss",
-        "../../Utils/Breakpoints/Breakpoints.scss"
+        "../../utils/Mixins.scss",
+        "../../utils/Breakpoints.scss"
     ],
     "names": [],
     "file": "WebMaintenance.css"
