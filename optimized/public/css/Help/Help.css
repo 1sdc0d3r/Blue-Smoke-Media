@@ -142,4 +142,365 @@
   font-weight: 700;
   text-shadow: 0.5px 0.5px #020723;
 }
+
+#carousel {
+  margin-bottom: 2em;
+}
+
+#carousel .slide {
+  background: #04227a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+  padding: 2.5em 2%;
+}
+
+#carousel .slide .slide-info {
+  width: 53%;
+  height: 80%;
+  color: #fda900;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: left;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  #carousel .slide .slide-info {
+    width: 60%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  #carousel .slide .slide-info {
+    width: 65%;
+  }
+}
+
+@media (max-width: 360px) {
+  #carousel .slide .slide-info {
+    width: 100%;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  #carousel .slide .slide-info {
+    width: 100%;
+  }
+}
+
+#carousel .slide .slide-info h1 {
+  color: #d7dae6;
+  margin: 0;
+  font-size: 1.9em;
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  #carousel .slide .slide-info h1 {
+    font-size: 1.75em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  #carousel .slide .slide-info h1 {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  #carousel .slide .slide-info h1 {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 360px) {
+  #carousel .slide .slide-info h1 {
+    font-size: 1.2em;
+  }
+}
+
+#carousel .slide .slide-info h4 {
+  padding-left: 2%;
+  color: goldenrod;
+  margin: 0.125em;
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  #carousel .slide .slide-info h4 {
+    font-size: 1em;
+    margin: 0.125em;
+    padding-left: 5%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  #carousel .slide .slide-info h4 {
+    font-size: 0.9em;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  #carousel .slide .slide-info h4 {
+    text-align: center;
+  }
+}
+
+#carousel .slide .slide-info p {
+  padding-left: 4%;
+  margin: 0;
+  line-height: 1.4em;
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  #carousel .slide .slide-info p {
+    font-size: 0.9em;
+    padding-left: 10%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  #carousel .slide .slide-info p {
+    font-size: 0.8em;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  #carousel .slide .slide-info p {
+    text-align: justify;
+    padding-right: 4%;
+  }
+}
+
+#carousel .slide .slide-info p span {
+  color: #ee3e0e;
+  font-weight: 600;
+}
+
+#carousel .slide .slide-info .description {
+  margin-top: 1.5em;
+}
+
+#carousel .slide .slide-info .description span {
+  font-weight: 600;
+}
+
+#carousel .slide .slide-info a {
+  font-weight: 600;
+  background: #ee3e0e;
+  margin-left: 5%;
+  border-radius: 0.8em;
+  margin-top: 8%;
+  -webkit-box-shadow: 3px 3px 1px black;
+          box-shadow: 3px 3px 1px black;
+  width: 40%;
+  padding: 0.8em 0;
+  color: #020723;
+  text-align: center;
+}
+
+@media (min-width: 1281px) and (max-width: 1680px) {
+  #carousel .slide .slide-info a {
+    width: 40%;
+    margin-left: 8%;
+    padding: 0.7em 0;
+  }
+}
+
+@media (min-width: 1681px) {
+  #carousel .slide .slide-info a {
+    width: 40%;
+    margin-left: 8%;
+    padding: 0.7em 0;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  #carousel .slide .slide-info a {
+    margin-top: 4%;
+    margin-left: 20%;
+    width: 35%;
+    margin-bottom: 0.5em;
+    padding: 0.5em 0;
+  }
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  #carousel .slide .slide-info a {
+    margin-top: 4%;
+    margin-left: 20%;
+    width: 35%;
+    margin-bottom: 0.5em;
+    padding: 0.5em 0;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  #carousel .slide .slide-info a {
+    width: 60%;
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 360px) {
+  #carousel .slide .slide-info a {
+    width: 80%;
+    margin: 5% auto 0;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  #carousel .slide .slide-info a {
+    width: 80%;
+    margin: 5% auto 0;
+  }
+}
+
+#carousel .dots {
+  position: absolute;
+  bottom: 5%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+@media (max-width: 360px) {
+  #carousel .dots {
+    display: none;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  #carousel .dots {
+    display: none;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  #carousel .dots {
+    display: none;
+  }
+}
+
+#carousel .dot___3c3SI {
+  background: #7ff76f;
+  margin-left: 0.5em;
+  border-radius: 50%;
+  padding: 0.5em;
+  border: 0px;
+}
+
+@media (min-width: 1281px) and (max-width: 1680px) {
+  #carousel .dot___3c3SI {
+    padding: 0.7em;
+    margin-left: 0.7em;
+  }
+}
+
+@media (min-width: 1681px) {
+  #carousel .dot___3c3SI {
+    padding: 0.7em;
+    margin-left: 0.7em;
+  }
+}
+
+#carousel .carousel__dot--selected {
+  background: #ee3e0e;
+}
+
+#carousel img {
+  width: 35%;
+  max-height: 500px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  #carousel img {
+    width: 30%;
+  }
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  #carousel img {
+    width: 30%;
+  }
+}
+
+@media (max-width: 360px) {
+  #carousel img {
+    display: none;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  #carousel img {
+    display: none;
+  }
+}
+
+.fade-in {
+  animation: fadeIn ease 0.5s;
+  -webkit-animation: fadeIn ease 0.5s;
+  -moz-animation: fadeIn ease 0.5s;
+  -o-animation: fadeIn ease 0.5s;
+  -ms-animation: fadeIn ease 0.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-out {
+  animation: fadeOut ease 0.5s;
+  -webkit-animation: fadeOut ease 0.5s;
+  -moz-animation: fadeOut ease 0.5s;
+  -o-animation: fadeOut ease 0.5s;
+  -ms-animation: fadeOut ease 0.5s;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 /*# sourceMappingURL=Help.css.map */

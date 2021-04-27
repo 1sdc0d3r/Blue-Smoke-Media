@@ -1,5 +1,6 @@
 @import "../Utils/Mixins.scss";
-
+//todo h1 "need help" color not dark blue
+//todo carousel moving content up and down
 .help {
   background: #333;
   border-top: 2px solid $darkBlue;
@@ -62,6 +63,232 @@
           text-shadow: 0.5px 0.5px $darkBlue;
         }
       }
+    }
+  }
+}
+#carousel {
+  margin-bottom: 2em;
+  .slide {
+    background: #04227a;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding: 2.5em 2%;
+    // padding-left: 2%;
+    // padding-right: 2%;
+    @include breakpoint(xxs, xs, s) {
+      // height: -webkit-min-content;
+      // height: -moz-min-content;
+      // height: min-content;
+      // margin-top: 2em;
+      // height: 80vh;
+    }
+
+    .slide-info {
+      width: 53%;
+      height: 80%;
+      color: #fda900;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: left;
+      align-self: center;
+      @include breakpoint(m) {
+        width: 60%;
+      }
+      @include breakpoint(s) {
+        width: 65%;
+      }
+      @include breakpoint(xxs, xs) {
+        width: 100%;
+      }
+
+      h1 {
+        color: $white;
+        margin: 0;
+        font-size: 1.9em;
+
+        @include breakpoint(m) {
+          font-size: 1.75em;
+        }
+        @include breakpoint(s) {
+          font-size: 1.5em;
+        }
+        @include breakpoint(xs) {
+          font-size: 1.5em;
+        }
+        @include breakpoint(xxs) {
+          font-size: 1.2em;
+        }
+      }
+      h4 {
+        padding-left: 2%;
+        color: goldenrod;
+        margin: 0.125em;
+
+        @include breakpoint(m) {
+          font-size: 1em;
+          margin: 0.125em;
+          padding-left: 5%;
+        }
+        @include breakpoint(s) {
+          font-size: 0.9em;
+        }
+        @include breakpoint(xs) {
+          text-align: center;
+        }
+      }
+
+      p {
+        padding-left: 4%;
+        margin: 0;
+        line-height: 1.4em;
+
+        @include breakpoint(m) {
+          font-size: 0.9em;
+          padding-left: 10%;
+        }
+        @include breakpoint(s) {
+          font-size: 0.8em;
+        }
+        @include breakpoint(xs) {
+          // font-size: 0.8em;
+          text-align: justify;
+          padding-right: 4%;
+        }
+
+        span {
+          color: #ee3e0e;
+          font-weight: 600;
+        }
+      }
+
+      .description {
+        margin-top: 1.5em;
+        span {
+          font-weight: 600;
+        }
+      }
+
+      a {
+        font-weight: 600;
+        background: #ee3e0e;
+        margin-left: 5%;
+        border-radius: 0.8em;
+        margin-top: 8%;
+        box-shadow: 3px 3px 1px black;
+        width: 40%;
+        padding: 0.8em 0;
+        color: #020723;
+        text-align: center;
+
+        @include breakpoint(xl, xxl) {
+          width: 40%;
+          margin-left: 8%;
+          padding: 0.7em 0;
+        }
+
+        @include breakpoint(s, m) {
+          margin-top: 4%;
+          margin-left: 20%;
+          width: 35%;
+          margin-bottom: 0.5em;
+          padding: 0.5em 0;
+        }
+        @include breakpoint(s) {
+          width: 60%;
+          margin-top: 5%;
+        }
+        @include breakpoint(xxs, xs) {
+          width: 80%;
+          margin: 5% auto 0;
+        }
+      }
+    }
+  }
+  .dots {
+    // margin-bottom: 0;
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    @include breakpoint(xxs, xs, s) {
+      display: none;
+    }
+  }
+  .dot___3c3SI {
+    background: $green;
+    margin-left: 0.5em;
+    // border: none;
+    border-radius: 50%;
+    padding: 0.5em;
+    border: 0px;
+    @include breakpoint(xl, xxl) {
+      padding: 0.7em;
+      margin-left: 0.7em;
+    }
+  }
+  .carousel__dot--selected {
+    background: #ee3e0e;
+  }
+  img {
+    width: 35%;
+    max-height: 500px;
+    align-self: center;
+    @include breakpoint(s, m) {
+      width: 30%;
+    }
+    @include breakpoint(xxs, xs) {
+      display: none;
+    }
+  }
+}
+.fade-in {
+  animation: fadeIn ease 0.5s;
+  -webkit-animation: fadeIn ease 0.5s;
+  -moz-animation: fadeIn ease 0.5s;
+  -o-animation: fadeIn ease 0.5s;
+  -ms-animation: fadeIn ease 0.5s;
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
+.fade-out {
+  animation: fadeOut ease 0.5s;
+  -webkit-animation: fadeOut ease 0.5s;
+  -moz-animation: fadeOut ease 0.5s;
+  -o-animation: fadeOut ease 0.5s;
+  -ms-animation: fadeOut ease 0.5s;
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @-webkit-keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
     }
   }
 }
