@@ -36,7 +36,14 @@ module.exports = app => {
         "https://bluesmokemedia.s3-us-west-1.amazonaws.com/",
         "bluesmokemedia.s3-us-west-1.amazonaws.com/",
       ],
-      'script-src': [SELF, INLINE, 'unpkg.com'],
+      'script-src': [SELF, INLINE, 'unpkg.com',
+        /*email-js*/
+        "cdn.jsdelivr.net/npm/emailjs-com@2/",
+      ],
+      'connect-src': [SELF, INLINE,
+        /*email-js*/
+        "api.emailjs.com/api/v1.0/email/send",
+      ],
       'style-src': [SELF, INLINE],
       'img-src': [SELF, 'data:'],
       'worker-src': [NONE],

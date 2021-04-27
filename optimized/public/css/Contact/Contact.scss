@@ -49,6 +49,10 @@
         margin-bottom: 0.5em;
       }
     }
+    .antiSpam {
+      display: none;
+      position: absolute;
+    }
 
     #submit-btn {
       font-family: "Roboto", sans-serif;

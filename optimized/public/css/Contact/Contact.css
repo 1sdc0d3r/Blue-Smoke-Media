@@ -105,6 +105,11 @@
   }
 }
 
+.contact form .antiSpam {
+  display: none;
+  position: absolute;
+}
+
 .contact form #submit-btn {
   font-family: "Roboto", sans-serif;
   font-size: 1em;

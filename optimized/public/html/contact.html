@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="../favicon-64.png" />
-    <link rel="stylesheet" href="../css/Index/Index.css" />
+    <link rel="stylesheet" href="../css/Contact/Contact.css" />
 
     <link rel="stylesheet" href="../css/Core/Core.css" />
     <link rel="stylesheet" href="../css/Header/Header.css" />
@@ -25,6 +25,104 @@
     <div id="drop-menu"></div>
 
     <!--! Content goes here -->
+    <section class="contact clicker">
+      <h1>Contact Us</h1>
+      <p>
+        Effective Internet marketing and Website Design requires a staff of
+        diverse disciplines. Our full-service approach will save you time and
+        the added expense of discovering the missing pieces and hiring multiple
+        companies to collaborate. For quick answers, accurate quotes and 24/7
+        customer service, please call{" "}
+        <a href="tel:865-274-1371">865.274.1371</a> or complete the inquiry form
+        below and we will contact you at a time and date that is convenient to
+        you.
+      </p>
+      <span>Message sent successfully</span>
+      <form onSubmit="onSubmitHandler();return false">
+        <input
+          type="text"
+          value="business"
+          name="business"
+          placeholder="Business"
+          id="business"
+          class="field"
+        ></input>
+        <input
+          type="text"
+          value="test"
+          name="name"
+          placeholder="Name"
+          id="name"
+          class="field"
+          required
+        ></input>
+
+        <input
+          type="text"
+          value="email"
+          name="email"
+          placeholder="Email Address"
+          id="email"
+          class="field"
+          required
+        ></input>
+        <input
+          type="text"
+          value="subject"
+          name="subject"
+          placeholder="Subject"
+          id="subject"
+          class="field"
+          required
+        ></input>
+        <textarea
+          name="message"
+          placeholder="Message"
+          id="message"
+          rows="5"
+          class="field text"
+          required
+        ></textarea>
+        <input
+          class="antiSpam"
+          name="antiSpam"
+          type="text"
+          id="anti-spam"
+        ></div>
+        <div class="actions">
+          <input type="submit" value="Send Message" id="submit-btn"></input>
+        </div>
+      </form>
+    </section>
+
+    <script>
+      function onSubmitHandler(){
+        console.log("onSubmitHandler")
+        //* set antiSpam to true if spam
+        const antiSpam = document.getElementById("anti-spam").value !== ""
+        const templateParams = {
+          business: document.getElementById("business").value,
+          reply_to: document.getElementById("email").value,
+          subject: document.getElementById("subject").value,
+          from_name: document.getElementById("name").value,
+          message_subject: document.getElementById("subject").value,
+          message_html: document.getElementById("message").value,
+        };
+        if (!antiSpam){
+          console.log("send")
+          emailjs.send(
+            "service_kys3ouv",
+            "template_fd7rhre",
+            templateParams,
+            "user_AKrWjfONfbrIagrKBIYq0"
+          );
+        }
+        document.querySelector(".contact span").classList.add("message-sent");
+        setTimeout(() => {
+          document.querySelector(".contact span").classList.remove("message-sent");
+        }, 5000);
+      }
+    </script>
 
     <div id="footer"></div>
     <!--* Load React. -->
@@ -44,5 +142,15 @@
     <script type="text/babel" src="../js/Header-CTA.jsx"></script>
     <script type="text/babel" src="../js/DropMenu.jsx"></script>
     <script type="text/babel" src="../js/Footer.jsx"></script>
+
+    <!--* Load email-js -->
+    <script type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function(){
+        emailjs.init("user_AKrWjfONfbrIagrKBIYq0");
+      })();
+</script>
   </body>
 </html>
