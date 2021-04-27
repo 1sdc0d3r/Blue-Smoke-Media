@@ -146,7 +146,7 @@ class Navigation extends React.Component {
             </div>
           </div>
         </div>
-        <a href="/plans" className="nav-item">
+        <a href="/pricing" className="nav-item">
           Pricing
         </a>
         {/* <a href="/portfolio" className="nav-item">

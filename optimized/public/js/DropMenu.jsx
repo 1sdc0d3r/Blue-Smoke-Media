@@ -126,7 +126,7 @@ class DropMenu extends React.Component {
             </ul>
           </ul>
           <li>
-            <a href="/plans">Pricing</a>
+            <a href="/pricing">Pricing</a>
           </li>
           <li>
             <a

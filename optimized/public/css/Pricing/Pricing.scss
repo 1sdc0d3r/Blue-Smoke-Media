@@ -1,0 +1,248 @@
+@import "../utils/Mixins.scss";
+
+.domain-name::after {
+  content: "*";
+}
+
+.domain-name-info {
+  // color: red;
+  text-align: center;
+  margin: 0;
+  font-size: 0.8em;
+  &::before {
+    content: "*";
+  }
+}
+
+.domain-table {
+  @include breakpoint(xxs, xs, s, m) {
+    display: none;
+  }
+}
+
+.domain-cards {
+  @include breakpoint(l, xl, xxl) {
+    display: none;
+  }
+}
+
+.price-chart {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  background: #424851;
+  color: white;
+  width: 70%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  margin: 2% auto 15%;
+  padding-bottom: 3em;
+  min-width: -webkit-min-content;
+  min-width: -moz-min-content;
+  min-width: min-content;
+
+  @include breakpoint(xxs, xs, s, m) {
+    display: none;
+  }
+  h1 {
+    display: none;
+  }
+  .col {
+    width: 17.5%;
+    min-width: -webkit-min-content;
+    min-width: -moz-min-content;
+    min-width: min-content;
+    margin-top: 1.5em;
+    // padding: 1%;
+
+    div {
+      height: 30%;
+      padding: 1.5em 0 0.5em;
+      margin: auto;
+
+      h5,
+      p,
+      span {
+        text-shadow: 3px 3px 3px black;
+      }
+
+      h5 {
+        margin: 0;
+      }
+      p {
+        margin: 0;
+        margin-bottom: 0.2em;
+      }
+      span {
+        font-size: 1.5em;
+        font-weight: 800;
+      }
+    }
+
+    .row {
+      height: 10%;
+      margin: 0;
+      width: 100%;
+      overflow: hidden;
+      box-shadow: inset 0.6em 0 1em #2a2d30;
+      // padding: 1%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 18%;
+      }
+    }
+    .blue-text {
+      color: $lightBlue;
+      font-weight: 600;
+    }
+    .row-light {
+      background: #3c4149;
+    }
+    .row-dark {
+      background: #5b626c;
+    }
+    .start-now {
+      color: goldenrod;
+      padding-top: 0.2em;
+      padding: 0.2em auto 0.1em;
+      font-weight: 600;
+      @include breakpoint(l) {
+        font-size: 0.85em;
+      }
+    }
+  }
+
+  .col-1 {
+    width: 30%;
+    p:not(:first-child) {
+      font-size: 0.8em;
+    }
+    p:first-child {
+      font-size: 2em;
+    }
+
+    div {
+      background: linear-gradient(0deg, #33373d 0%, #424851 69%);
+    }
+  }
+  .col-2 {
+    div {
+      // background: linear-gradient(0deg, #e83e39 0%, #c185b3 100%);
+      // background: rgb(232, 62, 57);
+      background: linear-gradient(
+        0deg,
+        rgba(232, 62, 57, 1) 0%,
+        rgba(193, 133, 179, 1) 100%
+      );
+    }
+  }
+  .col-3 {
+    div {
+      background: linear-gradient(0deg, #fcac31 0%, #f9d39b 95%);
+    }
+  }
+  .col-4 {
+    div {
+      background: linear-gradient(0deg, #2f9c52 0%, #96ca6b 95%);
+    }
+  }
+  .col-5 {
+    div {
+      background: linear-gradient(0deg, #2c2f48 0%, #393f76 95%);
+    }
+  }
+}
+//! PRICE CARDS
+.price-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 0;
+  @include breakpoint(l, xl, xxl) {
+    display: none;
+  }
+  .card {
+    text-transform: uppercase;
+    margin: auto;
+    background: $lightBlue;
+    overflow: hidden;
+    position: relative;
+    width: 20em;
+    transition: all 0.2s ease-in;
+    @include breakpoint(xxs, xs, s, m) {
+      margin: 2.5em 0.5em 2.5em;
+    }
+
+    &:hover {
+      h3 {
+        background: $orange;
+      }
+    }
+
+    h3 {
+      margin: 0;
+      padding: 1em 0;
+      background: $royalBlue;
+      color: white;
+
+      -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+      clip-path: polygon(0 0%, 100% 0, 100% 80%, 0 100%);
+    }
+
+    p {
+      margin: 1em 0;
+      color: black;
+      font-size: 1.3em;
+      span {
+        font-weight: 700;
+      }
+    }
+    .w-space {
+      height: 0.5em;
+      background: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    ul {
+      list-style: none;
+      background: $orange;
+      width: 100%;
+      padding-left: 0;
+      margin-bottom: 0;
+      margin-top: 0;
+      padding-top: 0;
+      li {
+        transition: ease-in-out 0.4s;
+        padding: 0.5em 0;
+        background: white;
+        &:hover {
+          background: lightgrey;
+          margin-left: 0.4em;
+          margin-right: -0.4em;
+        }
+      }
+    }
+    .start {
+      margin: 0;
+      padding: 2em 0;
+      background: white;
+
+      a {
+        color: $orange;
+        border: 2px solid $orange;
+        border-radius: 1em;
+        padding: 0.5em 1.5em;
+        transition: all 0.2s ease-in;
+        &:hover {
+          color: white;
+          background: $orange;
+        }
+      }
+    }
+  }
+}

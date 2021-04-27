@@ -38,7 +38,7 @@ class Footer extends React.Component {
                 <a href="/team">{chevron}Our Team</a>
               </li>
               <li>
-                <a href="/plans">{chevron}Plans & Pricing</a>
+                <a href="/pricing">{chevron}Plans & Pricing</a>
               </li>
               <li>
                 <a href="/help">{chevron}Need Help?</a>
