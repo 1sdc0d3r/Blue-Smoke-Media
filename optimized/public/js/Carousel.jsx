@@ -20,12 +20,24 @@ const slideList = [
       <a href="/website-design/inquiry-form">Get Started Now!</a>
     </div>
     <div className="dots">
-      <p>0</p>
-      <p>1</p>
-      <p>2</p>
-      {/* <Dot slide={0} />
-      <Dot slide={1} />
-      <Dot slide={2} /> */}
+      <p
+        className="dot dot-selected"
+        // onClick={() =>
+        //   this.setState({ ...this.state, activeSlide: slideList[0] })
+        // }
+      ></p>
+      <p
+        className="dot"
+        // onClick={() =>
+        //   this.setState({ ...this.state, activeSlide: slideList[1] })
+        // }
+      ></p>
+      <p
+        className="dot"
+        // onClick={() =>
+        //   this.setState({ ...this.state, activeSlide: slideList[2] })
+        // }
+      ></p>
     </div>
     <img src="../assets/slide-1.png" alt="slide1" />
   </div>,
@@ -48,9 +60,9 @@ const slideList = [
       <a href="/website-design/inquiry-form">Get Started Now!</a>
     </div>
     <div className="dots">
-      <p>0</p>
-      <p>1</p>
-      <p>2</p>
+      <p className="dot"></p>
+      <p className="dot"></p>
+      <p className="dot"></p>
       {/* <Dot slide={0} />
     <Dot slide={1} />
     <Dot slide={2} /> */}
@@ -73,17 +85,13 @@ const slideList = [
       <a href="/website-design/inquiry-form">Get Started Now!</a>
     </div>
     <div className="dots">
-      <p>0</p>
-      <p>1</p>
-      <p>2</p>
-      {/* <Dot slide={0} />
-              <Dot slide={1} />
-              <Dot slide={2} /> */}
+      <p className="dot"></p>
+      <p className="dot"></p>
+      <p className="dot"></p>
     </div>
     <img src="../assets/slide-3.png" alt="slide3" />
   </div>,
 ];
-
 class Carousel extends React.Component {
   constructor(props) {
     super(props);
@@ -100,15 +108,24 @@ class Carousel extends React.Component {
 
     setTimeout(() => {
       const slide = document.querySelector(".slide");
+      const dots = document.querySelectorAll(".dot");
       slide.classList.add("fade-out");
 
       setTimeout(() => {
+        let index = slideList.indexOf(activeSlide);
+
         slide.classList.remove("fade-out");
         slide.classList.add("fade-in");
-        let index = slideList.indexOf(activeSlide);
+
+        //* remove active dot class
+        dots[index].classList.remove("dot-selected");
+
         if (slideList[index + 1]) index++;
         else index = 0;
         this.setState({ ...this.state, activeSlide: slideList[index] });
+
+        //* remove active dot class
+        dots[index].classList.add("dot-selected");
       }, transitionTime);
     }, slideTimer);
 

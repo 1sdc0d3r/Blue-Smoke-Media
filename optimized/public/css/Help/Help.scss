@@ -68,12 +68,13 @@
 }
 #carousel {
   margin-bottom: 2em;
+  background: #04227a;
   .slide {
-    background: #04227a;
     display: flex;
     justify-content: space-between;
     height: 100%;
     padding: 2.5em 2%;
+    position: relative;
     // padding-left: 2%;
     // padding-right: 2%;
     @include breakpoint(xxs, xs, s) {
@@ -213,11 +214,13 @@
     left: 0;
     right: 0;
     margin: auto;
+    display: flex;
+    justify-content: center;
     @include breakpoint(xxs, xs, s) {
       display: none;
     }
   }
-  .dot___3c3SI {
+  .dot {
     background: $green;
     margin-left: 0.5em;
     // border: none;
@@ -229,7 +232,7 @@
       margin-left: 0.7em;
     }
   }
-  .carousel__dot--selected {
+  .dot-selected {
     background: #ee3e0e;
   }
   img {

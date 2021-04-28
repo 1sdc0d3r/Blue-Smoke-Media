@@ -145,10 +145,10 @@
 
 #carousel {
   margin-bottom: 2em;
+  background: #04227a;
 }
 
 #carousel .slide {
-  background: #04227a;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -157,6 +157,7 @@
           justify-content: space-between;
   height: 100%;
   padding: 2.5em 2%;
+  position: relative;
 }
 
 #carousel .slide .slide-info {
@@ -374,6 +375,12 @@
   left: 0;
   right: 0;
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media (max-width: 360px) {
@@ -394,7 +401,7 @@
   }
 }
 
-#carousel .dot___3c3SI {
+#carousel .dot {
   background: #7ff76f;
   margin-left: 0.5em;
   border-radius: 50%;
@@ -403,20 +410,20 @@
 }
 
 @media (min-width: 1281px) and (max-width: 1680px) {
-  #carousel .dot___3c3SI {
+  #carousel .dot {
     padding: 0.7em;
     margin-left: 0.7em;
   }
 }
 
 @media (min-width: 1681px) {
-  #carousel .dot___3c3SI {
+  #carousel .dot {
     padding: 0.7em;
     margin-left: 0.7em;
   }
 }
 
-#carousel .carousel__dot--selected {
+#carousel .dot-selected {
   background: #ee3e0e;
 }
 
