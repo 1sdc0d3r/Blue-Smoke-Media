@@ -3,8 +3,8 @@
     "mappings": ";AACA,AAAA,aAAa,CAAC;EACZ,MAAM,EAAE,SAAS;EACjB,KAAK,EAAE,GAAG;EACV,UAAU,EAAE,OAAO;CAgBpB;;AAnBD,AAME,aANW,CAMX,EAAE,CAAC;EACD,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,MAAM;EACjB,KAAK,ECLG,OAAO;CDMhB;;AAVH,AAWE,aAXW,CAWX,EAAE,CAAC;EACD,UAAU,EAAE,IAAI;CAMjB;;AAlBH,AAcM,aAdO,CAWX,EAAE,CAEA,EAAE,CACA,OAAO,CAAC;EACN,OAAO,EAAE,IAAI;CACd",
     "sources": [
         "SocialMedia.scss",
-        "../Utils/Mixins/Mixins.scss",
-        "../Utils/Breakpoints/Breakpoints.scss"
+        "../utils/Mixins.scss",
+        "../utils/Breakpoints.scss"
     ],
     "names": [],
     "file": "SocialMedia.css"

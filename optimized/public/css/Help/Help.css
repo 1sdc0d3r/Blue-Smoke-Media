@@ -155,9 +155,27 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 100%;
+  height: 27em;
   padding: 2.5em 2%;
   position: relative;
+}
+
+@media (max-width: 360px) {
+  #carousel .slide {
+    height: 20em;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  #carousel .slide {
+    height: 20em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 736px) {
+  #carousel .slide {
+    height: 20em;
+  }
 }
 
 #carousel .slide .slide-info {
@@ -236,13 +254,12 @@
 #carousel .slide .slide-info h4 {
   padding-left: 2%;
   color: goldenrod;
-  margin: 0.125em;
+  margin: 0.25em 0.125em;
 }
 
 @media (min-width: 737px) and (max-width: 980px) {
   #carousel .slide .slide-info h4 {
     font-size: 1em;
-    margin: 0.125em;
     padding-left: 5%;
   }
 }
