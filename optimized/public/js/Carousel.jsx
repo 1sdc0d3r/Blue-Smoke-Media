@@ -1,6 +1,7 @@
 "use strict";
 const slideList = [
   //* SLIDE 1
+
   <div className="slide">
     <div className="slide-info">
       <h1>
